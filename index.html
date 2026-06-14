@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Owl Hub">
+<title>Canon Safety — Owl Leader Hub</title>
+<style>
+  :root {
+    --navy: #1F3864;
+    --red: #C00000;
+    --orange: #C55A11;
+    --teal: #2E75B6;
+    --gold: #BF8F00;
+    --light: #f4f6fa;
+    --white: #ffffff;
+    --text: #1a1a1a;
+    --muted: #666;
+    --border: #dde3ed;
+    --radius: 10px;
+    --shadow: 0 2px 12px rgba(31,56,100,0.10);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--light);
+    color: var(--text);
+    min-height: 100vh;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--navy);
+    color: var(--white);
+    padding: 16px 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  .logo-mark {
+    height: 40px;
+    width: auto;
+    max-width: 120px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  .header-text h1 {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 1.1;
+  }
+
+  .header-text p {
+    font-size: 12px;
+    opacity: 0.75;
+    margin-top: 1px;
+  }
+
+  nav {
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  nav::-webkit-scrollbar { display: none; }
+
+  nav button {
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.65);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 16px;
+    cursor: pointer;
+    white-space: nowrap;
+    border-bottom: 3px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+    letter-spacing: 0.2px;
+  }
+
+  nav button.active {
+    color: var(--white);
+    border-bottom-color: var(--red);
+  }
+
+  /* ── PAGES ── */
+  .page { display: none; padding: 20px; max-width: 700px; margin: 0 auto; }
+  .page.active { display: block; }
+
+  /* ── SECTION LABEL ── */
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+    margin-top: 28px;
+  }
+  .section-label:first-child { margin-top: 4px; }
+
+  /* ── DASHBOARD ── */
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+  }
+
+  .dash-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 14px;
+    box-shadow: var(--shadow);
+    min-height: 100px;
+  }
+
+  .dash-card-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+
+  .dash-loading {
+    font-size: 12px;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .weather-day {
+    font-size: 12px;
+    color: var(--text);
+    padding: 3px 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .weather-day:last-child { border-bottom: none; }
+
+  .weather-day-name {
+    font-weight: 600;
+    font-size: 11px;
+    color: var(--muted);
+    min-width: 28px;
+  }
+
+  .weather-temp {
+    font-weight: 700;
+    color: var(--red);
+    font-size: 13px;
+  }
+
+  .weather-detail {
+    font-size: 10px;
+    color: var(--muted);
+    text-align: right;
+  }
+
+  .market-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 4px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .market-row:last-child { border-bottom: none; }
+
+  .market-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--muted);
+  }
+
+  .market-price {
+    font-size: 16px;
+    font-weight: 900;
+    color: var(--navy);
+  }
+
+  .market-change-up { font-size: 11px; color: #375623; font-weight: 600; }
+  .market-change-down { font-size: 11px; color: var(--red); font-weight: 600; }
+
+  .dash-fallback {
+    font-size: 12px;
+    color: var(--teal);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .dash-timestamp {
+    font-size: 10px;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+
+  /* ── HOME CARDS ── */
+  .home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .stat-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 16px;
+    box-shadow: var(--shadow);
+    text-align: center;
+  }
+
+  .stat-card .stat-num {
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--navy);
+    line-height: 1;
+  }
+
+  .stat-card .stat-label {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+    font-weight: 500;
+  }
+
+  .info-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    box-shadow: var(--shadow);
+    margin-bottom: 12px;
+    border-left: 4px solid var(--navy);
+  }
+
+  .info-card h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 6px;
+  }
+
+  .info-card p {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .creed-card {
+    background: var(--navy);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+    margin-bottom: 12px;
+    color: white;
+  }
+
+  .creed-card h3 {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 12px;
+  }
+
+  .creed-card p {
+    font-size: 14px;
+    line-height: 1.8;
+    font-style: italic;
+    opacity: 0.95;
+  }
+
+  /* ── WEEK CARDS ── */
+  .week-card {
+    border-radius: var(--radius);
+    margin-bottom: 12px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .week-card:active { transform: scale(0.98); }
+
+  .week-header {
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .week-badge {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    line-height: 1.2;
+    flex-shrink: 0;
+  }
+
+  .week-info { flex: 1; }
+
+  .week-info .theme {
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    line-height: 1.1;
+  }
+
+  .week-info .psms {
+    font-size: 12px;
+    color: rgba(255,255,255,0.75);
+    margin-top: 3px;
+    font-weight: 500;
+  }
+
+  .week-chevron {
+    color: rgba(255,255,255,0.6);
+    font-size: 20px;
+    transition: transform 0.2s;
+    flex-shrink: 0;
+  }
+
+  .week-card.expanded .week-chevron { transform: rotate(90deg); }
+
+  .week-body {
+    display: none;
+    background: var(--white);
+    padding: 20px;
+  }
+
+  .week-card.expanded .week-body { display: block; }
+
+  .week-body h4 {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+    margin-top: 18px;
+  }
+
+  .week-body h4:first-child { margin-top: 0; }
+
+  .week-body p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text);
+  }
+
+  .week-body ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .week-body ul li {
+    font-size: 14px;
+    padding: 6px 0 6px 20px;
+    position: relative;
+    color: var(--text);
+    line-height: 1.4;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .week-body ul li:last-child { border-bottom: none; }
+
+  .week-body ul li::before {
+    content: '›';
+    position: absolute;
+    left: 4px;
+    color: var(--muted);
+    font-weight: 700;
+  }
+
+  .rule-list li::before {
+    content: '✓';
+    color: #375623;
+    font-weight: 900;
+    left: 2px;
+  }
+
+  .question-list li::before {
+    content: '?';
+    color: var(--teal);
+    font-weight: 900;
+    left: 4px;
+  }
+
+  .scenario-box {
+    background: #fff8e8;
+    border-left: 4px solid var(--gold);
+    border-radius: 6px;
+    padding: 12px 14px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text);
+  }
+
+  /* ── MEETING LOG ── */
+  .log-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    box-shadow: var(--shadow);
+    margin-bottom: 12px;
+    border-left: 4px solid var(--teal);
+  }
+
+  .log-card .log-date {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+
+  .log-card .log-topic {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 4px;
+  }
+
+  .log-card .log-psms {
+    font-size: 12px;
+    color: var(--teal);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .log-card .log-detail {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .log-card .log-recognition {
+    margin-top: 8px;
+    padding: 8px 10px;
+    background: #fff8e8;
+    border-radius: 6px;
+    font-size: 13px;
+    color: var(--text);
+  }
+
+  .log-card .log-recognition strong {
+    color: var(--gold);
+  }
+
+  /* ── DOWNLOAD BUTTON ── */
+  .dl-btn {
+    display: block;
+    background: var(--navy);
+    color: white;
+    text-decoration: none;
+    padding: 16px 20px;
+    border-radius: var(--radius);
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: var(--shadow);
+    margin-bottom: 12px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    transition: background 0.15s;
+  }
+
+  .dl-btn:active { background: #152847; }
+
+  .dl-btn .dl-icon { font-size: 20px; display: block; margin-bottom: 4px; }
+
+  .dl-btn .dl-sub {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.75;
+    display: block;
+    margin-top: 2px;
+  }
+
+  /* ── FORM ── */
+  .form-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+    margin-bottom: 16px;
+  }
+
+  .form-card h2 {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--navy);
+    margin-bottom: 6px;
+  }
+
+  .form-card .form-sub {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+
+  label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 6px;
+    margin-top: 16px;
+  }
+
+  label:first-of-type { margin-top: 0; }
+
+  input, select, textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: inherit;
+    color: var(--text);
+    background: var(--light);
+    -webkit-appearance: none;
+    appearance: none;
+    transition: border-color 0.2s;
+  }
+
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--teal);
+    background: white;
+  }
+
+  textarea { resize: vertical; min-height: 90px; }
+
+  select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23666' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    padding-right: 36px;
+  }
+
+  .star-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 4px;
+  }
+
+  .star-row input[type="radio"] { display: none; }
+
+  .star-row label {
+    margin: 0;
+    font-size: 28px;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.1s;
+    -webkit-tap-highlight-color: transparent;
+    padding: 4px;
+  }
+
+  .star-row input[type="radio"]:checked ~ label,
+  .star-row label:hover,
+  .star-row label:hover ~ label { color: #ccc; }
+
+  /* star rating — reverse trick */
+  .stars { display: flex; flex-direction: row-reverse; justify-content: flex-end; }
+  .stars input[type="radio"] { display: none; }
+  .stars label {
+    margin: 0;
+    font-size: 30px;
+    cursor: pointer;
+    color: #ddd;
+    padding: 2px;
+    transition: color 0.1s;
+  }
+  .stars input[type="radio"]:checked ~ label { color: var(--gold); }
+  .stars label:hover,
+  .stars label:hover ~ label { color: var(--gold); }
+
+  .submit-btn {
+    display: block;
+    width: 100%;
+    background: var(--red);
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: var(--radius);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+    letter-spacing: 0.3px;
+    transition: background 0.15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .submit-btn:active { background: #9a0000; }
+
+  .success-msg {
+    display: none;
+    background: #e8f5e9;
+    border: 1.5px solid #a5d6a7;
+    border-radius: var(--radius);
+    padding: 20px;
+    text-align: center;
+    color: #2e7d32;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 12px;
+  }
+
+  /* ── NEWS CARDS ── */
+  .news-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    box-shadow: var(--shadow);
+    margin-bottom: 10px;
+    border-left: 4px solid var(--border);
+  }
+  .news-card.flag { border-left-color: var(--red); }
+  .news-card.good { border-left-color: #375623; }
+
+  .news-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+  }
+  .flag .news-badge { background: #fde8e8; color: var(--red); }
+  .good .news-badge { background: #e8f5e9; color: #375623; }
+
+  .news-headline {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+    line-height: 1.3;
+  }
+
+  .news-detail {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .news-psms {
+    margin-top: 8px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--teal);
+    letter-spacing: 0.3px;
+  }
+
+  /* ── OPENING OPTIONS ── */
+  .opening-option {
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--text);
+    padding: 10px 12px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .opening-option:active { background: #eef4fb; }
+  .opening-option.selected { border-color: var(--navy); background: #f0f4fb; }
+  .opening-option.selected::before { content: '✓ '; font-weight: 900; color: var(--navy); }
+
+  /* ── RUNSHEET ── */
+  .runsheet-header {
+    background: var(--navy);
+    border-radius: var(--radius);
+    padding: 18px 20px;
+    color: white;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow);
+  }
+
+  .runsheet-header h2 {
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+  }
+
+  .runsheet-header p {
+    font-size: 13px;
+    opacity: 0.75;
+  }
+
+  .runsheet-owl-input {
+    margin-top: 12px;
+    background: rgba(255,255,255,0.12);
+    border: 1.5px solid rgba(255,255,255,0.3);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    font-family: inherit;
+  }
+
+  .runsheet-owl-input::placeholder { color: rgba(255,255,255,0.45); }
+  .runsheet-owl-input:focus { outline: none; border-color: rgba(255,255,255,0.7); }
+
+  .runsheet-section {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+
+  .runsheet-section-header {
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .runsheet-num {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .runsheet-section-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+
+  .runsheet-section-body {
+    padding: 0 16px 14px;
+    border-top: 1px solid var(--border);
+  }
+
+  .runsheet-content {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text);
+    padding-top: 12px;
+  }
+
+  .runsheet-scenario {
+    background: #fff8e8;
+    border-left: 4px solid var(--gold);
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--text);
+    margin-top: 10px;
+  }
+
+  .runsheet-question {
+    background: #eef4fb;
+    border-left: 4px solid var(--teal);
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--text);
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  .runsheet-flag {
+    background: #fff0f0;
+    border-left: 4px solid var(--red);
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--text);
+    margin-top: 10px;
+  }
+
+  .runsheet-input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 12px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    color: var(--text);
+    background: var(--light);
+    resize: vertical;
+    min-height: 70px;
+  }
+
+  .runsheet-input:focus { outline: none; border-color: var(--teal); background: white; }
+
+  .runsheet-nonneg {
+    background: var(--navy);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    color: white;
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+  }
+
+  .runsheet-nonneg h4 {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    opacity: 0.65;
+    margin-bottom: 10px;
+  }
+
+  .runsheet-nonneg ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .runsheet-nonneg ul li {
+    font-size: 13px;
+    padding: 4px 0 4px 18px;
+    position: relative;
+    opacity: 0.9;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .runsheet-nonneg ul li:last-child { border-bottom: none; }
+
+  .runsheet-nonneg ul li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #7ec67e;
+    font-weight: 900;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    text-align: center;
+    padding: 24px 20px 40px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  /* ── MODAL ── */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    z-index: 200;
+    overflow-y: auto;
+    padding: 20px;
+  }
+
+  .modal-overlay.open { display: flex; align-items: flex-start; justify-content: center; }
+
+  .modal {
+    background: white;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 560px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.3);
+    animation: slideUp 0.2s ease;
+  }
+
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .modal-header {
+    padding: 20px 20px 16px;
+    color: white;
+    position: relative;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+
+  .modal-body { padding: 20px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <img class="logo-mark" src="https://www.csrhigroup.com/images/header-logo.png" alt="Canon Safety RHI Group" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+    <div style="display:none; width:40px; height:40px; background:var(--red); border-radius:8px; align-items:center; justify-content:center; font-size:13px; font-weight:900; color:white; flex-shrink:0;">CS</div>
+    <div class="header-text">
+      <h1>Canon Safety</h1>
+      <p>Owl Leader Hub — 60-Day Pilot</p>
+    </div>
+  </div>
+  <nav>
+    <button class="active" onclick="showPage('home', this)">Home</button>
+    <button onclick="showPage('news', this)">Field News</button>
+    <button onclick="showPage('psms', this)">PSMS Topics</button>
+    <button onclick="showPage('log', this)">Meeting Log</button>
+    <button onclick="showPage('template', this)">Daily Template</button>
+    <button onclick="showPage('submit', this)">Submit Review</button>
+  </nav>
+</header>
+
+<!-- ═══════════════════════════════════════════════ HOME ═══ -->
+<div id="page-home" class="page active">
+
+  <div class="dashboard-grid">
+    <div class="dash-card">
+      <div class="dash-card-label">Andrews, TX Weather</div>
+      <div id="weather-content"><span class="dash-loading">Loading...</span></div>
+    </div>
+    <div class="dash-card">
+      <div class="dash-card-label">Oil &amp; Gas Markets</div>
+      <div id="market-content"><span class="dash-loading">Loading...</span></div>
+    </div>
+  </div>
+
+  <div class="home-grid" style="margin-top:0;">
+    <div class="stat-card">
+      <div class="stat-num" id="stat-weeks">8</div>
+      <div class="stat-label">Weeks of Curriculum</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" id="stat-meetings">2</div>
+      <div class="stat-label">Meetings Logged</div>
+    </div>
+  </div>
+
+  <div class="creed-card">
+    <h3>Canon Creed</h3>
+    <p>
+      We show up for each other. We do the right thing when it's hard. We own what's ours.
+      We speak up when something's wrong. We leave every location safer than we found it.
+      That's not a policy — that's who we are.
+    </p>
+  </div>
+
+  <p class="section-label">What is an Owl?</p>
+
+  <div class="info-card">
+    <h3>Not a title. A responsibility.</h3>
+    <p>Owls are selected for one 60-day rotation to lead the morning safety meeting each week. One Owl owns one full week — the topic, the setup, the delivery, and the follow-through.</p>
+  </div>
+
+  <div class="info-card">
+    <h3>The rotation</h3>
+    <p>Each week follows a theme (leadership) paired with a PSMS topic (technical safety). The content is grounded in what actually happened in the field the prior day. Real situations, real crews, real stakes.</p>
+  </div>
+
+  <div class="info-card">
+    <h3>Meeting format</h3>
+    <p>5:30 AM · ~10 minutes · Opening → PSMS Topic → Lessons Learned → Recognition → Ops Focus → Leadership Thought</p>
+  </div>
+
+  <p class="section-label">Quick Access</p>
+
+  <button class="dl-btn" onclick="showPage('news', document.querySelectorAll('nav button')[1])" style="background:var(--orange);">
+    <span class="dl-icon">📡</span>
+    Field News
+    <span class="dl-sub">Recent flags and good calls from the field — use these in your meeting</span>
+  </button>
+
+  <button class="dl-btn" onclick="showPage('psms', document.querySelectorAll('nav button')[2])">
+    <span class="dl-icon">📋</span>
+    View All 8 PSMS Topics
+    <span class="dl-sub">Tap a week to expand standards and discussion questions</span>
+  </button>
+
+  <button class="dl-btn" onclick="showPage('template', document.querySelectorAll('nav button')[4])" style="background:var(--red);">
+    <span class="dl-icon">📄</span>
+    Today's Meeting Runsheet
+    <span class="dl-sub">Pre-built agenda — open this before your 5:30 AM meeting</span>
+  </button>
+
+  <button class="dl-btn" onclick="showPage('submit', document.querySelectorAll('nav button')[5])" style="background:var(--teal);">
+    <span class="dl-icon">✏️</span>
+    Submit Your Week Review
+    <span class="dl-sub">Submit an Owl review anytime → goes directly to Mike</span>
+  </button>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════ NEWS ═══ -->
+<div id="page-news" class="page">
+  <p class="section-label" style="margin-top:20px;">From the Field</p>
+  <p style="font-size:13px; color:var(--muted); margin-bottom:16px; margin-top:-8px;">Real situations from your crew, recent days. Use these in your meeting — they're already yours.</p>
+  <div id="news-container"></div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ PSMS ═══ -->
+<div id="page-psms" class="page">
+  <p class="section-label" style="margin-top:20px;">8-Week Curriculum — PSMS Topics</p>
+  <div id="week-cards-container">
+    <!-- injected by JS -->
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ LOG ═══ -->
+<div id="page-log" class="page">
+  <p class="section-label" style="margin-top:20px;">Historic Meeting Log</p>
+  <div id="log-container">
+    <!-- injected by JS -->
+  </div>
+</div>
+
+<!-- ═════════════════════════════════════════ TEMPLATE ════ -->
+<div id="page-template" class="page">
+  <p class="section-label" style="margin-top:20px;">Today's Meeting Runsheet</p>
+  <div id="template-container"></div>
+</div>
+
+<!-- ═════════════════════════════════════════ SUBMIT ═════ -->
+<div id="page-submit" class="page">
+  <div class="form-card">
+    <h2>Owl Review</h2>
+    <p class="form-sub">Anytime something stands out — good or bad — submit it. The more you put in, the more useful the program gets. Your answers go directly to Mike.</p>
+    <div style="text-align:center; margin-top:28px;">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbpRVN7uxjVSu6Q43RCBb7k8gJEl6OXgV-zxc43Kb8N2K7Fg/viewform" target="_blank" style="display:inline-block; background:#C00000; color:#fff; padding:18px 36px; border-radius:10px; font-size:18px; font-weight:700; text-decoration:none; letter-spacing:0.5px;">
+        Open Review Form →
+      </a>
+      <p style="margin-top:20px; color:#666; font-size:14px;">Opens in your browser. Takes about 2 minutes.<br>Your answers go straight to Mike.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Canon Safety · Owl Leader Hub · Pilot Program<br>
+  Updated <span id="last-updated"></span> · <span id="version"></span>
+</footer>
+
+<script>
+// ── DATA ──────────────────────────────────────────────────
+// Inline content so the site works without a server.
+// To update: edit content.json and run the update script,
+// or paste new values directly into the DATA object below.
+
+const DATA = {
+  "weeks": [
+    {
+      "week": 1,
+      "theme": "Ownership",
+      "psms": "Energy Isolation",
+      "color": "#1F3864",
+      "textColor": "#ffffff",
+      "standard": "All hazardous energy sources must be isolated, locked out, and verified de-energized before any work begins on equipment. No exceptions.",
+      "lifesavingRules": [
+        "Verify isolation and de-energization before starting work",
+        "Apply your personal lock — never share or borrow a lock",
+        "Verify zero energy with a test before touching equipment",
+        "Never remove another person's lock",
+        "Restore energy only after all personnel are clear and locks are removed in order"
+      ],
+      "fieldScenario": "A pump is tagged 'locked out' but a second crew member goes to start it before the first crew confirms clear. One lock, one life — your lock stays on until YOU remove it.",
+      "discussionQuestions": [
+        "When was the last time you put your own lock on a piece of equipment? Walk us through it.",
+        "What happens if you skip the verify step and assume it's de-energized?",
+        "What do you own in this process that no one else can do for you?"
+      ]
+    },
+    {
+      "week": 2,
+      "theme": "Communication",
+      "psms": "Breaking Containment",
+      "color": "#2E75B6",
+      "textColor": "#ffffff",
+      "standard": "Any planned break in containment of hydrocarbons, produced water, chemicals, or any hazardous fluid requires a pre-job review, proper PPE, and a clear plan for fluid management and spill response.",
+      "lifesavingRules": [
+        "Bleed and vent pressure before breaking any connection",
+        "Confirm fluid type and properties before opening",
+        "Have spill containment staged before cracking any fitting",
+        "Wear appropriate PPE for the fluid — minimum face shield + chemical gloves",
+        "Communicate the break to your entire crew before starting"
+      ],
+      "fieldScenario": "On 6/12, Stefanie's location had a broken injection pipe. Fluid was already moving before anyone had containment staged. The fix was fast, but the exposure window was real. Communication before the break would have changed the outcome.",
+      "discussionQuestions": [
+        "Before you crack a fitting, who needs to know? Have you told them?",
+        "What's the first thing you stage before opening any pressurized line?",
+        "How did communication (or lack of it) play a role in an incident you've seen?"
+      ]
+    },
+    {
+      "week": 3,
+      "theme": "Accountability",
+      "psms": "Line of Fire",
+      "color": "#C00000",
+      "textColor": "#ffffff",
+      "standard": "No person shall position themselves in the path of potential energy release — including dropped objects, pressure releases, rotating equipment, vehicle movement, or stored mechanical energy.",
+      "lifesavingRules": [
+        "Identify all potential energy release paths before positioning yourself",
+        "Never stand in front of or behind pressurized connections being broken",
+        "Keep clear of the swing radius of all equipment",
+        "Use remote operations wherever available instead of putting a body in the line",
+        "Speak up immediately if someone is in the line of fire — every time"
+      ],
+      "fieldScenario": "A flowline is being bled. The worker stands directly in front of the bleed valve as it opens. Pressure is lower than expected — but it wasn't zero. Line of fire is not about probability. It's about consequence.",
+      "discussionQuestions": [
+        "Walk me through the last job you did — where was the line of fire?",
+        "Have you ever let someone stay in a bad position because it felt awkward to say something?",
+        "What does accountability look like when you're the senior person on location?"
+      ]
+    },
+    {
+      "week": 4,
+      "theme": "Professionalism",
+      "psms": "Working Around Mobile Equipment",
+      "color": "#C55A11",
+      "textColor": "#ffffff",
+      "standard": "All personnel must maintain safe distances from mobile equipment, establish clear communication with operators before entering work zones, and never assume an equipment operator can see you.",
+      "lifesavingRules": [
+        "Make eye contact with the operator before entering any swing or travel zone",
+        "Never walk behind backing equipment without radio or visual confirmation",
+        "Stay out of the blind spots — if you can't see the mirrors, they can't see you",
+        "Establish a spotter for any tight-space equipment movement",
+        "Stop all ground work when mobile equipment is moving nearby"
+      ],
+      "fieldScenario": "On a prior job, the Blue Marlin vac truck PTO engaged unexpectedly during a hose connection. The operator and the ground crew had not confirmed readiness. Equipment doesn't know where you are standing.",
+      "discussionQuestions": [
+        "When you're on location with a vac truck or crane, what's your communication protocol?",
+        "Have you ever assumed an operator saw you? What made you think that?",
+        "What does professionalism look like when the equipment operator is the one cutting corners?"
+      ]
+    },
+    {
+      "week": 5,
+      "theme": "Coaching Others",
+      "psms": "Confined Space",
+      "color": "#375623",
+      "textColor": "#ffffff",
+      "standard": "Entry into any permit-required confined space demands atmospheric testing, continuous monitoring, an attendant, a rescue plan, and a signed permit before any person enters.",
+      "lifesavingRules": [
+        "Test the atmosphere before entry — oxygen, combustibles, H2S minimum",
+        "Continuous monitoring inside — never rely on a single pre-entry test",
+        "Attendant stays outside at all times, never enters to assist",
+        "Rescue plan and equipment must be staged before entry begins",
+        "If conditions change — get out, re-evaluate, re-test before re-entry"
+      ],
+      "fieldScenario": "A tank has been opened for inspection. Atmospheric test is done once before entry. Halfway through the job, H2S levels climb. Continuous monitoring would have triggered an exit before exposure reached a critical threshold.",
+      "discussionQuestions": [
+        "When you're coaching a newer hand on confined space, where do they usually push back?",
+        "What's the attendant's job if the entrant goes down? Be specific.",
+        "Have you ever coached someone through a rule they didn't want to follow? How did it go?"
+      ]
+    },
+    {
+      "week": 6,
+      "theme": "Situational Awareness",
+      "psms": "Atmospheric Monitoring",
+      "color": "#4472C4",
+      "textColor": "#ffffff",
+      "standard": "Atmospheric monitoring for H2S, LEL, and oxygen must be performed continuously in any area where hazardous gases may be present. Monitors must be calibrated, bump-tested, and worn in the breathing zone.",
+      "lifesavingRules": [
+        "Bump test your monitor before every shift — document it",
+        "Wear the monitor clipped at the breathing zone, not on your belt",
+        "Never disable or silence an alarming monitor without evacuating first",
+        "Know the alarm set points and what action each level requires",
+        "Report any monitor failure immediately — do not proceed without a functioning monitor"
+      ],
+      "fieldScenario": "Justin Pack's crew was asked to proceed into an area flagged with elevated H2S potential without proper monitor verification. Justin pushed back — correctly. Situational awareness isn't just seeing what's in front of you. It's knowing what the instruments are telling you and acting on it.",
+      "discussionQuestions": [
+        "When did your monitor last alarm? What did you do in the first 10 seconds?",
+        "Have you ever seen someone ignore or bypass a monitor? What happened?",
+        "What does good situational awareness look like compared to just being present?"
+      ]
+    },
+    {
+      "week": 7,
+      "theme": "Problem Solving",
+      "psms": "Emergency Response",
+      "color": "#7030A0",
+      "textColor": "#ffffff",
+      "standard": "All personnel must know the emergency response plan for their location — including evacuation routes, muster points, emergency contacts, and their individual role in a response scenario.",
+      "lifesavingRules": [
+        "Know your muster point before work begins — not after the alarm sounds",
+        "Account for all personnel at muster — no one is assumed safe until confirmed",
+        "Call 911 first for life-threatening emergencies, then notify supervision",
+        "Do not re-enter a hazard zone to retrieve equipment or vehicles",
+        "Debrief every emergency response — near miss or actual event"
+      ],
+      "fieldScenario": "On 6/12, an active shooter event occurred in Midland near a Canon work area. The field response required immediate location accountability, communication up the chain, and decisions under pressure with incomplete information. Problem solving in an emergency means executing a known plan, not improvising from scratch.",
+      "discussionQuestions": [
+        "Right now, without looking it up — what is the muster point for your current job?",
+        "In the Midland situation, what would your first three actions have been?",
+        "When something goes wrong and you don't have a procedure, how do you decide what to do?"
+      ]
+    },
+    {
+      "week": 8,
+      "theme": "Building Culture",
+      "psms": "Operational Discipline",
+      "color": "#BF8F00",
+      "textColor": "#ffffff",
+      "standard": "Operational discipline means executing procedures correctly every time, not most of the time. Culture is built or eroded in the small moments when no one is watching.",
+      "lifesavingRules": [
+        "Follow the procedure even when the outcome seems certain without it",
+        "Correct small deviations immediately — they become habits",
+        "Recognize peers who do the right thing under pressure",
+        "Never normalize a shortcut, even a harmless-looking one",
+        "Leave every location safer than you found it"
+      ],
+      "fieldScenario": "Ray and Stefanie both went above and beyond on their recent jobs — not because they were told to, but because they've built habits of doing things right. Culture is what happens when Mike isn't watching. These are the people who build it.",
+      "discussionQuestions": [
+        "What's one habit your crew has that you're proud of? How did it get established?",
+        "Where have you seen a small shortcut become the new normal? What did it take to reverse it?",
+        "What does Canon Safety look like in five years if every Owl runs their week the way you're running yours?"
+      ]
+    }
+  ],
+  "meetingLog": [
+    {
+      "date": "2026-06-13",
+      "day": "Friday",
+      "leader": "Mike",
+      "topic": "Security Awareness & Active Threat Response",
+      "psms": "Emergency Response",
+      "keyPoints": "Active shooter event in Midland on 6/12 — all Canon personnel accounted for. Reviewed run-hide-fight protocol. Emphasized immediate location reporting via Breakroom.",
+      "recognition": "Ray and Stefanie for above-and-beyond performance on their locations."
+    },
+    {
+      "date": "2026-06-12",
+      "day": "Thursday",
+      "leader": "Mike",
+      "topic": "Breaking Containment — Real-Time Lesson",
+      "psms": "Breaking Containment",
+      "keyPoints": "Stefanie's location had a broken injection pipe. Fluid movement before containment staged. Reviewed pre-job bleed-and-contain sequence. Justin Pack cited for correct H2S monitor pushback.",
+      "recognition": "Justin Pack for refusing to proceed without proper atmospheric monitoring."
+    }
+  ],
+  "news": [
+    {
+      "type": "good",
+      "headline": "5 OWL reviews submitted on 6/13 — crew is using the system",
+      "detail": "Edward Carrillo, Marylou Guerra, Jacob Hernandez, Stefanie Kirschke, and Ray Solis all submitted. Every one checked 'left it better than we found it.' Atmospheric testing and LMRA consistent across all five jobs.",
+      "psms": "Operational Discipline · Wk 8"
+    },
+    {
+      "type": "good",
+      "headline": "Carrillo — rebuilt guard rails before departure",
+      "detail": "After a wellhead reconnect at Driver B37 10-15F 306H, the crew reconstructed guard rails around the wellhead before leaving. Forklift operations also called out as flawless. This is what leaving it better looks like.",
+      "psms": "Operational Discipline · Wk 8"
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez — the meeting itself was the win",
+      "detail": "Jacob's OWL observation for the day was 'execution of meeting.' When the crew notices the safety meeting as a highlight, that's the program working.",
+      "psms": "Operational Discipline · Wk 8"
+    },
+    {
+      "type": "flag",
+      "headline": "Hold points — communicate them more thoroughly",
+      "detail": "Carrillo flagged that hold points need to be communicated more clearly to ensure everyone on location understands them — not just that they exist, but what they mean and when they apply.",
+      "psms": "Energy Isolation · Wk 1"
+    },
+    {
+      "type": "good",
+      "headline": "Trevor McKenzie — checked his equipment, got recognized for it",
+      "detail": "Trevor posted from Fasken Ghost that he got a Canon shirt for checking his equipment. His caption: 'just for doing my job.' That's the point — the guys who build culture don't think they're doing anything special. They're just doing it right.",
+      "psms": "Operational Discipline · Wk 8"
+    },
+    {
+      "type": "flag",
+      "headline": "Seinfeld Yada tube pull — second night above 10,000 ppm H2S",
+      "detail": "Jeremy Torrence reported 614 and 611 both at 10,000 ppm H2S on the 9 PM tube pull — the second consecutive night at these levels across multiple wells. Sustained high-H2S environments raise the stakes on monitor discipline and alarm response every single shift.",
+      "psms": "Atmospheric Monitoring · Wk 6"
+    },
+    {
+      "type": "flag",
+      "headline": "Benzene monitor sign-off and trailer readiness — daily expectation",
+      "detail": "The morning message reminded the crew to sign benzene monitors, complete trailer inspections, and confirm trailer readiness before the end of each day. These are not optional — if it's not signed, it didn't happen.",
+      "psms": "Operational Discipline · Wk 8"
+    },
+    {
+      "type": "flag",
+      "headline": "Monitor silenced instead of investigated",
+      "detail": "An alarm went off multiple times on location — and someone unplugged it. That is never the answer. An alarming monitor is telling you something. Evacuate, investigate, then decide. Silencing it is not a decision.",
+      "psms": "Atmospheric Monitoring · Wk 6"
+    },
+    {
+      "type": "flag",
+      "headline": "Stuffing box leak with active venting — Justin Pack",
+      "detail": "Justin documented vapor venting from a stuffing box and reported it. Good instinct to stop and flag it. Use this to drive a discussion: once you identify a leak mid-job, what are your next three steps?",
+      "psms": "Breaking Containment · Wk 2"
+    },
+    {
+      "type": "flag",
+      "headline": "Well leaking by — job cancelled (MC 33k 111H)",
+      "detail": "Job was called off because the well was leaking past the valve. Right call. Push the crew to think about how you recognize a leak-by early and what stops someone from pushing through anyway.",
+      "psms": "Line of Fire · Wk 3"
+    },
+    {
+      "type": "flag",
+      "headline": "Vac truck PTO failed mid-job — Blue Marlin 201",
+      "detail": "Caleb Smith's crew went to standby and sought a replacement truck rather than improvising around broken equipment. That's the right move. Equipment doesn't fix itself — and working around a failure creates the next incident.",
+      "psms": "Working Around Mobile Equipment · Wk 4"
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez — SDU confined space by the book",
+      "detail": "Gun barrel cleaned, crew under air for valve change and hatch repair, tank entry under air, atmospheric testing before, during, and after. Co Rep released them. Every box checked. This is the standard.",
+      "psms": "Confined Space · Wk 5"
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons — tested 0s before pulling air",
+      "detail": "At the Crawford pad, Jordan's crew did their first atmosphere break, confirmed zero readings, then continued without supplied air. Tested. Confirmed. Proceeded. That's the sequence — not assumed, verified.",
+      "psms": "Atmospheric Monitoring · Wk 6"
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez — Shackelford 14H atmospheric protocol",
+      "detail": "Atmospheric test before work, area cleared safe, Co Rep formally released them. Clean handoff, documented process. A Co Rep releasing you is the result of doing it right — not a formality.",
+      "psms": "Atmospheric Monitoring · Wk 6"
+    },
+    {
+      "type": "good",
+      "headline": "James Stephens — Rose City workover pre-job check",
+      "detail": "Crew rigged up on well, power swivel set, crew on break — James reported all safety equipment at 100% before any work started. Simple report, but it signals a crew that checks before they go.",
+      "psms": "Operational Discipline · Wk 8"
+    },
+    {
+      "type": "good",
+      "headline": "Caleb Smith — pumper applied LOTO before drain",
+      "detail": "At Horn Brooks CTB, Caleb confirmed the pumper had LOTO in place before the heater treater drain started. He noticed. He reported it. That's ownership of the process, not just your task.",
+      "psms": "Energy Isolation · Wk 1"
+    }
+  ],
+  "meta": {
+    "programName": "Canon Safety Owl Leadership Program",
+    "lastUpdated": "2026-06-14",
+    "version": "v2.7",
+    "currentWeek": 1
+  }
+};
+
+// ── WEATHER ───────────────────────────────────────────────
+async function loadWeather() {
+  const el = document.getElementById('weather-content');
+  try {
+    const res = await fetch('https://api.open-meteo.com/v1/forecast?latitude=32.32&longitude=-102.55&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_speed_10m_max,weathercode&wind_speed_unit=mph&temperature_unit=fahrenheit&timezone=America%2FChicago&forecast_days=3');
+    const d = await res.json();
+    const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+    const codes = { 0:'Clear', 1:'Mostly Clear', 2:'Partly Cloudy', 3:'Overcast', 45:'Foggy', 48:'Foggy', 51:'Drizzle', 53:'Drizzle', 55:'Drizzle', 61:'Rain', 63:'Rain', 65:'Heavy Rain', 71:'Snow', 80:'Showers', 81:'Showers', 82:'Heavy Showers', 95:'Thunderstorm', 96:'Thunderstorm', 99:'Thunderstorm' };
+    const rows = d.daily.time.map((t, i) => {
+      const date = new Date(t + 'T12:00:00');
+      const day = i === 0 ? 'Today' : days[date.getDay()];
+      const cond = codes[d.daily.weathercode[i]] || 'Mixed';
+      const wind = Math.round(d.daily.wind_speed_10m_max[i]);
+      const rain = d.daily.precipitation_probability_max[i];
+      return `<div class="weather-day">
+        <span class="weather-day-name">${day}</span>
+        <span class="weather-temp">${Math.round(d.daily.temperature_2m_max[i])}°</span>
+        <span class="weather-detail">${Math.round(d.daily.temperature_2m_min[i])}° low<br>${cond}<br>${wind}mph · ${rain}% rain</span>
+      </div>`;
+    }).join('');
+    el.innerHTML = rows;
+  } catch(e) {
+    el.innerHTML = '<a class="dash-fallback" href="https://forecast.weather.gov/MapClick.php?CityName=Andrews&state=TX&site=MAF" target="_blank">View NWS Forecast →</a>';
+  }
+}
+
+// ── MARKETS ───────────────────────────────────────────────
+async function loadMarkets() {
+  const el = document.getElementById('market-content');
+  try {
+    const res = await fetch('https://query1.finance.yahoo.com/v7/finance/quote?symbols=CL%3DF%2CNG%3DF', { headers: { 'Accept': 'application/json' } });
+    const d = await res.json();
+    const quotes = d.quoteResponse.result;
+    const fmt = (q) => {
+      const chg = q.regularMarketChange;
+      const pct = q.regularMarketChangePercent;
+      const cls = chg >= 0 ? 'market-change-up' : 'market-change-down';
+      const arrow = chg >= 0 ? '▲' : '▼';
+      return `<div class="market-row">
+        <span class="market-label">${q.shortName || q.symbol}</span>
+        <span>
+          <span class="market-price">$${q.regularMarketPrice.toFixed(2)}</span>
+          <span class="${cls}"> ${arrow}${Math.abs(chg).toFixed(2)} (${Math.abs(pct).toFixed(1)}%)</span>
+        </span>
+      </div>`;
+    };
+    const now = new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+    el.innerHTML = quotes.map(fmt).join('') + `<div class="dash-timestamp">As of ${now}</div>`;
+  } catch(e) {
+    el.innerHTML = `<div class="market-row"><span class="market-label">WTI Crude</span><a class="dash-fallback" href="https://finance.yahoo.com/quote/CL=F/" target="_blank">Check price →</a></div>
+    <div class="market-row"><span class="market-label">Nat Gas</span><a class="dash-fallback" href="https://finance.yahoo.com/quote/NG=F/" target="_blank">Check price →</a></div>`;
+  }
+}
+
+// ── OPENING SELECTION ─────────────────────────────────────
+function selectOpening(el) {
+  document.querySelectorAll('.opening-option').forEach(o => o.classList.remove('selected'));
+  el.classList.add('selected');
+}
+
+// ── RENDER TEMPLATE ───────────────────────────────────────
+function renderTemplate() {
+  const w = DATA.weeks[DATA.meta.currentWeek - 1];
+  const flag = DATA.news.find(n => n.type === 'flag');
+  const today = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
+  const openings = [
+    `Today we own our day before it owns us. Every crew out there is counting on the person next to them. Let's make sure we're worth counting on.`,
+    `Yesterday happened. Today is what we do about it. We're not here to talk about safety — we're here to execute it. Ten minutes, then let's go to work.`,
+    `There are ${DATA.meetingLog.length > 0 ? 'crews at multiple locations' : 'crews in the field'} today. Every single one of them comes home. That's not a goal — that's the standard. Here's how we hold it.`,
+    `This week we're talking about ${w.theme.toLowerCase()}. Not as a concept — as something you do today, on your job, with your crew. Let's talk about what that actually looks like out there.`,
+    `The field doesn't care how your morning started. It cares whether you're ready. Let's make sure we are.`
+  ];
+
+  const sections = [
+    {
+      num: '1',
+      title: 'Opening Message',
+      color: 'var(--navy)',
+      body: `<div class="runsheet-content" style="color:var(--muted); font-size:12px; margin-bottom:8px;">Pick one or use your own words:</div>
+             ${openings.map((o, i) => `<div class="opening-option" onclick="selectOpening(this)">${o}</div>`).join('')}`
+    },
+    {
+      num: '2',
+      title: `PSMS — ${w.psms}`,
+      color: 'var(--red)',
+      body: `<div class="runsheet-content"><strong>Week ${w.week}: ${w.theme}</strong><br>${w.standard}</div>
+             <div class="runsheet-scenario"><strong>Field scenario:</strong> ${w.fieldScenario}</div>
+             <div class="runsheet-question">Ask the crew: ${w.discussionQuestions[0]}</div>`
+    },
+    {
+      num: '3',
+      title: 'Lessons Learned',
+      color: 'var(--orange)',
+      body: flag
+        ? `<div class="runsheet-flag"><strong>${flag.headline}</strong><br><span style="font-size:13px;">${flag.detail}</span></div>`
+        : `<div class="runsheet-content">Check Field News for the latest flags and good calls from the field.</div>`
+    },
+    {
+      num: '4',
+      title: 'Recognition',
+      color: 'var(--gold)',
+      body: `<div class="runsheet-content">Name someone from the crew. Be specific — what did they do and why does it matter to everyone standing here. Recognition that names a behavior is recognition that repeats it.</div>
+             <div class="runsheet-scenario" style="border-color:var(--gold); background:#fffbee;">Check Field News and Mike's text from last night — names and reasons are there.</div>`
+    },
+    {
+      num: '5',
+      title: 'Operational Focus',
+      color: 'var(--teal)',
+      body: `<div class="runsheet-content">Cover active jobs, locations, and anything carrying forward from yesterday. If someone is waiting on parts, a permit, or a crew — say it out loud. The crew needs to know what's moving and what isn't before they hit the road.</div>
+             <div class="runsheet-scenario" style="border-color:var(--teal); background:#eef4fb;">Pull from the Breakroom summary and Mike's carry-forward items.</div>`
+    },
+    {
+      num: '6',
+      title: 'Leadership Thought',
+      color: '#375623',
+      body: `<div class="runsheet-content" style="margin-bottom:8px;"><strong>This week: ${w.theme}</strong></div>
+             <div class="runsheet-scenario" style="border-color:#375623; background:#eef5ee;">Ownership isn't something you have — it's something you do. Today, on your job, with your crew: own the hazard assessment before anyone else points it out. Own the communication before someone has to ask. Own the outcome like your name is on it. Because it is.</div>`
+    }
+  ];
+
+  const html = `
+    <div class="runsheet-header">
+      <h2>Canon Safety — Morning Meeting</h2>
+      <p>${today} &nbsp;·&nbsp; 5:30 AM &nbsp;·&nbsp; Week ${w.week}: ${w.theme}</p>
+    </div>
+
+    ${sections.map(s => `
+      <div class="runsheet-section">
+        <div class="runsheet-section-header">
+          <div class="runsheet-num" style="background:${s.color};">${s.num}</div>
+          <div class="runsheet-section-title">${s.title}</div>
+        </div>
+        <div class="runsheet-section-body">${s.body}</div>
+      </div>
+    `).join('')}
+
+    <div class="runsheet-nonneg">
+      <h4>Daily Non-Negotiables</h4>
+      <ul>
+        <li>GX-6000 bump test complete, battery charged</li>
+        <li>Benzene tubes stocked, calibration within 90 days</li>
+        <li>PPE on person before leaving the yard</li>
+        <li>Know your job scope and hazards</li>
+        <li>Post arrival in Breakroom immediately</li>
+        <li>Exclusion zones set before breaking containment</li>
+        <li>If it feels off — STOP and escalate</li>
+        <li>Account for every crew member before leaving</li>
+      </ul>
+    </div>
+  `;
+
+  document.getElementById('template-container').innerHTML = html;
+}
+
+// ── RENDER NEWS ───────────────────────────────────────────
+function renderNews() {
+  const container = document.getElementById('news-container');
+  container.innerHTML = DATA.news.map(n => `
+    <div class="news-card ${n.type}">
+      <div class="news-badge">${n.type === 'flag' ? '⚠ Flag' : '✓ Good Call'}</div>
+      <div class="news-headline">${n.headline}</div>
+      <div class="news-detail">${n.detail}</div>
+      ${n.psms ? `<div class="news-psms">→ ${n.psms}</div>` : ''}
+    </div>
+  `).join('');
+}
+
+// ── RENDER WEEK CARDS ──────────────────────────────────────
+function renderWeekCards() {
+  const container = document.getElementById('week-cards-container');
+  container.innerHTML = DATA.weeks.map((w, i) => `
+    <div class="week-card" id="week-${w.week}" onclick="toggleWeek(${i})">
+      <div class="week-header" style="background:${w.color};">
+        <div class="week-badge">WK<br>${w.week}</div>
+        <div class="week-info">
+          <div class="theme">${w.theme}</div>
+          <div class="psms">PSMS: ${w.psms}</div>
+        </div>
+        <div class="week-chevron">›</div>
+      </div>
+      <div class="week-body">
+        <h4>Standard</h4>
+        <p>${w.standard}</p>
+
+        <h4>Lifesaving Rules</h4>
+        <ul class="rule-list">
+          ${w.lifesavingRules.map(r => `<li>${r}</li>`).join('')}
+        </ul>
+
+        <h4>Field Scenario</h4>
+        <div class="scenario-box">${w.fieldScenario}</div>
+
+        <h4>Discussion Questions</h4>
+        <ul class="question-list">
+          ${w.discussionQuestions.map(q => `<li>${q}</li>`).join('')}
+        </ul>
+      </div>
+    </div>
+  `).join('');
+}
+
+function toggleWeek(index) {
+  const card = document.querySelectorAll('.week-card')[index];
+  card.classList.toggle('expanded');
+}
+
+// ── RENDER MEETING LOG ─────────────────────────────────────
+function renderLog() {
+  const container = document.getElementById('log-container');
+  container.innerHTML = DATA.meetingLog.map(m => `
+    <div class="log-card">
+      <div class="log-date">${m.day}, ${m.date}</div>
+      <div class="log-topic">${m.topic}</div>
+      <div class="log-psms">PSMS: ${m.psms} · Led by ${m.leader}</div>
+      <div class="log-detail">${m.keyPoints}</div>
+      ${m.recognition ? `<div class="log-recognition"><strong>★ Recognition:</strong> ${m.recognition}</div>` : ''}
+    </div>
+  `).join('');
+}
+
+// ── STATS ──────────────────────────────────────────────────
+function updateStats() {
+  document.getElementById('stat-weeks').textContent = DATA.weeks.length;
+  document.getElementById('stat-meetings').textContent = DATA.meetingLog.length;
+  document.getElementById('last-updated').textContent = DATA.meta.lastUpdated;
+  document.getElementById('version').textContent = DATA.meta.version;
+}
+
+// ── PAGE NAV ───────────────────────────────────────────────
+function showPage(name, btn) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById('page-' + name).classList.add('active');
+  if (btn) btn.classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+// ── FORM SUBMISSION ────────────────────────────────────────
+function sendOwlReview() {
+  const name = document.getElementById('owl-name').value || '(not provided)';
+  const weekEl = document.getElementById('owl-week');
+  const week = weekEl.options[weekEl.selectedIndex].text || '(not selected)';
+  const confEl = document.querySelector('input[name="confidence"]:checked');
+  const conf = confEl ? confEl.value : '(not rated)';
+  const well = document.getElementById('went-well').value || '(blank)';
+  const diff = document.getElementById('differently').value || '(blank)';
+  const crew = document.getElementById('crew-response').value || '(blank)';
+  const nom  = document.getElementById('nominate').value || '(none)';
+  const fb   = document.getElementById('feedback').value || '(none)';
+
+  const body = [
+    'Canon Owl — End-of-Week Review',
+    '',
+    'Name: ' + name,
+    'Week: ' + week,
+    'Confidence (1-5): ' + conf,
+    '',
+    'What went well:',
+    well,
+    '',
+    'What I would do differently:',
+    diff,
+    '',
+    'Crew response:',
+    crew,
+    '',
+    'Recognition nomination: ' + nom,
+    '',
+    'Feedback for Mike:',
+    fb,
+  ].join('\n');
+
+  const mailto = 'mailto:mlyons@csrhigroup.com'
+    + '?subject=' + encodeURIComponent('Canon Owl — End-of-Week Review: ' + name)
+    + '&body=' + encodeURIComponent(body);
+
+  document.getElementById('mailto-link').href = mailto;
+  document.getElementById('mailto-step').style.display = 'block';
+  document.getElementById('owl-form').style.display = 'none';
+}
+
+// ── INIT ───────────────────────────────────────────────────
+loadWeather();
+loadMarkets();
+renderTemplate();
+renderNews();
+renderWeekCards();
+renderLog();
+updateStats();
+</script>
+</body>
+</html>
