@@ -1,0 +1,51 @@
+name: Fetch Market Prices
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # every hour
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch prices and write prices.json
+        run: |
+          python3 - <<'EOF'
+          import urllib.request
+          import json
+          from datetime import datetime, timezone
+
+          def fetch_quote(symbol):
+              url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=1d&interval=1m"
+              req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(req, timeout=10) as r:
+                  data = json.loads(r.read())
+              meta = data["chart"]["result"][0]["meta"]
+              price = meta.get("regularMarketPrice") or meta.get("chartPreviousClose")
+              prev  = meta.get("chartPreviousClose") or price
+              change = round(price - prev, 2)
+              pct    = round((change / prev) * 100, 2) if prev else 0
+              return {"price": round(price, 2), "change": change, "pct": pct}
+
+          out = {
+              "wti": fetch_quote("CL%3DF"),
+              "ng":  fetch_quote("NG%3DF"),
+              "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+          }
+          with open("prices.json", "w") as f:
+              json.dump(out, f)
+          print(out)
+          EOF
+
+      - name: Commit prices.json
+        run: |
+          git config user.email "github-actions@github.com"
+          git config user.name "GitHub Actions"
+          git add prices.json
+          git diff --cached --quiet || git commit -m "chore: update prices"
+          git push

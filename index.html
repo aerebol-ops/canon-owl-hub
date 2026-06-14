@@ -1434,24 +1434,22 @@ async function loadWeather() {
 async function loadMarkets() {
   const el = document.getElementById('market-content');
   try {
-    const res = await fetch('https://query1.finance.yahoo.com/v7/finance/quote?symbols=CL%3DF%2CNG%3DF', { headers: { 'Accept': 'application/json' } });
+    const res = await fetch('prices.json?_=' + Date.now());
     const d = await res.json();
-    const quotes = d.quoteResponse.result;
-    const fmt = (q) => {
-      const chg = q.regularMarketChange;
-      const pct = q.regularMarketChangePercent;
-      const cls = chg >= 0 ? 'market-change-up' : 'market-change-down';
-      const arrow = chg >= 0 ? '▲' : '▼';
+    const fmt = (label, q) => {
+      const cls = q.change >= 0 ? 'market-change-up' : 'market-change-down';
+      const arrow = q.change >= 0 ? '▲' : '▼';
       return `<div class="market-row">
-        <span class="market-label">${q.shortName || q.symbol}</span>
+        <span class="market-label">${label}</span>
         <span>
-          <span class="market-price">$${q.regularMarketPrice.toFixed(2)}</span>
-          <span class="${cls}"> ${arrow}${Math.abs(chg).toFixed(2)} (${Math.abs(pct).toFixed(1)}%)</span>
+          <span class="market-price">$${q.price.toFixed(2)}</span>
+          <span class="${cls}"> ${arrow}${Math.abs(q.change).toFixed(2)} (${Math.abs(q.pct).toFixed(1)}%)</span>
         </span>
       </div>`;
     };
-    const now = new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
-    el.innerHTML = quotes.map(fmt).join('') + `<div class="dash-timestamp">As of ${now}</div>`;
+    const updated = new Date(d.updated).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+    el.innerHTML = fmt('WTI Crude', d.wti) + fmt('Nat Gas', d.ng) +
+      `<div class="dash-timestamp">Updated ${updated} UTC</div>`;
   } catch(e) {
     el.innerHTML = `<div class="market-row"><span class="market-label">WTI Crude</span><a class="dash-fallback" href="https://finance.yahoo.com/quote/CL=F/" target="_blank">Check price →</a></div>
     <div class="market-row"><span class="market-label">Nat Gas</span><a class="dash-fallback" href="https://finance.yahoo.com/quote/NG=F/" target="_blank">Check price →</a></div>`;
