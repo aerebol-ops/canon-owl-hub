@@ -1691,7 +1691,12 @@ async function renderTemplate() {
       title: 'Operational Focus',
       color: 'var(--teal)',
       body: `<div class="runsheet-content">Cover active jobs, locations, and anything carrying forward from yesterday. If someone is waiting on parts, a permit, or a crew — say it out loud. The crew needs to know what's moving and what isn't before they hit the road.</div>
-             <div class="runsheet-scenario" style="border-color:var(--teal); background:#eef4fb;">${daily ? daily.opsContent : 'No Breakroom summary available. Pull from Mike\'s text and field notes.'}</div>`
+             <div class="runsheet-scenario" style="border-color:var(--teal); background:#eef4fb;">${(() => {
+               if (!daily) return 'No Breakroom summary available. Pull from Mike\'s text and field notes.';
+               const todayStr = new Date().toISOString().slice(0,10);
+               if (daily.opsDate !== todayStr) return `<em style="color:var(--muted);">No Breakroom summary for today yet — last update was ${daily.opsDate}. Pull from Mike's text and field notes until the morning update runs.</em>`;
+               return daily.opsContent;
+             })()}</div>`
     },
     {
       num: '6',
