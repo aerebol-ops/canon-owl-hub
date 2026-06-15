@@ -1675,9 +1675,16 @@ async function renderTemplate() {
       num: '3',
       title: 'Lessons Learned',
       color: 'var(--orange)',
-      body: flag
-        ? `<div class="runsheet-flag"><strong>${flag.headline}</strong><br><span style="font-size:13px;">${flag.detail}</span></div>`
-        : `<div class="runsheet-content">Check Field News for the latest flags and good calls from the field.</div>`
+      body: (() => {
+        const todayStr = new Date().toISOString().slice(0,10);
+        if (daily && daily.lessonsLearned && daily.opsDate === todayStr) {
+          return `<div class="runsheet-flag">${daily.lessonsLearned}</div>`;
+        }
+        if (daily && daily.opsDate !== todayStr) {
+          return `<div class="runsheet-content" style="color:var(--muted); font-style:italic;">No incident report for today yet — check back after the morning update, or pull from Mike's text.</div>`;
+        }
+        return `<div class="runsheet-content">No incidents or near-misses reported in last night's Breakroom summary.</div>`;
+      })()
     },
     {
       num: '4',
