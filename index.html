@@ -1084,15 +1084,50 @@
 
 <!-- ═════════════════════════════════════════ SUBMIT ═════ -->
 <div id="page-submit" class="page">
-  <div class="form-card">
+  <div class="form-card" id="owl-review-form">
     <h2>Owl Review</h2>
-    <p class="form-sub">Anytime something stands out — good or bad — submit it. The more you put in, the more useful the program gets. Your answers go directly to Mike.</p>
-    <div style="text-align:center; margin-top:28px;">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbpRVN7uxjVSu6Q43RCBb7k8gJEl6OXgV-zxc43Kb8N2K7Fg/viewform" target="_blank" style="display:inline-block; background:#C00000; color:#fff; padding:18px 36px; border-radius:10px; font-size:18px; font-weight:700; text-decoration:none; letter-spacing:0.5px;">
-        Open Review Form →
-      </a>
-      <p style="margin-top:20px; color:#666; font-size:14px;">Opens in your browser. Takes about 2 minutes.<br>Your answers go straight to Mike.</p>
-    </div>
+    <p class="form-sub">Anytime something stands out — good or bad — submit it. Takes about 2 minutes. Goes directly to Mike.</p>
+
+    <label for="r-name">Your Name</label>
+    <input type="text" id="r-name" placeholder="First and last name">
+
+    <label for="r-week">Week / Theme</label>
+    <select id="r-week">
+      <option value="">Select week...</option>
+      <option>Week 1 — Ownership</option>
+      <option>Week 2 — Communication</option>
+      <option>Week 3 — Accountability</option>
+      <option>Week 4 — Professionalism</option>
+      <option>Week 5 — Coaching Others</option>
+      <option>Week 6 — Situational Awareness</option>
+      <option>Week 7 — Problem Solving</option>
+      <option>Week 8 — Building Culture</option>
+    </select>
+
+    <label for="r-went-well">What went well this week that you want to make standard?</label>
+    <textarea id="r-went-well" placeholder="Be specific — name the location, situation, outcome."></textarea>
+
+    <label for="r-challenged">What challenged you — and how did you handle it?</label>
+    <textarea id="r-challenged" placeholder="What was hard? What did you do?"></textarea>
+
+    <label for="r-learned">What did you learn about leading people?</label>
+    <textarea id="r-learned" placeholder="One thing you'll carry forward."></textarea>
+
+    <label for="r-recognition">Who deserves recognition that didn't get called out publicly?</label>
+    <textarea id="r-recognition" placeholder="Name them. Say what they did."></textarea>
+
+    <label for="r-improve">What would you do differently if you owned it again next week?</label>
+    <textarea id="r-improve" placeholder="Honest answer only."></textarea>
+
+    <button class="submit-btn" onclick="submitReview()" style="margin-top:24px; width:100%;">Send to Mike →</button>
+    <p style="margin-top:12px; color:var(--muted); font-size:12px; text-align:center;">Opens your Mail app with this review pre-filled. Hit Send.</p>
+  </div>
+
+  <div id="owl-review-sent" class="form-card" style="display:none; text-align:center;">
+    <div style="font-size:48px; margin-bottom:12px;">✓</div>
+    <h2 style="color:var(--teal);">Review Sent</h2>
+    <p class="form-sub">Mike has your review. Good work this week.</p>
+    <button class="submit-btn" onclick="resetReview()" style="margin-top:16px;">Submit Another</button>
   </div>
 </div>
 
@@ -1454,6 +1489,60 @@ async function loadMarkets() {
     el.innerHTML = `<div class="market-row"><span class="market-label">WTI Crude</span><a class="dash-fallback" href="https://finance.yahoo.com/quote/CL=F/" target="_blank">Check price →</a></div>
     <div class="market-row"><span class="market-label">Nat Gas</span><a class="dash-fallback" href="https://finance.yahoo.com/quote/NG=F/" target="_blank">Check price →</a></div>`;
   }
+}
+
+// ── OWL REVIEW ────────────────────────────────────────────
+function submitReview() {
+  const name    = document.getElementById('r-name').value.trim();
+  const week    = document.getElementById('r-week').value;
+  const well    = document.getElementById('r-went-well').value.trim();
+  const chal    = document.getElementById('r-challenged').value.trim();
+  const learned = document.getElementById('r-learned').value.trim();
+  const recog   = document.getElementById('r-recognition').value.trim();
+  const improve = document.getElementById('r-improve').value.trim();
+
+  if (!name || !week) {
+    alert('Please enter your name and select your week before submitting.');
+    return;
+  }
+
+  const body = [
+    `Canon Owl Review — ${week}`,
+    `Submitted by: ${name}`,
+    `Date: ${new Date().toLocaleDateString('en-US', { weekday:'long', year:'numeric', month:'long', day:'numeric' })}`,
+    '',
+    '1. What went well this week that you want to make standard?',
+    well || '(no response)',
+    '',
+    '2. What challenged you — and how did you handle it?',
+    chal || '(no response)',
+    '',
+    '3. What did you learn about leading people?',
+    learned || '(no response)',
+    '',
+    '4. Who deserves recognition that didn\'t get called out publicly?',
+    recog || '(no response)',
+    '',
+    '5. What would you do differently if you owned it again next week?',
+    improve || '(no response)',
+  ].join('\n');
+
+  const subject = encodeURIComponent(`Owl Review — ${name} — ${week}`);
+  const bodyEnc = encodeURIComponent(body);
+  window.location.href = `mailto:mlyons@csrhigroup.com?subject=${subject}&body=${bodyEnc}`;
+
+  setTimeout(() => {
+    document.getElementById('owl-review-form').style.display = 'none';
+    document.getElementById('owl-review-sent').style.display = 'block';
+  }, 500);
+}
+
+function resetReview() {
+  ['r-name','r-went-well','r-challenged','r-learned','r-recognition','r-improve']
+    .forEach(id => document.getElementById(id).value = '');
+  document.getElementById('r-week').value = '';
+  document.getElementById('owl-review-sent').style.display = 'none';
+  document.getElementById('owl-review-form').style.display = 'block';
 }
 
 // ── OPENING SELECTION ─────────────────────────────────────
