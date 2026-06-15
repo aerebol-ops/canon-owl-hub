@@ -1653,21 +1653,15 @@ async function renderTemplate() {
   const flag = DATA.news.find(n => n.type === 'flag');
   const today = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 
-  const openings = [
-    `Today we own our day before it owns us. Every crew out there is counting on the person next to them. Let's make sure we're worth counting on.`,
-    `Yesterday happened. Today is what we do about it. We're not here to talk about safety — we're here to execute it. Ten minutes, then let's go to work.`,
-    `There are ${DATA.meetingLog.length > 0 ? 'crews at multiple locations' : 'crews in the field'} today. Every single one of them comes home. That's not a goal — that's the standard. Here's how we hold it.`,
-    `This week we're talking about ${w.theme.toLowerCase()}. Not as a concept — as something you do today, on your job, with your crew. Let's talk about what that actually looks like out there.`,
-    `The field doesn't care how your morning started. It cares whether you're ready. Let's make sure we are.`
-  ];
+  const openingMsg   = daily && daily.openingMessage   ? daily.openingMessage   : `The field doesn't care how your morning started. It cares whether you're ready. Let's make sure we are.`;
+  const openingAttr  = daily && daily.openingAttribution ? `<div style="font-size:11px; color:var(--muted); margin-top:6px; font-style:italic;">— ${daily.openingAttribution}</div>` : '';
 
   const sections = [
     {
       num: '1',
       title: 'Opening Message',
       color: 'var(--navy)',
-      body: `<div class="runsheet-content" style="color:var(--muted); font-size:12px; margin-bottom:8px;">Pick one or use your own words:</div>
-             ${openings.map((o, i) => `<div class="opening-option" onclick="selectOpening(this)">${o}</div>`).join('')}`
+      body: `<div class="opening-option selected" onclick="selectOpening(this)">${openingMsg}</div>${openingAttr}`
     },
     {
       num: '2',
