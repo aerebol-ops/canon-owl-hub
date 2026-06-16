@@ -1756,14 +1756,15 @@ async function renderTemplate() {
 // ── RENDER NEWS ───────────────────────────────────────────
 function renderNews() {
   const container = document.getElementById('news-container');
-  container.innerHTML = DATA.news.map(n => `
+  const items = (_daily && _daily.fieldNews && _daily.fieldNews.length) ? _daily.fieldNews : DATA.news;
+  container.innerHTML = items.length ? items.map(n => `
     <div class="news-card ${n.type}">
       <div class="news-badge">${n.type === 'flag' ? '⚠ Flag' : '✓ Good Call'}</div>
       <div class="news-headline">${n.headline}</div>
       <div class="news-detail">${n.detail}</div>
       ${n.psms ? `<div class="news-psms">→ ${n.psms}</div>` : ''}
     </div>
-  `).join('');
+  `).join('') : '<p style="color:var(--muted); font-style:italic; padding:16px;">No field news yet today.</p>';
 }
 
 // ── RENDER WEEK CARDS ──────────────────────────────────────
@@ -1883,8 +1884,8 @@ function sendOwlReview() {
 // ── INIT ───────────────────────────────────────────────────
 loadWeather();
 loadMarkets();
-renderTemplate().then(updateStats);
 renderNews();
+renderTemplate().then(() => { updateStats(); renderNews(); });
 renderWeekCards();
 renderLog();
 </script>
