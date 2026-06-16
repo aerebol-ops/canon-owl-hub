@@ -1186,7 +1186,7 @@ const DATA = {
         "Wear appropriate PPE for the fluid — minimum face shield + chemical gloves",
         "Communicate the break to your entire crew before starting"
       ],
-      "fieldScenario": "On 6/12, Stefanie's location had a broken injection pipe. Fluid was already moving before anyone had containment staged. The fix was fast, but the exposure window was real. Communication before the break would have changed the outcome.",
+      "fieldScenario": "You are on a production location preparing to open a thief hatch and break containment on a tank for sampling. Light wind (5–10 mph), shifting slightly. Tank battery with multiple active wells. One tech with GX-6000 monitor, another assisting with bottles and paperwork. No visible H2S alarms — but benzene risk is present. You crack the thief hatch. You smell hydrocarbons. The GX-6000 starts picking up VOC/benzene readings rising. Wind shifts slightly toward your position. Company man says: 'We do this all the time, just grab the sample.' Do you continue or stop? Who is responsible for calling it?",
       "discussionQuestions": [
         "Before you crack a fitting, who needs to know? Have you told them?",
         "What's the first thing you stage before opening any pressurized line?",
@@ -1693,13 +1693,24 @@ async function renderTemplate() {
     },
     {
       num: '4',
+      title: "Today's Challenge",
+      color: 'var(--red)',
+      body: (() => {
+        const challenge = (daily && daily.todaysChallenge) ? daily.todaysChallenge : "Before leaving a location today — ask yourself: What is one thing I can improve before I drive away?";
+        const sub = (daily && daily.todaysChallengeSubtext) ? daily.todaysChallengeSubtext : "Not because someone is watching. Because excellence is a habit. And habits become character.";
+        return `<div class="runsheet-scenario" style="border-color:var(--red); background:#fff5f5; font-size:15px; font-weight:600;">${challenge}</div>
+                <div class="runsheet-content" style="color:var(--muted); font-style:italic; margin-top:6px;">${sub}</div>`;
+      })()
+    },
+    {
+      num: '5',
       title: 'Recognition',
       color: 'var(--gold)',
       body: `<div class="runsheet-content">Name someone from the crew. Be specific — what did they do and why does it matter to everyone standing here. Recognition that names a behavior is recognition that repeats it.</div>
              <div class="runsheet-scenario" style="border-color:var(--gold); background:#fffbee;">Check Field News and Mike's text from last night — names and reasons are there.</div>`
     },
     {
-      num: '5',
+      num: '6',
       title: 'Operational Focus',
       color: 'var(--teal)',
       body: `<div class="runsheet-content">Cover active jobs, locations, and anything carrying forward from yesterday. If someone is waiting on parts, a permit, or a crew — say it out loud. The crew needs to know what's moving and what isn't before they hit the road.</div>
@@ -1711,7 +1722,7 @@ async function renderTemplate() {
              })()}</div>`
     },
     {
-      num: '6',
+      num: '7',
       title: 'Leadership Thought',
       color: '#375623',
       body: `<div class="runsheet-content" style="margin-bottom:8px;"><strong>This week: ${w.theme}</strong></div>
