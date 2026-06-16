@@ -1643,6 +1643,7 @@ function selectOpening(el) {
 }
 
 // ── RENDER TEMPLATE ───────────────────────────────────────
+let _daily = null; // module-level so updateStats() can read it
 async function renderTemplate() {
   // fetch daily.json for leadership thought + ops content
   let daily = null;
@@ -1650,6 +1651,7 @@ async function renderTemplate() {
     const r = await fetch('daily.json?_=' + Date.now(), { cache: 'no-store' });
     if (r.ok) daily = await r.json();
   } catch(e) {}
+  _daily = daily;
 
   const weekNum = daily ? daily.week : DATA.meta.currentWeek;
   const w = DATA.weeks[weekNum - 1] || DATA.weeks[0];
@@ -1821,8 +1823,8 @@ function renderLog() {
 function updateStats() {
   document.getElementById('stat-weeks').textContent = DATA.weeks.length;
   document.getElementById('stat-meetings').textContent = DATA.meetingLog.length;
-  document.getElementById('last-updated').textContent = DATA.meta.lastUpdated;
-  document.getElementById('version').textContent = DATA.meta.version;
+  document.getElementById('last-updated').textContent = (_daily && _daily.date) ? _daily.date : DATA.meta.lastUpdated;
+  document.getElementById('version').textContent = (_daily && _daily.date) ? _daily.date : DATA.meta.version;
 }
 
 // ── PAGE NAV ───────────────────────────────────────────────
@@ -1881,11 +1883,10 @@ function sendOwlReview() {
 // ── INIT ───────────────────────────────────────────────────
 loadWeather();
 loadMarkets();
-renderTemplate();
+renderTemplate().then(updateStats);
 renderNews();
 renderWeekCards();
 renderLog();
-updateStats();
 </script>
 </body>
 </html>
