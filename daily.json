@@ -7,5 +7,73 @@
   "leadershipThought": "Ownership isn't a title. It's what you do when no one's watching and the easy path is right in front of you.",
   "opsDate": "2026-06-15",
   "opsContent": "<strong>Active Jobs (2026-06-15):</strong><br>• <strong>Larry Taylor</strong> — SM Energy Cosmo 213 (6:26 AM): workover tripping back in, acid job, scan coming back out of hole, will test going back in<br>• <strong>Edward Carrillo</strong> — TB ROCKER B N 1-119H (6:43 AM): arrived, waiting on MT and crew<br>• <strong>Dawson Drake</strong> — Rig down complete, heading to shop (7:07 AM)<br>• <strong>Jacob Hernandez</strong> — Arrived on Donovan (7:08 AM)<br>• <strong>Brianda Sandoval</strong> — Leaving Exxon office → Strain CGLS for well testing (8:16 AM); also noted heading to Cassidy CTB CGLS earlier<br>• <strong>Stefanie Kirschke</strong> — Job cancelled, heading back (8:21 AM)<br>• <strong>Alex Clubb</strong> — On site, only crew present ~20 min before 9:00 AM<br>• <strong>Marylou Guerra</strong> — Arrived at Chicken Noodle \"NORM\" (8:40 AM)<br>• <strong>Cindy Smith</strong> — Arrived at Orel Hershiser (11:12 AM)<br>• <strong>Nathan Contreras / Caleb Smith</strong> — Jobs complete, returning to shop/yard (~11:35–11:49 AM)<br>• <strong>Michael Hutt</strong> — SM Coonskin 1500 NM pull: #122 at 10,000; #152 at 3,000 (4:25 PM)<br>• <strong>Justin Pack</strong> — Shift change with BJ on First Tee Pad (4:28 PM)<br>• <strong>Jordan Lemmons</strong> — Grease unit arrived on location (5:02 PM); Michael Hutt confirmed handover complete, returning to man camp<br>• <strong>Raymundo \"Ray\" Solis</strong> — Done at Pratt Vaughn (7:21 PM)<br>• <strong>Jeremy Torrence</strong> (Jun 15 — message cut off): Seinfeld Yada — 611 shut in, 614 (incomplete)<br>• Trailer 605 BM 5: [name cut off]<br>• Jordan & David Z — Trailer 606 BM 6<br>• Larry & Joseph — Trailer 503 BM 13<br>• Louie, Emma, Jane — NORM Trailer 504<br>• Marylou & Ralph — Chicken Noodle CTB NORM Trailer 600<br>• Well testing: Bri & David H<br><br><strong>Carry-Forward:</strong><br>• GPS coordinate error with Exxon — confirm Robert Wright reached correct location; follow up with Orlando Ibarra if needed<br>• H2S measurement accuracy concern (Justin Pack) — needs follow-up; unclear if equipment issue or H2S-in-liquid phenomenon<br>• Jeremy Torrence's Jun 15 message (Seinfeld Yada / 611 shut in 614) was cut off — verify full status<br>• Crew reminded: communicate all movements after job completion; always ready to pivot<br>• Morning meeting: 5:30 AM<br>",
-  "lessonsLearned": "• <strong>Wrong location — Robert Wright (8:21–8:29 AM):</strong> GPS coordinates from Exxon were incorrect; Robert arrived at wrong location. Mike messaged that Orlando Ibarra would call him. Mike reminded crew: post \"no one in location\" when crew arrival is delayed so dispatch can assist.<br>• <strong>H2S reading discrepancy — Justin Pack (11:30 AM):</strong> Flagged that H2S readings have not been correct — gas embedded in water/oil is not breaking out. H2S from gas testing is ~18,000–20,000 ppm off from water and oil sample readings. *(Safety concern — may need follow-up on measurement methodology or equipment.)*<br>"
+  "lessonsLearned": "• <strong>Wrong location — Robert Wright (8:21–8:29 AM):</strong> GPS coordinates from Exxon were incorrect; Robert arrived at wrong location. Mike messaged that Orlando Ibarra would call him. Mike reminded crew: post \"no one in location\" when crew arrival is delayed so dispatch can assist.<br>• <strong>H2S reading discrepancy — Justin Pack (11:30 AM):</strong> Flagged that H2S readings have not been correct — gas embedded in water/oil is not breaking out. H2S from gas testing is ~18,000–20,000 ppm off from water and oil sample readings. *(Safety concern — may need follow-up on measurement methodology or equipment.)*<br>",
+  "fieldNews": [
+    {
+      "type": "good",
+      "headline": "5 OWL reviews submitted — 2026-06-13",
+      "detail": "Edward Carrillo, Marylou Guerra, Jacob Hernandez, Stefanie Kirschke, Raymundo Solis submitted. All checked 'left it better than we found it.'",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Edward Carrillo — Forklift operations were flawless and efficient.",
+      "detail": "Location: Driver B37 10-15F 306H",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Edward Carrillo — Communicate hood points more thoroughly to ensure understanding.",
+      "detail": "Location: Driver B37 10-15F 306H",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Marylou Guerra — Job went well, done safe.",
+      "detail": "Location: Driver B37 10-15F 306",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Marylou Guerra — Na, everything went good today.",
+      "detail": "Location: Driver B37 10-15F 306",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez — Job was completed safely",
+      "detail": "Location: Brunson aren't 36C 203 H",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Jacob Hernandez — Coordinates",
+      "detail": "Location: Brunson aren't 36C 203 H",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Stefanie Kirschke — Everything went well during the job",
+      "detail": "Location: Texas Ten ZZ #13",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Stefanie Kirschke — Just keep up the communication",
+      "detail": "Location: Texas Ten ZZ #13",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Wrong location — Robert Wright (8:21–8:29 AM):",
+      "detail": "GPS coordinates from Exxon were incorrect; Robert arrived at wrong location. Mike messaged that Orlando Ibarra would call him. Mike reminded crew: post \"no one in location\" when crew arrival is delayed so dispatch can assist.",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "H2S reading discrepancy — Justin Pack (11:30 AM):",
+      "detail": "Flagged that H2S readings have not been correct — gas embedded in water/oil is not breaking out. H2S from gas testing is ~18,000–20,000 ppm off from water and oil sample readings. *(Safety concern — may need follow-up on measurement methodology or equipment.)*",
+      "psms": null
+    }
+  ]
 }
