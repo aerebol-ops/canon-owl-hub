@@ -1647,7 +1647,7 @@ async function renderTemplate() {
   // fetch daily.json for leadership thought + ops content
   let daily = null;
   try {
-    const r = await fetch('daily.json?_=' + Date.now());
+    const r = await fetch('daily.json?_=' + Date.now(), { cache: 'no-store' });
     if (r.ok) daily = await r.json();
   } catch(e) {}
 
