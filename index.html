@@ -1144,6 +1144,23 @@
 </footer>
 
 <script>
+// ── DAILY SEED SHUFFLE ────────────────────────────────────
+// Deterministic per day: same order on reload, different order tomorrow.
+function dailySeed() {
+  const _d = new Date();
+  return _d.getFullYear() * 10000 + (_d.getMonth() + 1) * 100 + _d.getDate();
+}
+function seededShuffle(arr, seed) {
+  const a = [...arr];
+  let s = seed;
+  for (let i = a.length - 1; i > 0; i--) {
+    s = (s * 1664525 + 1013904223) & 0xffffffff;
+    const j = Math.abs(s) % (i + 1);
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 // ── DATA ──────────────────────────────────────────────────
 // Inline content so the site works without a server.
 // To update: edit content.json and run the update script,
@@ -1674,7 +1691,7 @@ async function renderTemplate() {
       color: 'var(--red)',
       body: `<div class="runsheet-content"><strong>Week ${w.week}: ${w.theme}</strong><br>${w.standard}</div>
              <div class="runsheet-scenario"><strong>Field scenario:</strong> ${w.fieldScenario}</div>
-             <div class="runsheet-question">Ask the crew: ${w.discussionQuestions[0]}</div>`
+             <div class="runsheet-question">Ask the crew: ${seededShuffle(w.discussionQuestions, dailySeed())[0]}</div>`
     },
     {
       num: '3',
@@ -1749,14 +1766,16 @@ async function renderTemplate() {
     <div class="runsheet-nonneg">
       <h4>Daily Non-Negotiables</h4>
       <ul>
-        <li>GX-6000 bump test complete, battery charged</li>
-        <li>Benzene tubes stocked, calibration within 90 days</li>
-        <li>PPE on person before leaving the yard</li>
-        <li>Know your job scope and hazards</li>
-        <li>Post arrival in Breakroom immediately</li>
-        <li>Exclusion zones set before breaking containment</li>
-        <li>If it feels off — STOP and escalate</li>
-        <li>Account for every crew member before leaving</li>
+        ${seededShuffle([
+          'GX-6000 bump test complete, battery charged',
+          'Benzene tubes stocked, calibration within 90 days',
+          'PPE on person before leaving the yard',
+          'Know your job scope and hazards',
+          'Post arrival in Breakroom immediately',
+          'Exclusion zones set before breaking containment',
+          'If it feels off — STOP and escalate',
+          'Account for every crew member before leaving'
+        ], dailySeed() + 1).map(item => `<li>${item}</li>`).join('')}
       </ul>
     </div>
   `;
@@ -1767,7 +1786,8 @@ async function renderTemplate() {
 // ── RENDER NEWS ───────────────────────────────────────────
 function renderNews() {
   const container = document.getElementById('news-container');
-  const items = (_daily && _daily.fieldNews && _daily.fieldNews.length) ? _daily.fieldNews : DATA.news;
+  const _items = (_daily && _daily.fieldNews && _daily.fieldNews.length) ? _daily.fieldNews : DATA.news;
+  const items = seededShuffle(_items, dailySeed());
   container.innerHTML = items.length ? items.map(n => `
     <div class="news-card ${n.type}">
       <div class="news-badge">${n.type === 'flag' ? '⚠ Flag' : '✓ Good Call'}</div>
