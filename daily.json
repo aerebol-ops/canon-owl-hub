@@ -5,9 +5,9 @@
   "openingMessage": "Yesterday happened. Today is what we do about it. We're not here to talk about safety — we're here to execute it. Ten minutes, then let's go to work.",
   "openingAttribution": null,
   "leadershipThought": "Check your monitor one more time. Verify tube inventory. Fuel your truck before it becomes a problem. Nobody rewards these actions. But they create certainty. And certainty protects people.",
-  "opsDate": "2026-06-15",
-  "opsContent": "<strong>Active Jobs (2026-06-15):</strong><br>• <strong>Larry Taylor</strong> — SM Energy Cosmo 213 (6:26 AM): workover tripping back in, acid job, scan coming back out of hole, will test going back in<br>• <strong>Edward Carrillo</strong> — TB ROCKER B N 1-119H (6:43 AM): arrived, waiting on MT and crew<br>• <strong>Dawson Drake</strong> — Rig down complete, heading to shop (7:07 AM)<br>• <strong>Jacob Hernandez</strong> — Arrived on Donovan (7:08 AM)<br>• <strong>Brianda Sandoval</strong> — Leaving Exxon office → Strain CGLS for well testing (8:16 AM); also noted heading to Cassidy CTB CGLS earlier<br>• <strong>Stefanie Kirschke</strong> — Job cancelled, heading back (8:21 AM)<br>• <strong>Alex Clubb</strong> — On site, only crew present ~20 min before 9:00 AM<br>• <strong>Marylou Guerra</strong> — Arrived at Chicken Noodle \"NORM\" (8:40 AM)<br>• <strong>Cindy Smith</strong> — Arrived at Orel Hershiser (11:12 AM)<br>• <strong>Nathan Contreras / Caleb Smith</strong> — Jobs complete, returning to shop/yard (~11:35–11:49 AM)<br>• <strong>Michael Hutt</strong> — SM Coonskin 1500 NM pull: #122 at 10,000; #152 at 3,000 (4:25 PM)<br>• <strong>Justin Pack</strong> — Shift change with BJ on First Tee Pad (4:28 PM)<br>• <strong>Jordan Lemmons</strong> — Grease unit arrived on location (5:02 PM); Michael Hutt confirmed handover complete, returning to man camp<br>• <strong>Raymundo \"Ray\" Solis</strong> — Done at Pratt Vaughn (7:21 PM)<br>• <strong>Jeremy Torrence</strong> (Jun 15 — message cut off): Seinfeld Yada — 611 shut in, 614 (incomplete)<br>• Trailer 605 BM 5: [name cut off]<br>• Jordan & David Z — Trailer 606 BM 6<br>• Larry & Joseph — Trailer 503 BM 13<br>• Louie, Emma, Jane — NORM Trailer 504<br>• Marylou & Ralph — Chicken Noodle CTB NORM Trailer 600<br>• Well testing: Bri & David H<br><br><strong>Carry-Forward:</strong><br>• GPS coordinate error with Exxon — confirm Robert Wright reached correct location; follow up with Orlando Ibarra if needed<br>• H2S measurement accuracy concern (Justin Pack) — needs follow-up; unclear if equipment issue or H2S-in-liquid phenomenon<br>• Jeremy Torrence's Jun 15 message (Seinfeld Yada / 611 shut in 614) was cut off — verify full status<br>• Crew reminded: communicate all movements after job completion; always ready to pivot<br>• Morning meeting: 5:30 AM<br>",
-  "lessonsLearned": "• <strong>Wrong location — Robert Wright (8:21–8:29 AM):</strong> GPS coordinates from Exxon were incorrect; Robert arrived at wrong location. Mike messaged that Orlando Ibarra would call him. Mike reminded crew: post \"no one in location\" when crew arrival is delayed so dispatch can assist.<br>• <strong>H2S reading discrepancy — Justin Pack (11:30 AM):</strong> Flagged that H2S readings have not been correct — gas embedded in water/oil is not breaking out. H2S from gas testing is ~18,000–20,000 ppm off from water and oil sample readings. *(Safety concern — may need follow-up on measurement methodology or equipment.)*<br>",
+  "opsDate": "2026-06-16",
+  "opsContent": "<strong>Active Jobs (2026-06-16):</strong><br>• Seinfeld Yada flowback (Jeremy Torrence): 4 bottles empty, 4 bottles at 2100psi<br>• Michael Hutt (Gate out): AOL handover completed ~5:04 AM<br>• Justin Pack: Flagged need for more 0.1–2% H2S tubes on flowbacks + mask wipes<br>• Dennis Easley: AOL on Gipple flowback; air and tube inventory nearly complete — 5 full boxes at SM Gipple<br>• John Delagarza: AOL at Maralo HL Fed Com #1H — 6:43 AM<br>• Michael Hutt: Separator #122 bleed-off ordered; separator confirmed offline at 6:41 AM<br>• Tube count logged at Coonskin: CO2 1–20% (170), CO2 0.25–3% (10), H2S 100–2000 ppm (55), H2S 25–250 ppm (7), H2S 0.1–2% (17)<br>• SM Coonskin started 0900, #152 at 4,000<br>• Brook N-13WG 207H (unspecified crew): MT and crew present, 7:44 AM<br>• Jordan Lemmons: Had to back-track to pad; notified JR of delay — started Penbrook/Pembrook job, testing got 0s at 10:10 AM<br>• Caleb Smith: Stone Gist W45J #10H — permit live, reconnect started, 7:51 AM; arrived on location ~10:44 AM<br>• Larry Jaramillo: Shackleford 29-17L 12H continuing + Shackleford 29-17M 13H arrived 7:52 AM<br>• Louie Zarate: Arrived Emma Jane — late notice, waiting on pumper to LOTO tester #3, 8:17 AM<br>• Jacob Hernandez: Glass job starting after safety meeting, 10:25 AM<br>• Alex Clubb: On standby pumping on well — 11:45 AM<br>• Cindy Smith: Finished up, headed to Texas ten — 11:52 AM<br>• Stefanie Kirschke: Reached next location, waiting on crew and MT — 11:59 AM<br>• Dawson Drake: AOL at Giddings — 12:07 PM<br>• Edward Carrillo: Arrived Lane 11A #7 — crane and bucket crew present, waiting on MT<br>• Nathan Contreras: Done at University 7-14GG, heading to next location ~1 PM; arrived Mabee 1D #1 ~2:08 PM<br>• Alex Clubb: Finished Glass R #1, routed to Howard — 1:02 PM; arrived on Howard ~2:27 PM<br>• Ray Solis: Swapped trailers at Coonskins (dropped 125, picked up 507), back to shop — 2:24 PM<br>• Dawson Drake: Job complete, heading to shop — 2:25 PM<br>• Stefanie Kirschke: Job complete, heading to shop — 2:28 PM<br>• All five wells still shut in (Justin Pack) — 3:56 PM<br>• Ralph Forbes: Packing up SM Chicken Noodle Tank battery clean out — Trailer #600, cascade right side tanks 800 psi / 2000 psi, left side 4500 psi / 4000 psi — 3:58 PM<br>• Caleb Smith: Job complete, to shop — 3:58 PM<br>• Louie Zarate: Done at Emma Jane. Note: Tyler wants crew to arrive one hour earlier tomorrow due to heat — 4:00 PM<br>• Jacob Hernandez: Glass N starting — 4:09 PM<br>• Justin Pack: Shift change with BJ on First Tee Pad — 4:35 PM<br>• JF (Alex?): Howard #3 complete; heading to shop — 4:22 PM<br>• Brianda Sandoval: Successful well testing quarter job complete, back to shop — 4:55 PM<br>• Jacob Hernandez: Glass K #1 complete — atmospheric test clear, Co Rep released — 6:13 PM<br><br><strong>Carry-Forward:</strong><br>• [ ] Resupply 0.1–2% H2S tubes to Coonskin location (Michael Hutt)<br>• [ ] More 0.1–2% H2S tubes + mask wipes needed for flowbacks (Justin Pack)<br>• [ ] Separator #122 (SM Coonskin) — confirm back online or status update<br>• [ ] **Tomorrow AM: Andrews shop meeting at 0530** — all personnel except those on rigs, flowbacks, and workovers (Ralph and Marylou go direct to shift change locations)<br>• [ ] Confirm bird's nest in equipment was cleared<br>• [ ] **Heat advisory**: Tyler directing Emma Jane crew to arrive one hour earlier tomorrow<br>",
+  "lessonsLearned": "• <strong>Separator #122 offline</strong> (SM Coonskin): Bleed-off ordered and confirmed offline 6:41 AM. Monitor for resolution.<br>• <strong>Bird's nest in equipment</strong>: Photo posted in group chat — potential hazard; location not specified. Worth confirming it was cleared before equipment use.<br>• <strong>Jordan Lemmons delayed</strong>: Back-tracked to pad, notified JR of late arrival.<br>",
   "fieldNews": [
     {
       "type": "good",
@@ -59,26 +59,44 @@
     },
     {
       "type": "good",
-      "headline": "Mike posted **Canon Safety Ownership memo** for Monday June 15th (6:54 AM) — rec…",
-      "detail": "Breakroom recognition",
+      "headline": "Caleb Smith",
+      "detail": "Kahoots quiz winner at 5:30 AM meeting — 10/10 in fastest time (called out by Michael Lyons Jr). Dawson Drake calling rematch.",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Evening roundup message (likely Mike, ~5:13 PM): praised crew communication, not…",
-      "detail": "Breakroom recognition",
+      "headline": "Stefanie Kirschke",
+      "detail": "thanked Jordan Lemmons and Ray Solis for help.",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Anthony Scott",
+      "detail": "welcomed back to the team — joined the org at 5:17 PM.",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Brianda Sandoval",
+      "detail": "Successful well testing quarter job noted.",
       "psms": null
     },
     {
       "type": "flag",
-      "headline": "Wrong location — Robert Wright (8:21–8:29 AM):",
-      "detail": "GPS coordinates from Exxon were incorrect; Robert arrived at wrong location. Mike messaged that Orlando Ibarra would call him. Mike reminded crew: post \"no one in location\" when crew arrival is delayed so dispatch can assist.",
+      "headline": "Separator #122 offline",
+      "detail": "(SM Coonskin): Bleed-off ordered and confirmed offline 6:41 AM. Monitor for resolution.",
       "psms": null
     },
     {
       "type": "flag",
-      "headline": "H2S reading discrepancy — Justin Pack (11:30 AM):",
-      "detail": "Flagged that H2S readings have not been correct — gas embedded in water/oil is not breaking out. H2S from gas testing is ~18,000–20,000 ppm off from water and oil sample readings. *(Safety concern — may need follow-up on measurement methodology or equipment.)*",
+      "headline": "Bird's nest in equipment",
+      "detail": "Photo posted in group chat — potential hazard; location not specified. Worth confirming it was cleared before equipment use.",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Jordan Lemmons delayed",
+      "detail": "Back-tracked to pad, notified JR of late arrival.",
       "psms": null
     }
   ],
