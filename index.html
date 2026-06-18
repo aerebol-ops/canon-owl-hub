@@ -1190,7 +1190,11 @@ const DATA = {
         "I never remove or tamper with energy control devices without authorization",
         "I confirm equipment is back to safe operating condition prior to re-energizing"
       ],
-      "fieldScenario": "A pump is tagged 'locked out' but a second crew member goes to start it before the first crew confirms clear. One lock, one life â€” your lock stays on until YOU remove it.",
+      "fieldScenarios": [
+        "A pump is tagged ‘locked out’ but a second crew member goes to start it before the first crew confirms clear. One lock, one life — your lock stays on until YOU remove it.",
+        "A crew performs a valve lineup on a well before a chemical treatment job. The valve is closed and tagged. But the tag belongs to a different crew from the prior shift — no one verified it applies to the current scope. Tags communicate intent. They do not replace verification.",
+        "A rods job is nearly complete. The tech re-energizes the wellhead to verify operation before confirming all personnel are clear. The second crew member is still on the ladder. Re-energization was not called out. There was no pre-agreed signal. One lock. One life. One call before you touch the switch."
+      ],
       "discussionQuestions": [
         "When was the last time you put your own lock on a piece of equipment? Walk us through it.",
         "What happens if you skip the verify step and assume it's de-energized?",
@@ -1218,7 +1222,11 @@ const DATA = {
         "I manage ignition sources and confirm gas testing is completed when required",
         "I use appropriate PPE and defensive behaviors when opening process equipment"
       ],
-      "fieldScenario": "You are on a production location preparing to open a thief hatch and break containment on a tank for sampling. Light wind (5â€“10 mph), shifting slightly. Tank battery with multiple active wells. One tech with GX-6000 monitor, another assisting with bottles and paperwork. No visible H2S alarms â€” but benzene risk is present. You crack the thief hatch. You smell hydrocarbons. The GX-6000 starts picking up VOC/benzene readings rising. Wind shifts slightly toward your position. Company man says: 'We do this all the time, just grab the sample.' Do you continue or stop? Who is responsible for calling it?",
+      "fieldScenarios": [
+        "You are on a production location preparing to open a thief hatch and break containment on a tank for sampling. Light wind (5–10 mph), shifting slightly. Tank battery with multiple active wells. One tech with GX-6000 monitor, another assisting with bottles and paperwork. No visible H2S alarms — but benzene risk is present. You crack the thief hatch. You smell hydrocarbons. The GX-6000 starts picking up VOC/benzene readings rising. Wind shifts slightly toward your position. Company man says: ‘We do this all the time, just grab the sample.’ Do you continue or stop? Who is responsible for calling it?",
+        "A flowline repair is underway. The line has been bled down and the gauge reads zero. The crew begins disconnecting a union. Fluid releases under residual pressure — not enough to cause injury, but enough to spray product onto two crew members. Zero on the gauge is not zero in the line. The only true confirmation is the bleed point open to atmosphere.",
+        "A chemical injection pump is being swapped on location. The fitting shows corrosion — it was known before the job. The crew stages containment loosely because the volume is small. The fitting fails on the second turn and spills 5 gallons. Small volume does not mean low risk. Containment is staged before the job starts, not after the first drop hits the ground."
+      ],
       "discussionQuestions": [
         "Before you crack a fitting, who needs to know? Have you told them?",
         "What's the first thing you stage before opening any pressurized line?",
@@ -1245,7 +1253,11 @@ const DATA = {
         "I establish and obey barriers and exclusion zones",
         "I take action to secure loose objects and report potential dropped objects"
       ],
-      "fieldScenario": "A flowline is being bled. The worker stands directly in front of the bleed valve as it opens. Pressure is lower than expected â€” but it wasn't zero. Line of fire is not about probability. It's about consequence.",
+      "fieldScenarios": [
+        "A flowline is being bled. The worker stands directly in front of the bleed valve as it opens. Pressure is lower than expected — but it wasn’t zero. Line of fire is not about probability. It’s about consequence.",
+        "A vac truck is offloading fluid. The hose is connected and pressurized. The driver walks behind the truck to check the back corner. A hose fitting slips. The line of fire was between the hose end and the driver’s path — he walked directly into it without checking. Pressurized hose fittings define the line. You plan your path around them.",
+        "A wellhead is being worked over. The toolpusher is standing below the Christmas tree while another crew member manually breaches a fitting above him. The fitting releases downward. Standing below an opening being breached is the definition of line of fire — even when no one is holding a tool aimed at you."
+      ],
       "discussionQuestions": [
         "Walk me through the last job you did â€” where was the line of fire?",
         "Have you ever let someone stay in a bad position because it felt awkward to say something?",
@@ -1275,7 +1287,11 @@ const DATA = {
         "I stay out of the equipment's exclusion zone while in operation",
         "I confirm controls are in place to prevent unintentional movement of mobile equipment and/or loads"
       ],
-      "fieldScenario": "On a prior job, the Blue Marlin vac truck PTO engaged unexpectedly during a hose connection. The operator and the ground crew had not confirmed readiness. Equipment doesn't know where you are standing.",
+      "fieldScenarios": [
+        "On a prior job, the Blue Marlin vac truck PTO engaged unexpectedly during a hose connection. The operator and the ground crew had not confirmed readiness. Equipment doesn’t know where you are standing.",
+        "A crane is spotting into a tight pad. The ground crew is positioned at the edge to guide the load in. The crane swings to reposition — the operator does not see the spotter behind the counterweight. No radio call was made. The spotter assumed the operator had eyes on him. If you are within the swing radius, you are in the exclusion zone. Eye contact is not optional — it is the start of the job.",
+        "A crew is working beside an active fluid transfer — vac truck pulling from a tank battery. One tech walks between the truck and the tank to check a gauge. The driver does not know anyone is back there. The truck takes a step back to reposition. No signal. No call. No position check. Mobile equipment controls begin with one person knowing where every other person is standing."
+      ],
       "discussionQuestions": [
         "When you're on location with a vac truck or crane, what's your communication protocol?",
         "Have you ever assumed an operator saw you? What made you think that?",
@@ -1305,7 +1321,11 @@ const DATA = {
         "I confirm a rescue plan is in place",
         "I obtain authorization to enter"
       ],
-      "fieldScenario": "A tank has been opened for inspection. Atmospheric test is done once before entry. Halfway through the job, H2S levels climb. Continuous monitoring would have triggered an exit before exposure reached a critical threshold.",
+      "fieldScenarios": [
+        "A tank has been opened for inspection. Atmospheric test is done once before entry. Halfway through the job, H2S levels climb. Continuous monitoring would have triggered an exit before exposure reached a critical threshold.",
+        "A crew opens a vessel for internal inspection. The attendant is stationed outside — but 30 feet away at the truck, checking a work order. The entrant needs a tool and calls out. No response. The attendant did not hear. An attendant outside the door cannot be an attendant 30 feet away. Position and proximity are part of the job.",
+        "Two tanks on a battery share a vapor line. Crew opens Tank A for inspection — tests clear. Tank B has residual gas and shares the vapor connection. H2S migrates through the line into Tank A after entry. The pre-entry test was correct. The continuous monitoring caught it in time. One test at the start is the floor, not the ceiling. The atmosphere inside a confined space can change after you enter."
+      ],
       "discussionQuestions": [
         "When you're coaching a newer hand on confined space, where do they usually push back?",
         "What's the attendant's job if the entrant goes down? Be specific.",
@@ -1334,7 +1354,11 @@ const DATA = {
         "I am fit, rested and fully alert while driving",
         "I follow journey management requirements"
       ],
-      "fieldScenario": "A crew member is running late to a location after a long night call. He is on his phone coordinating arrival and going 5 mph over to make up time. He is not impaired. He is not asleep. But he is distracted, fatigued, and rushing â€” all three stop conditions met simultaneously. Driving is the one LSRA that applies before the crew ever reaches the job.",
+      "fieldScenarios": [
+        "A crew member is running late to a location after a long night call. He is on his phone coordinating arrival and going 5 mph over to make up time. He is not impaired. He is not asleep. But he is distracted, fatigued, and rushing — all three stop conditions met simultaneously. Driving is the one LSRA that applies before the crew ever reaches the job.",
+        "A tech is driving a back-road route he has driven 50 times. He is not speeding. He is not on his phone. He is comfortable. He misses a turn he has never missed before — then realizes he cannot account for the last two miles. Familiarity is not the same as awareness. The most dangerous driver is the one who thinks he knows the road too well to crash.",
+        "End of a long day. Crew wraps at 7 PM, two hours from the yard. The driver is the only one awake. He has done it before. He rolls the window down, turns the music up. He makes it back — this time. Stop-conditions for fatigue are not about how you feel right now. They are about what happens in the next hour. The crew decides before they start driving, not when the first eyes start to close."
+      ],
       "discussionQuestions": [
         "When was the last time you drove to a location when you probably should not have? What were you managing?",
         "What does journey management mean on your day-to-day jobs â€” not just long hauls?",
@@ -1361,7 +1385,11 @@ const DATA = {
         "I confirm flammable and combustible materials are identified, isolated, and removed as appropriate",
         "Before starting hot work in a hazardous area, I confirm: a gas test has been completed and gas will be monitored continually"
       ],
-      "fieldScenario": "A crew needs to weld a repair on a flowline section. The area is purged, but one drain opening on an adjacent tank was not sealed. The fire watch leaves momentarily to move equipment. Gas migrates into the zone. Neither the ignition source control nor the fire watch standard held. Hot work incidents do not start when sparks fly â€” they start when someone skips a step 20 minutes earlier.",
+      "fieldScenarios": [
+        "A crew needs to weld a repair on a flowline section. The area is purged, but one drain opening on an adjacent tank was not sealed. The fire watch leaves momentarily to move equipment. Gas migrates into the zone. Neither the ignition source control nor the fire watch standard held. Hot work incidents do not start when sparks fly — they start when someone skips a step 20 minutes earlier.",
+        "A grinding job on a pipe rack. The gas test before starting comes back clear. The fire watch is in position. Thirty minutes in, the wind picks up and shifts. No retest. The assumption is that clear means clear until the job is done. Gas sources do not stay in one place. Conditions that change during hot work require a test, not an assumption.",
+        "A hot work permit is issued for a flange repair. The scope is one weld. The job takes longer than expected. The permit window expires during the work. The crew continues — the supervisor approved it verbally. Verbal extensions do not extend written permits. The moment the permit expired, the controls expired with it. Stop, assess, re-permit."
+      ],
       "discussionQuestions": [
         "Walk through a hot work job you have been on â€” what did the pre-job look like? What was missing?",
         "What is the fire watch's job the moment something unexpected happens? Be specific.",
@@ -1387,7 +1415,11 @@ const DATA = {
         "I understand and use safety-critical equipment and procedures which apply to my task",
         "I obtain authorization before disabling or overriding safety equipment, deviating from procedures, or crossing a barrier"
       ],
-      "fieldScenario": "A pressure relief valve is bypassed during a job to avoid nuisance trips. The crew knows it is temporary. No one writes it down. Shift changes. The next crew does not know it is bypassed. The hazard it was controlling â€” residual pressure â€” is now unmanaged and unannounced. Culture is not just doing the right thing when it is easy. It is not normalizing the bypass.",
+      "fieldScenarios": [
+        "A pressure relief valve is bypassed during a job to avoid nuisance trips. The crew knows it is temporary. No one writes it down. Shift changes. The next crew does not know it is bypassed. The hazard it was controlling — residual pressure — is now unmanaged and unannounced. Culture is not just doing the right thing when it is easy. It is not normalizing the bypass.",
+        "A high-level shutdown is bypassed to allow a vessel to fill past its normal set point. The bypass is approved. But the bypass management log is not updated and no end date is specified. Shift change happens. The next operator sees the HLSD bypassed — no context, no re-enable requirement. Authorized bypasses without time limits and documentation are not managed bypasses. They are forgotten bypasses.",
+        "A crew deviates from a lockout procedure because the equipment configuration on this well differs slightly from what the procedure describes. They adjust the steps without approval because the change seems minor. Three steps later, a stored energy path they did not account for releases. Procedures are built from incidents. Deviating without authorization bypasses the lessons that created them."
+      ],
       "discussionQuestions": [
         "Have you ever seen a bypass that everyone knew about cause a problem when someone new showed up?",
         "What is the authorization process at Canon before you can disable a safety device?",
@@ -1415,7 +1447,11 @@ const DATA = {
         "I confirm soil conditions are assessed and protective systems are in place",
         "I apply confined space entry controls when trench depth or conditions require it"
       ],
-      "fieldScenario": "A crew starts trenching for a buried line repair. The locate flags show a gas line 10 feet away. What is not marked: a power conduit installed after the utility map was last updated. Precision in excavation means treating the locate as a starting point, not a guarantee. Slow down, hand-dig near any flag, and verify by sight.",
+      "fieldScenarios": [
+        "A crew starts trenching for a buried line repair. The locate flags show a gas line 10 feet away. What is not marked: a power conduit installed after the utility map was last updated. Precision in excavation means treating the locate as a starting point, not a guarantee. Slow down, hand-dig near any flag, and verify by sight.",
+        "A crew is hand-digging near locate flags for a buried line repair. They find the utility — it matches the locate. They continue mechanically from that point. What they find later: a second line, not on any map, crossing at a different angle. Verifying the locate before digging is step one. Treating every dig as a potential discovery is the standard that covers you at step 100.",
+        "A trench has been open for two days during a repair. Weather changed overnight — significant rain. The crew returns in the morning and continues work without re-evaluating soil conditions. By mid-morning, a sidewall begins to slump. Rain changes everything about a trench. Conditions must be reassessed every time work resumes — not just at the start of the job."
+      ],
       "discussionQuestions": [
         "When you have been on a dig, how was the locate verified once digging started â€” or was it assumed correct?",
         "What conditions at a trench require you to treat it as a confined space?",
@@ -1445,7 +1481,11 @@ const DATA = {
         "I understand the lift plan prior to starting work and keep hands off load unless authorized",
         "I establish and maintain communication with lifting and rigging personnel"
       ],
-      "fieldScenario": "A pumping unit component is being lifted into position. The rigging was checked before the crane arrived, but one sling shows wear that was not flagged. The lift plan called for two ground crew â€” one left to handle a radio call. The load shifts on the way up. Two of the five rules were already broken before the shift happened. Planning a lift means executing the plan, not just making one.",
+      "fieldScenarios": [
+        "A pumping unit component is being lifted into position. The rigging was checked before the crane arrived, but one sling shows wear that was not flagged. The lift plan called for two ground crew — one left to handle a radio call. The load shifts on the way up. Two of the five rules were already broken before the shift happened. Planning a lift means executing the plan, not just making one.",
+        "A lift plan calls for a 10-foot exclusion zone. During the lift, a second crew arrives on location and parks inside the zone — they were not briefed on the lift. No one stops the lift. No one directs the arriving crew to move. The exclusion zone works only if it is enforced throughout the lift — not just set up at the start.",
+        "A sling rated for 2 tons is used on a 1.8-ton load. The sling is rigged at a 45-degree angle — effective capacity at that angle drops to 1.4 tons. The load exceeds rated capacity and the hardware deforms on the way up. Load capacity on a rigging chart is for vertical lifts. Every angle change reduces what the sling can handle. The lift plan includes the angle."
+      ],
       "discussionQuestions": [
         "On the last lift you were part of, how was the rigging inspected? Who did it and what did they look for?",
         "When the lift plan calls for two ground crew and one leaves, what do you do?",
@@ -1474,7 +1514,11 @@ const DATA = {
         "I have validated prompt rescue capability when wearing fall protection",
         "I follow three points of contact and safe climbing practices on all ladders"
       ],
-      "fieldScenario": "A tech climbs to the top of a tank to check an instrument. He hooks his lanyard to the handrail â€” not an approved anchor point. A coworker notices but does not say anything. The rescue plan for this location was never discussed. Standards on height work do not apply only when it feels dangerous. They apply every time, from the first rung up.",
+      "fieldScenarios": [
+        "A tech climbs to the top of a tank to check an instrument. He hooks his lanyard to the handrail — not an approved anchor point. A coworker notices but does not say anything. The rescue plan for this location was never discussed. Standards on height work do not apply only when it feels dangerous. They apply every time, from the first rung up.",
+        "A crew is working at elevation on a production facility. One tech ties off to an I-beam that is not an approved anchor — but it looks solid. His harness is inspected. His lanyard is in good shape. The one weak link is the anchor. If the anchor fails, none of the other equipment matters. Tie-off is only as strong as what you clip to.",
+        "A two-man crew is working on a tank roof. They are 100% tied off. One moves to a new position and has to unclip for 10 feet to reach the next anchor. He is experienced. The distance is short. He does not ask for a second lanyard. Ten feet of untethered movement is not a minor gap — it is where the fall happens. 100% tie-off means there is no acceptable gap, not a small one."
+      ],
       "discussionQuestions": [
         "What do you check on your harness before you put it on? Walk through it right now.",
         "On your locations, what is the rescue plan if someone is suspended and cannot self-rescue?",
@@ -1503,7 +1547,11 @@ const DATA = {
         "I have confirmed that hazards are controlled and it is safe to start",
         "I stop and reassess if conditions change"
       ],
-      "fieldScenario": "A crew arrives at a location with a verbal go-ahead from the pumper. The hazards have not been formally walked down, the Co Rep has not been notified, and the permit for the specific task type is technically required but skipped because we have done this here before. Discipline is doing the authorization process on job 500 the same way you did it on job 1. Familiarity is where shortcuts are born.",
+      "fieldScenarios": [
+        "A crew arrives at a location with a verbal go-ahead from the pumper. The hazards have not been formally walked down, the Co Rep has not been notified, and the permit for the specific task type is technically required but skipped because we have done this here before. Discipline is doing the authorization process on job 500 the same way you did it on job 1. Familiarity is where shortcuts are born.",
+        "A crew is mid-job when conditions change — H2S readings climb above permit limits and a second crew arrives to begin an unrelated task at the same location. The first crew’s permit does not cover the second task. The first supervisor does not stop work — the second task seems minor. When conditions change and additional work is added to a permitted location, the permit must be reassessed. One location, one permit does not mean one permit covers everything.",
+        "A tech is at a new location for the first time. He has a work order. The pumper gave a verbal go-ahead by phone. The hazard walk-down has not been done — he figures he can identify hazards as he goes. Halfway through the job, he finds an open pit that was not mentioned in the briefing. Work authorization is not just paperwork. It is the moment where the hazards of that specific location, that specific day, are confirmed and agreed upon before the first wrench turns."
+      ],
       "discussionQuestions": [
         "What does your work authorization process actually look like on a typical day â€” is it documented, verbal, or assumed?",
         "When was the last time you stopped a job because something changed after work started? What changed?",
@@ -1790,7 +1838,7 @@ async function renderTemplate() {
         return `<div class="runsheet-content" style="margin-bottom:10px;"><strong>Week ${w.week}: ${w.theme}</strong><br><span style="font-size:13px;color:var(--muted);">${w.standard}</span></div>
                 ${photoHtml}
                 <div style="margin-bottom:14px;">${stepsHtml}</div>
-                <div class="runsheet-scenario"><strong>Field scenario:</strong> ${w.fieldScenario}</div>
+                <div class="runsheet-scenario"><strong>Field scenario:</strong> ${seededShuffle(w.fieldScenarios, dailySeed())[0]}</div>
                 <div class="runsheet-question">Ask the crew: ${seededShuffle(w.discussionQuestions, dailySeed())[0]}</div>`;
       })()
     },
@@ -1922,7 +1970,7 @@ function renderWeekCards() {
         </ul>
 
         <h4>Field Scenario</h4>
-        <div class="scenario-box">${w.fieldScenario}</div>
+        <div class="scenario-box">${seededShuffle(w.fieldScenarios, dailySeed())[0]}</div>
 
         <h4>Discussion Questions</h4>
         <ul class="question-list">
