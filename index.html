@@ -1025,7 +1025,7 @@
 
   <div class="info-card">
     <h3>Meeting format</h3>
-    <p>5:30 AM · ~10 minutes · Opening → PSMS Topic → Lessons Learned → Recognition → Ops Focus → Leadership Thought</p>
+    <p>5:30 AM · ~10 minutes · Opening → PSMS Topic → Safety Moments & Lessons → Recognition → Ops Focus → Leadership Thought</p>
   </div>
 
   <p class="section-label">Quick Access</p>
@@ -1844,17 +1844,30 @@ async function renderTemplate() {
     },
     {
       num: '3',
-      title: 'Lessons Learned',
+      title: 'Safety Moments & Lessons',
       color: 'var(--orange)',
       body: (() => {
         const _d = new Date(); const todayStr = `${_d.getFullYear()}-${String(_d.getMonth()+1).padStart(2,'0')}-${String(_d.getDate()).padStart(2,'0')}`;
-        if (daily && daily.lessonsLearned && daily.opsDate === todayStr) {
-          return `<div class="runsheet-flag">${daily.lessonsLearned}</div>`;
+        const isToday = daily && daily.opsDate === todayStr;
+        let html = '';
+
+        // Breakroom incidents block
+        if (daily && daily.lessonsLearned && isToday) {
+          html += `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--orange);margin-bottom:6px;">Breakroom — Incidents & Near-Misses</div>`;
+          html += `<div class="runsheet-flag" style="margin-bottom:14px;">${daily.lessonsLearned}</div>`;
+        } else if (!isToday) {
+          html += `<div class="runsheet-content" style="color:var(--muted);font-style:italic;margin-bottom:14px;">No Breakroom report for today yet — update runs at 8 PM.</div>`;
+        } else {
+          html += `<div class="runsheet-content" style="margin-bottom:14px;">No incidents or near-misses in last night's Breakroom summary.</div>`;
         }
-        if (daily && daily.opsDate !== todayStr) {
-          return `<div class="runsheet-content" style="color:var(--muted); font-style:italic;">No incident report for today yet — check back after the morning update, or pull from Mike's text.</div>`;
+
+        // Exxon safety moments block
+        if (daily && daily.exxonMoments) {
+          html += `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--orange);margin-bottom:6px;">Exxon Safety Moments</div>`;
+          html += `<div class="runsheet-content">${daily.exxonMoments}</div>`;
         }
-        return `<div class="runsheet-content">No incidents or near-misses reported in last night's Breakroom summary.</div>`;
+
+        return html || `<div class="runsheet-content">No safety moments captured yet today.</div>`;
       })()
     },
     {
