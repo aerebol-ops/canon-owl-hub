@@ -37,7 +37,7 @@
     line-height: 1.5;
   }
 
-  /* â”€â”€ HEADER â”€â”€ */
+  /* ── HEADER ── */
   header {
     background: var(--navy);
     color: var(--white);
@@ -104,11 +104,11 @@
     border-bottom-color: var(--red);
   }
 
-  /* â”€â”€ PAGES â”€â”€ */
+  /* ── PAGES ── */
   .page { display: none; padding: 20px; max-width: 700px; margin: 0 auto; }
   .page.active { display: block; }
 
-  /* â”€â”€ SECTION LABEL â”€â”€ */
+  /* ── SECTION LABEL ── */
   .section-label {
     font-size: 11px;
     font-weight: 700;
@@ -120,7 +120,7 @@
   }
   .section-label:first-child { margin-top: 4px; }
 
-  /* â”€â”€ DASHBOARD â”€â”€ */
+  /* ── DASHBOARD ── */
   .dashboard-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -222,7 +222,7 @@
     margin-top: 6px;
   }
 
-  /* â”€â”€ HOME CARDS â”€â”€ */
+  /* ── HOME CARDS ── */
   .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -299,7 +299,7 @@
     opacity: 0.95;
   }
 
-  /* â”€â”€ WEEK CARDS â”€â”€ */
+  /* ── WEEK CARDS ── */
   .week-card {
     border-radius: var(--radius);
     margin-bottom: 12px;
@@ -403,7 +403,7 @@
   .week-body ul li:last-child { border-bottom: none; }
 
   .week-body ul li::before {
-    content: 'â€º';
+    content: '›';
     position: absolute;
     left: 4px;
     color: var(--muted);
@@ -411,7 +411,7 @@
   }
 
   .rule-list li::before {
-    content: 'âœ“';
+    content: '✓';
     color: #375623;
     font-weight: 900;
     left: 2px;
@@ -434,7 +434,7 @@
     color: var(--text);
   }
 
-  /* â”€â”€ MEETING LOG â”€â”€ */
+  /* ── MEETING LOG ── */
   .log-card {
     background: var(--white);
     border-radius: var(--radius);
@@ -486,7 +486,7 @@
     color: var(--gold);
   }
 
-  /* â”€â”€ DOWNLOAD BUTTON â”€â”€ */
+  /* ── DOWNLOAD BUTTON ── */
   .dl-btn {
     display: block;
     background: var(--navy);
@@ -517,7 +517,7 @@
     margin-top: 2px;
   }
 
-  /* â”€â”€ FORM â”€â”€ */
+  /* ── FORM ── */
   .form-card {
     background: var(--white);
     border-radius: var(--radius);
@@ -649,7 +649,7 @@
     margin-top: 12px;
   }
 
-  /* â”€â”€ NEWS CARDS â”€â”€ */
+  /* ── NEWS CARDS ── */
   .news-card {
     background: var(--white);
     border-radius: var(--radius);
@@ -696,7 +696,7 @@
     letter-spacing: 0.3px;
   }
 
-  /* â”€â”€ OPENING OPTIONS â”€â”€ */
+  /* ── OPENING OPTIONS ── */
   .opening-option {
     font-size: 13px;
     line-height: 1.6;
@@ -712,9 +712,9 @@
 
   .opening-option:active { background: #eef4fb; }
   .opening-option.selected { border-color: var(--navy); background: #f0f4fb; }
-  .opening-option.selected::before { content: 'âœ“ '; font-weight: 900; color: var(--navy); }
+  .opening-option.selected::before { content: '✓ '; font-weight: 900; color: var(--navy); }
 
-  /* â”€â”€ RUNSHEET â”€â”€ */
+  /* ── RUNSHEET ── */
   .runsheet-header {
     background: var(--navy);
     border-radius: var(--radius);
@@ -885,14 +885,14 @@
   .runsheet-nonneg ul li:last-child { border-bottom: none; }
 
   .runsheet-nonneg ul li::before {
-    content: 'âœ“';
+    content: '✓';
     position: absolute;
     left: 0;
     color: #7ec67e;
     font-weight: 900;
   }
 
-  /* â”€â”€ FOOTER â”€â”€ */
+  /* ── FOOTER ── */
   footer {
     text-align: center;
     padding: 24px 20px 40px;
@@ -900,7 +900,7 @@
     color: var(--muted);
   }
 
-  /* â”€â”€ MODAL â”€â”€ */
+  /* ── MODAL ── */
   .modal-overlay {
     display: none;
     position: fixed;
@@ -977,7 +977,7 @@
   </nav>
 </header>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• HOME â•â•â• -->
+<!-- ═══════════════════════════════════════════════ HOME ═══ -->
 <div id="page-home" class="page active">
 
   <div class="dashboard-grid">
@@ -1025,45 +1025,45 @@
 
   <div class="info-card">
     <h3>Meeting format</h3>
-    <p>5:30 AM · ~10 minutes · Opening â†’ PSMS Topic â†’ Lessons Learned â†’ Recognition â†’ Ops Focus â†’ Leadership Thought</p>
+    <p>5:30 AM · ~10 minutes · Opening → PSMS Topic → Lessons Learned → Recognition → Ops Focus → Leadership Thought</p>
   </div>
 
   <p class="section-label">Quick Access</p>
 
   <button class="dl-btn" onclick="showPage('news', document.querySelectorAll('nav button')[1])" style="background:var(--orange);">
-    <span class="dl-icon">ðŸ“¡</span>
+    <span class="dl-icon">📡</span>
     Field News
     <span class="dl-sub">Recent flags and good calls from the field — use these in your meeting</span>
   </button>
 
   <button class="dl-btn" onclick="showPage('psms', document.querySelectorAll('nav button')[2])">
-    <span class="dl-icon">ðŸ“‹</span>
+    <span class="dl-icon">📋</span>
     View All 12 PSMS Topics
     <span class="dl-sub">Tap a week to expand standards and discussion questions</span>
   </button>
 
   <button class="dl-btn" onclick="showPage('template', document.querySelectorAll('nav button')[4])" style="background:var(--red);">
-    <span class="dl-icon">ðŸ“„</span>
+    <span class="dl-icon">📄</span>
     Today's Meeting Runsheet
     <span class="dl-sub">Pre-built agenda — open this before your 5:30 AM meeting</span>
   </button>
 
   <button class="dl-btn" onclick="showPage('submit', document.querySelectorAll('nav button')[5])" style="background:var(--teal);">
-    <span class="dl-icon">âœï¸</span>
+    <span class="dl-icon">✏️</span>
     Submit Your Week Review
-    <span class="dl-sub">Submit an Owl review anytime â†’ goes directly to Mike</span>
+    <span class="dl-sub">Submit an Owl review anytime → goes directly to Mike</span>
   </button>
 
 </div>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• NEWS â•â•â• -->
+<!-- ═══════════════════════════════════════════════ NEWS ═══ -->
 <div id="page-news" class="page">
   <p class="section-label" style="margin-top:20px;">From the Field</p>
   <p style="font-size:13px; color:var(--muted); margin-bottom:16px; margin-top:-8px;">Real situations from your crew, recent days. Use these in your meeting — they're already yours.</p>
   <div id="news-container"></div>
 </div>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• PSMS â•â•â• -->
+<!-- ═══════════════════════════════════════════════ PSMS ═══ -->
 <div id="page-psms" class="page">
   <p class="section-label" style="margin-top:20px;">12-Week Curriculum — PSMS Topics</p>
   <div id="week-cards-container">
@@ -1071,7 +1071,7 @@
   </div>
 </div>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• LOG â•â•â• -->
+<!-- ═══════════════════════════════════════════════ LOG ═══ -->
 <div id="page-log" class="page">
   <p class="section-label" style="margin-top:20px;">Historic Meeting Log</p>
   <div id="log-container">
@@ -1079,13 +1079,13 @@
   </div>
 </div>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• TEMPLATE â•â•â•â• -->
+<!-- ═════════════════════════════════════════ TEMPLATE ════ -->
 <div id="page-template" class="page">
   <p class="section-label" style="margin-top:20px;">Today's Meeting Runsheet</p>
   <div id="template-container"></div>
 </div>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• SUBMIT â•â•â•â•â• -->
+<!-- ═════════════════════════════════════════ SUBMIT ═════ -->
 <div id="page-submit" class="page">
   <div class="form-card" id="owl-review-form">
     <h2>Owl Review</h2>
@@ -1126,12 +1126,12 @@
     <label for="r-improve">What would you do differently if you owned it again next week?</label>
     <textarea id="r-improve" placeholder="Honest answer only."></textarea>
 
-    <button class="submit-btn" onclick="submitReview()" style="margin-top:24px; width:100%;">Send to Mike â†’</button>
+    <button class="submit-btn" onclick="submitReview()" style="margin-top:24px; width:100%;">Send to Mike →</button>
     <p style="margin-top:12px; color:var(--muted); font-size:12px; text-align:center;">Opens your Mail app with this review pre-filled. Hit Send.</p>
   </div>
 
   <div id="owl-review-sent" class="form-card" style="display:none; text-align:center;">
-    <div style="font-size:48px; margin-bottom:12px;">âœ“</div>
+    <div style="font-size:48px; margin-bottom:12px;">✓</div>
     <h2 style="color:var(--teal);">Review Sent</h2>
     <p class="form-sub">Mike has your review. Good work this week.</p>
     <button class="submit-btn" onclick="resetReview()" style="margin-top:16px;">Submit Another</button>
@@ -1144,7 +1144,7 @@
 </footer>
 
 <script>
-// â”€â”€ DAILY SEED SHUFFLE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── DAILY SEED SHUFFLE ────────────────────────────────────
 // Deterministic per day: same order on reload, different order tomorrow.
 function dailySeed() {
   const _d = new Date();
@@ -1161,7 +1161,7 @@ function seededShuffle(arr, seed) {
   return a;
 }
 
-// â”€â”€ DATA â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── DATA ──────────────────────────────────────────────────
 // Inline content so the site works without a server.
 // To update: edit content.json and run the update script,
 // or paste new values directly into the DATA object below.
@@ -1685,7 +1685,7 @@ const DATA = {
   }
 };
 
-// â”€â”€ WEATHER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── WEATHER ───────────────────────────────────────────────
 async function loadWeather() {
   const el = document.getElementById('weather-content');
   try {
@@ -1701,17 +1701,17 @@ async function loadWeather() {
       const rain = d.daily.precipitation_probability_max[i];
       return `<div class="weather-day">
         <span class="weather-day-name">${day}</span>
-        <span class="weather-temp">${Math.round(d.daily.temperature_2m_max[i])}Â°</span>
-        <span class="weather-detail">${Math.round(d.daily.temperature_2m_min[i])}Â° low<br>${cond}<br>${wind}mph · ${rain}% rain</span>
+        <span class="weather-temp">${Math.round(d.daily.temperature_2m_max[i])}°</span>
+        <span class="weather-detail">${Math.round(d.daily.temperature_2m_min[i])}° low<br>${cond}<br>${wind}mph · ${rain}% rain</span>
       </div>`;
     }).join('');
     el.innerHTML = rows;
   } catch(e) {
-    el.innerHTML = '<a class="dash-fallback" href="https://forecast.weather.gov/MapClick.php?CityName=Andrews&state=TX&site=MAF" target="_blank">View NWS Forecast â†’</a>';
+    el.innerHTML = '<a class="dash-fallback" href="https://forecast.weather.gov/MapClick.php?CityName=Andrews&state=TX&site=MAF" target="_blank">View NWS Forecast →</a>';
   }
 }
 
-// â”€â”€ MARKETS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── MARKETS ───────────────────────────────────────────────
 async function loadMarkets() {
   const el = document.getElementById('market-content');
   try {
@@ -1719,7 +1719,7 @@ async function loadMarkets() {
     const d = await res.json();
     const fmt = (label, q) => {
       const cls = q.change >= 0 ? 'market-change-up' : 'market-change-down';
-      const arrow = q.change >= 0 ? 'â–²' : 'â–¼';
+      const arrow = q.change >= 0 ? '▲' : '▼';
       return `<div class="market-row">
         <span class="market-label">${label}</span>
         <span>
@@ -1732,12 +1732,12 @@ async function loadMarkets() {
     el.innerHTML = fmt('WTI Crude', d.wti) + fmt('Nat Gas', d.ng) +
       `<div class="dash-timestamp">Updated ${updated} UTC</div>`;
   } catch(e) {
-    el.innerHTML = `<div class="market-row"><span class="market-label">WTI Crude</span><a class="dash-fallback" href="https://finance.yahoo.com/quote/CL=F/" target="_blank">Check price â†’</a></div>
-    <div class="market-row"><span class="market-label">Nat Gas</span><a class="dash-fallback" href="https://finance.yahoo.com/quote/NG=F/" target="_blank">Check price â†’</a></div>`;
+    el.innerHTML = `<div class="market-row"><span class="market-label">WTI Crude</span><a class="dash-fallback" href="https://finance.yahoo.com/quote/CL=F/" target="_blank">Check price →</a></div>
+    <div class="market-row"><span class="market-label">Nat Gas</span><a class="dash-fallback" href="https://finance.yahoo.com/quote/NG=F/" target="_blank">Check price →</a></div>`;
   }
 }
 
-// â”€â”€ OWL REVIEW â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── OWL REVIEW ────────────────────────────────────────────
 function submitReview() {
   const name    = document.getElementById('r-name').value.trim();
   const week    = document.getElementById('r-week').value;
@@ -1791,13 +1791,13 @@ function resetReview() {
   document.getElementById('owl-review-form').style.display = 'block';
 }
 
-// â”€â”€ OPENING SELECTION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── OPENING SELECTION ─────────────────────────────────────
 function selectOpening(el) {
   document.querySelectorAll('.opening-option').forEach(o => o.classList.remove('selected'));
   el.classList.add('selected');
 }
 
-// â”€â”€ RENDER TEMPLATE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── RENDER TEMPLATE ───────────────────────────────────────
 let _daily = null; // module-level so updateStats() can read it
 async function renderTemplate() {
   // fetch daily.json for leadership thought + ops content
@@ -1932,22 +1932,22 @@ async function renderTemplate() {
   document.getElementById('template-container').innerHTML = html;
 }
 
-// â”€â”€ RENDER NEWS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── RENDER NEWS ───────────────────────────────────────────
 function renderNews() {
   const container = document.getElementById('news-container');
   const _items = (_daily && _daily.fieldNews && _daily.fieldNews.length) ? _daily.fieldNews : DATA.news;
   const items = seededShuffle(_items, dailySeed());
   container.innerHTML = items.length ? items.map(n => `
     <div class="news-card ${n.type}">
-      <div class="news-badge">${n.type === 'flag' ? 'âš  Flag' : 'âœ“ Good Call'}</div>
+      <div class="news-badge">${n.type === 'flag' ? '⚠ Flag' : '✓ Good Call'}</div>
       <div class="news-headline">${n.headline}</div>
       <div class="news-detail">${n.detail}</div>
-      ${n.psms ? `<div class="news-psms">â†’ ${n.psms}</div>` : ''}
+      ${n.psms ? `<div class="news-psms">→ ${n.psms}</div>` : ''}
     </div>
   `).join('') : '<p style="color:var(--muted); font-style:italic; padding:16px;">No field news yet today.</p>';
 }
 
-// â”€â”€ RENDER WEEK CARDS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── RENDER WEEK CARDS ──────────────────────────────────────
 function renderWeekCards() {
   const container = document.getElementById('week-cards-container');
   container.innerHTML = DATA.weeks.map((w, i) => `
@@ -1958,7 +1958,7 @@ function renderWeekCards() {
           <div class="theme">${w.theme}</div>
           <div class="psms">PSMS: ${w.psms}</div>
         </div>
-        <div class="week-chevron">â€º</div>
+        <div class="week-chevron">›</div>
       </div>
       <div class="week-body">
         <h4>Standard</h4>
@@ -1986,7 +1986,7 @@ function toggleWeek(index) {
   card.classList.toggle('expanded');
 }
 
-// â”€â”€ RENDER MEETING LOG â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── RENDER MEETING LOG ─────────────────────────────────────
 function renderLog() {
   const container = document.getElementById('log-container');
   container.innerHTML = DATA.meetingLog.map(m => `
@@ -1995,12 +1995,12 @@ function renderLog() {
       <div class="log-topic">${m.topic}</div>
       <div class="log-psms">PSMS: ${m.psms} · Led by ${m.leader}</div>
       <div class="log-detail">${m.keyPoints}</div>
-      ${m.recognition ? `<div class="log-recognition"><strong>â˜… Recognition:</strong> ${m.recognition}</div>` : ''}
+      ${m.recognition ? `<div class="log-recognition"><strong>★ Recognition:</strong> ${m.recognition}</div>` : ''}
     </div>
   `).join('');
 }
 
-// â”€â”€ STATS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── STATS ──────────────────────────────────────────────────
 function updateStats() {
   document.getElementById('stat-weeks').textContent = DATA.weeks.length;
   document.getElementById('stat-meetings').textContent = DATA.meetingLog.length;
@@ -2008,7 +2008,7 @@ function updateStats() {
   document.getElementById('version').textContent = (_daily && _daily.date) ? _daily.date : DATA.meta.version;
 }
 
-// â”€â”€ PAGE NAV â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── PAGE NAV ───────────────────────────────────────────────
 function showPage(name, btn) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
@@ -2017,7 +2017,7 @@ function showPage(name, btn) {
   window.scrollTo(0, 0);
 }
 
-// â”€â”€ FORM SUBMISSION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── FORM SUBMISSION ────────────────────────────────────────
 function sendOwlReview() {
   const name = document.getElementById('owl-name').value || '(not provided)';
   const weekEl = document.getElementById('owl-week');
@@ -2061,7 +2061,7 @@ function sendOwlReview() {
   document.getElementById('owl-form').style.display = 'none';
 }
 
-// â”€â”€ INIT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── INIT ───────────────────────────────────────────────────
 loadWeather();
 loadMarkets();
 renderNews();
