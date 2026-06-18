@@ -1025,7 +1025,7 @@
 
   <div class="info-card">
     <h3>Meeting format</h3>
-    <p>5:30 AM · ~10 minutes · Opening → PSMS Topic → Safety Moments & Lessons Learned → Recognition → Ops Focus → Leadership Thought</p>
+    <p>5:30 AM · ~10 minutes · Opening → PSMS Topic → Safety Moments & Lessons Learned → Recognition → Leadership Thought</p>
   </div>
 
   <p class="section-label">Quick Access</p>
@@ -1890,18 +1890,6 @@ async function renderTemplate() {
     },
     {
       num: '6',
-      title: 'Operational Focus',
-      color: 'var(--teal)',
-      body: `<div class="runsheet-content">Cover active jobs, locations, and anything carrying forward from yesterday. If someone is waiting on parts, a permit, or a crew — say it out loud. The crew needs to know what's moving and what isn't before they hit the road.</div>
-             <div class="runsheet-scenario" style="border-color:var(--teal); background:#eef4fb;">${(() => {
-               if (!daily) return 'No Breakroom summary available. Pull from Mike\'s text and field notes.';
-               const _d = new Date(); const todayStr = `${_d.getFullYear()}-${String(_d.getMonth()+1).padStart(2,'0')}-${String(_d.getDate()).padStart(2,'0')}`;
-               if (daily.opsDate !== todayStr) return `<em style="color:var(--muted);">No Breakroom summary for today yet — last update was ${daily.opsDate}. Pull from Mike's text and field notes until the morning update runs.</em>`;
-               return daily.opsContent;
-             })()}</div>`
-    },
-    {
-      num: '7',
       title: 'Leadership Thought',
       color: '#375623',
       body: `<div class="runsheet-content" style="margin-bottom:8px;"><strong>This week: ${w.theme}</strong></div>
