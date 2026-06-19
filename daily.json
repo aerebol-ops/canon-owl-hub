@@ -5,10 +5,10 @@
   "openingMessage": "The field doesn't care how your morning started. It cares whether you're ready. Let's make sure we are.",
   "openingAttribution": null,
   "leadershipThought": "Disciplined people don't rise to the occasion — they fall back on their systems. When pressure arrives, habits take over. Build the right habits before the pressure gets here.",
-  "opsDate": "2026-06-16",
-  "opsContent": "<strong>Active Jobs (2026-06-16):</strong><br>• Seinfeld Yada flowback (Jeremy Torrence): 4 bottles empty, 4 bottles at 2100psi<br>• Michael Hutt (Gate out): AOL handover completed ~5:04 AM<br>• Justin Pack: Flagged need for more 0.1–2% H2S tubes on flowbacks + mask wipes<br>• Dennis Easley: AOL on Gipple flowback; air and tube inventory nearly complete — 5 full boxes at SM Gipple<br>• John Delagarza: AOL at Maralo HL Fed Com #1H — 6:43 AM<br>• Michael Hutt: Separator #122 bleed-off ordered; separator confirmed offline at 6:41 AM<br>• Tube count logged at Coonskin: CO2 1–20% (170), CO2 0.25–3% (10), H2S 100–2000 ppm (55), H2S 25–250 ppm (7), H2S 0.1–2% (17)<br>• SM Coonskin started 0900, #152 at 4,000<br>• Brook N-13WG 207H (unspecified crew): MT and crew present, 7:44 AM<br>• Jordan Lemmons: Had to back-track to pad; notified JR of delay — started Penbrook/Pembrook job, testing got 0s at 10:10 AM<br>• Caleb Smith: Stone Gist W45J #10H — permit live, reconnect started, 7:51 AM; arrived on location ~10:44 AM<br>• Larry Jaramillo: Shackleford 29-17L 12H continuing + Shackleford 29-17M 13H arrived 7:52 AM<br>• Louie Zarate: Arrived Emma Jane — late notice, waiting on pumper to LOTO tester #3, 8:17 AM<br>• Jacob Hernandez: Glass job starting after safety meeting, 10:25 AM<br>• Alex Clubb: On standby pumping on well — 11:45 AM<br>• Cindy Smith: Finished up, headed to Texas ten — 11:52 AM<br>• Stefanie Kirschke: Reached next location, waiting on crew and MT — 11:59 AM<br>• Dawson Drake: AOL at Giddings — 12:07 PM<br>• Edward Carrillo: Arrived Lane 11A #7 — crane and bucket crew present, waiting on MT<br>• Nathan Contreras: Done at University 7-14GG, heading to next location ~1 PM; arrived Mabee 1D #1 ~2:08 PM<br>• Alex Clubb: Finished Glass R #1, routed to Howard — 1:02 PM; arrived on Howard ~2:27 PM<br>• Ray Solis: Swapped trailers at Coonskins (dropped 125, picked up 507), back to shop — 2:24 PM<br>• Dawson Drake: Job complete, heading to shop — 2:25 PM<br>• Stefanie Kirschke: Job complete, heading to shop — 2:28 PM<br>• All five wells still shut in (Justin Pack) — 3:56 PM<br>• Ralph Forbes: Packing up SM Chicken Noodle Tank battery clean out — Trailer #600, cascade right side tanks 800 psi / 2000 psi, left side 4500 psi / 4000 psi — 3:58 PM<br>• Caleb Smith: Job complete, to shop — 3:58 PM<br>• Louie Zarate: Done at Emma Jane. Note: Tyler wants crew to arrive one hour earlier tomorrow due to heat — 4:00 PM<br>• Jacob Hernandez: Glass N starting — 4:09 PM<br>• Justin Pack: Shift change with BJ on First Tee Pad — 4:35 PM<br>• JF (Alex?): Howard #3 complete; heading to shop — 4:22 PM<br>• Brianda Sandoval: Successful well testing quarter job complete, back to shop — 4:55 PM<br>• Jacob Hernandez: Glass K #1 complete — atmospheric test clear, Co Rep released — 6:13 PM<br><br><strong>Carry-Forward:</strong><br>• [ ] Resupply 0.1–2% H2S tubes to Coonskin location (Michael Hutt)<br>• [ ] More 0.1–2% H2S tubes + mask wipes needed for flowbacks (Justin Pack)<br>• [ ] Separator #122 (SM Coonskin) — confirm back online or status update<br>• [ ] **Tomorrow AM: Andrews shop meeting at 0530** — all personnel except those on rigs, flowbacks, and workovers (Ralph and Marylou go direct to shift change locations)<br>• [ ] Confirm bird's nest in equipment was cleared<br>• [ ] **Heat advisory**: Tyler directing Emma Jane crew to arrive one hour earlier tomorrow<br>",
-  "lessonsLearned": "• <strong>Separator #122 offline</strong> (SM Coonskin): Bleed-off ordered and confirmed offline 6:41 AM. Monitor for resolution.<br>• <strong>Bird's nest in equipment</strong>: Photo posted in group chat — potential hazard; location not specified. Worth confirming it was cleared before equipment use.<br>• <strong>Jordan Lemmons delayed</strong>: Back-tracked to pad, notified JR of late arrival.<br>",
-  "exxonMoments": "<strong>Simultaneous Operations — Adjacent Crew Cross-Briefing</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>When two crews share a pad, cross-brief each other's job scope and exclusion zones before anyone picks up a tool.</span><br><br><strong>The disconnect got done quickly and safely before the rig got to locat</strong> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>The disconnect got done quickly and safely before the rig got to location.</span><br><br><strong>Pre-Job Tailgate — Multi-Trade Coordination</strong> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Loop every trade on location into the tailgate — electricians, roustabouts, and technicians all need to know the exclusion zones before the first break.</span><br><br><strong>Positive Observation — Well Disconnect with Forklift and Hand Tools</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Pre-job planning with forklift operations keeps the work moving safely — confirm signals before the equipment moves, not after.</span><br><br><strong>Leak Identified Before Disconnect — Supplied Air Precaution</strong> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continuous air monitoring empowers real-time protection decisions — if you find a leak before you break containment, treat supplied air as the default, not the fallback.</span>",
+  "opsDate": "2026-06-18",
+  "opsContent": "<strong>Active Jobs (2026-06-18):</strong><br>• <strong>Marylou Guerra</strong>: SM Energy Schlitz A — pausing job, returning tomorrow to continue separator cleaning and NORM<br>• <strong>Ralph Forbes</strong>: Dropped trailer at Schlitz A<br>• <strong>Caleb Smith</strong>: Shull Hanks 15C #203H rescheduled — workover rig directly in work area, rerouted to Bizzell Irvin. Bizzell Irvin 15C #16 complete. MT requested follow-on reconnect at Texas Ten #3610H — waiting on forklift and permit at day's end<br>• <strong>Nathan Contreras</strong>: Arrived TB Ringo<br>• <strong>Louie Zarate</strong>: Emma Jane (poor cell service on arrival)<br>• <strong>Cindy Smith</strong>: Brook O<br>• <strong>Jacob Hernandez</strong>: Shackelford 28H complete → Shackelford 404H begun → Shackelford 405H begun<br>• <strong>Raymundo \"Ray\" Solis</strong>: Ellis complete → Robbie 17-8<br>• <strong>Joseph Popillion</strong>: O 32 29 #4215 — waiting to commence then job complete, headed to shop<br>• <strong>Jordan Lemmons</strong>: Started pumping on well<br>• <strong>Alex Clubb</strong>: Vessel disconnect — butterfly valve found damaged internally, vessel pulled for service, waiting on Orlando for plan<br>• <strong>Michael Hutt</strong>: SM Coonskin — 1500 hr pull on #152 reading 4,000 ppm H2S<br>• <strong>Dennis Easley</strong>: SM Energy Gipple 124H at 11,000 ppm; 154H at 3,000 ppm H2S<br>• <strong>Brianda Sandoval</strong>: McDaniel B Chriesman — 2 VRU units complete; moved to Brynn 1-10H Battery for 1 VRU unit, inspecting electrical<br>• <strong>Jimmy \"Great\" White</strong>: AGT Williams Nail 5H #8H with Gage<br><br><strong>Carry-Forward:</strong><br>• [ ] Butterfly valve — Bizzell area vessel: confirm resolution plan from Orlando before next visit<br>• [ ] SM Coonskin #152 — confirm 4,000 ppm H2S status resolved or escalated<br>• [ ] Gipple 124H / 154H — confirm atmospheric monitoring plan for next crew visit<br>• [ ] Bizzell Irvin #15 casing valve — confirm grease unit completed repair<br>• [ ] Texas Ten #3610H (Caleb Smith) — confirm forklift and permit secured for next day<br>• [ ] Marylou Guerra — SM Energy Schlitz A separator cleaning resumes tomorrow<br>• [ ] **Tomorrow AM: Andrews shop 5:30 AM safety meeting** — all except rig/flowback/workover (go direct to shift change). Carlsbad crew goes straight to location.<br>• [ ] Exxon trailer/benzene assignments confirmed for tomorrow (Ray/Anthony 607&7; Andrew/Justin F 602&2; Larry/Dermont 603&3; Ralph/Cindy 605&5; Nathan/Joseph 604&4; Caleb/Gage 606&6; Stefanie/Allen 601&1; David H/David Z 608&8; Bri trailer 272 SM Maintenance; Jordan/Baldemar contingency mid-morning)<br>",
+  "lessonsLearned": "• <strong>Damaged butterfly valve — H2S exposure risk</strong> (Alex Clubb): Separator known for H2S — initial read 15 ppm. Crew put under supplied air for first break. Post-break re-test showed zeros on butterfly valve underbelly at AGT. Butterfly valve found damaged internally — vessel pulled for service. Waiting on Orlando for resolution plan.<br>• <strong>SM Coonskin #152 — 4,000 ppm H2S</strong> (Michael Hutt): 1500 hr pull reading elevated H2S. Monitor status.<br>• <strong>Gipple 124H / 154H — high H2S</strong> (Dennis Easley): 124H at 11,000 ppm; 154H at 3,000 ppm. Elevated atmospheric readings at both wells.<br>• <strong>Casing valve not holding</strong> (Caleb Smith): Bizzell Irvin #15 — casing valve issue identified, waiting on grease unit before proceeding.<br>• <strong>SimOps job rescheduled</strong> (Caleb Smith): Shull Hanks 15C #203H — workover rig occupying the work area, job rescheduled and crew rerouted.<br>",
+  "exxonMoments": "<strong>Simultaneous Operations — Adjacent Crew Cross-Briefing</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>When two crews share a pad, cross-brief each other's job scope and exclusion zones before anyone picks up a tool.</span><br><br><strong>The disconnect got done quickly and safely before the rig got to locat</strong> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>The disconnect got done quickly and safely before the rig got to location.</span><br><br><strong>Crew followed procedures verified zero energy and maintained good communica</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew followed procedures verified zero energy and maintained good communication</span><br><br><strong>With the valve leaking we waited for a grease unit to come and fix the valv</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Did we leave the location better Yes.</span><br><br><strong>Operational Discipline — 1099 Trevor Mckenzie</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Did we leave the location better Yes.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -60,44 +60,38 @@
     },
     {
       "type": "good",
-      "headline": "Caleb Smith",
-      "detail": "Kahoots quiz winner at 5:30 AM meeting — 10/10 in fastest time (called out by Michael Lyons Jr). Dawson Drake calling rematch.",
-      "psms": null
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke",
-      "detail": "thanked Jordan Lemmons and Ray Solis for help.",
-      "psms": null
-    },
-    {
-      "type": "good",
-      "headline": "Anthony Scott",
-      "detail": "welcomed back to the team — joined the org at 5:17 PM.",
-      "psms": null
-    },
-    {
-      "type": "good",
-      "headline": "Brianda Sandoval",
-      "detail": "Successful well testing quarter job noted.",
+      "headline": "Louie Zarate",
+      "detail": "SM maintenance foreman Shane and HSE Colton visited Emma Jane and were \"really happy\" with vessel washouts and location cleanliness after a month on site. Colton specifically called out Louie's JSA as \"very detailed\" and told him to keep it up.",
       "psms": null
     },
     {
       "type": "flag",
-      "headline": "Separator #122 offline",
-      "detail": "(SM Coonskin): Bleed-off ordered and confirmed offline 6:41 AM. Monitor for resolution.",
+      "headline": "Damaged butterfly valve — H2S exposure risk",
+      "detail": "(Alex Clubb): Separator known for H2S — initial read 15 ppm. Crew put under supplied air for first break. Post-break re-test showed zeros on butterfly valve underbelly at AGT. Butterfly valve found damaged internally — vessel pulled for service. Waiting on Orlando for resolution plan.",
       "psms": null
     },
     {
       "type": "flag",
-      "headline": "Bird's nest in equipment",
-      "detail": "Photo posted in group chat — potential hazard; location not specified. Worth confirming it was cleared before equipment use.",
+      "headline": "SM Coonskin #152 — 4,000 ppm H2S",
+      "detail": "(Michael Hutt): 1500 hr pull reading elevated H2S. Monitor status.",
       "psms": null
     },
     {
       "type": "flag",
-      "headline": "Jordan Lemmons delayed",
-      "detail": "Back-tracked to pad, notified JR of late arrival.",
+      "headline": "Gipple 124H / 154H — high H2S",
+      "detail": "(Dennis Easley): 124H at 11,000 ppm; 154H at 3,000 ppm. Elevated atmospheric readings at both wells.",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Casing valve not holding",
+      "detail": "(Caleb Smith): Bizzell Irvin #15 — casing valve issue identified, waiting on grease unit before proceeding.",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "SimOps job rescheduled",
+      "detail": "(Caleb Smith): Shull Hanks 15C #203H — workover rig occupying the work area, job rescheduled and crew rerouted.",
       "psms": null
     }
   ],
