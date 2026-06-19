@@ -954,6 +954,43 @@
   }
 
   .modal-body { padding: 20px; }
+
+  /* ── Share Summary Button ── */
+  .share-summary-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 16px;
+    background: var(--orange);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,.18);
+  }
+  .share-summary-btn svg { flex-shrink: 0; }
+
+  /* ── Print / PDF layout ── */
+  @media print {
+    body > *:not(#print-summary) { display: none !important; }
+    #print-summary {
+      display: block !important;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      color: #111;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+  }
+  #print-summary { display: none; }
 </style>
 </head>
 <body>
@@ -1928,9 +1965,93 @@ async function renderTemplate() {
         ], dailySeed() + 1).map(item => `<li>${item}</li>`).join('')}
       </ul>
     </div>
+
+    <button class="share-summary-btn" onclick="shareMeetingSummary()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/>
+      </svg>
+      Share Meeting Summary (PDF)
+    </button>
   `;
 
   document.getElementById('template-container').innerHTML = html;
+}
+
+// ── SHARE MEETING SUMMARY (PDF) ───────────────────────────
+function shareMeetingSummary() {
+  const d = _daily;
+  const w = DATA.weeks[Math.min((d ? d.week : 1) - 1, DATA.weeks.length - 1)];
+  const today = new Date();
+  const dateStr = today.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  const seed = dailySeed();
+
+  const opening   = d ? d.openingMessage    : '';
+  const attr      = d ? d.openingAttribution : null;
+  const thought   = d ? d.leadershipThought  : '';
+  const challenge = d ? d.todaysChallenge    : '';
+  const scenario  = seededShuffle(w.fieldScenarios, seed)[0] || '';
+  const question  = seededShuffle(w.discussionQuestions, seed)[0] || '';
+  const lessons   = d ? d.lessonsLearned  : null;
+  const exxon     = d ? d.exxonMoments    : null;
+
+  // Collect recognition from fieldNews
+  const recog = (d && d.fieldNews)
+    ? d.fieldNews.filter(n => n.type === 'good').map(n =>
+        `<li><strong>${n.headline}</strong>${n.detail ? ' — ' + n.detail : ''}</li>`
+      ).join('')
+    : '';
+
+  const html = `<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>Canon Safety — Morning Meeting Summary ${dateStr}</title>
+<style>
+  body { font-family: Arial, sans-serif; font-size: 13px; color: #111; max-width: 720px; margin: 0 auto; padding: 24px; }
+  h1 { font-size: 18px; color: #C05000; margin: 0 0 2px; }
+  .sub { font-size: 12px; color: #666; margin: 0 0 20px; }
+  h2 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em;
+       color: #fff; background: #C05000; padding: 6px 10px; margin: 18px 0 8px; border-radius: 4px; }
+  h2.green  { background: #375623; }
+  h2.teal   { background: #1a6b6b; }
+  h2.purple { background: #5a3a7e; }
+  p, li { margin: 4px 0; line-height: 1.5; }
+  ul { margin: 6px 0 0 18px; padding: 0; }
+  .quote { font-style: italic; border-left: 3px solid #C05000; padding-left: 10px; margin: 8px 0; color: #333; }
+  .footer { margin-top: 28px; padding-top: 10px; border-top: 1px solid #ddd;
+            font-size: 11px; color: #888; text-align: center; }
+  strong { color: #000; }
+</style></head><body>
+<h1>Canon Safety — Morning Meeting</h1>
+<p class="sub">${dateStr} &nbsp;·&nbsp; 5:30 AM &nbsp;·&nbsp; Week ${w.week}: ${w.theme}</p>
+
+<h2>1 — Opening</h2>
+<p class="quote">${opening}${attr ? `<br><em style="font-size:12px;">— ${attr}</em>` : ''}</p>
+
+<h2>2 — PSMS Topic: ${w.psmsWeekLabel || w.theme}</h2>
+<p><strong>Today's Field Scenario:</strong></p>
+<p>${scenario}</p>
+<p><strong>Discussion Question:</strong> ${question}</p>
+
+<h2 class="teal">3 — Safety Moments &amp; Lessons Learned</h2>
+${lessons ? `<p><strong>Breakroom — Incidents &amp; Near-Misses</strong></p><p>${lessons.replace(/<br>/g,'</p><p>')}</p>` : '<p>No incidents flagged.</p>'}
+${exxon   ? `<p><strong>Exxon Safety Moments</strong></p><p>${exxon.replace(/<br><br>/g,'</p><p>').replace(/<br>/g,' ')}</p>` : ''}
+
+<h2 class="green">4 — Recognition</h2>
+${recog ? `<ul>${recog}</ul>` : '<p>None noted today.</p>'}
+
+<h2 class="purple">5 — Leadership Thought</h2>
+<p><em>This week: ${w.theme}</em></p>
+<p class="quote">${thought}</p>
+
+${challenge ? `<h2>Today's Challenge</h2><p>${challenge}</p>` : ''}
+
+<div class="footer">Canon Safety · Owl Leader Hub · ${dateStr} · <em>This summary was generated from the 5:30 AM morning meeting.</em></div>
+</body></html>`;
+
+  const win = window.open('', '_blank');
+  if (!win) { alert('Allow pop-ups to share the meeting summary.'); return; }
+  win.document.write(html);
+  win.document.close();
+  win.focus();
+  setTimeout(() => win.print(), 400);
 }
 
 // ── RENDER NEWS ───────────────────────────────────────────
