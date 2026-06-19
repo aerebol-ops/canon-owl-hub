@@ -1981,69 +1981,123 @@ async function renderTemplate() {
 function shareMeetingSummary() {
   const d = _daily;
   const w = DATA.weeks[Math.min((d ? d.week : 1) - 1, DATA.weeks.length - 1)];
-  const today = new Date();
-  const dateStr = today.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  const dateStr = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
   const seed = dailySeed();
 
-  const opening   = d ? d.openingMessage    : '';
-  const attr      = d ? d.openingAttribution : null;
-  const thought   = d ? d.leadershipThought  : '';
-  const challenge = d ? d.todaysChallenge    : '';
-  const scenario  = seededShuffle(w.fieldScenarios, seed)[0] || '';
+  // Section data — mirrors the exact sections array in renderTemplate()
+  const opening   = d ? d.openingMessage    : "The field doesn't care how your morning started. It cares whether you're ready. Let's make sure we are.";
+  const attr      = d && d.openingAttribution ? d.openingAttribution : null;
+  const scenario  = seededShuffle(w.fieldScenarios,     seed)[0] || '';
   const question  = seededShuffle(w.discussionQuestions, seed)[0] || '';
-  const lessons   = d ? d.lessonsLearned  : null;
-  const exxon     = d ? d.exxonMoments    : null;
+  const lessons   = d ? d.lessonsLearned : null;
+  const exxon     = d ? d.exxonMoments   : null;
+  const challenge = d ? d.todaysChallenge : "Before leaving a location today — ask yourself: What is one thing I can improve before I drive away?";
+  const challengeSub = d ? d.todaysChallengeSubtext : "Not because someone is watching. Because excellence is a habit. And habits become character.";
+  const thought   = d ? d.leadershipThought : 'Own the process. Own the verify. Own the outcome.';
 
-  // Collect recognition from fieldNews
-  const recog = (d && d.fieldNews)
+  // Recognition: pull "good" cards from fieldNews that have real content (not just "check Field News")
+  const recogItems = (d && d.fieldNews)
     ? d.fieldNews.filter(n => n.type === 'good').map(n =>
-        `<li><strong>${n.headline}</strong>${n.detail ? ' — ' + n.detail : ''}</li>`
+        `<li><strong>${n.headline}</strong>${n.detail && n.detail !== 'Breakroom recognition' ? '<br><span style="color:#555;">' + n.detail + '</span>' : ''}</li>`
       ).join('')
     : '';
 
+  // Strip HTML tags for clean plain-text rendering in print (keep <strong> and <br>)
+  const clean = s => s ? s.replace(/<(?!\/?(strong|br))[^>]+>/g, '') : '';
+
+  // Section 3 content
+  const todayCheck = (() => { const t = new Date(); return `${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,'0')}-${String(t.getDate()).padStart(2,'0')}`; })();
+  const isToday = d && d.opsDate === todayCheck;
+  let sec3 = '';
+  if (lessons && isToday)  sec3 += `<p class="label">Breakroom — Incidents &amp; Near-Misses</p><div class="box flag">${clean(lessons)}</div>`;
+  else                     sec3 += `<div class="box muted">No Breakroom incidents flagged for today.</div>`;
+  if (exxon)               sec3 += `<p class="label" style="margin-top:12px;">Exxon Safety Moments</p><div class="box">${clean(exxon).replace(/<br><br>/g,'</div><div class="box" style="margin-top:8px;">')}</div>`;
+
   const html = `<!DOCTYPE html><html><head><meta charset="utf-8">
-<title>Canon Safety — Morning Meeting Summary ${dateStr}</title>
+<title>Canon Safety — Morning Meeting ${dateStr}</title>
 <style>
-  body { font-family: Arial, sans-serif; font-size: 13px; color: #111; max-width: 720px; margin: 0 auto; padding: 24px; }
-  h1 { font-size: 18px; color: #C05000; margin: 0 0 2px; }
-  .sub { font-size: 12px; color: #666; margin: 0 0 20px; }
-  h2 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em;
-       color: #fff; background: #C05000; padding: 6px 10px; margin: 18px 0 8px; border-radius: 4px; }
-  h2.green  { background: #375623; }
-  h2.teal   { background: #1a6b6b; }
-  h2.purple { background: #5a3a7e; }
-  p, li { margin: 4px 0; line-height: 1.5; }
-  ul { margin: 6px 0 0 18px; padding: 0; }
-  .quote { font-style: italic; border-left: 3px solid #C05000; padding-left: 10px; margin: 8px 0; color: #333; }
-  .footer { margin-top: 28px; padding-top: 10px; border-top: 1px solid #ddd;
-            font-size: 11px; color: #888; text-align: center; }
-  strong { color: #000; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #111; max-width: 700px; margin: 0 auto; padding: 28px 24px; }
+  .masthead { border-bottom: 3px solid #C05000; padding-bottom: 10px; margin-bottom: 20px; }
+  .masthead h1 { font-size: 20px; color: #C05000; font-weight: 800; letter-spacing: -.01em; }
+  .masthead p  { font-size: 12px; color: #666; margin-top: 3px; }
+  .section { margin-bottom: 16px; page-break-inside: avoid; }
+  .sec-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .num { width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+         font-size: 11px; font-weight: 800; color: #fff; flex-shrink: 0; }
+  .sec-title { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
+  .box { background: #f7f7f7; border-left: 3px solid #ccc; padding: 10px 12px; border-radius: 0 4px 4px 0; line-height: 1.6; }
+  .box.flag { border-color: #C05000; background: #fff5f0; }
+  .box.muted { color: #888; font-style: italic; }
+  .box.quote { border-color: #375623; background: #f0f5ee; font-style: italic; }
+  .box.challenge { border-color: #b00; background: #fff5f5; font-weight: 600; font-size: 14px; }
+  .label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: #888; margin: 8px 0 4px; }
+  .sub-note { font-size: 12px; color: #666; font-style: italic; margin-top: 6px; }
+  .attr { font-size: 11px; color: #888; font-style: italic; margin-top: 5px; }
+  li { margin-left: 16px; margin-bottom: 4px; line-height: 1.5; }
+  strong { font-weight: 700; }
+  .footer { margin-top: 28px; padding-top: 10px; border-top: 1px solid #ddd; font-size: 11px; color: #aaa; text-align: center; }
 </style></head><body>
-<h1>Canon Safety — Morning Meeting</h1>
-<p class="sub">${dateStr} &nbsp;·&nbsp; 5:30 AM &nbsp;·&nbsp; Week ${w.week}: ${w.theme}</p>
+<div class="masthead">
+  <h1>Canon Safety — Morning Meeting</h1>
+  <p>${dateStr} &nbsp;·&nbsp; 5:30 AM &nbsp;·&nbsp; Week ${w.week}: ${w.theme}</p>
+</div>
 
-<h2>1 — Opening</h2>
-<p class="quote">${opening}${attr ? `<br><em style="font-size:12px;">— ${attr}</em>` : ''}</p>
+<div class="section">
+  <div class="sec-header">
+    <div class="num" style="background:#1b2a4a;">1</div>
+    <div class="sec-title" style="color:#1b2a4a;">Opening Message</div>
+  </div>
+  <div class="box quote">${opening}</div>
+  ${attr ? `<div class="attr">— ${attr}</div>` : ''}
+</div>
 
-<h2>2 — PSMS Topic: ${w.psmsWeekLabel || w.theme}</h2>
-<p><strong>Today's Field Scenario:</strong></p>
-<p>${scenario}</p>
-<p><strong>Discussion Question:</strong> ${question}</p>
+<div class="section">
+  <div class="sec-header">
+    <div class="num" style="background:#b00;">2</div>
+    <div class="sec-title" style="color:#b00;">PSMS — ${w.psms}</div>
+  </div>
+  <p class="label">Today's Field Scenario</p>
+  <div class="box">${scenario}</div>
+  <p class="label" style="margin-top:8px;">Discussion Question</p>
+  <div class="box">${question}</div>
+</div>
 
-<h2 class="teal">3 — Safety Moments &amp; Lessons Learned</h2>
-${lessons ? `<p><strong>Breakroom — Incidents &amp; Near-Misses</strong></p><p>${lessons.replace(/<br>/g,'</p><p>')}</p>` : '<p>No incidents flagged.</p>'}
-${exxon   ? `<p><strong>Exxon Safety Moments</strong></p><p>${exxon.replace(/<br><br>/g,'</p><p>').replace(/<br>/g,' ')}</p>` : ''}
+<div class="section">
+  <div class="sec-header">
+    <div class="num" style="background:#C05000;">3</div>
+    <div class="sec-title" style="color:#C05000;">Safety Moments &amp; Lessons Learned</div>
+  </div>
+  ${sec3}
+</div>
 
-<h2 class="green">4 — Recognition</h2>
-${recog ? `<ul>${recog}</ul>` : '<p>None noted today.</p>'}
+<div class="section">
+  <div class="sec-header">
+    <div class="num" style="background:#b00;">4</div>
+    <div class="sec-title" style="color:#b00;">Today's Challenge</div>
+  </div>
+  <div class="box challenge">${challenge}</div>
+  <div class="sub-note">${challengeSub}</div>
+</div>
 
-<h2 class="purple">5 — Leadership Thought</h2>
-<p><em>This week: ${w.theme}</em></p>
-<p class="quote">${thought}</p>
+<div class="section">
+  <div class="sec-header">
+    <div class="num" style="background:#b8a000;">5</div>
+    <div class="sec-title" style="color:#b8a000;">Recognition</div>
+  </div>
+  ${recogItems ? `<ul>${recogItems}</ul>` : '<div class="box muted">Check Field News and Mike\'s text from last night.</div>'}
+</div>
 
-${challenge ? `<h2>Today's Challenge</h2><p>${challenge}</p>` : ''}
+<div class="section">
+  <div class="sec-header">
+    <div class="num" style="background:#375623;">6</div>
+    <div class="sec-title" style="color:#375623;">Leadership Thought</div>
+  </div>
+  <div class="sub-note" style="margin-bottom:6px;">This week: ${w.theme}</div>
+  <div class="box quote">${thought}</div>
+</div>
 
-<div class="footer">Canon Safety · Owl Leader Hub · ${dateStr} · <em>This summary was generated from the 5:30 AM morning meeting.</em></div>
+<div class="footer">Canon Safety · Owl Leader Hub · ${dateStr} · Generated from the 5:30 AM morning meeting</div>
 </body></html>`;
 
   const win = window.open('', '_blank');
