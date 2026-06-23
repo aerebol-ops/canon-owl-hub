@@ -1,67 +1,37 @@
 {
   "date": "2026-06-22",
   "week": 2,
-  "day": 1,
-  "openingMessage": "The meeting isn't the safety program. The meeting is where we sharpen it. The field is where we prove it.",
+  "day": 3,
+  "openingMessage": "Protect the group. Protect the work. Our jobs, our clients, and our reputation depend on it.",
   "openingAttribution": null,
-  "leadershipThought": "Communication is how we execute as a team. Teams that communicate best — win. Before you speak, ask: what outcome am I trying to create? If you don't define the outcome, you default to emotion.",
+  "leadershipThought": "Vague words create confusion. Precision builds trust and leadership. Say what is true, as clearly as possible. Not emotional. Not exaggerated. Not passive aggressive.",
   "opsDate": "2026-06-21",
-  "opsContent": "<strong>Active Jobs (2026-06-21):</strong><br>• <strong>Alex Clubb</strong>: Ran safety meeting, placed one under air for first break. Separator known for H2S — 15 ppm initial read. Post-break re-test: zeros on butterfly valve underbelly at AGT. Butterfly valve found damaged internally — vessel pulled for service. Waiting on Orlando for resolution plan.<br>• <strong>Michael Hutt</strong>: SM Coonskin #152 — 0900 H2S pull reading 3,000 ppm (down from 4,000 ppm on 06-18, still elevated). Flagged tubes low — only 10 left, needs resupply Monday.<br>• <strong>Caleb Smith</strong>: Shull Hanks 15C #203H — workover rig in work area, job rescheduled. Rerouted to Bizzell Irvin then Texas Ten.<br>• <strong>Ralph Forbes</strong>: TRD C4 — having difficulty killing well, ordered 90 more barrels of brine. Back at Carlsbad with trailer.<br>• <strong>Marylou Guerra</strong>: Schlitz A CTB — separator work and NORM complete for day, returning Monday to continue.<br>• <strong>Jacob Hernandez</strong>: Shackelford 404H — atmospheric test conducted, area confirmed safe, Co Rep released crew, job complete.<br>• <strong>Justin Pack (H&P 395)</strong>: Suction tank 32 ppm H2S detected during fluid transfer from frac tanks — crew monitoring. Drilling ahead 2,900 ft, fast holing.<br>• <strong>Louie Zarate</strong>: Emma Jane — SM maintenance foreman Shane and HSE Colton on location all morning, very happy with vessel washouts and cleanliness. Colton called JSA \"very detailed.\"<br>• <strong>Dawson Drake</strong>: Rig 373 rig-down complete. Added four Elsa hydration bottles to rig 438 proactively.<br><br><strong>Carry-Forward into Monday June 22:</strong><br>• [ ] Butterfly valve separator (Alex Clubb) — confirm Orlando's resolution plan before next visit<br>• [ ] SM Coonskin #152 — 3,000 ppm H2S, confirm status resolved or escalated<br>• [ ] TRD C4 well kill (Ralph Forbes) — confirm well killed, 90 barrels brine ordered<br>• [ ] Shull Hanks 15C #203H (Caleb Smith) — rescheduled, confirm new date and plan<br>• [ ] Tubes resupply (Michael Hutt) — only 10 left, needs order before Monday ops<br>• [ ] Schlitz A separator/NORM (Marylou Guerra) — resumes Monday<br>• [ ] University 7-20C #3H (David Hammond) — return after flange resolved<br>• [ ] Monday AM: Andrews shop 5:30 AM safety meeting — Carlsbad crew go straight to location<br>",
-  "lessonsLearned": "• <strong>Butterfly valve — H2S exposure + internal damage</strong> (Alex Clubb): Separator known for H2S — 15 ppm initial read. Crew placed under supplied air for first break. Post-break re-test showed zeros on butterfly valve underbelly at AGT. Butterfly valve found damaged internally — vessel pulled for service, waiting on Orlando's plan.<br>• <strong>SM Coonskin #152 — 3,000 ppm H2S</strong> (Michael Hutt): 0900 pull still elevated. Down from 4,000 ppm on 06-18 but not cleared. Monitor status into Monday.<br>• <strong>Suction tank 32 ppm H2S at H&P 395</strong> (Justin Pack): Detected during fluid transfer from frac tanks. Crew monitoring proactively; flagged at shift change.<br>• <strong>Well kill difficulty — TRD C4</strong> (Ralph Forbes): Having issues killing the well, ordered 90 more barrels of brine. Status pending Monday confirmation.<br>• <strong>SimOps rescheduled — Shull Hanks 15C #203H</strong> (Caleb Smith): Workover rig directly in work area, crew rerouted to Bizzell Irvin.<br>",
-  "exxonMoments": "<strong>SWA on Wellhead Reconnect — Unsecured Equipment</strong> <span style='font-size:12px;color:#666;'>(Breaking Containment)</span><br><span style='font-size:13px;'>Crew found a chemical tote out of position before a wellhead reconnect. Work stopped, tote secured, then proceeded. Before you break containment at a wellhead, physically verify all nearby equipment is in its correct position — don't assume the previous crew left it ready.</span><br><br><strong>Multiple Containment Breaks — Weather Contingency Was Missing</strong> <span style='font-size:12px;color:#666;'>(Breaking Containment)</span><br><span style='font-size:13px;'>Full controls were in place for a multi-break job, but weather contingencies were never discussed in the pre-job meeting. When the plan includes multiple containment breaks, build weather contingency into the tailgate — the crew needs a clear plan if conditions change mid-job.</span><br><br><strong>First Break Under Air — H2S Present at Wellhead</strong> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>H2S detected at Tb Jeter before the first break. Crew placed one person under supplied air to make the break safely. Spills mitigated, job finished properly. With H2S at the wellhead, first break happens under air — that is the standard, not the exception.</span><br><br><strong>Bleed-Down SWA — Wind Shifted, Trucks Repositioned</strong> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>During a well bleed-down, MT called SWA when wind shifted and vacuum pump exhaust turned toward the crew. Hoses and trucks repositioned downwind before work continued. Monitor wind continuously during bleed-down — when it shifts, stop and reposition before anyone is in the exhaust plume.</span><br><br><strong>Leak Found Before Line Break — Supplied Air Is the Default</strong> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crew detected a leak during disconnect prep and reported it to the company rep before breaking the line. Continuous monitoring confirmed H2S and benzene present. Crew placed under supplied air for first break as a precaution, not a reaction. If you find a leak before containment is broken, supplied air is the default — not the fallback.</span>",
+  "opsContent": "<strong>Active Jobs (2026-06-21):</strong><br>• <strong>Michael Hutt</strong>: Gate out early AM. Starting shift, handover complete. SM Energy Coonskin — 0900 H2S pull at #152 reading 3,000 ppm (carry-forward from 4,000 ppm on 06-18). Flagged tubes low — only 10 left, needs resupply Monday.<br>• <strong>Dennis Easley</strong>: Handoff completed @ Gipple 5:30 AM. AOL on Gipple 124H handoff complete with Bryn.<br>• <strong>Justin Pack (H&P 395 rig)</strong>: Shift change 5:47 AM. Up on pits and rig floor doing rounds. Shakers 0 ppm H2S; suction tank 32 ppm while transferring fluid from frac tanks — monitoring in place. Bit depth ~2,900 ft, fast holing, 0 ppm H2S, rig crew mixing LCM.<br>• <strong>Larry Taylor</strong>: SM Energy Gipple 214 — finished pulling packer.<br>• <strong>John Delagarza</strong>: AOL at Maralo HL Fed Com #1H (6:41 AM).<br>• <strong>Nathan Contreras</strong>: Arrived Shull Hanks 15C 203#, pulling unit still on well. Rerouted to TB Ringo (7:38 AM).<br>• <strong>Caleb Smith</strong>: Arrived on location (7:08 AM). Shull Hanks 15C #203H — workover rig in work area, job rescheduled. Rerouted to Bizzell Irvin then Texas Ten (1:12 PM).<br>• <strong>David Hammond</strong>: Arrived University 7-20C #3H (7:20 AM). Stalled waiting on flange — moved to next location, planned return after completion.<br>• <strong>Baldemar Bracamontes</strong>: Arrived Windham R S 2824WB (7:18 AM).<br>• <strong>Larry Jaramillo</strong>: Texas Ten Miles 37C, 6H (7:18 AM) → job complete (9:53 AM) → University 10-1, 10D SWD complete → shop (1:17 PM).<br>• <strong>Louie Zarate</strong>: At Emma Jane (poor cell service). SM maintenance foreman Shane and HSE Colton on location — very happy with vessel washouts, location cleanliness after a month on site. Colton called Louie's JSA \"very detailed\" and told him to keep it up.<br>• <strong>Robert Wright</strong>: Job complete, headed to shop (11:29 AM).<br>• <strong>Joseph Popillion</strong>: Drogon 2 complete (11:33 AM). Gun Up O 32-29 #4215 complete (1:47 PM), headed to shop.<br>• <strong>Andrew Bailey</strong>: Brook N-13WD 204H arrived (10:46 AM) → Brook N-13EQ 217H finished (11:58 AM).<br>• <strong>Justin Fontenot</strong>: TB Jeter — starting WAME and line of fire review (10:00 AM).<br>• <strong>Jordan Lemmons</strong>: Parks MT complete, released, headed to shop (1:27 PM).<br>• <strong>Dermont Morgan</strong>: Finishing location, moved to next job (10:22 AM).<br>• <strong>Brianda Sandoval</strong>: Litterbox Battery arrived 1:45 PM, almost done. Back to shop (4:25 PM).<br>• <strong>Stefanie Kirschke</strong>: Job done, headed back (2:37 PM).<br>• <strong>Ralph Forbes</strong>: Started TRD C 4 (1:29 PM). Having difficulty killing well — ordered 90 more barrels of brine. Back at Carlsbad hotel with trailer (7:54 PM).<br>• <strong>Marylou Guerra</strong>: Schlitz A CTB — Travis did one separator, Dawson and Bobby finished separator from prior day, Marylou did NORM. Coming back Monday to continue.<br>• <strong>Dawson Drake</strong>: Rig 373 rig-down complete. Added four Elsa hydration bottles on rig 438 — one by drono line, one extra in doghouse, two by sink on mud pit (12:11 PM).<br>• <strong>Marcos Morales</strong>: Ovintiv/H&P rig #551 / Fasken Ghost Tree / H2S Supervision — no H2S, done circulating, tripping out of hole (11:28 AM).<br>• <strong>Jacob Hernandez</strong>: Shackelford 406H arrived (9:28 AM) → 404H begun (12:36 PM) → 404H complete, atmospheric test confirmed safe, Co Rep released crew, headed to shop (1:51 PM).<br>• <strong>Alex Clubb</strong>: Ran safety meeting, placed one under air for first break. Separator known for H2S — 15 ppm initial read. Post-break re-test: zeros on butterfly valve underbelly at AGT. Butterfly valve found damaged internally. Vessel pulled for service. Waiting on Orlando for resolution plan (12:30 PM).<br>• <strong>Anthony Scott</strong>: Flagged rain south of Midland by 349 — \"Be safe y'all\" (6:55 AM).<br><br><strong>Carry-Forward:</strong><br>• [ ] **Alex Clubb — Butterfly valve / H2S separator**: Confirm Orlando's resolution plan before next visit<br>• [ ] **Michael Hutt — SM Coonskin #152**: 3,000 ppm H2S — confirm status resolved or escalated<br>• [ ] **Ralph Forbes — TRD C4 well kill**: Confirm well killed successfully; 90 barrels brine ordered<br>• [ ] **Caleb Smith — Shull Hanks 15C #203H**: Rescheduled — confirm new date and plan<br>• [ ] **Michael Hutt — Tubes resupply**: Only 10 left, needs order before Monday operations<br>• [ ] **Marylou Guerra — Schlitz A**: Separator cleaning and NORM work resumes Monday<br>• [ ] **David Hammond — University 7-20C #3H**: Return after flange issue resolved<br>",
+  "lessonsLearned": null,
+  "exxonMoments": "<strong>Everything went well on location</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything went well on location</span><br><br><strong>Operational Discipline — Andrew Bailey</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Did we leave the location better Yes.</span><br><br><strong>We were able to rig trailer upwind without having to move and had clear com</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>We were able to rig trailer upwind without having to move and had clear communication</span><br><br><strong>Job was completed as planned</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Did we leave the location better Yes.</span><br><br><strong>Communication utilized in pulling rod from well</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Did we leave the location better Yes.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Louie Zarate — Colton called his JSA 'very detailed'",
-      "detail": "SM maintenance foreman Shane and HSE Colton visited Emma Jane and were really happy with vessel washouts and location cleanliness after a month on site. Colton specifically called out Louie's JSA as 'very detailed' and told him to keep it up.",
+      "headline": "Louie Zarate",
+      "detail": "SM maintenance foreman Shane and HSE Colton visited Emma Jane and were \"really happy\" with vessel washouts and location cleanliness after a month on site. Colton specifically called out Louie's JSA as \"very detailed\" and told him to keep it up.",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez — Shackelford 404H clean execution",
-      "detail": "Atmospheric test conducted before wrap-up, area confirmed safe. Co Rep released crew. Job complete with all controls verified in the field.",
+      "headline": "Jacob Hernandez",
+      "detail": "Shackelford 404H complete with atmospheric test conducted and area confirmed safe before Co Rep released crew.",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Dawson Drake — Proactive hydration setup on rig 438",
-      "detail": "Added four Elsa hydration bottles across rig 438 ahead of summer heat — one by drono line, one in doghouse, two by sink on mud pit. Left it better than they found it.",
+      "headline": "Dawson Drake",
+      "detail": "Proactively added four Elsa hydration bottles across rig 438 ahead of summer heat.",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Justin Pack — Proactive monitoring at shift change",
-      "detail": "Up on pits and rig floor doing rounds immediately at shift change. Flagged suction tank at 32 ppm H2S during fluid transfer — didn't wait to be told, caught it early.",
-      "psms": null
-    },
-    {
-      "type": "flag",
-      "headline": "Butterfly valve — internal damage + H2S (Alex Clubb)",
-      "detail": "Separator known for H2S — 15 ppm on initial read. Crew under supplied air for first break. Post-break re-test: zeros on butterfly valve underbelly at AGT. Valve damaged internally — vessel pulled for service. Waiting on Orlando's resolution plan.",
-      "psms": null
-    },
-    {
-      "type": "flag",
-      "headline": "SM Coonskin #152 — 3,000 ppm H2S (Michael Hutt)",
-      "detail": "0900 pull still reading elevated H2S. Down from 4,000 ppm on 06-18 but not cleared. Monitor status — confirm resolved or escalated before next crew visit.",
-      "psms": null
-    },
-    {
-      "type": "flag",
-      "headline": "Suction tank 32 ppm H2S — H&P 395 (Justin Pack)",
-      "detail": "Detected during fluid transfer from frac tanks. Crew monitoring. Flagged proactively at shift change.",
-      "psms": null
-    },
-    {
-      "type": "flag",
-      "headline": "Well kill difficulty — TRD C4 (Ralph Forbes)",
-      "detail": "Having issues killing the well — ordered 90 more barrels of brine. Ralph back at Carlsbad with trailer. Confirm resolution Monday.",
-      "psms": null
-    },
-    {
-      "type": "flag",
-      "headline": "SimOps rescheduled — Shull Hanks 15C #203H (Caleb Smith)",
-      "detail": "Workover rig directly in work area, crew rerouted to Bizzell Irvin. Confirm rescheduled date and plan for Monday.",
+      "headline": "Justin Pack",
+      "detail": "Up on pits and rig floor doing monitoring rounds immediately at shift change; flagged suction tank H2S reading proactively.",
       "psms": null
     }
   ],
