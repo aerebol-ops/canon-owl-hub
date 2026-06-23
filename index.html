@@ -230,6 +230,118 @@
     margin-bottom: 20px;
   }
 
+  .compliance-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 16px;
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+  }
+  .compliance-card .comp-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .compliance-card .comp-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: 0.2px;
+  }
+  .compliance-card .comp-week {
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .compliance-card .comp-body {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .compliance-card .comp-donut-wrap {
+    flex-shrink: 0;
+    position: relative;
+    width: 110px;
+    height: 110px;
+  }
+  .compliance-card .comp-center {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+  }
+  .compliance-card .comp-center-pct {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1;
+  }
+  .compliance-card .comp-center-lbl {
+    font-size: 9px;
+    color: var(--muted);
+    line-height: 1.4;
+    margin-top: 2px;
+  }
+  .compliance-card .comp-metrics {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .compliance-card .comp-row-label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 3px;
+  }
+  .compliance-card .comp-swatch {
+    width: 9px; height: 9px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .compliance-card .comp-lbl-text {
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.2;
+  }
+  .compliance-card .comp-row-nums {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    margin-bottom: 4px;
+  }
+  .compliance-card .comp-big {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .compliance-card .comp-of {
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .compliance-card .comp-pct {
+    margin-left: auto;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .compliance-card .comp-bar-track {
+    height: 4px;
+    background: #eef0f2;
+    border-radius: 2px;
+  }
+  .compliance-card .comp-bar-fill {
+    height: 4px;
+    border-radius: 2px;
+  }
+  .compliance-card .comp-footer {
+    border-top: 1px solid var(--border);
+    padding-top: 10px;
+    margin-top: 12px;
+    font-size: 11px;
+    color: var(--muted);
+  }
+
   .stat-card {
     background: var(--white);
     border-radius: var(--radius);
@@ -1037,6 +1149,24 @@
       <div class="stat-num" id="stat-meetings">2</div>
       <div class="stat-label">Meetings Logged</div>
     </div>
+  </div>
+
+  <div class="compliance-card" id="compliance-widget" style="display:none;">
+    <div class="comp-header">
+      <span class="comp-title">Weekly Compliance</span>
+      <span class="comp-week" id="comp-week-label"></span>
+    </div>
+    <div class="comp-body">
+      <div class="comp-donut-wrap">
+        <canvas id="compDonut" width="110" height="110" role="img" aria-label="Compliance donut chart"></canvas>
+        <div class="comp-center">
+          <div class="comp-center-pct" id="comp-avg-pct">—</div>
+          <div class="comp-center-lbl">avg</div>
+        </div>
+      </div>
+      <div class="comp-metrics" id="comp-metrics-list"></div>
+    </div>
+    <div class="comp-footer" id="comp-footer"></div>
   </div>
 
   <div class="creed-card">
@@ -2276,14 +2406,73 @@ function sendOwlReview() {
   document.getElementById('owl-form').style.display = 'none';
 }
 
+// ── COMPLIANCE WIDGET ──────────────────────────────────────
+let _compChart = null;
+function renderCompliance(daily) {
+  if (!daily || !daily.compliance) return;
+  const c = daily.compliance;
+  const widget = document.getElementById('compliance-widget');
+  if (!widget) return;
+  widget.style.display = 'block';
+
+  document.getElementById('comp-week-label').textContent = 'Week of ' + (c.weekOf || '');
+
+  const COLORS = ['#1F3864', '#C55A11', '#375623'];
+  const metrics = c.metrics || [];
+  const pcts = metrics.map(m => Math.round(m.done / m.total * 100));
+  const avg = pcts.length ? Math.round(pcts.reduce((a,b)=>a+b,0)/pcts.length) : 0;
+  document.getElementById('comp-avg-pct').textContent = avg + '%';
+
+  const list = document.getElementById('comp-metrics-list');
+  list.innerHTML = metrics.map((m, i) => {
+    const pct = pcts[i];
+    const color = COLORS[i % COLORS.length];
+    return `<div>
+      <div class="comp-row-label">
+        <span class="comp-swatch" style="background:${color};"></span>
+        <span class="comp-lbl-text">${m.label}</span>
+      </div>
+      <div class="comp-row-nums">
+        <span class="comp-big">${m.done}</span>
+        <span class="comp-of">/ ${m.total}</span>
+        <span class="comp-pct" style="color:${color};">${pct}%</span>
+      </div>
+      <div class="comp-bar-track">
+        <div class="comp-bar-fill" style="background:${color};width:${pct}%;"></div>
+      </div>
+    </div>`;
+  }).join('');
+
+  const foot = document.getElementById('comp-footer');
+  foot.innerHTML = c.footerNote ? c.footerNote : '';
+
+  const canvas = document.getElementById('compDonut');
+  if (!canvas) return;
+  if (_compChart) { _compChart.destroy(); _compChart = null; }
+  const data = [], colors = [];
+  const GAP = '#e8eaed';
+  metrics.forEach((m, i) => {
+    data.push(pcts[i], 100 - pcts[i]);
+    colors.push(COLORS[i % COLORS.length], GAP);
+  });
+  if (typeof Chart !== 'undefined') {
+    _compChart = new Chart(canvas, {
+      type: 'doughnut',
+      data: { datasets: [{ data, backgroundColor: colors, borderWidth: 0, hoverOffset: 0 }] },
+      options: { responsive: false, cutout: '68%', plugins: { legend: { display: false }, tooltip: { enabled: false } }, animation: { duration: 500 }, events: [] }
+    });
+  }
+}
+
 // ── INIT ───────────────────────────────────────────────────
 loadWeather();
 loadMarkets();
 renderNews();
-renderTemplate().then(() => { updateStats(); renderNews(); });
+renderTemplate().then(() => { updateStats(); renderNews(); renderCompliance(_daily); });
 renderWeekCards();
 renderLog();
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </body>
 </html>
