@@ -2233,61 +2233,17 @@ function shareMeetingSummary() {
   const today = new Date();
   const fileDate = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
 
-  // Fallback: open in new tab and print if html2pdf didn't load
-  if (typeof html2pdf === 'undefined') {
-    const win = window.open('', '_blank');
-    if (win) { win.document.write(html); win.document.close(); win.focus(); win.print(); }
-    else { alert('PDF blocked — allow pop-ups for this site, then try again.'); }
-    return;
+  // Use Blob URL — open HTML in new tab, browser renders natively, user saves as PDF
+  // This is more reliable than html2canvas on mobile and avoids blank-page rendering bugs
+  const blob = new Blob([html], { type: 'text/html' });
+  const url  = URL.createObjectURL(blob);
+  const win  = window.open(url, '_blank');
+  if (win) {
+    win.onload = () => { URL.revokeObjectURL(url); win.focus(); win.print(); };
+  } else {
+    URL.revokeObjectURL(url);
+    alert('Pop-ups are blocked. Allow pop-ups for this site in your browser, then try again.');
   }
-
-  // Build a hidden off-screen container for html2pdf rendering
-  const container = document.createElement('div');
-  container.style.cssText = 'position:absolute;left:-9999px;top:0;width:720px;background:#fff;overflow:visible;';
-  const bodyMatch = html.match(/<body>([\s\S]*)<\/body>/);
-  container.innerHTML = bodyMatch ? bodyMatch[1] : html;
-  const styleEl = document.createElement('style');
-  styleEl.textContent = `* { box-sizing: border-box; margin: 0; padding: 0; }
-    body,div { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #111; }
-    .masthead { border-bottom: 3px solid #C05000; padding-bottom: 10px; margin-bottom: 20px; }
-    .masthead h1 { font-size: 20px; color: #C05000; font-weight: 800; }
-    .masthead p  { font-size: 12px; color: #666; margin-top: 3px; }
-    .section { margin-bottom: 16px; }
-    .sec-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
-    .num { width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 800; color: #fff; flex-shrink: 0; }
-    .sec-title { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
-    .box { background: #f7f7f7; border-left: 3px solid #ccc; padding: 10px 12px; border-radius: 0 4px 4px 0; line-height: 1.6; }
-    .box.flag { border-color: #C05000; background: #fff5f0; }
-    .box.muted { color: #888; font-style: italic; }
-    .box.quote { border-color: #375623; background: #f0f5ee; font-style: italic; }
-    .box.challenge { border-color: #b00; background: #fff5f5; font-weight: 600; font-size: 14px; }
-    .label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: #888; margin: 8px 0 4px; }
-    .sub-note { font-size: 12px; color: #666; font-style: italic; margin-top: 6px; }
-    .attr { font-size: 11px; color: #888; font-style: italic; margin-top: 5px; }
-    li { margin-left: 16px; margin-bottom: 4px; line-height: 1.5; }
-    strong { font-weight: 700; }
-    .footer { margin-top: 28px; padding-top: 10px; border-top: 1px solid #ddd; font-size: 11px; color: #aaa; text-align: center; }`;
-  container.prepend(styleEl);
-  document.body.appendChild(container);
-
-  html2pdf()
-    .set({
-      margin: [12, 14, 12, 14],
-      filename: `Canon-Safety-Meeting-${fileDate}.pdf`,
-      html2canvas: { scale: 2, useCORS: true, logging: false, allowTaint: true },
-      jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
-      pagebreak: { mode: ['avoid-all', 'css'] }
-    })
-    .from(container)
-    .save()
-    .then(() => { if (document.body.contains(container)) document.body.removeChild(container); })
-    .catch(err => {
-      if (document.body.contains(container)) document.body.removeChild(container);
-      console.error('html2pdf error:', err);
-      const win = window.open('', '_blank');
-      if (win) { win.document.write(html); win.document.close(); win.focus(); win.print(); }
-      else { alert('PDF failed — allow pop-ups for this site, then try again.'); }
-    });
 }
 
 // ── RENDER NEWS ───────────────────────────────────────────
@@ -2486,6 +2442,5 @@ renderWeekCards();
 renderLog();
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </body>
 </html>
