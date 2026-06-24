@@ -342,6 +342,38 @@
     color: var(--muted);
   }
 
+  .compliance-note-card {
+    background: #fffbf0;
+    border: 1px solid #f0e0a0;
+    border-left: 4px solid #C55A11;
+    border-radius: var(--radius);
+    padding: 12px 14px;
+    margin-bottom: 20px;
+  }
+  .compliance-note-card .cn-header {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 6px;
+  }
+  .compliance-note-card .cn-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: #C55A11;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+  .compliance-note-card .cn-from {
+    font-size: 11px;
+    color: var(--muted);
+    margin-left: auto;
+  }
+  .compliance-note-card .cn-body {
+    font-size: 13px;
+    color: var(--text);
+    line-height: 1.5;
+  }
+
   .stat-card {
     background: var(--white);
     border-radius: var(--radius);
@@ -1167,6 +1199,16 @@
       <div class="comp-metrics" id="comp-metrics-list"></div>
     </div>
     <div class="comp-footer" id="comp-footer"></div>
+  </div>
+
+  <div class="compliance-note-card">
+    <div class="cn-header">
+      <span class="cn-label">&#128270; Focus This Week</span>
+      <span class="cn-from">— Kyle &amp; Kelby</span>
+    </div>
+    <div class="cn-body">
+      Please focus on communicating faulty equipment so it can be prioritized and fixed in a timely manner. Canon wants things fixed &#x1F642;
+    </div>
   </div>
 
   <div class="creed-card">
