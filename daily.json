@@ -36,5 +36,14 @@
     }
   ],
   "todaysChallenge": "Before you speak on the next job — ask yourself: What outcome am I trying to create?",
-  "todaysChallengeSubtext": "If you can't answer that, don't speak yet. Outcome-driven communication solves problems. Emotion-driven communication creates them."
+  "todaysChallengeSubtext": "If you can't answer that, don't speak yet. Outcome-driven communication solves problems. Emotion-driven communication creates them.",
+  "compliance": {
+    "weekOf": "2026-06-23",
+    "metrics": [
+      { "label": "Trailer inspections", "done": 18, "total": 22 },
+      { "label": "Benzene calibrations", "done": 14, "total": 16 },
+      { "label": "On-time arrival", "done": 20, "total": 22 }
+    ],
+    "footerNote": "Update numbers in daily.json each Monday morning."
+  }
 }
