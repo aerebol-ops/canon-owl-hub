@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-23",
+  "date": "2026-06-24",
   "week": 2,
-  "day": 4,
-  "openingMessage": "The oilfield is not made for everyone. It is made for the gritty. The disciplined. The dependable. This industry rewards preparation, effort, and ownership — not excuses.",
+  "day": 5,
+  "openingMessage": "Nobody wins alone. Nobody builds a company alone. Nobody protects a location alone. We succeed by winning the small daily battles.",
   "openingAttribution": null,
-  "leadershipThought": "Observation → Impact → Request. That is the structure. Use it before the job starts, not after something goes wrong.",
+  "leadershipThought": "Assume people are trying to do the right thing. But standards do not move. You can hold both.",
   "opsDate": "2026-06-23",
   "opsContent": "<strong>Active Jobs (2026-06-23):</strong><br>• <strong>Larry Taylor</strong>: SM Energy Gipple 134 — bleeding well off to flare stack, rig shut down for maintenance, waiting on mechanic (4:47 AM).<br>• <strong>John Delagarza</strong>: AOL at Maralo HL Fed Com #1H (5:44 AM).<br>• <strong>Freddy V</strong>: H&P 264 — 5,661\" hole depth, alarms tested, all equipment confirmed (5:47 AM).<br>• <strong>Ralph Forbes</strong>: On Pratt Vaughn 151 #109h (6:02 AM) → On Site University 6-48a #101H (10:28 AM). Waiting on Exxon update for job status (1:40 PM).<br>• <strong>Jacob Hernandez</strong>: Arrived on Poppy Atrelle (early AM) → Arrived on Williams — nail rig still on well, rigging down, waiting on MT (11:05 AM) → Job started (1:44 PM).<br>• <strong>Nathan Contreras</strong>: Job done, heading to next location (10:23 AM) → Arrived on Mary 18-7-H 4415H (10:48 AM).<br>• <strong>Alex Clubb</strong>: Christi — vac truck pulling bulk separator, strong smell with monitors going off at 10:44 AM. Gas coming from unidentified line at end of vac truck — not the vent line. 31 ppm H2S on crew, mustered upwind. Update 1:39 PM: 97 ppm H2S off bleeder on gas line from bulk separator. Update 2:53 PM: going back under air to close manway, returning Wednesday to tackle sludge and gases from vessel.<br>• <strong>Michael Hutt</strong>: SM Coonskin pad — job extended through June 29 (1:39 PM). Gated out end of shift (4:35 PM).<br>• <strong>Dawson Drake</strong>: Both crews done — cleaned out a new separator and finished the one from yesterday (2:56 PM).<br>• <strong>Marcos Morales</strong>: Job at Glass L #3 cancelled and rescheduled, heading back to shop (3:07 PM).<br>• <strong>David Hammond</strong>: \"In each binder there are these laminated\" — shared Primary Emergency Hospitals card being added to crew binders (4:33 PM).<br><br><strong>Carry-Forward:</strong><br>• [ ] **Alex Clubb — Christi**: Back Wednesday to tackle sludge and gases from vessel. Air monitoring and supplied air required from arrival.<br>• [ ] **Michael Hutt — SM Coonskin**: Extended through June 29. Confirm monitoring plan and H2S status before crew visits.<br>• [ ] **Ralph Forbes — University 6-48A #101H**: Confirm Exxon job status update before mobilizing.<br>• [ ] **Dennis Easley / Larry Taylor — Gipple**: SM Energy Gipple 134 rig down for maintenance (06-23). Gipple 124H H2S run (Dennis — ongoing). Confirm both locations have current escalation and monitoring plan.<br>",
   "lessonsLearned": null,
@@ -36,14 +36,5 @@
     }
   ],
   "todaysChallenge": "Before you speak on the next job — ask yourself: What outcome am I trying to create?",
-  "todaysChallengeSubtext": "If you can't answer that, don't speak yet. Outcome-driven communication solves problems. Emotion-driven communication creates them.",
-  "compliance": {
-    "weekOf": "2026-06-23",
-    "metrics": [
-      { "label": "Trailer inspections", "done": 18, "total": 22 },
-      { "label": "Benzene calibrations", "done": 14, "total": 16 },
-      { "label": "On-time arrival", "done": 20, "total": 22 }
-    ],
-    "footerNote": "Update numbers in daily.json each Monday morning."
-  }
+  "todaysChallengeSubtext": "If you can't answer that, don't speak yet. Outcome-driven communication solves problems. Emotion-driven communication creates them."
 }
