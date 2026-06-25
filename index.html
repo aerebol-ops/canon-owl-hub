@@ -2095,8 +2095,20 @@ async function renderTemplate() {
       num: '5',
       title: 'Recognition',
       color: 'var(--gold)',
-      body: `<div class="runsheet-content">Name someone from the crew. Be specific — what did they do and why does it matter to everyone standing here. Recognition that names a behavior is recognition that repeats it.</div>
-             <div class="runsheet-scenario" style="border-color:var(--gold); background:#fffbee;">Check Field News and Mike's text from last night — names and reasons are there.</div>`
+      body: (() => {
+        if (daily && daily.fieldNews && daily.fieldNews.filter(n => n.type === 'good').length) {
+          const items = daily.fieldNews.filter(n => n.type === 'good').map(n =>
+            `<div style="padding:10px 12px; background:#fffbee; border-left:3px solid var(--gold); border-radius:0 6px 6px 0; margin-bottom:8px;">
+               <div style="font-weight:700; font-size:14px; color:var(--text);">${n.headline}</div>
+               ${n.detail ? `<div style="font-size:13px; color:#555; margin-top:4px; line-height:1.5;">${n.detail}</div>` : ''}
+               ${n.psms ? `<div style="font-size:11px; color:var(--muted); margin-top:4px;">PSMS: ${n.psms}</div>` : ''}
+             </div>`
+          ).join('');
+          return `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gold);margin-bottom:8px;">Today's Recognition</div>${items}`;
+        }
+        return `<div class="runsheet-content">Name someone from the crew. Be specific — what did they do and why does it matter to everyone standing here. Recognition that names a behavior is recognition that repeats it.</div>
+                <div class="runsheet-scenario" style="border-color:var(--gold); background:#fffbee;">Check Field News and Mike's text from last night — names and reasons are there.</div>`;
+      })()
     },
     {
       num: '6',
