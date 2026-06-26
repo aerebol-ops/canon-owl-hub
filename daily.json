@@ -1,38 +1,38 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "week": 2,
-  "day": 3,
-  "openingMessage": "You help power homes, hospitals, schools, businesses, and communities across North America. Take pride in that. Take pride in the standard you represent. Take pride in each other.",
+  "day": 4,
+  "openingMessage": "You can't control what happens on a location. You can control whether your team is ready before they get there.",
   "openingAttribution": null,
-  "leadershipThought": "Protect the group. Protect the work. Our jobs, our clients, and our reputation depend on it. If you show up and communicate — you protect the group. If you don't — you expose it.",
-  "opsDate": "2026-06-25",
-  "opsContent": "<strong>Friday Carry-Forward Status (2026-06-25):</strong><br>• <strong>Alex Clubb — Christi (vessel work):</strong> Went back under air Wednesday to close manway and tackle sludge/gases from bulk separator. Confirm current status before any crew approaches vessel area. Supplied air and continuous air monitoring remain required until clearance confirmed.<br>• <strong>Michael Hutt — SM Coonskin pad:</strong> Job extended through June 29. Elevated H2S carry-forward. Monitoring plan and crew communication protocol must be confirmed before any site visit this week.<br>• <strong>Ralph Forbes — University 6-48A #101H:</strong> Awaiting Exxon job status as of mid-week. Get an update this morning before any mobilization decision.<br>• <strong>Dennis Easley / Larry Taylor — SM Energy Gipple:</strong> Gipple 134 rig maintenance ongoing. Gipple 124H H2S run with Dennis ongoing. Both locations require confirmed escalation and monitoring plan before crew is on-site.<br>• <strong>Jacob Hernandez — Williams:</strong> Nail rig was rigging down Monday, job started 1:44 PM. Confirm completion and any open items going into the weekend.<br><br><strong>End-of-week notes:</strong><br>• Before you leave — close your open loops. If a job is not confirmed complete, say so now. The crew that inherits it Monday needs to know exactly where it stands.<br>• Heat is still a live hazard. Any site visit today, build cooling breaks into the plan before you start the job.<br>",
+  "leadershipThought": "The people who set their crew up to succeed are the ones who thought about failure first. Prep is not pessimism — it is respect for the job.",
+  "opsDate": "2026-06-26",
+  "opsContent": "<strong>Thursday Active Status (2026-06-26):</strong><br>• <strong>Alex Clubb — Christi (vessel work):</strong> Was returning under air to close manway and tackle sludge/gases. Confirm current clearance status before any crew approaches the vessel area. Supplied air and monitoring remain required until explicitly cleared.<br>• <strong>Michael Hutt — SM Coonskin pad:</strong> Job extended through June 29. Elevated H2S carry-forward. Monitoring plan must be confirmed before any site visit.<br>• <strong>Ralph Forbes — University 6-48A #101H:</strong> Awaiting Exxon job status confirmation. Do not mobilize until update received.<br>• <strong>Dennis Easley / Larry Taylor — SM Energy Gipple:</strong> Gipple 134 rig maintenance ongoing. Gipple 124H H2S run ongoing. Both require current escalation and monitoring plan before crew is on-site.<br><br><strong>Discussion item this morning:</strong><br>• <strong>Trailer field readiness — see alert on this page.</strong> A trailer went to the field missing SCBA units (x4), muster stands (x2), entrance signage, and fire extinguisher. This is the discussion. Who owns the load-out check, and what does the standard look like before a trailer leaves the yard.<br>",
   "lessonsLearned": null,
   "exxonMoments": "<strong>Three Jobs, Same Standard — Nathan Contreras</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>King D #4901 at 8:56 AM — full protocol on the first job of the day: atmospheric testing, LOTO, exclusion zones, respiratory protection, life saving rules discussed, crew field-verified conditions rather than trusting paperwork. Left safe. He then ran the same standard at Tracy B #1 and Donovan 2U 121. Three jobs, one day, zero shortcuts. Nathan Contreras, 06/22.</span><br><br><strong>Unsafe Conditions Managed Early — University 3-19 705H</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Unsafe conditions flagged at arrival. All LOTO verified correct before work proceeded. Crew communicated with PIC and between themselves throughout. Field conditions verified — not taken on faith from paperwork. Location left better than found, tools and equipment picked up. Raymundo Solis, 06/22 — first job of his day, before the University 702H heat lesson later that afternoon.</span><br><br><strong>MT Brought Everyone In — Helwig 3 TM</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Rod well reconnect completed safely in Big Lake. Standout note: the MT did an exceptional job involving all personnel on-site in the pretask briefing — not just the Canon tech, every person working the job. That is the difference between a check-box pretask and a pretask that actually prepares the crew. Caleb Smith, 06/22.</span><br><br><strong>Crew-Wide Discipline — Oliver 39</strong> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Full control package confirmed: LOTO, exclusion zones, atmospheric monitoring, field-verified conditions. Strong communication with both PIC and crew throughout. Job completed and left safe. Andrew Bailey ran the same protocol as Justin Fontenot on the same location — showing the standard held across the whole crew, not just one tech. 06/22.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dawson Drake",
-      "detail": "Two crews done in one day: cleaned a new separator AND finished the one from the day before. Clean two-day execution on a heavy job.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Freddy V — Shift Start Done Right (H&P 264)",
-      "detail": "5:47 AM check-in with hole depth (5,661 ft), alarms tested, and all equipment confirmed before the day started. That is not a paperwork exercise — that is the discipline that catches problems before they become incidents.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Alex Clubb — Real-Time H2S Communication",
-      "detail": "Three separate updates over four-plus hours on a developing H2S situation at Christi. Mustered immediately at 31 ppm. Communicated 97 ppm reading on the bleeder line. Set clear expectations for the vessel return. That is exactly what transparent, timely communication looks like under pressure.",
+      "headline": "Alex Clubb — Rescue Team in Place Before the Break",
+      "detail": "Before breaking containment on the choke job, Alex held a full safety meeting with the Superintendent, PO, and PSMS on site. One person under air for the break, himself as primary rescue, Justin as secondary. After the break was made, he pulled the crew back, entered with Justin as rescuer, and conducted AGT — 0s on T for all well headers. Only then did the crew proceed without air. That is confined space rescue protocol executed out loud, in sequence, with no shortcuts. June 17.",
       "psms": "Atmospheric Monitoring"
     },
     {
       "type": "good",
-      "headline": "David Hammond — Emergency Hospital Cards in Every Binder",
-      "detail": "Took the initiative to add laminated Primary Emergency Hospitals cards to crew binders across the fleet. The kind of quiet preparation that matters most when something goes wrong — the information is already in the right hands before anyone needs it.",
-      "psms": "Emergency Management"
+      "headline": "Brianda Sandoval — Gipple Done Clean",
+      "detail": "Finished at Gipple, swapped equipment, handed off the location, and moved to the next stop without a gap. Dennis Easley posted 'Thank you Bri' publicly in the channel. That kind of acknowledgment in front of the whole crew means something — it got earned.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Marylou Guerra — Back-to-Back Battery Tanks",
+      "detail": "Finished water battery tank 1 and immediately communicated the next step: prepping and cleaning oil battery tank 1. No dead air, no wait for direction. Sequential job execution with clear status at every transition. That is how multi-step jobs stay on schedule. June 17.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez — Full Day of Communication",
+      "detail": "Three location updates across the day — SDU job start, SDU 1602A complete and moving, SDU 1943A arrival and job started. First message before 8 AM, last after 5:30 PM. Consistent updates all day so leadership always knew where he was and what was happening. June 17.",
+      "psms": "Operational Discipline"
     }
   ],
   "fieldAlert": {
