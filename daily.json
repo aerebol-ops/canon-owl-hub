@@ -1,43 +1,40 @@
 {
-  "date": "2026-06-24",
-  "week": 2,
-  "day": 5,
-  "openingMessage": "Nobody wins alone. Nobody builds a company alone. Nobody protects a location alone. We succeed by winning the small daily battles.",
+  "date": "2026-06-25",
+  "week": 3,
+  "day": 1,
+  "openingMessage": "You help power homes, hospitals, schools, businesses, and communities across North America. Take pride in that. Take pride in the standard you represent. Take pride in each other.",
   "openingAttribution": null,
-  "leadershipThought": "Assume people are trying to do the right thing. But standards do not move. You can hold both.",
-  "opsDate": "2026-06-24",
-  "opsContent": "<strong>Thursday Carry-Forward Status (2026-06-24):</strong><br>• <strong>Alex Clubb — Christi (vessel return):</strong> Back on-site today to tackle sludge and gases from bulk separator vessel. Supplied air required from arrival — do not enter vessel area without respiratory protection confirmed. H2S peaked at 97 ppm off the bleeder Wednesday. Air monitoring continuous throughout.<br>• <strong>Michael Hutt — SM Coonskin pad:</strong> Job extended through June 29. Elevated H2S carry-forward. Confirm monitoring plan and crew communication protocol before any site visit.<br>• <strong>Ralph Forbes — University 6-48A #101H:</strong> Still awaiting Exxon job status confirmation as of Wednesday EOD. Do not mobilize until update received from Exxon.<br>• <strong>Dennis Easley / Larry Taylor — SM Energy Gipple:</strong> Gipple 134 rig maintenance ongoing (down since 06-23). Gipple 124H H2S run with Dennis ongoing. Both locations need current escalation and monitoring plan confirmed before crew on-site.<br><br><strong>Notes going into Thursday:</strong><br>• Heat is a live hazard — build hydration stops into your LMRA before the job starts, not after someone feels it.<br>• Any adjacent wellhead activity (SimOps) that was not in your original job plan requires a crew re-brief before proceeding.<br>",
+  "leadershipThought": "Protect the group. Protect the work. Our jobs, our clients, and our reputation depend on it. If you show up and communicate — you protect the group. If you don't — you expose it.",
+  "opsDate": "2026-06-23",
+  "opsContent": "<strong>Active Jobs (2026-06-23):</strong><br>• <strong>Larry Taylor</strong>: SM Energy Gipple 134 — bleeding well off to flare stack, rig shut down for maintenance, waiting on mechanic (4:47 AM).<br>• <strong>John Delagarza</strong>: AOL at Maralo HL Fed Com #1H (5:44 AM).<br>• <strong>Freddy V</strong>: H&P 264 — 5,661\" hole depth, alarms tested, all equipment confirmed (5:47 AM).<br>• <strong>Ralph Forbes</strong>: On Pratt Vaughn 151 #109h (6:02 AM) → On Site University 6-48a #101H (10:28 AM). Waiting on Exxon update for job status (1:40 PM).<br>• <strong>Jacob Hernandez</strong>: Arrived on Poppy Atrelle (early AM) → Arrived on Williams — nail rig still on well, rigging down, waiting on MT (11:05 AM) → Job started (1:44 PM).<br>• <strong>Nathan Contreras</strong>: Job done, heading to next location (10:23 AM) → Arrived on Mary 18-7-H 4415H (10:48 AM).<br>• <strong>Alex Clubb</strong>: Christi — vac truck pulling bulk separator, strong smell with monitors going off at 10:44 AM. Gas coming from unidentified line at end of vac truck — not the vent line. 31 ppm H2S on crew, mustered upwind. Update 1:39 PM: 97 ppm H2S off bleeder on gas line from bulk separator. Update 2:53 PM: going back under air to close manway, returning Wednesday to tackle sludge and gases from vessel.<br>• <strong>Michael Hutt</strong>: SM Coonskin pad — job extended through June 29 (1:39 PM). Gated out end of shift (4:35 PM).<br>• <strong>Dawson Drake</strong>: Both crews done — cleaned out a new separator and finished the one from yesterday (2:56 PM).<br>• <strong>Marcos Morales</strong>: Job at Glass L #3 cancelled and rescheduled, heading back to shop (3:07 PM).<br>• <strong>David Hammond</strong>: \"In each binder there are these laminated\" — shared Primary Emergency Hospitals card being added to crew binders (4:33 PM).<br><br><strong>Carry-Forward:</strong><br>• [ ] **Alex Clubb — Christi**: Back Wednesday to tackle sludge and gases from vessel. Air monitoring and supplied air required from arrival.<br>• [ ] **Michael Hutt — SM Coonskin**: Extended through June 29. Confirm monitoring plan and H2S status before crew visits.<br>• [ ] **Ralph Forbes — University 6-48A #101H**: Confirm Exxon job status update before mobilizing.<br>• [ ] **Dennis Easley / Larry Taylor — Gipple**: SM Energy Gipple 134 rig down for maintenance (06-23). Gipple 124H H2S run (Dennis — ongoing). Confirm both locations have current escalation and monitoring plan.<br>",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Casing-in-Hole Adaptation — Hensley P29J</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>Crew was running casing in the hole — rig floor was off-limits. Established a 45 ft buffer zone in case casing dropped. Used the stand-down time to walk and document every sensor and muster point on location with Justin. Brought the lesson back: extra supplies (tape, batteries, mask bags, tags, sensors) need to be pre-staged before arriving on a rig location.</span><br><br><strong>SWA and Unsafe Conditions — Tracy B #1</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Unsafe conditions identified on arrival and communicated to PIC before work began. Stop Work Authority exercised. Full controls confirmed — LOTO, atmospheric monitoring, respiratory protection, exclusion zones, hold points. Left site safe. Nathan Contreras, 06/22.</span><br><br><strong>Heat Triggers Noted — University 3-19 702H</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Adjacent active wellheads flagged as SimOps trigger. Heat exhaustion listed as a recognized hazard on a multi-location day. Lesson documented: be more prepared for weather conditions — build it into the LMRA. Raymundo Solis, 06/22.</span><br><br><strong>Full Controls Confirmed — Oliver 39</strong> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Atmospheric hazards tested prior to first break. LOTO, exclusion zones, and hold points all confirmed in place. Crew verified field conditions rather than relying on paperwork. Job left with atmosphere confirmed safe. Justin Fontenot, Big Lake, 06/22.</span><br><br><strong>Unsafe Conditions Flagged and Controlled — Donovan 2U 121</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Unsafe conditions identified before work began. All controls confirmed before crew proceeded — LOTO, atmospheric monitoring, respiratory protection, exclusion zones, hold points, LMRA. Crew verified actual field conditions. Job site left safe. Nathan Contreras, 06/22.</span>",
+  "exxonMoments": "<strong>Operational Discipline — 1099 Barthol Bj Caesar</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>L - Learn</span><br><br><strong>Mt and I communicate that job will not be ready until Wednesday and went to</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Mt and I communicate that job will not be ready until Wednesday and went to next</span><br><br><strong>Everything went well, from the AGT to the crew utilizing their las minute r</strong> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Everything went well, from the AGT to the crew utilizing their las minute risk assessments.</span><br><br><strong>Operational Discipline — Anthony Scott 1099</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything.</span><br><br><strong>Job completed and good communication</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Job completed and good communication</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Cindy Smith — Hensley P29J",
-      "detail": "Crew was running casing in the hole — no access to the rig floor. Instead of waiting, Cindy and Justin used the stand-down to walk every sensor and muster point on location and photograph them for documentation. Then she came back with a concrete lesson: pre-stage tape, batteries, mask bags, tags, and backup sensors before arriving on a rig job. That is turning a constraint into a capability.",
-      "psms": "Line of Fire"
+      "headline": "Dawson Drake",
+      "detail": "Two crews done in one day: cleaned a new separator AND finished the one from the day before. Clean two-day execution on a heavy job.",
+      "psms": null
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras — Two Jobs, Full Controls Both Times",
-      "detail": "Tracy B #1 in the morning (SWA exercised, unsafe conditions communicated to PIC, all controls confirmed) and Donovan 2U 121 in the afternoon (same standard, site left safe). Two different locations, same discipline. That consistency across a full day is what the standard looks like.",
-      "psms": "Operational Discipline"
+      "headline": "Freddy V (H&P 264)",
+      "detail": "5:47 AM shift check-in with hole depth, alarms tested, and all equipment confirmed. Solid rig discipline right at shift start.",
+      "psms": null
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis — Honest Lesson Documented",
-      "detail": "On a two-location day at University 3-19, Raymundo identified active adjacent wellheads as a SimOps trigger point and flagged heat exhaustion as a live hazard. Lesson written: be more prepared for weather conditions. Self-reporting what went wrong on a job that otherwise went well — that is the kind of learning that prevents incidents.",
-      "psms": "Operational Discipline"
+      "headline": "Alex Clubb",
+      "detail": "Transparent, real-time communication on a developing H2S situation across three separate updates over 4+ hours. Mustered immediately at 31 ppm. Set proper expectations for Wednesday return to vessel.",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "David Hammond",
+      "detail": "Proactively sharing laminated emergency hospital cards being added to crew binders across the fleet. Good resource awareness initiative.",
+      "psms": null
     }
   ],
-  "todaysChallenge": "Before you speak on the next job — ask yourself: What outcome am I trying to create?",
-  "todaysChallengeSubtext": "If you can't answer that, don't speak yet. Outcome-driven communication solves problems. Emotion-driven communication creates them.",
-  "compliance": {
-    "weekOf": "2026-06-23",
-    "metrics": [
-      { "label": "Trailer inspections", "done": 18, "total": 22 },
-      { "label": "Benzene calibrations", "done": 14, "total": 16 },
-      { "label": "On-time arrival", "done": 20, "total": 22 }
-    ],
-    "footerNote": "Update numbers in daily.json each Monday morning."
-  }
+  "todaysChallenge": "Find one person today and communicate something early — before they need it.",
+  "todaysChallengeSubtext": "Call leadership. Notify dispatch. Post in Breakroom. No surprises. That is how trust is built."
 }
