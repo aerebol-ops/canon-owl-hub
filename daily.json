@@ -35,6 +35,17 @@
       "psms": "Emergency Management"
     }
   ],
+  "fieldAlert": {
+    "title": "Trailer Went to the Field — Not Field Ready",
+    "photo": null,
+    "items": [
+      "SCBA units — 4 missing",
+      "Muster stands — 2 missing",
+      "Entrance signage — missing",
+      "Fire extinguisher — missing"
+    ],
+    "body": "A trailer was dispatched to a job site this week that was not in field-ready condition. Four SCBA units were absent, two muster stands were missing, entrance signage was not in place, and the fire extinguisher was not on the unit. These are not optional items — they are the foundation of what we promise every crew member who steps on a location. The trailer is not a vehicle. It is a command post, a refuge point, and the first line of response if something goes wrong. When a muster stand is missing, there is no designated rally point in an emergency. When an SCBA is absent, a tech cannot re-enter a hot zone to pull someone out. When the fire extinguisher is gone and nobody notices, we have already accepted a condition we would never accept on the wellhead. Field readiness is not an inventory check — it is a standard of care for the people doing the work. If a trailer leaves the yard short, that is a system failure. Dispatchers, techs loading out, and supervisors signing off all have a role in catching it before it moves. Tomorrow we are going to talk about what the standard looks like, who owns it, and how we close the gap."
+  },
   "todaysChallenge": "Close every open loop before you leave today. If it is not done — say so. If it carries to Monday — hand it off clearly.",
   "todaysChallengeSubtext": "End-of-week ambiguity is the start of next-week incidents. Be the one who closes it clean.",
   "compliance": {

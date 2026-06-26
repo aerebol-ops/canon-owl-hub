@@ -472,6 +472,88 @@
     line-height: 1.5;
   }
 
+  .field-alert-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 16px;
+    overflow: hidden;
+    border-left: 4px solid #c0392b;
+    display: none;
+  }
+  .fa-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #fdf2f2;
+    padding: 12px 16px;
+    border-bottom: 1px solid #f5c6c6;
+  }
+  .fa-badge {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #c0392b;
+    background: #fde8e8;
+    border: 1px solid #f5c6c6;
+    border-radius: 4px;
+    padding: 3px 7px;
+    white-space: nowrap;
+  }
+  .fa-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #7b1a1a;
+    line-height: 1.3;
+  }
+  .fa-photo {
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    display: block;
+  }
+  .fa-body {
+    padding: 14px 16px;
+  }
+  .fa-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 12px;
+    margin-bottom: 12px;
+  }
+  .fa-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #7b1a1a;
+  }
+  .fa-item::before {
+    content: "✕";
+    color: #c0392b;
+    font-size: 11px;
+    font-weight: 800;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .fa-text {
+    font-size: 12.5px;
+    color: #444;
+    line-height: 1.6;
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+  }
+  .fa-discuss {
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #c0392b;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
   .creed-card {
     background: var(--navy);
     border-radius: var(--radius);
@@ -1234,6 +1316,19 @@
     <div class="stat-card">
       <div class="stat-num" id="stat-meetings">2</div>
       <div class="stat-label">Meetings Logged</div>
+    </div>
+  </div>
+
+  <div class="field-alert-card" id="field-alert-card">
+    <div class="fa-header">
+      <span class="fa-badge">&#9888; Field Readiness Issue</span>
+      <span class="fa-title" id="fa-title"></span>
+    </div>
+    <img class="fa-photo" id="fa-photo" src="" alt="Field readiness photo" style="display:none;">
+    <div class="fa-body">
+      <div class="fa-items" id="fa-items"></div>
+      <div class="fa-text" id="fa-text"></div>
+      <div class="fa-discuss">&#128337; Discussion required at tomorrow&#39;s meeting</div>
     </div>
   </div>
 
@@ -2582,11 +2677,24 @@ function renderCompliance(daily) {
   });
 }
 
+function renderFieldAlert(daily) {
+  const a = daily && daily.fieldAlert;
+  const card = document.getElementById('field-alert-card');
+  if (!a || !card) return;
+  card.style.display = 'block';
+  document.getElementById('fa-title').textContent = a.title || '';
+  const photo = document.getElementById('fa-photo');
+  if (a.photo) { photo.src = a.photo; photo.style.display = 'block'; }
+  const items = document.getElementById('fa-items');
+  items.innerHTML = (a.items || []).map(i => `<div class="fa-item">${i}</div>`).join('');
+  document.getElementById('fa-text').textContent = a.body || '';
+}
+
 // ── INIT ───────────────────────────────────────────────────
 loadWeather();
 loadMarkets();
 renderNews();
-renderTemplate().then(() => { updateStats(); renderNews(); renderCompliance(_daily); });
+renderTemplate().then(() => { updateStats(); renderNews(); renderCompliance(_daily); renderFieldAlert(_daily); });
 renderWeekCards();
 renderLog();
 </script>
