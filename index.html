@@ -342,6 +342,60 @@
     color: var(--muted);
   }
 
+  .comp-breakdown-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .comp-breakdown-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 14px 10px 12px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+  }
+  .cbd-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+  }
+  .cbd-icon svg { width: 26px; height: 26px; }
+  .cbd-label {
+    font-size: 9.5px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.3;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .cbd-pct {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1;
+    margin: 2px 0;
+  }
+  .cbd-bar-track {
+    width: 100%;
+    height: 4px;
+    background: #eef0f2;
+    border-radius: 2px;
+    margin-top: 4px;
+  }
+  .cbd-bar-fill {
+    height: 4px;
+    border-radius: 2px;
+    transition: width 0.6s ease;
+  }
+
   .compliance-note-card {
     background: #fffbf0;
     border: 1px solid #f0e0a0;
@@ -1199,6 +1253,39 @@
       <div class="comp-metrics" id="comp-metrics-list"></div>
     </div>
     <div class="comp-footer" id="comp-footer"></div>
+  </div>
+
+  <div class="comp-breakdown-grid">
+    <div class="comp-breakdown-card">
+      <div class="cbd-icon" style="background:#eef1f8;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#1F3864" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="1" y="11" width="15" height="9" rx="1"/><path d="M16 13h3l3 3.5V20h-6v-7z"/><circle cx="5.5" cy="20" r="1.5"/><circle cx="18.5" cy="20" r="1.5"/>
+        </svg>
+      </div>
+      <div class="cbd-label">Trailer Inspections</div>
+      <div class="cbd-pct" id="cbd-pct-0" style="color:#1F3864;">—</div>
+      <div class="cbd-bar-track"><div class="cbd-bar-fill" id="cbd-bar-0" style="width:0%;background:#1F3864;"></div></div>
+    </div>
+    <div class="comp-breakdown-card">
+      <div class="cbd-icon" style="background:#fdf0ea;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#C55A11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="8" y="2" width="8" height="14" rx="2"/><path d="M11 2v2h2V2"/><line x1="11" y1="8" x2="13" y2="8"/><line x1="11" y1="11" x2="13" y2="11"/><path d="M10 16v2a2 2 0 0 0 4 0v-2"/>
+        </svg>
+      </div>
+      <div class="cbd-label">Benzene / 4-Gas Cal.</div>
+      <div class="cbd-pct" id="cbd-pct-1" style="color:#C55A11;">—</div>
+      <div class="cbd-bar-track"><div class="cbd-bar-fill" id="cbd-bar-1" style="width:0%;background:#C55A11;"></div></div>
+    </div>
+    <div class="comp-breakdown-card">
+      <div class="cbd-icon" style="background:#edf3ea;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#375623" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="m9 12 2 2 4-4"/>
+        </svg>
+      </div>
+      <div class="cbd-label">Trailer Readiness Forms</div>
+      <div class="cbd-pct" id="cbd-pct-2" style="color:#375623;">—</div>
+      <div class="cbd-bar-track"><div class="cbd-bar-fill" id="cbd-bar-2" style="width:0%;background:#375623;"></div></div>
+    </div>
   </div>
 
   <div class="compliance-note-card">
@@ -2486,6 +2573,13 @@ function renderCompliance(daily) {
       options: { responsive: false, cutout: '68%', plugins: { legend: { display: false }, tooltip: { enabled: false } }, animation: { duration: 500 }, events: [] }
     });
   }
+
+  metrics.forEach((m, i) => {
+    const pEl = document.getElementById('cbd-pct-' + i);
+    const bEl = document.getElementById('cbd-bar-' + i);
+    if (pEl) pEl.textContent = pcts[i] + '%';
+    if (bEl) bEl.style.width = pcts[i] + '%';
+  });
 }
 
 // ── INIT ───────────────────────────────────────────────────

@@ -35,6 +35,15 @@
       "psms": "Emergency Management"
     }
   ],
-  "todaysChallenge": "Find one person today and communicate something early — before they need it.",
-  "todaysChallengeSubtext": "Call leadership. Notify dispatch. Post in Breakroom. No surprises. That is how trust is built."
+  "todaysChallenge": "Close every open loop before you leave today. If it is not done — say so. If it carries to Monday — hand it off clearly.",
+  "todaysChallengeSubtext": "End-of-week ambiguity is the start of next-week incidents. Be the one who closes it clean.",
+  "compliance": {
+    "weekOf": "2026-06-23",
+    "metrics": [
+      { "label": "Trailer inspections", "done": 20, "total": 23 },
+      { "label": "Benzene / 4-gas calibrations", "done": 14, "total": 16 },
+      { "label": "Trailer readiness forms", "done": 21, "total": 23 }
+    ],
+    "footerNote": "Update numbers in daily.json each Monday morning."
+  }
 }
