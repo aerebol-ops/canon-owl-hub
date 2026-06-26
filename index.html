@@ -1183,7 +1183,7 @@
     </div>
   </div>
 
-  <div class="compliance-card" id="compliance-widget" style="display:none;">
+  <div class="compliance-card" id="compliance-widget">
     <div class="comp-header">
       <span class="comp-title">Weekly Compliance</span>
       <span class="comp-week" id="comp-week-label"></span>
@@ -2433,7 +2433,7 @@ function sendOwlReview() {
 // ── COMPLIANCE WIDGET ──────────────────────────────────────
 let _compChart = null;
 function renderCompliance(daily) {
-  if (!daily || !daily.compliance) return;
+  if (!daily || !daily.compliance) return; // widget stays visible; data just won't update
   const c = daily.compliance;
   const widget = document.getElementById('compliance-widget');
   if (!widget) return;
