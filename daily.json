@@ -1,60 +1,52 @@
 {
   "date": "2026-06-26",
-  "week": 2,
-  "day": 4,
-  "openingMessage": "You can't control what happens on a location. You can control whether your team is ready before they get there.",
+  "week": 3,
+  "day": 2,
+  "openingMessage": "Character is built when nobody is watching. Check your monitor one more time. Verify tube inventory. Fuel your truck before it becomes a problem. Nobody rewards these actions. But they create certainty.",
   "openingAttribution": null,
-  "leadershipThought": "The people who set their crew up to succeed are the ones who thought about failure first. Prep is not pessimism — it is respect for the job.",
+  "leadershipThought": "Nobody wins alone. Nobody builds a company alone. Nobody protects a location alone. We succeed by winning the small daily battles: the extra phone call, the extra equipment check, the willingness to help.",
   "opsDate": "2026-06-26",
-  "opsContent": "<strong>Thursday Active Status (2026-06-26):</strong><br>• <strong>Alex Clubb — Christi (vessel work):</strong> Was returning under air to close manway and tackle sludge/gases. Confirm current clearance status before any crew approaches the vessel area. Supplied air and monitoring remain required until explicitly cleared.<br>• <strong>Michael Hutt — SM Coonskin pad:</strong> Job extended through June 29. Elevated H2S carry-forward. Monitoring plan must be confirmed before any site visit.<br>• <strong>Ralph Forbes — University 6-48A #101H:</strong> Awaiting Exxon job status confirmation. Do not mobilize until update received.<br>• <strong>Dennis Easley / Larry Taylor — SM Energy Gipple:</strong> Gipple 134 rig maintenance ongoing. Gipple 124H H2S run ongoing. Both require current escalation and monitoring plan before crew is on-site.<br><br><strong>Discussion item this morning:</strong><br>• <strong>Trailer field readiness — see alert on this page.</strong> A trailer went to the field missing SCBA units (x4), muster stands (x2), entrance signage, and fire extinguisher. This is the discussion. Who owns the load-out check, and what does the standard look like before a trailer leaves the yard.<br>",
-  "lessonsLearned": null,
-  "exxonMoments": "<strong>Three Jobs, Same Standard — Nathan Contreras</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>King D #4901 at 8:56 AM — full protocol on the first job of the day: atmospheric testing, LOTO, exclusion zones, respiratory protection, life saving rules discussed, crew field-verified conditions rather than trusting paperwork. Left safe. He then ran the same standard at Tracy B #1 and Donovan 2U 121. Three jobs, one day, zero shortcuts. Nathan Contreras, 06/22.</span><br><br><strong>Unsafe Conditions Managed Early — University 3-19 705H</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Unsafe conditions flagged at arrival. All LOTO verified correct before work proceeded. Crew communicated with PIC and between themselves throughout. Field conditions verified — not taken on faith from paperwork. Location left better than found, tools and equipment picked up. Raymundo Solis, 06/22 — first job of his day, before the University 702H heat lesson later that afternoon.</span><br><br><strong>MT Brought Everyone In — Helwig 3 TM</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Rod well reconnect completed safely in Big Lake. Standout note: the MT did an exceptional job involving all personnel on-site in the pretask briefing — not just the Canon tech, every person working the job. That is the difference between a check-box pretask and a pretask that actually prepares the crew. Caleb Smith, 06/22.</span><br><br><strong>Crew-Wide Discipline — Oliver 39</strong> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Full control package confirmed: LOTO, exclusion zones, atmospheric monitoring, field-verified conditions. Strong communication with both PIC and crew throughout. Job completed and left safe. Andrew Bailey ran the same protocol as Justin Fontenot on the same location — showing the standard held across the whole crew, not just one tech. 06/22.</span>",
+  "opsContent": "<strong>Active Jobs (2026-06-26):</strong><br>• <strong>SM Energy Gipple 124H / 154H</strong> — Dennis Easley: benzene readings 124H @ 10,000 ppm, 154H @ 2,000 ppm (posted 9:19 AM and again as late post 3:34 PM)<br>• <strong>SM Energy Contest CTB</strong> — Stefanie Kirschke (swap trailers, fit-test crew); Marylou Guerra arrived 6:41 AM<br>• <strong>Powell 34 #5</strong> — Baldemar Bracamontes: done, well on vacuum, safe working atmosphere, work completed with no air (3:40 PM)<br>• <strong>Powell 34 #12</strong> — Baldemar Bracamontes: arrived 6:31 AM<br>• <strong>Ensign 57</strong> — Jacob Hernandez: rig up complete, headed back to shop (9:44 AM)<br>• <strong>H&P 632</strong> — Jacob Hernandez: RU complete, headed home (6:46 PM)<br>• <strong>Rig 616</strong> — Dawson Drake: headed back to shop, rig down (5:57 PM)<br>• <strong>Texas Ten</strong> — Gage Gonzales: standby 6:28 PM, finished 7:19 PM<br>• <strong>Maralo HL Fed Com #1H</strong> — John Delagarza: AOL 6:05 AM, done for day 8:00 PM<br>• <strong>Diamondback</strong> — Justin Pack (Justin & Justin): first location done 7:29 AM<br>• <strong>Brooks C #3</strong> — Louie Zarate: arrived 9:37 AM, finished 10:38 AM<br>• <strong>Brooks O</strong> — Ray Solis: done, headed back to shop (~1:40 PM)<br>• <strong>Davidson 0101</strong> — James Stephens: done, headed to shop (1:38 PM)<br>• <strong>Elkin 21Y Well #25H</strong> — Marcos Morales: arrived 6:14 AM<br>• <strong>Case-Countiss 201#9H</strong> — David Hammond: arrived 9:26 AM<br>• <strong>University 10-11/12H</strong> — Robert Wright: on location 6:03 AM<br>• <strong>Nobles 3208</strong> — NC: arrived 5:55 AM<br>• <strong>Schlitz</strong> — Brianda Sandoval: done for day; both crews arrived ~7:45–8:00 AM, SM Safety was on site<br>• <strong>Scarlet 1</strong> — job done, headed back to shop (5:08 PM)<br>• <strong>H&P 264</strong> — Freddy V: released till further notice (5:13 PM)<br>• <strong>SM #152</strong> — Michael Hutt: down (6:13 AM)<br>• <strong>Second/Third tank battery</strong> — Justin Pack: done on both (9:25 AM, 10:59 AM)<br>• Ray & Anthony → 607/7 | Andrew & Gage → 602/2 | Nathan & Dermont → 603/3<br>• Ralph & James → 605/5 | Dawson & Joseph → 503/8 | Jacob & Gary → 606/6<br>• Stefanie & Edward → 601/1 | David H & David Z → 604/4 | Marylou & Baldemar → 608/12<br>• All others: Andrews shop, 5:30 AM safety meeting<br><br><strong>Carry-Forward:</strong><br>• Gipple 124H benzene at 10,000 ppm — ongoing; monitor next shift<br>• Marcos Morales master valve repair — pump truck dispatched, confirm completion<br>• Needle valve bleed at 1st location — plugs ordered, confirm closed out<br>• SM #152 still down — no return-to-service noted<br>• Freddy V released from H&P 264 — reassignment pending<br>• Kahoot \"Well head disconnect / Breaking containment\" assigned by Michael — award announced at morning meeting (outstanding as of recording)<br>• 5:30 AM Andrews shop safety meeting + Exxon benzene rotations start next morning<br>",
+  "lessonsLearned": "• <strong>Master valve installed wrong direction</strong> — Marcos Morales (10:59 AM): pump truck called to kill well before flipping valve; maintenance crew to continue assembly afterward. Active/in-progress at time of recording.<br>• <strong>Needle valves worn out / bleeding</strong> — Marcos Morales (post-1st job, ~8 AM area): after completing 1st job, doubled back because smell wasn't dissipating. Found a couple of needle valves worn out and still bleeding. Chris (operator contact) notified; bringing plugs to fix. Marcos headed to 2nd location.<br>• <strong>Leak reported by pumper</strong> — Michael Jobe (6:13 AM): pumper flagged a leak at location 202; team finishing 202 then fixing leak before moving to next job.<br>• <strong>SM #152 down</strong> — Michael Hutt (6:13 AM). No resolution noted in frames.<br>• <strong>H&P 264 release</strong> — Freddy V released till further notice (5:13 PM). No context given.<br>",
+  "exxonMoments": "<strong>Positive Observation — Well Job Completed with Weather Prep Gap Identified</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Weather preparation is a job-plan item — when field conditions include summer heat, build hydration and cooling steps into the pre-job meeting before anyone steps on location.</span><br><br><strong>Incomplete OWL Submission — Blank Form</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>A blank OWL form defeats the purpose of the program — even on routine jobs, capturing the controls used and one thing the crew did well takes under two minutes and builds a usable safety record.</span><br><br><strong>Incomplete OWL Submission — Blank Form (Second Technician, Same Location)</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Two blank OWL forms from the same location is a pattern to address at the crew level — the debrief should be a shared step, not an individual task that falls through when no one leads it.</span><br><br><strong>Positive Observation — Pre-Job Meeting and Hold Points Executed Precisely</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>A well-structured pre-job meeting is what makes precise scope execution possible — when every team member knows the plan, hold points, and controls before touching anything, \"followed job scope to perfection\" becomes the expected outcome, not a pleasant surprise.</span><br><br><strong>Positive Observation — Simple Disconnect with Strong LSRA and WAME Discipline</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Consistent LSRA and WAME execution on simple, no-complication jobs is how the habits stay sharp — the crew that applies these controls automatically on easy days is the crew that's protected when conditions get harder.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Alex Clubb — Rescue Team in Place Before the Break",
-      "detail": "Before breaking containment on the choke job, Alex held a full safety meeting with the Superintendent, PO, and PSMS on site. One person under air for the break, himself as primary rescue, Justin as secondary. After the break was made, he pulled the crew back, entered with Justin as rescuer, and conducted AGT — 0s on T for all well headers. Only then did the crew proceed without air. That is confined space rescue protocol executed out loud, in sequence, with no shortcuts. June 17.",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Louie Zarate → Justin Pack",
+      "detail": "Kudos for \"Great Attitude\" — *\"For getting along with everyone! Has a positive attitude every day and never lets anything bring him down! Keep up the great attitude Justin!\"*",
+      "psms": null
     },
     {
-      "type": "good",
-      "headline": "Brianda Sandoval — Gipple Done Clean",
-      "detail": "Finished at Gipple, swapped equipment, handed off the location, and moved to the next stop without a gap. Dennis Easley posted 'Thank you Bri' publicly in the channel. That kind of acknowledgment in front of the whole crew means something — it got earned.",
-      "psms": "Operational Discipline"
+      "type": "flag",
+      "headline": "Master valve installed wrong direction",
+      "detail": "Marcos Morales (10:59 AM): pump truck called to kill well before flipping valve; maintenance crew to continue assembly afterward. Active/in-progress at time of recording.",
+      "psms": null
     },
     {
-      "type": "good",
-      "headline": "Marylou Guerra — Back-to-Back Battery Tanks",
-      "detail": "Finished water battery tank 1 and immediately communicated the next step: prepping and cleaning oil battery tank 1. No dead air, no wait for direction. Sequential job execution with clear status at every transition. That is how multi-step jobs stay on schedule. June 17.",
-      "psms": "Operational Discipline"
+      "type": "flag",
+      "headline": "Needle valves worn out / bleeding",
+      "detail": "Marcos Morales (post-1st job, ~8 AM area): after completing 1st job, doubled back because smell wasn't dissipating. Found a couple of needle valves worn out and still bleeding. Chris (operator contact) notified; bringing plugs to fix. Marcos headed to 2nd location.",
+      "psms": null
     },
     {
-      "type": "good",
-      "headline": "Jacob Hernandez — Full Day of Communication",
-      "detail": "Three location updates across the day — SDU job start, SDU 1602A complete and moving, SDU 1943A arrival and job started. First message before 8 AM, last after 5:30 PM. Consistent updates all day so leadership always knew where he was and what was happening. June 17.",
-      "psms": "Operational Discipline"
+      "type": "flag",
+      "headline": "Leak reported by pumper",
+      "detail": "Michael Jobe (6:13 AM): pumper flagged a leak at location 202; team finishing 202 then fixing leak before moving to next job.",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "SM #152 down",
+      "detail": "Michael Hutt (6:13 AM). No resolution noted in frames.",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "H&P 264 release",
+      "detail": "Freddy V released till further notice (5:13 PM). No context given.",
+      "psms": null
     }
   ],
-  "fieldAlert": {
-    "title": "Trailer Went to the Field — Not Field Ready",
-    "photo": "trailer-readiness-2026-06-25.jpg",
-    "items": [
-      "SCBA units — 4 missing",
-      "Muster stands — 2 missing",
-      "Entrance signage — missing",
-      "Fire extinguisher — missing"
-    ],
-    "body": "A trailer was dispatched to a job site this week that was not in field-ready condition. Four SCBA units were absent, two muster stands were missing, entrance signage was not in place, and the fire extinguisher was not on the unit. These are not optional items — they are the foundation of what we promise every crew member who steps on a location. The trailer is not a vehicle. It is a command post, a refuge point, and the first line of response if something goes wrong. When a muster stand is missing, there is no designated rally point in an emergency. When an SCBA is absent, a tech cannot re-enter a hot zone to pull someone out. When the fire extinguisher is gone and nobody notices, we have already accepted a condition we would never accept on the wellhead. Field readiness is not an inventory check — it is a standard of care for the people doing the work. If a trailer leaves the yard short, that is a system failure. Dispatchers, techs loading out, and supervisors signing off all have a role in catching it before it moves. Tomorrow we are going to talk about what the standard looks like, who owns it, and how we close the gap."
-  },
-  "todaysChallenge": "Close every open loop before you leave today. If it is not done — say so. If it carries to Monday — hand it off clearly.",
-  "todaysChallengeSubtext": "End-of-week ambiguity is the start of next-week incidents. Be the one who closes it clean.",
-  "compliance": {
-    "weekOf": "2026-06-23",
-    "metrics": [
-      { "label": "Trailer inspections", "done": 20, "total": 23 },
-      { "label": "Benzene / 4-gas calibrations", "done": 14, "total": 16 },
-      { "label": "Trailer readiness forms", "done": 21, "total": 23 }
-    ],
-    "footerNote": "Update numbers in daily.json each Monday morning."
-  }
+  "todaysChallenge": "Find one person today and communicate something early — before they need it.",
+  "todaysChallengeSubtext": "Call leadership. Notify dispatch. Post in Breakroom. No surprises. That is how trust is built."
 }
