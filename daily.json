@@ -1,12 +1,12 @@
 {
-  "date": "2026-06-28",
-  "week": 2,
-  "day": 6,
-  "openingMessage": "Own your response. Own your equipment. Own your preparation. Own your outcome. Stay disciplined. Stay prepared. Protect each other. Let's go to work.",
+  "date": "2026-06-29",
+  "week": 3,
+  "day": 1,
+  "openingMessage": "We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.",
   "openingAttribution": null,
-  "leadershipThought": "Humility over ego. Effectiveness over being right. Team over individual. That is the mindset. The standard doesn't change based on who's watching.",
+  "leadershipThought": "Protect the group. Protect the work. Our jobs, our clients, and our reputation depend on it. If you show up and communicate — you protect the group. If you don't — you expose it.",
   "opsDate": "2026-06-26",
-  "opsContent": "<strong>Active Jobs (2026-06-26):</strong><br>• <strong>SM Energy Gipple 124H / 154H</strong> — Dennis Easley: benzene readings 124H @ 10,000 ppm, 154H @ 2,000 ppm (posted 9:19 AM and again as late post 3:34 PM)<br>• <strong>SM Energy Contest CTB</strong> — Stefanie Kirschke (swap trailers, fit-test crew); Marylou Guerra arrived 6:41 AM<br>• <strong>Powell 34 #5</strong> — Baldemar Bracamontes: done, well on vacuum, safe working atmosphere, work completed with no air (3:40 PM)<br>• <strong>Powell 34 #12</strong> — Baldemar Bracamontes: arrived 6:31 AM<br>• <strong>Ensign 57</strong> — Jacob Hernandez: rig up complete, headed back to shop (9:44 AM)<br>• <strong>H&P 632</strong> — Jacob Hernandez: RU complete, headed home (6:46 PM)<br>• <strong>Rig 616</strong> — Dawson Drake: headed back to shop, rig down (5:57 PM)<br>• <strong>Texas Ten</strong> — Gage Gonzales: standby 6:28 PM, finished 7:19 PM<br>• <strong>Maralo HL Fed Com #1H</strong> — John Delagarza: AOL 6:05 AM, done for day 8:00 PM<br>• <strong>Diamondback</strong> — Justin Pack (Justin & Justin): first location done 7:29 AM<br>• <strong>Brooks C #3</strong> — Louie Zarate: arrived 9:37 AM, finished 10:38 AM<br>• <strong>Brooks O</strong> — Ray Solis: done, headed back to shop (~1:40 PM)<br>• <strong>Davidson 0101</strong> — James Stephens: done, headed to shop (1:38 PM)<br>• <strong>Elkin 21Y Well #25H</strong> — Marcos Morales: arrived 6:14 AM<br>• <strong>Case-Countiss 201#9H</strong> — David Hammond: arrived 9:26 AM<br>• <strong>University 10-11/12H</strong> — Robert Wright: on location 6:03 AM<br>• <strong>Nobles 3208</strong> — NC: arrived 5:55 AM<br>• <strong>Schlitz</strong> — Brianda Sandoval: done for day; both crews arrived ~7:45–8:00 AM, SM Safety was on site<br>• <strong>Scarlet 1</strong> — job done, headed back to shop (5:08 PM)<br>• <strong>H&P 264</strong> — Freddy V: released till further notice (5:13 PM)<br>• <strong>SM #152</strong> — Michael Hutt: down (6:13 AM)<br>• <strong>Second/Third tank battery</strong> — Justin Pack: done on both (9:25 AM, 10:59 AM)<br>• Ray & Anthony → 607/7 | Andrew & Gage → 602/2 | Nathan & Dermont → 603/3<br>• Ralph & James → 605/5 | Dawson & Joseph → 503/8 | Jacob & Gary → 606/6<br>• Stefanie & Edward → 601/1 | David H & David Z → 604/4 | Marylou & Baldemar → 608/12<br>• All others: Andrews shop, 5:30 AM safety meeting<br><br><strong>Carry-Forward:</strong><br>• Gipple 124H benzene at 10,000 ppm — ongoing; monitor next shift<br>• Marcos Morales master valve repair — pump truck dispatched, confirm completion<br>• Needle valve bleed at 1st location — plugs ordered, confirm closed out<br>• SM #152 still down — no return-to-service noted<br>• Freddy V released from H&P 264 — reassignment pending<br>• Kahoot \"Well head disconnect / Breaking containment\" assigned by Michael — award announced at morning meeting (outstanding as of recording)<br>• 5:30 AM Andrews shop safety meeting + Exxon benzene rotations start next morning<br>",
+  "opsContent": "<strong>Active Jobs (2026-06-26):</strong><br>• <strong>SM Energy Gipple 124H / 154H</strong> — Dennis Easley: benzene readings 124H @ 10,000 ppm, 154H @ 2,000 ppm (posted 9:19 AM and again as late post 3:34 PM)<br>• <strong>SM Energy Contest CTB</strong> — Stefanie Kirschke (swap trailers, fit-test crew); Marylou Guerra arrived 6:41 AM<br>• <strong>Powell 34 #5</strong> — Baldemar Bracamontes: done, well on vacuum, safe working atmosphere, work completed with no air (3:40 PM)<br>• <strong>Powell 34 #12</strong> — Baldemar Bracamontes: arrived 6:31 AM<br>• <strong>Ensign 57</strong> — Jacob Hernandez: rig up complete, headed back to shop (9:44 AM)<br>• <strong>H&P 632</strong> — Jacob Hernandez: RU complete, headed home (6:46 PM)<br>• <strong>Rig 616</strong> — Dawson Drake: headed back to shop, rig down (5:57 PM)<br>• <strong>Texas Ten</strong> — Gage Gonzales: standby 6:28 PM, finished 7:19 PM<br>• <strong>Maralo HL Fed Com #1H</strong> — John Delagarza: AOL 6:05 AM, done for day 8:00 PM<br>• <strong>Diamondback</strong> — Justin Pack (Justin & Justin): first location done 7:29 AM<br>• <strong>Brooks C #3</strong> — Louie Zarate: arrived 9:37 AM, finished 10:38 AM<br>• <strong>Brooks O</strong> — Ray Solis: done, headed back to shop (~1:40 PM)<br>• <strong>Davidson 0101</strong> — James Stephens: done, headed to shop (1:38 PM)<br>• <strong>Elkin 21Y Well #25H</strong> — Marcos Morales: arrived 6:14 AM<br>• <strong>Case-Countiss 201#9H</strong> — David Hammond: arrived 9:26 AM<br>• <strong>University 10-11/12H</strong> — Robert Wright: on location 6:03 AM<br>• <strong>Nobles 3208</strong> — NC: arrived 5:55 AM<br>• <strong>Schlitz</strong> — Brianda Sandoval: done for day; both crews arrived ~7:45–8:00 AM, SM Safety was on site<br>• <strong>Scarlet 1</strong> — job done, headed back to shop (5:08 PM)<br>• <strong>H&P 264</strong> — Freddy V: released till further notice (5:13 PM)<br>• <strong>SM #152</strong> — Michael Hutt: down (6:13 AM)<br>• <strong>Second/Third tank battery</strong> — Justin Pack: done on both (9:25 AM, 10:59 AM)<br>• Ray & Anthony → 607/7 | Andrew & Gage → 602/2 | Nathan & Dermont → 603/3<br>• Ralph & James → 605/5 | Dawson & Joseph → 503/8 | Jacob & Gary → 606/6<br>• Stefanie & Edward → 601/1 | David H & David Z → 604/4 | Marylou & Baldemar → 608/12<br>• All others: Andrews shop, 5:30 AM safety meeting<br><br><strong>Carry-Forward:</strong><br>• Gipple 124H benzene at 10,000 ppm — ongoing; monitor next shift<br>• Marcos Morales master valve repair — pump truck dispatched, confirm completion<br>• Needle valve bleed at 1st location — plugs ordered, confirm closed out<br>• SM #152 still down — no return-to-service noted<br>• Freddy V released from H&P 264 — reassignment pending<br>",
   "lessonsLearned": "• <strong>Master valve installed wrong direction</strong> — Marcos Morales (10:59 AM): pump truck called to kill well before flipping valve; maintenance crew to continue assembly afterward. Active/in-progress at time of recording.<br>• <strong>Needle valves worn out / bleeding</strong> — Marcos Morales (post-1st job, ~8 AM area): after completing 1st job, doubled back because smell wasn't dissipating. Found a couple of needle valves worn out and still bleeding. Chris (operator contact) notified; bringing plugs to fix. Marcos headed to 2nd location.<br>• <strong>Leak reported by pumper</strong> — Michael Jobe (6:13 AM): pumper flagged a leak at location 202; team finishing 202 then fixing leak before moving to next job.<br>• <strong>SM #152 down</strong> — Michael Hutt (6:13 AM). No resolution noted in frames.<br>• <strong>H&P 264 release</strong> — Freddy V released till further notice (5:13 PM). No context given.<br>",
   "exxonMoments": "<strong>Crew followed the procedure, maintained communication, and completed the di</strong> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crew followed the procedure, maintained communication, and completed the disconnect</span><br><br><strong>Tasks completed without incident due to great communication by all third pa</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Did we leave the location better Yes.</span><br><br><strong>Job done safe with no issues</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Job done safe with no issues.</span><br><br><strong>Job done safely with no issues</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Job done safely with no issues</span><br><br><strong>We had a hold point after each job scope was completed making sure we all u</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>We had a hold point after each job scope was completed making sure we all understood</span>",
   "fieldNews": [
@@ -33,35 +33,17 @@
       "headline": "Leak reported by pumper",
       "detail": "Michael Jobe (6:13 AM): pumper flagged a leak at location 202; team finishing 202 then fixing leak before moving to next job.",
       "psms": null
-    },
-    {
-      "type": "flag",
-      "headline": "SM #152 down",
-      "detail": "Michael Hutt (6:13 AM). No resolution noted in frames.",
-      "psms": null
-    },
-    {
-      "type": "flag",
-      "headline": "H&P 264 release",
-      "detail": "Freddy V released till further notice (5:13 PM). No context given.",
-      "psms": null
     }
   ],
   "todaysChallenge": "Find one person today and communicate something early — before they need it.",
   "todaysChallengeSubtext": "Call leadership. Notify dispatch. Post in Breakroom. No surprises. That is how trust is built.",
   "compliance": {
-    "weekOf": "2026-06-23",
+    "weekOf": "2026-06-29",
     "metrics": [
       { "label": "Trailer inspections", "done": 20, "total": 23 },
       { "label": "Benzene / 4-gas calibrations", "done": 14, "total": 16 },
       { "label": "Trailer readiness forms", "done": 21, "total": 23 }
     ],
     "footerNote": "Update numbers in daily.json each Monday morning."
-  },
-  "fieldAlert": {
-    "title": "Trailer Went to the Field — Not Field Ready",
-    "photo": "trailer-readiness-2026-06-25.jpg",
-    "items": ["SCBA units — 4 missing", "Muster stands — 2 missing", "Entrance signage — missing", "Fire extinguisher — missing"],
-    "body": "A trailer was dispatched to a job site this week that was not in field-ready condition. These items must be checked and confirmed before any trailer leaves the yard. This is a team issue — we own the outcome together."
   }
 }
