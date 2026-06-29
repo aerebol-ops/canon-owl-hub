@@ -1,7 +1,7 @@
 {
   "date": "2026-06-28",
-  "week": 3,
-  "day": 4,
+  "week": 2,
+  "day": 6,
   "openingMessage": "Own your response. Own your equipment. Own your preparation. Own your outcome. Stay disciplined. Stay prepared. Protect each other. Let's go to work.",
   "openingAttribution": null,
   "leadershipThought": "Humility over ego. Effectiveness over being right. Team over individual. That is the mindset. The standard doesn't change based on who's watching.",
@@ -48,5 +48,20 @@
     }
   ],
   "todaysChallenge": "Find one person today and communicate something early — before they need it.",
-  "todaysChallengeSubtext": "Call leadership. Notify dispatch. Post in Breakroom. No surprises. That is how trust is built."
+  "todaysChallengeSubtext": "Call leadership. Notify dispatch. Post in Breakroom. No surprises. That is how trust is built.",
+  "compliance": {
+    "weekOf": "2026-06-23",
+    "metrics": [
+      { "label": "Trailer inspections", "done": 20, "total": 23 },
+      { "label": "Benzene / 4-gas calibrations", "done": 14, "total": 16 },
+      { "label": "Trailer readiness forms", "done": 21, "total": 23 }
+    ],
+    "footerNote": "Update numbers in daily.json each Monday morning."
+  },
+  "fieldAlert": {
+    "title": "Trailer Went to the Field — Not Field Ready",
+    "photo": "trailer-readiness-2026-06-25.jpg",
+    "items": ["SCBA units — 4 missing", "Muster stands — 2 missing", "Entrance signage — missing", "Fire extinguisher — missing"],
+    "body": "A trailer was dispatched to a job site this week that was not in field-ready condition. These items must be checked and confirmed before any trailer leaves the yard. This is a team issue — we own the outcome together."
+  }
 }
