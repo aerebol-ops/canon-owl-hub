@@ -2620,7 +2620,18 @@ function renderLog() {
 // ── STATS ──────────────────────────────────────────────────
 function updateStats() {
   document.getElementById('stat-weeks').textContent = DATA.weeks.length;
-  document.getElementById('stat-meetings').textContent = DATA.meetingLog.length;
+  // Count Mon–Fri days from program start (June 23, 2026) through today
+  const progStart = new Date(2026, 5, 23);
+  const now = new Date();
+  const todayLocal = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  let meetings = 0;
+  const d = new Date(progStart);
+  while (d <= todayLocal) {
+    const dow = d.getDay();
+    if (dow >= 1 && dow <= 5) meetings++;
+    d.setDate(d.getDate() + 1);
+  }
+  document.getElementById('stat-meetings').textContent = meetings;
   document.getElementById('last-updated').textContent = (_daily && _daily.date) ? _daily.date : DATA.meta.lastUpdated;
   document.getElementById('version').textContent = (_daily && _daily.date) ? _daily.date : DATA.meta.version;
 }
