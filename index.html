@@ -815,6 +815,99 @@
     color: var(--gold);
   }
 
+  /* ── PRESIDENT'S MESSAGE ── */
+  .pres-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .pres-header {
+    background: linear-gradient(135deg, #1a2f58 0%, #1F3864 60%, #2a4a7a 100%);
+    padding: 16px 18px 14px;
+    position: relative;
+  }
+  .pres-eyebrow {
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(191,143,0,0.9);
+    margin-bottom: 4px;
+  }
+  .pres-author {
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--white);
+    line-height: 1.1;
+  }
+  .pres-title-line {
+    font-size: 12px;
+    color: rgba(255,255,255,0.65);
+    margin-top: 2px;
+  }
+  .pres-date-badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 10px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.8);
+  }
+  .pres-body {
+    padding: 16px 18px 6px;
+  }
+  .pres-para {
+    font-size: 13px;
+    color: var(--text);
+    line-height: 1.7;
+    margin-bottom: 12px;
+  }
+  .pres-pulse {
+    background: #f4f6fa;
+    border-top: 1px solid var(--border);
+    padding: 12px 18px 14px;
+  }
+  .pres-pulse-label {
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: var(--navy);
+    margin-bottom: 8px;
+  }
+  .pres-pulse-item {
+    font-size: 12px;
+    color: var(--text);
+    line-height: 1.5;
+    padding: 5px 0 5px 14px;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+  }
+  .pres-pulse-item:last-child { border-bottom: none; }
+  .pres-pulse-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 6px;
+    height: 6px;
+    background: var(--gold);
+    border-radius: 50%;
+  }
+  .pres-sig {
+    padding: 10px 18px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--navy);
+    font-style: italic;
+  }
+
   /* ── OWL WEEK BLOCKS (Meeting Log) ── */
   .owl-week-block {
     background: var(--white);
@@ -1506,6 +1599,8 @@
       <div class="stat-label">Meetings Logged</div>
     </div>
   </div>
+
+  <div id="pres-message-card"></div>
 
   <div class="field-alert-card" id="field-alert-card">
     <div class="fa-header">
@@ -2274,6 +2369,22 @@ const DATA = {
       "psms": "Energy Isolation · Wk 1"
     }
   ],
+  "presidentMessage": {
+    "author": "Matt Croom",
+    "title": "President, Canon Safety",
+    "date": "June 30, 2026",
+    "cadence": "Monthly",
+    "body": [
+      "The Permian is running lean and deliberate right now. Operators are not chasing barrels — they are protecting their balance sheets and rewarding the service providers who protect theirs. That means the bar for reliability, safety performance, and client communication is higher than it has ever been. That is exactly where Canon needs to live.",
+      "ExxonMobil's integration of Pioneer assets is in full execution mode. That is one of the largest footprint expansions a single operator has run in the Permian in a decade, and we are inside that perimeter. SM Energy's Midland Basin program is active and our position there continues to grow. These clients have options. Every job we run either tightens or loosens our grip on that work.",
+      "We are entering the second half of 2026 in a strong position. The fundamentals of this business favor operators with discipline, and our clients are exactly that. That means the work is here — but it goes to the crews that earn it. That is this team. Stay focused. Stay professional."
+    ],
+    "marketPulse": [
+      "WTI range-bound through summer — operators underwriting long-term inventory at $60–65/bbl; Permian breakevens remain competitive across the basin",
+      "ExxonMobil / Pioneer integration expanding operator footprint — higher compliance expectations and more work for trusted service partners in the Delaware and Midland",
+      "Natural gas recovering on LNG export demand; associated gas economics improving for Permian operators and supporting activity levels through year-end"
+    ]
+  },
   "owlWeeks": [
     {
       "week": 3,
@@ -2942,6 +3053,31 @@ ${days}
   }
 }
 
+// ── PRESIDENT'S MESSAGE ────────────────────────────────────
+function renderPresidentMessage() {
+  const el = document.getElementById('pres-message-card');
+  const pm = DATA.presidentMessage;
+  if (!el || !pm) return;
+  el.innerHTML = `
+    <div class="pres-card">
+      <div class="pres-header">
+        <div class="pres-eyebrow">President&#8217;s Message</div>
+        <div class="pres-author">${pm.author}</div>
+        <div class="pres-title-line">${pm.title}</div>
+        <div class="pres-date-badge">${pm.date}</div>
+      </div>
+      <div class="pres-body">
+        ${pm.body.map(p => `<div class="pres-para">${p}</div>`).join('')}
+      </div>
+      <div class="pres-pulse">
+        <div class="pres-pulse-label">Market Pulse</div>
+        ${pm.marketPulse.map(item => `<div class="pres-pulse-item">${item}</div>`).join('')}
+      </div>
+      <div class="pres-sig">&#8212; ${pm.author}</div>
+    </div>
+  `;
+}
+
 // ── STATS ──────────────────────────────────────────────────
 function updateStats() {
   document.getElementById('stat-weeks').textContent = DATA.weeks.length;
@@ -3099,6 +3235,7 @@ renderNews();
 renderTemplate().then(() => { updateStats(); renderNews(); renderCompliance(_daily); renderFieldAlert(_daily); });
 renderWeekCards();
 renderLog();
+renderPresidentMessage();
 </script>
 </body>
 </html>
