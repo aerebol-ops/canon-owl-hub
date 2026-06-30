@@ -815,6 +815,145 @@
     color: var(--gold);
   }
 
+  /* ── OWL WEEK BLOCKS (Meeting Log) ── */
+  .owl-week-block {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .owl-week-header {
+    background: var(--navy);
+    color: var(--white);
+    padding: 14px 16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .owl-week-meta { flex: 1; }
+  .owl-week-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    opacity: 0.65;
+    margin-bottom: 2px;
+  }
+  .owl-week-name {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.1;
+  }
+  .owl-week-theme {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-top: 3px;
+  }
+  .owl-week-dates {
+    font-size: 11px;
+    opacity: 0.55;
+    margin-top: 2px;
+  }
+  .owl-pdf-btn {
+    flex-shrink: 0;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: var(--white);
+    border-radius: 6px;
+    padding: 7px 11px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-top: 2px;
+  }
+  .owl-pdf-btn:active { opacity: 0.7; }
+  .owl-meetings { padding: 12px 14px; }
+  .owl-day-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .owl-day-card:last-child { margin-bottom: 0; }
+  .owl-day-header {
+    background: #f7f9fc;
+    padding: 9px 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .owl-day-header:active { background: #eef1f7; }
+  .owl-day-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--navy);
+    flex: 1;
+  }
+  .owl-day-date {
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .owl-day-chevron {
+    font-size: 11px;
+    color: var(--muted);
+    transition: transform 0.2s;
+  }
+  .owl-day-card.open .owl-day-chevron { transform: rotate(180deg); }
+  .owl-day-body {
+    display: none;
+    padding: 12px 14px 14px;
+    border-top: 1px solid var(--border);
+  }
+  .owl-day-card.open .owl-day-body { display: block; }
+  .owl-day-summary {
+    font-size: 13px;
+    color: var(--text);
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  .owl-day-flags {
+    margin-bottom: 10px;
+  }
+  .owl-flag-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 5px;
+  }
+  .owl-flag-item {
+    font-size: 12px;
+    color: var(--text);
+    padding: 5px 8px;
+    background: #fff5ec;
+    border-left: 3px solid var(--orange);
+    border-radius: 0 4px 4px 0;
+    margin-bottom: 4px;
+    line-height: 1.4;
+  }
+  .owl-recog {
+    font-size: 12px;
+    color: var(--text);
+    padding: 7px 10px;
+    background: #fff8e8;
+    border-radius: 6px;
+    line-height: 1.5;
+  }
+  .owl-recog-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 3px;
+  }
+
   /* ── DOWNLOAD BUTTON ── */
   .dl-btn {
     display: block;
@@ -1530,7 +1669,7 @@
 
 <!-- ═══════════════════════════════════════════════ LOG ═══ -->
 <div id="page-log" class="page">
-  <p class="section-label" style="margin-top:20px;">Historic Meeting Log</p>
+  <p class="section-label" style="margin-top:20px;">OWL Meeting Log</p>
   <div id="log-container">
     <!-- injected by JS -->
   </div>
@@ -2135,6 +2274,47 @@ const DATA = {
       "psms": "Energy Isolation · Wk 1"
     }
   ],
+  "owlWeeks": [
+    {
+      "week": 1,
+      "owl": "Jacob Hernandez",
+      "theme": "Ownership",
+      "psms": "Energy Isolation",
+      "dateRange": "June 15–19, 2026",
+      "meetings": [
+        {
+          "date": "2026-06-15", "day": "Monday",
+          "summary": "Mike opened Week 1 with the Canon Ownership memo — the program's first formal safety meeting. Key field issue: Robert Wright dispatched to wrong GPS coordinates from Exxon, resolved same morning. Mike reinforced the standard: post \"no one on location\" any time arrival is delayed so dispatch can assist. Safety flag raised by Justin Pack — H2S readings on flowbacks showing large variance between gas testing and liquid samples (18,000–20,000 ppm discrepancy). Full crew communication was strong; no unassigned jobs at end of day.",
+          "flags": ["Wrong GPS coordinates sent crew to wrong location (Robert Wright — Exxon error)", "H2S reading discrepancy on flowbacks (Justin Pack) — gas embedded in liquid not breaking out correctly; 18,000–20,000 ppm variance between gas and liquid sample readings"],
+          "recognition": "Full crew praised for communication and responsiveness. No unassigned jobs at day’s end."
+        },
+        {
+          "date": "2026-06-16", "day": "Tuesday",
+          "summary": "5:30 AM meeting at Andrews shop. Jacob led with a Kahoots safety quiz — Caleb Smith won 10/10 in the fastest time; Dawson Drake immediately called a rematch. Separator #122 at SM Coonskin ordered offline and bled down at 6:41 AM — properly communicated and documented. Bird's nest hazard photo posted in channel. Full tube inventory at Coonskin logged by Michael Hutt. Anthony Scott welcomed back to the team.",
+          "flags": ["Separator #122 offline at SM Coonskin — bleed-off ordered and confirmed 6:41 AM", "Bird's nest in equipment — hazard photo posted, location unspecified; confirm cleared before equipment use"],
+          "recognition": "Caleb Smith — Kahoots quiz winner, 10/10 in fastest time. Brianda Sandoval — successful well testing quarter job. Anthony Scott — welcomed back to the team."
+        },
+        {
+          "date": "2026-06-17", "day": "Wednesday",
+          "summary": "Alex Clubb set the week’s highest standard: confirmed PSMS and Superintendent on site before any work began, then ran the full rescue protocol for a breaking containment job — one person under air for the break, himself as primary rescue, Justin as secondary. After the break, crew pulled back, AGT conducted, confirmed 0s on T for all well headers. Proceeded only after atmosphere verified safe. Brianda Sandoval handed off Gipple cleanly and earned a public thank-you from Dennis Easley. Jacob Hernandez posted three location updates across the full day — consistent communication from first message to last.",
+          "flags": ["Sandblasting condition flagged with photo at unnamed location — confirm rework status", "Justin Pack — 15 min late to shift change on First Tee Pad (communicated immediately)"],
+          "recognition": "Alex Clubb — ran full rescue protocol before breaking containment; set the standard. Brianda Sandoval — Dennis Easley publicly acknowledged her work in channel. Marylou Guerra — sequential job execution with clear status at every transition. Jacob Hernandez — consistent 3-location communication across the full day."
+        },
+        {
+          "date": "2026-06-18", "day": "Thursday",
+          "summary": "Mike pushed the Canon Gas Detection Bulletin to the full crew at 7:08 AM with note: “Ensure this happens. Professional / disciplined.” Highest-risk event of the week: Alex Clubb found a damaged butterfly valve on a separator with known H2S — initial read 15 ppm, crew placed under supplied air, post-break AGT showed zeros but valve was damaged internally; vessel pulled for service, Orlando Ibarra contacted for resolution plan. SM Coonskin #152 reading 4,000 ppm H2S at 1500-hr pull. Gipple 124H at 11,000 ppm and 154H at 3,000 ppm. Louie Zarate received field praise from SM HSE for JSA quality and Emma Jane location cleanliness.",
+          "flags": ["Damaged butterfly valve — separator with known H2S; vessel pulled for service (Alex Clubb)", "SM Coonskin #152 — 4,000 ppm H2S at 1500-hr pull", "Gipple 124H — 11,000 ppm H2S; 154H — 3,000 ppm H2S (Dennis Easley)"],
+          "recognition": "Louie Zarate — SM HSE called his JSA “very detailed” and approved of Emma Jane location cleanliness after a full month on site. Caleb Smith — rerouted from SimOps conflict, completed Bizzell Irvin #15."
+        },
+        {
+          "date": "2026-06-19", "day": "Friday",
+          "summary": "Breakroom summary not on file for this date.",
+          "flags": [],
+          "recognition": ""
+        }
+      ]
+    }
+  ],
   "meta": {
     "programName": "Canon Safety Owl Leadership Program",
     "lastUpdated": "2026-06-14",
@@ -2606,15 +2786,112 @@ function toggleWeek(index) {
 // ── RENDER MEETING LOG ─────────────────────────────────────
 function renderLog() {
   const container = document.getElementById('log-container');
-  container.innerHTML = DATA.meetingLog.map(m => `
-    <div class="log-card">
-      <div class="log-date">${m.day}, ${m.date}</div>
-      <div class="log-topic">${m.topic}</div>
-      <div class="log-psms">PSMS: ${m.psms} · Led by ${m.leader}</div>
-      <div class="log-detail">${m.keyPoints}</div>
-      ${m.recognition ? `<div class="log-recognition"><strong>★ Recognition:</strong> ${m.recognition}</div>` : ''}
+  if (!DATA.owlWeeks || !DATA.owlWeeks.length) {
+    container.innerHTML = '<div class="log-card"><div class="log-detail">No OWL weeks logged yet.</div></div>';
+    return;
+  }
+  container.innerHTML = DATA.owlWeeks.map((wk, wi) => `
+    <div class="owl-week-block">
+      <div class="owl-week-header">
+        <div class="owl-week-meta">
+          <div class="owl-week-label">Week ${wk.week} OWL Presenter</div>
+          <div class="owl-week-name">${wk.owl}</div>
+          <div class="owl-week-theme">${wk.theme} &middot; PSMS: ${wk.psms}</div>
+          <div class="owl-week-dates">${wk.dateRange}</div>
+        </div>
+        <button class="owl-pdf-btn" onclick="shareOwlWeekPDF(${wi})">&#128196; Share PDF</button>
+      </div>
+      <div class="owl-meetings">
+        ${wk.meetings.map((m, mi) => `
+          <div class="owl-day-card" id="owlday-${wi}-${mi}">
+            <div class="owl-day-header" onclick="toggleOwlDay(${wi},${mi})">
+              <div class="owl-day-name">${m.day}</div>
+              <div class="owl-day-date">${m.date}</div>
+              <div class="owl-day-chevron">&#9660;</div>
+            </div>
+            <div class="owl-day-body">
+              <div class="owl-day-summary">${m.summary}</div>
+              ${m.flags && m.flags.length ? `
+                <div class="owl-day-flags">
+                  <div class="owl-flag-label">&#9888; Flags</div>
+                  ${m.flags.map(f => `<div class="owl-flag-item">${f}</div>`).join('')}
+                </div>` : ''}
+              ${m.recognition ? `
+                <div class="owl-recog">
+                  <div class="owl-recog-label">&#9733; Recognition</div>
+                  ${m.recognition}
+                </div>` : ''}
+            </div>
+          </div>
+        `).join('')}
+      </div>
     </div>
   `).join('');
+}
+
+function toggleOwlDay(wi, mi) {
+  document.getElementById(`owlday-${wi}-${mi}`).classList.toggle('open');
+}
+
+function shareOwlWeekPDF(wi) {
+  const wk = DATA.owlWeeks[wi];
+  const days = wk.meetings.map(m => `
+    <div class="day-block">
+      <div class="day-header">${m.day} &nbsp;&middot;&nbsp; ${m.date}</div>
+      <div class="day-summary">${m.summary}</div>
+      ${m.flags && m.flags.length ? `
+        <div class="flag-section">
+          <div class="flag-label">&#9888; FLAGS / FOLLOW-UPS</div>
+          ${m.flags.map(f => `<div class="flag-item">${f}</div>`).join('')}
+        </div>` : ''}
+      ${m.recognition ? `
+        <div class="recog-section">
+          <div class="recog-label">&#9733; RECOGNITION</div>
+          <div class="recog-body">${m.recognition}</div>
+        </div>` : ''}
+    </div>
+  `).join('');
+
+  const html = `<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>Week ${wk.week} — ${wk.owl} — Canon Safety OWL Program</title>
+<style>
+  body { font-family: Arial, sans-serif; font-size: 13px; color: #1a1a1a; margin: 0; padding: 32px; max-width: 750px; margin: 0 auto; }
+  .page-header { background: #1F3864; color: white; padding: 20px 24px; border-radius: 8px; margin-bottom: 24px; }
+  .page-header .week-label { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; opacity: 0.65; margin-bottom: 4px; }
+  .page-header .owl-name { font-size: 22px; font-weight: 900; }
+  .page-header .week-theme { font-size: 13px; opacity: 0.8; margin-top: 4px; }
+  .page-header .week-dates { font-size: 11px; opacity: 0.55; margin-top: 2px; }
+  .day-block { border: 1px solid #dde3ed; border-radius: 8px; margin-bottom: 16px; overflow: hidden; page-break-inside: avoid; }
+  .day-header { background: #1F3864; color: white; padding: 10px 16px; font-size: 14px; font-weight: 700; }
+  .day-summary { padding: 12px 16px; font-size: 13px; line-height: 1.6; color: #1a1a1a; border-bottom: 1px solid #eef; }
+  .flag-section { padding: 10px 16px; background: #fff5ec; }
+  .flag-label { font-size: 10px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #C55A11; margin-bottom: 6px; }
+  .flag-item { font-size: 12px; padding: 4px 8px; border-left: 3px solid #C55A11; margin-bottom: 4px; line-height: 1.4; }
+  .recog-section { padding: 10px 16px; background: #fff8e8; }
+  .recog-label { font-size: 10px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #BF8F00; margin-bottom: 4px; }
+  .recog-body { font-size: 12px; line-height: 1.5; }
+  .pdf-footer { margin-top: 24px; font-size: 11px; color: #999; text-align: center; }
+  @media print { body { padding: 16px; } }
+</style></head><body>
+<div class="page-header">
+  <div class="week-label">Week ${wk.week} OWL Presenter</div>
+  <div class="owl-name">${wk.owl}</div>
+  <div class="week-theme">${wk.theme} &middot; PSMS: ${wk.psms}</div>
+  <div class="week-dates">${wk.dateRange}</div>
+</div>
+${days}
+<div class="pdf-footer">Canon Safety &middot; OWL Leadership Program &middot; Week ${wk.week} Meeting Summary</div>
+</body></html>`;
+
+  const blob = new Blob([html], { type: 'text/html' });
+  const url = URL.createObjectURL(blob);
+  const win = window.open(url, '_blank');
+  if (win) {
+    win.onload = () => { URL.revokeObjectURL(url); win.focus(); win.print(); };
+  } else {
+    URL.revokeObjectURL(url);
+    alert('Pop-ups are blocked. Allow pop-ups for this site, then try again.');
+  }
 }
 
 // ── STATS ──────────────────────────────────────────────────
