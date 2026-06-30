@@ -428,6 +428,55 @@
     line-height: 1.5;
   }
 
+  /* ── TRAINING GALLERY ── */
+  .training-gallery-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .tg-header {
+    background: var(--navy);
+    color: var(--white);
+    padding: 14px 16px 12px;
+  }
+  .tg-header .tg-title {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+  }
+  .tg-header .tg-subtitle {
+    font-size: 12px;
+    opacity: 0.75;
+    margin-top: 3px;
+  }
+  .tg-hero img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+  }
+  .tg-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+  }
+  .tg-row img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+  }
+  .tg-caption {
+    padding: 10px 14px 12px;
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.4;
+    border-top: 1px solid var(--border);
+  }
+
   .stat-card {
     background: var(--white);
     border-radius: var(--radius);
@@ -1390,6 +1439,23 @@
     </div>
     <div class="cn-body">
       The OWL after-action review is not just for Exxon jobs. It applies to every job we are called out to — rig work, tank batteries, disconnects, all of it. If you were on a job, fill out the form. That is how we get better as a team.
+    </div>
+  </div>
+
+  <div class="training-gallery-card">
+    <div class="tg-header">
+      <div class="tg-title">&#127979; Andrews Fire Rescue Tower — June 28, 2026</div>
+      <div class="tg-subtitle">Confined Space Entry/Rescue Training &amp; Davit Arm — Republic Safety LLC</div>
+    </div>
+    <div class="tg-hero">
+      <img src="./training-group-2026-06-28.jpg" alt="Canon Safety team group photo after confined space training at Andrews Fire Rescue Tower">
+    </div>
+    <div class="tg-row">
+      <img src="./training-confined-space-2026-06-28.jpg" alt="Team inside confined space training room with rescue tripod">
+      <img src="./training-davit-arm-2026-06-28.jpg" alt="Davit arm demonstration during confined space rescue training">
+    </div>
+    <div class="tg-caption">
+      The team showed up on a Sunday. Hands-on rescue, tripod operations, and Davit arm — the skills that matter when it counts. Instructor: Eddy Hada.
     </div>
   </div>
 
