@@ -1,55 +1,52 @@
 {
   "date": "2026-06-30",
-  "week": 3,
-  "day": 2,
-  "openingMessage": "Accountability doesn't just mean answering for what went wrong. It means owning your position, your zone, and your crew — before anything goes wrong.",
-  "openingAttribution": null,
-  "leadershipThought": "The person in the line of fire rarely put themselves there on purpose. They drifted. Stay deliberate.",
-  "opsDate": "2026-06-30",
-  "opsContent": "<strong>Carry-Forward from Monday June 29:</strong><br>• <strong>Gage Gonzales</strong> — Ovintiv HSC 320: resuming ops 7:00 AM this morning<br>• <strong>Jordan Lemmons</strong> — MT and vac truck job start not confirmed from yesterday; status needed<br>• <strong>Neck brace photo</strong> — unidentified crew member photographed June 29 at 1:34 PM wearing neck brace; identity and work-related context still unknown — follow up today<br>• <strong>Fire off HWY 176</strong> — Ray Solis reported smoke/fire visible from the road at 4:12 PM (June 29). No crew impact confirmed, but area crews should be aware if working near that corridor<br><br><strong>Open jobs resuming today:</strong><br>• <strong>Michael Hutt / Marcos Morales</strong> — SM Energy Coonskin Flowback: trailer staged at location from Monday; confirm return-to-ops plan<br>• <strong>Caleb Smith</strong> — completed Shaw 183 Monday; confirm today's assignment",
-  "lessonsLearned": "• <strong>Rattlesnake on location</strong> — Ray Solis posted photos June 29 of a rattlesnake under/near equipment at 10:07 AM. Caption: \"Be careful where you step.\" This is the season. Watch low-clearance equipment, shadow areas, and behind equipment skids before you step in. 🔴<br>• <strong>Something on fire off HWY 176</strong> — Ray Solis reported and posted photos of smoke/fire visible from the road at 4:12 PM June 29. Nature of fire not confirmed (grass fire likely). If you're working near the HWY 176 corridor, note it. No crew involvement reported.<br>• <strong>Neck brace photo — unresolved</strong> — Crew member photographed June 29 at 1:34 PM wearing a neck brace with no context in Breakroom. If work-related, it needs documentation. Identify the individual and confirm.",
-  "exxonMoments": "<strong>Crane Work — SWA Exercised During Horse Head Install</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>A Canon technician observed a horse head installation using a crane at a Midkiff-area location. During the lift, unsafe conditions were identified and Stop Work Authority was exercised. Atmospheric monitoring, respiratory protection, exclusion zones, and hold points were all active when the stop was called and throughout resolution. Crane lifts place every person in the swing radius in the direct line of fire from a suspended load — SWA during the lift is the one control that covers everyone in that zone, not just the operator.</span><br><br><strong>Pre-Lift Plan Before the Hook Was On</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>Before a crane was used at a Stanton-area well, the crew paused to discuss the lift plan, hazards, and ground crew positions before any rigging was attached. Communication was strong throughout and the location was left prepared for upcoming operations. A lift plan conversation before the hook is attached is what establishes who stands where and what happens if the load shifts — that conversation is the line-of-fire control, and it cannot happen after rigging is set.</span><br><br><strong>Hydrovac Hose Burst — SWA, Repair, Full Re-Brief Before Resuming</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>During a job at a Midkiff-area location, a hydrovac hose burst during operations. Stop Work Authority was exercised immediately, the hose was repaired, and the crew conducted a full job scope re-review with all personnel before resuming. Full controls — LOTO, atmospheric monitoring, respiratory protection, exclusion zones, and hold points — were confirmed in place throughout. When equipment fails under pressure, the area around it becomes a line-of-fire zone instantly. Fix the equipment and re-brief the crew before anyone steps back in — the re-brief realigns situational awareness that the incident shifted.</span><br><br><strong>Back-to-Back Jobs Don't Get Automatic Repeats</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>A Canon technician completed two consecutive horse head and flow line removals at adjacent locations on the same day. All controls were confirmed for both jobs. The post-job note: back-to-back jobs of the same type can create complacency — the second job should receive the same hold-point rigor as the first, not an assumption that it will go the same way. Horse head removal with mechanical equipment puts the crew in the swing and drop radius of heavy components. Treating the second job as a repeat of the first is how exclusion zones drift and personnel end up where they should not be.</span><br><br><strong>The Safety Observer Who Rushes Isn't Observing</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>A new Site Safety Escort was coached on-location about LSRA requirements and hazard controls. The key coaching point: the SSE was at risk of matching crew pace rather than maintaining an independent oversight position. A safety role is not a crew role — the person moving at crew pace is reacting, not watching. You cannot be inside the work zone and observe the line of fire at the same time. Step out. Slow down. Lead from the front.</span>",
+  "week": 4,
+  "day": 1,
+  "openingMessage": "If you don't have time to do it right, when will you have time to do it over?",
+  "openingAttribution": "John Wooden",
+  "leadershipThought": "We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.",
+  "opsDate": "2026-06-29",
+  "opsContent": "<strong>Active Jobs (2026-06-29):</strong><br>• <strong>Michael Hutt</strong> — SM Energy Coonskin Flowback: rig down by 0600 (4:24 AM notice); flow back done, rig down complete, waiting on orders (5:55 AM)<br>• <strong>Caleb Smith</strong> — Arrived at Shaw 183 (5:47 AM); also completed Shaw 13-8 #183, finished for the day (6:29 PM)<br>• <strong>Louie Zarate</strong> — Arrived at Dickenson-Jackson 19M 13H (6:05 AM); later finishing up at Meisser Raggett, new job called in, sent Blake the info, headed to Locklar Holiman 28N 114H (arrived 3:26 PM)<br>• <strong>Marylou Guerra</strong> — On location (6:13 AM)<br>• <strong>Jacob Hernandez</strong> — Arrived on Bizzel Irvin location, waiting on (6:13 AM+); job on Bizel Irvin begun (9:59 AM); job complete at Bizzel Irvin — conversion, atmospheric testing confirmed safe, below-grade conversion with Dvir arm utilized, Co Rep released, headed to shop (6:12 PM)<br>• <strong>Dawson Drake</strong> — Arrived at Schlitz A (6:51 AM); done at Schlitz, cleaned out two separators, SM HSE was continuously going around and was impressed with everything (3:30 PM)<br>• <strong>Gage Gonzales</strong> — Ovintiv HSC 320: currently pumping acid (6:54 AM); finished for the day, will resume ops 7:00 AM (2:23 PM)<br>• <strong>Jordan Lemmons</strong> — Arrived on location; MT and vac truck on site, no crew yet (7:18 AM)<br>• <strong>Ralph Forbes</strong> — Job finished, heading to shop (8:44 AM)<br>• <strong>Robert Wright</strong> — Job complete on the Merchant, heading to next location (9:54 AM)<br>• <strong>Stefanie Kirschke</strong> — Rig up completed on Venom (10:09 AM)<br>• <strong>Ray Solis</strong> — Done at DL Hutt, packing up equipment, heading to shop; reported something on fire off of 176 with photos (4:12 PM)<br>• <strong>Brianda Sandoval</strong> — Done at Schlitz Fed Com: completed two vessels, OL on LELs, everything else within acceptable standards, safety was around again (3:30 PM area)<br>• <strong>Marcos Morales</strong> — SM Energy/Coonskin/Flowback: rigged down with Michael Hutt, trailer set to side of location, headed back to mancamp<br><br><strong>Carry-Forward:</strong><br>• Jordan Lemmons: MT and vac truck on site, no crew present at 7:18 AM — job start status not confirmed<br>• Gage Gonzales: Ovintiv HSC 320 resuming ops 7:00 AM Tuesday<br>• Neck brace photo — identity and context unknown; needs follow-up<br>• Fire off HWY 176 — no crew impact reported, but worth noting if any crew was in that area<br>",
+  "lessonsLearned": "• <strong>Rattlesnake on location</strong> — Ray Solis posted photos of a rattlesnake under/near equipment at 10:07 AM with caption \"Be careful where you step.\" 🔴<br>• <strong>Something on fire off HWY 176</strong> — Ray Solis reported and posted photos of smoke/fire visible from the road at 4:12 PM. Nature of fire not confirmed (grass fire likely). No crew involvement noted.<br>• <strong>Neck brace photo</strong> — Unidentified crew member photographed wearing a neck brace (1:34 PM). No context given in Breakroom. Flag for follow-up — unclear if work-related injury.<br>",
+  "exxonMoments": "<strong>Operational Discipline — 1099 Edward Carrillo</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Did we leave the location better.</span><br><br><strong>Good communication between all crews, continuous HS monitoring, and the job</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Good communication between all crews, continuous HS monitoring, and the job was</span><br><br><strong>Crew participation in safety meeting, hold points utilized through task</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Did we leave the location better Yes.</span><br><br><strong>Effective communication and understanding of job scope and expectations</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Did we leave the location better Yes.</span><br><br><strong>All parties were receptive and professional when asked to clear work area u</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>All parties were receptive and professional when asked to clear work area until desirable</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Caleb Smith — Confined Space Certification",
-      "detail": "Bobby Galindo shared Caleb's Republic Safety LLC Confined Space Entry/Rescue Training certificate (completed June 28, instructor Eddy Hada). Caleb came in off a Sunday training day — that is the standard.",
+      "headline": "Caleb Smith",
+      "detail": "Bobby Galindo shared photo of Caleb's **Republic Safety LLC Confined Space Entry/Rescue Training** certificate (completed 6/28/26, instructor: Eddy Hada). Caleb earned his confined space certification.",
       "psms": null
     },
     {
       "type": "good",
       "headline": "Dawson Drake",
-      "detail": "SM HSE was continuously going around the Schlitz A site Monday and was impressed with everything. Two separators cleaned, crew presence and professionalism noted.",
+      "detail": "SM HSE was continuously going around site and was impressed with everything at the Schlitz job.",
       "psms": null
     },
     {
       "type": "good",
       "headline": "Jacob Hernandez",
-      "detail": "Bizzel Irvin below-grade conversion completed safely and efficiently. Atmospheric testing confirmed safe, Davit arm utilized, Co Rep released crew.",
+      "detail": "Bizzel Irvin conversion completed safely and efficiently; Co Rep released crew.",
       "psms": null
     },
     {
       "type": "flag",
-      "headline": "Rattlesnake on location — Ray Solis",
-      "detail": "Photos posted June 29 at 10:07 AM. Rattlesnake under/near equipment. Watch low-clearance and shadow areas before stepping in.",
+      "headline": "Rattlesnake on location",
+      "detail": "Ray Solis posted photos of a rattlesnake under/near equipment at 10:07 AM with caption \"Be careful where you step.\" 🔴",
       "psms": null
     },
     {
       "type": "flag",
-      "headline": "Neck brace photo — identity unconfirmed",
-      "detail": "Crew member photographed June 29 at 1:34 PM wearing a neck brace. No context given. Identity and work-related status still unknown — needs follow-up today.",
+      "headline": "Something on fire off HWY 176",
+      "detail": "Ray Solis reported and posted photos of smoke/fire visible from the road at 4:12 PM. Nature of fire not confirmed (grass fire likely). No crew involvement noted.",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Neck brace photo",
+      "detail": "Unidentified crew member photographed wearing a neck brace (1:34 PM). No context given in Breakroom. Flag for follow-up — unclear if work-related injury.",
       "psms": null
     }
   ],
-  "todaysChallenge": "Before your next job today, point out one specific line-of-fire risk at that location.",
-  "todaysChallengeSubtext": "Not a general hazard — a specific one. Where could a load swing? Where could a valve release? Where could a vehicle turn? Name it before it names you.",
-  "compliance": {
-    "weekOf": "2026-06-29",
-    "metrics": [
-      { "label": "Trailer inspections", "done": 20, "total": 23 },
-      { "label": "Benzene / 4-gas calibrations", "done": 14, "total": 16 },
-      { "label": "Trailer readiness forms", "done": 21, "total": 23 }
-    ],
-    "footerNote": "Update numbers in daily.json each Monday morning."
-  }
+  "todaysChallenge": "On your next job, identify the line of fire before anything moves.",
+  "todaysChallengeSubtext": "Where is the pressure release path? Where is the swing radius? Where should no one stand? Name it before work starts."
 }
