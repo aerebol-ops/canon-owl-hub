@@ -3339,44 +3339,45 @@ function renderBreakroom() {
   const container = document.getElementById('breakroom-container');
   if (!container || !DATA.owlWeeks) return;
 
-  // Find the single most recent meeting day that has actual content
-  const allMeetings = DATA.owlWeeks.flatMap(wk =>
-    wk.meetings.map(m => ({ ...m, week: wk.week, owl: wk.owl, theme: wk.theme, psms: wk.psms }))
-  );
-  const latest = allMeetings
-    .filter(m => (m.recognition && m.recognition.trim()) || (m.flags && m.flags.length))
-    .sort((a, b) => b.date.localeCompare(a.date))[0];
+  // Show all weeks newest-first; within each week highlight the most recent day with content at top
+  container.innerHTML = DATA.owlWeeks.map(wk => {
+    const filledDays = wk.meetings.filter(m =>
+      (m.recognition && m.recognition.trim()) || (m.flags && m.flags.length)
+    ).sort((a, b) => b.date.localeCompare(a.date));
 
-  if (!latest) {
-    container.innerHTML = '<div class="br-empty" style="padding:20px;">No Breakroom content on file yet.</div>';
-    return;
-  }
+    if (!filledDays.length) return '';
 
-  const hasRec   = latest.recognition && latest.recognition.trim();
-  const hasFlags = latest.flags && latest.flags.length;
+    const recCount  = filledDays.filter(m => m.recognition && m.recognition.trim()).length;
+    const flagCount = filledDays.reduce((n, m) => n + (m.flags ? m.flags.length : 0), 0);
 
-  container.innerHTML = `
-    <div class="br-week">
-      <div class="br-week-header">
-        <div class="br-week-title">${latest.day} &mdash; ${latest.date}</div>
-        <div class="br-week-sub">Week ${latest.week} &middot; ${latest.owl} &middot; ${latest.theme} / ${latest.psms}</div>
-        <div class="br-week-counts">
-          ${hasRec   ? '<span class="br-count-rec">&#11088; Recognition</span>' : ''}
-          ${hasFlags ? `<span class="br-count-flag">&#9872; ${latest.flags.length} flag${latest.flags.length !== 1 ? 's' : ''}</span>` : ''}
+    return `
+      <div class="br-week">
+        <div class="br-week-header">
+          <div class="br-week-title">Week ${wk.week} &mdash; ${wk.owl}</div>
+          <div class="br-week-sub">${wk.dateRange} &middot; ${wk.theme} / ${wk.psms}</div>
+          <div class="br-week-counts">
+            <span class="br-count-rec">&#11088; ${recCount} recognition day${recCount !== 1 ? 's' : ''}</span>
+            <span class="br-count-flag">&#9872; ${flagCount} flag${flagCount !== 1 ? 's' : ''}</span>
+          </div>
         </div>
-      </div>
-      ${hasRec ? `
-        <div class="br-section-label">&#11088; Recognition</div>
-        <div class="br-rec-card">
-          <div class="br-rec-body">${latest.recognition}</div>
-        </div>` : ''}
-      ${hasFlags ? `
-        <div class="br-section-label">&#9872; Incidents &amp; Flags</div>
-        ${latest.flags.map(f => `
-          <div class="br-flag-card">
-            <div class="br-flag-body">${f}</div>
-          </div>`).join('')}` : ''}
-    </div>`;
+        ${filledDays.map((m, i) => {
+          const hasRec   = m.recognition && m.recognition.trim();
+          const hasFlags = m.flags && m.flags.length;
+          return `
+            <div style="border-top:${i > 0 ? '2px solid var(--border)' : 'none'}">
+              <div class="br-day-badge" style="padding:8px 16px 2px;font-size:11px;font-weight:800;letter-spacing:0.8px;text-transform:uppercase;color:var(--navy);">
+                ${m.day} &mdash; ${m.date}${i === 0 ? ' &nbsp;<span style="background:var(--teal);color:#fff;font-size:10px;padding:1px 7px;border-radius:10px;vertical-align:middle;">Latest</span>' : ''}
+              </div>
+              ${hasRec ? `
+                <div class="br-section-label">&#11088; Recognition</div>
+                <div class="br-rec-card"><div class="br-rec-body">${m.recognition}</div></div>` : ''}
+              ${hasFlags ? `
+                <div class="br-section-label">&#9872; Incidents &amp; Flags</div>
+                ${m.flags.map(f => `<div class="br-flag-card"><div class="br-flag-body">${f}</div></div>`).join('')}` : ''}
+            </div>`;
+        }).join('')}
+      </div>`;
+  }).filter(Boolean).join('');
 }
 
 // ── INIT ───────────────────────────────────────────────────
