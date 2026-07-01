@@ -59,6 +59,15 @@
       "psms": null
     }
   ],
+  "compliance": {
+    "weekOf": "June 30, 2026",
+    "metrics": [
+      { "label": "Trailer Inspections",    "done": 119, "total": 131 },
+      { "label": "Benzene / 4-Gas Cal.",   "done": 127, "total": 131 },
+      { "label": "Trailer Readiness Forms","done": 109, "total": 131 }
+    ],
+    "footerNote": "Week 3 · 131 field days tracked"
+  },
   "todaysChallenge": "Find one person today and communicate something early — before they need it.",
   "todaysChallengeSubtext": "Call leadership. Notify dispatch. Post in Breakroom. No surprises. That is how trust is built."
 }
