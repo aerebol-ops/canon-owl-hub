@@ -908,6 +908,104 @@
     font-style: italic;
   }
 
+  /* ── BREAKROOM TAB ── */
+  .br-week {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .br-week-header {
+    background: var(--navy);
+    color: var(--white);
+    padding: 14px 16px 12px;
+  }
+  .br-week-title {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+  }
+  .br-week-sub {
+    font-size: 12px;
+    opacity: 0.75;
+    margin-top: 2px;
+  }
+  .br-week-counts {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  .br-count-rec {
+    background: rgba(191,143,0,0.25);
+    color: #ffe082;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+  .br-count-flag {
+    background: rgba(192,0,0,0.25);
+    color: #ff8a80;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+  .br-section-label {
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--muted);
+    padding: 10px 16px 4px;
+    border-top: 1px solid var(--border);
+    background: var(--light);
+  }
+  .br-rec-card {
+    padding: 10px 16px;
+    border-left: 4px solid var(--gold);
+    margin: 8px 12px;
+    background: #fffde7;
+    border-radius: 0 6px 6px 0;
+  }
+  .br-flag-card {
+    padding: 10px 16px;
+    border-left: 4px solid var(--red);
+    margin: 8px 12px;
+    background: #fff5f5;
+    border-radius: 0 6px 6px 0;
+  }
+  .br-day-badge {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .br-rec-body {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--text);
+  }
+  .br-flag-body {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #7f0000;
+  }
+  .br-empty {
+    font-size: 13px;
+    color: var(--muted);
+    padding: 10px 16px;
+    font-style: italic;
+  }
+  .br-week-footer {
+    padding: 8px 16px 14px;
+    border-top: 1px solid var(--border);
+    background: var(--light);
+  }
+
   /* ── OWL WEEK BLOCKS (Meeting Log) ── */
   .owl-week-block {
     background: var(--white);
@@ -1569,6 +1667,7 @@
     <button class="active" onclick="showPage('home', this)">Home</button>
     <button onclick="showPage('news', this)">Field News</button>
     <button onclick="showPage('psms', this)">PSMS Topics</button>
+    <button onclick="showPage('breakroom', this)">Breakroom</button>
     <button onclick="showPage('log', this)">Meeting Log</button>
     <button onclick="showPage('template', this)">Daily Template</button>
     <button onclick="showPage('submit', this)">Submit Review</button>
@@ -1760,6 +1859,13 @@
   <div id="week-cards-container">
     <!-- injected by JS -->
   </div>
+</div>
+
+<!-- ══════════════════════════════════════════ BREAKROOM ═══ -->
+<div id="page-breakroom" class="page">
+  <p class="section-label" style="margin-top:20px;">Breakroom — Recognition &amp; Incidents</p>
+  <p style="font-size:13px;color:var(--muted);padding:0 4px 12px;">A week-by-week record of crew recognition and field flags from daily Breakroom check-ins. Newest week first.</p>
+  <div id="breakroom-container"></div>
 </div>
 
 <!-- ═══════════════════════════════════════════════ LOG ═══ -->
@@ -3228,6 +3334,39 @@ function renderFieldAlert(daily) {
   document.getElementById('fa-text').textContent = a.body || '';
 }
 
+// ── BREAKROOM TAB ─────────────────────────────────────────
+function renderBreakroom() {
+  const container = document.getElementById('breakroom-container');
+  if (!container || !DATA.owlWeeks) return;
+  container.innerHTML = DATA.owlWeeks.map(wk => {
+    const daysWithRec = wk.meetings.filter(m => m.recognition && m.recognition.trim());
+    const allFlags = wk.meetings.flatMap(m => (m.flags || []).map(f => ({ day: m.day, date: m.date, text: f })));
+    return `
+      <div class="br-week">
+        <div class="br-week-header">
+          <div class="br-week-title">Week ${wk.week} &mdash; ${wk.owl}</div>
+          <div class="br-week-sub">${wk.dateRange} &middot; ${wk.theme} / ${wk.psms}</div>
+          <div class="br-week-counts">
+            <span class="br-count-rec">&#11088; ${daysWithRec.length} recognition day${daysWithRec.length !== 1 ? 's' : ''}</span>
+            <span class="br-count-flag">&#9872; ${allFlags.length} flag${allFlags.length !== 1 ? 's' : ''}</span>
+          </div>
+        </div>
+        <div class="br-section-label">&#11088; Recognition</div>
+        ${daysWithRec.length ? daysWithRec.map(m => `
+          <div class="br-rec-card">
+            <div class="br-day-badge">${m.day} &mdash; ${m.date}</div>
+            <div class="br-rec-body">${m.recognition}</div>
+          </div>`).join('') : '<div class="br-empty">No recognition on file this week.</div>'}
+        <div class="br-section-label">&#9872; Incidents &amp; Flags</div>
+        ${allFlags.length ? allFlags.map(f => `
+          <div class="br-flag-card">
+            <div class="br-day-badge">${f.day} &mdash; ${f.date}</div>
+            <div class="br-flag-body">${f.text}</div>
+          </div>`).join('') : '<div class="br-empty">No flags on file this week.</div>'}
+      </div>`;
+  }).join('');
+}
+
 // ── INIT ───────────────────────────────────────────────────
 loadWeather();
 loadMarkets();
@@ -3235,6 +3374,7 @@ renderNews();
 renderTemplate().then(() => { updateStats(); renderNews(); renderCompliance(_daily); renderFieldAlert(_daily); });
 renderWeekCards();
 renderLog();
+renderBreakroom();
 renderPresidentMessage();
 </script>
 </body>
