@@ -8,18 +8,36 @@
   "opsDate": "2026-06-30",
   "opsContent": "<strong>Active Jobs (2026-06-30):</strong><br>• <strong>Kelby Hammer + Kyle</strong> — Arrived at UNIVERSITY 6-48E #105H (8:43 AM)<br>• <strong>Jacob Hernandez</strong> — Arrived on Scharbauer (8:45 AM); arrived on Driver 3H, job started (afternoon); Bizzel Irvin conversion complete — atmospheric testing confirmed safe, below-grade conversion with Dvir arm utilized, Co Rep released, headed to shop (7:12 PM); arrived HP 616 (7:29 PM)<br>• <strong>Dermont Morgan</strong> — Heading to Tract 167 (8:50 AM)<br>• <strong>Louie Zarate</strong> — Cosmo phase 2: 9 AM pull H2S 3,000ppm / CO 3% (elevated readings)<br>• <strong>Stefanie Kirschke</strong> — Well shutting in for cement, not opening until 1 PM (11:35 AM); Ovintiv Tom Ranch released for the day, back at 7 AM Tuesday (6:20 PM)<br>• <strong>Raymundo \"Ray\" Solis</strong> — Arrived at University 3-21 (11:58 AM); done at University, heading to rig down at H&P 628 (7:18 PM)<br>• <strong>Marylou Guerra</strong> — Arrived at Stanton A (12:00 PM)<br>• <strong>Edward Carrillo</strong> — MT arrived Nobels 2304; permit live; HSMW all crews participating in safety meeting; beginning task (12:05 PM); Nobles 3202D rescheduled to later date, headed back (3:50 PM)<br>• <strong>Robert Wright</strong> — Job complete SDU Tract, heading back (12:10 PM)<br>• <strong>Michael Hutt</strong> — SM First Tee just opened #121 well (3:47 PM)<br>• <strong>Jordan Lemmons</strong> — Starting job (3:50 PM)<br>• <strong>James Stephens</strong> — Diamondback Mabee 13-24 1-1h finished for the day (6:30 PM)<br>• <strong>Caleb Smith</strong> — Shaw 13-8 #183 finished for the day (7:29 PM)<br><br><strong>Carry-Forward:</strong><br>• Stefanie Kirschke: Ovintiv Tom Ranch returning 7:00 AM Wednesday<br>• Jacob Hernandez: arrived HP 616 at 7:29 PM — job status not confirmed for Wednesday<br>• SM Energy Gipple 154H: 2,000ppm H2S — monitoring and escalation plan required before next crew visit<br>• Louie Zarate / Cosmo phase 2: H2S 3,000ppm + CO 3% — confirm supplied air protocol and re-check readings at start of Wednesday shift<br>",
   "lessonsLearned": "• <strong>SM Energy Gipple 154H — 2,000ppm H2S</strong> (Dennis Easley, 3:51 PM) — elevated H2S readings continue at this location; multi-week carry-forward<br>• <strong>Louie Zarate — Cosmo phase 2 elevated readings</strong> — H2S 3,000ppm + CO 3% at 9 AM pull; multi-gas hazard, confirm monitoring plan and supplied air protocol for next crew visit<br>• <strong>Nobles 3202D — job rescheduled</strong> — Edward Carrillo on standby, crane not present; rescheduled to later date; no safety incident but crew exposure time on standby at active location<br>",
-  "exxonMoments": "<strong>Stop Work Authority Exercised — Unsafe Man Basket Operations</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>Man basket work is one of the highest-risk lift operations on an oil and gas site — Stop Work Authority before elevation is always the right call when anything about the setup looks wrong.</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span><br><br><strong>Operational Discipline — 1099 Edward Carrillo</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Did we leave the location better.</span><br><br><strong>Good communication between all crews, continuous HS monitoring, and the job</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Good communication between all crews, continuous HS monitoring, and the job was</span><br><br><strong>Crew participation in safety meeting, hold points utilized through task</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Did we leave the location better Yes.</span>",
+  "exxonMoments": "<strong>Crane Work — SWA Exercised During Horse Head Install</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>A Canon technician observed a horse head installation using a crane at a Midkiff-area location. During the lift, unsafe conditions were identified and Stop Work Authority was exercised. Atmospheric monitoring, respiratory protection, exclusion zones, and hold points were all active when the stop was called. Crane lifts place every person in the swing radius in the direct line of fire from a suspended load — SWA during the lift is the one control that covers everyone in that zone, not just the operator.</span><br><br><strong>Pre-Lift Plan Before the Hook Was On</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>Before a crane was used at a Stanton-area well, the crew paused to discuss the lift plan, hazards, and ground crew positions before any rigging was attached. A lift plan conversation before the hook is attached establishes who stands where and what happens if the load shifts — that conversation is the line-of-fire control, and it cannot happen after rigging is set.</span><br><br><strong>Hydrovac Hose Burst — SWA, Repair, Full Re-Brief Before Resuming</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>During a job at a Midkiff-area location, a hydrovac hose burst during operations. SWA was exercised immediately, the hose was repaired, and the crew conducted a full job scope re-review with all personnel before resuming. When equipment fails under pressure, the area around it becomes a line-of-fire zone instantly. Fix the equipment and re-brief the crew before anyone steps back in.</span><br><br><strong>Back-to-Back Jobs Don't Get Automatic Repeats</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>A Canon technician completed two consecutive horse head and flow line removals at adjacent locations. All controls confirmed for both. Post-job note: back-to-back jobs of the same type can create complacency — the second job should receive the same hold-point rigor as the first. Horse head removal puts the crew in the swing and drop radius of heavy components. Treating job two as a repeat of job one is how exclusion zones drift.</span><br><br><strong>The Safety Observer Who Rushes Isn't Observing</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>A new Site Safety Escort was coached on-location about LSRA requirements. The key coaching point: the SSE was at risk of matching crew pace rather than maintaining independent oversight. A safety role is not a crew role — the person moving at crew pace is reacting, not watching. You cannot be inside the work zone and observe the line of fire at the same time. Step out. Slow down. Lead from the front.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Marylou Guerra: That we had a good communication, crew, MT and Canon.",
+      "headline": "Edward Carrillo: Well head reconnect task completed successfully without incident. Great communication by all — Forklift operations were flawless and efficient.",
+      "detail": "OWL after-action review — Driver B37 10-15F 306H",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Marylou Guerra: Good communication across the crew, MT, and Canon — crew and client in sync from start to finish at Driver B37.",
       "detail": "OWL after-action review — Driver B37 10-15F 306",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke: The well getting put on vacuum correctly",
+      "headline": "Stefanie Kirschke: Well successfully placed on vacuum, crew picked up after themselves — location left cleaner than found.",
       "detail": "OWL after-action review — Texas Ten ZZ #13",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Josh Blassingame called out Kelby Hammer and Kyle directly in Breakroom: 'The Dream Team right there!' — standout team performance recognized by name.",
+      "detail": "Breakroom — 2026-06-30",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Edward Carrillo — HSMW all-crew safety meeting at Nobels 2304 before task began. MT on location, permit live, every crew member in the safety meeting before the job started.",
+      "detail": "Breakroom — 2026-06-30",
       "psms": null
     },
     {
@@ -42,5 +60,26 @@
     }
   ],
   "todaysChallenge": "Find one person today and communicate something early — before they need it.",
-  "todaysChallengeSubtext": "Call leadership. Notify dispatch. Post in Breakroom. No surprises. That is how trust is built."
+  "todaysChallengeSubtext": "Call leadership. Notify dispatch. Post in Breakroom. No surprises. That is how trust is built.",
+  "compliance": {
+    "weekOf": "June 30, 2026",
+    "metrics": [
+      {
+        "label": "Trailer Inspections",
+        "done": 119,
+        "total": 131
+      },
+      {
+        "label": "Benzene / 4-Gas Cal.",
+        "done": 127,
+        "total": 131
+      },
+      {
+        "label": "Trailer Readiness Forms",
+        "done": 109,
+        "total": 131
+      }
+    ],
+    "footerNote": "Week 3 · 131 field days tracked"
+  }
 }
