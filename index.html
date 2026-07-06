@@ -1061,6 +1061,20 @@
     margin-top: 2px;
   }
   .owl-pdf-btn:active { opacity: 0.7; }
+  .owl-day-pdf-btn {
+    flex-shrink: 0;
+    background: #1F3864;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 9px;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-left: auto;
+  }
+  .owl-day-pdf-btn:active { opacity: 0.7; }
   .owl-meetings { padding: 12px 14px; }
   .owl-day-card {
     border: 1px solid var(--border);
@@ -3111,6 +3125,7 @@ function renderLog() {
             <div class="owl-day-header" onclick="toggleOwlDay(${wi},${mi})">
               <div class="owl-day-name">${m.day}</div>
               <div class="owl-day-date">${m.date}</div>
+              <button class="owl-day-pdf-btn" onclick="event.stopPropagation();shareOwlDayPDF(${wi},${mi})">&#128196; Share PDF</button>
               <div class="owl-day-chevron">&#9660;</div>
             </div>
             <div class="owl-day-body">
@@ -3190,6 +3205,64 @@ ${days}
   const blob = new Blob([html], { type: 'text/html' });
   const url = URL.createObjectURL(blob);
   const win = window.open(url, '_blank');
+  if (win) {
+    win.onload = () => { URL.revokeObjectURL(url); win.focus(); win.print(); };
+  } else {
+    URL.revokeObjectURL(url);
+    alert('Pop-ups are blocked. Allow pop-ups for this site, then try again.');
+  }
+}
+
+// ── SHARE SINGLE DAY PDF ──────────────────────────────────
+function shareOwlDayPDF(wi, mi) {
+  const wk = DATA.owlWeeks[wi];
+  const m  = wk.meetings[mi];
+
+  const flagsHtml = (m.flags && m.flags.length)
+    ? `<div class="flag-section">
+        <div class="flag-label">&#9888; Flags / Follow-Ups</div>
+        ${m.flags.map(f => `<div class="flag-item">${f}</div>`).join('')}
+      </div>` : '';
+
+  const recogHtml = m.recognition
+    ? `<div class="recog-section">
+        <div class="recog-label">&#9733; Recognition</div>
+        <div class="recog-body">${m.recognition}</div>
+      </div>` : '';
+
+  const html = `<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>Canon Safety — ${m.day} ${m.date}</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #1a1a1a; padding: 28px 24px; max-width: 750px; margin: 0 auto; }
+  .page-header { background: #1F3864; color: #fff; padding: 18px 22px; border-radius: 8px; margin-bottom: 20px; }
+  .page-header .eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; opacity: 0.6; margin-bottom: 4px; }
+  .page-header .day-title { font-size: 22px; font-weight: 900; }
+  .page-header .sub { font-size: 12px; opacity: 0.75; margin-top: 3px; }
+  .summary-body { font-size: 13px; line-height: 1.65; margin-bottom: 16px; }
+  .flag-section { background: #fff5ec; border-radius: 6px; padding: 12px 14px; margin-bottom: 12px; }
+  .flag-label { font-size: 10px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #C55A11; margin-bottom: 6px; }
+  .flag-item { font-size: 12px; padding: 4px 8px; border-left: 3px solid #C55A11; margin-bottom: 4px; line-height: 1.4; }
+  .recog-section { background: #fff8e8; border-radius: 6px; padding: 12px 14px; margin-bottom: 12px; }
+  .recog-label { font-size: 10px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #BF8F00; margin-bottom: 4px; }
+  .recog-body { font-size: 12px; line-height: 1.5; }
+  .pdf-footer { margin-top: 24px; padding-top: 10px; border-top: 1px solid #ddd; font-size: 11px; color: #aaa; text-align: center; }
+  @media print { body { padding: 16px; } }
+</style></head><body>
+<div class="page-header">
+  <div class="eyebrow">Canon Safety &middot; OWL Program &middot; Week ${wk.week} &middot; ${wk.psms}</div>
+  <div class="day-title">${m.day} &mdash; ${m.date}</div>
+  <div class="sub">${wk.owl} &middot; ${wk.theme}</div>
+</div>
+<div class="summary-body">${m.summary}</div>
+${flagsHtml}
+${recogHtml}
+<div class="pdf-footer">Canon Safety &middot; OWL Leadership Program &middot; Week ${wk.week} &middot; ${m.date} &middot; For Breakroom Reference</div>
+</body></html>`;
+
+  const blob = new Blob([html], { type: 'text/html' });
+  const url  = URL.createObjectURL(blob);
+  const win  = window.open(url, '_blank');
   if (win) {
     win.onload = () => { URL.revokeObjectURL(url); win.focus(); win.print(); };
   } else {
