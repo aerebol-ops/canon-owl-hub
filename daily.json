@@ -12,20 +12,50 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Bobby Galindo shared Caleb Smith's Republic Safety LLC Confined Space Entry/Rescue Training certificate — Caleb completed the full program.",
-      "detail": "Breakroom — Week 2",
+      "headline": "Caleb Smith earned his Confined Space Entry & Rescue certification through Republic Safety LLC — Bobby Galindo posted the cert in the Breakroom for the whole team to see.",
+      "detail": "Breakroom — 2026-06-28 · Instructor: Eddy Hada · Completed 6/28/26",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Edward Carrillo — HSMW all-crew safety meeting at Nobels 2304 before task began. MT on location, permit live, every crew member in the safety meeting before the job started.",
+      "headline": "SM Energy's HSE rep walked the entire Schlitz A job while Dawson Drake was running it — two separators cleaned, LELs acceptable, and SM HSE left impressed. Client validation on the spot.",
+      "detail": "Breakroom — 2026-06-29",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Edward Carrillo — MT on location at Nobels 2304, permit live, every HSMW crew member in the safety meeting before the task began. Sequence done right, no shortcuts.",
       "detail": "Breakroom — 2026-06-30",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez — Bizzel Irvin conversion complete: atmospheric testing confirmed safe, below-grade conversion with Dvir arm utilized, Co Rep released.",
+      "headline": "Jacob Hernandez — Bizzel Irvin conversion: atmospheric testing confirmed safe, below-grade work with Dvir arm, Co Rep released the crew clean. He posted the full job rundown in Breakroom — that's ownership.",
+      "detail": "Breakroom — 2026-06-29",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Kelby Hammer & Kyle checked into University 6-48E #105H and Josh Blassingame responded in Breakroom: 'The Dream Team right there!' — peer recognition, no prompting needed.",
       "detail": "Breakroom — 2026-06-30",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "SM Energy Gipple 154H — 2,000ppm H2S, multi-week carry. Do not arrive without a confirmed monitoring and escalation plan.",
+      "detail": "Dennis Easley — 2026-07-01 · elevated readings ongoing since prior week",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Cosmo phase 2 — H2S 3,000ppm / CO 3% confirmed at 9 AM atmospheric pull. Multi-gas hazard. Supplied air protocol must be confirmed before any crew re-enters this location.",
+      "detail": "Louie Zarate — 2026-06-30",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Rattlesnake found under equipment on location — Ray Solis posted photos and flagged it. Summer heat is pushing snakes into shaded areas under trailers and equipment. Look before you reach.",
+      "detail": "Ray Solis — 2026-06-29 · 'Be careful where you step'",
       "psms": null
     }
   ],
