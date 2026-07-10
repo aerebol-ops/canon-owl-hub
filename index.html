@@ -1685,6 +1685,7 @@
     <button onclick="showPage('log', this)">Meeting Log</button>
     <button onclick="showPage('template', this)">Daily Template</button>
     <button onclick="showPage('submit', this)">Submit Review</button>
+    <button onclick="showPage('safetycomp', this)">Safety Compliance</button>
   </nav>
 </header>
 
@@ -1947,6 +1948,11 @@
     <p class="form-sub">Mike has your review. Good work this week.</p>
     <button class="submit-btn" onclick="resetReview()" style="margin-top:16px;">Submit Another</button>
   </div>
+</div>
+
+<!-- ══════════════════════════════════ SAFETY COMPLIANCE ═══ -->
+<div id="page-safetycomp" class="page">
+  <div id="sc-content"></div>
 </div>
 
 <footer>
@@ -3493,6 +3499,275 @@ function renderBreakroom() {
   }).filter(Boolean).join('');
 }
 
+// ── SAFETY COMPLIANCE DATA (extracted 2026-07-09) ──────────
+const SC = {
+  asOf: "2026-07-06",
+  totalRows: 8994,
+  noteRows: 2149,
+  problemRows: 1340,
+  overall: [
+    { label: "Day Forms",          rate: 0.9111, yes: 5001, denom: 5489 },
+    { label: "Night Forms",        rate: 0.6966, yes: 581,  denom: 834  },
+    { label: "Trailer Inspection", rate: 0.8115, yes: 1162, denom: 1432 },
+    { label: "Trailer Readiness",  rate: 0.7308, yes: 801,  denom: 1096 }
+  ],
+  monthly: [
+    { m:"Jan", dayForms:0.9006, nightForms:0.6341, trailerInsp:0.8935, trailerReady:0.6989, problems:212, rows:1172 },
+    { m:"Feb", dayForms:0.9015, nightForms:0.6957, trailerInsp:0.7918, trailerReady:0.7246, problems:221, rows:1339 },
+    { m:"Mar", dayForms:0.9105, nightForms:0.7913, trailerInsp:0.7910, trailerReady:0.7821, problems:243, rows:1536 },
+    { m:"Apr", dayForms:0.9426, nightForms:0.6983, trailerInsp:0.8683, trailerReady:0.6914, problems:209, rows:1466 },
+    { m:"May", dayForms:0.9131, nightForms:0.6993, trailerInsp:0.8075, trailerReady:0.7277, problems:191, rows:1529 },
+    { m:"Jun", dayForms:0.9033, nightForms:0.6814, trailerInsp:0.7537, trailerReady:0.7822, problems:226, rows:1621 },
+    { m:"Jul*",dayForms:0.8500, nightForms:0.6087, trailerInsp:0.6000, trailerReady:0.1111, problems:38,  rows:331  }
+  ],
+  recentWeeks: [
+    { label:"Wk 26 Jun 26–Jul 2",  dayNight:0.890, trailerInsp:0.738, trailerReady:0.872, problems:34 },
+    { label:"Wk 25 Jun 19–25",     dayNight:0.899, trailerInsp:0.724, trailerReady:0.587, problems:51 },
+    { label:"Wk 24 Jun 12–18",     dayNight:0.843, trailerInsp:0.660, trailerReady:0.906, problems:40 },
+    { label:"Wk 23 Jun 5–11",      dayNight:0.860, trailerInsp:0.843, trailerReady:0.815, problems:54 }
+  ],
+  issueCategories: [
+    { cat:"Job cancelled / rescheduled / status exception", n:534 },
+    { cat:"Daily inspection form missing",                  n:418 },
+    { cat:"Trailer inspection missing / returning",         n:276 },
+    { cat:"Trailer readiness form missing",                 n:265 },
+    { cat:"Reminder / follow-up sent",                      n:237 },
+    { cat:"Job start / stop / log / upload issue",          n:211 },
+    { cat:"SCBA / SABA / cascade / bottle / hydro issue",   n:202 },
+    { cat:"Photo / picture / timestamp issue",              n:186 },
+    { cat:"JSA / Exxon JSA missing",                        n:152 },
+    { cat:"H2S monitor / sensor / calibration issue",       n:124 },
+    { cat:"PPE / appearance / housekeeping",                n:49  },
+    { cat:"Workpack / FR / paperwork issue",                n:43  },
+    { cat:"Fire extinguisher issue",                        n:24  }
+  ],
+  personMentions: [
+    { name:"Andrew Bailey",       mentions:67, topIssue:"Trailer Readiness Form Missing",    topN:32 },
+    { name:"Baldemar Bracamontes",mentions:64, topIssue:"Trailer Inspection Missing",        topN:33 },
+    { name:"Joseph Popillion",    mentions:59, topIssue:"Daily Inspection Form Missing",     topN:35 },
+    { name:"Stefanie Kirschke",   mentions:55, topIssue:"JSA / Exxon JSA Missing",          topN:16 },
+    { name:"Josh Blassingame",    mentions:54, topIssue:"Daily Inspection Form Missing",     topN:37 },
+    { name:"Marcos Morales",      mentions:51, topIssue:"Daily Inspection Form Missing",     topN:35 },
+    { name:"Brianda Sandoval",    mentions:50, topIssue:"Trailer Inspection Missing",        topN:17 },
+    { name:"Alfredo Vaquera",     mentions:49, topIssue:"JSA / Exxon JSA Missing",          topN:23 },
+    { name:"John Blasingame",     mentions:49, topIssue:"Daily Inspection Form Missing",     topN:31 },
+    { name:"Luis Zarate",         mentions:46, topIssue:"Trailer Readiness Form Missing",    topN:28 }
+  ],
+  divisions: [
+    { div:"WTX", rows:6226, problems:889, dayRate:0.930, nightRate:0.698, trailerInsp:0.800, trailerReady:0.728 },
+    { div:"ETX", rows:2089, problems:272, dayRate:0.849, nightRate:0.674, trailerInsp:0.925, trailerReady:1.000 },
+    { div:"NM",  rows:668,  problems:177, dayRate:0.883, nightRate:0.728, trailerInsp:0.822, trailerReady:0.742 }
+  ],
+  topCustomers: [
+    { name:"XTO ENERGY",         rows:4584, problems:512, dayRate:0.957, trailerInsp:0.802, trailerReady:0.729 },
+    { name:"SM ENERGY",          rows:704,  problems:148, dayRate:0.864, trailerInsp:0.733, trailerReady:0.632 },
+    { name:"CIVITAS",            rows:641,  problems:167, dayRate:0.886, trailerInsp:0.820, trailerReady:0.742 },
+    { name:"COMSTOCK",           rows:482,  problems:109, dayRate:0.795, trailerInsp:0.833, trailerReady:1.000 },
+    { name:"OVINTIV",            rows:473,  problems:147, dayRate:0.845, trailerInsp:0.867, trailerReady:0.800 },
+    { name:"SOUTHWEST OPERATING",rows:455,  problems:21,  dayRate:0.873, trailerInsp:1.000, trailerReady:null  },
+    { name:"DIAMONDBACK",        rows:292,  problems:58,  dayRate:0.838, trailerInsp:0.947, trailerReady:1.000 }
+  ]
+};
+
+function pct(v) { return v != null ? Math.round(v * 100) + "%" : "—"; }
+function rateColor(v) {
+  if (v == null) return "#aaa";
+  if (v >= 0.90) return "#166534";
+  if (v >= 0.80) return "#92400e";
+  return "#991b1b";
+}
+function rateBg(v) {
+  if (v == null) return "#f3f4f6";
+  if (v >= 0.90) return "#dcfce7";
+  if (v >= 0.80) return "#fef3c7";
+  return "#fee2e2";
+}
+
+function renderSafetyCompliance() {
+  const maxIssue = SC.issueCategories[0].n;
+  const maxMentions = SC.personMentions[0].mentions;
+
+  document.getElementById("sc-content").innerHTML = `
+
+  <div style="padding:16px 0 4px;">
+    <div style="font-size:11px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin-bottom:4px;">Internal Compliance Analysis</div>
+    <div style="font-size:20px;font-weight:900;color:var(--navy);line-height:1.1;">Safety Compliance Dashboard</div>
+    <div style="font-size:12px;color:var(--muted);margin-top:4px;">Jan 1 – Jul 6, 2026 &nbsp;·&nbsp; ${SC.totalRows.toLocaleString()} job rows &nbsp;·&nbsp; ${SC.problemRows.toLocaleString()} problem rows &nbsp;·&nbsp; ${SC.noteRows.toLocaleString()} notes flagged</div>
+  </div>
+
+  <!-- OVERALL SCORECARD -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0;">
+    ${SC.overall.map(o => `
+    <div style="background:${rateBg(o.rate)};border-radius:10px;padding:14px 12px;">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:${rateColor(o.rate)};margin-bottom:6px;">${o.label}</div>
+      <div style="font-size:32px;font-weight:900;color:${rateColor(o.rate)};line-height:1;">${pct(o.rate)}</div>
+      <div style="font-size:11px;color:${rateColor(o.rate)};margin-top:4px;opacity:.8;">${o.yes.toLocaleString()} / ${o.denom.toLocaleString()} compliant</div>
+      <div style="height:4px;background:rgba(0,0,0,.1);border-radius:2px;margin-top:8px;">
+        <div style="height:4px;background:${rateColor(o.rate)};border-radius:2px;width:${Math.round(o.rate*100)}%;"></div>
+      </div>
+    </div>`).join("")}
+  </div>
+
+  <!-- MONTHLY TREND -->
+  <div style="background:var(--card);border-radius:12px;padding:14px;margin-bottom:14px;">
+    <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:12px;border-bottom:2px solid var(--navy);padding-bottom:4px;">&#128200; Monthly Trend — Day Forms</div>
+    <div style="display:flex;align-items:flex-end;gap:6px;height:80px;">
+      ${SC.monthly.map(m => {
+        const h = Math.round(m.dayForms * 80);
+        const c = rateColor(m.dayForms);
+        return `<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;">
+          <div style="font-size:9px;font-weight:700;color:${c};">${pct(m.dayForms)}</div>
+          <div style="width:100%;height:${h}px;background:${c};border-radius:3px 3px 0 0;"></div>
+          <div style="font-size:9px;color:var(--muted);white-space:nowrap;">${m.m}</div>
+        </div>`;
+      }).join("")}
+    </div>
+    <div style="margin-top:12px;border-top:1px solid var(--border);padding-top:10px;">
+      <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin-bottom:8px;">Trailer Readiness by Month</div>
+      <div style="display:flex;align-items:flex-end;gap:6px;height:60px;">
+        ${SC.monthly.map(m => {
+          const h = Math.round(m.trailerReady * 60);
+          const c = rateColor(m.trailerReady);
+          return `<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;">
+            <div style="width:100%;height:${h}px;background:${c};border-radius:3px 3px 0 0;"></div>
+            <div style="font-size:9px;color:var(--muted);white-space:nowrap;">${m.m}</div>
+          </div>`;
+        }).join("")}
+      </div>
+    </div>
+  </div>
+
+  <!-- RECENT WEEKS -->
+  <div style="background:var(--card);border-radius:12px;padding:14px;margin-bottom:14px;">
+    <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:10px;border-bottom:2px solid var(--navy);padding-bottom:4px;">&#128197; Last 4 Weeks</div>
+    ${SC.recentWeeks.map(w => `
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--border);">
+      <div style="font-size:11px;font-weight:700;color:var(--text);flex:1;">${w.label}</div>
+      <div style="display:flex;gap:8px;flex-shrink:0;">
+        <div style="text-align:center;min-width:44px;">
+          <div style="font-size:9px;color:var(--muted);margin-bottom:2px;">Day/Night</div>
+          <div style="font-size:12px;font-weight:800;color:${rateColor(w.dayNight)};">${pct(w.dayNight)}</div>
+        </div>
+        <div style="text-align:center;min-width:44px;">
+          <div style="font-size:9px;color:var(--muted);margin-bottom:2px;">Trlr Insp</div>
+          <div style="font-size:12px;font-weight:800;color:${rateColor(w.trailerInsp)};">${pct(w.trailerInsp)}</div>
+        </div>
+        <div style="text-align:center;min-width:44px;">
+          <div style="font-size:9px;color:var(--muted);margin-bottom:2px;">Trlr Ready</div>
+          <div style="font-size:12px;font-weight:800;color:${rateColor(w.trailerReady)};">${pct(w.trailerReady)}</div>
+        </div>
+        <div style="text-align:center;min-width:36px;">
+          <div style="font-size:9px;color:var(--muted);margin-bottom:2px;">Issues</div>
+          <div style="font-size:12px;font-weight:800;color:#991b1b;">${w.problems}</div>
+        </div>
+      </div>
+    </div>`).join("")}
+  </div>
+
+  <!-- TOP ISSUE CATEGORIES -->
+  <div style="background:var(--card);border-radius:12px;padding:14px;margin-bottom:14px;">
+    <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:10px;border-bottom:2px solid var(--navy);padding-bottom:4px;">&#9888;&#65039; Top Issue Categories (YTD)</div>
+    ${SC.issueCategories.map((ic, i) => {
+      const barW = Math.round((ic.n / maxIssue) * 100);
+      const colors = ["#991b1b","#c2410c","#b45309","#1e40af","#1e40af","#374151","#374151","#374151","#374151","#374151","#374151","#374151","#374151"];
+      return `<div style="margin-bottom:8px;">
+        <div style="display:flex;justify-content:space-between;margin-bottom:3px;">
+          <div style="font-size:11px;color:var(--text);flex:1;padding-right:8px;">${ic.cat}</div>
+          <div style="font-size:11px;font-weight:800;color:${colors[i]};flex-shrink:0;">${ic.n}</div>
+        </div>
+        <div style="height:5px;background:var(--border);border-radius:3px;">
+          <div style="height:5px;background:${colors[i]};border-radius:3px;width:${barW}%;"></div>
+        </div>
+      </div>`;
+    }).join("")}
+  </div>
+
+  <!-- DIVISION BREAKDOWN -->
+  <div style="background:var(--card);border-radius:12px;padding:14px;margin-bottom:14px;">
+    <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:10px;border-bottom:2px solid var(--navy);padding-bottom:4px;">&#127758; By Division</div>
+    <div style="overflow-x:auto;">
+      <table style="width:100%;border-collapse:collapse;font-size:11px;">
+        <thead>
+          <tr style="color:var(--muted);text-align:right;">
+            <th style="text-align:left;padding:4px 8px 4px 0;font-weight:700;">Division</th>
+            <th style="padding:4px 4px;">Rows</th>
+            <th style="padding:4px 4px;">Issues</th>
+            <th style="padding:4px 4px;">Day Forms</th>
+            <th style="padding:4px 4px;">Night</th>
+            <th style="padding:4px 4px;">Trlr Insp</th>
+            <th style="padding:4px 4px;">Trlr Ready</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${SC.divisions.map(d => `<tr style="border-top:1px solid var(--border);">
+            <td style="padding:6px 8px 6px 0;font-weight:800;color:var(--navy);">${d.div}</td>
+            <td style="text-align:right;padding:6px 4px;color:var(--muted);">${d.rows.toLocaleString()}</td>
+            <td style="text-align:right;padding:6px 4px;font-weight:700;color:#991b1b;">${d.problems}</td>
+            <td style="text-align:right;padding:6px 4px;font-weight:700;color:${rateColor(d.dayRate)};">${pct(d.dayRate)}</td>
+            <td style="text-align:right;padding:6px 4px;font-weight:700;color:${rateColor(d.nightRate)};">${pct(d.nightRate)}</td>
+            <td style="text-align:right;padding:6px 4px;font-weight:700;color:${rateColor(d.trailerInsp)};">${pct(d.trailerInsp)}</td>
+            <td style="text-align:right;padding:6px 4px;font-weight:700;color:${rateColor(d.trailerReady)};">${pct(d.trailerReady)}</td>
+          </tr>`).join("")}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TOP CUSTOMERS -->
+  <div style="background:var(--card);border-radius:12px;padding:14px;margin-bottom:14px;">
+    <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:10px;border-bottom:2px solid var(--navy);padding-bottom:4px;">&#127959; By Customer</div>
+    <div style="overflow-x:auto;">
+      <table style="width:100%;border-collapse:collapse;font-size:11px;">
+        <thead>
+          <tr style="color:var(--muted);text-align:right;">
+            <th style="text-align:left;padding:4px 8px 4px 0;font-weight:700;">Customer</th>
+            <th style="padding:4px 4px;">Rows</th>
+            <th style="padding:4px 4px;">Issues</th>
+            <th style="padding:4px 4px;">Day Forms</th>
+            <th style="padding:4px 4px;">Trlr Insp</th>
+            <th style="padding:4px 4px;">Trlr Ready</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${SC.topCustomers.map(c => `<tr style="border-top:1px solid var(--border);">
+            <td style="padding:6px 8px 6px 0;font-weight:700;color:var(--text);font-size:10px;">${c.name}</td>
+            <td style="text-align:right;padding:6px 4px;color:var(--muted);">${c.rows.toLocaleString()}</td>
+            <td style="text-align:right;padding:6px 4px;font-weight:700;color:#991b1b;">${c.problems}</td>
+            <td style="text-align:right;padding:6px 4px;font-weight:700;color:${rateColor(c.dayRate)};">${pct(c.dayRate)}</td>
+            <td style="text-align:right;padding:6px 4px;font-weight:700;color:${rateColor(c.trailerInsp)};">${pct(c.trailerInsp)}</td>
+            <td style="text-align:right;padding:6px 4px;font-weight:700;color:${rateColor(c.trailerReady)};">${pct(c.trailerReady)}</td>
+          </tr>`).join("")}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- FOLLOW-UP FREQUENCY BY TECH -->
+  <div style="background:var(--card);border-radius:12px;padding:14px;margin-bottom:14px;">
+    <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:4px;border-bottom:2px solid var(--navy);padding-bottom:4px;">&#128101; Follow-Up Frequency by Tech (Top 10)</div>
+    <div style="font-size:11px;color:var(--muted);margin-bottom:10px;">Times a tech was mentioned in a compliance note — follow-up reminders, missing forms, or issues flagged. Higher count = more coaching needed on that specific gap.</div>
+    ${SC.personMentions.map((p, i) => {
+      const barW = Math.round((p.mentions / maxMentions) * 100);
+      const c = i < 3 ? "#991b1b" : i < 6 ? "#b45309" : "#374151";
+      return `<div style="margin-bottom:10px;">
+        <div style="display:flex;justify-content:space-between;margin-bottom:3px;">
+          <div style="font-size:11px;font-weight:700;color:var(--text);">${p.name}</div>
+          <div style="font-size:10px;color:var(--muted);">${p.mentions} notes</div>
+        </div>
+        <div style="height:5px;background:var(--border);border-radius:3px;margin-bottom:3px;">
+          <div style="height:5px;background:${c};border-radius:3px;width:${barW}%;"></div>
+        </div>
+        <div style="font-size:10px;color:var(--muted);">Top gap: ${p.topIssue} (${p.topN}×)</div>
+      </div>`;
+    }).join("")}
+  </div>
+
+  <div style="font-size:10px;color:var(--muted);text-align:center;padding:8px 0 20px;">
+    Source: compliance analysis.xlsx &nbsp;·&nbsp; Extracted 2026-07-09 &nbsp;·&nbsp; ${SC.totalRows.toLocaleString()} rows across 187 daily sheets
+  </div>
+  `;
+}
+
 // ── INIT ───────────────────────────────────────────────────
 loadWeather();
 loadMarkets();
@@ -3502,6 +3777,7 @@ renderWeekCards();
 renderLog();
 renderBreakroom();
 renderPresidentMessage();
+renderSafetyCompliance();
 </script>
 </body>
 </html>
