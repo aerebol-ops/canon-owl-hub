@@ -4,6 +4,20 @@ Newest entries at top. Format: `YYYY-MM-DD | commit | description`
 
 ---
 
+## 2026-07-10
+
+- `ce9527c` | daily.json: `todaysChallenge` and `todaysChallengeSubtext` updated from Line of Fire (Week 3) to WAME theme (Week 4); `compliance.footerNote` corrected from "Week 3" to "Week 4"
+
+## 2026-07-09
+
+- `c37ebb7` | Safety Compliance tab added to hub: nav button, `#page-safetycomp` div, large static `SC` JS data object extracted from compliance analysis.xlsx (8,994 daily job rows, Jan 1 – Jul 6 2026); `renderSafetyCompliance()` function renders scorecard tiles, bar charts, issue-category table, top-tech table, monthly breakdown, division split — all client-side, no server needed
+- `f467d0f` | Week 4 Monday kickoff: WAME OWL highlights from June 26–28 added to owlWeeks W4 meetings entry (4 moments: Carrillo Turner E2 benzene SWA, Zarate Kendrick #5 muster point redirect, Kirschke+Carrillo Glass L3 casing leak stop, Bracamontes Natalie 26 full LSRA/EAP); OWL form count updated to 280 (program total, 307 files of which ~27 are duplicates); daily.json exxonMoments restored after routine overwrite
+
+## 2026-07-07
+
+- `fbdc81d` | Restored W4D2 daily.json after `routine_hub_update.py` overwrote curated content: opsContent (8 techs, July 1 jobs), lessonsLearned (3 flags: H2S at Gipple and Cosmo, crane standdown at Nobles), exxonMoments (4 WAME moments) — routine preservation logic triggered but threshold logic failed
+- `2345513` | Week 4 Monday kickoff: `owlWeeks` entry for W4 meetings added with real OWL program context, Breakroom highlights from July 1
+
 ## 2026-06-28
 
 - `139e83e` | Saturday sweep W2D6: encouraging tone, 3 positive exxonMoments (Stefanie Kirschke June 17 well conversion, Stefanie Kirschke June 22 Texas Ten O'Neal reconnect, Larry Jaramillo Jordan clean job), fieldNews from June 18 breakroom (Louie Zarate client validation, Brianda Sandoval VRU multi-location, Jimmy White in field, Caleb Smith adaptation); fieldAlert retained for trailer readiness discussion
