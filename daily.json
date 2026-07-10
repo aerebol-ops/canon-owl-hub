@@ -72,8 +72,8 @@
       "psms": null
     }
   ],
-  "todaysChallenge": "On your next job, identify the line of fire before anything moves.",
-  "todaysChallengeSubtext": "Where is the pressure release path? Where is the swing radius? Where should no one stand? Name it before work starts.",
+  "todaysChallenge": "On your next job, walk the work area before a single bolt moves. Name the exclusion zones, the muster point, and the atmospheric plan out loud.",
+  "todaysChallengeSubtext": "WAME is a conversation, not a checkbox. If you can't answer where the hazards are and what you'd do if one activates, you're not ready to start.",
   "compliance": {
     "weekOf": "Week of July 6, 2026",
     "metrics": [
@@ -93,6 +93,6 @@
         "total": 131
       }
     ],
-    "footerNote": "Week 3 · 131 field days tracked"
+    "footerNote": "Week 4 - 131 field days tracked"
   }
 }
