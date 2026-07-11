@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "week": 4,
-  "day": 5,
-  "openingMessage": "Failure is not fatal, but failure to change might be.",
-  "openingAttribution": "John Wooden",
-  "leadershipThought": "Act like a professional at all times. Respect the environment. Be aware. Don't create distractions. Act like the person the client would want back tomorrow.",
+  "day": 6,
+  "openingMessage": "Ten people. One team. One standard. What you carry onto that Exxon location today is a reflection of everything this company has built — and everything you personally have earned. That doesn't happen by accident. It happens because of how you've shown up, day after day, when it would have been easier not to.",
+  "openingAttribution": "Mike — Canon Safety",
+  "leadershipThought": "Exxon doesn't have to call Canon. They choose to. That trust was built on every right call this team has made — every hazard caught, every job documented, every moment someone spoke up when it would have been easier to stay quiet. Canon is putting real investment into this team because of what you've already proven. That's not small. Don't let comfort become complacency. The moment you stop protecting your standard, average starts filling the space. You've worked too hard for that. This crew is too good for that. Protect it.",
   "opsDate": "2026-07-01",
   "opsContent": "<strong>Active Jobs (2026-07-01):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -83,8 +83,8 @@
       "psms": null
     }
   ],
-  "todaysChallenge": "On your next job, identify the line of fire before anything moves.",
-  "todaysChallengeSubtext": "Where is the pressure release path? Where is the swing radius? Where should no one stand? Name it before work starts.",
+  "todaysChallenge": "Before your first job starts today — full readiness check. Every person briefed. Exclusion zones named. Muster point confirmed. Atmospheric plan in place. Then look left, look right. That crew is counting on you.",
+  "todaysChallengeSubtext": "Ten people going to Exxon on a Saturday is not routine — it's a statement about where Canon is headed. You are part of something being built. Look out for each other. Don't let anything average onto this location.",
   "compliance": {
     "weekOf": "Week of July 6, 2026",
     "metrics": [
