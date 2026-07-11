@@ -1,79 +1,90 @@
 {
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "week": 4,
-  "day": 4,
-  "openingMessage": "Be more concerned with your character than your reputation, because your character is what you really are, while your reputation is merely what others think you are.",
+  "day": 5,
+  "openingMessage": "Failure is not fatal, but failure to change might be.",
   "openingAttribution": "John Wooden",
-  "leadershipThought": "Your awareness has to be higher than your intent. Intent doesn't matter if the impact is wrong. Operate in a diverse environment — different backgrounds, different beliefs, different life experiences.",
+  "leadershipThought": "Act like a professional at all times. Respect the environment. Be aware. Don't create distractions. Act like the person the client would want back tomorrow.",
   "opsDate": "2026-07-01",
-  "opsContent": "<strong>Active Jobs (2026-07-01):</strong><br><strong>Robert Wright</strong> — SDU Tract complete, heading back (12:10 PM)<br><strong>Michael Hutt</strong> — SM First Tee #121 well opened (3:47 PM)<br><strong>Edward Carrillo</strong> — Nobles 3202D rescheduled, crane not on site; crew stood down and headed back (3:50 PM)<br><strong>James Stephens</strong> — Diamondback Mabee 13-24 1-1H finished for the day (6:30 PM)<br><strong>Stefanie Kirschke</strong> — Ovintiv Tom Ranch: cement shut-in, back at 7 AM Wednesday (6:20 PM)<br><strong>Jacob Hernandez</strong> — Bizzel Irvin conversion complete, atmospheric testing confirmed safe, Co Rep released; then HP 616 (7:12–7:29 PM)<br><strong>Caleb Smith</strong> — Shaw 13-8 #183 finished for the day (7:29 PM)<br><strong>Ray Solis</strong> — University 3-21 complete; rolled to rig down at H&amp;P 628 same evening (7:18 PM)",
-  "lessonsLearned": [
-    {
-      "type": "flag",
-      "text": "SM Energy Gipple 154H — 2,000ppm H2S confirmed (Dennis Easley, 3:51 PM). Multi-week elevated reading. Confirm monitoring plan and supplied air protocol before anyone dispatches to this location."
-    },
-    {
-      "type": "flag",
-      "text": "Cosmo phase 2 — H2S 3,000ppm and CO 3% on the 9 AM pull (Louie Zarate). Multi-gas hazard. Supplied air is not optional — confirm re-test and cascade plan at job start."
-    },
-    {
-      "type": "flag",
-      "text": "Nobles 3202D — crane not on site. Edward Carrillo made the call: crew stood down, job rescheduled. Confirm equipment is on location before you dispatch."
-    }
-  ],
-  "exxonMoments": "<strong>Stop Work Before the Air Cleared</strong> <span style='font-size:12px;color:#666;'>(WAME — Atmosphere Control)</span><br><span style='font-size:13px;'>Edward Carrillo stopped work at Turner E2 on June 27 after atmosphere readings showed benzene above exposure limits — even while the crew was already under air. He cleared the area, waited, ran a second test confirming safe conditions, then resumed. Every party on location was receptive when asked to stand down. That's not a slow-down — that's the plan working exactly as designed.</span><br><br><strong>The Muster Point Was in the Wrong Place</strong> <span style='font-size:12px;color:#666;'>(WAME — Pre-Task Hazard Review)</span><br><span style='font-size:13px;'>Luis Zarate caught it during LMRA at Kendrick #5 on June 26: the main entry road — the default muster point — was downwind of the work zone. The crane crew had already set their exclusion zone before work started. Zarate redirected the muster point before anyone broke a connection. WAME isn't a form you fill out — it's noticing what's wrong before it becomes a problem.</span><br><br><strong>Casing Leak Stopped the Job Cold</strong> <span style='font-size:12px;color:#666;'>(WAME — SWA and Area Control)</span><br><span style='font-size:13px;'>During hookup at Glass L 3 on June 26, Stefanie Kirschke and Edward Carrillo found a failed nipple on the casing — a leak that wasn't in the plan. They called it, secured the area, bled down the well with vac and pump truck, and built a mitigation plan before any work continued. The location was left safe and controlled. The learn: thorough pre-job wellhead inspection belongs in the scope, not the afterthought.</span><br><br><strong>LSRA, Hold Points, EAP — All of It, Before the First Bolt Moved</strong> <span style='font-size:12px;color:#666;'>(WAME — Job Hazard Analysis)</span><br><span style='font-size:13px;'>Baldemar Bracamontes at Natalie 26 on June 26: crew ran through every LSRA tied to the job scope, broke the work into steps with a hold point before each new phase, identified possible triggers, and had an EAP staged with both Canon and roustabout crews briefed in English and Spanish. The job finished without using the cascade system or the EAP. That's the point — you build the plan so you don't need it under pressure.</span>",
+  "opsContent": "<strong>Active Jobs (2026-07-01):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
+  "lessonsLearned": null,
+  "exxonMoments": "<strong>Crew physically went and verified lotto at the header and flowline were sti</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Caleb Smith]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew physically went and verified lotto at the header and flowline were still in place.</span><br><br><strong>We didn't get any gas on the lines also wind was on our favor</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>We didn't get any gas on the lines also wind was on our favor. Crew didn't reciprocate</span><br><br><strong>Communication between crew about safety using LMRA to protect them</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Communication between crew about safety using LMRA to protect them</span><br><br><strong>Job was not rushed and steps not missed because of delay of start</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Job was not rushed and steps not missed because of delay of start</span><br><br><strong>Everyone worked and communicated with each other well about task being done</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone worked and communicated with each other well about task being done.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Ray Solis finished at the University and rolled straight to a rig down at H&P 628 the same evening — no gap, no waiting, just moved.",
-      "detail": "Breakroom — 2026-07-01 · 7:18 PM",
+      "headline": "Alfredo Vaquera: Hold points were being utilized throughout the whole operation",
+      "detail": "OWL after-action review — Mary",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke worked through a cement shut-in delay at Ovintiv Tom Ranch — posted updates all day, confirmed the schedule, and had a clean 7 AM return locked in before she left.",
-      "detail": "Breakroom — 2026-07-01 · 6:20 PM",
+      "headline": "Caleb Smith: While we were discussing our job plan and reviewing Lara's. The work over rig equipment",
+      "detail": "OWL after-action review — Rings Slaughter 7F 6H",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "James Stephens put Diamondback Mabee 13-24 1-1H to bed and posted up in Breakroom before heading out. Short message, job done.",
-      "detail": "Breakroom — 2026-07-01 · 6:30 PM",
+      "headline": "Jacob Hernandez: Great communication safe and fast pivot. — Job was safe and successful.",
+      "detail": "OWL after-action review — Colonial 4209H",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Michael Hutt got SM First Tee #121 well opened and back in play — posted the update so dispatch and the team know the location is active.",
-      "detail": "Breakroom — 2026-07-01 · 3:47 PM",
+      "headline": "Gage Gonzales: Work being conducted, multiple breaks of containment — Crew was involved in PJSM and Post job discussions",
+      "detail": "OWL after-action review — field",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Robert Wright wrapped the SDU Tract job clean and headed back. Job complete, crew moving — that's all you need to post.",
-      "detail": "Breakroom — 2026-07-01 · 12:10 PM",
+      "headline": "Gage Gonzales: All personnel on location communicated and carried out job safely and efficientl",
+      "detail": "OWL after-action review — Javaid central",
       "psms": null
     },
     {
       "type": "flag",
-      "headline": "SM Energy Gipple 154H — 2,000ppm H2S. Dennis Easley flagged it Tuesday afternoon. This location is not a walk-up — confirm your monitoring plan before you leave the yard.",
-      "detail": "Dennis Easley — 2026-07-01 · 3:51 PM",
+      "headline": "Rolando Flores — Communicate well",
+      "detail": "OWL review — Location: Glass Ranch B#202H",
       "psms": null
     },
     {
       "type": "flag",
-      "headline": "Cosmo phase 2 — H2S 3,000ppm and CO 3% on the 9 AM pull. Louie Zarate confirmed both readings. Supplied air is not optional at this location — it is the plan.",
-      "detail": "Louie Zarate — 2026-07-01 · 9:00 AM atmospheric pull",
+      "headline": "Stefanie Kirschke — Continue monitoring atmospheric conditions, verifying emergency equipm",
+      "detail": "OWL review — Location: ",
       "psms": null
     },
     {
       "type": "flag",
-      "headline": "Nobles 3202D — crane was not on site. Edward Carrillo made the call: crew stood down, job rescheduled. Confirm your equipment is on location before you dispatch.",
-      "detail": "Edward Carrillo — 2026-07-01 · 3:50 PM",
+      "headline": "Stefanie Kirschke — Continue maintaining atmospheric monitoring, verifying safe conditions",
+      "detail": "OWL review — Location: ",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Rolando Flores — Drive safely",
+      "detail": "OWL review — Location: Stanton A #1",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Alexander Clubb — Setting muster up upon arrival and not making a very very long trip ba",
+      "detail": "OWL review — Location: Cowden 39-03 W Unit",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Brianda Sandoval — set up a COMPLETELY sealed exclusion zone, because some people just fe",
+      "detail": "OWL review — Location: McAlister 33E #5H/ExxonMobil",
+      "psms": null
+    },
+    {
+      "type": "flag",
+      "headline": "Brianda Sandoval — set up a COMPLETELY sealed exclusion zone (not the cones), because som",
+      "detail": "OWL review — Location: McAlister 33J #10H/ExxonMobil",
       "psms": null
     }
   ],
-  "todaysChallenge": "On your next job, walk the work area before a single bolt moves. Name the exclusion zones, the muster point, and the atmospheric plan out loud.",
-  "todaysChallengeSubtext": "WAME is a conversation, not a checkbox. If you can't answer where the hazards are and what you'd do if one activates, you're not ready to start.",
+  "todaysChallenge": "On your next job, identify the line of fire before anything moves.",
+  "todaysChallengeSubtext": "Where is the pressure release path? Where is the swing radius? Where should no one stand? Name it before work starts.",
   "compliance": {
     "weekOf": "Week of July 6, 2026",
     "metrics": [
