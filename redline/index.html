@@ -1,0 +1,1160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1F3A5C">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Redline">
+<meta name="application-name" content="Redline">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231F3A5C'/%3E%3Crect x='10' y='29' width='44' height='6' rx='3' fill='%23C4271E'/%3E%3Ctext x='32' y='26' font-family='Arial,sans-serif' font-size='15' font-weight='bold' fill='white' text-anchor='middle'%3ERED%3C/text%3E%3Ctext x='32' y='50' font-family='Arial,sans-serif' font-size='11' font-weight='bold' fill='%23b9c6d8' text-anchor='middle'%3ELINE%3C/text%3E%3C/svg%3E">
+<title>Redline Field App — SM Energy Permian</title>
+</head>
+<body>
+<!--APP-START-->
+<style>
+  :root{
+    --ink:#12181f; --muted:#5a6472; --faint:#8b95a3;
+    --line:#e2e6ec; --line-strong:#cbd2db;
+    --panel:#ffffff; --panel-2:#f5f7fa; --ground:#eaeef3;
+    --navy:#1f3a5c; --navy-2:#2a4d76; --red:#c4271e; --red-ink:#8e1b15;
+    --good:#1c7c43; --good-bg:#e4f3ea; --good-line:#a9d8bc;
+    --fault:#c4271e; --fault-bg:#fbe7e5; --fault-line:#eeb4ae;
+    --warn:#a85b00; --warn-bg:#fbeedd; --warn-line:#eccb99;
+    --shadow:0 1px 2px rgba(16,24,32,.06), 0 6px 18px rgba(16,24,32,.06);
+    --r:14px; --r-sm:9px;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,"Helvetica Neue",Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --ink:#e6eaf0; --muted:#98a4b4; --faint:#6f7c8d;
+      --line:#26303c; --line-strong:#33404f;
+      --panel:#161d27; --panel-2:#1b232f; --ground:#0e141b;
+      --navy:#31577f; --navy-2:#3d6796; --red:#e8574c; --red-ink:#f2938c;
+      --good:#43b96d; --good-bg:#15271d; --good-line:#265c3c;
+      --fault:#e8574c; --fault-bg:#2a1512; --fault-line:#5c2721;
+      --warn:#e0932f; --warn-bg:#2a1e0d; --warn-line:#5a4020;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 22px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="light"]{
+    --ink:#12181f; --muted:#5a6472; --faint:#8b95a3;
+    --line:#e2e6ec; --line-strong:#cbd2db;
+    --panel:#ffffff; --panel-2:#f5f7fa; --ground:#eaeef3;
+    --navy:#1f3a5c; --navy-2:#2a4d76; --red:#c4271e; --red-ink:#8e1b15;
+    --good:#1c7c43; --good-bg:#e4f3ea; --good-line:#a9d8bc;
+    --fault:#c4271e; --fault-bg:#fbe7e5; --fault-line:#eeb4ae;
+    --warn:#a85b00; --warn-bg:#fbeedd; --warn-line:#eccb99;
+    --shadow:0 1px 2px rgba(16,24,32,.06), 0 6px 18px rgba(16,24,32,.06);
+  }
+  :root[data-theme="dark"]{
+    --ink:#e6eaf0; --muted:#98a4b4; --faint:#6f7c8d;
+    --line:#26303c; --line-strong:#33404f;
+    --panel:#161d27; --panel-2:#1b232f; --ground:#0e141b;
+    --navy:#31577f; --navy-2:#3d6796; --red:#e8574c; --red-ink:#f2938c;
+    --good:#43b96d; --good-bg:#15271d; --good-line:#265c3c;
+    --fault:#e8574c; --fault-bg:#2a1512; --fault-line:#5c2721;
+    --warn:#e0932f; --warn-bg:#2a1e0d; --warn-line:#5a4020;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 22px rgba(0,0,0,.35);
+  }
+
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:var(--sans); color:var(--ink); background:var(--ground);
+    -webkit-text-size-adjust:100%; line-height:1.45;
+    padding-bottom:env(safe-area-inset-bottom);
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 14px}
+  h1,h2,h3{margin:0}
+  button{font-family:inherit}
+  .tnum{font-variant-numeric:tabular-nums}
+
+  /* ---------- top brand bar ---------- */
+  .topbar{
+    position:sticky; top:0; z-index:40;
+    background:var(--navy); color:#fff;
+    border-bottom:3px solid var(--red);
+    box-shadow:0 2px 10px rgba(16,24,32,.18);
+  }
+  .topbar .wrap{display:flex; align-items:center; gap:12px; height:56px}
+  .brand{display:flex; align-items:baseline; gap:8px; letter-spacing:.14em; font-weight:800; font-size:15px}
+  .brand .r{color:var(--red)}
+  .topbar .sub{margin-left:auto; font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:#b9c6d8; font-weight:600}
+  .backbtn{
+    appearance:none;border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.08);
+    color:#fff;border-radius:8px;height:34px;padding:0 12px;font-weight:600;font-size:13px;cursor:pointer;
+    display:none; align-items:center; gap:6px;
+  }
+  .backbtn:hover{background:rgba(255,255,255,.16)}
+  .themebtn{
+    appearance:none;border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.08);
+    color:#fff;border-radius:8px;height:34px;width:36px;font-size:15px;cursor:pointer;
+  }
+
+  /* ---------- views ---------- */
+  .view{display:none; padding:18px 0 120px}
+  .view.active{display:block}
+
+  /* ---------- hub ---------- */
+  .hero{padding:22px 0 8px}
+  .eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--red);font-weight:700}
+  .hero h1{font-size:26px;font-weight:800;letter-spacing:-.01em;margin:6px 0 4px;text-wrap:balance}
+  .hero p{color:var(--muted);margin:0;font-size:14px;max-width:60ch}
+  .guarantee{
+    margin:16px 0 6px; display:flex; gap:12px; align-items:center;
+    background:var(--panel); border:1px solid var(--line); border-left:4px solid var(--red);
+    border-radius:var(--r-sm); padding:12px 14px; box-shadow:var(--shadow);
+  }
+  .guarantee b{color:var(--ink)}
+  .guarantee .n{font-size:30px;font-weight:800;color:var(--red);line-height:1;letter-spacing:-.02em}
+  .guarantee small{color:var(--muted);font-size:12.5px}
+
+  .sec-label{display:flex;align-items:center;gap:10px;margin:22px 2px 10px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:700}
+  .sec-label::after{content:"";height:1px;flex:1;background:var(--line)}
+
+  .tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media (max-width:460px){.tiles{grid-template-columns:1fr}}
+  .tile{
+    text-align:left; appearance:none; cursor:pointer; width:100%;
+    background:var(--panel); border:1px solid var(--line); border-radius:var(--r);
+    padding:15px 15px 14px; box-shadow:var(--shadow); position:relative;
+    transition:transform .12s ease, border-color .12s ease, box-shadow .12s ease;
+    display:flex; flex-direction:column; gap:6px; min-height:104px; color:inherit;
+  }
+  .tile:hover{transform:translateY(-2px);border-color:var(--line-strong)}
+  .tile:disabled{cursor:default;opacity:.72}
+  .tile:disabled:hover{transform:none;border-color:var(--line)}
+  .tile .part{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:700}
+  .tile .name{font-size:16.5px;font-weight:700;line-height:1.2;letter-spacing:-.01em}
+  .tile .desc{font-size:12.5px;color:var(--muted);line-height:1.35}
+  .tile .go{margin-top:auto;font-size:12px;font-weight:700;color:var(--red);display:flex;align-items:center;gap:5px}
+  .chip{
+    position:absolute;top:12px;right:12px;font-size:10px;font-weight:700;letter-spacing:.06em;
+    padding:3px 8px;border-radius:999px;text-transform:uppercase;
+  }
+  .chip.soon{background:var(--panel-2);color:var(--faint);border:1px solid var(--line)}
+  .chip.count{background:var(--red);color:#fff}
+  .chip.count.zero{background:var(--panel-2);color:var(--faint);border:1px solid var(--line)}
+
+  /* ---------- form ---------- */
+  .formhead{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px;box-shadow:var(--shadow);margin-bottom:8px}
+  .formhead h2{font-size:15px;letter-spacing:.02em;margin-bottom:12px;display:flex;align-items:center;gap:9px}
+  .formhead h2 .tag{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:var(--red);padding:3px 8px;border-radius:6px;font-weight:700}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .field{display:flex;flex-direction:column;gap:5px}
+  .field label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
+  .field input, .field select, textarea, .val{
+    font-family:inherit;font-size:15px;color:var(--ink);background:var(--panel-2);
+    border:1px solid var(--line-strong);border-radius:9px;padding:10px 11px;width:100%;
+  }
+  .field input:focus, textarea:focus, .val:focus, select:focus{outline:2px solid var(--navy-2);outline-offset:1px;border-color:var(--navy-2)}
+  textarea{resize:vertical;min-height:44px;line-height:1.4}
+
+  /* progress */
+  .progress{position:sticky;top:56px;z-index:30;background:var(--ground);padding:8px 0 6px;margin-bottom:6px}
+  .pbar-row{display:flex;align-items:center;gap:10px}
+  .pbar{flex:1;height:8px;background:var(--panel-2);border:1px solid var(--line);border-radius:99px;overflow:hidden}
+  .pbar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--good),var(--navy));transition:width .25s ease}
+  .pct{font-size:12px;font-weight:700;color:var(--muted);min-width:66px;text-align:right}
+
+  .section{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);margin-bottom:12px;box-shadow:var(--shadow);overflow:hidden}
+  .section > summary{
+    list-style:none;cursor:pointer;padding:13px 15px;display:flex;align-items:center;gap:11px;
+    font-weight:700;font-size:15px;letter-spacing:-.01em; background:var(--panel);
+  }
+  .section > summary::-webkit-details-marker{display:none}
+  .section > summary .num{
+    width:26px;height:26px;flex:none;border-radius:7px;background:var(--navy);color:#fff;
+    display:grid;place-items:center;font-size:13px;font-weight:800
+  }
+  .section > summary .meta{margin-left:auto;display:flex;align-items:center;gap:8px}
+  .section > summary .caret{color:var(--faint);transition:transform .2s ease}
+  .section[open] > summary .caret{transform:rotate(90deg)}
+  .badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px}
+  .badge.done{background:var(--good-bg);color:var(--good);border:1px solid var(--good-line)}
+  .badge.flag{background:var(--fault-bg);color:var(--fault);border:1px solid var(--fault-line)}
+  .badge.todo{background:var(--panel-2);color:var(--faint);border:1px solid var(--line)}
+
+  .item{padding:12px 15px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:9px}
+  .item .q{font-size:14px;line-height:1.35}
+  .item .q sub{font-size:.72em}
+  .seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .seg button{
+    appearance:none;cursor:pointer;border:1.5px solid var(--line-strong);background:var(--panel-2);
+    color:var(--muted);font-weight:700;font-size:14px;border-radius:9px;padding:11px 8px;
+    display:flex;align-items:center;justify-content:center;gap:7px;transition:all .1s ease;
+  }
+  .seg button .dot{width:9px;height:9px;border-radius:99px;background:currentColor;opacity:.5}
+  .seg button.ok.on{background:var(--good-bg);border-color:var(--good);color:var(--good)}
+  .seg button.fault.on{background:var(--fault-bg);border-color:var(--fault);color:var(--fault)}
+  .seg button.on .dot{opacity:1}
+  .seg button:focus-visible{outline:2px solid var(--navy-2);outline-offset:2px}
+  .vlabel{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);font-weight:700}
+
+  /* fault → order line */
+  .orderline{
+    background:var(--fault-bg);border:1px solid var(--fault-line);border-radius:10px;padding:11px;
+    display:flex;flex-direction:column;gap:9px;animation:pop .16s ease
+  }
+  @keyframes pop{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
+  .orderline .ohead{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--red-ink);font-weight:700;display:flex;align-items:center;gap:6px}
+  .prio{display:flex;gap:8px}
+  .prio button{flex:1;appearance:none;cursor:pointer;border:1.5px solid var(--line-strong);background:var(--panel);color:var(--muted);font-weight:700;font-size:13px;border-radius:8px;padding:9px}
+  .prio button.routine.on{background:var(--navy);border-color:var(--navy);color:#fff}
+  .prio button.urgent.on{background:var(--warn);border-color:var(--warn);color:#fff}
+  .addbtn{
+    appearance:none;cursor:pointer;border:none;background:var(--red);color:#fff;font-weight:700;font-size:14px;
+    border-radius:9px;padding:11px;display:flex;align-items:center;justify-content:center;gap:7px
+  }
+  .addbtn:hover{background:var(--red-ink)}
+  .addbtn.added{background:var(--good-bg);color:var(--good);border:1px solid var(--good-line)}
+
+  .addrow{appearance:none;cursor:pointer;border:1.5px dashed var(--line-strong);background:transparent;color:var(--muted);font-weight:700;font-size:13px;border-radius:9px;padding:11px;width:100%;margin-top:2px}
+  .addrow:hover{border-color:var(--navy-2);color:var(--navy-2)}
+
+  .repeat{padding:12px 15px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+  .rcard{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:10px;display:flex;flex-direction:column;gap:8px;position:relative}
+  .rcard .del{position:absolute;top:8px;right:8px;appearance:none;border:none;background:transparent;color:var(--faint);cursor:pointer;font-size:16px;line-height:1}
+  .signwrap{border:1px solid var(--line-strong);border-radius:10px;background:#fff;position:relative;touch-action:none}
+  :root[data-theme="dark"] .signwrap{background:#0b1016}
+  .signwrap canvas{display:block;width:100%;height:140px;border-radius:10px}
+  .signclear{position:absolute;top:8px;right:10px;font-size:12px;color:var(--red);background:transparent;border:none;cursor:pointer;font-weight:700}
+
+  /* ---------- parts view ---------- */
+  .parts-empty{text-align:center;color:var(--muted);padding:40px 20px;background:var(--panel);border:1px dashed var(--line-strong);border-radius:var(--r)}
+  .porder{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 13px;box-shadow:var(--shadow);margin-bottom:10px;display:flex;gap:11px;align-items:flex-start}
+  .porder .pl{flex:1;min-width:0}
+  .porder .part{font-weight:700;font-size:15px;line-height:1.25}
+  .porder .def{font-size:12.5px;color:var(--muted);margin-top:2px}
+  .porder .m{font-size:11.5px;color:var(--faint);margin-top:5px;display:flex;flex-wrap:wrap;gap:4px 12px}
+  .porder .m b{color:var(--muted);font-weight:600}
+  .pill{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:3px 9px;border-radius:99px;white-space:nowrap}
+  .pill.urgent{background:var(--warn-bg);color:var(--warn);border:1px solid var(--warn-line)}
+  .pill.routine{background:var(--panel-2);color:var(--muted);border:1px solid var(--line)}
+  .prm{appearance:none;border:none;background:transparent;color:var(--faint);cursor:pointer;font-size:18px;line-height:1;padding:2px 4px}
+  .toolbar{display:flex;gap:9px;flex-wrap:wrap;margin:4px 0 16px}
+  .btn{appearance:none;cursor:pointer;border:1px solid var(--line-strong);background:var(--panel);color:var(--ink);font-weight:700;font-size:13.5px;border-radius:9px;padding:10px 14px;display:inline-flex;align-items:center;gap:7px}
+  .btn:hover{border-color:var(--navy-2)}
+  .btn.primary{background:var(--navy);border-color:var(--navy);color:#fff}
+  .btn.primary:hover{background:var(--navy-2)}
+
+  /* ---------- sticky footer ---------- */
+  .footbar{
+    position:fixed;left:0;right:0;bottom:0;z-index:35;background:var(--panel);
+    border-top:1px solid var(--line);box-shadow:0 -4px 18px rgba(16,24,32,.08);
+    padding:10px 0 calc(10px + env(safe-area-inset-bottom));display:none
+  }
+  .footbar.show{display:block}
+  .footbar .wrap{display:flex;align-items:center;gap:12px}
+  .footbar .info{font-size:12.5px;color:var(--muted);line-height:1.25}
+  .footbar .info b{color:var(--ink)}
+  .footbar .grow{flex:1}
+  .savebtn{appearance:none;cursor:pointer;border:none;background:var(--red);color:#fff;font-weight:800;font-size:14.5px;border-radius:10px;padding:12px 20px}
+  .savebtn:hover{background:var(--red-ink)}
+  .savebtn:disabled{background:var(--panel-2);color:var(--faint);cursor:default;border:1px solid var(--line)}
+
+  .toast{position:fixed;left:50%;bottom:84px;transform:translateX(-50%) translateY(20px);z-index:60;background:var(--navy);color:#fff;font-weight:600;font-size:13.5px;padding:11px 18px;border-radius:99px;box-shadow:var(--shadow);opacity:0;transition:all .25s ease;pointer-events:none}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+  .foot-note{color:var(--faint);font-size:12px;text-align:center;padding:26px 10px 8px;line-height:1.5}
+  a.inline{color:var(--red);font-weight:600;text-decoration:none}
+
+  /* ---------- history ---------- */
+  .hcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:13px 14px;box-shadow:var(--shadow);margin-bottom:10px}
+  .hcard .top{display:flex;align-items:flex-start;gap:10px}
+  .hcard .rig{font-weight:700;font-size:16px;line-height:1.2}
+  .hcard .sub{font-size:12px;color:var(--muted);margin-top:3px;display:flex;flex-wrap:wrap;gap:3px 12px}
+  .hcard .sub b{color:var(--muted);font-weight:600}
+  .hstat{display:flex;gap:7px;margin-top:10px;flex-wrap:wrap}
+  .hstat .s{font-size:11px;font-weight:700;padding:3px 9px;border-radius:99px;border:1px solid var(--line)}
+  .hstat .s.ok{background:var(--good-bg);color:var(--good);border-color:var(--good-line)}
+  .hstat .s.fault{background:var(--fault-bg);color:var(--fault);border-color:var(--fault-line)}
+  .hstat .s.dim{background:var(--panel-2);color:var(--muted)}
+  .hcard .row-actions{display:flex;gap:8px;margin-top:12px}
+
+  /* ---------- reference ---------- */
+  .refcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);margin-bottom:14px;overflow:hidden}
+  .refcard > h3{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--navy);padding:11px 14px;font-weight:700}
+  .refcard.danger > h3{background:var(--red)}
+  .refcard ul{margin:0;padding:12px 16px 12px 30px;display:flex;flex-direction:column;gap:8px}
+  .refcard li{font-size:14px;line-height:1.4}
+  .kv{display:flex;flex-direction:column}
+  .kv .krow{display:flex;gap:10px;padding:11px 14px;border-top:1px solid var(--line);align-items:baseline}
+  .kv .krow:first-child{border-top:none}
+  .kv .k{flex:1;font-size:13.5px;color:var(--ink)}
+  .kv .v{font-weight:700;font-size:13.5px;color:var(--red);white-space:nowrap}
+  .kv .a{flex:1;font-size:12.5px;color:var(--muted);text-align:right}
+  .contact .krow{justify-content:space-between}
+  .contact .k{flex:none;font-weight:600}
+  .contact .v{color:var(--ink);font-weight:400}
+
+  /* ---------- settings ---------- */
+  .setcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;box-shadow:var(--shadow);margin-bottom:14px;display:flex;flex-direction:column;gap:14px}
+  .setcard p.hint{font-size:12.5px;color:var(--muted);line-height:1.5;margin:0}
+  .steps{counter-reset:s;display:flex;flex-direction:column;gap:10px;margin:0;padding:0;list-style:none}
+  .steps li{position:relative;padding-left:30px;font-size:13px;line-height:1.5;color:var(--muted)}
+  .steps li::before{counter-increment:s;content:counter(s);position:absolute;left:0;top:0;width:21px;height:21px;border-radius:99px;background:var(--navy);color:#fff;font-size:11px;font-weight:800;display:grid;place-items:center}
+  .steps code{background:var(--panel-2);border:1px solid var(--line);border-radius:5px;padding:1px 5px;font-size:12px}
+  /* ---------- form engine extras ---------- */
+  .blocknote{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--navy-2);border-radius:var(--r-sm);box-shadow:var(--shadow);margin-bottom:12px;padding:12px 15px;color:var(--muted);font-size:13px;line-height:1.5}
+  .blocknote b{color:var(--ink)}
+  .section > .fieldbody{padding:12px 15px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:12px}
+  .field .fhint{font-size:11px;color:var(--faint);font-weight:600;text-transform:none;letter-spacing:0;margin-top:-2px}
+  .legend{font-size:11.5px;color:var(--faint);line-height:1.5;padding:2px 2px 0}
+</style>
+
+<div class="topbar">
+  <div class="wrap">
+    <button class="backbtn" id="backBtn">‹ Hub</button>
+    <div class="brand"><span class="r">REDLINE</span><span>RELIABILITY</span></div>
+    <span class="sub" id="topSub">SM Energy · Permian</span>
+    <button class="themebtn" id="themeBtn" title="Toggle light / dark" aria-label="Toggle theme">◐</button>
+  </div>
+</div>
+
+<!-- ============ HUB ============ -->
+<section class="view active" id="view-hub">
+  <div class="wrap">
+    <div class="hero">
+      <div class="eyebrow">Field Manual · Routes · Forms</div>
+      <h1>Reliability Technician — Field Hub</h1>
+      <p>Open the form for what you're doing, work it top to bottom, sign the bottom. Everything saves on this device — no signal required.</p>
+    </div>
+
+    <div class="guarantee">
+      <div class="n">4</div>
+      <div><b>The four-day guarantee.</b> <small>No rig goes more than four days without a physical inspection. Cycle A finds it, Wednesday orders it, Cycle B closes it.</small></div>
+    </div>
+
+    <div class="sec-label">Field forms</div>
+    <div class="tiles">
+      <button class="tile" data-form="cycleA">
+        <span class="part">Part 4 · Cycle A</span>
+        <span class="name">Full Rig Inspection</span>
+        <span class="desc">The full inspection. One per rig, per visit.</span>
+        <span class="go">Start inspection ›</span>
+      </button>
+
+      <button class="tile" data-goto="parts">
+        <span class="part">Part 6 · Order Log</span>
+        <span class="name">Parts Order List</span>
+        <span class="desc">Running list of parts needed. Builds itself from every fault.</span>
+        <span class="chip count zero" id="tilePartsCount">0</span>
+        <span class="go">Open list ›</span>
+      </button>
+
+      <button class="tile" data-goto="history">
+        <span class="part">Records</span>
+        <span class="name">Saved Records</span>
+        <span class="desc">Every form you've saved. Review, export, or re-open.</span>
+        <span class="chip count zero" id="tileHistCount">0</span>
+        <span class="go">Open records ›</span>
+      </button>
+
+      <button class="tile" data-form="cycleB">
+        <span class="part">Part 5 · Cycle B</span>
+        <span class="name">Verification Visit</span>
+        <span class="desc">Confirm Monday's repairs are holding. Install parts.</span>
+        <span class="go">Start verification ›</span>
+      </button>
+
+      <button class="tile" data-form="route">
+        <span class="part">Part 3 · Route</span>
+        <span class="name">Daily Route Card</span>
+        <span class="desc">The one page on the windshield. Status per rig.</span>
+        <span class="go">Start route card ›</span>
+      </button>
+
+      <button class="tile" data-form="rigup">
+        <span class="part">Part 7 · Rig-Up</span>
+        <span class="name">Rig-Up Checklist</span>
+        <span class="desc">Build, program, install, commission a new rig.</span>
+        <span class="go">Start rig-up ›</span>
+      </button>
+
+      <button class="tile" data-form="rigdown">
+        <span class="part">Part 7 · Rig-Down</span>
+        <span class="name">Rig-Down Checklist</span>
+        <span class="desc">Remove, inventory, and return equipment to the shop.</span>
+        <span class="go">Start rig-down ›</span>
+      </button>
+
+      <button class="tile" data-form="rlog">
+        <span class="part">Part 8</span>
+        <span class="name">Reliability Log</span>
+        <span class="desc">One page per rig. The history that spots the repeat offender.</span>
+        <span class="go">Open a log ›</span>
+      </button>
+    </div>
+
+    <div class="sec-label">Reference & setup</div>
+    <div class="tiles">
+      <button class="tile" data-goto="reference">
+        <span class="part">Part 9</span>
+        <span class="name">Escalate Now</span>
+        <span class="desc">Call-from-the-location conditions, thresholds, and contacts.</span>
+        <span class="go">Open reference ›</span>
+      </button>
+      <button class="tile" data-goto="settings">
+        <span class="part">Setup</span>
+        <span class="name">Settings</span>
+        <span class="desc">Who the parts order emails to. Your name. Clear data.</span>
+        <span class="go">Open settings ›</span>
+      </button>
+      <button class="tile" data-form="score">
+        <span class="part">Part 21</span>
+        <span class="name">Weekly Scorecard</span>
+        <span class="desc">Friday's one page. How the program proves itself.</span>
+        <span class="go">Fill scorecard ›</span>
+      </button>
+    </div>
+
+    <p class="foot-note">v1.0 · All forms live, parts sync to Dropbox, records saved on-device. Add this page to your home screen to run it like an app.</p>
+  </div>
+</section>
+
+<!-- ============ INSPECTION ============ -->
+<section class="view" id="view-inspect">
+  <div class="wrap">
+    <div class="formhead">
+      <h2><span class="tag" id="formTag">Cycle A</span> <span id="formTitle">Full Rig Inspection</span></h2>
+      <p id="formNote" class="hint" style="margin:2px 0 0;display:none"></p>
+      <div class="grid2" id="formHead" style="margin-top:12px"></div>
+    </div>
+
+    <div class="progress">
+      <div class="pbar-row">
+        <div class="pbar"><i id="pbarFill"></i></div>
+        <div class="pct tnum" id="pctText">0 / 0</div>
+      </div>
+    </div>
+
+    <div id="sections"></div>
+  </div>
+</section>
+
+<!-- ============ PARTS ============ -->
+<section class="view" id="view-parts">
+  <div class="wrap">
+    <div class="hero" style="padding:14px 0 4px">
+      <div class="eyebrow">Part 6 · Wednesday Order Log</div>
+      <h1 style="font-size:22px">Parts Order List</h1>
+      <p>Every fault that needs a part lands here. Sort it Wednesday, place the order, check them off as they arrive.</p>
+    </div>
+    <div class="toolbar">
+      <button class="btn primary" id="emailBtn">✉ Email order</button>
+      <button class="btn" id="exportCsv">⬇ Export CSV</button>
+      <button class="btn" id="copyList">⧉ Copy list</button>
+      <button class="btn" id="addManual">＋ Add part</button>
+    </div>
+    <div id="partsList"></div>
+  </div>
+</section>
+
+<!-- ============ SAVED INSPECTIONS ============ -->
+<section class="view" id="view-history">
+  <div class="wrap">
+    <div class="hero" style="padding:14px 0 4px">
+      <div class="eyebrow">Records</div>
+      <h1 style="font-size:22px">Saved Records</h1>
+      <p>Every form you've saved — inspections, route cards, rig-ups, logs — newest first. Kept on this device.</p>
+    </div>
+    <div class="toolbar">
+      <button class="btn primary" id="histExport">⬇ Export all (CSV)</button>
+    </div>
+    <div id="historyList"></div>
+  </div>
+</section>
+
+<!-- ============ REFERENCE (Part 9) ============ -->
+<section class="view" id="view-reference">
+  <div class="wrap">
+    <div class="hero" style="padding:14px 0 4px">
+      <div class="eyebrow">Part 9 · Reference</div>
+      <h1 style="font-size:22px">Escalation, Thresholds &amp; Contacts</h1>
+      <p>Read this before you drive out. When one of these conditions is true, you call from the location — you don't wait for Wednesday.</p>
+    </div>
+
+    <div class="refcard danger">
+      <h3>Escalate immediately — do not wait for Wednesday</h3>
+      <ul>
+        <li>Gas detection is out of service or cannot be returned to service.</li>
+        <li>The alarm will not sound, or the alarm is not received remotely.</li>
+        <li>Communications are down and cannot be restored on site.</li>
+        <li>Any condition where the rig is running without working H₂S detection.</li>
+        <li>Any safety hazard, damaged equipment from an incident, or anything the company man raises.</li>
+        <li>Any part needed on an URGENT basis that is not in shop stock.</li>
+      </ul>
+    </div>
+
+    <div class="refcard">
+      <h3>Thresholds — act on the number, not a feeling</h3>
+      <div class="kv" id="thresholdKV"></div>
+    </div>
+
+    <div class="refcard">
+      <h3>Contact list</h3>
+      <div class="kv contact" id="contactKV"></div>
+    </div>
+
+    <div class="setcard" style="border-left:4px solid var(--red)">
+      <div style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--red)">Notify Operations</div>
+      <p class="hint" style="margin:0">One tap opens a ready-to-fill escalation email to the operations group — mscroom, Mlyons, rbwalton @csrhigroup.com.</p>
+      <button class="btn primary" id="opsEmailBtn" style="align-self:flex-start;background:var(--red);border-color:var(--red)">✉ Email Operations</button>
+    </div>
+    <p class="foot-note">Thresholds and contacts save as you type them here — fill them in with the program owner over time.</p>
+  </div>
+</section>
+
+<!-- ============ SETTINGS ============ -->
+<section class="view" id="view-settings">
+  <div class="wrap">
+    <div class="hero" style="padding:14px 0 4px">
+      <div class="eyebrow">Setup</div>
+      <h1 style="font-size:22px">Settings</h1>
+      <p>Set who the parts order emails to. On the Parts screen, <b>Email order</b> opens a ready-to-send email in your phone's mail app — review and hit send.</p>
+    </div>
+
+    <div class="setcard">
+      <div class="field">
+        <label>Send parts orders to</label>
+        <input id="set-to" placeholder="name@company.com, second@company.com" autocomplete="off" spellcheck="false" inputmode="email">
+      </div>
+      <div class="field">
+        <label>CC (optional)</label>
+        <input id="set-cc" placeholder="yourself@company.com" autocomplete="off" spellcheck="false" inputmode="email">
+      </div>
+      <p class="hint">Pre-set to the parts approval &amp; ordering distribution list, so orders route for approval and get placed in a timely fashion. Edit only if this device needs to send somewhere else — separate addresses with commas. CC yourself to keep a copy.</p>
+      <button class="btn primary" id="set-recips-save" style="align-self:flex-start">Save recipients</button>
+    </div>
+
+    <div class="setcard">
+      <div class="field">
+        <label>Your name (technician)</label>
+        <input id="set-tech" placeholder="Alex" autocomplete="off">
+      </div>
+      <p class="hint">Pre-fills the technician field on new inspections.</p>
+      <button class="btn" id="set-savetech" style="align-self:flex-start">Save</button>
+    </div>
+
+    <div class="setcard">
+      <p class="hint" style="margin-bottom:4px"><b>Danger zone.</b> This device is holding your drafts, saved inspections, and the parts list. Clearing wipes them from this browser only.</p>
+      <button class="btn" id="set-clear" style="align-self:flex-start;border-color:var(--fault);color:var(--fault)">Clear all stored data</button>
+    </div>
+  </div>
+</section>
+
+<div class="footbar" id="footbar">
+  <div class="wrap">
+    <div class="info" id="footInfo"><b>0 / 0</b> items</div>
+    <div class="grow"></div>
+    <button class="savebtn" id="saveBtn">Save &amp; file</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  "use strict";
+  var LS_PARTS="redline_parts_v1", LS_DONE="redline_inspections_v1", LS_THEME="redline_theme", LS_SETTINGS="redline_settings_v1";
+  var DEFAULT_TO="mscroom@csrhigroup.com,Mlyons@csrhigroup.com,rashmore@csrhigroup.com,rbwalton@csrhigroup.com";
+  var OPS_TO="mscroom@csrhigroup.com,Mlyons@csrhigroup.com,rbwalton@csrhigroup.com";
+
+  var el=function(id){return document.getElementById(id);};
+  function esc(s){return (s==null?"":String(s)).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+  function todayISO(){var d=new Date();var m=(d.getMonth()+1),day=d.getDate();return d.getFullYear()+"-"+(m<10?"0":"")+m+"-"+(day<10?"0":"")+day;}
+  function slug(s){return (s||"rig").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,30)||"x";}
+  function stampNow(){var d=new Date();function p(n){return (n<10?"0":"")+n;}return p(d.getHours())+p(d.getMinutes())+p(d.getSeconds());}
+
+  /* ---------- theme ---------- */
+  var root=document.documentElement;
+  try{var t=localStorage.getItem(LS_THEME); if(t) root.setAttribute("data-theme",t);}catch(e){}
+  el("themeBtn").onclick=function(){
+    var cur=root.getAttribute("data-theme");
+    if(!cur) cur=matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light";
+    var next=cur==="dark"?"light":"dark";
+    root.setAttribute("data-theme",next);
+    try{localStorage.setItem(LS_THEME,next);}catch(e){}
+  };
+
+  /* ---------- settings store ---------- */
+  function getSettings(){try{return JSON.parse(localStorage.getItem(LS_SETTINGS))||{};}catch(e){return {};}}
+  function setSettings(s){try{localStorage.setItem(LS_SETTINGS,JSON.stringify(s));}catch(e){}}
+  function deviceId(){var s=getSettings();if(!s.deviceId){s.deviceId=Math.random().toString(36).slice(2,8);setSettings(s);}return s.deviceId;}
+
+  /* ================= FORM SCHEMAS =================
+     Block types: check | repeat | fields | text | note | sign
+     Field/col types: text | date | time | select | area | yesno | check | num  */
+  var DISTRICT=["South","West (Jal / NM)"];
+  var FORMS={
+    cycleA:{ id:"cycleA", tag:"Cycle A", name:"Full Rig Inspection", parts:true,
+      header:[{k:"rig",label:"Rig / Location",type:"text",ph:"e.g. Redline 14 – Jal"},{k:"district",label:"District",type:"select",opts:DISTRICT},{k:"date",label:"Date",type:"date"},{k:"tech",label:"Technician",type:"text",ph:"Alex"}],
+      blocks:[
+        {type:"check",title:"Visual Inspection",vl:"Notes",items:["Enclosure and lid — sealed, latched, undamaged, no water ingress","Mounting hardware / U-bolts — tight, no movement, no vibration damage","Cable glands and conduit fittings — sealed, no chafe, no exposed conductor","Wiring and loom — secure, no rub points, no UV cracking","Labels and signage — legible and correct","Physical damage from rig activity or vibration"]},
+        {type:"check",title:"Sensor Health",vl:"Reading / Due date",items:["H₂S sensor element — within life, no expiry exceeded","Sensor filter / O-ring — clean, seated, replaced if fouled","Bump test performed with calibration gas","Sensor response time acceptable","Zero / baseline reading stable","Calibration due date verified"]},
+        {type:"check",title:"Battery",vl:"Voltage / Value",items:["Resting voltage measured","Voltage under load measured","Terminals — clean, tight, corrosion free, dielectric grease applied","Inline fuse — correct rating, intact","Battery date code / age within replacement interval","Battery secured in enclosure"]},
+        {type:"check",title:"Solar & Charging",vl:"Reading / Notes",items:["Panel face — clean, no shading, no cracks","Panel orientation and tilt correct","MC4 connectors — seated, dry, no corrosion","Charge controller — powered, no fault light, charging current confirmed","Solar cable — no chafe, no UV damage, properly supported","Charging current measured in daylight"]},
+        {type:"check",title:"Communications",vl:"Signal / Notes",items:["Gateway / controller powered and online","Signal strength recorded","Antenna whip — intact, upright, correct type","Magnetic base / mount — secure and clean","Coax and RF adapters — tight, no water in connector","Confirmed live data received at the far end (call to verify)"]},
+        {type:"check",title:"Alarm Test",vl:"Notes",items:["Company man notified BEFORE alarm test","Horn / strobe function tested","Beacon function tested","Push button / manual call point tested","Reset switch tested and system returned to normal","Alarm confirmed received remotely","Company man notified test complete and system back in service"]},
+        {type:"check",title:"Housekeeping",vl:"Notes",items:["Enclosure interior cleaned, contacts cleaned","Dielectric grease / sealant applied where required","Old zip ties, packaging, and scrap removed from location","Spare parts on the rig inventoried and topped up"]},
+        {type:"repeat",title:"Minor Repairs — On Site",addLabel:"Add a repair",cols:[{k:"repair",label:"Repair performed",type:"text"},{k:"part",label:"Part used (from truck)",type:"text"},{k:"photo",label:"Before/after photo taken?",type:"check"}]},
+        {type:"fields",title:"Customer Contact",fields:[{k:"cm",label:"Company man spoken to",type:"text"},{k:"time",label:"Time",type:"time"},{k:"notes",label:"What was discussed / concerns raised",type:"area"},{k:"inservice",label:"System left in service and fully functional?",type:"yesno",warn:"If NO — escalate per Part 9"}]},
+        {type:"sign",label:"Technician signature"}
+      ]},
+
+    cycleB:{ id:"cycleB", tag:"Cycle B", name:"Verification Visit", parts:true,
+      sub:"Not a repeat of Cycle A — a verification visit. Confirm Monday/Tuesday repairs are holding and install parts that arrived.",
+      header:[{k:"rig",label:"Rig / Location",type:"text",ph:"e.g. Redline 14 – Jal"},{k:"district",label:"District",type:"select",opts:DISTRICT},{k:"date",label:"Date",type:"date"},{k:"tech",label:"Technician",type:"text",ph:"Alex"}],
+      blocks:[
+        {type:"repeat",title:"Verify Cycle A repairs",addLabel:"Add a repair to verify",cols:[{k:"repair",label:"Repair made on Cycle A",type:"text"},{k:"holding",label:"Still holding?",type:"select",opts:["Yes","No"]},{k:"action",label:"Action taken if not",type:"text"}]},
+        {type:"repeat",title:"Install parts that arrived",addLabel:"Add an installed part",cols:[{k:"part",label:"Part installed",type:"text"},{k:"serial",label:"Serial / lot (if applicable)",type:"text"},{k:"returned",label:"Old part returned to shop?",type:"check"}]},
+        {type:"check",title:"Re-test the four vitals",vl:"Reading / Result",items:["Communications — online, signal strength recorded, data confirmed at far end","Battery — resting voltage and charging current recorded","Alarm — horn/strobe/beacon tested, company man notified before and after","Sensor response — bump tested, response confirmed, system reset"]},
+        {type:"text",title:"What changed on this location since Cycle A?",ph:"Write NONE if nothing. Rig moves, new equipment in the way, vibration, weather, new shading…"},
+        {type:"fields",title:"Close-out",fields:[{k:"closed",label:"All Cycle A deficiencies closed?",type:"yesno",warn:"If NO — record reason and target date below"},{k:"reason",label:"If NO — reason and target date",type:"text"}]},
+        {type:"sign",label:"Technician signature"}
+      ]},
+
+    route:{ id:"route", tag:"Route Card", name:"Daily Route Card", parts:false, reqKey:"tech",
+      sub:"Fill this out for the day before you leave the shop. The one page on the windshield.",
+      header:[{k:"tech",label:"Technician",type:"text",ph:"Alex"},{k:"cycle",label:"Cycle / day",type:"select",opts:["Cycle A — Mon South","Cycle A — Tue West","Cycle B — Thu South","Cycle B — Fri West"]},{k:"date",label:"Date",type:"date"},{k:"timein",label:"Time in",type:"time"},{k:"timeout",label:"Time out",type:"time"}],
+      blocks:[
+        {type:"repeat",title:"Rigs on today's route",addLabel:"Add a rig",legend:"Status: G = all good · R = repaired on site · P = parts on order · E = escalated · NV = not visited",cols:[{k:"rig",label:"Rig / Location",type:"text"},{k:"arrive",label:"Arrive",type:"time"},{k:"depart",label:"Depart",type:"time"},{k:"status",label:"Status",type:"select",opts:["G — all good","R — repaired on site","P — parts on order","E — escalated","NV — not visited"]},{k:"def",label:"Deficiencies found (→ Wed order list)",type:"area"}]},
+        {type:"check",title:"End-of-day close-out",vl:"Notes",items:["Every rig on the card has a status code and an arrive/depart time","Every deficiency is written on the Wednesday order list","Every fault has a before photo (and an after photo if repaired)","Reliability Log page updated for every rig visited","Truck restocked for tomorrow from the reliability cabinet","Any escalation called in per Part 9 — not left on paper"]}
+      ]},
+
+    rigup:{ id:"rigup", tag:"Rig-Up", name:"Rig-Up Checklist", parts:true,
+      header:[{k:"rig",label:"Rig / Location",type:"text"},{k:"date",label:"Date",type:"date"},{k:"tech",label:"Technician",type:"text",ph:"Alex"},{k:"serials",label:"Equipment serials",type:"text"}],
+      blocks:[
+        {type:"check",title:"Shop — before you leave",vl:"Value / Notes",items:["Kit built against the standard bill of materials","Gateway / controller programmed and configured","Radio programmed; frequency and network confirmed","Sensor calibrated; calibration certificate / date recorded","Battery fully charged; voltage recorded","Full bench test — comms, alarm, sensor response — all passed","Firmware version recorded"]},
+        {type:"check",title:"Location — install and commission",vl:"Value / Notes",items:["Check in with the company man; agree on the mounting location","Equipment mounted, hardware torqued, enclosure sealed","Solar panel oriented, tilted, and clear of shading","Antenna installed; signal strength verified and recorded","Live data confirmed received at the far end","Full alarm test performed with the company man notified","Baseline photos taken (installation, panel, antenna, inside enclosure)","Company man walked through the system and signed off","Reliability Log page OPENED for this rig","Rig added to the correct district route sheet"]},
+        {type:"sign",label:"Technician signature"}
+      ]},
+
+    rigdown:{ id:"rigdown", tag:"Rig-Down", name:"Rig-Down Checklist", parts:false,
+      header:[{k:"rig",label:"Rig / Location",type:"text"},{k:"date",label:"Date",type:"date"},{k:"tech",label:"Technician",type:"text",ph:"Alex"},{k:"serials",label:"Equipment serials",type:"text"}],
+      blocks:[
+        {type:"check",title:"Location",vl:"Notes",items:["Notify the company man before removing anything","Photograph the installation before removal","Power down safely; disconnect battery first","Remove all equipment, mounting hardware, cable, and loom — leave nothing behind","Note the condition of every item as it comes off (working / damaged / suspect)","Count everything off the location against what was installed"]},
+        {type:"check",title:"Shop — return to inventory",vl:"Notes",items:["Wash and clean all returned equipment","Inspect for damage; tag and quarantine anything suspect","Repair what can be repaired; scrap what cannot","Bench test — comms, alarm, sensor response","Calibrate sensors; record calibration date","Update firmware; record version","Recharge batteries; record voltage","Return to available inventory and update the cabinet count","Reliability Log page CLOSED for this rig, with final condition notes","Rig removed from the district route sheet"]},
+        {type:"fields",title:"Equipment disposition",fields:[{k:"returned",label:"Returned to inventory (list serials)",type:"area"},{k:"scrapped",label:"Scrapped / RMA (list serials + reason)",type:"area"}]},
+        {type:"sign",label:"Technician signature"}
+      ]},
+
+    rlog:{ id:"rlog", tag:"Reliability Log", name:"Reliability Log", parts:false,
+      sub:"One page per rig — the history that turns maintenance into reliability. Re-open it each visit and add a row.",
+      header:[{k:"rig",label:"Rig / Location",type:"text"},{k:"district",label:"District",type:"select",opts:DISTRICT},{k:"installed",label:"Date installed",type:"date"},{k:"removed",label:"Date removed",type:"date"}],
+      blocks:[
+        {type:"fields",title:"Equipment",fields:[{k:"gw",label:"Gateway serial",type:"text"},{k:"sensor",label:"Sensor serial",type:"text"},{k:"fw",label:"Firmware version",type:"text"},{k:"cm",label:"Company man / contact",type:"text"}]},
+        {type:"repeat",title:"Visit History",addLabel:"Add a visit",cols:[{k:"date",label:"Date",type:"date"},{k:"cycle",label:"Cycle",type:"select",opts:["A","B","Other"]},{k:"findings",label:"Findings",type:"area"},{k:"action",label:"Action taken",type:"text"},{k:"parts",label:"Parts used",type:"text"}]},
+        {type:"repeat",title:"Battery History",addLabel:"Add a battery record",cols:[{k:"date",label:"Date",type:"date"},{k:"volt",label:"Voltage",type:"text"},{k:"charge",label:"Charging current",type:"text"},{k:"action",label:"Action (replaced / OK)",type:"text"},{k:"code",label:"Battery date code",type:"text"}]},
+        {type:"repeat",title:"Calibration & Firmware History",addLabel:"Add a calibration record",cols:[{k:"date",label:"Date",type:"date"},{k:"cal",label:"Sensor calibrated / bumped",type:"text"},{k:"fw",label:"Firmware version",type:"text"},{k:"by",label:"Performed by",type:"text"}]},
+        {type:"text",title:"Recurring issues — root cause",ph:"If the same fault shows up three times, stop replacing the part and fix the cause. Write the pattern here."},
+        {type:"fields",title:"Photos",fields:[{k:"baseline",label:"Baseline photos on file?",type:"yesno"},{k:"where",label:"Where filed",type:"text"}]}
+      ]},
+
+    score:{ id:"score", tag:"Scorecard", name:"Weekly Scorecard", parts:false, reqKey:"week",
+      sub:"One page, filled Friday afternoon, sent to the program owner. How the program proves itself.",
+      header:[{k:"week",label:"Week ending",type:"date"},{k:"tech",label:"Technician",type:"text",ph:"Alex"}],
+      blocks:[
+        {type:"fields",title:"Metrics (this week)",fields:[
+          {k:"m1",label:"Rigs in the field",type:"text"},
+          {k:"m2",label:"Rigs inspected on Cycle A",type:"text",hint:"Target: 100%"},
+          {k:"m3",label:"Rigs inspected on Cycle B",type:"text",hint:"Target: 100%"},
+          {k:"m4",label:"Rigs that went >4 days without a visit",type:"text",hint:"Target: 0"},
+          {k:"m5",label:"Deficiencies found on Cycle A",type:"text"},
+          {k:"m6",label:"Deficiencies closed by end of Cycle B",type:"text",hint:"Target: 100%"},
+          {k:"m7",label:"Deficiencies still open going into the weekend",type:"text",hint:"Target: 0"},
+          {k:"m8",label:"Emergency call-outs",type:"text",hint:"Target: trend down"},
+          {k:"m9",label:"Batteries replaced",type:"text"},
+          {k:"m10",label:"Sensor elements replaced",type:"text"},
+          {k:"m11",label:"Comms outages",type:"text",hint:"Target: trend down"},
+          {k:"m12",label:"Parts ordered Wed / received by Thu",type:"text"}
+        ]},
+        {type:"text",title:"Top three problems this week",ph:"1.\n2.\n3.  — problem / rig / what is being done about it"}
+      ]}
+  };
+
+  /* ---------- per-form draft ---------- */
+  var CUR=null, draft=null;
+  function draftKey(id){return "redline_draft_"+id;}
+  function loadDraft(id){
+    try{var d=JSON.parse(localStorage.getItem(draftKey(id))); if(d&&d.form===id&&d.data) return d;}catch(e){}
+    var s=getSettings();
+    return {form:id, h:{date:todayISO(), tech:s.tech||"", district:""}, data:{}};
+  }
+  function saveDraft(){ if(!CUR||!draft)return; try{localStorage.setItem(draftKey(CUR.id),JSON.stringify(draft));}catch(e){} }
+  function bd(bi){ return draft.data[bi]||(draft.data[bi]={}); }
+
+  /* ---------- generic controls ---------- */
+  function mkCtrl(type,val,on,o){
+    o=o||{};
+    if(type==="area"){var ta=document.createElement("textarea");ta.value=val||"";if(o.ph)ta.placeholder=o.ph;ta.oninput=function(){on(ta.value);};return ta;}
+    if(type==="select"){var s=document.createElement("select");var blank=document.createElement("option");blank.value="";blank.textContent="Select…";s.appendChild(blank);(o.opts||[]).forEach(function(op){var op2=document.createElement("option");op2.value=op;op2.textContent=op;s.appendChild(op2);});s.value=val||"";s.onchange=function(){on(s.value);};return s;}
+    if(type==="check"){var lab=document.createElement("label");lab.style.cssText="display:flex;flex-direction:row;align-items:center;gap:9px;text-transform:none;font-size:13.5px;letter-spacing:0;font-weight:600;color:var(--ink)";var cb=document.createElement("input");cb.type="checkbox";cb.checked=!!val;cb.style.cssText="width:20px;height:20px;flex:none";cb.onchange=function(){on(cb.checked);};lab.appendChild(cb);lab.appendChild(document.createTextNode(o.label||"Yes"));return lab;}
+    if(type==="yesno"){var seg=document.createElement("div");seg.className="seg";
+      var y=document.createElement("button");y.type="button";y.className="ok"+(val==="YES"?" on":"");y.innerHTML='<span class="dot"></span>YES';
+      var n=document.createElement("button");n.type="button";n.className="fault"+(val==="NO"?" on":"");n.innerHTML='<span class="dot"></span>NO';
+      y.onclick=function(){y.classList.add("on");n.classList.remove("on");on("YES");};
+      n.onclick=function(){n.classList.add("on");y.classList.remove("on");on("NO");if(o.warn)toast(o.warn);};
+      seg.appendChild(y);seg.appendChild(n);return seg;}
+    var inp=document.createElement("input");
+    inp.type=(type==="date"?"date":type==="time"?"time":type==="num"?"number":"text");
+    inp.value=val||""; if(o.ph)inp.placeholder=o.ph; inp.autocomplete="off";
+    inp.oninput=function(){on(inp.value);};
+    return inp;
+  }
+  function fieldWrap(labelText,ctrl,hint){
+    var f=document.createElement("div");f.className="field";
+    var l=document.createElement("label");l.textContent=labelText;f.appendChild(l);
+    if(hint){var h=document.createElement("span");h.className="fhint";h.textContent=hint;f.appendChild(h);}
+    f.appendChild(ctrl);return f;
+  }
+
+  /* ---------- header ---------- */
+  function headerField(hf){
+    return fieldWrap(hf.label, mkCtrl(hf.type, draft.h[hf.k]||"", function(v){draft.h[hf.k]=v;saveDraft(); if(hf.k==="rig")updatePartsRigLabels();}, {opts:hf.opts,ph:hf.ph}), hf.hint);
+  }
+  function updatePartsRigLabels(){}
+
+  /* ---------- check block ---------- */
+  function checkBlock(b,bi,num){
+    var d=bd(bi); var items=d.items||(d.items={});
+    var det=document.createElement("details");det.className="section";det.open=(num===1);
+    var sum=document.createElement("summary");
+    sum.innerHTML='<span class="num">'+num+'</span><span>'+esc(b.title)+'</span>'+
+      '<span class="meta"><span class="badge todo" data-badge="'+bi+'">0 / '+b.items.length+'</span><span class="caret">›</span></span>';
+    det.appendChild(sum);
+    var allowParts=(CUR.parts && b.parts!==false);
+    b.items.forEach(function(q,ii){ det.appendChild(checkItem(b,bi,ii,q,allowParts)); });
+    return det;
+  }
+  function checkItem(b,bi,ii,q,allowParts){
+    var items=bd(bi).items, st=items[ii]||(items[ii]={});
+    var row=document.createElement("div");row.className="item";
+    var qEl=document.createElement("div");qEl.className="q";qEl.innerHTML=q;row.appendChild(qEl);
+    var seg=document.createElement("div");seg.className="seg";
+    var okB=document.createElement("button");okB.type="button";okB.className="ok"+(st.status==="ok"?" on":"");okB.innerHTML='<span class="dot"></span>OK';
+    var flB=document.createElement("button");flB.type="button";flB.className="fault"+(st.status==="fault"?" on":"");flB.innerHTML='<span class="dot"></span>FAULT';
+    seg.appendChild(okB);seg.appendChild(flB);row.appendChild(seg);
+    var vLab=document.createElement("div");vLab.className="vlabel";vLab.textContent=b.vl||"Notes";
+    var vIn=document.createElement("input");vIn.className="val";vIn.value=st.val||"";vIn.placeholder="—";
+    vIn.oninput=function(){st.val=vIn.value;saveDraft();};
+    row.appendChild(vLab);row.appendChild(vIn);
+    var orderHost=document.createElement("div");row.appendChild(orderHost);
+    function renderOrder(){
+      orderHost.innerHTML="";
+      if(!allowParts||st.status!=="fault")return;
+      var ol=document.createElement("div");ol.className="orderline";
+      ol.innerHTML='<div class="ohead">⚠ Fault — need a part? Add it to the order</div>';
+      var pin=document.createElement("input");pin.className="val";pin.style.background="var(--panel)";pin.placeholder="Part needed (leave blank if fixed on the spot)";pin.value=st.part||"";
+      pin.oninput=function(){st.part=pin.value;saveDraft();};ol.appendChild(pin);
+      var prio=document.createElement("div");prio.className="prio";
+      var rB=document.createElement("button");rB.type="button";rB.className="routine"+((st.prio||"Routine")==="Routine"?" on":"");rB.textContent="Routine";
+      var uB=document.createElement("button");uB.type="button";uB.className="urgent"+(st.prio==="Urgent"?" on":"");uB.textContent="Urgent";
+      rB.onclick=function(){st.prio="Routine";saveDraft();renderOrder();};
+      uB.onclick=function(){st.prio="Urgent";saveDraft();renderOrder();};
+      prio.appendChild(rB);prio.appendChild(uB);ol.appendChild(prio);
+      var add=document.createElement("button");add.type="button";add.className="addbtn"+(st.partAddedId?" added":"");
+      add.innerHTML=st.partAddedId?"✓ Added to parts order — tap to update":"＋ Add to parts order";
+      add.onclick=function(){
+        if(!st.part||!st.part.trim()){toast("Type the part needed first");pin.focus();return;}
+        var parts=getParts();
+        var payload={part:st.part.trim(),def:q.replace(/<[^>]+>/g,""),prio:st.prio||"Routine",rig:draft.h.rig||"(rig not named)",district:draft.h.district||"",tech:draft.h.tech||"",date:draft.h.date||todayISO(),section:b.title,ts:Date.now()};
+        if(st.partAddedId){var idx=-1;for(var j=0;j<parts.length;j++){if(parts[j].id===st.partAddedId){idx=j;break;}}payload.id=st.partAddedId;if(idx>=0)parts[idx]=payload;else parts.push(payload);toast("Order line updated");}
+        else{payload.id="p"+Date.now()+"_"+Math.floor(Math.random()*1e4);st.partAddedId=payload.id;parts.push(payload);toast("Added to parts order");}
+        setParts(parts);saveDraft();renderOrder();
+      };
+      ol.appendChild(add);orderHost.appendChild(ol);
+    }
+    okB.onclick=function(){st.status=(st.status==="ok")?null:"ok";okB.classList.toggle("on",st.status==="ok");flB.classList.remove("on");saveDraft();renderOrder();updateBadges();updateProgress();};
+    flB.onclick=function(){st.status=(st.status==="fault")?null:"fault";flB.classList.toggle("on",st.status==="fault");okB.classList.remove("on");saveDraft();renderOrder();updateBadges();updateProgress();};
+    renderOrder();
+    return row;
+  }
+
+  /* ---------- repeat block ---------- */
+  function repeatBlock(b,bi,num){
+    var d=bd(bi); var rows=d.rows||(d.rows=[]);
+    var det=document.createElement("details");det.className="section";
+    det.innerHTML='<summary><span class="num">'+num+'</span><span>'+esc(b.title)+'</span><span class="meta"><span class="badge todo" data-count="'+bi+'">'+rows.length+'</span><span class="caret">›</span></span></summary>';
+    var host=document.createElement("div");host.className="repeat";det.appendChild(host);
+    function draw(){
+      host.innerHTML="";
+      if(b.legend){var lg=document.createElement("div");lg.className="legend";lg.textContent=b.legend;host.appendChild(lg);}
+      rows.forEach(function(r,idx){
+        var c=document.createElement("div");c.className="rcard";
+        var del=document.createElement("button");del.className="del";del.type="button";del.title="Remove";del.textContent="✕";
+        del.onclick=function(){rows.splice(idx,1);saveDraft();draw();var bdg=det.querySelector('[data-count="'+bi+'"]');if(bdg)bdg.textContent=rows.length;};
+        c.appendChild(del);
+        b.cols.forEach(function(col){
+          c.appendChild(fieldWrap(col.label, mkCtrl(col.type, r[col.k], function(v){r[col.k]=v;saveDraft();}, {opts:col.opts,label:col.type==="check"?"Yes":null})));
+        });
+        host.appendChild(c);
+      });
+      var add=document.createElement("button");add.className="addrow";add.type="button";add.textContent="＋ "+(b.addLabel||"Add row");
+      add.onclick=function(){rows.push({});saveDraft();draw();var bdg=det.querySelector('[data-count="'+bi+'"]');if(bdg)bdg.textContent=rows.length;};
+      host.appendChild(add);
+    }
+    draw();return det;
+  }
+
+  /* ---------- fields block ---------- */
+  function fieldsBlock(b,bi,num){
+    var d=bd(bi); var f=d.f||(d.f={});
+    var det=document.createElement("details");det.className="section";det.open=true;
+    det.innerHTML='<summary><span class="num">'+num+'</span><span>'+esc(b.title||"Details")+'</span><span class="meta"><span class="caret">›</span></span></summary>';
+    var host=document.createElement("div");host.className="fieldbody";det.appendChild(host);
+    b.fields.forEach(function(fd){
+      host.appendChild(fieldWrap(fd.label, mkCtrl(fd.type, f[fd.k], function(v){f[fd.k]=v;saveDraft();}, {opts:fd.opts,ph:fd.ph,warn:fd.warn}), fd.hint));
+    });
+    return det;
+  }
+
+  /* ---------- text block ---------- */
+  function textBlock(b,bi,num){
+    var d=bd(bi);
+    var det=document.createElement("details");det.className="section";det.open=true;
+    det.innerHTML='<summary><span class="num">'+num+'</span><span>'+esc(b.title)+'</span><span class="meta"><span class="caret">›</span></span></summary>';
+    var host=document.createElement("div");host.className="fieldbody";det.appendChild(host);
+    var ta=document.createElement("textarea");ta.value=d.text||"";ta.style.minHeight="90px";if(b.ph)ta.placeholder=b.ph;
+    ta.oninput=function(){d.text=ta.value;saveDraft();};
+    host.appendChild(ta);return det;
+  }
+
+  /* ---------- note block ---------- */
+  function noteBlock(b){
+    var div=document.createElement("div");div.className="blocknote";
+    div.innerHTML=b.title?("<b>"+esc(b.title)+"</b> "+esc(b.text||"")):esc(b.text||"");
+    if(b.sub) div.textContent=b.sub;
+    return div;
+  }
+
+  /* ---------- signature block ---------- */
+  function signBlock(b,bi){
+    var d=bd(bi);
+    var det=document.createElement("details");det.className="section";det.open=true;
+    det.innerHTML='<summary><span class="num" style="background:var(--red)">✎</span><span>'+esc(b.label||"Signature")+'</span><span class="meta"><span class="caret">›</span></span></summary>';
+    var host=document.createElement("div");host.className="fieldbody";det.appendChild(host);
+    var sw=document.createElement("div");sw.className="signwrap";
+    var cv=document.createElement("canvas");
+    var clr=document.createElement("button");clr.className="signclear";clr.type="button";clr.textContent="Clear";
+    sw.appendChild(cv);sw.appendChild(clr);host.appendChild(sw);
+    setTimeout(function(){initSign(cv,clr,d);},30);
+    return det;
+  }
+  function initSign(cv,clrBtn,store){
+    var ctx=cv.getContext("2d");var ratio=window.devicePixelRatio||1;
+    function resize(){var w=cv.clientWidth,h=cv.clientHeight;if(!w)return;cv.width=w*ratio;cv.height=h*ratio;ctx.scale(ratio,ratio);ctx.lineWidth=2.2;ctx.lineCap="round";ctx.lineJoin="round";ctx.strokeStyle=getComputedStyle(document.body).color;if(store.sig){var img=new Image();img.onload=function(){ctx.drawImage(img,0,0,w,h);};img.src=store.sig;}}
+    resize();
+    var drawing=false,last=null;
+    function pos(e){var r=cv.getBoundingClientRect();var p=e.touches?e.touches[0]:e;return {x:p.clientX-r.left,y:p.clientY-r.top};}
+    function start(e){drawing=true;last=pos(e);e.preventDefault();}
+    function move(e){if(!drawing)return;var p=pos(e);ctx.beginPath();ctx.moveTo(last.x,last.y);ctx.lineTo(p.x,p.y);ctx.stroke();last=p;e.preventDefault();}
+    function end(){if(!drawing)return;drawing=false;try{store.sig=cv.toDataURL("image/png");saveDraft();}catch(e){}}
+    cv.addEventListener("mousedown",start);cv.addEventListener("mousemove",move);window.addEventListener("mouseup",end);
+    cv.addEventListener("touchstart",start,{passive:false});cv.addEventListener("touchmove",move,{passive:false});cv.addEventListener("touchend",end);
+    clrBtn.onclick=function(){ctx.clearRect(0,0,cv.width,cv.height);store.sig="";saveDraft();};
+    var det=cv.closest("details");if(det){det.addEventListener("toggle",function(){if(det.open)resize();});}
+  }
+
+  /* ---------- build a form ---------- */
+  function buildForm(){
+    el("formTag").textContent=CUR.tag;
+    el("formTitle").textContent=CUR.name;
+    var note=el("formNote");
+    if(CUR.sub){note.textContent=CUR.sub;note.style.display="block";}else{note.style.display="none";}
+    var hh=el("formHead");hh.innerHTML="";
+    CUR.header.forEach(function(hf){hh.appendChild(headerField(hf));});
+    var host=el("sections");host.innerHTML="";
+    var num=0;
+    CUR.blocks.forEach(function(b,bi){
+      if(b.type==="note"){host.appendChild(noteBlock(b));return;}
+      if(b.type==="sign"){host.appendChild(signBlock(b,bi));return;}
+      num++;
+      if(b.type==="check")host.appendChild(checkBlock(b,bi,num));
+      else if(b.type==="repeat")host.appendChild(repeatBlock(b,bi,num));
+      else if(b.type==="fields")host.appendChild(fieldsBlock(b,bi,num));
+      else if(b.type==="text")host.appendChild(textBlock(b,bi,num));
+    });
+    updateBadges();updateProgress();
+  }
+
+  /* ---------- progress + badges ---------- */
+  function totalItems(){var n=0;CUR.blocks.forEach(function(b,bi){if(b.type==="check")n+=b.items.length;});return n;}
+  function countAnswered(){var n=0;CUR.blocks.forEach(function(b,bi){if(b.type!=="check")return;var it=(draft.data[bi]&&draft.data[bi].items)||{};for(var ii=0;ii<b.items.length;ii++){if(it[ii]&&it[ii].status)n++;}});return n;}
+  function countFaults(){var n=0;CUR.blocks.forEach(function(b,bi){if(b.type!=="check")return;var it=(draft.data[bi]&&draft.data[bi].items)||{};for(var ii=0;ii<b.items.length;ii++){if(it[ii]&&it[ii].status==="fault")n++;}});return n;}
+  function updateProgress(){
+    var tot=totalItems(),ans=countAnswered(),fault=countFaults();
+    var prog=document.querySelector(".progress");
+    if(tot===0){if(prog)prog.style.display="none";el("footInfo").innerHTML="Ready to file";return;}
+    if(prog)prog.style.display="";
+    var pct=Math.round(ans/tot*100);
+    el("pbarFill").style.width=pct+"%";el("pctText").textContent=ans+" / "+tot;
+    el("footInfo").innerHTML="<b>"+ans+" / "+tot+"</b> items"+(fault?(" · <b>"+fault+"</b> fault"+(fault>1?"s":"")):"");
+  }
+  function updateBadges(){
+    CUR.blocks.forEach(function(b,bi){
+      if(b.type!=="check")return;
+      var badge=document.querySelector('[data-badge="'+bi+'"]');if(!badge)return;
+      var it=(draft.data[bi]&&draft.data[bi].items)||{};var ans=0,fault=0;
+      for(var ii=0;ii<b.items.length;ii++){if(it[ii]&&it[ii].status){ans++;if(it[ii].status==="fault")fault++;}}
+      badge.className="badge "+(fault?"flag":(ans===b.items.length?"done":"todo"));
+      badge.textContent=fault?(fault+" fault"+(fault>1?"s":"")):(ans+" / "+b.items.length);
+    });
+  }
+
+  /* ---------- open / save ---------- */
+  function openForm(id){CUR=FORMS[id];if(!CUR)return;draft=loadDraft(id);buildForm();go("inspect");}
+  function openRecord(rec){
+    CUR=FORMS[rec.form];if(!CUR){toast("Unknown form");return;}
+    if(hasDraftContent(rec.form)&&!confirm("You have an in-progress "+CUR.tag+". Replace it with this saved one?"))return;
+    draft=JSON.parse(JSON.stringify(rec));delete draft.savedAt;saveDraft();buildForm();go("inspect");
+  }
+  function hasDraftContent(id){try{var d=JSON.parse(localStorage.getItem(draftKey(id)));if(!d)return false;if(d.data&&Object.keys(d.data).length)return true;if(d.h){for(var k in d.h){if(k!=="date"&&k!=="tech"&&d.h[k])return true;}}return false;}catch(e){return false;}}
+  el("saveBtn").onclick=function(){
+    if(!CUR)return;
+    var reqK=CUR.reqKey||(CUR.header[0]&&CUR.header[0].k);
+    var reqL=(CUR.header[0]&&CUR.header[0].label)||"the first field";
+    if(CUR.reqKey){var hf=null;CUR.header.forEach(function(h){if(h.k===CUR.reqKey)hf=h;});if(hf)reqL=hf.label;}
+    if(reqK&&!(draft.h[reqK]&&String(draft.h[reqK]).trim())){toast("Enter "+reqL+" first");window.scrollTo(0,0);return;}
+    var done=getDone();var rec=JSON.parse(JSON.stringify(draft));rec.savedAt=Date.now();done.push(rec);setDone(done);
+    toast(CUR.tag+" saved"+(draft.h.rig?(" for "+draft.h.rig):""));
+    var keep={date:draft.h.date,tech:draft.h.tech,district:draft.h.district};
+    draft={form:CUR.id,h:keep,data:{}};saveDraft();go("hub");
+  };
+
+  /* ---------- parts store + view ---------- */
+  function getParts(){try{return JSON.parse(localStorage.getItem(LS_PARTS))||[];}catch(e){return [];}}
+  function setParts(a){try{localStorage.setItem(LS_PARTS,JSON.stringify(a));}catch(e){}refreshPartsCount();}
+  function refreshPartsCount(){var n=getParts().length;var c=el("tilePartsCount");if(c){c.textContent=n;c.classList.toggle("zero",n===0);}}
+  function renderParts(){
+    var host=el("partsList");var parts=getParts();host.innerHTML="";
+    if(!parts.length){host.innerHTML='<div class="parts-empty">No parts on order yet.<br>Mark a fault on an inspection and add the part, or tap <b>Add part</b>.</div>';return;}
+    parts.sort(function(a,b){if((a.prio==="Urgent")!==(b.prio==="Urgent"))return a.prio==="Urgent"?-1:1;return b.ts-a.ts;});
+    parts.forEach(function(p){
+      var row=document.createElement("div");row.className="porder";
+      var pill='<span class="pill '+(p.prio==="Urgent"?"urgent":"routine")+'">'+p.prio+'</span>';
+      row.innerHTML='<div class="pl"><div class="part">'+esc(p.part)+'</div><div class="def">'+esc(p.def)+'</div>'+
+        '<div class="m"><span><b>Rig:</b> '+esc(p.rig)+'</span>'+(p.district?'<span><b>Dist:</b> '+esc(p.district)+'</span>':'')+
+        (p.tech?'<span><b>By:</b> '+esc(p.tech)+'</span>':'')+'<span><b>Date:</b> '+esc(p.date)+'</span></div></div>'+
+        '<div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">'+pill+'<button class="prm" title="Remove">✕</button></div>';
+      row.querySelector(".prm").onclick=function(){var arr=getParts().filter(function(x){return x.id!==p.id;});setParts(arr);renderParts();};
+      host.appendChild(row);
+    });
+  }
+  function downloadCsv(rows,fname){
+    var csv=rows.map(function(r){return r.map(function(c){c=(c==null?"":String(c));return /[",\n]/.test(c)?'"'+c.replace(/"/g,'""')+'"':c;}).join(",");}).join("\r\n");
+    var blob=new Blob([csv],{type:"text/csv"});var url=URL.createObjectURL(blob);
+    var a=document.createElement("a");a.href=url;a.download=fname;a.click();
+    setTimeout(function(){URL.revokeObjectURL(url);},1500);toast("CSV downloaded");
+  }
+  el("exportCsv").onclick=function(){
+    var parts=getParts();if(!parts.length){toast("Nothing to export");return;}
+    var rows=[["Date","Priority","Part needed","Deficiency","Rig / Location","District","Technician","Section"]];
+    parts.forEach(function(p){rows.push([p.date,p.prio,p.part,p.def,p.rig,p.district||"",p.tech||"",p.section||""]);});
+    downloadCsv(rows,"redline_parts_order_"+todayISO()+".csv");
+  };
+  el("copyList").onclick=function(){
+    var parts=getParts();if(!parts.length){toast("Nothing to copy");return;}
+    var txt="REDLINE PARTS ORDER — "+todayISO()+"\n\n";
+    parts.forEach(function(p){txt+="["+p.prio.toUpperCase()+"] "+p.part+" — "+p.rig+" ("+p.def+")\n";});
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){toast("List copied");},function(){toast("Copy failed");});}
+    else{toast("Copy not supported here");}
+  };
+  el("addManual").onclick=function(){
+    var part=prompt("Part needed:");if(!part)return;
+    var rig=prompt("For which rig / location?")||"(rig not named)";
+    var urgent=confirm("Mark URGENT?  OK = Urgent, Cancel = Routine");
+    var parts=getParts();
+    parts.push({id:"p"+Date.now()+"_"+Math.floor(Math.random()*1e4),part:part.trim(),def:"Added manually",prio:urgent?"Urgent":"Routine",rig:rig,district:"",tech:(getSettings().tech||""),date:todayISO(),section:"Manual",ts:Date.now()});
+    setParts(parts);renderParts();
+  };
+
+  /* ---------- saved records (history) ---------- */
+  function getDone(){try{return JSON.parse(localStorage.getItem(LS_DONE))||[];}catch(e){return [];}}
+  function setDone(a){try{localStorage.setItem(LS_DONE,JSON.stringify(a));}catch(e){}refreshHistCount();}
+  function refreshHistCount(){var n=getDone().length;var c=el("tileHistCount");if(c){c.textContent=n;c.classList.toggle("zero",n===0);}}
+  function recStats(rec){
+    var form=FORMS[rec.form];var tot=0,ans=0,fault=0,parts=0;
+    if(form)form.blocks.forEach(function(b,bi){if(b.type!=="check")return;var it=(rec.data&&rec.data[bi]&&rec.data[bi].items)||{};tot+=b.items.length;for(var ii=0;ii<b.items.length;ii++){var st=it[ii];if(st&&st.status){ans++;if(st.status==="fault")fault++;if(st.partAddedId||st.part)parts++;}}});
+    return {tot:tot,ans:ans,fault:fault,parts:parts};
+  }
+  function renderHistory(){
+    var host=el("historyList");var done=getDone();host.innerHTML="";
+    if(!done.length){host.innerHTML='<div class="parts-empty">No saved records yet.<br>Finish a form and tap <b>Save &amp; file</b>.</div>';return;}
+    done.slice().reverse().forEach(function(rec,ri){
+      var realIdx=done.length-1-ri;var form=FORMS[rec.form];var s=recStats(rec);
+      var title=(rec.h&&(rec.h.rig||rec.h.tech))||"(untitled)";
+      var card=document.createElement("div");card.className="hcard";
+      var stat="";
+      if(s.tot){stat='<div class="hstat"><span class="s dim">'+s.ans+' / '+s.tot+' checked</span>'+(s.fault?'<span class="s fault">'+s.fault+' fault'+(s.fault>1?"s":"")+'</span>':'<span class="s ok">No faults</span>')+(s.parts?'<span class="s dim">'+s.parts+' part'+(s.parts>1?"s":"")+' flagged</span>':'')+'</div>';}
+      card.innerHTML='<div class="top"><div style="flex:1"><div class="rig">'+esc(title)+'</div>'+
+        '<div class="sub"><span><b>'+esc(form?form.tag:rec.form)+'</b></span>'+((rec.h&&rec.h.district)?'<span>'+esc(rec.h.district)+'</span>':'')+((rec.h&&rec.h.tech&&rec.h.tech!==title)?'<span>'+esc(rec.h.tech)+'</span>':'')+((rec.h&&rec.h.date)?'<span>'+esc(rec.h.date)+'</span>':'')+'</div></div></div>'+
+        stat+'<div class="row-actions"><button class="btn reopen">Re-open</button><button class="btn exp">Export</button><button class="btn del" style="border-color:var(--fault);color:var(--fault)">Delete</button></div>';
+      card.querySelector(".exp").onclick=function(){exportRecords([rec],"redline_"+(rec.form)+"_"+slug(title)+"_"+((rec.h&&rec.h.date)||"")+".csv");};
+      card.querySelector(".del").onclick=function(){if(!confirm("Delete this saved "+(form?form.tag:"record")+"?"))return;var arr=getDone();arr.splice(realIdx,1);setDone(arr);renderHistory();};
+      card.querySelector(".reopen").onclick=function(){openRecord(rec);};
+      host.appendChild(card);
+    });
+  }
+  function exportRecords(recs,fname){
+    if(!recs.length){toast("Nothing to export");return;}
+    var rows=[["Saved","Form","Rig / Location","Date","Technician","Block","Item / Field","Status","Value / Notes"]];
+    recs.forEach(function(rec){
+      var form=FORMS[rec.form];if(!form)return;
+      var rig=(rec.h&&rec.h.rig)||"";var when=rec.savedAt?new Date(rec.savedAt).toISOString():"";
+      var base=[when,form.tag,rig,(rec.h&&rec.h.date)||"",(rec.h&&rec.h.tech)||""];
+      form.blocks.forEach(function(b,bi){
+        var d=rec.data&&rec.data[bi];
+        if(b.type==="check"){var it=(d&&d.items)||{};b.items.forEach(function(q,ii){var st=it[ii];if(!st||(!st.status&&!st.val&&!st.part))return;var extra=[st.val||"",st.part?("PART: "+st.part+" ("+(st.prio||"Routine")+")"):""].filter(Boolean).join(" | ");rows.push(base.concat([b.title,q.replace(/<[^>]+>/g,""),st.status?st.status.toUpperCase():"",extra]));});}
+        else if(b.type==="repeat"){var rws=(d&&d.rows)||[];rws.forEach(function(r,ri){var cells=[];b.cols.forEach(function(col){var v=r[col.k];if(v!==undefined&&v!==""&&v!==false)cells.push(col.label+": "+(v===true?"Yes":v));});if(cells.length)rows.push(base.concat([b.title,"Row "+(ri+1),"",cells.join(" | ")]));});}
+        else if(b.type==="fields"){var f=(d&&d.f)||{};b.fields.forEach(function(fd){var v=f[fd.k];if(v!==undefined&&v!=="")rows.push(base.concat([b.title||"Details",fd.label,"",(v===true?"Yes":v)]));});}
+        else if(b.type==="text"){var tx=d&&d.text;if(tx)rows.push(base.concat([b.title||"Notes","","",tx]));}
+      });
+    });
+    downloadCsv(rows,fname);
+  }
+  el("histExport").onclick=function(){exportRecords(getDone(),"redline_all_records_"+todayISO()+".csv");};
+
+  /* ---------- reference: thresholds + contacts ---------- */
+  var THRESH=[
+    ["Battery resting voltage below…","V","Replace on the spot from truck stock"],
+    ["Battery voltage low but above the replace point…","V","Flag, re-check on Cycle B, order replacement"],
+    ["Solar charging current below…","A","Investigate panel, controller, wiring"],
+    ["Signal strength below…","","Investigate antenna, coax, mount; relocate if needed"],
+    ["Sensor life remaining below…","days","Order replacement element now"],
+    ["Calibration gas expiring within…","days","Order replacement now"],
+    ["No data received at the far end for…","hours","Escalate immediately"]
+  ];
+  var ROLES=["Program owner / supervisor","Redline technical support","Parts / vendor contact","SM Energy South District","SM Energy West District","After-hours emergency"];
+  function renderReference(){
+    var s=getSettings();s.thresholds=s.thresholds||[];s.contacts=s.contacts||[];
+    var tk=el("thresholdKV");tk.innerHTML="";
+    THRESH.forEach(function(t,i){
+      var row=document.createElement("div");row.className="krow";
+      var k=document.createElement("div");k.className="k";k.textContent=t[0];
+      var vwrap=document.createElement("div");vwrap.style.cssText="display:flex;align-items:center;gap:4px";
+      var v=document.createElement("input");v.value=s.thresholds[i]||"";v.placeholder="—";v.inputMode="decimal";v.style.cssText="width:62px;text-align:right;padding:6px 8px;font-weight:700;color:var(--red)";
+      v.oninput=function(){var ss=getSettings();ss.thresholds=ss.thresholds||[];ss.thresholds[i]=v.value;setSettings(ss);};
+      var u=document.createElement("span");u.className="v";u.textContent=t[1];u.style.minWidth="30px";
+      vwrap.appendChild(v);vwrap.appendChild(u);
+      var a=document.createElement("div");a.className="a";a.textContent=t[2];
+      row.appendChild(k);row.appendChild(vwrap);row.appendChild(a);tk.appendChild(row);
+    });
+    var ck=el("contactKV");ck.innerHTML="";
+    ROLES.forEach(function(role,i){
+      var c=s.contacts[i]||{};
+      var row=document.createElement("div");row.className="krow";
+      var k=document.createElement("div");k.className="k";k.textContent=role;k.style.cssText="flex:none;font-weight:600;min-width:42%";
+      var wrap=document.createElement("div");wrap.style.cssText="display:flex;gap:6px;flex:1";
+      var nm=document.createElement("input");nm.value=c.name||"";nm.placeholder="Name";nm.style.padding="7px 9px";
+      var ph=document.createElement("input");ph.value=c.phone||"";ph.placeholder="Phone";ph.type="tel";ph.style.cssText="padding:7px 9px;max-width:130px";
+      function save(){var ss=getSettings();ss.contacts=ss.contacts||[];ss.contacts[i]={name:nm.value,phone:ph.value};setSettings(ss);}
+      nm.oninput=save;ph.oninput=save;
+      wrap.appendChild(nm);wrap.appendChild(ph);
+      row.appendChild(k);row.appendChild(wrap);ck.appendChild(row);
+    });
+  }
+
+  /* ---------- settings screen ---------- */
+  function bindSettings(){
+    var s=getSettings();
+    el("set-to").value=s.mailTo||DEFAULT_TO;
+    el("set-cc").value=s.mailCc||"";
+    el("set-tech").value=s.tech||"";
+  }
+  el("set-recips-save").onclick=function(){var s=getSettings();s.mailTo=el("set-to").value.trim();s.mailCc=el("set-cc").value.trim();setSettings(s);toast("Recipients saved");};
+  el("set-savetech").onclick=function(){var s=getSettings();s.tech=el("set-tech").value.trim();setSettings(s);toast("Saved");};
+  el("set-clear").onclick=function(){
+    if(!confirm("Clear ALL drafts, saved records, and the parts list from this device? This cannot be undone."))return;
+    var keys=[LS_PARTS,LS_DONE];for(var id in FORMS)keys.push(draftKey(id));
+    keys.forEach(function(k){try{localStorage.removeItem(k);}catch(e){}});
+    location.reload();
+  };
+
+  /* ---------- email the parts order ---------- */
+  function orderBodyText(parts){
+    var s=getSettings();
+    var urgent=parts.filter(function(p){return p.prio==="Urgent";});
+    var routine=parts.filter(function(p){return p.prio!=="Urgent";});
+    var lines=["REDLINE RELIABILITY PROGRAM — PARTS ORDER",
+      "Date: "+todayISO()+(s.tech?("     Tech: "+s.tech):""),
+      parts.length+" item"+(parts.length!==1?"s":"")+(urgent.length?("   ("+urgent.length+" URGENT)"):""),""];
+    function block(title,arr){
+      if(!arr.length)return;
+      lines.push(title);
+      arr.forEach(function(p){
+        lines.push("  - "+p.part+"   |   "+(p.rig||"(rig?)")+(p.district?(" ("+p.district+")"):"")+(p.def?("   ["+p.def+"]"):""));
+      });
+      lines.push("");
+    }
+    block("*** URGENT ***",urgent);
+    block("ROUTINE",routine);
+    lines.push("— Sent from the Redline Field App");
+    return lines.join("\r\n");
+  }
+  el("emailBtn").onclick=function(){
+    var parts=getParts();
+    if(!parts.length){toast("No parts on the list yet");return;}
+    var s=getSettings();
+    var toRaw=(s.mailTo&&s.mailTo.trim())?s.mailTo:DEFAULT_TO;
+    parts.sort(function(a,b){if((a.prio==="Urgent")!==(b.prio==="Urgent"))return a.prio==="Urgent"?-1:1;return b.ts-a.ts;});
+    var urgent=parts.filter(function(p){return p.prio==="Urgent";}).length;
+    var to=toRaw.split(",").map(function(x){return x.trim();}).filter(Boolean).join(",");
+    var cc=(s.mailCc||"").split(",").map(function(x){return x.trim();}).filter(Boolean).join(",");
+    var subject="Redline Parts Order — "+todayISO()+" ("+parts.length+" item"+(parts.length!==1?"s":"")+(urgent?(", "+urgent+" urgent"):"")+")";
+    var href="mailto:"+encodeURIComponent(to).replace(/%2C/gi,",")+"?"+
+      (cc?("cc="+encodeURIComponent(cc).replace(/%2C/gi,",")+"&"):"")+
+      "subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(orderBodyText(parts));
+    window.location.href=href;
+    toast("Opening your email…");
+  };
+
+  /* ---------- email the operations group (escalation) ---------- */
+  el("opsEmailBtn").onclick=function(){
+    var s=getSettings();
+    var to=OPS_TO.split(",").map(function(x){return x.trim();}).filter(Boolean).join(",");
+    var subject="Redline — Operations Notice ("+todayISO()+")";
+    var body=["REDLINE RELIABILITY PROGRAM — OPERATIONS NOTICE",
+      "Date: "+todayISO()+(s.tech?("     Tech: "+s.tech):""),"",
+      "Rig / Location: ",
+      "Issue / condition: ",
+      "Action needed: ",
+      "System in service? (Y/N): ","",
+      "— Sent from the Redline Field App"].join("\r\n");
+    window.location.href="mailto:"+to+"?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
+    toast("Opening your email…");
+  };
+
+  /* ---------- routing ---------- */
+  function go(view){
+    document.querySelectorAll(".view").forEach(function(v){v.classList.remove("active");});
+    el("view-"+view).classList.add("active");
+    el("footbar").classList.toggle("show",view==="inspect");
+    el("backBtn").style.display=(view==="hub")?"none":"inline-flex";
+    var subs={inspect:(CUR?CUR.tag:"Form"),parts:"Parts Order Log",history:"Saved Records",reference:"Escalation · Part 9",settings:"Settings"};
+    el("topSub").textContent=subs[view]||"SM Energy · Permian";
+    if(view==="parts")renderParts();
+    if(view==="history")renderHistory();
+    if(view==="reference")renderReference();
+    if(view==="settings")bindSettings();
+    window.scrollTo(0,0);
+  }
+  document.querySelectorAll("[data-form]").forEach(function(b){b.onclick=function(){openForm(b.getAttribute("data-form"));};});
+  document.querySelectorAll("[data-goto]").forEach(function(b){b.onclick=function(){go(b.getAttribute("data-goto"));};});
+  el("backBtn").onclick=function(){go("hub");};
+
+  /* ---------- toast ---------- */
+  var toastTimer=null;
+  function toast(msg){var t=el("toast");t.textContent=msg;t.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(function(){t.classList.remove("show");},2200);}
+
+  /* ---------- init ---------- */
+  refreshPartsCount();refreshHistCount();
+})();
+</script>
+<!--APP-END-->
+</body>
+</html>
