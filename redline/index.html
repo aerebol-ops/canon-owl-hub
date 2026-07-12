@@ -304,6 +304,31 @@
   .section > .fieldbody{padding:12px 15px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:12px}
   .field .fhint{font-size:11px;color:var(--faint);font-weight:600;text-transform:none;letter-spacing:0;margin-top:-2px}
   .legend{font-size:11.5px;color:var(--faint);line-height:1.5;padding:2px 2px 0}
+  .faultacts{display:flex;gap:8px}
+  .faultacts .addbtn,.faultacts .chalbtn{flex:1}
+  .chalbtn{appearance:none;cursor:pointer;border:1.5px solid var(--navy);background:var(--panel);color:var(--navy);font-weight:700;font-size:13.5px;border-radius:9px;padding:11px;display:flex;align-items:center;justify-content:center;gap:6px}
+  .chalbtn.added{background:var(--navy);color:#fff}
+
+  /* ---------- challenge log ---------- */
+  .ilog-sum{display:flex;gap:8px;margin:2px 0 12px;flex-wrap:wrap}
+  .ilog-sum .s{font-size:12px;font-weight:700;padding:5px 12px;border-radius:99px;border:1px solid var(--line)}
+  .ilog-sum .s.open{background:var(--fault-bg);color:var(--fault);border-color:var(--fault-line)}
+  .ilog-sum .s.closed{background:var(--good-bg);color:var(--good);border-color:var(--good-line)}
+  .filterbtns{display:flex;gap:8px;margin:0 0 12px}
+  .filterbtns button{appearance:none;cursor:pointer;border:1.5px solid var(--line-strong);background:var(--panel);color:var(--muted);font-weight:700;font-size:13px;border-radius:8px;padding:8px 16px}
+  .filterbtns button.on{background:var(--navy);border-color:var(--navy);color:#fff}
+  .icard{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--fault);border-radius:12px;box-shadow:var(--shadow);margin-bottom:10px;padding:13px 14px}
+  .icard.closed{border-left-color:var(--good);opacity:.7}
+  .icard .itop{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+  .icard .idesc{font-weight:700;font-size:14.5px;line-height:1.3}
+  .icard.closed .idesc{text-decoration:line-through;text-decoration-color:var(--faint)}
+  .icard .imeta{font-size:11.5px;color:var(--faint);margin-top:5px;display:flex;flex-wrap:wrap;gap:3px 12px}
+  .icard .imeta b{color:var(--muted);font-weight:600}
+  .icard .ires{font-size:12.5px;color:var(--good);margin-top:6px}
+  .icard .iact{display:flex;gap:8px;margin-top:11px;flex-wrap:wrap}
+  .istatus{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:3px 9px;border-radius:99px;white-space:nowrap}
+  .istatus.open{background:var(--fault-bg);color:var(--fault);border:1px solid var(--fault-line)}
+  .istatus.closed{background:var(--good-bg);color:var(--good);border:1px solid var(--good-line)}
 </style>
 
 <div class="topbar">
@@ -344,6 +369,14 @@
         <span class="desc">Running list of parts needed. Builds itself from every fault.</span>
         <span class="chip count zero" id="tilePartsCount">0</span>
         <span class="go">Open list ›</span>
+      </button>
+
+      <button class="tile" data-goto="issues">
+        <span class="part">Tracking</span>
+        <span class="name">Challenge Log</span>
+        <span class="desc">Every issue found, tracked to close-out. Open ones stay flagged.</span>
+        <span class="chip count zero" id="tileIssueCount">0</span>
+        <span class="go">Open log ›</span>
       </button>
 
       <button class="tile" data-goto="history">
@@ -451,6 +484,27 @@
       <button class="btn" id="addManual">＋ Add part</button>
     </div>
     <div id="partsList"></div>
+  </div>
+</section>
+
+<!-- ============ CHALLENGE LOG ============ -->
+<section class="view" id="view-issues">
+  <div class="wrap">
+    <div class="hero" style="padding:14px 0 4px">
+      <div class="eyebrow">Tracking</div>
+      <h1 style="font-size:22px">Challenge Log</h1>
+      <p>Every equipment issue or challenge found in the field, tracked to close-out. Open items stay flagged until they're fixed.</p>
+    </div>
+    <div class="ilog-sum" id="issueSummary"></div>
+    <div class="filterbtns">
+      <button id="issueFilterOpen" class="on">Open</button>
+      <button id="issueFilterAll">All</button>
+    </div>
+    <div class="toolbar" style="margin-top:0">
+      <button class="btn primary" id="issueAdd">＋ Add challenge</button>
+      <button class="btn" id="issueExport">⬇ Export</button>
+    </div>
+    <div id="issueList"></div>
   </div>
 </section>
 
@@ -748,7 +802,7 @@
       orderHost.innerHTML="";
       if(!allowParts||st.status!=="fault")return;
       var ol=document.createElement("div");ol.className="orderline";
-      ol.innerHTML='<div class="ohead">⚠ Fault — need a part? Add it to the order</div>';
+      ol.innerHTML='<div class="ohead">⚠ Fault found — order a part and/or log the challenge</div>';
       var pin=document.createElement("input");pin.className="val";pin.style.background="var(--panel)";pin.placeholder="Part needed (leave blank if fixed on the spot)";pin.value=st.part||"";
       pin.oninput=function(){st.part=pin.value;saveDraft();};ol.appendChild(pin);
       var prio=document.createElement("div");prio.className="prio";
@@ -757,8 +811,9 @@
       rB.onclick=function(){st.prio="Routine";saveDraft();renderOrder();};
       uB.onclick=function(){st.prio="Urgent";saveDraft();renderOrder();};
       prio.appendChild(rB);prio.appendChild(uB);ol.appendChild(prio);
+      var acts=document.createElement("div");acts.className="faultacts";
       var add=document.createElement("button");add.type="button";add.className="addbtn"+(st.partAddedId?" added":"");
-      add.innerHTML=st.partAddedId?"✓ Added to parts order — tap to update":"＋ Add to parts order";
+      add.innerHTML=st.partAddedId?"✓ Ordered":"＋ Parts order";
       add.onclick=function(){
         if(!st.part||!st.part.trim()){toast("Type the part needed first");pin.focus();return;}
         var parts=getParts();
@@ -767,7 +822,16 @@
         else{payload.id="p"+Date.now()+"_"+Math.floor(Math.random()*1e4);st.partAddedId=payload.id;parts.push(payload);toast("Added to parts order");}
         setParts(parts);saveDraft();renderOrder();
       };
-      ol.appendChild(add);orderHost.appendChild(ol);
+      var chal=document.createElement("button");chal.type="button";chal.className="chalbtn"+(st.issueAddedId?" added":"");
+      chal.innerHTML=st.issueAddedId?"✓ Logged":"＋ Challenge Log";
+      chal.onclick=function(){
+        var issues=getIssues();
+        var payload={desc:q.replace(/<[^>]+>/g,""),rig:draft.h.rig||"(rig not named)",district:draft.h.district||"",tech:draft.h.tech||"",prio:st.prio||"Routine",status:"open",opened:draft.h.date||todayISO(),closed:"",resolution:"",source:b.title,ts:Date.now()};
+        if(st.issueAddedId){var k=-1;for(var j=0;j<issues.length;j++){if(issues[j].id===st.issueAddedId){k=j;break;}}if(k>=0){payload.id=st.issueAddedId;payload.status=issues[k].status;payload.closed=issues[k].closed;payload.resolution=issues[k].resolution;issues[k]=payload;toast("Challenge updated");}else{payload.id=st.issueAddedId;issues.push(payload);toast("Logged to Challenge Log");}}
+        else{payload.id="i"+Date.now()+"_"+Math.floor(Math.random()*1e4);st.issueAddedId=payload.id;issues.push(payload);toast("Logged to Challenge Log");}
+        setIssues(issues);saveDraft();renderOrder();
+      };
+      acts.appendChild(add);acts.appendChild(chal);ol.appendChild(acts);orderHost.appendChild(ol);
     }
     okB.onclick=function(){st.status=(st.status==="ok")?null:"ok";okB.classList.toggle("on",st.status==="ok");flB.classList.remove("on");saveDraft();renderOrder();updateBadges();updateProgress();};
     flB.onclick=function(){st.status=(st.status==="fault")?null:"fault";flB.classList.toggle("on",st.status==="fault");okB.classList.remove("on");saveDraft();renderOrder();updateBadges();updateProgress();};
@@ -1019,6 +1083,68 @@
   }
   el("histExport").onclick=function(){exportRecords(getDone(),"redline_all_records_"+todayISO()+".csv");};
 
+  /* ---------- challenge log (issues) ---------- */
+  function getIssues(){try{return JSON.parse(localStorage.getItem("redline_issues_v1"))||[];}catch(e){return [];}}
+  function setIssues(a){try{localStorage.setItem("redline_issues_v1",JSON.stringify(a));}catch(e){}refreshIssueCount();}
+  function openIssueCount(){return getIssues().filter(function(i){return i.status!=="closed";}).length;}
+  function refreshIssueCount(){var n=openIssueCount();var c=el("tileIssueCount");if(c){c.textContent=n;c.classList.toggle("zero",n===0);}}
+  var issueFilter="open";
+  function renderIssues(){
+    var host=el("issueList");var all=getIssues();host.innerHTML="";
+    var open=all.filter(function(i){return i.status!=="closed";});
+    var closed=all.filter(function(i){return i.status==="closed";});
+    el("issueSummary").innerHTML='<span class="s open">'+open.length+' open</span><span class="s closed">'+closed.length+' closed</span>';
+    el("issueFilterOpen").classList.toggle("on",issueFilter==="open");
+    el("issueFilterAll").classList.toggle("on",issueFilter==="all");
+    var list=(issueFilter==="open")?open.slice():all.slice();
+    if(!list.length){host.innerHTML='<div class="parts-empty">'+(issueFilter==="open"?"No open challenges — all clear.":"Nothing logged yet.")+'<br>Log a fault from an inspection, or tap <b>Add challenge</b>.</div>';return;}
+    list.sort(function(a,b){
+      var ao=a.status!=="closed",bo=b.status!=="closed";
+      if(ao!==bo)return ao?-1:1;
+      if((a.prio==="Urgent")!==(b.prio==="Urgent"))return a.prio==="Urgent"?-1:1;
+      return a.ts-b.ts;
+    });
+    list.forEach(function(it){
+      var card=document.createElement("div");card.className="icard"+(it.status==="closed"?" closed":"");
+      var status='<span class="istatus '+(it.status==="closed"?"closed":"open")+'">'+(it.status==="closed"?"Closed":"Open")+'</span>';
+      var pill=(it.status!=="closed")?'<span class="pill '+(it.prio==="Urgent"?"urgent":"routine")+'">'+it.prio+'</span>':'';
+      card.innerHTML='<div class="itop"><div class="idesc">'+esc(it.desc)+'</div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px">'+status+pill+'</div></div>'+
+        '<div class="imeta"><span><b>Rig:</b> '+esc(it.rig)+'</span>'+(it.district?'<span>'+esc(it.district)+'</span>':'')+(it.source?'<span><b>Area:</b> '+esc(it.source)+'</span>':'')+'<span><b>Opened:</b> '+esc(it.opened)+(it.tech?(' by '+esc(it.tech)):'')+'</span>'+((it.status==="closed"&&it.closed)?'<span><b>Closed:</b> '+esc(it.closed)+'</span>':'')+'</div>'+
+        ((it.status==="closed"&&it.resolution)?'<div class="ires">✓ '+esc(it.resolution)+'</div>':'')+
+        '<div class="iact"></div>';
+      var act=card.querySelector(".iact");
+      if(it.status!=="closed"){
+        var closeB=document.createElement("button");closeB.className="btn primary";closeB.textContent="Close out";
+        closeB.onclick=function(){var r=prompt("How was it resolved? (fix made / part installed / note)");if(r===null)return;var arr=getIssues();for(var j=0;j<arr.length;j++){if(arr[j].id===it.id){arr[j].status="closed";arr[j].closed=todayISO();arr[j].resolution=r||"Resolved";break;}}setIssues(arr);renderIssues();toast("Closed out");};
+        act.appendChild(closeB);
+      }else{
+        var reB=document.createElement("button");reB.className="btn";reB.textContent="Re-open";
+        reB.onclick=function(){var arr=getIssues();for(var j=0;j<arr.length;j++){if(arr[j].id===it.id){arr[j].status="open";arr[j].closed="";break;}}setIssues(arr);renderIssues();};
+        act.appendChild(reB);
+      }
+      var delB=document.createElement("button");delB.className="btn";delB.style.cssText="border-color:var(--fault);color:var(--fault)";delB.textContent="Delete";
+      delB.onclick=function(){if(!confirm("Delete this challenge from the log?"))return;var arr=getIssues().filter(function(x){return x.id!==it.id;});setIssues(arr);renderIssues();};
+      act.appendChild(delB);
+      host.appendChild(card);
+    });
+  }
+  el("issueFilterOpen").onclick=function(){issueFilter="open";renderIssues();};
+  el("issueFilterAll").onclick=function(){issueFilter="all";renderIssues();};
+  el("issueAdd").onclick=function(){
+    var desc=prompt("Describe the challenge / issue:");if(!desc)return;
+    var rig=prompt("Rig / location:")||"(rig not named)";
+    var urgent=confirm("Mark URGENT?  OK = Urgent, Cancel = Routine");
+    var issues=getIssues();
+    issues.push({id:"i"+Date.now()+"_"+Math.floor(Math.random()*1e4),desc:desc.trim(),rig:rig,district:"",tech:(getSettings().tech||""),prio:urgent?"Urgent":"Routine",status:"open",opened:todayISO(),closed:"",resolution:"",source:"Manual",ts:Date.now()});
+    setIssues(issues);renderIssues();
+  };
+  el("issueExport").onclick=function(){
+    var all=getIssues();if(!all.length){toast("Nothing to export");return;}
+    var rows=[["Status","Priority","Challenge","Rig","District","Area","Opened","Opened by","Closed","Resolution"]];
+    all.forEach(function(i){rows.push([i.status==="closed"?"Closed":"Open",i.prio,i.desc,i.rig,i.district||"",i.source||"",i.opened,i.tech||"",i.closed||"",i.resolution||""]);});
+    downloadCsv(rows,"redline_challenge_log_"+todayISO()+".csv");
+  };
+
   /* ---------- reference: thresholds + contacts ---------- */
   var THRESH=[
     ["Battery resting voltage below…","V","Replace on the spot from truck stock"],
@@ -1135,9 +1261,10 @@
     el("view-"+view).classList.add("active");
     el("footbar").classList.toggle("show",view==="inspect");
     el("backBtn").style.display=(view==="hub")?"none":"inline-flex";
-    var subs={inspect:(CUR?CUR.tag:"Form"),parts:"Parts Order Log",history:"Saved Records",reference:"Escalation · Part 9",settings:"Settings"};
+    var subs={inspect:(CUR?CUR.tag:"Form"),parts:"Parts Order Log",issues:"Challenge Log",history:"Saved Records",reference:"Escalation · Part 9",settings:"Settings"};
     el("topSub").textContent=subs[view]||"SM Energy · Permian";
     if(view==="parts")renderParts();
+    if(view==="issues")renderIssues();
     if(view==="history")renderHistory();
     if(view==="reference")renderReference();
     if(view==="settings")bindSettings();
@@ -1152,7 +1279,7 @@
   function toast(msg){var t=el("toast");t.textContent=msg;t.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(function(){t.classList.remove("show");},2200);}
 
   /* ---------- init ---------- */
-  refreshPartsCount();refreshHistCount();
+  refreshPartsCount();refreshHistCount();refreshIssueCount();
 })();
 </script>
 <!--APP-END-->
