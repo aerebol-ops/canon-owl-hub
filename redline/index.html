@@ -1148,6 +1148,36 @@
   function setCatalog(a){try{localStorage.setItem("redline_catalog_v1",JSON.stringify(a));}catch(e){}refreshInvCount();}
   function getTx(){try{return JSON.parse(localStorage.getItem("redline_invtx_v1"))||[];}catch(e){return [];}}
   function setTx(a){try{localStorage.setItem("redline_invtx_v1",JSON.stringify(a));}catch(e){}}
+  var CATALOG_SEED=[
+    {pn:"RL-4H2S",desc:"H2S Replacement Sensor (H2S Element)",cat:"Detection",cost:125.00},
+    {pn:"RL-MIPEX",desc:"Infrared LEL Replacement Sensor",cat:"Detection",cost:345.00},
+    {pn:"RL-DUALGAS",desc:"Wireless Dual Gas Head",cat:"Detection",cost:2689.50},
+    {pn:"RL-2.4G",desc:"Radio Card",cat:"Communications",cost:125.00},
+    {pn:"RK-ALUMRG",desc:"Aluminum Rain Guard",cat:"Hardware",cost:35.00},
+    {pn:"RL-101CBU",desc:"Universal Blue 101 Card (Control Board)",cat:"Electronics",cost:260.00},
+    {pn:"RL-FACEPL84",desc:"Face Plate",cat:"Hardware",cost:16.70},
+    {pn:"RL-ALUMH2S",desc:"Aluminum Sensor Housing H2S (H2S Element Housing)",cat:"Detection",cost:250.00},
+    {pn:"RL-SSHLEL",desc:"LEL Sensor Housing (LEL Element Housing)",cat:"Detection",cost:350.00},
+    {pn:"RL-ANTM",desc:"Higher Gain Antenna w/ Magnet Mount",cat:"Communications",cost:50.00},
+    {pn:"RL-8CHDSH",desc:"Wireless 8 CH Monitor w/ 2 Horns & 2 Strobes",cat:"Alarm",cost:2074.73},
+    {pn:"RL-5001",desc:"Replacement Strobe Lamp",cat:"Alarm",cost:25.00},
+    {pn:"RL-101ANT",desc:"Wireless H2S Head w/ Articulating Antenna",cat:"Detection",cost:1300.00},
+    {pn:"RL-101",desc:"Wireless H2S Head",cat:"Detection",cost:1218.20},
+    {pn:"RL-LAHLESS",desc:"Wireless Loud Ass Horn (AC Voltage)",cat:"Alarm",cost:1245.40},
+    {pn:"RL-8CH",desc:"Wireless 8 CH Monitor",cat:"Alarm",cost:1913.32},
+    {pn:"RL-2.4GULF",desc:"Radio for External Antenna",cat:"Communications",cost:125.24},
+    {pn:"RL-LAHPB",desc:"LAH Power Board",cat:"Electronics",cost:353.10},
+    {pn:"RL-BATTWS",desc:"Battery Pack w/ Wire Snap",cat:"Power",cost:12.00},
+    {pn:"RL-FACEPLRND",desc:"Face Plate (Round)",cat:"Hardware",cost:11.13},
+    {pn:"RL-ORING",desc:"O-rings",cat:"Hardware",cost:3.48},
+    {pn:"RL-SSHRING",desc:"O-rings for Stainless Steel Housing",cat:"Hardware",cost:5.63},
+    {pn:"RL-101M",desc:"Wireless LEL Assembly",cat:"Detection",cost:2144.18},
+    {pn:"RL-4CHPB",desc:"4 Channel Power Board",cat:"Electronics",cost:396.58},
+    {pn:"RL-4CHTC",desc:"4 Channel Top Card",cat:"Electronics",cost:257.42},
+    {pn:"RL-KGS701",desc:"Replacement LEL Sensor",cat:"Detection",cost:173.93},
+    {pn:"RL-101M-IR",desc:"Wireless Infrared LEL Assembly w/ Omni Antenna",cat:"Detection",cost:1864.50}
+  ];
+  function seedCatalog(){var out=[];for(var i=0;i<CATALOG_SEED.length;i++){var s=CATALOG_SEED[i];out.push({id:"seed-"+(i+1),pn:s.pn,desc:s.desc,cat:s.cat,cost:s.cost,shopQty:0,truckQty:0,shopMin:0,truckMin:0});}return out;}
   function money(n){n=Number(n)||0;return "$"+n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g,",");}
   function lowFlag(it){return (it.shopMin>0&&(it.shopQty||0)<=it.shopMin)||(it.truckMin>0&&(it.truckQty||0)<=it.truckMin);}
   function reorderCount(){return getCatalog().filter(lowFlag).length;}
@@ -1538,6 +1568,7 @@
   function toast(msg){var t=el("toast");t.textContent=msg;t.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(function(){t.classList.remove("show");},2200);}
 
   /* ---------- init ---------- */
+  if(localStorage.getItem("redline_catalog_v1")===null){try{localStorage.setItem("redline_catalog_v1",JSON.stringify(seedCatalog()));}catch(e){}}
   refreshPartsCount();refreshHistCount();refreshIssueCount();refreshInvCount();
 })();
 </script>
