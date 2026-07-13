@@ -337,6 +337,30 @@
   .icard.overdue{border-left-width:6px}
   .ilog-sum .s.aging{background:var(--warn-bg);color:var(--warn);border-color:var(--warn-line)}
   .ilog-sum .s.overdue{background:var(--fault-bg);color:var(--fault);border-color:var(--fault-line)}
+
+  /* ---------- inventory ---------- */
+  .pricetag{font-weight:800;color:var(--navy);white-space:nowrap;font-variant-numeric:tabular-nums}
+  :root[data-theme="dark"] .pricetag{color:var(--ink)}
+  .invcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);margin-bottom:10px;padding:12px 14px}
+  .invcard.low{border-left:4px solid var(--warn)}
+  .invcard .itop{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+  .invcard .nm{font-weight:700;font-size:14.5px;line-height:1.25}
+  .invcard .pn{font-size:11.5px;color:var(--faint);margin-top:2px}
+  .qtyrow{display:flex;gap:8px;margin-top:10px}
+  .qtychip{flex:1;text-align:center;border:1px solid var(--line);border-radius:9px;padding:7px;background:var(--panel-2)}
+  .qtychip .lab{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);font-weight:700}
+  .qtychip .val{font-size:18px;font-weight:800;font-variant-numeric:tabular-nums;color:var(--ink)}
+  .qtychip.low .val{color:var(--warn)}
+  .invacts{display:flex;gap:8px;margin-top:11px;flex-wrap:wrap}
+  .invacts .btn{flex:1;min-width:76px;padding:9px 8px}
+  .invform{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:14px;display:flex;flex-direction:column;gap:12px;margin-bottom:14px}
+  .tablewrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:2px 4px;margin-bottom:12px}
+  .costtable{width:100%;border-collapse:collapse;font-size:13.5px}
+  .costtable th,.costtable td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+  .costtable th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--faint);font-weight:700}
+  .costtable td.num,.costtable th.num{text-align:right;font-variant-numeric:tabular-nums}
+  .costtable tr.total td{font-weight:800;border-top:2px solid var(--line-strong);border-bottom:none}
+  .porder .pricetag{font-size:14px}
 </style>
 
 <div class="topbar">
@@ -385,6 +409,14 @@
         <span class="desc">Every issue found, tracked to close-out. Open ones stay flagged.</span>
         <span class="chip count zero" id="tileIssueCount">0</span>
         <span class="go">Open log ›</span>
+      </button>
+
+      <button class="tile" data-goto="inventory">
+        <span class="part">Cost &amp; stock</span>
+        <span class="name">Inventory</span>
+        <span class="desc">Shop &amp; truck stock. Parts used per rig, costed for accounting.</span>
+        <span class="chip count zero" id="tileInvCount">0</span>
+        <span class="go">Open inventory ›</span>
       </button>
 
       <button class="tile" data-goto="history">
@@ -492,6 +524,25 @@
       <button class="btn" id="addManual">＋ Add part</button>
     </div>
     <div id="partsList"></div>
+  </div>
+</section>
+
+<!-- ============ INVENTORY ============ -->
+<section class="view" id="view-inventory">
+  <div class="wrap">
+    <div class="hero" style="padding:14px 0 4px">
+      <div class="eyebrow">Cost &amp; stock</div>
+      <h1 style="font-size:22px">Inventory</h1>
+      <p>Two stocks — Shop (Andrews) and Truck. Log parts as they're used on a rig; the cost is tracked per rig for accounting.</p>
+    </div>
+    <div class="ilog-sum" id="invSummary"></div>
+    <div class="filterbtns" id="invNav">
+      <button data-inv="stock" class="on">Stock</button>
+      <button data-inv="use">Use on rig</button>
+      <button data-inv="cost">Cost by rig</button>
+      <button data-inv="catalog">Catalog</button>
+    </div>
+    <div id="invBody"></div>
   </div>
 </section>
 
@@ -1092,6 +1143,159 @@
   }
   el("histExport").onclick=function(){exportRecords(getDone(),"redline_all_records_"+todayISO()+".csv");};
 
+  /* ================= INVENTORY ================= */
+  function getCatalog(){try{return JSON.parse(localStorage.getItem("redline_catalog_v1"))||[];}catch(e){return [];}}
+  function setCatalog(a){try{localStorage.setItem("redline_catalog_v1",JSON.stringify(a));}catch(e){}refreshInvCount();}
+  function getTx(){try{return JSON.parse(localStorage.getItem("redline_invtx_v1"))||[];}catch(e){return [];}}
+  function setTx(a){try{localStorage.setItem("redline_invtx_v1",JSON.stringify(a));}catch(e){}}
+  function money(n){n=Number(n)||0;return "$"+n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g,",");}
+  function lowFlag(it){return (it.shopMin>0&&(it.shopQty||0)<=it.shopMin)||(it.truckMin>0&&(it.truckQty||0)<=it.truckMin);}
+  function reorderCount(){return getCatalog().filter(lowFlag).length;}
+  function refreshInvCount(){var n=reorderCount();var c=el("tileInvCount");if(c){c.textContent=n;c.classList.toggle("zero",n===0);}}
+  function updateItem(id,fn){var c=getCatalog();for(var i=0;i<c.length;i++){if(c[i].id===id){fn(c[i]);break;}}setCatalog(c);}
+  function addTx(t){var tx=getTx();t.id="t"+Date.now()+"_"+Math.floor(Math.random()*1e4);t.ts=Date.now();t.date=todayISO();t.tech=t.tech||getSettings().tech||"";tx.push(t);setTx(tx);}
+
+  var invTab="stock", invPreselect=null;
+  function renderInventory(){
+    var cat=getCatalog();
+    var shopVal=0,truckVal=0;cat.forEach(function(i){shopVal+=(i.shopQty||0)*(i.cost||0);truckVal+=(i.truckQty||0)*(i.cost||0);});
+    el("invSummary").innerHTML='<span class="s">'+cat.length+' item'+(cat.length===1?"":"s")+'</span><span class="s">Shop '+money(shopVal)+'</span><span class="s">Truck '+money(truckVal)+'</span>'+(reorderCount()?'<span class="s overdue">'+reorderCount()+' low</span>':'');
+    [].forEach.call(document.querySelectorAll('#invNav [data-inv]'),function(b){b.classList.toggle("on",b.getAttribute("data-inv")===invTab);});
+    var body=el("invBody");body.innerHTML="";
+    if(invTab==="stock")renderStock(body);
+    else if(invTab==="use")renderUse(body);
+    else if(invTab==="cost")renderCost(body);
+    else renderCatalog(body);
+  }
+  function catSorted(){return getCatalog().slice().sort(function(a,b){return (a.desc||"").localeCompare(b.desc||"");});}
+
+  function renderStock(body){
+    var cat=catSorted();
+    if(!cat.length){body.innerHTML='<div class="parts-empty">No parts in the catalog yet.<br>Open the <b>Catalog</b> tab and paste your Redline parts list (part #, description, cost).</div>';return;}
+    cat.forEach(function(it){
+      var card=document.createElement("div");card.className="invcard"+(lowFlag(it)?" low":"");
+      card.innerHTML='<div class="itop"><div><div class="nm">'+esc(it.desc)+'</div><div class="pn">'+(it.pn?("PN "+esc(it.pn)):"no PN")+(it.cat?("  ·  "+esc(it.cat)):"")+'</div></div><div class="pricetag">'+money(it.cost)+'</div></div>'+
+        '<div class="qtyrow"><div class="qtychip'+((it.shopMin>0&&(it.shopQty||0)<=it.shopMin)?" low":"")+'"><div class="lab">Shop</div><div class="val">'+(it.shopQty||0)+'</div></div><div class="qtychip'+((it.truckMin>0&&(it.truckQty||0)<=it.truckMin)?" low":"")+'"><div class="lab">Truck</div><div class="val">'+(it.truckQty||0)+'</div></div></div>'+
+        '<div class="invacts"><button class="btn primary" data-a="use">Use on rig</button><button class="btn" data-a="recv">Receive</button><button class="btn" data-a="xfer">→ Truck</button></div>';
+      card.querySelector('[data-a="use"]').onclick=function(){invPreselect=it.id;invTab="use";renderInventory();};
+      card.querySelector('[data-a="recv"]').onclick=function(){var q=parseInt(prompt("Receive how many into SHOP?\n"+it.desc,""),10);if(!q||q<1)return;updateItem(it.id,function(x){x.shopQty=(x.shopQty||0)+q;});addTx({type:"receive",pn:it.pn,desc:it.desc,qty:q,cost:it.cost,location:"Shop",note:""});renderInventory();toast("Received "+q+" into shop");};
+      card.querySelector('[data-a="xfer"]').onclick=function(){var q=parseInt(prompt("Move how many from Shop to Truck?\n"+it.desc,""),10);if(!q||q<1)return;if(q>(it.shopQty||0)){toast("Only "+(it.shopQty||0)+" in the shop");return;}updateItem(it.id,function(x){x.shopQty=(x.shopQty||0)-q;x.truckQty=(x.truckQty||0)+q;});addTx({type:"transfer",pn:it.pn,desc:it.desc,qty:q,cost:it.cost,from:"Shop",to:"Truck",note:""});renderInventory();toast("Moved "+q+" to the truck");};
+      body.appendChild(card);
+    });
+  }
+
+  function renderUse(body){
+    var cat=catSorted();
+    if(!cat.length){body.innerHTML='<div class="parts-empty">Import your parts catalog first (Catalog tab).</div>';return;}
+    var opts='<option value="">Select a part…</option>';
+    cat.forEach(function(i){opts+='<option value="'+i.id+'"'+(invPreselect===i.id?" selected":"")+'>'+esc(i.desc)+(i.pn?(" ["+esc(i.pn)+"]"):"")+'</option>';});
+    var form=document.createElement("div");form.className="invform";
+    form.innerHTML='<div class="field"><label>Part used</label><select id="use-part">'+opts+'</select></div>'+
+      '<div class="grid2"><div class="field"><label>Quantity</label><input id="use-qty" type="number" min="1" value="1" inputmode="numeric"></div>'+
+      '<div class="field"><label>From stock</label><select id="use-loc"><option>Truck</option><option>Shop</option></select></div></div>'+
+      '<div class="field"><label>Rig / location fixed</label><input id="use-rig" placeholder="e.g. Redline 14 – Jal" autocomplete="off"></div>'+
+      '<div class="field"><label>Note (optional)</label><input id="use-note" placeholder="what was fixed" autocomplete="off"></div>'+
+      '<button class="btn primary" id="use-log" style="align-self:flex-start">Log use &amp; cost</button>';
+    body.appendChild(form);
+    invPreselect=null;
+    el("use-log").onclick=function(){
+      var pid=el("use-part").value,qty=parseInt(el("use-qty").value,10),loc=el("use-loc").value,rig=el("use-rig").value.trim();
+      if(!pid){toast("Pick a part");return;}
+      if(!qty||qty<1){toast("Enter a quantity");return;}
+      if(!rig){toast("Enter the rig");el("use-rig").focus();return;}
+      var c=getCatalog(),it=null;for(var i=0;i<c.length;i++){if(c[i].id===pid)it=c[i];}
+      if(!it)return;
+      var have=(loc==="Truck")?(it.truckQty||0):(it.shopQty||0);
+      if(qty>have){toast("Only "+have+" on the "+loc.toLowerCase());return;}
+      if(loc==="Truck")it.truckQty=have-qty;else it.shopQty=have-qty;
+      setCatalog(c);
+      addTx({type:"use",pn:it.pn,desc:it.desc,qty:qty,cost:it.cost,location:loc,rig:rig,note:el("use-note").value.trim()});
+      toast("Logged "+qty+" · "+money(qty*(it.cost||0))+" → "+rig);
+      renderInventory();
+    };
+    var uses=getTx().filter(function(t){return t.type==="use";}).slice(-12).reverse();
+    if(uses.length){
+      var h=document.createElement("div");h.className="sec-label";h.textContent="Recent usage";body.appendChild(h);
+      uses.forEach(function(t){
+        var row=document.createElement("div");row.className="porder";
+        row.innerHTML='<div class="pl"><div class="part">'+esc(t.desc)+' × '+t.qty+'</div><div class="m"><span><b>Rig:</b> '+esc(t.rig||"")+'</span><span><b>From:</b> '+esc(t.location||"")+'</span><span>'+esc(t.date)+'</span></div></div><div class="pricetag">'+money((t.qty||0)*(t.cost||0))+'</div>';
+        body.appendChild(row);
+      });
+    }
+  }
+
+  function renderCost(body){
+    var uses=getTx().filter(function(t){return t.type==="use";});
+    if(!uses.length){body.innerHTML='<div class="parts-empty">No parts used yet.<br>Log usage in the <b>Use on rig</b> tab to build cost-per-rig.</div>';return;}
+    var byRig={},grand=0,totQty=0;
+    uses.forEach(function(t){var r=t.rig||"(unspecified)";var c=(t.qty||0)*(t.cost||0);if(!byRig[r])byRig[r]={qty:0,cost:0};byRig[r].qty+=(t.qty||0);byRig[r].cost+=c;grand+=c;totQty+=(t.qty||0);});
+    var rigs=Object.keys(byRig).sort(function(a,b){return byRig[b].cost-byRig[a].cost;});
+    var wrap=document.createElement("div");wrap.className="tablewrap";
+    var html='<table class="costtable"><thead><tr><th>Rig / location</th><th class="num">Parts</th><th class="num">Cost</th></tr></thead><tbody>';
+    rigs.forEach(function(r){html+='<tr><td>'+esc(r)+'</td><td class="num">'+byRig[r].qty+'</td><td class="num">'+money(byRig[r].cost)+'</td></tr>';});
+    html+='<tr class="total"><td>Total</td><td class="num">'+totQty+'</td><td class="num">'+money(grand)+'</td></tr></tbody></table>';
+    wrap.innerHTML=html;body.appendChild(wrap);
+    var tb=document.createElement("div");tb.className="toolbar";tb.style.marginTop="0";
+    tb.innerHTML='<button class="btn primary" id="cost-exp">⬇ Cost by rig (CSV)</button><button class="btn" id="ledger-exp">⬇ Full ledger (CSV)</button>';
+    body.appendChild(tb);
+    el("cost-exp").onclick=function(){var rows=[["Rig / location","Parts used","Cost"]];rigs.forEach(function(r){rows.push([r,byRig[r].qty,byRig[r].cost.toFixed(2)]);});rows.push(["Total",totQty,grand.toFixed(2)]);downloadCsv(rows,"redline_cost_by_rig_"+todayISO()+".csv");};
+    el("ledger-exp").onclick=function(){var rows=[["Date","Type","Part #","Description","Qty","Unit cost","Ext cost","Location/From","To","Rig","Tech","Note"]];getTx().forEach(function(t){rows.push([t.date,t.type,t.pn||"",t.desc||"",t.qty||0,(t.cost||0).toFixed(2),((t.qty||0)*(t.cost||0)).toFixed(2),t.location||t.from||"",t.to||"",t.rig||"",t.tech||"",t.note||""]);});downloadCsv(rows,"redline_inventory_ledger_"+todayISO()+".csv");};
+  }
+
+  function renderCatalog(body){
+    var imp=document.createElement("div");imp.className="invform";
+    imp.innerHTML='<div class="field"><label>Import parts list — paste CSV</label><textarea id="cat-csv" style="min-height:120px" placeholder="Part Number, Description, Category, Unit Cost, Shop Min, Truck Min"></textarea></div>'+
+      '<p class="hint" style="margin:0">Columns in any order (a header row is auto-detected): <b>Part Number, Description, Category, Unit Cost</b>, plus optional Shop Min, Truck Min, Shop Qty, Truck Qty. Rows with a matching part number update in place, so you can re-paste an updated list anytime.</p>'+
+      '<div class="toolbar" style="margin:0"><button class="btn primary" id="cat-import">Import / update</button><button class="btn" id="cat-add">＋ Add one</button><button class="btn" id="cat-tmpl">Copy template</button></div>';
+    body.appendChild(imp);
+    el("cat-import").onclick=function(){var n=importCatalog(el("cat-csv").value);if(n>0){el("cat-csv").value="";toast(n+" part"+(n===1?"":"s")+" imported");renderInventory();}else if(n===0){toast("No rows found — check the format");}};
+    el("cat-add").onclick=function(){var d=prompt("Description:");if(!d)return;var pn=prompt("Part number:")||"";var cost=parseFloat((prompt("Unit cost:")||"0").replace(/[^0-9.]/g,""))||0;var c=getCatalog();c.push({id:"c"+Date.now()+"_"+Math.floor(Math.random()*1e4),pn:pn.trim(),desc:d.trim(),cat:"",cost:cost,shopQty:0,truckQty:0,shopMin:0,truckMin:0});setCatalog(c);renderInventory();};
+    el("cat-tmpl").onclick=function(){var t="Part Number,Description,Category,Unit Cost,Shop Min,Truck Min\nRL-BAT-12,12V battery,Batteries,89.50,4,1\nRL-H2S-EL,H2S sensor element,Detection,145.00,3,1";if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(function(){toast("Template copied — paste into a sheet");},function(){el("cat-csv").value=t;});}else{el("cat-csv").value=t;}};
+    var cat=catSorted();
+    if(cat.length){
+      var lab=document.createElement("div");lab.className="sec-label";lab.textContent=cat.length+" parts in catalog";body.appendChild(lab);
+      cat.forEach(function(it){
+        var row=document.createElement("div");row.className="porder";
+        row.innerHTML='<div class="pl"><div class="part">'+esc(it.desc)+'</div><div class="m"><span><b>PN:</b> '+esc(it.pn||"—")+'</span>'+(it.cat?'<span>'+esc(it.cat)+'</span>':'')+'<span><b>Min:</b> Shop '+(it.shopMin||0)+' / Truck '+(it.truckMin||0)+'</span></div></div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px"><div class="pricetag">'+money(it.cost)+'</div><button class="prm" title="Delete">✕</button></div>';
+        row.querySelector(".prm").onclick=function(){if(!confirm("Delete "+it.desc+" from the catalog?"))return;var c=getCatalog().filter(function(x){return x.id!==it.id;});setCatalog(c);renderInventory();};
+        body.appendChild(row);
+      });
+    }
+  }
+
+  function importCatalog(text){
+    var lines=(text||"").split(/\r?\n/).filter(function(l){return l.trim();});
+    if(!lines.length)return -1;
+    function parseLine(l){var out=[],cur="",q=false;for(var i=0;i<l.length;i++){var ch=l.charAt(i);if(q){if(ch=='"'){if(l.charAt(i+1)=='"'){cur+='"';i++;}else q=false;}else cur+=ch;}else{if(ch=='"')q=true;else if(ch==','){out.push(cur);cur="";}else cur+=ch;}}out.push(cur);return out.map(function(s){return s.trim();});}
+    var first=parseLine(lines[0]);
+    var hasHeader=/part|desc|cost|price|item|name|component/i.test(lines[0]);
+    function findCol(re){for(var i=0;i<first.length;i++){if(re.test(first[i]))return i;}return -1;}
+    var idx;
+    if(hasHeader){idx={pn:findCol(/part\s*(no|num|#|number)|^pn$/i),desc:findCol(/desc|item|name|component/i),cat:findCol(/categ|group|type/i),cost:findCol(/cost|price|unit/i),shopMin:findCol(/shop.*min/i),truckMin:findCol(/truck.*min/i),shopQty:findCol(/shop.*(qty|hand|on|count)/i),truckQty:findCol(/truck.*(qty|hand|on|count)/i)};}
+    else{idx={pn:0,desc:1,cat:2,cost:3,shopMin:4,truckMin:5,shopQty:6,truckQty:7};}
+    function num(v){return parseFloat(String(v==null?"":v).replace(/[^0-9.\-]/g,""))||0;}
+    function get(cols,i){return (i>=0&&i<cols.length)?cols[i]:"";}
+    var cat=getCatalog(),byPn={};cat.forEach(function(it){if(it.pn)byPn[it.pn.toLowerCase()]=it;});
+    var count=0;
+    for(var r=hasHeader?1:0;r<lines.length;r++){
+      var cols=parseLine(lines[r]);
+      var pn=get(cols,idx.pn),desc=get(cols,idx.desc);
+      if(!desc&&!pn)continue;
+      var existing=pn?byPn[pn.toLowerCase()]:null;
+      var rec=existing||{id:"c"+Date.now()+"_"+Math.floor(Math.random()*1e4)+"_"+r,shopQty:0,truckQty:0,shopMin:0,truckMin:0,cost:0};
+      rec.pn=pn||rec.pn||"";rec.desc=desc||rec.desc||"";rec.cat=get(cols,idx.cat)||rec.cat||"";
+      if(get(cols,idx.cost)!=="")rec.cost=num(get(cols,idx.cost));
+      if(get(cols,idx.shopMin)!=="")rec.shopMin=num(get(cols,idx.shopMin));
+      if(get(cols,idx.truckMin)!=="")rec.truckMin=num(get(cols,idx.truckMin));
+      if(get(cols,idx.shopQty)!=="")rec.shopQty=num(get(cols,idx.shopQty));
+      if(get(cols,idx.truckQty)!=="")rec.truckQty=num(get(cols,idx.truckQty));
+      if(!existing){cat.push(rec);if(rec.pn)byPn[rec.pn.toLowerCase()]=rec;}
+      count++;
+    }
+    setCatalog(cat);
+    return count;
+  }
+
   /* ---------- challenge log (issues) ---------- */
   function getIssues(){try{return JSON.parse(localStorage.getItem("redline_issues_v1"))||[];}catch(e){return [];}}
   function setIssues(a){try{localStorage.setItem("redline_issues_v1",JSON.stringify(a));}catch(e){}refreshIssueCount();}
@@ -1293,10 +1497,11 @@
     el("view-"+view).classList.add("active");
     el("footbar").classList.toggle("show",view==="inspect");
     el("backBtn").style.display=(view==="hub")?"none":"inline-flex";
-    var subs={inspect:(CUR?CUR.tag:"Form"),parts:"Parts Order Log",issues:"Challenge Log",history:"Saved Records",reference:"Escalation · Part 9",settings:"Settings"};
+    var subs={inspect:(CUR?CUR.tag:"Form"),parts:"Parts Order Log",issues:"Challenge Log",inventory:"Inventory",history:"Saved Records",reference:"Escalation · Part 9",settings:"Settings"};
     el("topSub").textContent=subs[view]||"SM Energy · Permian";
     if(view==="parts")renderParts();
     if(view==="issues")renderIssues();
+    if(view==="inventory")renderInventory();
     if(view==="history")renderHistory();
     if(view==="reference")renderReference();
     if(view==="settings")bindSettings();
@@ -1304,6 +1509,7 @@
   }
   document.querySelectorAll("[data-form]").forEach(function(b){b.onclick=function(){openForm(b.getAttribute("data-form"));};});
   document.querySelectorAll("[data-goto]").forEach(function(b){b.onclick=function(){go(b.getAttribute("data-goto"));};});
+  document.querySelectorAll("#invNav [data-inv]").forEach(function(b){b.onclick=function(){invTab=b.getAttribute("data-inv");renderInventory();};});
   el("backBtn").onclick=function(){go("hub");};
 
   /* ---------- toast ---------- */
@@ -1311,7 +1517,7 @@
   function toast(msg){var t=el("toast");t.textContent=msg;t.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(function(){t.classList.remove("show");},2200);}
 
   /* ---------- init ---------- */
-  refreshPartsCount();refreshHistCount();refreshIssueCount();
+  refreshPartsCount();refreshHistCount();refreshIssueCount();refreshInvCount();
 })();
 </script>
 <!--APP-END-->
