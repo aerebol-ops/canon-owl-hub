@@ -329,6 +329,7 @@
   .istatus{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:3px 9px;border-radius:99px;white-space:nowrap}
   .istatus.open{background:var(--fault-bg);color:var(--fault);border:1px solid var(--fault-line)}
   .istatus.closed{background:var(--good-bg);color:var(--good);border:1px solid var(--good-line)}
+  .btn.danger{background:var(--fault);border-color:var(--fault);color:#fff}
   .dayschip{font-size:11px;font-weight:800;padding:3px 9px;border-radius:99px;white-space:nowrap}
   .dayschip.fresh{background:var(--panel-2);color:var(--muted);border:1px solid var(--line)}
   .dayschip.aging{background:var(--warn-bg);color:var(--warn);border:1px solid var(--warn-line)}
@@ -509,6 +510,7 @@
     </div>
     <div class="toolbar" style="margin-top:0">
       <button class="btn primary" id="issueAdd">＋ Add challenge</button>
+      <button class="btn" id="issueEscalate">✉ Escalate overdue</button>
       <button class="btn" id="issueExport">⬇ Export</button>
     </div>
     <div id="issueList"></div>
@@ -1106,6 +1108,8 @@
     var closed=all.filter(function(i){return i.status==="closed";});
     var maxDays=0;open.forEach(function(i){var d=daysOpenOf(i);if(d>maxDays)maxDays=d;});
     el("issueSummary").innerHTML='<span class="s open">'+open.length+' open</span>'+(open.length?'<span class="s '+dayClass(maxDays)+'">oldest '+maxDays+' day'+(maxDays===1?"":"s")+'</span>':'')+'<span class="s closed">'+closed.length+' closed</span>';
+    var overdue=open.filter(function(i){return daysOpenOf(i)>=7;});
+    var ebtn=el("issueEscalate");if(ebtn){ebtn.textContent=overdue.length?("✉ Escalate "+overdue.length+" overdue"):"✉ Escalate overdue";ebtn.classList.toggle("danger",overdue.length>0);}
     el("issueFilterOpen").classList.toggle("on",issueFilter==="open");
     el("issueFilterAll").classList.toggle("on",issueFilter==="all");
     var list=(issueFilter==="open")?open.slice():all.slice();
@@ -1156,6 +1160,21 @@
     var rows=[["Status","Priority","Challenge","Rig","District","Area","Opened","Opened by","Closed","Resolution"]];
     all.forEach(function(i){rows.push([i.status==="closed"?"Closed":"Open",i.prio,i.desc,i.rig,i.district||"",i.source||"",i.opened,i.tech||"",i.closed||"",i.resolution||""]);});
     downloadCsv(rows,"redline_challenge_log_"+todayISO()+".csv");
+  };
+  el("issueEscalate").onclick=function(){
+    var overdue=getIssues().filter(function(i){return i.status!=="closed"&&daysOpenOf(i)>=7;});
+    if(!overdue.length){toast("No overdue items (7+ days open)");return;}
+    overdue.sort(function(a,b){return daysOpenOf(b)-daysOpenOf(a);});
+    var s=getSettings();
+    var to=OPS_TO.split(",").map(function(x){return x.trim();}).filter(Boolean).join(",");
+    var lines=["REDLINE RELIABILITY PROGRAM — OVERDUE CHALLENGES",
+      "Date: "+todayISO()+(s.tech?("     Tech: "+s.tech):""),
+      overdue.length+" item"+(overdue.length!==1?"s":"")+" past the 4-day close-out standard",""];
+    overdue.forEach(function(i){lines.push("  ! "+i.desc+"   |   "+(i.rig||"(rig?)")+(i.district?(" ("+i.district+")"):"")+"   ["+daysOpenOf(i)+" days open, since "+i.opened+(i.prio==="Urgent"?", URGENT":"")+"]");});
+    lines.push("");lines.push("Please prioritize these for close-out.");lines.push("— Sent from the Redline Field App");
+    var subject="Redline — OVERDUE Challenges ("+overdue.length+" item"+(overdue.length!==1?"s":"")+", 7+ days open)";
+    window.location.href="mailto:"+to+"?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(lines.join("\r\n"));
+    toast("Opening your email…");
   };
 
   /* ---------- reference: thresholds + contacts ---------- */
