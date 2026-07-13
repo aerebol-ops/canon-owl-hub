@@ -361,6 +361,11 @@
   .costtable td.num,.costtable th.num{text-align:right;font-variant-numeric:tabular-nums}
   .costtable tr.total td{font-weight:800;border-top:2px solid var(--line-strong);border-bottom:none}
   .porder .pricetag{font-size:14px}
+  .minrow{display:flex;align-items:center;gap:8px;margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);flex-wrap:wrap}
+  .minlab{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);font-weight:700}
+  .minsub{font-size:12.5px;color:var(--muted);font-weight:600}
+  .mininput{width:58px;padding:6px 8px;text-align:center;font-weight:700;font-variant-numeric:tabular-nums;font-family:inherit;font-size:14px;color:var(--ink);background:var(--panel-2);border:1px solid var(--line-strong);border-radius:8px}
+  .mininput:focus{outline:2px solid var(--navy-2);border-color:var(--navy-2)}
 </style>
 
 <div class="topbar">
@@ -1305,10 +1310,23 @@
     var cat=catSorted();
     if(cat.length){
       var lab=document.createElement("div");lab.className="sec-label";lab.textContent=cat.length+" parts in catalog";body.appendChild(lab);
+      var chint=document.createElement("p");chint.className="hint";chint.style.margin="0 2px 10px";chint.innerHTML="Set a <b>Shop</b> / <b>Truck</b> reorder min on each part to turn on low-stock alerts and one-tap reorder.";body.appendChild(chint);
       cat.forEach(function(it){
-        var row=document.createElement("div");row.className="porder";
-        row.innerHTML='<div class="pl"><div class="part">'+esc(it.desc)+'</div><div class="m"><span><b>PN:</b> '+esc(it.pn||"—")+'</span>'+(it.cat?'<span>'+esc(it.cat)+'</span>':'')+'<span><b>Min:</b> Shop '+(it.shopMin||0)+' / Truck '+(it.truckMin||0)+'</span></div></div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px"><div class="pricetag">'+money(it.cost)+'</div><button class="prm" title="Delete">✕</button></div>';
-        row.querySelector(".prm").onclick=function(){if(!confirm("Delete "+it.desc+" from the catalog?"))return;var c=getCatalog().filter(function(x){return x.id!==it.id;});setCatalog(c);renderInventory();};
+        var row=document.createElement("div");row.className="porder";row.style.flexDirection="column";row.style.alignItems="stretch";
+        var top=document.createElement("div");top.style.cssText="display:flex;gap:11px;align-items:flex-start";
+        top.innerHTML='<div class="pl"><div class="part">'+esc(it.desc)+'</div><div class="m"><span><b>PN:</b> '+esc(it.pn||"—")+'</span>'+(it.cat?'<span>'+esc(it.cat)+'</span>':'')+'</div></div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px"><div class="pricetag">'+money(it.cost)+'</div><button class="prm" title="Delete">✕</button></div>';
+        row.appendChild(top);
+        var mr=document.createElement("div");mr.className="minrow";
+        var lab0=document.createElement("span");lab0.className="minlab";lab0.textContent="Reorder min";
+        var l1=document.createElement("span");l1.className="minsub";l1.textContent="Shop";
+        var shopIn=document.createElement("input");shopIn.type="number";shopIn.min="0";shopIn.inputMode="numeric";shopIn.className="mininput";shopIn.value=(it.shopMin||0);
+        var l2=document.createElement("span");l2.className="minsub";l2.textContent="Truck";
+        var truckIn=document.createElement("input");truckIn.type="number";truckIn.min="0";truckIn.inputMode="numeric";truckIn.className="mininput";truckIn.value=(it.truckMin||0);
+        shopIn.onchange=function(){updateItem(it.id,function(x){x.shopMin=parseInt(shopIn.value,10)||0;});};
+        truckIn.onchange=function(){updateItem(it.id,function(x){x.truckMin=parseInt(truckIn.value,10)||0;});};
+        mr.appendChild(lab0);mr.appendChild(l1);mr.appendChild(shopIn);mr.appendChild(l2);mr.appendChild(truckIn);
+        row.appendChild(mr);
+        top.querySelector(".prm").onclick=function(){if(!confirm("Delete "+it.desc+" from the catalog?"))return;var c=getCatalog().filter(function(x){return x.id!==it.id;});setCatalog(c);renderInventory();};
         body.appendChild(row);
       });
     }
