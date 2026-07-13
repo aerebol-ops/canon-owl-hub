@@ -1,90 +1,60 @@
 {
-  "date": "2026-07-11",
-  "week": 4,
-  "day": 6,
-  "openingMessage": "Ten people. One team. One standard. What you carry onto that Exxon location today is a reflection of everything this company has built — and everything you personally have earned. That doesn't happen by accident. It happens because of how you've shown up, day after day, when it would have been easier not to.",
+  "date": "2026-07-13",
+  "week": 5,
+  "day": 1,
+  "openingMessage": "New week, new standard on the board — Confined Space. This is the one where there's no such thing as 'probably fine.' You test the atmosphere before anyone goes in, you keep the monitor running the whole time they're inside, and nobody enters without an attendant standing by and a way to get them out. If you've done a hundred tank entries, you're exactly the hand I need slowing down to coach the guy who's done one. That's what this week is really about — the standard, and passing it on.",
   "openingAttribution": "Mike — Canon Safety",
-  "leadershipThought": "Exxon doesn't have to call Canon. They choose to. That trust was built on every right call this team has made — every hazard caught, every job documented, every moment someone spoke up when it would have been easier to stay quiet. Canon is putting real investment into this team because of what you've already proven. That's not small. Don't let comfort become complacency. The moment you stop protecting your standard, average starts filling the space. You've worked too hard for that. This crew is too good for that. Protect it.",
-  "opsDate": "2026-07-01",
-  "opsContent": "<strong>Active Jobs (2026-07-01):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
+  "leadershipThought": "Confined space is where this company's discipline either shows up or it doesn't — there's no hiding it. The atmosphere is either tested or it isn't. The attendant is either posted at the entry or he's thirty feet away at the truck. The rescue plan is either staged or it's a hope. We've already set the bar: Jacob's SDU entry done fully under air with testing before, during, and after; Edward stopping a job when benzene climbed even though the crew was already on air; Alex staging primary and secondary rescue before a single man broke containment. That's the standard. But this week is 'Coaching Others' for a reason — knowing the rule yourself isn't enough anymore. The measure of a leader on this crew is whether the newest hand knows it too, because you took the time to walk him through it. Protect the man next to you by making sure he knows what you know.",
+  "opsDate": "2026-07-13",
+  "opsContent": "<strong>Active Jobs (2026-07-13):</strong><br>Monday assignments post in Breakroom at start of shift.<br><strong>Carry-Forward:</strong><br>SM Energy #112 — 6,000 ppm H2S / 2% CO2 reported Friday 7/10 (Michael Hutt). Confirm current readings before any entry or first break.<br>Driving — two near-misses flagged Friday (swerving driver on Jal 128; service truck drifting into lane at 75 mph). Heads-up on the drive in.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Crew physically went and verified lotto at the header and flowline were sti</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Caleb Smith]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew physically went and verified lotto at the header and flowline were still in place.</span><br><br><strong>We didn't get any gas on the lines also wind was on our favor</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>We didn't get any gas on the lines also wind was on our favor. Crew didn't reciprocate</span><br><br><strong>Communication between crew about safety using LMRA to protect them</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Communication between crew about safety using LMRA to protect them</span><br><br><strong>Job was not rushed and steps not missed because of delay of start</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Job was not rushed and steps not missed because of delay of start</span><br><br><strong>Everyone worked and communicated with each other well about task being done</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone worked and communicated with each other well about task being done.</span>",
+  "exxonMoments": "<strong>SDU 1602A — confined space entry by the book</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jacob Hernandez]</span> <span style='font-size:12px;color:#666;'>(Confined Space)</span><br><span style='font-size:13px;'>Gun barrel cleaned, crew under air for the valve change and hatch repair, tank entry made under air, atmospheric testing done before, during, and after. Co Rep released the crew. Every box checked — this is the Week 5 standard.</span><br><br><strong>Acted on the reading, didn't just take it — Turner E2 1202A</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Edward Carrillo]</span> <span style='font-size:12px;color:#666;'>(Confined Space)</span><br><span style='font-size:13px;'>Benzene climbed above the exposure limit even with the crew already under air. He stopped work, cleared the area, ran a second test confirming safe conditions, then resumed — and every party was receptive when asked to stand down. Real-time monitoring means acting on the numbers, not just reading them.</span><br><br><strong>Rescue staged before anyone entered — H2S separator</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alex Clubb]</span> <span style='font-size:12px;color:#666;'>(Confined Space)</span><br><span style='font-size:13px;'>Safety meeting with the Superintendent and PSMS on site, one person under air for the break, himself as primary rescue and Justin as secondary. AGT confirmed zeros on all headers — and only then did the crew proceed without air. The rescue plan was staged before a single man broke containment.</span><br><br><strong>Leak found before the break — supplied air as the default</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Confined Space)</span><br><span style='font-size:13px;'>A leak was identified before the line was broken and reported to the company rep. Rather than wait to confirm exposure levels, the crew went on supplied air for first break, with continuous monitoring throughout. Find a leak before you break containment, and supplied air is the default — not the fallback.</span><br><br><strong>Tested zeros before trusting them — Newmont Palomino</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Justin Fontenot]</span> <span style='font-size:12px;color:#666;'>(Confined Space)</span><br><span style='font-size:13px;'>First break made under air. Tested zeros. Only then did work continue without air. Test, confirm, proceed — the atmosphere inside is the floor at the start, never the ceiling for the whole job.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Alfredo Vaquera: Hold points were being utilized throughout the whole operation",
-      "detail": "OWL after-action review — Mary",
-      "psms": null
+      "headline": "Jacob Hernandez — SDU 1602A confined space, every box checked",
+      "detail": "Gun barrel cleaned, tank entry under air, atmospheric testing before/during/after, Co Rep released the crew.",
+      "psms": "Confined Space · Wk 5"
     },
     {
       "type": "good",
-      "headline": "Caleb Smith: While we were discussing our job plan and reviewing Lara's. The work over rig equipment",
-      "detail": "OWL after-action review — Rings Slaughter 7F 6H",
-      "psms": null
+      "headline": "Edward Carrillo — stopped the job when benzene climbed under air",
+      "detail": "Turner E2 1202A — above exposure limit while on air; cleared, retested, resumed only when confirmed safe.",
+      "psms": "Confined Space · Wk 5"
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez: Great communication safe and fast pivot. — Job was safe and successful.",
-      "detail": "OWL after-action review — Colonial 4209H",
-      "psms": null
+      "headline": "Alex Clubb — primary and secondary rescue staged before the break",
+      "detail": "H2S separator — one under air, AGT zeros on all headers confirmed before proceeding without air.",
+      "psms": "Confined Space · Wk 5"
     },
     {
       "type": "good",
-      "headline": "Gage Gonzales: Work being conducted, multiple breaks of containment — Crew was involved in PJSM and Post job discussions",
-      "detail": "OWL after-action review — field",
-      "psms": null
+      "headline": "Stefanie Kirschke — supplied air as the default when a leak showed up",
+      "detail": "Leak identified before the break, reported to the company rep, crew placed on air with continuous monitoring.",
+      "psms": "Confined Space · Wk 5"
     },
     {
       "type": "good",
-      "headline": "Gage Gonzales: All personnel on location communicated and carried out job safely and efficientl",
-      "detail": "OWL after-action review — Javaid central",
-      "psms": null
+      "headline": "Justin Fontenot — tested zeros before working without air",
+      "detail": "Newmont Palomino — first break under air, confirmed zeros, then continued. Test, confirm, proceed.",
+      "psms": "Confined Space · Wk 5"
     },
     {
       "type": "flag",
-      "headline": "Rolando Flores — Communicate well",
-      "detail": "OWL review — Location: Glass Ranch B#202H",
-      "psms": null
+      "headline": "SM Energy #112 — 6,000 ppm H2S / 2% CO2 (carry-forward from 7/10)",
+      "detail": "Michael Hutt reported it Friday. Confirm current readings before any entry or first break this week.",
+      "psms": "Confined Space · Wk 5"
     },
     {
       "type": "flag",
-      "headline": "Stefanie Kirschke — Continue monitoring atmospheric conditions, verifying emergency equipm",
-      "detail": "OWL review — Location: ",
-      "psms": null
-    },
-    {
-      "type": "flag",
-      "headline": "Stefanie Kirschke — Continue maintaining atmospheric monitoring, verifying safe conditions",
-      "detail": "OWL review — Location: ",
-      "psms": null
-    },
-    {
-      "type": "flag",
-      "headline": "Rolando Flores — Drive safely",
-      "detail": "OWL review — Location: Stanton A #1",
-      "psms": null
-    },
-    {
-      "type": "flag",
-      "headline": "Alexander Clubb — Setting muster up upon arrival and not making a very very long trip ba",
-      "detail": "OWL review — Location: Cowden 39-03 W Unit",
-      "psms": null
-    },
-    {
-      "type": "flag",
-      "headline": "Brianda Sandoval — set up a COMPLETELY sealed exclusion zone, because some people just fe",
-      "detail": "OWL review — Location: McAlister 33E #5H/ExxonMobil",
-      "psms": null
-    },
-    {
-      "type": "flag",
-      "headline": "Brianda Sandoval — set up a COMPLETELY sealed exclusion zone (not the cones), because som",
-      "detail": "OWL review — Location: McAlister 33J #10H/ExxonMobil",
-      "psms": null
+      "headline": "Two driving near-misses flagged Friday — stay heads-up on the road",
+      "detail": "Jordan Lemmons (swerving driver, Jal 128) and Alex Clubb (service truck into his lane at 75 mph). The drive is part of the job.",
+      "psms": "Driving · Wk 6"
     }
   ],
-  "todaysChallenge": "Before your first job starts today — full readiness check. Every person briefed. Exclusion zones named. Muster point confirmed. Atmospheric plan in place. Then look left, look right. That crew is counting on you.",
-  "todaysChallengeSubtext": "Ten people going to Exxon on a Saturday is not routine — it's a statement about where Canon is headed. You are part of something being built. Look out for each other. Don't let anything average onto this location.",
+  "todaysChallenge": "Before anyone enters a confined space this week, say the five out loud as a crew: atmosphere tested, monitor running, attendant posted and staying put, rescue plan staged, permit signed. If you can't check all five, nobody goes in. Today's coaching rep — walk one newer hand through why each of the five exists. Don't just give him the rule. Give him the reason.",
+  "todaysChallengeSubtext": "Week 5 is Confined Space, and the theme is Coaching Others. The hands who've done this a thousand times are exactly the ones who make the difference for the guy who hasn't. Slow down. Pass it on.",
   "compliance": {
     "weekOf": "Week of July 6, 2026",
     "metrics": [
@@ -104,6 +74,6 @@
         "total": 131
       }
     ],
-    "footerNote": "Week 4 - 131 field days tracked"
+    "footerNote": "Week 4 final — update with Week 5 counts Monday AM"
   }
 }
