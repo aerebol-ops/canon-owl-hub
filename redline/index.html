@@ -329,6 +329,13 @@
   .istatus{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:3px 9px;border-radius:99px;white-space:nowrap}
   .istatus.open{background:var(--fault-bg);color:var(--fault);border:1px solid var(--fault-line)}
   .istatus.closed{background:var(--good-bg);color:var(--good);border:1px solid var(--good-line)}
+  .dayschip{font-size:11px;font-weight:800;padding:3px 9px;border-radius:99px;white-space:nowrap}
+  .dayschip.fresh{background:var(--panel-2);color:var(--muted);border:1px solid var(--line)}
+  .dayschip.aging{background:var(--warn-bg);color:var(--warn);border:1px solid var(--warn-line)}
+  .dayschip.overdue{background:var(--fault-bg);color:var(--fault);border:1px solid var(--fault-line)}
+  .icard.overdue{border-left-width:6px}
+  .ilog-sum .s.aging{background:var(--warn-bg);color:var(--warn);border-color:var(--warn-line)}
+  .ilog-sum .s.overdue{background:var(--fault-bg);color:var(--fault);border-color:var(--fault-line)}
 </style>
 
 <div class="topbar">
@@ -1088,29 +1095,35 @@
   function setIssues(a){try{localStorage.setItem("redline_issues_v1",JSON.stringify(a));}catch(e){}refreshIssueCount();}
   function openIssueCount(){return getIssues().filter(function(i){return i.status!=="closed";}).length;}
   function refreshIssueCount(){var n=openIssueCount();var c=el("tileIssueCount");if(c){c.textContent=n;c.classList.toggle("zero",n===0);}}
+  function parseISO(s){if(s&&/^\d{4}-\d{2}-\d{2}$/.test(s)){var p=s.split("-");return new Date(+p[0],+p[1]-1,+p[2]);}return null;}
+  function daysOpenOf(it){var d=parseISO(it.opened)||new Date(it.ts||Date.now());var n=new Date();var t=new Date(n.getFullYear(),n.getMonth(),n.getDate());var diff=Math.floor((t-d)/86400000);return diff<0?0:diff;}
+  function turnaround(it){var o=parseISO(it.opened),c=parseISO(it.closed);if(!o||!c)return null;var diff=Math.floor((c-o)/86400000);return diff<0?0:diff;}
+  function dayClass(n){return n>=7?"overdue":(n>=4?"aging":"fresh");}
   var issueFilter="open";
   function renderIssues(){
     var host=el("issueList");var all=getIssues();host.innerHTML="";
     var open=all.filter(function(i){return i.status!=="closed";});
     var closed=all.filter(function(i){return i.status==="closed";});
-    el("issueSummary").innerHTML='<span class="s open">'+open.length+' open</span><span class="s closed">'+closed.length+' closed</span>';
+    var maxDays=0;open.forEach(function(i){var d=daysOpenOf(i);if(d>maxDays)maxDays=d;});
+    el("issueSummary").innerHTML='<span class="s open">'+open.length+' open</span>'+(open.length?'<span class="s '+dayClass(maxDays)+'">oldest '+maxDays+' day'+(maxDays===1?"":"s")+'</span>':'')+'<span class="s closed">'+closed.length+' closed</span>';
     el("issueFilterOpen").classList.toggle("on",issueFilter==="open");
     el("issueFilterAll").classList.toggle("on",issueFilter==="all");
     var list=(issueFilter==="open")?open.slice():all.slice();
     if(!list.length){host.innerHTML='<div class="parts-empty">'+(issueFilter==="open"?"No open challenges — all clear.":"Nothing logged yet.")+'<br>Log a fault from an inspection, or tap <b>Add challenge</b>.</div>';return;}
-    list.sort(function(a,b){
-      var ao=a.status!=="closed",bo=b.status!=="closed";
-      if(ao!==bo)return ao?-1:1;
-      if((a.prio==="Urgent")!==(b.prio==="Urgent"))return a.prio==="Urgent"?-1:1;
-      return a.ts-b.ts;
-    });
+    function heat(x){return (x.status==="closed"?-1e9:0)+daysOpenOf(x)+((x.prio==="Urgent")?1000:0);}
+    list.sort(function(a,b){return heat(b)-heat(a);});
     list.forEach(function(it){
-      var card=document.createElement("div");card.className="icard"+(it.status==="closed"?" closed":"");
-      var status='<span class="istatus '+(it.status==="closed"?"closed":"open")+'">'+(it.status==="closed"?"Closed":"Open")+'</span>';
-      var pill=(it.status!=="closed")?'<span class="pill '+(it.prio==="Urgent"?"urgent":"routine")+'">'+it.prio+'</span>':'';
-      card.innerHTML='<div class="itop"><div class="idesc">'+esc(it.desc)+'</div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px">'+status+pill+'</div></div>'+
-        '<div class="imeta"><span><b>Rig:</b> '+esc(it.rig)+'</span>'+(it.district?'<span>'+esc(it.district)+'</span>':'')+(it.source?'<span><b>Area:</b> '+esc(it.source)+'</span>':'')+'<span><b>Opened:</b> '+esc(it.opened)+(it.tech?(' by '+esc(it.tech)):'')+'</span>'+((it.status==="closed"&&it.closed)?'<span><b>Closed:</b> '+esc(it.closed)+'</span>':'')+'</div>'+
-        ((it.status==="closed"&&it.resolution)?'<div class="ires">✓ '+esc(it.resolution)+'</div>':'')+
+      var isOpen=(it.status!=="closed");
+      var days=isOpen?daysOpenOf(it):0;
+      var dc=dayClass(days);
+      var card=document.createElement("div");card.className="icard"+(isOpen?"":" closed")+((isOpen&&dc==="overdue")?" overdue":"");
+      var status='<span class="istatus '+(isOpen?"open":"closed")+'">'+(isOpen?"Open":"Closed")+'</span>';
+      var daysChip=isOpen?'<span class="dayschip '+dc+'">'+days+' day'+(days===1?"":"s")+' open</span>':'';
+      var pill=isOpen?'<span class="pill '+(it.prio==="Urgent"?"urgent":"routine")+'">'+it.prio+'</span>':'';
+      var ta=(!isOpen)?turnaround(it):null;
+      card.innerHTML='<div class="itop"><div class="idesc">'+esc(it.desc)+'</div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px">'+status+daysChip+pill+'</div></div>'+
+        '<div class="imeta"><span><b>Rig:</b> '+esc(it.rig)+'</span>'+(it.district?'<span>'+esc(it.district)+'</span>':'')+(it.source?'<span><b>Area:</b> '+esc(it.source)+'</span>':'')+'<span><b>Opened:</b> '+esc(it.opened)+(it.tech?(' by '+esc(it.tech)):'')+'</span>'+((!isOpen&&it.closed)?'<span><b>Closed:</b> '+esc(it.closed)+(ta!==null?(' ('+ta+' day'+(ta===1?"":"s")+')'):'')+'</span>':'')+'</div>'+
+        ((!isOpen&&it.resolution)?'<div class="ires">✓ '+esc(it.resolution)+'</div>':'')+
         '<div class="iact"></div>';
       var act=card.querySelector(".iact");
       if(it.status!=="closed"){
