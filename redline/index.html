@@ -1154,6 +1154,25 @@
   function refreshInvCount(){var n=reorderCount();var c=el("tileInvCount");if(c){c.textContent=n;c.classList.toggle("zero",n===0);}}
   function updateItem(id,fn){var c=getCatalog();for(var i=0;i<c.length;i++){if(c[i].id===id){fn(c[i]);break;}}setCatalog(c);}
   function addTx(t){var tx=getTx();t.id="t"+Date.now()+"_"+Math.floor(Math.random()*1e4);t.ts=Date.now();t.date=todayISO();t.tech=t.tech||getSettings().tech||"";tx.push(t);setTx(tx);}
+  function reorderLow(){
+    var low=getCatalog().filter(lowFlag);
+    if(!low.length){toast("Nothing below min");return;}
+    var parts=getParts(),existing={};
+    parts.forEach(function(p){if(p.reorderPn)existing[String(p.reorderPn).toLowerCase()]=true;});
+    var added=0,dup=0;
+    low.forEach(function(it){
+      var key=String(it.pn||it.desc).toLowerCase();
+      if(existing[key]){dup++;return;}
+      var shopLow=(it.shopMin>0&&(it.shopQty||0)<=it.shopMin), truckLow=(it.truckMin>0&&(it.truckQty||0)<=it.truckMin);
+      var qty=Math.max(1,(shopLow?(it.shopMin-(it.shopQty||0)):0)+(truckLow?(it.truckMin-(it.truckQty||0)):0));
+      var where=[];if(shopLow)where.push("shop "+(it.shopQty||0)+"/"+it.shopMin);if(truckLow)where.push("truck "+(it.truckQty||0)+"/"+it.truckMin);
+      var urgent=(shopLow&&(it.shopQty||0)<=0)||(truckLow&&(it.truckQty||0)<=0);
+      parts.push({id:"p"+Date.now()+"_"+Math.floor(Math.random()*1e4)+"_"+added,part:it.desc+" ×"+qty+(it.pn?(" (PN "+it.pn+")"):""),def:"Reorder — "+where.join(", "),prio:urgent?"Urgent":"Routine",rig:"SHOP RESTOCK",district:"",tech:getSettings().tech||"",date:todayISO(),section:"Inventory reorder",reorderPn:(it.pn||it.desc),ts:Date.now()});
+      existing[key]=true;added++;
+    });
+    setParts(parts);
+    toast(added+" added to Parts Order"+(dup?(", "+dup+" already on it"):""));
+  }
 
   var invTab="stock", invPreselect=null;
   function renderInventory(){
@@ -1172,6 +1191,8 @@
   function renderStock(body){
     var cat=catSorted();
     if(!cat.length){body.innerHTML='<div class="parts-empty">No parts in the catalog yet.<br>Open the <b>Catalog</b> tab and paste your Redline parts list (part #, description, cost).</div>';return;}
+    var low=cat.filter(lowFlag);
+    if(low.length){var tb=document.createElement("div");tb.className="toolbar";tb.style.marginTop="0";tb.innerHTML='<button class="btn danger" id="reorderBtn">⟳ Add '+low.length+' low item'+(low.length===1?"":"s")+' to Parts Order</button>';body.appendChild(tb);el("reorderBtn").onclick=reorderLow;}
     cat.forEach(function(it){
       var card=document.createElement("div");card.className="invcard"+(lowFlag(it)?" low":"");
       card.innerHTML='<div class="itop"><div><div class="nm">'+esc(it.desc)+'</div><div class="pn">'+(it.pn?("PN "+esc(it.pn)):"no PN")+(it.cat?("  ·  "+esc(it.cat)):"")+'</div></div><div class="pricetag">'+money(it.cost)+'</div></div>'+
