@@ -2881,54 +2881,57 @@ async function renderTemplate() {
            </div>`
         ).join('') : '';
         const photoHtml = w.psmsPhoto ? `<img src="${w.psmsPhoto}" alt="${w.psms}" style="width:100%;border-radius:8px;margin-bottom:12px;display:block;">` : '';
+        // SCENARIO WORKSHOP — all scenarios for the weekly topic, each paired
+        // with its crew question. This is the heart of the daily meeting.
+        const scens = w.fieldScenarios || [];
+        const qs    = w.discussionQuestions || [];
+        const order = seededShuffle(scens.map((_, i) => i), dailySeed());
+        const scenHtml = order.map((idx, n) => `
+          <div class="runsheet-scenario" style="margin-bottom:4px;"><strong>Scenario ${n + 1}:</strong> ${scens[idx]}</div>
+          ${qs[idx] ? `<div class="runsheet-question" style="margin-bottom:14px;">Ask the crew: ${qs[idx]}</div>` : ''}
+        `).join('');
         return `<div class="runsheet-content" style="margin-bottom:10px;"><strong>Week ${w.week}: ${w.theme}</strong><br><span style="font-size:13px;color:var(--muted);">${w.standard}</span></div>
                 ${photoHtml}
                 <div style="margin-bottom:14px;">${stepsHtml}</div>
-                <div class="runsheet-scenario"><strong>Field scenario:</strong> ${seededShuffle(w.fieldScenarios, dailySeed())[0]}</div>
-                <div class="runsheet-question">Ask the crew: ${seededShuffle(w.discussionQuestions, dailySeed())[0]}</div>`;
+                <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--red);margin-bottom:8px;">Scenario Workshop — Work Each One With the Crew</div>
+                ${scenHtml}`;
       })()
     },
     {
       num: '3',
-      title: 'Safety Moments & Lessons Learned',
+      title: 'Field Findings — OWL Forms',
       color: 'var(--orange)',
       body: (() => {
         const _d = new Date(); const todayStr = `${_d.getFullYear()}-${String(_d.getMonth()+1).padStart(2,'0')}-${String(_d.getDate()).padStart(2,'0')}`;
         const isToday = daily && daily.opsDate === todayStr;
         let html = '';
 
+        // OWL form findings — the crew's own submissions, matched to the weekly topic
+        if (daily && daily.exxonMoments) {
+          html += `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--orange);margin-bottom:6px;">From the Crew's OWL Forms — ${w.psms}</div>`;
+          html += `<div class="runsheet-content" style="margin-bottom:14px;">${daily.exxonMoments}</div>`;
+        }
+
+        // Watch items — flags pulled from field news
+        const flags = (daily && daily.fieldNews) ? daily.fieldNews.filter(n => n.type === 'flag') : [];
+        if (flags.length) {
+          html += `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--orange);margin-bottom:6px;">Watch Items</div>`;
+          html += flags.map(n =>
+            `<div class="runsheet-flag" style="margin-bottom:8px;"><strong>${n.headline}</strong>${n.detail ? `<br><span style="font-size:13px;">${n.detail}</span>` : ''}</div>`
+          ).join('');
+        }
+
         // Breakroom incidents block
         if (daily && daily.lessonsLearned && isToday) {
-          html += `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--orange);margin-bottom:6px;">Breakroom — Incidents & Near-Misses</div>`;
-          html += `<div class="runsheet-flag" style="margin-bottom:14px;">${daily.lessonsLearned}</div>`;
-        } else if (!isToday) {
-          html += `<div class="runsheet-content" style="color:var(--muted);font-style:italic;margin-bottom:14px;">No Breakroom report for today yet — update runs at 8 PM.</div>`;
-        } else {
-          html += `<div class="runsheet-content" style="margin-bottom:14px;">No incidents or near-misses in last night's Breakroom summary.</div>`;
+          html += `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--orange);margin:14px 0 6px;">Breakroom — Incidents & Near-Misses</div>`;
+          html += `<div class="runsheet-flag">${daily.lessonsLearned}</div>`;
         }
 
-        // Exxon safety moments block
-        if (daily && daily.exxonMoments) {
-          html += `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--orange);margin-bottom:6px;">Exxon Safety Moments</div>`;
-          html += `<div class="runsheet-content">${daily.exxonMoments}</div>`;
-        }
-
-        return html || `<div class="runsheet-content">No safety moments captured yet today.</div>`;
+        return html || `<div class="runsheet-content">No OWL form findings on file yet today — the sweeps pull them in through the evening.</div>`;
       })()
     },
     {
       num: '4',
-      title: "Today's Challenge",
-      color: 'var(--red)',
-      body: (() => {
-        const challenge = (daily && daily.todaysChallenge) ? daily.todaysChallenge : "Before leaving a location today — ask yourself: What is one thing I can improve before I drive away?";
-        const sub = (daily && daily.todaysChallengeSubtext) ? daily.todaysChallengeSubtext : "Not because someone is watching. Because excellence is a habit. And habits become character.";
-        return `<div class="runsheet-scenario" style="border-color:var(--red); background:#fff5f5; font-size:15px; font-weight:600;">${challenge}</div>
-                <div class="runsheet-content" style="color:var(--muted); font-style:italic; margin-top:6px;">${sub}</div>`;
-      })()
-    },
-    {
-      num: '5',
       title: 'Recognition',
       color: 'var(--gold)',
       body: (() => {
@@ -2940,10 +2943,21 @@ async function renderTemplate() {
                ${n.psms ? `<div style="font-size:11px; color:var(--muted); margin-top:4px;">PSMS: ${n.psms}</div>` : ''}
              </div>`
           ).join('');
-          return `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gold);margin-bottom:8px;">Today's Recognition</div>${items}`;
+          return `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gold);margin-bottom:8px;">Today's Recognition — Name It Out Loud</div>${items}`;
         }
         return `<div class="runsheet-content">Name someone from the crew. Be specific — what did they do and why does it matter to everyone standing here. Recognition that names a behavior is recognition that repeats it.</div>
                 <div class="runsheet-scenario" style="border-color:var(--gold); background:#fffbee;">Check Field News and Mike's text from last night — names and reasons are there.</div>`;
+      })()
+    },
+    {
+      num: '5',
+      title: "Today's Challenge",
+      color: 'var(--red)',
+      body: (() => {
+        const challenge = (daily && daily.todaysChallenge) ? daily.todaysChallenge : "Before leaving a location today — ask yourself: What is one thing I can improve before I drive away?";
+        const sub = (daily && daily.todaysChallengeSubtext) ? daily.todaysChallengeSubtext : "Not because someone is watching. Because excellence is a habit. And habits become character.";
+        return `<div class="runsheet-scenario" style="border-color:var(--red); background:#fff5f5; font-size:15px; font-weight:600;">${challenge}</div>
+                <div class="runsheet-content" style="color:var(--muted); font-style:italic; margin-top:6px;">${sub}</div>`;
       })()
     },
     {
@@ -3079,8 +3093,15 @@ function shareMeetingSummary() {
   // Section data — mirrors the exact sections array in renderTemplate()
   const opening   = d ? d.openingMessage    : "The field doesn't care how your morning started. It cares whether you're ready. Let's make sure we are.";
   const attr      = d && d.openingAttribution ? d.openingAttribution : null;
-  const scenario  = seededShuffle(w.fieldScenarios,     seed)[0] || '';
-  const question  = seededShuffle(w.discussionQuestions, seed)[0] || '';
+  // Scenario workshop — ALL scenarios for the weekly topic, paired with questions
+  const _scens = w.fieldScenarios || [];
+  const _qs    = w.discussionQuestions || [];
+  const _order = seededShuffle(_scens.map((_, i) => i), seed);
+  const scenarioBlock = _order.map((idx, n) => `
+    <p class="label"${n ? ' style="margin-top:10px;"' : ''}>Scenario ${n + 1}</p>
+    <div class="box">${_scens[idx]}</div>
+    ${_qs[idx] ? `<div class="sub-note" style="margin-top:4px;"><strong>Ask the crew:</strong> ${_qs[idx]}</div>` : ''}
+  `).join('');
   const lessons   = d ? d.lessonsLearned : null;
   const exxon     = d ? d.exxonMoments   : null;
   const challenge = d ? d.todaysChallenge : "Before leaving a location today — ask yourself: What is one thing I can improve before I drive away?";
@@ -3097,13 +3118,15 @@ function shareMeetingSummary() {
   // Strip HTML tags for clean plain-text rendering in print (keep <strong> and <br>)
   const clean = s => s ? s.replace(/<(?!\/?(strong|br))[^>]+>/g, '') : '';
 
-  // Section 3 content
+  // Section 3 content — Field Findings from OWL forms, watch items, incidents
   const todayCheck = (() => { const t = new Date(); return `${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,'0')}-${String(t.getDate()).padStart(2,'0')}`; })();
   const isToday = d && d.opsDate === todayCheck;
   let sec3 = '';
-  if (lessons && isToday)  sec3 += `<p class="label">Breakroom — Incidents &amp; Near-Misses</p><div class="box flag">${clean(lessons)}</div>`;
-  else                     sec3 += `<div class="box muted">No Breakroom incidents flagged for today.</div>`;
-  if (exxon)               sec3 += `<p class="label" style="margin-top:12px;">Exxon Safety Moments</p><div class="box">${clean(exxon).replace(/<br><br>/g,'</div><div class="box" style="margin-top:8px;">')}</div>`;
+  if (exxon)               sec3 += `<p class="label">From the Crew's OWL Forms — ${w.psms}</p><div class="box">${clean(exxon).replace(/<br><br>/g,'</div><div class="box" style="margin-top:8px;">')}</div>`;
+  const _flagItems = (d && d.fieldNews) ? d.fieldNews.filter(n => n.type === 'flag') : [];
+  if (_flagItems.length)   sec3 += `<p class="label" style="margin-top:12px;">Watch Items</p>` + _flagItems.map(n => `<div class="box flag" style="margin-top:6px;"><strong>${n.headline}</strong>${n.detail ? '<br>' + n.detail : ''}</div>`).join('');
+  if (lessons && isToday)  sec3 += `<p class="label" style="margin-top:12px;">Breakroom — Incidents &amp; Near-Misses</p><div class="box flag">${clean(lessons)}</div>`;
+  if (!sec3)               sec3 = `<div class="box muted">No OWL form findings on file yet today.</div>`;
 
   const html = `<!DOCTYPE html><html><head><meta charset="utf-8">
 <title>Canon Safety — Morning Meeting ${dateStr}</title>
@@ -3149,35 +3172,33 @@ function shareMeetingSummary() {
     <div class="num" style="background:#b00;">2</div>
     <div class="sec-title" style="color:#b00;">PSMS — ${w.psms}</div>
   </div>
-  <p class="label">Today's Field Scenario</p>
-  <div class="box">${scenario}</div>
-  <p class="label" style="margin-top:8px;">Discussion Question</p>
-  <div class="box">${question}</div>
+  <p class="label">Scenario Workshop — Work Each One With the Crew</p>
+  ${scenarioBlock}
 </div>
 
 <div class="section">
   <div class="sec-header">
     <div class="num" style="background:#C05000;">3</div>
-    <div class="sec-title" style="color:#C05000;">Safety Moments &amp; Lessons Learned</div>
+    <div class="sec-title" style="color:#C05000;">Field Findings — OWL Forms</div>
   </div>
   ${sec3}
 </div>
 
 <div class="section">
   <div class="sec-header">
-    <div class="num" style="background:#b00;">4</div>
-    <div class="sec-title" style="color:#b00;">Today's Challenge</div>
+    <div class="num" style="background:#b8a000;">4</div>
+    <div class="sec-title" style="color:#b8a000;">Recognition</div>
   </div>
-  <div class="box challenge">${challenge}</div>
-  <div class="sub-note">${challengeSub}</div>
+  ${recogItems ? `<ul>${recogItems}</ul>` : '<div class="box muted">Check Field News and Mike\'s text from last night.</div>'}
 </div>
 
 <div class="section">
   <div class="sec-header">
-    <div class="num" style="background:#b8a000;">5</div>
-    <div class="sec-title" style="color:#b8a000;">Recognition</div>
+    <div class="num" style="background:#b00;">5</div>
+    <div class="sec-title" style="color:#b00;">Today's Challenge</div>
   </div>
-  ${recogItems ? `<ul>${recogItems}</ul>` : '<div class="box muted">Check Field News and Mike\'s text from last night.</div>'}
+  <div class="box challenge">${challenge}</div>
+  <div class="sub-note">${challengeSub}</div>
 </div>
 
 <div class="section">
