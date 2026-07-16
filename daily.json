@@ -8,36 +8,36 @@
   "opsDate": "2026-07-01",
   "opsContent": "<strong>Active Jobs (2026-07-01):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Crew maintained good communication throughout the job</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew maintained good communication throughout the job. Equipment checks were</span><br><br><strong>Good communication kept an eye on surroundings areas everyone was on top of</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Good communication kept an eye on surroundings areas everyone was on top of their</span><br><br><strong>Even though we had an issue they were still able to get the job done and sa</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Even though we had an issue they were still able to get the job done and safely</span><br><br><strong>Continuous gas monitoring was maintained, communication with the crew was e</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continuous gas monitoring was maintained, communication with the crew was effective,</span><br><br><strong>Crew physically went and verified lotto at the header and flowline were sti</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Caleb Smith]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew physically went and verified lotto at the header and flowline were still in place.</span>",
+  "exxonMoments": "<strong>Continuous gas monitoring was maintained, communication with the crew was e</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continuous gas monitoring was maintained, communication with the crew was effective,</span><br><br><strong>Containment was broken the correct way with air on, AGT was done by us unde</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Containment was broken the correct way with air on, AGT was done by us under air.</span><br><br><strong>Observed stuffing box replacement with continuous atmospheric monitoring</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Observed stuffing box replacement with continuous atmospheric monitoring. The crew</span><br><br><strong>MT was extremely positive and understanding when we approached him with our</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Kelby Hammer Training]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>MT was extremely positive and understanding when we approached him with our H2S</span><br><br><strong>Maintained continuous gas monitoring, good communication with the crew, and</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Maintained continuous gas monitoring, good communication with the crew, and completed</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis: Had to take a break and wait for chemical tote to be put back before reconnecting the well",
-      "detail": "OWL after-action review — Elkins 21U",
+      "headline": "Edward Carrillo: Safe execution of well conversion. Atmosphere testing completed prior to tasks. — Crew followed SOP's. Verified LOTO, and continued good communications through ta",
+      "detail": "OWL after-action review — Mary 18D 4H",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons: Casing valve is leaking by after they blew down well so stopped job to get it greased — Let me know it was leaking and what the plan was to bring someone out to grease ",
-      "detail": "OWL after-action review — Shackleford",
+      "headline": "Caleb Smith: While MT was placing their lotto, they noticed the casing valve wasn't holding. — With the valve leaking we waited for a grease unit to come and fix the valve.",
+      "detail": "OWL after-action review — Case Countiss 20I #9H",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Cindy Smith: Crew did a conversion. No gas was detected. — All safety measures were implemented",
-      "detail": "OWL after-action review — Orel Hershiser 32-91",
+      "headline": "Larry Jaramillo: One of the bleed off points was supposed to be a \"Tapped Bullplug\" but it was not, the",
+      "detail": "OWL after-action review — TXL 36,3643 SH",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Baldemar Bracamontes: We had a different crew doing electrical work on a well next to us, we made our LSRAs — The disconnect got done quickly and safely before the rig got to location",
-      "detail": "OWL after-action review — University 3-13",
+      "headline": "Raymundo Solis: Everyone was aware of there surroundings",
+      "detail": "OWL after-action review — XBC Giddings East 5D",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke: Safe execution of well conversion. Air test completed and bleeders verified prior to work. — Crew followed procedures verified zero energy and maintained good communication",
-      "detail": "OWL after-action review — field",
+      "headline": "Dawson Drake: Reconnected a flowline and inj",
+      "detail": "OWL after-action review — Turner E2",
       "psms": null
     },
     {
