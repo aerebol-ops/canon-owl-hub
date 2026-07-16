@@ -10,6 +10,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Canon Safety — Owl Leader Hub</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
 <style>
   :root {
     --navy: #1F3864;
@@ -2974,6 +2975,77 @@ async function renderTemplate() {
 }
 
 // ── SHARE MEETING SUMMARY (PDF) ───────────────────────────
+// ── PDF GENERATION & SHARING ──────────────────────────────
+// Builds a real .pdf file from a print-formatted HTML document, then hands it
+// to the device share sheet (text message / Breakroom app) on mobile, or
+// downloads the .pdf on desktop. Falls back to the old print window only if
+// the PDF engine failed to load (e.g. no internet).
+function _printFallback(html) {
+  const fbBlob = new Blob([html], { type: 'text/html' });
+  const fbUrl  = URL.createObjectURL(fbBlob);
+  const fbWin  = window.open(fbUrl, '_blank');
+  if (fbWin) {
+    fbWin.onload = () => { URL.revokeObjectURL(fbUrl); fbWin.focus(); fbWin.print(); };
+  } else {
+    URL.revokeObjectURL(fbUrl);
+    alert('Pop-ups are blocked. Allow pop-ups for this site, then try again.');
+  }
+}
+
+let _pdfBusy = false;
+async function sharePdfFromHtml(html) {
+  if (typeof html2pdf === 'undefined') { _printFallback(html); return; }
+  if (_pdfBusy) return;  // ignore double-taps while a PDF is building
+  _pdfBusy = true;
+  // Filename from the document title, e.g. "Canon_Safety-Morning_Meeting.pdf"
+  const titleM = html.match(/<title>([^<]*)<\/title>/);
+  const filename = ((titleM ? titleM[1] : 'Canon_OWL')
+    .replace(/&[#a-z0-9]+;/gi, ' ')
+    .replace(/[—–]/g, '-')
+    .replace(/[^\w\- ]+/g, '')
+    .trim().replace(/\s+/g, '_')
+    .slice(0, 60) || 'Canon_OWL') + '.pdf';
+  // Render the document in a hidden same-origin iframe so its styles don't
+  // leak into the hub page, then rasterize that into a paginated PDF.
+  const iframe = document.createElement('iframe');
+  iframe.style.cssText = 'position:fixed;left:-10000px;top:0;width:800px;height:1100px;border:0;';
+  document.body.appendChild(iframe);
+  try {
+    const loaded = new Promise(res => { iframe.onload = res; setTimeout(res, 2500); });
+    iframe.srcdoc = html;
+    await loaded;
+    const blob = await html2pdf().set({
+      margin: [10, 8, 12, 8],
+      image: { type: 'jpeg', quality: 0.95 },
+      html2canvas: { scale: 2, useCORS: true, windowWidth: 800 },
+      jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
+      pagebreak: { mode: ['css', 'legacy'] }
+    }).from(iframe.contentDocument.body).outputPdf('blob');
+    const file = new File([blob], filename, { type: 'application/pdf' });
+    // Mobile: native share sheet → text message, Breakroom, email, etc.
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({ files: [file], title: filename.replace('.pdf', '') });
+        return;
+      } catch (e) {
+        if (e && e.name === 'AbortError') return;  // user closed the share sheet
+        // otherwise fall through to a plain download
+      }
+    }
+    // Desktop (or share unavailable): download the .pdf file
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = filename;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+  } catch (e) {
+    _printFallback(html);
+  } finally {
+    iframe.remove();
+    _pdfBusy = false;
+  }
+}
+
 function shareMeetingSummary() {
   const d = _daily;
   const w = DATA.weeks[Math.min((d ? d.week : 1) - 1, DATA.weeks.length - 1)];
@@ -3099,17 +3171,7 @@ function shareMeetingSummary() {
   const today = new Date();
   const fileDate = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
 
-  // Use Blob URL — open HTML in new tab, browser renders natively, user saves as PDF
-  // This is more reliable than html2canvas on mobile and avoids blank-page rendering bugs
-  const blob = new Blob([html], { type: 'text/html' });
-  const url  = URL.createObjectURL(blob);
-  const win  = window.open(url, '_blank');
-  if (win) {
-    win.onload = () => { URL.revokeObjectURL(url); win.focus(); win.print(); };
-  } else {
-    URL.revokeObjectURL(url);
-    alert('Pop-ups are blocked. Allow pop-ups for this site in your browser, then try again.');
-  }
+  sharePdfFromHtml(html);
 }
 
 // ── RENDER NEWS ───────────────────────────────────────────
@@ -3318,15 +3380,7 @@ ${ov.weeks.map(w => `
 <div class="pdf-footer">Canon Safety &middot; OWL Leadership Program &middot; Overall Review Weeks 1&ndash;4 &middot; For Breakroom Reference</div>
 </body></html>`;
 
-  const blob = new Blob([html], { type: 'text/html' });
-  const url  = URL.createObjectURL(blob);
-  const win  = window.open(url, '_blank');
-  if (win) {
-    win.onload = () => { URL.revokeObjectURL(url); win.focus(); win.print(); };
-  } else {
-    URL.revokeObjectURL(url);
-    alert('Pop-ups are blocked. Allow pop-ups for this site, then try again.');
-  }
+  sharePdfFromHtml(html);
 }
 
 function shareOwlWeekPDF(wi) {
@@ -3379,15 +3433,7 @@ ${days}
 <div class="pdf-footer">Canon Safety &middot; OWL Leadership Program &middot; Week ${wk.week} Meeting Summary</div>
 </body></html>`;
 
-  const blob = new Blob([html], { type: 'text/html' });
-  const url = URL.createObjectURL(blob);
-  const win = window.open(url, '_blank');
-  if (win) {
-    win.onload = () => { URL.revokeObjectURL(url); win.focus(); win.print(); };
-  } else {
-    URL.revokeObjectURL(url);
-    alert('Pop-ups are blocked. Allow pop-ups for this site, then try again.');
-  }
+  sharePdfFromHtml(html);
 }
 
 // ── SHARE SINGLE DAY PDF ──────────────────────────────────
@@ -3437,15 +3483,7 @@ ${recogHtml}
 <div class="pdf-footer">Canon Safety &middot; OWL Leadership Program &middot; Week ${wk.week} &middot; ${m.date} &middot; For Breakroom Reference</div>
 </body></html>`;
 
-  const blob = new Blob([html], { type: 'text/html' });
-  const url  = URL.createObjectURL(blob);
-  const win  = window.open(url, '_blank');
-  if (win) {
-    win.onload = () => { URL.revokeObjectURL(url); win.focus(); win.print(); };
-  } else {
-    URL.revokeObjectURL(url);
-    alert('Pop-ups are blocked. Allow pop-ups for this site, then try again.');
-  }
+  sharePdfFromHtml(html);
 }
 
 // ── WORLD OIL & GAS NEWS ───────────────────────────────────
