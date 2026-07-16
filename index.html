@@ -2495,6 +2495,51 @@ const DATA = {
       "psms": "Energy Isolation · Wk 1"
     }
   ],
+  "overallReview": {
+    "title": "Overall Review",
+    "subtitle": "The First Month &mdash; Weeks 1&ndash;4",
+    "dateRange": "June 15 &ndash; July 10, 2026",
+    "stats": [
+      { "num": "4", "label": "Weeks Completed" },
+      { "num": "20", "label": "Field Meeting Days" },
+      { "num": "370+", "label": "OWL Forms Reviewed" }
+    ],
+    "weeks": [
+      {
+        "week": 1,
+        "theme": "Ownership",
+        "psms": "Energy Isolation",
+        "owl": "Michael Lyons",
+        "focus": "Own your response, your equipment, your preparation, your outcome. Verify the energy state yourself &mdash; never assume a line is dead or a valve is closed.",
+        "moment": "Alex Clubb found a damaged butterfly valve on a separator with known H2S and ran it down before it became an exposure. Separator #122 at SM Coonskin was ordered offline and bled down by the book &mdash; communicated and documented."
+      },
+      {
+        "week": 2,
+        "theme": "Communication",
+        "psms": "Breaking Containment",
+        "owl": "Jacob Hernandez",
+        "focus": "Outcome-driven communication &mdash; describe, don&apos;t accuse. Every break of containment planned, monitored, and backed by a staged rescue before anyone opens anything.",
+        "moment": "Monitors alarmed mid-pull on a bulk separator at Christi &mdash; gas from an unidentified line at 31 ppm H2S. The crew mustered upwind immediately and escalated it right. Nobody guessed. Nobody pushed through."
+      },
+      {
+        "week": 3,
+        "theme": "Accountability",
+        "psms": "Line of Fire",
+        "owl": "Edward Carrillo",
+        "focus": "Protect the group &mdash; name the pressure release path, the swing radius, and where no one stands before anything moves. Hold the standard when the plan slips.",
+        "moment": "Edward held standby at Nobles 3202D and rescheduled when the crane never showed &mdash; no improvising around a broken plan. Multi-day H2S carry-forwards (Gipple 2,000 ppm, Cosmo 3,000 ppm) were tracked openly all week until closed."
+      },
+      {
+        "week": 4,
+        "theme": "Operational Discipline",
+        "psms": "Operational Discipline",
+        "owl": "Michael Lyons",
+        "focus": "Do job 500 the same way you did job 1. The routine job done the disciplined way &mdash; pretask briefings, spotters posted, exclusion zones held, atmosphere checked every time.",
+        "moment": "90 OWL forms in a single week &mdash; the program&apos;s highest. Ray Solis stopped a flow-line disconnect at XBC Giddings when he found the pumper&apos;s LOTO on a valve: stopped, verified, then proceeded. That is the discipline the week asked for."
+      }
+    ],
+    "throughLine": "Four weeks, one behavior: <strong>disciplined ownership</strong>. Week 1 said <strong>own it</strong> &mdash; verify the energy state yourself. Week 2 said <strong>say it</strong> &mdash; communicate early and plan every break. Week 3 said <strong>see it</strong> &mdash; know the line of fire before anything moves. Week 4 said <strong>repeat it</strong> &mdash; bring the same discipline to job 500 as job 1. Stack them and you get the Canon standard: a hand who verifies, speaks up, sees the hazard, and executes the same way every time &mdash; whoever is watching. Week 5 builds on that foundation: now teach it to the hand next to you."
+  },
   "owlWeeks": [
     {
       "week": 5,
@@ -3122,13 +3167,58 @@ function toggleWeek(index) {
 }
 
 // ── RENDER MEETING LOG ─────────────────────────────────────
+function renderOverallReview() {
+  const ov = DATA.overallReview;
+  if (!ov) return '';
+  return `
+    <div class="owl-week-block" style="border:2px solid #BF8F00;">
+      <div class="owl-week-header" style="background:#1F3864;">
+        <div class="owl-week-meta">
+          <div class="owl-week-label" style="color:#FFD966;">&#9733; ${ov.title}</div>
+          <div class="owl-week-name" style="color:#fff;">${ov.subtitle}</div>
+          <div class="owl-week-theme" style="color:rgba(255,255,255,0.8);">Four themes &middot; Four PSMS standards &middot; One focus point</div>
+          <div class="owl-week-dates" style="color:rgba(255,255,255,0.6);">${ov.dateRange}</div>
+        </div>
+        <button class="owl-pdf-btn" onclick="shareOverallReviewPDF()">&#128196; Share PDF</button>
+      </div>
+      <div style="padding:14px 16px;">
+        <div style="display:flex;gap:10px;margin-bottom:14px;">
+          ${ov.stats.map(s => `
+            <div style="flex:1;background:#f0f4ff;border-radius:8px;padding:10px 6px;text-align:center;">
+              <div style="font-size:22px;font-weight:900;color:#1F3864;">${s.num}</div>
+              <div style="font-size:10px;font-weight:700;letter-spacing:0.6px;text-transform:uppercase;color:#666;">${s.label}</div>
+            </div>`).join('')}
+        </div>
+        ${ov.weeks.map(w => `
+          <div style="display:flex;gap:12px;padding:12px 0;border-top:1px solid #e8e8e8;">
+            <div style="flex-shrink:0;width:64px;text-align:center;">
+              <div style="background:#1F3864;color:#fff;border-radius:8px;padding:8px 4px;">
+                <div style="font-size:9px;font-weight:700;letter-spacing:1px;opacity:0.7;">WEEK</div>
+                <div style="font-size:24px;font-weight:900;line-height:1;">${w.week}</div>
+              </div>
+            </div>
+            <div style="min-width:0;">
+              <div style="font-size:14px;font-weight:800;color:#1F3864;">${w.theme} <span style="font-weight:600;color:#888;">&middot; ${w.psms}</span></div>
+              <div style="font-size:11px;color:#999;margin-bottom:5px;">OWL: ${w.owl}</div>
+              <div style="font-size:13px;line-height:1.5;color:#333;margin-bottom:5px;">${w.focus}</div>
+              <div style="font-size:12px;line-height:1.5;color:#555;background:#fafafa;border-left:3px solid #BF8F00;padding:6px 10px;border-radius:0 6px 6px 0;"><strong style="color:#BF8F00;font-size:10px;letter-spacing:0.6px;">DEFINING MOMENT</strong><br>${w.moment}</div>
+            </div>
+          </div>`).join('')}
+        <div style="margin-top:4px;background:#fff8e8;border:1px solid #f0e0b0;border-radius:8px;padding:12px 14px;">
+          <div style="font-size:10px;font-weight:700;letter-spacing:0.8px;text-transform:uppercase;color:#BF8F00;margin-bottom:6px;">&#9733; The Through-Line &mdash; One Focus Point</div>
+          <div style="font-size:13px;line-height:1.6;color:#333;">${ov.throughLine}</div>
+        </div>
+      </div>
+    </div>`;
+}
+
 function renderLog() {
   const container = document.getElementById('log-container');
   if (!DATA.owlWeeks || !DATA.owlWeeks.length) {
     container.innerHTML = '<div class="log-card"><div class="log-detail">No OWL weeks logged yet.</div></div>';
     return;
   }
-  container.innerHTML = DATA.owlWeeks.map((wk, wi) => `
+  container.innerHTML = renderOverallReview() + DATA.owlWeeks.map((wk, wi) => `
     <div class="owl-week-block">
       <div class="owl-week-header">
         <div class="owl-week-meta">
@@ -3170,6 +3260,73 @@ function renderLog() {
 
 function toggleOwlDay(wi, mi) {
   document.getElementById(`owlday-${wi}-${mi}`).classList.toggle('open');
+}
+
+function shareOverallReviewPDF() {
+  const ov = DATA.overallReview;
+  if (!ov) return;
+  const html = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>Canon OWL Program — Overall Review Weeks 1–4</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #1a1a1a; padding: 28px 24px; max-width: 760px; margin: 0 auto; }
+  .page-header { background: #1F3864; color: #fff; padding: 20px 24px; border-radius: 8px; margin-bottom: 16px; }
+  .page-header .eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: #FFD966; margin-bottom: 4px; }
+  .page-header .title { font-size: 24px; font-weight: 900; }
+  .page-header .sub { font-size: 12px; opacity: 0.75; margin-top: 4px; }
+  .stats { display: flex; gap: 10px; margin-bottom: 18px; }
+  .stat { flex: 1; background: #f0f4ff; border-radius: 8px; padding: 12px 6px; text-align: center; }
+  .stat .num { font-size: 24px; font-weight: 900; color: #1F3864; }
+  .stat .lbl { font-size: 9px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #666; margin-top: 2px; }
+  .wk { display: flex; gap: 14px; padding: 14px 0; border-top: 1px solid #ddd; page-break-inside: avoid; }
+  .wk-badge { flex-shrink: 0; width: 64px; text-align: center; background: #1F3864; color: #fff; border-radius: 8px; padding: 10px 4px; height: fit-content; }
+  .wk-badge .wlbl { font-size: 9px; font-weight: 700; letter-spacing: 1px; opacity: 0.7; }
+  .wk-badge .wnum { font-size: 26px; font-weight: 900; line-height: 1; }
+  .wk-theme { font-size: 15px; font-weight: 800; color: #1F3864; }
+  .wk-theme span { font-weight: 600; color: #888; }
+  .wk-owl { font-size: 11px; color: #999; margin-bottom: 6px; }
+  .wk-focus { font-size: 13px; line-height: 1.55; margin-bottom: 6px; }
+  .wk-moment { font-size: 12px; line-height: 1.55; color: #444; background: #fafafa; border-left: 3px solid #BF8F00; padding: 8px 12px; border-radius: 0 6px 6px 0; }
+  .wk-moment .mlbl { color: #BF8F00; font-size: 9px; font-weight: 700; letter-spacing: 0.8px; }
+  .through { margin-top: 16px; background: #fff8e8; border: 1px solid #f0e0b0; border-radius: 8px; padding: 14px 16px; page-break-inside: avoid; }
+  .through .tlbl { font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #BF8F00; margin-bottom: 6px; }
+  .through .tbody { font-size: 13px; line-height: 1.65; }
+  .pdf-footer { margin-top: 24px; padding-top: 10px; border-top: 1px solid #ddd; font-size: 11px; color: #aaa; text-align: center; }
+  @media print { body { padding: 14px; } }
+</style></head><body>
+<div class="page-header">
+  <div class="eyebrow">&#9733; Canon Safety &middot; OWL Leadership Program &middot; Overall Review</div>
+  <div class="title">${ov.subtitle}</div>
+  <div class="sub">${ov.dateRange} &middot; Four themes &middot; Four PSMS standards &middot; One focus point</div>
+</div>
+<div class="stats">
+  ${ov.stats.map(s => `<div class="stat"><div class="num">${s.num}</div><div class="lbl">${s.label}</div></div>`).join('')}
+</div>
+${ov.weeks.map(w => `
+  <div class="wk">
+    <div class="wk-badge"><div class="wlbl">WEEK</div><div class="wnum">${w.week}</div></div>
+    <div>
+      <div class="wk-theme">${w.theme} <span>&middot; ${w.psms}</span></div>
+      <div class="wk-owl">OWL: ${w.owl}</div>
+      <div class="wk-focus">${w.focus}</div>
+      <div class="wk-moment"><span class="mlbl">DEFINING MOMENT</span><br>${w.moment}</div>
+    </div>
+  </div>`).join('')}
+<div class="through">
+  <div class="tlbl">&#9733; The Through-Line &mdash; One Focus Point</div>
+  <div class="tbody">${ov.throughLine}</div>
+</div>
+<div class="pdf-footer">Canon Safety &middot; OWL Leadership Program &middot; Overall Review Weeks 1&ndash;4 &middot; For Breakroom Reference</div>
+</body></html>`;
+
+  const blob = new Blob([html], { type: 'text/html' });
+  const url  = URL.createObjectURL(blob);
+  const win  = window.open(url, '_blank');
+  if (win) {
+    win.onload = () => { URL.revokeObjectURL(url); win.focus(); win.print(); };
+  } else {
+    URL.revokeObjectURL(url);
+    alert('Pop-ups are blocked. Allow pop-ups for this site, then try again.');
+  }
 }
 
 function shareOwlWeekPDF(wi) {
