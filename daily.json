@@ -12,32 +12,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Larry Jaramillo: Good communication amongst everyone involved — Job steps went smoothly do to good communication",
-      "detail": "OWL after-action review — Jordan N 23-24, 4314H",
+      "headline": "Joseph Popillion: Job went on with out a hitch roustabout very fluent in safety and movement of jo",
+      "detail": "OWL after-action review — Texas ten 37c 6h",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Gage Gonzales: All personnel on location participated in PJSM and debrief.",
-      "detail": "OWL after-action review — SDU 1602A",
+      "headline": "Andrew Bailey: Work being completed safely",
+      "detail": "OWL after-action review — Brook 0-18 8H",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis: Good all around communication and awesome cooperation from crew",
-      "detail": "OWL after-action review — TB XBC GIDDINGS 1000H",
+      "headline": "Cindy Smith: Crew communicated effectively and worked quickly",
+      "detail": "OWL after-action review — Brook O 18H 18",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Alexander Clubb: Making first break on headers for the wells on the North brooks, had the line coming from — When containment was broken on the T there was no pressure between.",
-      "detail": "OWL after-action review — North Brook.",
+      "headline": "Raymundo Solis: Roustabout crew used hand tools due to LEL from well",
+      "detail": "OWL after-action review — Ellis 20C-29-G 4413H",
       "psms": null
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez: Great communication from MT to us and crew. — Spotter utilized effectively",
-      "detail": "OWL after-action review — Shackelford 40-12AB 28H",
+      "headline": "Baldemar Bracamontes: Crew worked diligently and carefully with crane crew to ensure job scope was completed — Both crews adhered to directions given by us to ensure a safe atmosphere environ",
+      "detail": "OWL after-action review — Windham R S 2824WB",
       "psms": null
     },
     {
@@ -56,24 +56,24 @@
   "todaysChallenge": "At your next location, think about one thing you would do differently if a client were standing next to you.",
   "todaysChallengeSubtext": "If you'd change your behavior because someone was watching — that's your standard. Hold it whether they are or not.",
   "compliance": {
-    "weekOf": "Week of July 6, 2026",
+    "weekOf": "Week of July 13, 2026",
     "metrics": [
       {
-        "label": "Trailer Inspections",
-        "done": 119,
-        "total": 131
+        "label": "Daily H2S Forms (D/N)",
+        "done": 152,
+        "total": 172
       },
       {
-        "label": "Benzene / 4-Gas Cal.",
-        "done": 127,
-        "total": 131
+        "label": "Trailer Inspections",
+        "done": 33,
+        "total": 41
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 109,
-        "total": 131
+        "done": 20,
+        "total": 28
       }
     ],
-    "footerNote": "Week 4 final — update with Week 5 counts Monday AM"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 07/15"
   }
 }
