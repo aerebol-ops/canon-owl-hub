@@ -1154,10 +1154,10 @@
   function getTx(){try{return JSON.parse(localStorage.getItem("redline_invtx_v1"))||[];}catch(e){return [];}}
   function setTx(a){try{localStorage.setItem("redline_invtx_v1",JSON.stringify(a));}catch(e){}}
   var CATALOG_SEED=[
-    {pn:"RL-4H2S",desc:"H2S Replacement Sensor (H2S Element)",cat:"Detection",cost:125.00},
+    {pn:"RL-4H2S",desc:"H2S Replacement Sensor (H2S Element)",cat:"Detection",cost:125.00,tmin:5},
     {pn:"RL-MIPEX",desc:"Infrared LEL Replacement Sensor",cat:"Detection",cost:345.00},
     {pn:"RL-DUALGAS",desc:"Wireless Dual Gas Head",cat:"Detection",cost:2689.50},
-    {pn:"RL-2.4G",desc:"Radio Card",cat:"Communications",cost:125.00},
+    {pn:"RL-2.4G",desc:"Radio Card",cat:"Communications",cost:125.00,tmin:3},
     {pn:"RK-ALUMRG",desc:"Aluminum Rain Guard",cat:"Hardware",cost:35.00},
     {pn:"RL-101CBU",desc:"Universal Blue 101 Card (Control Board)",cat:"Electronics",cost:260.00},
     {pn:"RL-FACEPL84",desc:"Face Plate",cat:"Hardware",cost:16.70},
@@ -1168,8 +1168,8 @@
     {pn:"RL-5001",desc:"Replacement Strobe Lamp",cat:"Alarm",cost:25.00},
     {pn:"RL-101ANT",desc:"Wireless H2S Head w/ Articulating Antenna",cat:"Detection",cost:1300.00},
     {pn:"RL-101",desc:"Wireless H2S Head",cat:"Detection",cost:1218.20},
-    {pn:"RL-LAHLESS",desc:"Wireless Loud Ass Horn (AC Voltage)",cat:"Alarm",cost:1245.40},
-    {pn:"RL-8CH",desc:"Wireless 8 CH Monitor",cat:"Alarm",cost:1913.32},
+    {pn:"RL-LAHLESS",desc:"Wireless Loud Ass Horn (AC Voltage)",cat:"Alarm",cost:1245.40,tmin:1},
+    {pn:"RL-8CH",desc:"Wireless 8 CH Monitor",cat:"Alarm",cost:1913.32,tmin:1},
     {pn:"RL-2.4GULF",desc:"Radio for External Antenna",cat:"Communications",cost:125.24},
     {pn:"RL-LAHPB",desc:"LAH Power Board",cat:"Electronics",cost:353.10},
     {pn:"RL-BATTWS",desc:"Battery Pack w/ Wire Snap",cat:"Power",cost:12.00},
@@ -1180,9 +1180,31 @@
     {pn:"RL-4CHPB",desc:"4 Channel Power Board",cat:"Electronics",cost:396.58},
     {pn:"RL-4CHTC",desc:"4 Channel Top Card",cat:"Electronics",cost:257.42},
     {pn:"RL-KGS701",desc:"Replacement LEL Sensor",cat:"Detection",cost:173.93},
-    {pn:"RL-101M-IR",desc:"Wireless Infrared LEL Assembly w/ Omni Antenna",cat:"Detection",cost:1864.50}
+    {pn:"RL-101M-IR",desc:"Wireless Infrared LEL Assembly w/ Omni Antenna",cat:"Detection",cost:1864.50},
+    {pn:"",desc:"Windsock",cat:"Site / Safety",cost:0,tmin:4},
+    {pn:"",desc:"SCBA (breathing apparatus)",cat:"Safety",cost:0,tmin:2},
+    {pn:"",desc:"Zip ties",cat:"Consumables",cost:0,tmin:1},
+    {pn:"",desc:"Electrical tape",cat:"Consumables",cost:0,tmin:1}
   ];
-  function seedCatalog(){var out=[];for(var i=0;i<CATALOG_SEED.length;i++){var s=CATALOG_SEED[i];out.push({id:"seed-"+(i+1),pn:s.pn,desc:s.desc,cat:s.cat,cost:s.cost,shopQty:0,truckQty:0,shopMin:0,truckMin:0});}return out;}
+  function seedCatalog(){var out=[];for(var i=0;i<CATALOG_SEED.length;i++){var s=CATALOG_SEED[i];out.push({id:"seed-"+(i+1),pn:s.pn,desc:s.desc,cat:s.cat,cost:s.cost,shopQty:0,truckQty:0,shopMin:s.smin||0,truckMin:s.tmin||0});}return out;}
+  function applyCatalogSeed(){
+    var CAT_VER=2; // bump when CATALOG_SEED changes; merge pushes updates to devices that already loaded
+    var raw=null;try{raw=localStorage.getItem("redline_catalog_v1");}catch(e){}
+    if(raw===null){setCatalog(seedCatalog());try{localStorage.setItem("redline_catalog_ver",String(CAT_VER));}catch(e){}return;}
+    var stored=1;try{stored=parseInt(localStorage.getItem("redline_catalog_ver")||"1",10)||1;}catch(e){}
+    if(stored>=CAT_VER)return;
+    var cur=getCatalog(),byKey={};
+    cur.forEach(function(x){var k=String(x.pn||x.desc||"").toLowerCase();if(k)byKey[k]=x;});
+    seedCatalog().forEach(function(s){
+      var k=String(s.pn||s.desc||"").toLowerCase();var ex=byKey[k];
+      if(!ex){cur.push(s);byKey[k]=s;}                                   // add new items (keeps existing qtys elsewhere)
+      else{ex.desc=s.desc;ex.cat=s.cat;ex.cost=s.cost;                   // refresh metadata from seed
+        if(!(ex.shopMin>0))ex.shopMin=s.shopMin||0;                      // set standard min only where unset (don't clobber a tech's edit)
+        if(!(ex.truckMin>0))ex.truckMin=s.truckMin||0;}
+    });
+    setCatalog(cur);
+    try{localStorage.setItem("redline_catalog_ver",String(CAT_VER));}catch(e){}
+  }
   function money(n){n=Number(n)||0;return "$"+n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g,",");}
   function lowFlag(it){return (it.shopMin>0&&(it.shopQty||0)<=it.shopMin)||(it.truckMin>0&&(it.truckQty||0)<=it.truckMin);}
   function reorderCount(){return getCatalog().filter(lowFlag).length;}
@@ -1586,7 +1608,7 @@
   function toast(msg){var t=el("toast");t.textContent=msg;t.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(function(){t.classList.remove("show");},2200);}
 
   /* ---------- init ---------- */
-  if(localStorage.getItem("redline_catalog_v1")===null){try{localStorage.setItem("redline_catalog_v1",JSON.stringify(seedCatalog()));}catch(e){}}
+  applyCatalogSeed();
   refreshPartsCount();refreshHistCount();refreshIssueCount();refreshInvCount();
 })();
 </script>
