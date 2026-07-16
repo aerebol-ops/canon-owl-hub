@@ -366,6 +366,16 @@
   .minsub{font-size:12.5px;color:var(--muted);font-weight:600}
   .mininput{width:58px;padding:6px 8px;text-align:center;font-weight:700;font-variant-numeric:tabular-nums;font-family:inherit;font-size:14px;color:var(--ink);background:var(--panel-2);border:1px solid var(--line-strong);border-radius:8px}
   .mininput:focus{outline:2px solid var(--navy-2);border-color:var(--navy-2)}
+
+  /* ---------- rig map / routes ---------- */
+  a.btn{text-decoration:none;display:inline-flex;align-items:center;justify-content:center}
+  .mapwrap{border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:12px;box-shadow:var(--shadow);background:var(--panel-2)}
+  .mapwrap iframe{display:block;width:100%;height:280px;border:0}
+  .rigcard{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--navy);border-radius:12px;box-shadow:var(--shadow);padding:12px 14px;margin-bottom:10px;display:flex;flex-direction:column;gap:2px}
+  .rigcard .rignm{font-weight:700;font-size:15px;line-height:1.2}
+  .rigcard .rigco{font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums;margin-top:2px}
+  .rigcard .rigdir{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.45}
+  .rigcard a.btn,.rigcard .btn{align-self:flex-start;margin-top:9px}
 </style>
 
 <div class="topbar">
@@ -741,6 +751,7 @@
       sub:"Fill this out for the day before you leave the shop. The one page on the windshield.",
       header:[{k:"tech",label:"Technician",type:"text",ph:"Alex"},{k:"cycle",label:"Cycle / day",type:"select",opts:["Cycle A — Mon South","Cycle A — Tue West","Cycle B — Thu South","Cycle B — Fri West"]},{k:"date",label:"Date",type:"date"},{k:"timein",label:"Time in",type:"time"},{k:"timeout",label:"Time out",type:"time"}],
       blocks:[
+        {type:"rigmap"},
         {type:"repeat",title:"Rigs on today's route",addLabel:"Add a rig",legend:"Status: G = all good · R = repaired on site · P = parts on order · E = escalated · NV = not visited",cols:[{k:"rig",label:"Rig / Location",type:"text"},{k:"arrive",label:"Arrive",type:"time"},{k:"depart",label:"Depart",type:"time"},{k:"status",label:"Status",type:"select",opts:["G — all good","R — repaired on site","P — parts on order","E — escalated","NV — not visited"]},{k:"def",label:"Deficiencies found (→ Wed order list)",type:"area"}]},
         {type:"check",title:"End-of-day close-out",vl:"Notes",items:["Every rig on the card has a status code and an arrive/depart time","Every deficiency is written on the Wednesday order list","Every fault has a before photo (and an after photo if repaired)","Reliability Log page updated for every rig visited","Truck restocked for tomorrow from the reliability cabinet","Any escalation called in per Part 9 — not left on paper"]}
       ]},
@@ -1001,6 +1012,7 @@
     var num=0;
     CUR.blocks.forEach(function(b,bi){
       if(b.type==="note"){host.appendChild(noteBlock(b));return;}
+      if(b.type==="rigmap"){host.appendChild(rigMapBlock());return;}
       if(b.type==="sign"){host.appendChild(signBlock(b,bi));return;}
       num++;
       if(b.type==="check")host.appendChild(checkBlock(b,bi,num));
@@ -1147,6 +1159,85 @@
     downloadCsv(rows,fname);
   }
   el("histExport").onclick=function(){exportRecords(getDone(),"redline_all_records_"+todayISO()+".csv");};
+
+  /* ================= RIG MAP / ROUTES ================= */
+  var WEST_LNG=-102.6; // rigs west of this (toward Jal/NM) => Route B; east/south => Route A
+  var RIG_SEED=[
+    {name:"Ensign 57",lat:32.28146042,lng:-101.4682981},
+    {name:"H&P 632",lat:31.890039,lng:-101.605192},
+    {name:"H&P 312",lat:null,lng:null,dir:"From the intersection of HWY 33 and HWY 158 in Garden City, go west on HWY 158 for 9 miles. Turn right on lease road and follow for 6 miles. Turn right on lease road and follow for 12 miles. Turn left thru white cattleguard and turn back right on lease road for 0.9 mile. Turn right thru new cattleguard then back left on lease road to location."},
+    {name:"H&P 376",lat:31.258117,lng:-101.794925},
+    {name:"H&P 438",lat:32.1372649,lng:-103.3510856},
+    {name:"H&P 628",lat:32.1372649,lng:-103.3510856}
+  ];
+  function getRigs(){try{return JSON.parse(localStorage.getItem("redline_rigs_v1"))||[];}catch(e){return [];}}
+  function setRigs(a){try{localStorage.setItem("redline_rigs_v1",JSON.stringify(a));}catch(e){}}
+  function seedRigs(){return RIG_SEED.map(function(s,i){return {id:"rig-"+(i+1),name:s.name,lat:(s.lat==null?null:s.lat),lng:(s.lng==null?null:s.lng),dir:s.dir||"",route:""};});}
+  function applyRigSeed(){var raw=null;try{raw=localStorage.getItem("redline_rigs_v1");}catch(e){}if(raw===null){setRigs(seedRigs());try{localStorage.setItem("redline_rigs_ver","1");}catch(e){}}}
+  function routeOf(r){if(r.route==="A"||r.route==="B")return r.route;if(r.lng!=null)return (r.lng<=WEST_LNG?"B":"A");return "A";}
+  function rigsForRoute(rt){return getRigs().filter(function(r){return routeOf(r)===rt;});}
+  function updateRig(id,fn){var a=getRigs();for(var i=0;i<a.length;i++){if(a[i].id===id){fn(a[i]);break;}}setRigs(a);}
+  function gmapsNavOne(r){return "https://www.google.com/maps/dir/?api=1&destination="+r.lat+","+r.lng+"&travelmode=driving";}
+  function gmapsRoute(rigs){if(!rigs.length)return "#";if(rigs.length===1)return gmapsNavOne(rigs[0]);var dest=rigs[rigs.length-1];var wp=rigs.slice(0,-1).map(function(r){return r.lat+","+r.lng;}).join("|");return "https://www.google.com/maps/dir/?api=1&destination="+dest.lat+","+dest.lng+(wp?("&waypoints="+encodeURIComponent(wp)):"")+"&travelmode=driving";}
+  function gmapsEmbed(rigs){if(rigs.length===1)return "https://maps.google.com/maps?q="+rigs[0].lat+","+rigs[0].lng+"&z=11&output=embed";var saddr=rigs[0].lat+","+rigs[0].lng;var daddr=rigs.slice(1).map(function(r){return r.lat+","+r.lng;}).join(" to:");return "https://maps.google.com/maps?saddr="+encodeURIComponent(saddr)+"&daddr="+encodeURIComponent(daddr)+"&output=embed";}
+
+  var routeTab="A";
+  function rigMapBlock(){
+    var det=document.createElement("details");det.className="section";det.open=true;
+    det.innerHTML='<summary><span class="num" style="background:var(--navy)">📍</span><span>Rig Map &amp; Routes</span><span class="meta"><span class="caret">›</span></span></summary>';
+    var host=document.createElement("div");host.className="fieldbody";det.appendChild(host);
+    var tabs=document.createElement("div");tabs.className="filterbtns";
+    tabs.innerHTML='<button data-rt="A" class="'+(routeTab==="A"?"on":"")+'">Route A · South ('+rigsForRoute("A").length+')</button><button data-rt="B" class="'+(routeTab==="B"?"on":"")+'">Route B · Jal/NM ('+rigsForRoute("B").length+')</button>';
+    host.appendChild(tabs);
+    var body=document.createElement("div");host.appendChild(body);
+    tabs.querySelectorAll("[data-rt]").forEach(function(b){b.onclick=function(){routeTab=b.getAttribute("data-rt");tabs.querySelectorAll("[data-rt]").forEach(function(x){x.classList.toggle("on",x===b);});renderRigMapBody(body);};});
+    renderRigMapBody(body);
+    return det;
+  }
+  function renderRigMapBody(body){
+    body.innerHTML="";
+    var rigs=rigsForRoute(routeTab);
+    var withCoords=rigs.filter(function(r){return r.lat!=null&&r.lng!=null;});
+    var tb=document.createElement("div");tb.className="toolbar";tb.style.margin="12px 0";
+    tb.innerHTML=(withCoords.length?('<a class="btn primary" target="_blank" rel="noopener" href="'+gmapsRoute(withCoords)+'">🧭 Drive full route</a>'):'')+'<button class="btn" id="rigEdit">✎ Edit rigs / GPS</button>';
+    body.appendChild(tb);
+    if(withCoords.length){
+      var mw=document.createElement("div");mw.className="mapwrap";
+      var ifr=document.createElement("iframe");ifr.src=gmapsEmbed(withCoords);ifr.setAttribute("loading","lazy");ifr.setAttribute("title","Route "+routeTab+" map");
+      mw.appendChild(ifr);body.appendChild(mw);
+    }
+    if(!rigs.length){var e=document.createElement("div");e.className="parts-empty";e.textContent="No rigs on this route yet.";body.appendChild(e);}
+    rigs.forEach(function(r){
+      var card=document.createElement("div");card.className="rigcard";
+      var html='<div class="rignm">'+esc(r.name)+'</div>';
+      if(r.lat!=null&&r.lng!=null)html+='<div class="rigco">'+Number(r.lat).toFixed(5)+', '+Number(r.lng).toFixed(5)+'</div>';
+      else html+='<div class="rigco" style="color:var(--warn)">No GPS yet</div>';
+      if(r.dir)html+='<div class="rigdir">'+esc(r.dir)+'</div>';
+      card.innerHTML=html;
+      if(r.lat!=null&&r.lng!=null){var a=document.createElement("a");a.className="btn primary";a.target="_blank";a.rel="noopener";a.href=gmapsNavOne(r);a.textContent="🧭 Navigate";card.appendChild(a);}
+      body.appendChild(card);
+    });
+    el("rigEdit").onclick=function(){renderRigEditor(body);};
+  }
+  function renderRigEditor(body){
+    body.innerHTML="";
+    var note=document.createElement("p");note.className="hint";note.style.margin="12px 0 10px";note.innerHTML="Update a rig's GPS when it moves — routes re-sort automatically (west toward Jal/NM = Route B). Set <b>Route</b> to override.";body.appendChild(note);
+    getRigs().forEach(function(r){
+      var c=document.createElement("div");c.className="rigcard";
+      c.appendChild(fieldWrap("Rig name",mkCtrl("text",r.name,function(v){updateRig(r.id,function(x){x.name=v;});})));
+      var g=document.createElement("div");g.className="grid2";
+      g.appendChild(fieldWrap("Latitude",mkCtrl("text",(r.lat==null?"":String(r.lat)),function(v){updateRig(r.id,function(x){x.lat=(v.trim()===""?null:parseFloat(v));});},{ph:"32.12345"})));
+      g.appendChild(fieldWrap("Longitude",mkCtrl("text",(r.lng==null?"":String(r.lng)),function(v){updateRig(r.id,function(x){x.lng=(v.trim()===""?null:parseFloat(v));});},{ph:"-101.12345"})));
+      c.appendChild(g);
+      var sel=document.createElement("select");[["","Auto (by location) → "+routeOf(r)],["A","Route A · South"],["B","Route B · Jal/NM"]].forEach(function(o){var op=document.createElement("option");op.value=o[0];op.textContent=o[1];sel.appendChild(op);});sel.value=r.route||"";sel.onchange=function(){updateRig(r.id,function(x){x.route=sel.value;});};
+      c.appendChild(fieldWrap("Route",sel));
+      c.appendChild(fieldWrap("Directions (if no GPS)",mkCtrl("area",r.dir||"",function(v){updateRig(r.id,function(x){x.dir=v;});})));
+      var del=document.createElement("button");del.className="btn";del.style.cssText="align-self:flex-start;margin-top:9px;border-color:var(--fault);color:var(--fault)";del.textContent="Delete rig";del.onclick=function(){if(!confirm("Delete "+r.name+"?"))return;setRigs(getRigs().filter(function(x){return x.id!==r.id;}));renderRigEditor(body);};
+      c.appendChild(del);body.appendChild(c);
+    });
+    var add=document.createElement("button");add.className="addrow";add.type="button";add.textContent="＋ Add a rig";add.onclick=function(){var a=getRigs();a.push({id:"rig-"+Date.now(),name:"New rig",lat:null,lng:null,dir:"",route:""});setRigs(a);renderRigEditor(body);};body.appendChild(add);
+    var done=document.createElement("button");done.className="btn primary";done.style.marginTop="10px";done.textContent="Done";done.onclick=function(){renderRigMapBody(body);};body.appendChild(done);
+  }
 
   /* ================= INVENTORY ================= */
   function getCatalog(){try{return JSON.parse(localStorage.getItem("redline_catalog_v1"))||[];}catch(e){return [];}}
@@ -1608,7 +1699,7 @@
   function toast(msg){var t=el("toast");t.textContent=msg;t.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(function(){t.classList.remove("show");},2200);}
 
   /* ---------- init ---------- */
-  applyCatalogSeed();
+  applyCatalogSeed();applyRigSeed();
   refreshPartsCount();refreshHistCount();refreshIssueCount();refreshInvCount();
 })();
 </script>
