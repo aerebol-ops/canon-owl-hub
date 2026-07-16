@@ -2495,23 +2495,6 @@ const DATA = {
       "psms": "Energy Isolation · Wk 1"
     }
   ],
-  "presidentMessage": {
-    "author": "Matt Croom",
-    "title": "President, Canon Safety",
-    "date": "July 1, 2026",
-    "cadence": "Monthly",
-    "body": [
-      "Canon Safety has been in this business since 1987. That is 39 years — and next year we hit 40. I do not say that to pat ourselves on the back. I say it because longevity in the oilfield service business is not given. It is ground out, job by job, decision by decision, over decades. The last eight to ten years in particular have been a period of progressive, consistent growth — and I am not willing to take a single day of that for granted.",
-      "This is a hard business. And we are hard people. Gritty. We do the right thing when nobody is looking, we show up when conditions are not ideal, and we hold a standard that does not bend based on who is watching. That is not a slogan — that is what has kept this company alive and growing for going on four decades. The consistency we provide and the effort we put in every day is what earns the level of success we have seen. It is built.",
-      "And because of that foundation, right now we are in one of those years where we cannot keep up with the opportunity. The work is here. The clients trust us. Being on the roster in a year like this — when something special is happening — is a moment worth recognizing. These windows open and close, sometimes outside of our control. But we put ourselves in position to be here. You put us in position.",
-      "I just want you to feel what you are a part of. Not just this year, but what 39 years of doing it right actually looks like. That is you. Do not let this moment pass without appreciating it. This is a special year — and you are the reason it is."
-    ],
-    "marketPulse": [
-      "WTI range-bound through summer — operators underwriting long-term inventory at $60–65/bbl; Permian breakevens remain competitive across the basin",
-      "ExxonMobil / Pioneer integration in full execution — higher compliance expectations and more work for trusted service partners in the Delaware and Midland",
-      "Natural gas recovering on LNG export demand; associated gas economics improving for Permian operators and supporting activity levels through year-end"
-    ]
-  },
   "owlWeeks": [
     {
       "week": 5,
@@ -3308,29 +3291,49 @@ ${recogHtml}
   }
 }
 
-// ── PRESIDENT'S MESSAGE ────────────────────────────────────
-function renderPresidentMessage() {
+// ── WORLD OIL & GAS NEWS ───────────────────────────────────
+// Renders current world oil & gas headlines from oilnews.json (refreshed by
+// the fetch-news GitHub Action; trusted outlets only, Reuters first).
+async function loadOilGasNews() {
   const el = document.getElementById('pres-message-card');
-  const pm = DATA.presidentMessage;
-  if (!el || !pm) return;
-  el.innerHTML = `
-    <div class="pres-card">
-      <div class="pres-header">
-        <div class="pres-eyebrow">President&#8217;s Message</div>
-        <div class="pres-author">${pm.author}</div>
-        <div class="pres-title-line">${pm.title}</div>
-        <div class="pres-date-badge">${pm.date}</div>
+  if (!el) return;
+  try {
+    const res = await fetch('oilnews.json?_=' + Date.now());
+    const d = await res.json();
+    if (!d.items || !d.items.length) throw new Error('empty');
+    const updated = new Date(d.updated).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    el.innerHTML = `
+      <div class="pres-card">
+        <div class="pres-header">
+          <div class="pres-eyebrow">World Oil &amp; Gas News</div>
+          <div class="pres-author">Daily Industry Briefing</div>
+          <div class="pres-title-line">Top headlines from trusted sources</div>
+          <div class="pres-date-badge">Updated ${updated}</div>
+        </div>
+        <div class="pres-pulse" style="margin-top:0;">
+          ${d.items.map(n => `
+            <div class="pres-pulse-item">
+              <a href="${n.url}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">
+                <strong>${n.title}</strong>
+              </a>
+              <span style="display:block;font-size:12px;opacity:0.75;margin-top:2px;">${n.source} &middot; ${n.published}</span>
+            </div>`).join('')}
+        </div>
       </div>
-      <div class="pres-body">
-        ${pm.body.map(p => `<div class="pres-para">${p}</div>`).join('')}
+    `;
+  } catch (e) {
+    el.innerHTML = `
+      <div class="pres-card">
+        <div class="pres-header">
+          <div class="pres-eyebrow">World Oil &amp; Gas News</div>
+          <div class="pres-title-line">Live headlines unavailable</div>
+        </div>
+        <div class="pres-pulse" style="margin-top:0;">
+          <div class="pres-pulse-item"><a href="https://www.reuters.com/business/energy/" target="_blank" rel="noopener" style="color:inherit;">Reuters Energy &rarr;</a></div>
+        </div>
       </div>
-      <div class="pres-pulse">
-        <div class="pres-pulse-label">Market Pulse</div>
-        ${pm.marketPulse.map(item => `<div class="pres-pulse-item">${item}</div>`).join('')}
-      </div>
-      <div class="pres-sig">&#8212; ${pm.author}</div>
-    </div>
-  `;
+    `;
+  }
 }
 
 // ── STATS ──────────────────────────────────────────────────
@@ -3806,7 +3809,7 @@ renderTemplate().then(() => { updateStats(); renderNews(); renderCompliance(_dai
 renderWeekCards();
 renderLog();
 renderBreakroom();
-renderPresidentMessage();
+loadOilGasNews();
 renderSafetyCompliance();
 </script>
 </body>
