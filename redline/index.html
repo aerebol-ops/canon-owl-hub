@@ -1217,7 +1217,7 @@
       if(r.lat!=null&&r.lng!=null){var a=document.createElement("a");a.className="btn primary";a.target="_blank";a.rel="noopener";a.href=gmapsNavOne(r);a.textContent="🧭 Navigate";card.appendChild(a);}
       body.appendChild(card);
     });
-    el("rigEdit").onclick=function(){renderRigEditor(body);};
+    tb.querySelector("#rigEdit").onclick=function(){renderRigEditor(body);};
   }
   function renderRigEditor(body){
     body.innerHTML="";
