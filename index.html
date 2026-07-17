@@ -2861,13 +2861,19 @@ async function renderTemplate() {
 
   const openingMsg   = daily && daily.openingMessage   ? daily.openingMessage   : `The field doesn't care how your morning started. It cares whether you're ready. Let's make sure we are.`;
   const openingAttr  = daily && daily.openingAttribution ? `<div style="font-size:11px; color:var(--muted); margin-top:6px; font-style:italic;">— ${daily.openingAttribution}</div>` : '';
+  const openingWhy   = daily && daily.openingWhy ? daily.openingWhy : '';
 
   const sections = [
     {
       num: '1',
       title: 'Opening Message',
       color: 'var(--navy)',
-      body: `<div class="opening-option selected" onclick="selectOpening(this)">${openingMsg}</div>${openingAttr}`
+      body: `<div class="opening-option selected" onclick="selectOpening(this)">${openingMsg}</div>${openingAttr}
+             ${openingWhy ? `
+             <div style="margin-top:12px;">
+               <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--navy);margin-bottom:6px;">The Why — Ground It in Something Real</div>
+               <div class="runsheet-scenario" style="border-color:var(--navy); background:#f0f4ff;">${openingWhy}</div>
+             </div>` : ''}`
     },
     {
       num: '2',
@@ -3093,6 +3099,7 @@ function shareMeetingSummary() {
   // Section data — mirrors the exact sections array in renderTemplate()
   const opening   = d ? d.openingMessage    : "The field doesn't care how your morning started. It cares whether you're ready. Let's make sure we are.";
   const attr      = d && d.openingAttribution ? d.openingAttribution : null;
+  const openWhy   = d && d.openingWhy ? d.openingWhy : null;
   // Scenario workshop — ALL scenarios for the weekly topic, paired with questions
   const _scens = w.fieldScenarios || [];
   const _qs    = w.discussionQuestions || [];
@@ -3165,6 +3172,7 @@ function shareMeetingSummary() {
   </div>
   <div class="box quote">${opening}</div>
   ${attr ? `<div class="attr">— ${attr}</div>` : ''}
+  ${openWhy ? `<p class="label" style="margin-top:8px;">The Why — Ground It in Something Real</p><div class="box" style="border-color:#1b2a4a; background:#f0f4ff;">${openWhy}</div>` : ''}
 </div>
 
 <div class="section">
