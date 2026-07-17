@@ -1865,8 +1865,11 @@
 
 <!-- ═══════════════════════════════════════════════ NEWS ═══ -->
 <div id="page-news" class="page">
-  <p class="section-label" style="margin-top:20px;">From the Field</p>
-  <p style="font-size:13px; color:var(--muted); margin-bottom:16px; margin-top:-8px;">Real situations from your crew, recent days. Use these in your meeting — they're already yours.</p>
+  <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:20px;">
+    <p class="section-label" style="margin:0;">From the Field</p>
+    <button class="owl-pdf-btn" onclick="shareFieldNewsPDF()">&#128196; Share PDF</button>
+  </div>
+  <p style="font-size:13px; color:var(--muted); margin-bottom:16px; margin-top:6px;">Real situations from your crew, recent days. Use these in your meeting — they're already yours.</p>
   <div id="news-container"></div>
 </div>
 
@@ -3267,6 +3270,74 @@ function shareMeetingSummary() {
 
   const today = new Date();
   const fileDate = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+
+  sharePdfFromHtml(html);
+}
+
+// ── FIELD NEWS PDF — recognition share for the Breakroom ──
+// Framing goal: the crew sees their OWL forms being read and named. Good
+// calls lead with names; flags follow as watch items. Shared alongside the
+// daily template to build the form-filling habit.
+function shareFieldNewsPDF() {
+  const items = (_daily && _daily.fieldNews && _daily.fieldNews.length) ? _daily.fieldNews : DATA.news;
+  const dateStr = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  const good = items.filter(n => n.type === 'good');
+  const flags = items.filter(n => n.type === 'flag');
+  const clean = s => s ? s.replace(/<(?!\/?(strong|br))[^>]+>/g, '') : '';
+
+  const goodHtml = good.length ? good.map(n => `
+    <div class="card good">
+      <div class="badge">&#9733; GOOD CALL</div>
+      <div class="headline">${clean(n.headline)}</div>
+      ${n.detail ? `<div class="detail">${clean(n.detail)}</div>` : ''}
+      ${n.psms ? `<div class="psms">PSMS: ${n.psms}</div>` : ''}
+    </div>`).join('') : '<div class="none">No good calls logged yet today — first form in could be the one that makes tomorrow\'s edition.</div>';
+
+  const flagHtml = flags.length ? flags.map(n => `
+    <div class="card flag">
+      <div class="badge flagb">&#9888; WATCH ITEM</div>
+      <div class="headline">${clean(n.headline)}</div>
+      ${n.detail ? `<div class="detail">${clean(n.detail)}</div>` : ''}
+      ${n.psms ? `<div class="psms">PSMS: ${n.psms}</div>` : ''}
+    </div>`).join('') : '';
+
+  const html = `<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>Canon Safety — Field News ${dateStr}</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #111; max-width: 700px; margin: 0 auto; padding: 28px 24px; }
+  .masthead { background: #1F3864; color: #fff; padding: 18px 22px; border-radius: 8px; margin-bottom: 8px; }
+  .masthead .eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: #FFD966; margin-bottom: 4px; }
+  .masthead h1 { font-size: 22px; font-weight: 900; }
+  .masthead p { font-size: 12px; opacity: 0.75; margin-top: 3px; }
+  .mission { background: #fff8e8; border: 1px solid #f0e0b0; border-radius: 8px; padding: 10px 14px; margin-bottom: 18px; font-size: 12px; line-height: 1.55; color: #444; }
+  .mission strong { color: #92400e; }
+  .sec { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: #1F3864; margin: 16px 0 8px; }
+  .card { border-radius: 8px; padding: 12px 14px; margin-bottom: 10px; page-break-inside: avoid; }
+  .card.good { background: #fffbee; border-left: 4px solid #BF8F00; }
+  .card.flag { background: #fff5ec; border-left: 4px solid #C55A11; }
+  .badge { font-size: 10px; font-weight: 800; letter-spacing: .08em; color: #92400e; margin-bottom: 4px; }
+  .badge.flagb { color: #C55A11; }
+  .headline { font-size: 14px; font-weight: 800; line-height: 1.4; }
+  .detail { font-size: 12px; color: #555; line-height: 1.55; margin-top: 4px; }
+  .psms { font-size: 11px; color: #999; margin-top: 4px; }
+  .none { font-size: 12px; color: #888; font-style: italic; padding: 10px 0; }
+  .habit { margin-top: 18px; background: #f0f4ff; border: 1px solid #d5e0f5; border-radius: 8px; padding: 12px 14px; font-size: 12px; line-height: 1.6; page-break-inside: avoid; }
+  .habit strong { color: #1F3864; }
+  .pdf-footer { margin-top: 24px; padding-top: 10px; border-top: 1px solid #ddd; font-size: 11px; color: #aaa; text-align: center; }
+</style></head><body>
+<div class="masthead">
+  <div class="eyebrow">&#9733; Canon Safety &middot; OWL Program &middot; From the Field</div>
+  <h1>Field News</h1>
+  <p>${dateStr} &nbsp;&middot;&nbsp; Pulled straight from your OWL forms</p>
+</div>
+<div class="mission"><strong>Every form gets read.</strong> The names below made Field News because they wrote down what they saw. What you turn in tonight could be what the whole group reads tomorrow.</div>
+<div class="sec">&#9733; Good Calls — Named and Noted</div>
+${goodHtml}
+${flagHtml ? `<div class="sec">&#9888; Watch Items</div>${flagHtml}` : ''}
+<div class="habit"><strong>How to get on this page:</strong> fill out the OWL form — every job, every day. Say what you observed, what went well, and the one thing you'd do better. The details you write are the details we share. Forms in by end of shift make the next morning's edition.</div>
+<div class="pdf-footer">Canon Safety &middot; OWL Leadership Program &middot; Field News &middot; Share to the Breakroom</div>
+</body></html>`;
 
   sharePdfFromHtml(html);
 }
