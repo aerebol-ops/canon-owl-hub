@@ -5,6 +5,200 @@
   "openingMessage": "In leadership, there are no words more important than trust.",
   "openingAttribution": "Mike Krzyzewski",
   "openingWhy": "When you write 0 ppm on a form, the next crew opens that line without re-testing — your signature is their gas test. Fudge one reading and every number you've ever signed becomes a question. There's no re-cal for a hand nobody trusts.",
+  "formCounts": [
+    {
+      "name": "Raymundo Solis",
+      "count": 40
+    },
+    {
+      "name": "Stefanie Kirschke",
+      "count": 32
+    },
+    {
+      "name": "David Hammond",
+      "count": 29
+    },
+    {
+      "name": "Nathan Contreras",
+      "count": 29
+    },
+    {
+      "name": "Joseph Popillion",
+      "count": 23
+    },
+    {
+      "name": "Gage Gonzales",
+      "count": 22
+    },
+    {
+      "name": "Caleb Smith",
+      "count": 21
+    },
+    {
+      "name": "Ralph Forbes",
+      "count": 21
+    },
+    {
+      "name": "David Jose Zamora",
+      "count": 20
+    },
+    {
+      "name": "Jacob Hernandez",
+      "count": 20
+    },
+    {
+      "name": "Marylou Guerra",
+      "count": 20
+    },
+    {
+      "name": "Andrew Bailey",
+      "count": 19
+    },
+    {
+      "name": "Robert Wright",
+      "count": 19
+    },
+    {
+      "name": "Dermont Morgan",
+      "count": 18
+    },
+    {
+      "name": "Jordan Lemmons",
+      "count": 18
+    },
+    {
+      "name": "Larry Jaramillo",
+      "count": 18
+    },
+    {
+      "name": "Cindy Smith",
+      "count": 17
+    },
+    {
+      "name": "Gary Briones",
+      "count": 17
+    },
+    {
+      "name": "Justin Fontenot",
+      "count": 17
+    },
+    {
+      "name": "Alfredo Vaquera",
+      "count": 15
+    },
+    {
+      "name": "Edward Carrillo",
+      "count": 15
+    },
+    {
+      "name": "Rolando Flores",
+      "count": 15
+    },
+    {
+      "name": "Anthony Scott",
+      "count": 14
+    },
+    {
+      "name": "Brianda Sandoval",
+      "count": 14
+    },
+    {
+      "name": "Baldemar Bracamontes",
+      "count": 13
+    },
+    {
+      "name": "James Stephens",
+      "count": 13
+    },
+    {
+      "name": "Luis Zarate",
+      "count": 13
+    },
+    {
+      "name": "Jaques Faulk",
+      "count": 11
+    },
+    {
+      "name": "Jaquez Faulk",
+      "count": 11
+    },
+    {
+      "name": "Dawson Drake",
+      "count": 9
+    },
+    {
+      "name": "Marcos Morales",
+      "count": 9
+    },
+    {
+      "name": "Jimmy White",
+      "count": 8
+    },
+    {
+      "name": "Anthony Scott 1099",
+      "count": 7
+    },
+    {
+      "name": "Christian Lee",
+      "count": 6
+    },
+    {
+      "name": "Kyle Williams",
+      "count": 6
+    },
+    {
+      "name": "Alexander Clubb",
+      "count": 5
+    },
+    {
+      "name": "Bobby Galindo",
+      "count": 5
+    },
+    {
+      "name": "Trevor Mckenzie",
+      "count": 5
+    },
+    {
+      "name": "Allen White",
+      "count": 4
+    },
+    {
+      "name": "John Blasingame",
+      "count": 4
+    },
+    {
+      "name": "Kelby Hammer Training",
+      "count": 4
+    },
+    {
+      "name": "Adam Holt",
+      "count": 3
+    },
+    {
+      "name": "Barthol Bj Caesar",
+      "count": 3
+    },
+    {
+      "name": "Joshua Blassingame",
+      "count": 3
+    },
+    {
+      "name": "Daniel Medrano",
+      "count": 2
+    },
+    {
+      "name": "Justin Pack",
+      "count": 2
+    },
+    {
+      "name": "Jeremy Torrence",
+      "count": 1
+    },
+    {
+      "name": "Michael Jobe",
+      "count": 1
+    }
+  ],
   "leadershipThought": "You are not just doing a job. You are building the next generation of people who will do this safely. That is what it means to be an Owl.",
   "opsDate": "2026-07-01",
   "opsContent": "<strong>Active Jobs (2026-07-01):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
@@ -13,33 +207,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Rolando Flores: Well needed to be aired out — Everyone communicating and on the same page",
-      "detail": "OWL after-action review — Glass Ranch B#202H",
-      "psms": null
+      "headline": "Jimmy White — Job steps were discussed in pre job safety meeting",
+      "detail": "Job steps were discussed in pre job safety meeting.",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke: Observed disconnect operations with continuous atmospheric monitoring. All personnel — Continuous gas monitoring was maintained, communication between crews was effect",
-      "detail": "OWL after-action review — field",
-      "psms": null
+      "headline": "Cindy Smith — Crew worked efficiently and expedited project in a timely and safe manner",
+      "detail": "Crew worked efficiently and expedited project in a timely and safe manner",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis: Communication was a key factor and went well",
-      "detail": "OWL after-action review — Gailan #1",
-      "psms": null
+      "headline": "Daniel Medrano — Great communication between the person in charge and Canon and the crews on",
+      "detail": "Did we leave the location better.",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Alexander Clubb: Containment was broken the correct way with air on, AGT was done by us under air",
-      "detail": "OWL after-action review — Cowden 39-03 W Unit",
-      "psms": null
+      "headline": "Larry Jaramillo — The communication barrier was eliminated due to everyone on location spoke",
+      "detail": "The communication barrier was eliminated due to everyone on location spoke both English",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Brianda Sandoval: crew had to disconnect flow lines for workover rigs. — the crew was quick and efficient. Also, looking out for uncertainties.",
-      "detail": "OWL after-action review — McAlister 33E #5H/ExxonMobil",
-      "psms": null
+      "headline": "Ralph Forbes — LMRS used when verifying if valves were bleed off correctly",
+      "detail": "LMRS used when verifying if valves were bleed off correctly. They were not and had",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
