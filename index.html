@@ -10,7 +10,8 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Canon Safety — Owl Leader Hub</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
 <style>
   :root {
     --navy: #1F3864;
@@ -3038,7 +3039,7 @@ function _printFallback(html) {
 
 let _pdfBusy = false;
 async function sharePdfFromHtml(html) {
-  if (typeof html2pdf === 'undefined') { _printFallback(html); return; }
+  if (typeof html2canvas === 'undefined' || typeof window.jspdf === 'undefined') { _printFallback(html); return; }
   if (_pdfBusy) return;  // ignore double-taps while a PDF is building
   _pdfBusy = true;
   // Filename from the document title, e.g. "Canon_Safety-Morning_Meeting.pdf"
@@ -3049,22 +3050,65 @@ async function sharePdfFromHtml(html) {
     .replace(/[^\w\- ]+/g, '')
     .trim().replace(/\s+/g, '_')
     .slice(0, 60) || 'Canon_OWL') + '.pdf';
-  // Render the document in a hidden same-origin iframe so its styles don't
-  // leak into the hub page, then rasterize that into a paginated PDF.
+  // Render the document in an invisible same-origin iframe (kept INSIDE the
+  // viewport — off-screen iframes rasterize blank on some devices), then
+  // capture it with html2canvas and paginate the bitmap into a jsPDF letter doc.
   const iframe = document.createElement('iframe');
-  iframe.style.cssText = 'position:fixed;left:-10000px;top:0;width:800px;height:1100px;border:0;';
+  iframe.style.cssText = 'position:fixed;top:0;left:0;width:800px;height:1100px;border:0;opacity:0;pointer-events:none;z-index:-1;';
   document.body.appendChild(iframe);
   try {
-    const loaded = new Promise(res => { iframe.onload = res; setTimeout(res, 2500); });
+    const loaded = new Promise(res => { iframe.onload = res; setTimeout(res, 3000); });
     iframe.srcdoc = html;
     await loaded;
-    const blob = await html2pdf().set({
-      margin: [10, 8, 12, 8],
-      image: { type: 'jpeg', quality: 0.95 },
-      html2canvas: { scale: 2, useCORS: true, windowWidth: 800 },
-      jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
-      pagebreak: { mode: ['css', 'legacy'] }
-    }).from(iframe.contentDocument.body).outputPdf('blob');
+    const idoc = iframe.contentDocument;
+    // Wait for fonts + a beat for layout. Plain timeouts only — rAF never
+    // fires in a backgrounded tab and would hang this forever.
+    try {
+      if (idoc.fonts && idoc.fonts.ready) {
+        await Promise.race([idoc.fonts.ready, new Promise(r => setTimeout(r, 1500))]);
+      }
+    } catch (e) {}
+    await new Promise(r => setTimeout(r, 300));
+    // Grow the iframe to the full content height so nothing is clipped
+    const fullH = Math.max(idoc.body.scrollHeight, idoc.documentElement.scrollHeight);
+    iframe.style.height = (fullH + 40) + 'px';
+    await new Promise(r => setTimeout(r, 120));
+    const canvas = await html2canvas(idoc.body, {
+      scale: 2, useCORS: true, backgroundColor: '#ffffff',
+      windowWidth: 800, width: 800, height: fullH
+    });
+    // Blank-page guard: sample pixels — if the capture came out white, don't
+    // ship an empty PDF; drop to the print window instead.
+    const sctx = canvas.getContext('2d');
+    let nonWhite = 0, samples = 0;
+    for (let y = 0; y < canvas.height; y += 40) {
+      const row = sctx.getImageData(0, y, canvas.width, 1).data;
+      for (let x = 0; x < row.length; x += 160) {  // every 40th px
+        samples++;
+        if (row[x] < 245 || row[x+1] < 245 || row[x+2] < 245) nonWhite++;
+      }
+    }
+    if (!samples || nonWhite / samples < 0.002) throw new Error('blank capture');
+    // Paginate the tall canvas into US-letter pages
+    const { jsPDF } = window.jspdf;
+    const pdf = new jsPDF({ unit: 'mm', format: 'letter', orientation: 'portrait' });
+    const pageWmm = 215.9, pageHmm = 279.4, margin = 8;
+    const imgWmm = pageWmm - margin * 2;
+    const pageContentHmm = pageHmm - margin * 2;
+    const pxPerMm = canvas.width / imgWmm;
+    const pageHpx = Math.floor(pageContentHmm * pxPerMm);
+    let y = 0, pageNum = 0;
+    while (y < canvas.height) {
+      const sliceH = Math.min(pageHpx, canvas.height - y);
+      const slice = document.createElement('canvas');
+      slice.width = canvas.width; slice.height = sliceH;
+      slice.getContext('2d').drawImage(canvas, 0, y, canvas.width, sliceH, 0, 0, canvas.width, sliceH);
+      if (pageNum > 0) pdf.addPage();
+      pdf.addImage(slice.toDataURL('image/jpeg', 0.92), 'JPEG', margin, margin, imgWmm, sliceH / pxPerMm);
+      y += sliceH; pageNum++;
+    }
+    const blob = pdf.output('blob');
+    window.__lastPdfDebug = { pages: pageNum, canvasH: canvas.height, inkRatio: +(nonWhite / samples).toFixed(4) };
     const file = new File([blob], filename, { type: 'application/pdf' });
     // Mobile: native share sheet → text message, Breakroom, email, etc.
     if (navigator.canShare && navigator.canShare({ files: [file] })) {
