@@ -8,22 +8,30 @@
   "formCounts": [
     {
       "name": "Raymundo Solis",
-      "count": 40
+      "count": 44
+    },
+    {
+      "name": "Nathan Contreras",
+      "count": 35
+    },
+    {
+      "name": "David Hammond",
+      "count": 34
     },
     {
       "name": "Stefanie Kirschke",
       "count": 32
     },
     {
-      "name": "David Hammond",
-      "count": 29
-    },
-    {
-      "name": "Nathan Contreras",
-      "count": 29
-    },
-    {
       "name": "Joseph Popillion",
+      "count": 23
+    },
+    {
+      "name": "Justin Fontenot",
+      "count": 23
+    },
+    {
+      "name": "Ralph Forbes",
       "count": 23
     },
     {
@@ -31,12 +39,24 @@
       "count": 22
     },
     {
+      "name": "Larry Jaramillo",
+      "count": 22
+    },
+    {
       "name": "Caleb Smith",
       "count": 21
     },
     {
-      "name": "Ralph Forbes",
+      "name": "Jordan Lemmons",
       "count": 21
+    },
+    {
+      "name": "Marylou Guerra",
+      "count": 21
+    },
+    {
+      "name": "Baldemar Bracamontes",
+      "count": 20
     },
     {
       "name": "David Jose Zamora",
@@ -47,11 +67,15 @@
       "count": 20
     },
     {
-      "name": "Marylou Guerra",
-      "count": 20
+      "name": "Andrew Bailey",
+      "count": 19
     },
     {
-      "name": "Andrew Bailey",
+      "name": "Cindy Smith",
+      "count": 19
+    },
+    {
+      "name": "Dermont Morgan",
       "count": 19
     },
     {
@@ -59,27 +83,15 @@
       "count": 19
     },
     {
-      "name": "Dermont Morgan",
+      "name": "Anthony Scott",
       "count": 18
     },
     {
-      "name": "Jordan Lemmons",
+      "name": "Rolando Flores",
       "count": 18
-    },
-    {
-      "name": "Larry Jaramillo",
-      "count": 18
-    },
-    {
-      "name": "Cindy Smith",
-      "count": 17
     },
     {
       "name": "Gary Briones",
-      "count": 17
-    },
-    {
-      "name": "Justin Fontenot",
       "count": 17
     },
     {
@@ -91,20 +103,8 @@
       "count": 15
     },
     {
-      "name": "Rolando Flores",
-      "count": 15
-    },
-    {
-      "name": "Anthony Scott",
-      "count": 14
-    },
-    {
       "name": "Brianda Sandoval",
       "count": 14
-    },
-    {
-      "name": "Baldemar Bracamontes",
-      "count": 13
     },
     {
       "name": "James Stephens",
@@ -115,6 +115,18 @@
       "count": 13
     },
     {
+      "name": "Dawson Drake",
+      "count": 12
+    },
+    {
+      "name": "Jimmy White",
+      "count": 12
+    },
+    {
+      "name": "Christian Lee",
+      "count": 11
+    },
+    {
       "name": "Jaques Faulk",
       "count": 11
     },
@@ -123,23 +135,27 @@
       "count": 11
     },
     {
-      "name": "Dawson Drake",
-      "count": 9
-    },
-    {
       "name": "Marcos Morales",
       "count": 9
-    },
-    {
-      "name": "Jimmy White",
-      "count": 8
     },
     {
       "name": "Anthony Scott 1099",
       "count": 7
     },
     {
-      "name": "Christian Lee",
+      "name": "Trevor Mckenzie",
+      "count": 7
+    },
+    {
+      "name": "Alexander Clubb",
+      "count": 6
+    },
+    {
+      "name": "Bobby Galindo",
+      "count": 6
+    },
+    {
+      "name": "Daniel Medrano",
       "count": 6
     },
     {
@@ -147,19 +163,15 @@
       "count": 6
     },
     {
-      "name": "Alexander Clubb",
-      "count": 5
-    },
-    {
-      "name": "Bobby Galindo",
-      "count": 5
-    },
-    {
-      "name": "Trevor Mckenzie",
-      "count": 5
-    },
-    {
       "name": "Allen White",
+      "count": 4
+    },
+    {
+      "name": "Barthol Bj Caesar",
+      "count": 4
+    },
+    {
+      "name": "Gael Antonio Avila",
       "count": 4
     },
     {
@@ -175,16 +187,12 @@
       "count": 3
     },
     {
-      "name": "Barthol Bj Caesar",
+      "name": "Jeremy Norris",
       "count": 3
     },
     {
       "name": "Joshua Blassingame",
       "count": 3
-    },
-    {
-      "name": "Daniel Medrano",
-      "count": 2
     },
     {
       "name": "Justin Pack",
@@ -203,36 +211,36 @@
   "opsDate": "2026-07-01",
   "opsContent": "<strong>Active Jobs (2026-07-01):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Continuous gas monitoring was maintained, communication with the crew was e</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continuous gas monitoring was maintained, communication with the crew was effective,</span><br><br><strong>Containment was broken the correct way with air on, AGT was done by us unde</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Containment was broken the correct way with air on, AGT was done by us under air.</span><br><br><strong>Observed stuffing box replacement with continuous atmospheric monitoring</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Observed stuffing box replacement with continuous atmospheric monitoring. The crew</span><br><br><strong>MT was extremely positive and understanding when we approached him with our</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Kelby Hammer Training]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>MT was extremely positive and understanding when we approached him with our H2S</span><br><br><strong>Maintained continuous gas monitoring, good communication with the crew, and</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Maintained continuous gas monitoring, good communication with the crew, and completed</span>",
+  "exxonMoments": "<strong>Good communication across the board with all teams on site to complete the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Good communication across the board with all teams on site to complete the job scope</span><br><br><strong>Continuous gas monitoring was maintained, communication with the crew was e</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continuous gas monitoring was maintained, communication with the crew was effective,</span><br><br><strong>Containment was broken the correct way with air on, AGT was done by us unde</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Containment was broken the correct way with air on, AGT was done by us under air.</span><br><br><strong>Observed stuffing box replacement with continuous atmospheric monitoring</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Observed stuffing box replacement with continuous atmospheric monitoring. The crew</span><br><br><strong>MT was extremely positive and understanding when we approached him with our</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Kelby Hammer Training]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>MT was extremely positive and understanding when we approached him with our H2S</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jimmy White — Job steps were discussed in pre job safety meeting",
-      "detail": "Job steps were discussed in pre job safety meeting.",
+      "headline": "Anthony Scott — everything went well and as expected",
+      "detail": "Everything went well and as expected",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Cindy Smith — Crew worked efficiently and expedited project in a timely and safe manner",
-      "detail": "Crew worked efficiently and expedited project in a timely and safe manner",
+      "headline": "Jeremy Norris — Good communication across the board with all teams on site to complete the",
+      "detail": "Good communication across the board with all teams on site to complete the job scope",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "David Hammond — MT was well organized and knowledgeable",
+      "detail": "MT was well organized and knowledgeable",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Daniel Medrano — Great communication between the person in charge and Canon and the crews on",
-      "detail": "Did we leave the location better.",
+      "headline": "Jordan Lemmons — We stopped the job to get a greasing crew out",
+      "detail": "We stopped the job to get a greasing crew out",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo — The communication barrier was eliminated due to everyone on location spoke",
-      "detail": "The communication barrier was eliminated due to everyone on location spoke both English",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Ralph Forbes — LMRS used when verifying if valves were bleed off correctly",
-      "detail": "LMRS used when verifying if valves were bleed off correctly. They were not and had",
+      "headline": "Caleb Smith — Everyone on location performed well on every task",
+      "detail": "Everyone on location performed well on every task.",
       "psms": "Operational Discipline"
     },
     {
