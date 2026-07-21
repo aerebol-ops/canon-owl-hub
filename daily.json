@@ -211,37 +211,37 @@
   "opsDate": "2026-07-01",
   "opsContent": "<strong>Active Jobs (2026-07-01):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Set up for vehicle placement went well with spotters backing them in</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Driving)</span><br><span style='font-size:13px;'>Set up for vehicle placement went well with spotters backing them in</span><br><br><strong>Incomplete OWL Submission — Blank Form</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>A blank form submitted late in the day suggests end-of-shift fatigue is eroding the debrief habit — completing the debrief on-site before leaving is more reliable than submitting it after.</span><br><br><strong>Incomplete OWL Submission — Blank Form</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Blank forms submitted late in the afternoon/evening suggest end-of-day fatigue is a factor in debrief quality — building the debrief into the job closeout on-site is more reliable than completing it later.</span><br><br><strong>Incomplete OWL Submission — Blank Form</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>A blank OWL form in the middle of the workday — not at the start or end of shift — removes the one excuse of fatigue; the debrief habit needs to be anchored regardless of time of day.</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span>",
+  "exxonMoments": "<strong>Set up for vehicle placement went well with spotters backing them in</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Driving)</span><br><span style='font-size:13px;'>Set up for vehicle placement went well with spotters backing them in</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span><br><br><strong>Communication with crew and MT was good talked about potential hazards</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Communication with crew and MT was good talked about potential hazards</span><br><br><strong>Complete the job in a timely manner, but safely and accurately to the MTs n</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Complete the job in a timely manner, but safely and accurately to the MTs needs ans job</span><br><br><strong>Job went smoothly crew used their LMRA before any task being done</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Job went smoothly crew used their LMRA before any task being done</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Gael Antonio Avila — Everything and everyone it's safe",
-      "detail": "Everything and everyone it's safe",
+      "headline": "Kyle Williams — Covered all lSRA and hold points/triggers",
+      "detail": "Covered all lSRA and hold points/triggers",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez — WSM was able to verify our job permits and u derdtanding",
-      "detail": "WSM was able to verify our job permits and u derdtanding",
+      "headline": "Kelby Hammer Training — MT was extremely positive and understanding when we approached him with our",
+      "detail": "MT was extremely positive and understanding when we approached him with our H2S",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Edward Carrillo — First break performed under air, all unessential parties remained outside e",
+      "detail": "Did we leave the location better Yes.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Alfredo Vaquera — Everyone followed all psms in place",
-      "detail": "Everyone followed all psms in place",
-      "psms": "Operational Discipline"
+      "headline": "Justin Pack — When the plant guy offered to bleed off with no airpak",
+      "detail": "When the plant guy offered to bleed off with no airpak . Me and co- men talked I got under",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "good",
-      "headline": "Dawson Drake — The work everyone put in to stay safe",
-      "detail": "The work everyone put in to stay safe",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Gary Briones — Everyone Worked Together & Completed Job Safely",
-      "detail": "Everyone Worked Together & Completed Job Safely",
-      "psms": "Operational Discipline"
+      "headline": "Stefanie Kirschke: Observed reconnect operations with continuous atmospheric monitoring. The crew followed — Continuous gas monitoring was maintained, communication between all crews was",
+      "detail": "OWL after-action review — field",
+      "psms": null
     },
     {
       "type": "flag",
@@ -263,13 +263,13 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 23,
-        "total": 26
+        "done": 25,
+        "total": 28
       },
       {
         "label": "Trailer Inspections",
-        "done": 4,
-        "total": 5
+        "done": 6,
+        "total": 6
       },
       {
         "label": "Trailer Readiness Forms",
