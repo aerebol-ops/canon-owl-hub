@@ -1,69 +1,77 @@
 {
-  "date": "2026-07-16",
-  "week": 5,
-  "day": 4,
-  "openingMessage": "In leadership, there are no words more important than trust.",
+  "date": "2026-07-21",
+  "week": 6,
+  "day": 2,
+  "openingMessage": "If you can't communicate, you can't lead. Communicate everything.",
   "openingAttribution": "Mike Krzyzewski",
-  "openingWhy": "When you write 0 ppm on a form, the next crew opens that line without re-testing — your signature is their gas test. Fudge one reading and every number you've ever signed becomes a question. There's no re-cal for a hand nobody trusts.",
+  "openingWhy": "The day crew knew the line still had pressure on it. The night crew didn't. Everything that lives between those two sentences is a hospital visit. Say it early, say it plain, write it in the handover — information that doesn't move is how good crews hurt each other.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
-      "count": 44
+      "count": 50
     },
     {
       "name": "Nathan Contreras",
-      "count": 35
+      "count": 41
     },
     {
       "name": "David Hammond",
-      "count": 34
+      "count": 37
     },
     {
       "name": "Stefanie Kirschke",
       "count": 32
     },
     {
+      "name": "Ralph Forbes",
+      "count": 28
+    },
+    {
+      "name": "Justin Fontenot",
+      "count": 26
+    },
+    {
+      "name": "Jordan Lemmons",
+      "count": 25
+    },
+    {
+      "name": "Larry Jaramillo",
+      "count": 25
+    },
+    {
+      "name": "Rolando Flores",
+      "count": 24
+    },
+    {
+      "name": "Cindy Smith",
+      "count": 23
+    },
+    {
       "name": "Joseph Popillion",
       "count": 23
     },
     {
-      "name": "Justin Fontenot",
+      "name": "Marylou Guerra",
       "count": 23
     },
     {
-      "name": "Ralph Forbes",
-      "count": 23
+      "name": "Baldemar Bracamontes",
+      "count": 22
+    },
+    {
+      "name": "Caleb Smith",
+      "count": 22
     },
     {
       "name": "Gage Gonzales",
       "count": 22
     },
     {
-      "name": "Larry Jaramillo",
+      "name": "Jacob Hernandez",
       "count": 22
     },
     {
-      "name": "Caleb Smith",
-      "count": 21
-    },
-    {
-      "name": "Jordan Lemmons",
-      "count": 21
-    },
-    {
-      "name": "Marylou Guerra",
-      "count": 21
-    },
-    {
-      "name": "Baldemar Bracamontes",
-      "count": 20
-    },
-    {
       "name": "David Jose Zamora",
-      "count": 20
-    },
-    {
-      "name": "Jacob Hernandez",
       "count": 20
     },
     {
@@ -71,7 +79,7 @@
       "count": 19
     },
     {
-      "name": "Cindy Smith",
+      "name": "Anthony Scott",
       "count": 19
     },
     {
@@ -81,14 +89,6 @@
     {
       "name": "Robert Wright",
       "count": 19
-    },
-    {
-      "name": "Anthony Scott",
-      "count": 18
-    },
-    {
-      "name": "Rolando Flores",
-      "count": 18
     },
     {
       "name": "Gary Briones",
@@ -107,6 +107,18 @@
       "count": 14
     },
     {
+      "name": "Jaques Faulk",
+      "count": 14
+    },
+    {
+      "name": "Jimmy White",
+      "count": 14
+    },
+    {
+      "name": "Dawson Drake",
+      "count": 13
+    },
+    {
       "name": "James Stephens",
       "count": 13
     },
@@ -115,24 +127,16 @@
       "count": 13
     },
     {
-      "name": "Dawson Drake",
-      "count": 12
-    },
-    {
-      "name": "Jimmy White",
-      "count": 12
-    },
-    {
       "name": "Christian Lee",
-      "count": 11
-    },
-    {
-      "name": "Jaques Faulk",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Jaquez Faulk",
       "count": 11
+    },
+    {
+      "name": "Jeremy Norris",
+      "count": 9
     },
     {
       "name": "Marcos Morales",
@@ -140,6 +144,14 @@
     },
     {
       "name": "Anthony Scott 1099",
+      "count": 7
+    },
+    {
+      "name": "Barthol Bj Caesar",
+      "count": 7
+    },
+    {
+      "name": "Gael Antonio Avila",
       "count": 7
     },
     {
@@ -167,14 +179,6 @@
       "count": 4
     },
     {
-      "name": "Barthol Bj Caesar",
-      "count": 4
-    },
-    {
-      "name": "Gael Antonio Avila",
-      "count": 4
-    },
-    {
       "name": "John Blasingame",
       "count": 4
     },
@@ -184,10 +188,6 @@
     },
     {
       "name": "Adam Holt",
-      "count": 3
-    },
-    {
-      "name": "Jeremy Norris",
       "count": 3
     },
     {
@@ -207,40 +207,40 @@
       "count": 1
     }
   ],
-  "leadershipThought": "You are not just doing a job. You are building the next generation of people who will do this safely. That is what it means to be an Owl.",
+  "leadershipThought": "The most dangerous driver on the road is the one who has driven that route fifty times. Familiarity turns your eyes off. Awareness means driving mile 50 like it's mile 1 — because the deer, the hotshot truck, and the washout don't care how well you know the road.",
   "opsDate": "2026-07-01",
   "opsContent": "<strong>Active Jobs (2026-07-01):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Good communication across the board with all teams on site to complete the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Good communication across the board with all teams on site to complete the job scope</span><br><br><strong>Continuous gas monitoring was maintained, communication with the crew was e</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continuous gas monitoring was maintained, communication with the crew was effective,</span><br><br><strong>Containment was broken the correct way with air on, AGT was done by us unde</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Containment was broken the correct way with air on, AGT was done by us under air.</span><br><br><strong>Observed stuffing box replacement with continuous atmospheric monitoring</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Observed stuffing box replacement with continuous atmospheric monitoring. The crew</span><br><br><strong>MT was extremely positive and understanding when we approached him with our</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Kelby Hammer Training]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>MT was extremely positive and understanding when we approached him with our H2S</span>",
+  "exxonMoments": "<strong>Set up for vehicle placement went well with spotters backing them in</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Driving)</span><br><span style='font-size:13px;'>Set up for vehicle placement went well with spotters backing them in</span><br><br><strong>Incomplete OWL Submission — Blank Form</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>A blank form submitted late in the day suggests end-of-shift fatigue is eroding the debrief habit — completing the debrief on-site before leaving is more reliable than submitting it after.</span><br><br><strong>Incomplete OWL Submission — Blank Form</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Blank forms submitted late in the afternoon/evening suggest end-of-day fatigue is a factor in debrief quality — building the debrief into the job closeout on-site is more reliable than completing it later.</span><br><br><strong>Incomplete OWL Submission — Blank Form</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>A blank OWL form in the middle of the workday — not at the start or end of shift — removes the one excuse of fatigue; the debrief habit needs to be anchored regardless of time of day.</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Anthony Scott — everything went well and as expected",
-      "detail": "Everything went well and as expected",
+      "headline": "Gael Antonio Avila — Everything and everyone it's safe",
+      "detail": "Everything and everyone it's safe",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — Good communication across the board with all teams on site to complete the",
-      "detail": "Good communication across the board with all teams on site to complete the job scope",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "David Hammond — MT was well organized and knowledgeable",
-      "detail": "MT was well organized and knowledgeable",
+      "headline": "Jacob Hernandez — WSM was able to verify our job permits and u derdtanding",
+      "detail": "WSM was able to verify our job permits and u derdtanding",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons — We stopped the job to get a greasing crew out",
-      "detail": "We stopped the job to get a greasing crew out",
+      "headline": "Alfredo Vaquera — Everyone followed all psms in place",
+      "detail": "Everyone followed all psms in place",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Caleb Smith — Everyone on location performed well on every task",
-      "detail": "Everyone on location performed well on every task.",
+      "headline": "Dawson Drake — The work everyone put in to stay safe",
+      "detail": "The work everyone put in to stay safe",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Gary Briones — Everyone Worked Together & Completed Job Safely",
+      "detail": "Everyone Worked Together & Completed Job Safely",
       "psms": "Operational Discipline"
     },
     {
@@ -256,27 +256,27 @@
       "psms": "Driving · Wk 6"
     }
   ],
-  "todaysChallenge": "If the numbers say stop today, stop — even if the whole location is waiting on you. That call takes courage once. It builds a reputation forever.",
-  "todaysChallengeSubtext": "“Courage and confidence are what decision making is all about.” — Mike Krzyzewski",
+  "todaysChallenge": "The best hand on location can't watch every line. Today, make one deliberate hand-off: tell the next person exactly what you checked and what you're not sure of.",
+  "todaysChallengeSubtext": "“Talent wins games, but teamwork and intelligence win championships.” — Michael Jordan",
   "compliance": {
-    "weekOf": "Week of July 13, 2026",
+    "weekOf": "Week of July 20, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 152,
-        "total": 172
+        "done": 23,
+        "total": 26
       },
       {
         "label": "Trailer Inspections",
-        "done": 33,
-        "total": 41
+        "done": 4,
+        "total": 5
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 20,
-        "total": 28
+        "done": 3,
+        "total": 3
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 07/15"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 07/20"
   }
 }
