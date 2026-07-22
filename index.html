@@ -5,7 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Owl Hub">
+<meta name="apple-mobile-web-app-title" content="Canon Safety">
+<meta name="theme-color" content="#1F3864">
+<link rel="manifest" href="./manifest.json">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
@@ -1688,6 +1692,7 @@
     <button onclick="showPage('template', this)">Daily Template</button>
     <button onclick="showPage('submit', this)">Submit Review</button>
     <button onclick="showPage('safetycomp', this)">Safety Compliance</button>
+    <button onclick="showPage('payroll', this)">Payroll &amp; Benefits</button>
   </nav>
 </header>
 
@@ -1849,13 +1854,13 @@
     <span class="dl-sub">Tap a week to expand standards and discussion questions</span>
   </button>
 
-  <button class="dl-btn" onclick="showPage('template', document.querySelectorAll('nav button')[4])" style="background:var(--red);">
+  <button class="dl-btn" onclick="showPage('template', document.querySelectorAll('nav button')[5])" style="background:var(--red);">
     <span class="dl-icon">📄</span>
     Today's Meeting Runsheet
     <span class="dl-sub">Pre-built agenda — open this before your 5:30 AM meeting</span>
   </button>
 
-  <button class="dl-btn" onclick="showPage('submit', document.querySelectorAll('nav button')[5])" style="background:var(--teal);">
+  <button class="dl-btn" onclick="showPage('submit', document.querySelectorAll('nav button')[6])" style="background:var(--teal);">
     <span class="dl-icon">✏️</span>
     Submit Your Week Review
     <span class="dl-sub">Submit an Owl review anytime → goes directly to Mike</span>
@@ -1962,6 +1967,94 @@
 <!-- ══════════════════════════════════ SAFETY COMPLIANCE ═══ -->
 <div id="page-safetycomp" class="page">
   <div id="sc-content"></div>
+</div>
+
+<!-- ── PAYROLL & BENEFITS ── -->
+<div id="page-payroll" class="page">
+  <div class="section-label">Employee Resources</div>
+
+  <div style="background:var(--navy); color:#fff; border-radius:var(--radius); padding:18px; box-shadow:var(--shadow); margin-bottom:14px;">
+    <div style="font-size:19px; font-weight:800; margin-bottom:6px;">Payroll &amp; Benefits</div>
+    <div style="font-size:14px; opacity:0.92; line-height:1.55;">
+      One place for pay, insurance, and who to call. <strong>No personal pay or benefits information lives on this site</strong> —
+      the links below take you to secure portals where you log in with your own account.
+    </div>
+  </div>
+
+  <!-- PAYROLL -->
+  <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:18px; margin-bottom:14px;">
+    <div style="font-size:16px; font-weight:800; color:var(--navy); margin-bottom:12px;">💵 Payroll</div>
+    <a id="payroll-portal-link" href="#" onclick="return payrollPlaceholder(this)"
+       style="display:block; text-align:center; background:var(--navy); color:#fff; border:2px solid var(--gold); border-radius:8px; padding:13px; font-weight:700; text-decoration:none; margin-bottom:12px;">
+      🔐 Open Payroll Portal
+    </a>
+    <div style="border:1.5px dashed var(--gold); background:#fffbf0; border-radius:8px; padding:10px 12px; font-size:13px; color:#7a5c00; margin-bottom:12px;">
+      <strong>SETUP NEEDED:</strong> send Mike the payroll portal link and it gets wired in here.
+    </div>
+    <div style="font-size:14px; line-height:1.7;">
+      <strong>Pay schedule:</strong> <span style="color:var(--muted);">[weekly / bi-weekly — confirm with office]</span><br>
+      <strong>Payroll contact:</strong> <span style="color:var(--muted);">[name · phone · email]</span>
+    </div>
+    <div style="margin-top:12px; border-top:1px solid var(--border); padding-top:12px; font-size:13.5px; line-height:1.7; color:#333;">
+      <strong style="color:var(--navy);">Common questions:</strong><br>
+      • <strong>Change direct deposit / address:</strong> contact payroll — never text account numbers<br>
+      • <strong>Pay stub or hours question:</strong> check the portal first, then call payroll<br>
+      • <strong>W-2 copies:</strong> available in the portal each January
+    </div>
+  </div>
+
+  <!-- INSURANCE & BENEFITS -->
+  <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:18px; margin-bottom:14px;">
+    <div style="font-size:16px; font-weight:800; color:var(--navy); margin-bottom:12px;">🛡️ Insurance &amp; Benefits</div>
+    <div style="font-size:14px; line-height:1.9;">
+      <strong>Medical:</strong> <span style="color:var(--muted);">[carrier · member services phone]</span><br>
+      <strong>Dental / Vision:</strong> <span style="color:var(--muted);">[carrier · member services phone]</span><br>
+      <strong>Life / Disability:</strong> <span style="color:var(--muted);">[carrier]</span><br>
+      <strong>401(k) / Retirement:</strong> <span style="color:var(--muted);">[provider · portal]</span>
+    </div>
+    <div style="border:1.5px dashed var(--gold); background:#fffbf0; border-radius:8px; padding:10px 12px; font-size:13px; color:#7a5c00; margin:12px 0;">
+      <strong>SETUP NEEDED:</strong> carriers, member-services numbers, and enrollment dates go here.
+    </div>
+    <div style="font-size:13.5px; line-height:1.7; color:#333;">
+      • Your <strong>insurance ID cards</strong> live in your carrier's app or portal — download them to your phone<br>
+      • <strong>Open enrollment:</strong> <span style="color:var(--muted);">[dates]</span> — this is the once-a-year window to change plans<br>
+      • <strong>New hires:</strong> benefits eligibility starts <span style="color:var(--muted);">[after X days]</span>
+    </div>
+  </div>
+
+  <!-- WORK INJURY -->
+  <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:18px; margin-bottom:14px; border-left:5px solid var(--red);">
+    <div style="font-size:16px; font-weight:800; color:var(--red); margin-bottom:10px;">🚑 Hurt on the job?</div>
+    <div style="font-size:14px; line-height:1.8;">
+      1. Get medical attention — <strong>call 911 first if it's serious</strong><br>
+      2. Tell your supervisor <strong>immediately</strong> — same shift, no exceptions<br>
+      3. The office starts the workers' comp report — you never pay out of pocket for a work injury<br>
+      4. Every injury, however small, goes on an OWL form — that's how the next hand avoids it
+    </div>
+  </div>
+
+  <!-- KEY CONTACTS -->
+  <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:18px; margin-bottom:14px;">
+    <div style="font-size:16px; font-weight:800; color:var(--navy); margin-bottom:12px;">📞 Key Contacts</div>
+    <div style="font-size:14px; line-height:2.0;">
+      <strong>Safety / OWL Program:</strong> <span style="color:var(--muted);">[name · phone]</span><br>
+      <strong>Dispatch:</strong> <span style="color:var(--muted);">[phone]</span><br>
+      <strong>HR / Office:</strong> <span style="color:var(--muted);">[name · phone]</span><br>
+      <strong>Payroll:</strong> <span style="color:var(--muted);">[name · phone]</span>
+    </div>
+  </div>
+
+  <!-- INSTALL THE APP -->
+  <div style="background:linear-gradient(135deg, var(--navy), #2a4a80); color:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:18px; margin-bottom:14px;">
+    <div style="font-size:16px; font-weight:800; margin-bottom:10px;">📲 Put this app on your phone</div>
+    <div style="font-size:14px; line-height:1.8;">
+      <strong style="color:var(--gold);">iPhone:</strong> open this page in Safari → tap the Share button → <strong>Add to Home Screen</strong><br>
+      <strong style="color:var(--gold);">Android:</strong> open in Chrome → tap ⋮ menu → <strong>Add to Home screen</strong> (or "Install app")
+    </div>
+    <div style="font-size:13px; opacity:0.85; margin-top:10px;">
+      It installs with the Canon owl icon, works like a regular app, and updates itself — nothing to download from an app store.
+    </div>
+  </div>
 </div>
 
 <footer>
@@ -3773,6 +3866,21 @@ function showPage(name, btn) {
   document.getElementById('page-' + name).classList.add('active');
   if (btn) btn.classList.add('active');
   window.scrollTo(0, 0);
+}
+
+// ── PAYROLL PLACEHOLDER LINK ───────────────────────────────
+// Once the real portal URL is set on #payroll-portal-link's href, this no-ops.
+function payrollPlaceholder(a) {
+  if (a.getAttribute('href') && a.getAttribute('href') !== '#') return true;
+  alert('Payroll portal link not set up yet — ask Mike, or use the payroll contact below.');
+  return false;
+}
+
+// ── PWA SERVICE WORKER ─────────────────────────────────────
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  });
 }
 
 // ── FORM SUBMISSION ────────────────────────────────────────
