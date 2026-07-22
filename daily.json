@@ -215,33 +215,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Kyle Williams — Covered all lSRA and hold points/triggers",
-      "detail": "Covered all lSRA and hold points/triggers",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Kelby Hammer Training — MT was extremely positive and understanding when we approached him with our",
-      "detail": "MT was extremely positive and understanding when we approached him with our H2S",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Edward Carrillo — First break performed under air, all unessential parties remained outside e",
-      "detail": "Did we leave the location better Yes.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Justin Pack — When the plant guy offered to bleed off with no airpak",
-      "detail": "When the plant guy offered to bleed off with no airpak . Me and co- men talked I got under",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke: Observed reconnect operations with continuous atmospheric monitoring. The crew followed — Continuous gas monitoring was maintained, communication between all crews was",
-      "detail": "OWL after-action review — field",
+      "headline": "Rolando Flores: Tested and no gasses coming out",
+      "detail": "OWL after-action review — Stanton A #1",
       "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Raymundo Solis: SimOps - while doing our task there was a tank clean out at the tank battery job had to be — Communication between crew from both task was very important and well done",
+      "detail": "OWL after-action review — Gailan #2",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris — Complete the job in a timely manner, but safely and accurately to the MTs n",
+      "detail": "Complete the job in a timely manner, but safely and accurately to the MTs needs ans job",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Ralph Forbes — Noticed leaks when bleeding down",
+      "detail": "Noticed leaks when bleeding down. Stop the job.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Cindy Smith — Crew worked well despite heavy rain",
+      "detail": "Did we leave the location better.",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
@@ -263,18 +263,18 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 25,
-        "total": 28
+        "done": 48,
+        "total": 52
       },
       {
         "label": "Trailer Inspections",
-        "done": 6,
-        "total": 6
+        "done": 12,
+        "total": 12
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 3,
-        "total": 3
+        "done": 8,
+        "total": 8
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Mon 07/20"
