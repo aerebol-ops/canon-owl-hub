@@ -691,5 +691,21 @@ p{margin:0 0 1rem;}
 
 
 </main>
+
+<!-- Back-to-Hub pill: shown ONLY when the brochure is viewed as its own page on
+     the hub site. Hidden in print/PDF, in the hub's iframe preview, and when
+     opened from the local file system. -->
+<a id="hub-back" href="../" aria-label="Back to the Owl Hub"
+   style="display:none;position:fixed;bottom:18px;right:18px;z-index:9999;background:#1F3864;color:#fff;border:2px solid #BF8F00;border-radius:999px;padding:12px 20px;font-family:Bahnschrift,'Segoe UI',sans-serif;font-size:15px;font-weight:700;letter-spacing:.02em;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,0.35);">
+  &#8592; Back to the Hub</a>
+<style>@media print{#hub-back{display:none !important;}}</style>
+<script>
+(function(){
+  var inIframe = window.self !== window.top;
+  if (!inIframe && location.protocol !== 'file:') {
+    document.getElementById('hub-back').style.display = 'inline-block';
+  }
+})();
+</script>
 </body>
 </html>
