@@ -3360,7 +3360,8 @@ async function shareBrochurePDF(btn) {
   btn.innerHTML = '⏳ Getting the PDF ready…';
   btn.disabled = true;
   try {
-    const resp = await fetch('./brochure/Canon-Safety-2026-Brochure.pdf');
+    // Share the lite version (~1.8MB) so it fits carrier MMS limits when texted
+    const resp = await fetch('./brochure/Canon-Safety-2026-Brochure-lite.pdf');
     if (!resp.ok) throw new Error('PDF fetch failed: ' + resp.status);
     const blob = await resp.blob();
     const file = new File([blob], 'Canon-Safety-2026-Brochure.pdf', { type: 'application/pdf' });
@@ -3374,12 +3375,11 @@ async function shareBrochurePDF(btn) {
         // otherwise fall through to a plain download
       }
     }
-    // Desktop (or share unavailable): download the .pdf file
-    const url = URL.createObjectURL(blob);
+    // Desktop (or share unavailable): download the full-quality .pdf instead
     const a = document.createElement('a');
-    a.href = url; a.download = 'Canon-Safety-2026-Brochure.pdf';
+    a.href = './brochure/Canon-Safety-2026-Brochure.pdf';
+    a.download = 'Canon-Safety-2026-Brochure.pdf';
     document.body.appendChild(a); a.click(); a.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 10000);
   } catch (e) {
     window.open('./brochure/Canon-Safety-2026-Brochure.pdf', '_blank', 'noopener');
   } finally {
