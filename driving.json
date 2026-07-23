@@ -1,0 +1,168 @@
+{
+  "source": "BARCO fleet telematics \u2014 Events Log Report",
+  "period": "2026-07-16 to 2026-07-23",
+  "generated": "2026-07-23",
+  "eventType": "Speeding over posted-limit threshold",
+  "totalEvents": 278,
+  "vehicles": 13,
+  "byDay": [
+    {
+      "label": "Thu",
+      "date": "7/16",
+      "n": 73
+    },
+    {
+      "label": "Fri",
+      "date": "7/17",
+      "n": 60
+    },
+    {
+      "label": "Sat",
+      "date": "7/18",
+      "n": 35
+    },
+    {
+      "label": "Sun",
+      "date": "7/19",
+      "n": 39
+    },
+    {
+      "label": "Mon",
+      "date": "7/20",
+      "n": 22
+    },
+    {
+      "label": "Tue",
+      "date": "7/21",
+      "n": 44
+    },
+    {
+      "label": "Wed",
+      "date": "7/22",
+      "n": 5
+    }
+  ],
+  "drivers": [
+    {
+      "rank": 1,
+      "name": "Nathan Contreras",
+      "events": 62,
+      "maxSpeed": 83.9,
+      "avgOver": 3.2
+    },
+    {
+      "rank": 2,
+      "name": "Daniel Medrano",
+      "events": 56,
+      "maxSpeed": 89.5,
+      "avgOver": 5.4
+    },
+    {
+      "rank": 3,
+      "name": "Larry Jaramillo",
+      "events": 55,
+      "maxSpeed": 79.5,
+      "avgOver": 2.4
+    },
+    {
+      "rank": 4,
+      "name": "David Hammond",
+      "events": 24,
+      "maxSpeed": 84.4,
+      "avgOver": 4.1
+    },
+    {
+      "rank": 5,
+      "name": "Pool Vehicle (unassigned)",
+      "events": 22,
+      "maxSpeed": 79.5,
+      "avgOver": 2.5
+    },
+    {
+      "rank": 6,
+      "name": "Caleb Smith",
+      "events": 17,
+      "maxSpeed": 82.2,
+      "avgOver": 1.2
+    },
+    {
+      "rank": 7,
+      "name": "Josh Blasingame",
+      "events": 9,
+      "maxSpeed": 89.5,
+      "avgOver": 8.3
+    },
+    {
+      "rank": 8,
+      "name": "Dawson Drake",
+      "events": 9,
+      "maxSpeed": 79.5,
+      "avgOver": 2.4
+    },
+    {
+      "rank": 9,
+      "name": "Jimmy White",
+      "events": 9,
+      "maxSpeed": 77.7,
+      "avgOver": 2.0
+    },
+    {
+      "rank": 10,
+      "name": "Brey Rasco",
+      "events": 8,
+      "maxSpeed": 78.9,
+      "avgOver": 1.9
+    },
+    {
+      "rank": 11,
+      "name": "Stefanie Kirschke",
+      "events": 4,
+      "maxSpeed": 79.5,
+      "avgOver": 3.6
+    },
+    {
+      "rank": 12,
+      "name": "Michael Hutt",
+      "events": 3,
+      "maxSpeed": 80.0,
+      "avgOver": 3.5
+    }
+  ],
+  "topIncidents": [
+    {
+      "name": "Josh Blasingame",
+      "speed": "89.5 mph",
+      "limit": "75 mph",
+      "when": "Sun 7/19 4:10 PM",
+      "where": "W Nm Highway 128, Jal, NM"
+    },
+    {
+      "name": "Daniel Medrano",
+      "speed": "89.5 mph",
+      "limit": "75 mph",
+      "when": "Thu 7/16 2:07 PM",
+      "where": "I-20, Coahoma, TX"
+    },
+    {
+      "name": "David Hammond",
+      "speed": "84.4 mph",
+      "limit": "75 mph",
+      "when": "Fri 7/17 1:32 PM",
+      "where": "SE 3000, Andrews, TX"
+    },
+    {
+      "name": "Nathan Contreras",
+      "speed": "83.9 mph",
+      "limit": "75 mph",
+      "when": "Tue 7/21 5:09 AM",
+      "where": "Ranch Rd 1788, Midland, TX"
+    },
+    {
+      "name": "Caleb Smith",
+      "speed": "82.2 mph",
+      "limit": "75 mph",
+      "when": "Sat 7/18 4:01 PM",
+      "where": "Eunice, NM, US"
+    }
+  ]
+}

@@ -2049,6 +2049,7 @@
 
 <!-- ══════════════════════════════════ SAFETY COMPLIANCE ═══ -->
 <div id="page-safetycomp" class="page">
+  <div id="driving-content"></div>
   <div id="sc-content"></div>
 </div>
 
@@ -4257,6 +4258,108 @@ function rateBg(v) {
   return "#fee2e2";
 }
 
+// ── DRIVING SCORECARD (driving.json — BARCO telematics weekly export) ──
+async function renderDriving() {
+  const el = document.getElementById('driving-content');
+  if (!el) return;
+  let dv;
+  try {
+    const r = await fetch('driving.json?_=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) return;
+    dv = await r.json();
+  } catch (e) { return; }
+  if (!dv || !dv.drivers || !dv.drivers.length) return;
+
+  const maxEvents = dv.drivers[0].events;
+  const maxDay = Math.max(...dv.byDay.map(d => d.n));
+  const first = dv.byDay[0], last = dv.byDay[dv.byDay.length - 1];
+  const worst = dv.byDay.find(d => d.n === maxDay) || first;
+  const rankColor = i => i === 0 ? '#991b1b' : i === 1 ? '#c2410c' : i === 2 ? '#b45309' : '#374151';
+
+  el.innerHTML = `
+  <div style="padding:16px 0 4px;">
+    <div style="font-size:11px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin-bottom:4px;">Week 6 &mdash; Driving &amp; Situational Awareness</div>
+    <div style="font-size:20px;font-weight:900;color:var(--navy);line-height:1.1;">&#128663; Driving Scorecard</div>
+    <div style="font-size:12px;color:var(--muted);margin-top:4px;">${dv.source} &nbsp;&middot;&nbsp; ${dv.period} &nbsp;&middot;&nbsp; ${dv.eventType}</div>
+  </div>
+
+  <!-- HEADLINE STATS -->
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin:14px 0;">
+    <div style="background:#fee2e2;border-radius:10px;padding:12px;">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#991b1b;margin-bottom:6px;">Speeding Events</div>
+      <div style="font-size:30px;font-weight:900;color:#991b1b;line-height:1;">${dv.totalEvents}</div>
+      <div style="font-size:11px;color:#991b1b;margin-top:4px;opacity:.8;">${dv.vehicles} vehicles &middot; 7 days</div>
+    </div>
+    <div style="background:#fef3c7;border-radius:10px;padding:12px;">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#92400e;margin-bottom:6px;">Worst Day</div>
+      <div style="font-size:30px;font-weight:900;color:#92400e;line-height:1;">${maxDay}</div>
+      <div style="font-size:11px;color:#92400e;margin-top:4px;opacity:.8;">${worst.label} ${worst.date}</div>
+    </div>
+    <div style="background:#dcfce7;border-radius:10px;padding:12px;">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#166534;margin-bottom:6px;">Latest Day</div>
+      <div style="font-size:30px;font-weight:900;color:#166534;line-height:1;">${last.n}</div>
+      <div style="font-size:11px;color:#166534;margin-top:4px;opacity:.8;">${last.label} ${last.date} &mdash; keep it going</div>
+    </div>
+  </div>
+
+  <!-- DAILY TREND -->
+  <div style="background:var(--card);border-radius:12px;padding:14px;margin-bottom:14px;">
+    <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:12px;border-bottom:2px solid var(--navy);padding-bottom:4px;">&#128201; Events by Day</div>
+    <div style="display:flex;align-items:flex-end;gap:6px;height:90px;">
+      ${dv.byDay.map(d => {
+        const h = Math.max(4, Math.round(d.n / maxDay * 74));
+        const c = d.n >= maxDay * 0.6 ? '#991b1b' : d.n >= maxDay * 0.25 ? '#b45309' : '#166534';
+        return `<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;">
+          <div style="font-size:10px;font-weight:800;color:${c};">${d.n}</div>
+          <div style="width:100%;height:${h}px;background:${c};border-radius:3px 3px 0 0;"></div>
+          <div style="font-size:9px;color:var(--muted);white-space:nowrap;">${d.label}<br>${d.date}</div>
+        </div>`;
+      }).join('')}
+    </div>
+    <div style="margin-top:10px;font-size:11.5px;color:var(--muted);line-height:1.5;">
+      ${first.n} events on ${first.date} down to ${last.n} on ${last.date}. The trend is the story &mdash; every day this week should look like the right side of this chart.
+    </div>
+  </div>
+
+  <!-- DRIVER RANKING -->
+  <div style="background:var(--card);border-radius:12px;padding:14px;margin-bottom:14px;">
+    <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:10px;border-bottom:2px solid var(--navy);padding-bottom:4px;">&#127937; Ranked &mdash; Events by Driver</div>
+    ${dv.drivers.map((d, i) => {
+      const barW = Math.round(d.events / maxEvents * 100);
+      const c = rankColor(i);
+      return `<div style="margin-bottom:9px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:3px;">
+          <div style="font-size:11.5px;color:var(--text);flex:1;padding-right:8px;"><strong style="color:${c};">#${d.rank}</strong> &nbsp;${d.name}</div>
+          <div style="font-size:10px;color:var(--muted);flex-shrink:0;margin-right:8px;">max ${d.maxSpeed} mph &middot; avg +${d.avgOver} over</div>
+          <div style="font-size:12px;font-weight:800;color:${c};flex-shrink:0;min-width:24px;text-align:right;">${d.events}</div>
+        </div>
+        <div style="height:5px;background:var(--border);border-radius:3px;">
+          <div style="height:5px;background:${c};border-radius:3px;width:${barW}%;"></div>
+        </div>
+      </div>`;
+    }).join('')}
+  </div>
+
+  <!-- TOP INCIDENTS -->
+  <div style="background:var(--card);border-radius:12px;padding:14px;margin-bottom:14px;">
+    <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:10px;border-bottom:2px solid var(--navy);padding-bottom:4px;">&#9888;&#65039; Highest Speeds Recorded</div>
+    ${dv.topIncidents.map(t => `
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:7px 0;border-bottom:1px solid var(--border);">
+      <div style="flex:1;padding-right:8px;">
+        <div style="font-size:11.5px;font-weight:700;color:var(--text);">${t.name}</div>
+        <div style="font-size:10px;color:var(--muted);">${t.when} &middot; ${t.where}</div>
+      </div>
+      <div style="text-align:right;flex-shrink:0;">
+        <div style="font-size:14px;font-weight:900;color:#991b1b;">${t.speed}</div>
+        <div style="font-size:9px;color:var(--muted);">limit ${t.limit}</div>
+      </div>
+    </div>`).join('')}
+    <div style="margin-top:10px;font-size:11.5px;color:var(--muted);line-height:1.5;">
+      Nobody gets to the location faster than the truck in front of them gets there safely. Updated weekly from the fleet telematics report.
+    </div>
+  </div>`;
+}
+
 function renderSafetyCompliance() {
   const maxIssue = SC.issueCategories[0].n;
   const maxMentions = SC.personMentions[0].mentions;
@@ -4452,6 +4555,7 @@ renderLog();
 renderBreakroom();
 loadOilGasNews();
 renderSafetyCompliance();
+renderDriving();
 </script>
 </body>
 </html>
