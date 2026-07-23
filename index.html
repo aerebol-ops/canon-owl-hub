@@ -2069,10 +2069,10 @@
      style="display:block; text-align:center; background:var(--navy); color:#fff; border:2px solid var(--gold); border-radius:8px; padding:13px; font-weight:700; text-decoration:none; margin-bottom:10px;">
     📖 Open the Brochure Full Screen
   </a>
-  <a href="./brochure/Canon-Safety-2026-Brochure.pdf" target="_blank" rel="noopener"
-     style="display:block; text-align:center; background:#fff; color:var(--navy); border:2px solid var(--navy); border-radius:8px; padding:13px; font-weight:700; text-decoration:none; margin-bottom:14px;">
-    📄 Download / Share the PDF
-  </a>
+  <button onclick="shareBrochurePDF(this)"
+     style="display:block; width:100%; text-align:center; background:#fff; color:var(--navy); border:2px solid var(--navy); border-radius:8px; padding:13px; font-size:16px; font-weight:700; cursor:pointer; margin-bottom:14px;">
+    📄 Share the PDF — Text or Email
+  </button>
 
   <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:8px; margin-bottom:14px;">
     <iframe id="brochure-frame" data-src="./brochure/" title="Canon Safety 2026 Brochure"
@@ -3350,6 +3350,42 @@ async function sharePdfFromHtml(html) {
   } finally {
     iframe.remove();
     _pdfBusy = false;
+  }
+}
+
+async function shareBrochurePDF(btn) {
+  if (window.__brochureBusy) return;
+  window.__brochureBusy = true;
+  const orig = btn.innerHTML;
+  btn.innerHTML = '⏳ Getting the PDF ready…';
+  btn.disabled = true;
+  try {
+    const resp = await fetch('./brochure/Canon-Safety-2026-Brochure.pdf');
+    if (!resp.ok) throw new Error('PDF fetch failed: ' + resp.status);
+    const blob = await resp.blob();
+    const file = new File([blob], 'Canon-Safety-2026-Brochure.pdf', { type: 'application/pdf' });
+    // Mobile: native share sheet → text message, email, etc.
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({ files: [file], title: 'Canon Safety 2026 Brochure' });
+        return;
+      } catch (e) {
+        if (e && e.name === 'AbortError') return;  // user closed the share sheet
+        // otherwise fall through to a plain download
+      }
+    }
+    // Desktop (or share unavailable): download the .pdf file
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'Canon-Safety-2026-Brochure.pdf';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+  } catch (e) {
+    window.open('./brochure/Canon-Safety-2026-Brochure.pdf', '_blank', 'noopener');
+  } finally {
+    btn.innerHTML = orig;
+    btn.disabled = false;
+    window.__brochureBusy = false;
   }
 }
 
