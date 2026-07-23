@@ -1693,6 +1693,7 @@
     <button onclick="showPage('submit', this)">Submit Review</button>
     <button onclick="showPage('safetycomp', this)">Safety Compliance</button>
     <button onclick="showPage('payroll', this)">Payroll &amp; Benefits</button>
+    <button onclick="showPage('brochure', this)">Brochure</button>
   </nav>
 </header>
 
@@ -1967,6 +1968,33 @@
 <!-- ══════════════════════════════════ SAFETY COMPLIANCE ═══ -->
 <div id="page-safetycomp" class="page">
   <div id="sc-content"></div>
+</div>
+
+<!-- ── BROCHURE ── -->
+<div id="page-brochure" class="page">
+  <div class="section-label">Canon Safety — 2026 Brochure</div>
+
+  <div style="background:var(--navy); color:#fff; border-radius:var(--radius); padding:18px; box-shadow:var(--shadow); margin-bottom:14px;">
+    <div style="font-size:19px; font-weight:800; margin-bottom:6px;">The Culture, The Data, The People</div>
+    <div style="font-size:14px; opacity:0.92; line-height:1.55;">
+      The 2026 Canon Safety brochure — who we are, the Owl Program, the 12 Life-Saving Rules,
+      and the data behind the standard. Share it with clients or new hands straight from here.
+    </div>
+  </div>
+
+  <a href="./brochure/" target="_blank" rel="noopener"
+     style="display:block; text-align:center; background:var(--navy); color:#fff; border:2px solid var(--gold); border-radius:8px; padding:13px; font-weight:700; text-decoration:none; margin-bottom:10px;">
+    📖 Open the Brochure Full Screen
+  </a>
+  <a href="./brochure/Canon-Safety-2026-Brochure.pdf" target="_blank" rel="noopener"
+     style="display:block; text-align:center; background:#fff; color:var(--navy); border:2px solid var(--navy); border-radius:8px; padding:13px; font-weight:700; text-decoration:none; margin-bottom:14px;">
+    📄 Download / Share the PDF
+  </a>
+
+  <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:8px; margin-bottom:14px;">
+    <iframe id="brochure-frame" data-src="./brochure/" title="Canon Safety 2026 Brochure"
+            style="width:100%; height:75vh; border:0; border-radius:6px; background:#1F3864;"></iframe>
+  </div>
 </div>
 
 <!-- ── PAYROLL & BENEFITS ── -->
@@ -3873,6 +3901,10 @@ function showPage(name, btn) {
   document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
   document.getElementById('page-' + name).classList.add('active');
   if (btn) btn.classList.add('active');
+  if (name === 'brochure') {
+    const bf = document.getElementById('brochure-frame');
+    if (bf && !bf.src) bf.src = bf.dataset.src;
+  }
   window.scrollTo(0, 0);
 }
 

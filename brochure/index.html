@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canon Safety / RHI Group — The Owl Program</title>
+<style>
+/* ============================================================
+   CANON SAFETY / RHI GROUP — CULTURE + COMPLIANCE BROCHURE (v2)
+   Palette aligned to the live Owl Hub. Committed visual world.
+   ============================================================ */
+:root{
+  --navy:#1F3864;
+  --navy-dk:#152848;
+  --teal:#2E75B6;
+  --teal-lt:#5b9bd8;
+  --red:#C00000;
+  --gold:#BF8F00;
+  --gold-lt:#e0b93b;
+  --orange:#C55A11;
+  --paper:#F4F2EC;
+  --paper-2:#E9E6DE;
+  --ink:#161a20;
+  --steel:#5a6472;
+  --steel-lt:#8a93a0;
+  --line:#d8dce3;
+  --white:#fff;
+
+  --disp:"Bahnschrift","DIN Alternate","Oswald","Arial Narrow",system-ui,sans-serif;
+  --body:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --sheet:920px;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:#3c424b;font-family:var(--body);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+
+h1,h2,h3,h4{font-family:var(--disp);font-weight:700;text-wrap:balance;margin:0;line-height:1.02;}
+p{margin:0 0 1rem;}
+.eyebrow{font-family:var(--disp);font-weight:600;text-transform:uppercase;letter-spacing:.28em;font-size:.72rem;color:var(--red);margin:0 0 .6rem;display:flex;align-items:center;gap:.6rem;}
+.eyebrow::before{content:"";width:26px;height:3px;background:var(--red);}
+.eyebrow.gold{color:var(--gold);}
+.eyebrow.gold::before{background:var(--gold);}
+.eyebrow.ondark{color:var(--gold-lt);}
+.eyebrow.ondark::before{background:var(--gold);}
+.lead{font-size:1.06rem;color:#33404f;}
+.muted{color:var(--steel);}
+.tnum{font-variant-numeric:tabular-nums;}
+
+/* owl-eye rule motif */
+.owlrule{display:flex;align-items:center;gap:8px;}
+.owlrule i{width:9px;height:9px;border-radius:50%;border:2px solid var(--gold);display:inline-block;}
+.owlrule span{height:2px;flex:1;background:linear-gradient(90deg,var(--gold),transparent);}
+
+.sheet{width:var(--sheet);max-width:100%;margin:0 auto;background:var(--paper);box-shadow:0 24px 60px rgba(0,0,0,.34);}
+.spread{position:relative;overflow:hidden;height:1190px;display:flex;flex-direction:column;justify-content:flex-start;box-sizing:border-box;}
+.spread.autoh{height:auto;min-height:0;}
+.pad{padding:56px 60px;}
+.pad-lg{padding:52px 60px;}
+.dark{background:var(--navy);color:#e9eef6;}
+.dark h2,.dark h3{color:#fff;}
+.dark .lead{color:#c3cfe2;}
+
+/* ============ OWL EMBLEM (reusable) ============ */
+.owl{display:block;}
+
+/* ============ 1. COVER ============ */
+.cover{background:var(--navy);color:#fff;min-height:1020px;display:flex;flex-direction:column;position:relative;}
+.cover-top{display:flex;justify-content:space-between;align-items:flex-start;padding:42px 58px 0;z-index:3;}
+.logo-plate{display:inline-flex;}
+.logo-plate img{display:block;height:52px;width:auto;opacity:.96;}
+.cover-owl{width:96px;height:96px;color:var(--gold-lt);opacity:.95;}
+.cover-mid{padding:44px 58px 0;z-index:3;}
+.cover-kick{font-family:var(--disp);text-transform:uppercase;letter-spacing:.32em;font-size:.8rem;color:var(--teal-lt);font-weight:600;margin-bottom:22px;}
+.cover-title{font-family:var(--disp);font-weight:700;font-size:clamp(2.9rem,7.2vw,4.35rem);line-height:.94;letter-spacing:.005em;text-transform:uppercase;}
+.cover-title .g{color:var(--gold-lt);}
+.cover-sub{font-family:var(--disp);font-weight:400;letter-spacing:.14em;text-transform:uppercase;font-size:.98rem;color:#c2d1e6;margin-top:24px;max-width:52ch;}
+.cover-photo{position:absolute;left:0;right:0;bottom:0;top:auto;height:64%;z-index:0;margin:0;}
+.cover-photo img{width:100%;height:100%;object-fit:cover;object-position:center bottom;display:block;}
+.cover-photo::before{content:"";position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,var(--navy) 0%,rgba(21,38,72,.45) 22%,rgba(21,38,72,.02) 48%,rgba(21,38,72,.38) 100%);}
+.cover{position:relative;}
+.cover-top,.cover-mid,.cover-foot{position:relative;z-index:3;}
+.cover-foot{margin-top:auto;}
+.cover-foot{position:absolute;left:0;right:0;bottom:0;z-index:4;display:flex;justify-content:space-between;align-items:flex-end;padding:0 58px 30px;}
+.cover-web{font-family:var(--disp);letter-spacing:.12em;font-size:.95rem;color:#fff;}
+.cover-since{font-family:var(--disp);text-align:right;}
+.cover-since .n{font-weight:700;font-size:2.3rem;line-height:.85;color:#fff;}
+.cover-since .l{text-transform:uppercase;letter-spacing:.18em;font-size:.66rem;color:#c2d1e6;}
+.goldbar{height:6px;background:var(--gold);width:100%;}
+
+/* ============ 2. CREED ============ */
+.creed{background:var(--navy-dk);color:#fff;text-align:center;padding:76px 60px;position:relative;overflow:hidden;justify-content:center;}
+.creed .bgphoto{position:absolute;inset:0;z-index:0;}
+.creed .bgphoto img{width:100%;height:100%;object-fit:cover;opacity:.42;object-position:center 35%;}
+.creed .bgphoto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,28,52,.55),rgba(16,28,52,.2) 45%,rgba(16,28,52,.72));}
+.creed .owl,.creed .eyebrow,.creed-lines,.creed-tag{position:relative;z-index:2;}
+.creed .owl{width:64px;height:64px;color:var(--gold-lt);margin:0 auto 22px;}
+.creed .eyebrow{justify-content:center;color:var(--gold-lt);}
+.creed .eyebrow::before{display:none;}
+.creed-lines{font-family:var(--disp);font-weight:700;text-transform:uppercase;letter-spacing:.01em;font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1.28;max-width:20ch;margin:14px auto 0;}
+.creed-lines b{color:var(--gold-lt);font-weight:700;}
+.creed-tag{font-family:var(--disp);text-transform:uppercase;letter-spacing:.16em;font-size:1rem;color:#aebfd8;margin-top:30px;}
+.creed-tag em{color:#fff;font-style:normal;}
+
+/* ============ 3. DATA & COMPLIANCE ============ */
+.sec-head{max-width:64ch;}
+.sec-head h2{font-size:2.3rem;color:var(--navy);margin-bottom:14px;}
+.dash{display:grid;grid-template-columns:.85fr 1.15fr;gap:26px;margin-top:36px;align-items:stretch;}
+.dashcard{background:#fff;border:1px solid var(--line);box-shadow:0 10px 30px rgba(31,56,100,.08);}
+.dash-comp{padding:24px;display:flex;flex-direction:column;}
+.dash-comp .ch{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:18px;}
+.dash-comp .ct{font-family:var(--disp);font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--navy);font-size:.92rem;}
+.dash-comp .cw{font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--steel);}
+.donut-wrap{display:flex;align-items:center;gap:18px;}
+.donut{width:118px;height:118px;flex:none;border-radius:50%;background:conic-gradient(var(--teal) 0 var(--pct,94%),#e7ebf1 var(--pct,94%) 100%);display:flex;align-items:center;justify-content:center;}
+.donut .hole{width:82px;height:82px;border-radius:50%;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.donut .hp{font-family:var(--disp);font-weight:700;font-size:1.7rem;color:var(--navy);line-height:1;}
+.donut .hl{font-size:.6rem;text-transform:uppercase;letter-spacing:.08em;color:var(--steel);}
+.metrics{flex:1;display:flex;flex-direction:column;gap:11px;}
+.metric .ml{display:flex;justify-content:space-between;font-size:.8rem;margin-bottom:4px;}
+.metric .ml b{font-family:var(--disp);color:var(--navy);font-weight:600;}
+.metric .ml span{color:var(--steel);font-variant-numeric:tabular-nums;}
+.bar{height:7px;background:#e7ebf1;border-radius:4px;overflow:hidden;}
+.bar i{display:block;height:100%;background:var(--teal);border-radius:4px;}
+.bar.gold i{background:var(--gold);}
+.bar.red i{background:var(--red);}
+.dash-note{font-size:.66rem;color:var(--steel-lt);margin-top:14px;text-transform:uppercase;letter-spacing:.05em;}
+.proof{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px;}
+.proof figure{margin:0;background:var(--white);border:1px solid var(--line);}
+.proof img{width:100%;height:250px;object-fit:cover;display:block;}
+.proof figcaption{padding:10px 14px;font-size:.78rem;color:var(--steel);}
+.proof figcaption b{font-family:var(--disp);text-transform:uppercase;letter-spacing:.05em;color:var(--navy);display:block;font-size:.8rem;}
+.divider{position:relative;overflow:hidden;}
+.divider img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;object-position:center 60%;}
+.divider .dv{position:absolute;left:60px;bottom:80px;z-index:2;color:#fff;max-width:22ch;}
+.divider .dv .q{font-family:var(--disp);font-weight:700;text-transform:uppercase;font-size:3rem;line-height:1.05;text-shadow:0 2px 14px rgba(0,0,0,.55);}
+.divider .dv .s{font-family:var(--disp);letter-spacing:.14em;text-transform:uppercase;font-size:.74rem;color:#f3d9a4;margin-top:8px;text-shadow:0 1px 8px rgba(0,0,0,.6);}
+.divider::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,28,52,0) 40%,rgba(16,28,52,.55));}
+.divider .dv{z-index:3;}
+.svc-photos{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:26px;}
+.svc-photos figure{margin:0;}
+.svc-photos img{width:100%;height:150px;object-fit:cover;display:block;border:2px solid rgba(255,255,255,.18);}
+.svc-photos figcaption{font-size:.66rem;text-transform:uppercase;letter-spacing:.07em;color:#9fb2ce;margin-top:6px;}
+.train-photos{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px;}
+.train-photos figure{margin:0;}
+.train-photos img{width:100%;height:190px;object-fit:cover;display:block;border:1px solid var(--line);}
+.train-photos figcaption{font-size:.7rem;color:var(--steel);margin-top:5px;text-transform:uppercase;letter-spacing:.05em;}
+.rules-photos{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:24px;}
+.rules-photos figure{margin:0;}
+.rules-photos img{width:100%;height:170px;object-fit:cover;display:block;border:1px solid var(--line);}
+.rules-photos figcaption{font-size:.68rem;color:var(--steel);margin-top:5px;text-transform:uppercase;letter-spacing:.05em;}
+/* ── full-bleed photo sections: the field IS the page ── */
+.photobg{position:relative;overflow:hidden;color:#fff;}
+.photobg>.bgimg{position:absolute;inset:0;z-index:0;}
+.photobg>.bgimg img{width:100%;height:100%;object-fit:cover;display:block;}
+.photobg>.bgimg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,28,52,.9) 0%,rgba(16,28,52,.68) 45%,rgba(16,28,52,.84) 100%);}
+.photobg>*:not(.bgimg){position:relative;z-index:2;}
+.photobg h2{color:#fff !important;}
+.photobg .lead{color:#dbe4f2;}
+.photobg .muted{color:#c3cfdf;}
+.photobg .eyebrow{color:#f3d9a4;}
+.photobg .eyebrow::before{background:var(--gold);}
+.photobg .proof figcaption{color:#495562;}
+.photobg .certstrip{background:#fff;padding:14px 18px;}
+.photobg .course-cols{background:rgba(255,255,255,.95);padding:6px 16px 14px;}
+.photobg .rules-photos figcaption,.photobg .train-photos figcaption{color:#c9d4e4;}
+.photobg .rules-foot{color:#fff;}
+.contact .bgphoto{position:absolute;inset:0;z-index:0;}
+.contact .bgphoto img{width:100%;height:100%;object-fit:cover;opacity:.30;}
+.contact .bgphoto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,28,52,.62),rgba(16,28,52,.8));}
+.contact>*:not(.bgphoto){position:relative;z-index:2;}
+/* ── candid snapshot polaroids ── */
+.snaps{display:flex;gap:22px;justify-content:center;align-items:flex-start;margin-top:44px;}
+.snap{background:#fff;padding:8px 8px 24px;box-shadow:0 12px 30px rgba(0,0,0,.45);transform:rotate(-2.4deg);}
+.snap:nth-child(2){transform:rotate(1.6deg);margin-top:14px;}
+.snap:nth-child(3){transform:rotate(-1.2deg);}
+.snap img{width:198px;height:172px;object-fit:cover;display:block;}
+.snap .sc{font-family:var(--disp);font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:#5a6572;margin-top:8px;text-align:center;}
+/* ── product list page ── */
+.prod-feature{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px;}
+.pf{background:var(--white);border-top:4px solid var(--red);padding:18px 20px;color:var(--ink);}
+.pf .brand{font-family:var(--disp);font-weight:700;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--red);}
+.pf h3{font-family:var(--disp);font-weight:700;font-size:1.25rem;color:var(--navy);margin:4px 0 6px;}
+.pf p{font-size:.8rem;color:#3c4653;margin:0 0 10px;}
+.pf .chips{display:flex;flex-wrap:wrap;gap:6px;}
+.pf .chip2{font-family:var(--disp);font-size:.62rem;letter-spacing:.05em;text-transform:uppercase;background:#eef2f7;color:var(--navy);padding:4px 9px;border:1px solid #d8dfe8;}
+.prod-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px;}
+.pg{background:var(--white);padding:14px 14px 12px;color:var(--ink);display:flex;flex-direction:column;gap:6px;}
+.pg .ph2{height:92px;display:flex;align-items:center;justify-content:center;}
+.pg .ph2 img{max-height:92px;max-width:100%;width:auto;}
+.pg h4{font-family:var(--disp);font-weight:700;font-size:.86rem;color:var(--navy);line-height:1.1;margin:0;text-transform:uppercase;}
+.pg p{font-size:.72rem;color:#4b5663;margin:0;}
+.pg .tagp{font-family:var(--disp);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--red);}
+.prod-note{margin-top:16px;font-size:.72rem;color:#c3cfdf;text-transform:uppercase;letter-spacing:.06em;font-family:var(--disp);}
+
+.cap-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.cap{background:#fff;border:1px solid var(--line);border-left:4px solid var(--teal);padding:16px 18px;}
+.cap:nth-child(2){border-left-color:var(--gold);}
+.cap:nth-child(3){border-left-color:var(--red);}
+.cap:nth-child(4){border-left-color:var(--navy);}
+.cap .ci{width:26px;height:26px;color:var(--navy);margin-bottom:9px;}
+.cap h4{font-family:var(--disp);font-weight:700;text-transform:uppercase;letter-spacing:.02em;font-size:.98rem;color:var(--navy);margin-bottom:5px;}
+.cap p{font-size:.84rem;color:var(--steel);margin:0;}
+
+/* ============ 4. OWL PROGRAM ============ */
+.owlprog{position:relative;}
+.owlprog .bgphoto{position:absolute;inset:0;z-index:0;}
+.owlprog .bgphoto img{width:100%;height:100%;object-fit:cover;opacity:.12;}
+.owlprog .inner{position:relative;z-index:2;}
+.prog-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center;margin-top:14px;}
+.prog-quote{font-family:var(--disp);font-weight:700;text-transform:uppercase;font-size:2.1rem;line-height:1.04;color:#fff;}
+.prog-quote b{color:var(--gold-lt);}
+.owl-steps{display:flex;flex-direction:column;gap:14px;margin-top:24px;}
+.ostep{display:flex;gap:14px;align-items:flex-start;}
+.ostep .k{font-family:var(--disp);font-weight:700;font-size:1.5rem;color:var(--gold-lt);line-height:1;width:34px;flex:none;}
+.ostep h4{color:#fff;text-transform:uppercase;letter-spacing:.03em;font-size:1.02rem;margin-bottom:2px;}
+.ostep p{color:#c3cfe2;font-size:.9rem;margin:0;}
+.owl-abbr{display:flex;gap:8px;margin-top:26px;}
+.owl-abbr .a{flex:1;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);border-top:3px solid var(--gold);padding:14px;text-align:center;}
+.owl-abbr .a .al{font-family:var(--disp);font-weight:700;font-size:1.5rem;color:var(--gold-lt);}
+.owl-abbr .a .ad{font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;color:#c3cfe2;margin-top:2px;}
+/* phone mockup */
+.phones{position:relative;display:flex;justify-content:center;align-items:flex-end;min-height:440px;}
+.phone{background:#0c1424;border-radius:30px;padding:10px;box-shadow:0 24px 50px rgba(0,0,0,.45);border:1px solid #2b3a58;}
+.phone img{display:block;width:200px;border-radius:22px;}
+.phone.back{position:absolute;transform:rotate(-7deg) translate(-78px,-8px);z-index:1;opacity:.96;}
+.phone.front{position:relative;transform:rotate(4deg) translateX(46px);z-index:2;}
+
+/* ============ 5. TWELVE RULES ============ */
+.rules-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;}
+.rules-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:30px;}
+.rule{background:#fff;border:1px solid var(--line);padding:16px 15px 15px;position:relative;min-height:132px;display:flex;flex-direction:column;gap:8px;}
+.rule .rn{font-family:var(--disp);font-weight:700;font-size:.82rem;color:var(--gold);letter-spacing:.06em;}
+.rule .ri{width:30px;height:30px;color:var(--navy);}
+.rule h4{font-family:var(--disp);font-weight:700;text-transform:uppercase;letter-spacing:.01em;font-size:.95rem;color:var(--navy);line-height:1.02;}
+.rule p{font-size:.76rem;color:var(--steel);margin:0;line-height:1.35;}
+.rule::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:3px;background:var(--teal);opacity:.0;transition:opacity .2s;}
+.rules-foot{margin-top:20px;background:var(--red);color:#fff;padding:14px 22px;font-family:var(--disp);font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:1.15rem;display:flex;align-items:center;gap:12px;}
+
+/* ============ 6. SERVICES ============ */
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:32px;}
+.svc{background:#fff;border:1px solid var(--line);border-top:4px solid var(--navy);padding:20px 18px;display:flex;flex-direction:column;gap:9px;}
+.svc.sp{border-top-color:var(--gold);}
+.svc .si{width:32px;height:32px;color:var(--navy);}
+.svc.sp .si{color:var(--gold);}
+.svc h3{font-size:1.14rem;color:var(--navy);text-transform:uppercase;letter-spacing:.01em;}
+.svc .tag{font-family:var(--disp);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;color:var(--gold);font-weight:600;}
+.svc p{font-size:.86rem;color:var(--steel);margin:0;}
+
+/* ============ 7. TRAINING ============ */
+.train-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:start;}
+.course-cols{columns:2;column-gap:26px;font-size:.86rem;}
+.course-cols .c{break-inside:avoid;padding:6px 0 6px 18px;position:relative;color:#33404f;border-bottom:1px solid var(--line);}
+.course-cols .c::before{content:"";position:absolute;left:0;top:.95em;width:8px;height:8px;background:var(--teal);}
+.big-stat{background:var(--navy);color:#fff;padding:26px;text-align:center;}
+.big-stat .n{font-family:var(--disp);font-weight:700;font-size:3.4rem;line-height:.9;color:var(--gold-lt);}
+.big-stat .l{text-transform:uppercase;letter-spacing:.08em;font-size:.82rem;color:#c3cfe2;margin-top:6px;}
+.certstrip{margin-top:26px;border-top:1px solid var(--line);padding-top:20px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;}
+.certstrip img{height:42px;width:auto;}
+.certstrip .cl{flex:1 1 100%;font-family:var(--disp);text-transform:uppercase;letter-spacing:.1em;font-size:.7rem;color:var(--steel);margin-bottom:4px;}
+
+/* ============ 8. CONTACT ============ */
+.contact h2{color:#fff;font-size:2.2rem;}
+.contact{position:relative;overflow:hidden;}
+.contact .bgphoto{position:absolute;inset:0;z-index:0;}
+.contact .bgphoto img{width:100%;height:100%;object-fit:cover;opacity:.14;}
+.contact > *:not(.bgphoto){position:relative;z-index:1;}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;}
+.about-grid .map img{width:100%;height:auto;display:block;border:2px solid rgba(255,255,255,.2);}
+.map-cap{font-size:.74rem;color:#8fb6e6;margin-top:8px;text-transform:uppercase;letter-spacing:.06em;}
+.districts{display:grid;grid-template-columns:repeat(5,1fr);margin-top:30px;border-top:1px solid rgba(255,255,255,.18);}
+.district{padding:18px 14px 4px;border-right:1px solid rgba(255,255,255,.14);}
+.district:last-child{border-right:none;}
+.district h4{font-family:var(--disp);font-weight:700;text-transform:uppercase;letter-spacing:.03em;font-size:.88rem;color:#fff;margin-bottom:8px;}
+.district p{font-size:.8rem;color:#bcc9de;margin:0;line-height:1.45;}
+.district .ph{font-family:var(--disp);color:var(--gold-lt);margin-top:6px;letter-spacing:.03em;}
+.cta-bar{margin-top:34px;background:var(--red);color:#fff;padding:22px 30px;display:flex;align-items:center;justify-content:center;gap:26px;flex-wrap:wrap;}
+.cta-bar .tel{font-family:var(--disp);font-weight:700;font-size:2rem;letter-spacing:.03em;}
+.cta-bar .web{font-family:var(--disp);font-size:1.2rem;letter-spacing:.06em;}
+.cta-bar .sep{width:2px;height:34px;background:rgba(255,255,255,.5);}
+.footer{padding:20px 60px;background:#141f38;color:#93a3bd;font-size:.78rem;display:flex;justify-content:space-between;align-items:center;gap:16px;}
+.footer .logo-plate img{height:32px;}
+.footer .owl{width:26px;height:26px;color:var(--gold);}
+
+@media screen and (max-width:960px){
+  .pad,.pad-lg{padding:40px 26px;}
+  .creed{padding:52px 26px;}
+  .dash,.prog-grid,.rules-head,.train-grid,.about-grid{grid-template-columns:1fr;}
+  .cap-grid,.svc-grid,.rules-grid{grid-template-columns:1fr 1fr;}
+  .districts{grid-template-columns:1fr 1fr;}
+  .course-cols{columns:1;}
+  .phones{min-height:360px;margin-top:20px;}
+}
+@media print{
+  body{background:#fff;}
+  .sheet{width:100%;box-shadow:none;margin:0;}
+  .spread{page-break-after:always;break-after:page;}
+  @page{size:920px 1190px;margin:0;}
+  html,body{margin:0;padding:0;}
+  .spread{height:1190px;}
+}
+</style>
+</head>
+<body>
+
+<!-- reusable owl emblem -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="owl" viewBox="0 0 64 64">
+  <!-- ear tufts -->
+  <path d="M14 20c-1-6 1-11 4-13 2 3 3 7 2.6 11.4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M50 20c1-6-1-11-4-13-2 3-3 7-2.6 11.4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- head -->
+  <path d="M12 30C12 17 21 10 32 10s20 7 20 20c0 15-8 24-20 24S12 45 12 30Z" fill="none" stroke="currentColor" stroke-width="2.4"/>
+  <!-- focused brows -->
+  <path d="M15 24l12 4M49 24l-12 4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- eyes -->
+  <circle cx="24" cy="32" r="8" fill="none" stroke="currentColor" stroke-width="2.4"/>
+  <circle cx="40" cy="32" r="8" fill="none" stroke="currentColor" stroke-width="2.4"/>
+  <circle cx="24" cy="32.5" r="2.8" fill="currentColor"/>
+  <circle cx="40" cy="32.5" r="2.8" fill="currentColor"/>
+  <!-- beak -->
+  <path d="M32 34l-3.4 5.5h6.8L32 34Z" fill="currentColor"/>
+</symbol></svg>
+
+<main class="sheet">
+
+  <!-- ============ 1. COVER ============ -->
+  <section class="spread cover">
+    <div class="cover-top">
+      <span class="logo-plate"><img src="img/logo_canon_white.png" alt="Canon Safety / RHI Group"></span>
+      <svg class="cover-owl"><use href="#owl"/></svg>
+    </div>
+    <div class="cover-mid">
+      <div class="cover-kick">Improving Safety Since 1987</div>
+      <div class="cover-title">The Culture,<br>The Data,<br>The People<span class="g">.</span></div>
+      <div class="cover-sub">That get everyone home safe. HSE services · H2S safety · training · gas detection built on a measured, peer-led safety culture.</div>
+    </div>
+    <div class="cover-photo">
+      <img src="img/ph_cover_7rigs.jpg" alt="Seven drilling rigs on the Permian horizon at sunset — November 2019">
+    </div>
+    <div class="cover-foot">
+      <span class="cover-web">1.800.553.2964 &nbsp;·&nbsp; CSRHIGROUP.COM</span>
+      <span class="cover-since"><span class="n">1987</span><br><span class="l">Kilgore, Texas</span></span>
+    </div>
+    <div class="goldbar"></div>
+  </section>
+
+  <!-- ============ 2. CREED ============ -->
+  <section class="spread creed">
+    <div class="bgphoto"><img src="img/ph_creed_silhouette.jpg" alt=""></div>
+    <svg class="owl"><use href="#owl"/></svg>
+    <p class="eyebrow gold" style="justify-content:center;">The Canon Creed</p>
+    <div class="creed-lines">
+      We show up for each other.<br>
+      We do the right thing when it's hard.<br>
+      We own what's ours.<br>
+      We speak up when something's wrong.<br>
+      We <b>leave every location safer</b> than we found it.
+    </div>
+    <div class="creed-tag">That's not a policy — <em>that's who we are.</em></div>
+    <div class="snaps">
+      <div class="snap"><img src="img/snap_dawn_rig.jpg" alt="Rig at first light with trucks on location" style="object-position:center 35%;"><div class="sc">First light, on location</div></div>
+      <div class="snap"><img src="img/snap_canon_truck.jpg" alt="Canon Safety / RHI Group GMC AT4 HD" style="object-position:55% 45%;"><div class="sc">Ready to roll, every morning</div></div>
+      <div class="snap"><img src="img/snap_flag.jpg" alt="American flag flying over a Canon location" style="object-position:center 30%;"><div class="sc">Proud of where we work</div></div>
+    </div>
+  </section>
+
+  <!-- ============ 3. DATA & COMPLIANCE ============ -->
+  <section class="spread pad-lg photobg">
+    <div class="bgimg"><img src="img/ph_bg_data.jpg" alt=""></div>
+    <p class="eyebrow">How We're Different</p>
+    <div class="sec-head">
+      <h2>We don't just train safety. We measure it — every day.</h2>
+      <p class="lead">Most safety vendors hand you a binder. We run a live compliance engine. Field forms are digitized, reviewed, and rolled up into the <strong>Owl Hub</strong> — so crews, supervisors, and clients can see, in real time, that the work is actually getting done.</p>
+    </div>
+
+    <div class="dash">
+      <div class="dashcard dash-comp">
+        <div class="ch"><span class="ct">Safety Compliance</span><span class="cw">Program Week · Live</span></div>
+        <div class="donut-wrap" style="--pct:94%;">
+          <div class="donut"><div class="hole"><span class="hp">94%</span><span class="hl">Weekly avg</span></div></div>
+          <div class="metrics">
+            <div class="metric"><div class="ml"><b>Daily H2S Forms</b><span>96%</span></div><div class="bar"><i style="width:96%"></i></div></div>
+            <div class="metric"><div class="ml"><b>Trailer Inspections</b><span>92%</span></div><div class="bar gold"><i style="width:92%"></i></div></div>
+            <div class="metric"><div class="ml"><b>Trailer Readiness</b><span>98%</span></div><div class="bar"><i style="width:98%"></i></div></div>
+            <div class="metric"><div class="ml"><b>Training Matrix &amp; Certs</b><span>91%</span></div><div class="bar red"><i style="width:91%"></i></div></div>
+          </div>
+        </div>
+        <div class="dash-note">Illustrative — the live Hub auto-populates from daily field submissions.</div>
+      </div>
+
+      <div class="cap-grid">
+        <div class="cap">
+          <svg class="ci" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M9 6h6M9 10h6M9 14h4"/></svg>
+          <h4>Digitized Field Forms</h4>
+          <p>H2S checks, trailer inspections and JSAs captured on any phone — offline-ready for no-signal sites.</p>
+        </div>
+        <div class="cap">
+          <svg class="ci" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="12" r="3"/><circle cx="5" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="19" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M2 12a10 10 0 0 1 20 0"/></svg>
+          <h4>O.W.L. Self-Reviews</h4>
+          <p>Observe · Win · Learn. Crews log what they saw and what they'd fix — turning near-misses into habits.</p>
+        </div>
+        <div class="cap">
+          <svg class="ci" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg>
+          <h4>Live Compliance Dashboards</h4>
+          <p>Daily roll-ups by crew, trailer and topic — visibility clients can actually verify, not just trust.</p>
+        </div>
+        <div class="cap">
+          <svg class="ci" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 2l3 6 6 .9-4.5 4.3L18 20l-6-3.2L6 20l1.5-6.8L3 8.9 9 8z"/></svg>
+          <h4>Recognition That Sticks</h4>
+          <p>Good calls from the field get named and shared — so filling out the form becomes second nature.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="proof">
+      <figure>
+        <img src="img/ph_gate_sign.jpg" alt="Canon Safety H2S condition sign posted at a lease gate" style="object-position:center 60%;">
+        <figcaption><b>Data starts at the gate</b>Live H2S condition status posted on every location — readings captured in the field, not filled in after the fact.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/ph_redzone.jpg" alt="Canon Safety red-zone aerial exclusion-zone map of an active frac location">
+        <figcaption><b>Red-zone monitoring, visualized</b>Canon Safety exclusion-zone aerials — authorized personnel only, and everyone can see the line.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ 4. OWL PROGRAM ============ -->
+  <section class="spread dark owlprog pad-lg">
+    <div class="bgphoto"><img src="img/ph_bg_owl.jpg" alt="" style="opacity:.34;object-position:center 60%;"></div>
+    <div class="inner">
+      <p class="eyebrow ondark">The Owl Program · 12-Week Rotation</p>
+      <div class="prog-grid">
+        <div>
+          <div class="prog-quote">What is an Owl? <b>Not a title. A responsibility.</b></div>
+          <div class="owl-steps">
+            <div class="ostep"><div class="k">01</div><div><h4>One Owl owns one week</h4><p>Selected for a single 12-week rotation to lead the morning safety meeting — the topic, the setup, the delivery, and the follow-through.</p></div></div>
+            <div class="ostep"><div class="k">02</div><div><h4>Leadership paired with a rule</h4><p>Each week pairs a leadership theme with one PSMS / Life-Saving Rule — culture and technical safety, together.</p></div></div>
+            <div class="ostep"><div class="k">03</div><div><h4>It compounds</h4><p>Twelve weeks, twelve leaders, every crew member accountable to the next. Safety stops being a department.</p></div></div>
+          </div>
+          <div class="owl-abbr">
+            <div class="a"><div class="al">Observe</div><div class="ad">See the hazard</div></div>
+            <div class="a"><div class="al">Win</div><div class="ad">Make the safe call</div></div>
+            <div class="a"><div class="al">Learn</div><div class="ad">Share it forward</div></div>
+          </div>
+        </div>
+        <div class="phones">
+          <div class="phone back"><img src="img/psms_confined.jpg" alt="Confined Space Entry digital rule card"></div>
+          <div class="phone front"><img src="img/psms_lof.jpg" alt="Line of Fire digital rule card"></div>
+        </div>
+      </div>
+    </div>
+    <div class="snaps">
+      <div class="snap"><img src="img/snap_manbasket.jpg" alt="Crew hoisted in a man basket on the derrick" style="object-position:center 30%;"><div class="sc">Working at height — done right</div></div>
+      <div class="snap"><img src="img/snap_ironwork.jpg" alt="Canon crew working iron on the rig floor" style="object-position:center 30%;"><div class="sc">Leaders on the floor</div></div>
+      <div class="snap"><img src="img/snap_nightsuit.jpg" alt="Suited worker at a lit rig at night" style="object-position:center 35%;"><div class="sc">Whatever hour the job runs</div></div>
+    </div>
+  </section>
+
+  <!-- ============ 5. TWELVE RULES ============ -->
+  <section class="spread pad-lg photobg">
+    <div class="bgimg"><img src="img/ph_bg_rules.jpg" alt="" style="object-position:center 30%;"></div>
+    <div class="rules-head">
+      <div>
+        <p class="eyebrow">Trained Internally · Reinforced Weekly</p>
+        <h2 style="font-size:2.2rem;">The 12 Life-Saving Rules.</h2>
+      </div>
+      <p class="muted" style="max-width:34ch;font-size:.9rem;">The PSMS topics every Canon crew is trained and tested on — digitized as controls they can pull up on-site, any time.</p>
+    </div>
+    <div class="rules-grid">
+      <div class="rule"><div class="rn">01</div><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><h4>Energy Isolation</h4><p>Verify isolation & zero stored energy before work.</p></div>
+      <div class="rule"><div class="rn">02</div><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><h4>Breaking Containment</h4><p>Manage exposure to energy & hazardous substances.</p></div>
+      <div class="rule"><div class="rn">03</div><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 3v6M12 15v6M3 12h6M15 12h6"/></svg><h4>Line of Fire</h4><p>Keep yourself and others out of the line of fire.</p></div>
+      <div class="rule"><div class="rn">04</div><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 17l4-9 4 4 4-7 4 12"/><path d="M3 21h18"/></svg><h4>Mobile Equipment</h4><p>Separate people from moving equipment; use spotters.</p></div>
+      <div class="rule"><div class="rn">05</div><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 9a8 4 0 0 0 16 0"/><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M9 12v7M15 12v7"/></svg><h4>Confined Space</h4><p>Isolate, test the atmosphere, attendant & rescue ready.</p></div>
+      <div class="rule"><div class="rn">06</div><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="11" width="18" height="7" rx="2"/><circle cx="8" cy="18" r="1.6"/><circle cx="16" cy="18" r="1.6"/><path d="M5 11l2-4h8l2 4"/></svg><h4>Driving</h4><p>Seatbelt on, phone down, fit and within the limit.</p></div>
+      <div class="rule"><div class="rn">07</div><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3c2 3 4 4 4 8a4 4 0 0 1-8 0c0-2 1-3 2-4"/><path d="M8 20h8"/></svg><h4>Hot Work</h4><p>Control flammables and ignition sources; fire watch set.</p></div>
+      <div class="rule"><div class="rn">08</div><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s7-4 7-10V5l-7-3-7 3v7c0 6 7 10 7 10z"/><path d="M9 11l2 2 4-4"/></svg><h4>Bypassing Controls</h4><p>Use safety-critical equipment and procedures as designed.</p></div>
+      <div class="rule"><div class="rn">09</div><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 20h18"/><path d="M4 20l5-8 3 3 4-6"/><path d="M14 9h5v5"/></svg><h4>Excavation</h4><p>Authorized; utilities located, de-energized or protected.</p></div>
+      <div class="rule"><div class="rn">10</div><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 4v10M6 6h9l-2 3 2 3H6"/><path d="M6 14v6M4 20h4"/></svg><h4>Safe Lifting</h4><p>Lift plan in place; never walk under a suspended load.</p></div>
+      <div class="rule"><div class="rn">11</div><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="5" r="2"/><path d="M12 7v6l-3 6M12 13l3 6M7 10h10"/></svg><h4>Working at Height</h4><p>Protect against a fall; inspect and anchor before use.</p></div>
+      <div class="rule"><div class="rn">12</div><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg><h4>Work Authorization</h4><p>Permit confirmed, hazards controlled, safe to start.</p></div>
+    </div>
+    <div class="rules-foot"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6L9 17l-5-5"/></svg> Twelve rules. Zero shortcuts. Everyone goes home.</div>
+    <div class="rules-photos">
+      <figure><img src="img/dmg1.jpg" alt="Spotter watching an excavator during trenching work"><figcaption>Rule 09 in the field — excavation with a spotter</figcaption></figure>
+      <figure><img src="img/dmg3.jpg" alt="Technician locating and marking a buried utility line"><figcaption>Utilities located &amp; marked before the dig</figcaption></figure>
+      <figure><img src="img/snap_monitors_dunes.jpg" alt="Gas monitors staged in the sand dunes" style="object-position:center 45%;"><figcaption>Atmosphere tested — always monitored</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- ============ 5b. DIVIDER ============ -->
+  <section class="spread divider">
+    <img src="img/ph_divider_sunset.jpg" alt="Fiery West Texas sunset" style="object-position:center 45%;">
+    <div class="dv">
+      <div class="q">The goal is simple.</div>
+      <div class="s">Everyone watches this sunset from home.</div>
+    </div>
+  </section>
+
+  <!-- ============ 6. SERVICES ============ -->
+  <section class="spread dark pad-lg photobg">
+    <div class="bgimg"><img src="img/ph_bg_services.jpg" alt="" style="object-position:center 25%;"></div>
+    <p class="eyebrow ondark">What We Do</p>
+    <h2 style="font-size:2.2rem;">Specialized services, backed by the same standard.</h2>
+    <p class="lead" style="max-width:64ch;">The culture is the difference — but the work is real. From on-site H2S coverage to the instruments your crews wear, every service runs to the Canon standard.</p>
+    <div class="svc-grid">
+      <div class="svc sp">
+        <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3h6v4l3 3v11H6V10l3-3z"/><path d="M9 14h6M9 18h6"/></svg>
+        <span class="tag">Specialty</span>
+        <h3>Benzene &amp; NORM</h3>
+        <p>Awareness, monitoring and exposure control for benzene and Naturally Occurring Radioactive Material — where most vendors stop, we specialize.</p>
+      </div>
+      <div class="svc sp">
+        <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M5 10v1a7 7 0 0 0 14 0v-1M12 18v3"/></svg>
+        <span class="tag">Specialty</span>
+        <h3>Atmospheric Monitoring</h3>
+        <p>Continuous gas testing and documentation for confined space, breaking containment and hot work — the data trail auditors want.</p>
+      </div>
+      <div class="svc">
+        <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="12" width="16" height="7" rx="1"/><circle cx="8" cy="19" r="1.6"/><circle cx="16" cy="19" r="1.6"/><path d="M7 12V8h6l3 4"/></svg>
+        <h3>H2S On-Site Safety</h3>
+        <p>Certified supervisors, 6×6×6 / 8×8×8 safety trailers, cascaded breathing air, SCBA/SABA, and contingency planning for critical operations.</p>
+      </div>
+      <div class="svc">
+        <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 6h2"/><circle cx="12" cy="15" r="2.4"/></svg>
+        <h3>Gas Detection Products</h3>
+        <p>Sales, rentals, calibration and fleet management of Honeywell / BW multi- and single-gas detectors and docking stations.</p>
+      </div>
+      <div class="svc">
+        <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1 2.5 3 6 3s6-2 6-3v-5"/></svg>
+        <h3>Regulatory Training</h3>
+        <p>40+ OSHA, H2S, PEC SafeLand &amp; SafeGulf, HAZWOPER and First Aid courses — in our classrooms, at your site, or online.</p>
+      </div>
+      <div class="svc">
+        <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg>
+        <h3>OQ &amp; Compliance</h3>
+        <p>Operator Qualification programs, covered-task tracking and program development that stands up to audit.</p>
+      </div>
+    </div>
+
+    <div class="svc-photos">
+      <figure><img src="img/ph_trailer_fleet.jpg" alt="Fleet of Canon Safety / RHI Group trailers"><figcaption>The trailer fleet, ready to roll</figcaption></figure>
+      <figure><img src="img/ph_trailer_pumpjack.jpg" alt="Canon Safety trailer working at the base of a drilling rig" style="object-position:center 45%;"><figcaption>On location with the rig crew</figcaption></figure>
+      <figure><img src="img/ph_cascade.jpg" alt="Cascade breathing-air bottles inside an H2S trailer"><figcaption>Cascaded breathing air, inspected daily</figcaption></figure>
+      <figure><img src="img/ph_h2s_sign.jpg" alt="Canon Safety H2S condition sign at dusk"><figcaption>H2S condition signage, every site</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- ============ 7b. PRODUCT LINE ============ -->
+  <section class="spread pad-lg photobg">
+    <div class="bgimg"><img src="img/ph_bg_products.jpg" alt="" style="object-position:center 45%;"></div>
+    <p class="eyebrow">Gas Detection Product Line · Sales · Rentals · Calibration</p>
+    <h2 style="font-size:2rem;">The instruments we put in your hands.</h2>
+    <p class="lead" style="max-width:62ch;">Factory-authorized sales, rentals and calibration — sized to your job, bump-tested and documented before they leave our shop.</p>
+
+    <div class="prod-feature">
+      <div class="pf">
+        <div class="brand">RKI Instruments</div>
+        <h3>GX-6000 — Benzene &amp; VOC</h3>
+        <p>Six-gas sample-draw monitor with dual PID capability. Benzene-specific mode reads 0.01–50 ppm through PID pre-filter tubes; 10.6 eV &amp; 10.0 eV sensors cover a 300+ compound VOC library alongside LEL, O₂, H₂S and CO.</p>
+        <div class="chips"><span class="chip2">Benzene 0.01–50 ppm</span><span class="chip2">Dual PID</span><span class="chip2">Internal pump</span><span class="chip2">6-gas</span></div>
+      </div>
+      <div class="pf">
+        <div class="brand">RKI Instruments</div>
+        <h3>GX-Force — Pumped 4-Gas</h3>
+        <p>Sample-draw four-gas (LEL · O₂ · H₂S · CO) built around a strong internal pump with a 100-ft sampling range — the confined-space and tank-gauging workhorse, with roughly 30 hours per charge.</p>
+        <div class="chips"><span class="chip2">100-ft sample range</span><span class="chip2">LEL · O₂ · H₂S · CO</span><span class="chip2">~30-hr runtime</span></div>
+      </div>
+    </div>
+
+    <div class="prod-grid">
+      <div class="pg"><div class="tagp">Honeywell BW · Single-Gas</div><h4>BW Clip</h4><p>Maintenance-free H₂S, CO, O₂ or SO₂ — 2-year, no charging, clip on and go.</p></div>
+      <div class="pg"><div class="tagp">Honeywell BW · Single-Gas</div><h4>BW Solo</h4><p>Serviceable single-gas with the widest sensor selection in its class.</p></div>
+      <div class="pg"><div class="ph2"><img src="img/gd_clip4.png" alt="Honeywell BW Clip4"></div><div class="tagp">Honeywell BW · Multi-Gas</div><h4>BW Clip4</h4><p>Always-on 4-gas — two years of continuous runtime, zero charging.</p></div>
+      <div class="pg"><div class="ph2"><img src="img/gd_microclip.png" alt="Honeywell BW MicroClip X3 and XL"></div><div class="tagp">Honeywell BW · Multi-Gas</div><h4>MicroClip X3 &amp; XL</h4><p>The world's most popular compact 4-gas — X3 carries a 3-year warranty.</p></div>
+      <div class="pg"><div class="ph2"><img src="img/gd_gamax.png" alt="GasAlertMax XT II"></div><div class="tagp">Honeywell BW · Multi-Gas · Pump</div><h4>GasAlertMax XT II</h4><p>4-gas with integrated pump for remote sampling and pre-entry checks.</p></div>
+      <div class="pg"><div class="tagp">Honeywell BW · Multi-Gas · Pump</div><h4>BW Ultra</h4><p>Five-gas pumped monitor purpose-built for confined-space entry.</p></div>
+    </div>
+
+    <div class="prod-note">Fleet management included — IntelliDoX &amp; MicroDock II automated bump / calibration · full spec sheets on request</div>
+  </section>
+
+  <!-- ============ 7. TRAINING ============ -->
+  <section class="spread pad-lg photobg">
+    <div class="bgimg"><img src="img/ph_bg_training.jpg" alt="" style="object-position:center 40%;"></div>
+    <p class="eyebrow">Training &amp; Credentials</p>
+    <div class="train-grid">
+      <div>
+        <div class="big-stat"><div class="n">40+</div><div class="l">Regulatory courses</div></div>
+        <p class="muted" style="margin-top:16px;font-size:.9rem;">All Canon instructors are <strong>authorized OSHA Outreach Instructors</strong>. Full course catalog — with expirations, lengths and CFR references — available on request.</p>
+        <div class="certstrip">
+          <div class="cl">Authorized &amp; accredited through</div>
+          <img src="img/cert_osha.png" alt="OSHA">
+          <img src="img/cert_medic.png" alt="MEDIC First Aid">
+          <img src="img/cert_enform.png" alt="ENFORM">
+          <img src="img/cert_safeland.png" alt="SafeLand USA">
+          <img src="img/cert_safegulf.png" alt="SafeGulf">
+          <img src="img/cert_pec.png" alt="PEC Premier">
+        </div>
+      </div>
+      <div>
+        <p class="muted" style="text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;font-family:var(--disp);color:var(--navy);margin-bottom:8px;">Popular courses</p>
+        <div class="course-cols">
+          <div class="c">H2S Alive &amp; H2S Awareness</div>
+          <div class="c">OSHA 10 / 30 — GI &amp; Construction</div>
+          <div class="c">PEC Core &amp; SafeLand / SafeGulf</div>
+          <div class="c">HAZWOPER 8 / 24 / 40 Hr</div>
+          <div class="c">Confined Space (Permit-Required)</div>
+          <div class="c">Fall Protection</div>
+          <div class="c">Excavation Competent Person</div>
+          <div class="c">Benzene &amp; NORM Awareness</div>
+          <div class="c">Respiratory Protection &amp; Fit Testing</div>
+          <div class="c">MEDIC First Aid / CPR / AED</div>
+          <div class="c">Lockout / Tagout (LOTO)</div>
+          <div class="c">Forklift &amp; Aerial Work Platform</div>
+        </div>
+      </div>
+    </div>
+    <div class="train-photos" style="grid-template-columns:1fr 1fr 1fr;">
+      <figure>
+        <img src="img/ph_davit_training.jpg" alt="Davit arm mounted in a Canon truck bed at a wellsite" style="object-position:center 45%;">
+        <figcaption>Davit rescue systems — truck-mounted, ready to rig</figcaption>
+      </figure>
+      <figure>
+        <img src="img/ph_davit_field.jpg" alt="Canon truck with davit arm rigged at a coned-off location" style="object-position:center 60%;">
+        <figcaption>Rigged and working on location</figcaption>
+      </figure>
+      <figure>
+        <img src="img/snap_distant_rig.jpg" alt="Rig on the horizon across open desert" style="object-position:center 55%;">
+        <figcaption>The classroom is out here</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ 8. CONTACT ============ -->
+  <section class="spread dark contact pad-lg">
+    <div class="bgphoto"><img src="img/ph_contact_aerial.jpg" alt=""></div>
+    <div class="about-grid">
+      <div>
+        <p class="eyebrow ondark">Locations &amp; Contact</p>
+        <h2>Founded in Kilgore, Texas — 1987.</h2>
+        <p class="lead">For nearly four decades Canon Safety / RHI Group has served the oil &amp; gas industry with skilled safety supervisors, training, compliance and technical products. Five districts across Texas and New Mexico put a crew — and the culture — within reach.</p>
+        <figure style="margin:20px 0 0;">
+          <img src="img/ph_truck_at4.jpg" alt="Canon Safety / RHI Group logo on the door of the GMC Sierra AT4 HD" style="width:100%;height:260px;object-fit:cover;display:block;border:2px solid rgba(255,255,255,.2);object-position:center 52%;">
+          <figcaption style="font-size:.7rem;color:#8fa5c8;margin-top:6px;text-transform:uppercase;letter-spacing:.06em;">When you call, this is what shows up — ready.</figcaption>
+        </figure>
+      </div>
+      <div class="map">
+        <img src="img/map_radius.jpg" alt="One-hour service radius from Andrews, TX and Hobbs, NM">
+        <p class="map-cap">West Texas / New Mexico — one-hour radius from Andrews, TX &amp; Hobbs, NM</p>
+      </div>
+    </div>
+    <div class="districts">
+      <div class="district"><h4>Ark-La-Tex</h4><p>1800 Cox Drive<br>Kilgore, TX 75662</p><p class="ph">903-984-5928</p></div>
+      <div class="district"><h4>Central Texas</h4><p>915 W. Commerce St.<br>Fairfield, TX 75840</p><p class="ph">903-389-2975</p></div>
+      <div class="district"><h4>South Texas</h4><p>12113 West I-10<br>Marion, TX 78124</p><p class="ph">830-420-2702</p></div>
+      <div class="district"><h4>West Texas</h4><p>2060 SE 5501<br>Andrews, TX 79714</p><p class="ph">432-215-5269</p></div>
+      <div class="district"><h4>Hobbs, NM</h4><p>1110 N. Grimes St.<br>Hobbs, NM 88240</p><p class="ph">575-738-0001</p></div>
+    </div>
+    <div class="cta-bar">
+      <span class="tel tnum">1.800.553.2964</span>
+      <span class="sep"></span>
+      <span class="web">WWW.CSRHIGROUP.COM</span>
+    </div>
+    <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:center;padding-top:26px;color:#93a3bd;font-size:.78rem;">
+      <span class="logo-plate" style="display:inline-flex;"><img src="img/logo_canon_white.png" alt="Canon Safety / RHI Group" style="height:34px;width:auto;display:block;opacity:.92;"></span>
+      <span style="display:flex;align-items:center;gap:10px;"><svg style="width:24px;height:24px;color:var(--gold);" class="owl"><use href="#owl"/></svg> Improving Safety Since 1987 · © Canon Safety / RHI Group</span>
+    </div>
+  </section>
+
+
+</main>
+</body>
+</html>
