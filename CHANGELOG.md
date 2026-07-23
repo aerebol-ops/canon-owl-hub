@@ -6,7 +6,7 @@ Newest entries at top. Format: `YYYY-MM-DD | commit | description`
 
 ## 2026-07-23
 
-- `5d1c4d9` | 30-Minute Loop tab added to hub: nav button (after Home) + home-screen quick-access link, `#page-loop` div with sticker photo (`thirty-minute-loop.jpg`, converted from Mike's HEIC), loop steps (Field → Regional → Corporate), red-flag examples (H2S scope change, running late, upset company man), and ground rules; nav buttons given `data-page` attributes and home quick-links switched from hardcoded `nav button[N]` indexes to `data-page` selectors so future nav changes can't break highlighting
+- `2b8661c` | 30-Minute Loop tab added to hub: nav button (after Home) + home-screen quick-access link, `#page-loop` div with sticker photo (`thirty-minute-loop.jpg`, converted from Mike's HEIC), loop steps (Field → Regional → Corporate), red-flag examples (H2S scope change, running late, upset company man), and ground rules; nav buttons given `data-page` attributes and home quick-links switched from hardcoded `nav button[N]` indexes to `data-page` selectors so future nav changes can't break highlighting
 
 ## 2026-07-10
 
