@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "week": 6,
-  "day": 2,
-  "openingMessage": "If you can't communicate, you can't lead. Communicate everything.",
+  "day": 3,
+  "openingMessage": "The most important thing a leader can do is create an environment where everyone feels they are part of the team and the team is part of them.",
   "openingAttribution": "Mike Krzyzewski",
-  "openingWhy": "The day crew knew the line still had pressure on it. The night crew didn't. Everything that lives between those two sentences is a hospital visit. Say it early, say it plain, write it in the handover — information that doesn't move is how good crews hurt each other.",
+  "openingWhy": "The hand who feels like an outsider won't call stop-work — he'll hope somebody senior does it first. The crew where the greenest worm will grab an operator's sleeve and say 'walk me through this' is the crew that catches what everybody else walks right past.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -207,40 +207,40 @@
       "count": 1
     }
   ],
-  "leadershipThought": "The most dangerous driver on the road is the one who has driven that route fifty times. Familiarity turns your eyes off. Awareness means driving mile 50 like it's mile 1 — because the deer, the hotshot truck, and the washout don't care how well you know the road.",
-  "opsDate": "2026-07-01",
-  "opsContent": "<strong>Active Jobs (2026-07-01):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
+  "leadershipThought": "Distraction, fatigue, and rushing are the three passengers that never announce themselves. Any one of them alone is a stop condition. Check for all three before the truck moves — not after the first close call.",
+  "opsDate": "2026-07-22",
+  "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
   "exxonMoments": "<strong>Set up for vehicle placement went well with spotters backing them in</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Driving)</span><br><span style='font-size:13px;'>Set up for vehicle placement went well with spotters backing them in</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span><br><br><strong>Communication with crew and MT was good talked about potential hazards</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Communication with crew and MT was good talked about potential hazards</span><br><br><strong>Complete the job in a timely manner, but safely and accurately to the MTs n</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Complete the job in a timely manner, but safely and accurately to the MTs needs ans job</span><br><br><strong>Job went smoothly crew used their LMRA before any task being done</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Job went smoothly crew used their LMRA before any task being done</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Rolando Flores: Tested and no gasses coming out",
-      "detail": "OWL after-action review — Stanton A #1",
-      "psms": null
-    },
-    {
-      "type": "good",
-      "headline": "Raymundo Solis: SimOps - while doing our task there was a tank clean out at the tank battery job had to be — Communication between crew from both task was very important and well done",
-      "detail": "OWL after-action review — Gailan #2",
-      "psms": null
-    },
-    {
-      "type": "good",
-      "headline": "Jeremy Norris — Complete the job in a timely manner, but safely and accurately to the MTs n",
-      "detail": "Complete the job in a timely manner, but safely and accurately to the MTs needs ans job",
+      "headline": "Larry Jaramillo — Informed company man of a possible better scenario and left the decision in",
+      "detail": "Informed company man of a possible better scenario and left the decision in his hands",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Noticed leaks when bleeding down",
-      "detail": "Noticed leaks when bleeding down. Stop the job.",
+      "headline": "Jordan Lemmons — Crew helped me replace my tire",
+      "detail": "Crew helped me replace my tire",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Cindy Smith — Crew worked well despite heavy rain",
-      "detail": "Did we leave the location better.",
+      "headline": "Anthony Scott — No gas was present, crew was very engaging in safety meeting",
+      "detail": "No gas was present, crew was very engaging in safety meeting. LMRAs were utilized",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Alexander Clubb — Breaking containment under air",
+      "detail": "Breaking containment under air.",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Brianda Sandoval — Crew worked efficiently trying to get ahead of the rain",
+      "detail": "Crew worked efficiently trying to get ahead of the rain.",
       "psms": "Operational Discipline"
     },
     {
@@ -256,27 +256,27 @@
       "psms": "Driving · Wk 6"
     }
   ],
-  "todaysChallenge": "The best hand on location can't watch every line. Today, make one deliberate hand-off: tell the next person exactly what you checked and what you're not sure of.",
-  "todaysChallengeSubtext": "“Talent wins games, but teamwork and intelligence win championships.” — Michael Jordan",
+  "todaysChallenge": "Your standard today protects people you'll never meet — the night crew, the pumper tomorrow, somebody's dad next month. Leave the location better because you were on it.",
+  "todaysChallengeSubtext": "“A life is not important except in the impact it has on other lives.” — Jackie Robinson",
   "compliance": {
     "weekOf": "Week of July 20, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 48,
-        "total": 52
+        "done": 60,
+        "total": 64
       },
       {
         "label": "Trailer Inspections",
-        "done": 12,
-        "total": 12
+        "done": 13,
+        "total": 15
       },
       {
         "label": "Trailer Readiness Forms",
         "done": 8,
-        "total": 8
+        "total": 10
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 07/20"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 07/21"
   }
 }
