@@ -1684,16 +1684,17 @@
     </div>
   </div>
   <nav>
-    <button class="active" onclick="showPage('home', this)">Home</button>
-    <button onclick="showPage('news', this)">Field News</button>
-    <button onclick="showPage('psms', this)">PSMS Topics</button>
-    <button onclick="showPage('breakroom', this)">Breakroom</button>
-    <button onclick="showPage('log', this)">Meeting Log</button>
-    <button onclick="showPage('template', this)">Daily Template</button>
-    <button onclick="showPage('submit', this)">Submit Review</button>
-    <button onclick="showPage('safetycomp', this)">Safety Compliance</button>
-    <button onclick="showPage('payroll', this)">Payroll &amp; Benefits</button>
-    <button onclick="showPage('brochure', this)">Brochure</button>
+    <button class="active" data-page="home" onclick="showPage('home', this)">Home</button>
+    <button data-page="loop" onclick="showPage('loop', this)">30-Min Loop</button>
+    <button data-page="news" onclick="showPage('news', this)">Field News</button>
+    <button data-page="psms" onclick="showPage('psms', this)">PSMS Topics</button>
+    <button data-page="breakroom" onclick="showPage('breakroom', this)">Breakroom</button>
+    <button data-page="log" onclick="showPage('log', this)">Meeting Log</button>
+    <button data-page="template" onclick="showPage('template', this)">Daily Template</button>
+    <button data-page="submit" onclick="showPage('submit', this)">Submit Review</button>
+    <button data-page="safetycomp" onclick="showPage('safetycomp', this)">Safety Compliance</button>
+    <button data-page="payroll" onclick="showPage('payroll', this)">Payroll &amp; Benefits</button>
+    <button data-page="brochure" onclick="showPage('brochure', this)">Brochure</button>
   </nav>
 </header>
 
@@ -1843,30 +1844,111 @@
 
   <p class="section-label">Quick Access</p>
 
-  <button class="dl-btn" onclick="showPage('news', document.querySelectorAll('nav button')[1])" style="background:var(--orange);">
+  <button class="dl-btn" onclick="showPage('loop', document.querySelector('nav button[data-page=loop]'))" style="background:var(--navy);">
+    <span class="dl-icon">🔄</span>
+    The 30-Minute Loop
+    <span class="dl-sub">How we operate — field to regional to corporate, red flag to decision</span>
+  </button>
+
+  <button class="dl-btn" onclick="showPage('news', document.querySelector('nav button[data-page=news]'))" style="background:var(--orange);">
     <span class="dl-icon">📡</span>
     Field News
     <span class="dl-sub">Recent flags and good calls from the field — use these in your meeting</span>
   </button>
 
-  <button class="dl-btn" onclick="showPage('psms', document.querySelectorAll('nav button')[2])">
+  <button class="dl-btn" onclick="showPage('psms', document.querySelector('nav button[data-page=psms]'))">
     <span class="dl-icon">📋</span>
     View All 12 PSMS Topics
     <span class="dl-sub">Tap a week to expand standards and discussion questions</span>
   </button>
 
-  <button class="dl-btn" onclick="showPage('template', document.querySelectorAll('nav button')[5])" style="background:var(--red);">
+  <button class="dl-btn" onclick="showPage('template', document.querySelector('nav button[data-page=template]'))" style="background:var(--red);">
     <span class="dl-icon">📄</span>
     Today's Meeting Runsheet
     <span class="dl-sub">Pre-built agenda — open this before your 5:30 AM meeting</span>
   </button>
 
-  <button class="dl-btn" onclick="showPage('submit', document.querySelectorAll('nav button')[6])" style="background:var(--teal);">
+  <button class="dl-btn" onclick="showPage('submit', document.querySelector('nav button[data-page=submit]'))" style="background:var(--teal);">
     <span class="dl-icon">✏️</span>
     Submit Your Week Review
     <span class="dl-sub">Submit an Owl review anytime → goes directly to Mike</span>
   </button>
 
+</div>
+
+<!-- ═══════════════════════════════════════ 30-MIN LOOP ═══ -->
+<div id="page-loop" class="page">
+  <p class="section-label" style="margin-top:20px;">How We Operate</p>
+
+  <div style="background:var(--navy); color:#fff; border-radius:var(--radius); padding:18px; box-shadow:var(--shadow); margin-bottom:14px;">
+    <div style="font-size:19px; font-weight:800; margin-bottom:6px;">🔄 The 30-Minute Loop</div>
+    <div style="font-size:14px; opacity:0.92; line-height:1.55;">
+      Situational awareness is how we operate — eyes open for anything that changes on the way to
+      location or once we're there. When something's off, the field talks to the regional manager,
+      the regional manager gets with Canon leadership, and we <strong>close the loop</strong> so we
+      make decisions together and stay tight. Red flag to decision — inside 30 minutes.
+    </div>
+  </div>
+
+  <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:18px; margin-bottom:14px; text-align:center;">
+    <img src="./thirty-minute-loop.jpg" alt="30-Minute Loop — Field, Regional, Corporate"
+         style="max-width:280px; width:100%; border-radius:10px; border:1px solid var(--border);">
+    <div style="font-size:12.5px; color:var(--muted); margin-top:8px;">Field → Regional → Corporate — one loop, one team, 30 minutes.</div>
+  </div>
+
+  <p class="section-label">The Loop — Who Calls Who</p>
+
+  <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:18px; margin-bottom:14px;">
+    <div style="border-left:4px solid var(--red); background:#fdf0f0; border-radius:0 8px 8px 0; padding:12px 14px; margin-bottom:10px;">
+      <div style="font-size:13px; font-weight:800; color:var(--red); text-transform:uppercase; letter-spacing:0.8px; margin-bottom:4px;">1 · Field — you see it first</div>
+      <div style="font-size:14px; line-height:1.6;">The hands on location are the eyes of this company. Scope changed, gas showed up, you're running behind, a company man's got a problem — <strong>call your regional manager</strong>. Don't sit on it, don't try to absorb it alone.</div>
+    </div>
+    <div style="text-align:center; font-size:18px; color:var(--muted); margin:2px 0 10px;">⬇️</div>
+    <div style="border-left:4px solid var(--navy); background:#eef1f8; border-radius:0 8px 8px 0; padding:12px 14px; margin-bottom:10px;">
+      <div style="font-size:13px; font-weight:800; color:var(--navy); text-transform:uppercase; letter-spacing:0.8px; margin-bottom:4px;">2 · Regional — picks it up</div>
+      <div style="font-size:14px; line-height:1.6;">The regional manager gets the facts, sizes up the situation, and <strong>gets with Canon leadership right away</strong>. No filtering, no waiting for a better time.</div>
+    </div>
+    <div style="text-align:center; font-size:18px; color:var(--muted); margin:2px 0 10px;">⬇️</div>
+    <div style="border-left:4px solid var(--teal); background:#edf4fa; border-radius:0 8px 8px 0; padding:12px 14px;">
+      <div style="font-size:13px; font-weight:800; color:var(--teal); text-transform:uppercase; letter-spacing:0.8px; margin-bottom:4px;">3 · Corporate — closes the loop</div>
+      <div style="font-size:14px; line-height:1.6;">Leadership and the regional manager make the call <strong>together</strong>, and the answer comes straight back to the field. The loop isn't closed until the crew on location has the decision in hand.</div>
+    </div>
+  </div>
+
+  <p class="section-label">When to Fire the Loop — Red Flags</p>
+
+  <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:18px; margin-bottom:14px;">
+    <div style="font-size:14px; line-height:1.9;">
+      🚩 <strong>Scope changes on location</strong> — the plan said no gas and now you're seeing a ton of H2S<br>
+      🚩 <strong>Getting there is the problem</strong> — traffic, weather, breakdown, anything that makes us late or changes the route<br>
+      🚩 <strong>Company man is upset</strong> — a rep has a problem with us and needs a solution right away<br>
+      🚩 <strong>The job doesn't match the paper</strong> — conditions on the ground don't line up with the JSA or the plan<br>
+      🚩 <strong>Something just feels off</strong> — a gut check is a red flag too; that's situational awareness doing its job
+    </div>
+  </div>
+
+  <p class="section-label">Ground Rules</p>
+
+  <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:18px; margin-bottom:14px;">
+    <div style="font-size:14px; line-height:1.9;">
+      ✅ <strong>Call early.</strong> A 30-minute loop only works if it starts the moment you see the flag<br>
+      ✅ <strong>No flag is too small.</strong> Nobody has ever been in trouble for making the call<br>
+      ✅ <strong>Every loop gets closed.</strong> The field always hears the decision back — no dead air<br>
+      ✅ <strong>We decide together.</strong> Field, regional, and corporate stay tight — that's the whole point
+    </div>
+  </div>
+
+  <div class="compliance-note-card">
+    <div class="cn-header">
+      <span class="cn-label">🔄 The Bottom Line</span>
+      <span class="cn-from">— Mike</span>
+    </div>
+    <div class="cn-body">
+      This is just communication built on situational awareness. See it, say it, and let the loop
+      solve it — <em>together</em>. Thirty minutes from red flag to decision keeps a surprise from
+      becoming an incident.
+    </div>
+  </div>
 </div>
 
 <!-- ═══════════════════════════════════════════════ NEWS ═══ -->
