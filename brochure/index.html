@@ -191,6 +191,17 @@ p{margin:0 0 1rem;}
 .pg p{font-size:.72rem;color:#4b5663;margin:0;}
 .pg .tagp{font-family:var(--disp);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--red);}
 .prod-note{margin-top:16px;font-size:.72rem;color:#c3cfdf;text-transform:uppercase;letter-spacing:.06em;font-family:var(--disp);}
+.brandlab{font-family:var(--disp);font-weight:700;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#f3d9a4;margin:18px 0 8px;display:flex;align-items:center;gap:10px;}
+.brandlab::after{content:"";flex:1;height:1px;background:rgba(255,255,255,.25);}
+.pgrid5{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;}
+.pc{background:var(--white);padding:10px 10px 9px;color:var(--ink);display:flex;flex-direction:column;gap:4px;}
+.pc .pi{height:64px;display:flex;align-items:center;justify-content:center;}
+.pc .pi img{max-height:64px;max-width:100%;width:auto;}
+.pc h5{font-family:var(--disp);font-weight:700;font-size:.7rem;color:var(--navy);line-height:1.1;margin:0;text-transform:uppercase;letter-spacing:.02em;}
+.pc p{font-size:.6rem;color:#4b5663;margin:0;line-height:1.35;}
+.gx-banner{background:var(--red);color:#fff;margin-top:20px;padding:13px 18px;display:flex;align-items:center;gap:16px;}
+.gx-banner .gt{font-family:var(--disp);font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:.95rem;white-space:nowrap;}
+.gx-banner p{margin:0;font-size:.74rem;color:#ffe2e5;}
 
 .cap-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
 .cap{background:#fff;border:1px solid var(--line);border-left:4px solid var(--teal);padding:16px 18px;}
@@ -528,7 +539,7 @@ p{margin:0 0 1rem;}
       <div class="svc">
         <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1 2.5 3 6 3s6-2 6-3v-5"/></svg>
         <h3>Regulatory Training</h3>
-        <p>40+ OSHA, H2S, PEC SafeLand &amp; SafeGulf, HAZWOPER and First Aid courses — in our classrooms, at your site, or online.</p>
+        <p>40+ OSHA, H2S, Veriforce SafeLand &amp; SafeGulf, HAZWOPER and First Aid courses — in our classrooms, at your site, or online.</p>
       </div>
       <div class="svc">
         <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg>
@@ -552,31 +563,38 @@ p{margin:0 0 1rem;}
     <h2 style="font-size:2rem;">The instruments we put in your hands.</h2>
     <p class="lead" style="max-width:62ch;">Factory-authorized sales, rentals and calibration — sized to your job, bump-tested and documented before they leave our shop.</p>
 
-    <div class="prod-feature">
-      <div class="pf">
-        <div class="brand">RKI Instruments</div>
-        <h3>GX-6000 — Benzene &amp; VOC</h3>
-        <p>Six-gas sample-draw monitor with dual PID capability. Benzene-specific mode reads 0.01–50 ppm through PID pre-filter tubes; 10.6 eV &amp; 10.0 eV sensors cover a 300+ compound VOC library alongside LEL, O₂, H₂S and CO.</p>
-        <div class="chips"><span class="chip2">Benzene 0.01–50 ppm</span><span class="chip2">Dual PID</span><span class="chip2">Internal pump</span><span class="chip2">6-gas</span></div>
-      </div>
-      <div class="pf">
-        <div class="brand">RKI Instruments</div>
-        <h3>GX-Force — Pumped 4-Gas</h3>
-        <p>Sample-draw four-gas (LEL · O₂ · H₂S · CO) built around a strong internal pump with a 100-ft sampling range — the confined-space and tank-gauging workhorse, with roughly 30 hours per charge.</p>
-        <div class="chips"><span class="chip2">100-ft sample range</span><span class="chip2">LEL · O₂ · H₂S · CO</span><span class="chip2">~30-hr runtime</span></div>
-      </div>
+    <div class="brandlab">RKI Instruments</div>
+    <div class="pgrid5">
+      <div class="pc"><div class="pi"><img src="img/gd26_rki_gx3r.png" alt="RKI GX-3R"></div><h5>GX-3R</h5><p>Ultra-compact 4-gas built for comfortable, dependable everyday protection.</p></div>
+      <div class="pc"><div class="pi"><img src="img/gd26_rki_gx3rpro.png" alt="RKI GX-3R Pro"></div><h5>GX-3R Pro</h5><p>Expanded gas options, color display and rugged construction — up to 5 gases.</p></div>
+      <div class="pc"><div class="pi"><img src="img/gd26_rki_gxforce.png" alt="RKI GX-Force"></div><h5>GX-Force</h5><p>Rugged pumped multi-gas for personal protection and confined-space entry.</p></div>
+      <div class="pc"><div class="pi"><img src="img/gd26_rki_pump.png" alt="RKI pump attachment"></div><h5>Pump Attachment</h5><p>Adds remote-sampling capability to compatible RKI monitors.</p></div>
+      <div class="pc"><div class="pi"><img src="img/gd26_rki_dock.png" alt="RKI docking station"></div><h5>Docking Station</h5><p>Automates bump testing, calibration, charging and data management.</p></div>
     </div>
 
-    <div class="prod-grid">
-      <div class="pg"><div class="tagp">Honeywell BW · Single-Gas</div><h4>BW Clip</h4><p>Maintenance-free H₂S, CO, O₂ or SO₂ — 2-year, no charging, clip on and go.</p></div>
-      <div class="pg"><div class="tagp">Honeywell BW · Single-Gas</div><h4>BW Solo</h4><p>Serviceable single-gas with the widest sensor selection in its class.</p></div>
-      <div class="pg"><div class="ph2"><img src="img/gd_clip4.png" alt="Honeywell BW Clip4"></div><div class="tagp">Honeywell BW · Multi-Gas</div><h4>BW Clip4</h4><p>Always-on 4-gas — two years of continuous runtime, zero charging.</p></div>
-      <div class="pg"><div class="ph2"><img src="img/gd_microclip.png" alt="Honeywell BW MicroClip X3 and XL"></div><div class="tagp">Honeywell BW · Multi-Gas</div><h4>MicroClip X3 &amp; XL</h4><p>The world's most popular compact 4-gas — X3 carries a 3-year warranty.</p></div>
-      <div class="pg"><div class="ph2"><img src="img/gd_gamax.png" alt="GasAlertMax XT II"></div><div class="tagp">Honeywell BW · Multi-Gas · Pump</div><h4>GasAlertMax XT II</h4><p>4-gas with integrated pump for remote sampling and pre-entry checks.</p></div>
-      <div class="pg"><div class="tagp">Honeywell BW · Multi-Gas · Pump</div><h4>BW Ultra</h4><p>Five-gas pumped monitor purpose-built for confined-space entry.</p></div>
+    <div class="brandlab">Honeywell BW</div>
+    <div class="pgrid5">
+      <div class="pc"><div class="pi"><img src="img/gd26_hw_clip.png" alt="Honeywell BW Clip"></div><h5>BW Clip</h5><p>Simple single-gas for continuous protection with minimal maintenance.</p></div>
+      <div class="pc"><div class="pi"><img src="img/gd26_hw_clip4.png" alt="Honeywell BW Clip4"></div><h5>BW Clip4</h5><p>Wearable always-on 4-gas in a compact, easy-to-use design.</p></div>
+      <div class="pc"><div class="pi"><img src="img/gd26_hw_microclip.png" alt="Honeywell MicroClip XL"></div><h5>MicroClip XL</h5><p>Slim rechargeable 4-gas with dependable alarms for all-day wear.</p></div>
+      <div class="pc"><div class="pi"><img src="img/gd26_hw_maxxt.png" alt="Honeywell Max XT II"></div><h5>Max XT II</h5><p>Multi-gas with integrated pump for pre-entry and confined-space work.</p></div>
+      <div class="pc"><div class="pi"><img src="img/gd26_hw_intellidox.png" alt="Honeywell IntelliDoX"></div><h5>IntelliDoX</h5><p>Automated docking for testing, calibration, charging and compliance records.</p></div>
     </div>
 
-    <div class="prod-note">Fleet management included — IntelliDoX &amp; MicroDock II automated bump / calibration · full spec sheets on request</div>
+    <div class="brandlab">Gas Clip Technologies</div>
+    <div class="pgrid5">
+      <div class="pc"><div class="pi"><img src="img/gd26_gc_mgc.png" alt="Gas Clip MGC"></div><h5>MGC</h5><p>Compact 4-gas for continuous personal protection and routine atmospheric testing.</p></div>
+      <div class="pc"><div class="pi"><img src="img/gd26_gc_simple.png" alt="Gas Clip MGC Simple"></div><h5>MGC Simple</h5><p>Easy-to-use multi-gas built for dependable daily monitoring with minimal setup.</p></div>
+      <div class="pc"><div class="pi"><img src="img/gd26_gc_pump.png" alt="Gas Clip MGC Pump"></div><h5>MGC Pump</h5><p>Pumped multi-gas for remote sampling, confined-space entry and pre-entry testing.</p></div>
+      <div class="pc"><div class="pi"><img src="img/gd26_gc_extpump.png" alt="Gas Clip external sampling pump"></div><h5>External Pump</h5><p>Portable sampling pump for tanks, pits, vessels and hard-to-reach areas.</p></div>
+      <div class="pc"><div class="pi"><img src="img/gd26_gc_dock.png" alt="Gas Clip docking station"></div><h5>Docking Station</h5><p>Automated bump testing, calibration, recordkeeping and maintenance.</p></div>
+    </div>
+
+    <div class="gx-banner">
+      <span class="gt">Benzene? Ask about the RKI GX-6000.</span>
+      <p>Benzene-specific PID monitoring (0.01–50 ppm) with dual-PID capability and a 300+ compound VOC library — available for specialty applications.</p>
+    </div>
+    <div class="prod-note">Sales · rentals · calibration across all three lines — full spec sheets on request</div>
   </section>
 
   <!-- ============ 7. TRAINING ============ -->
@@ -591,10 +609,10 @@ p{margin:0 0 1rem;}
           <div class="cl">Authorized &amp; accredited through</div>
           <img src="img/cert_osha.png" alt="OSHA">
           <img src="img/cert_medic.png" alt="MEDIC First Aid">
-          <img src="img/cert_enform.png" alt="ENFORM">
+          <img src="img/cert_esc.png" alt="Energy Safety Canada">
           <img src="img/cert_safeland.png" alt="SafeLand USA">
           <img src="img/cert_safegulf.png" alt="SafeGulf">
-          <img src="img/cert_pec.png" alt="PEC Premier">
+          <img src="img/cert_veriforce.png" alt="Veriforce">
         </div>
       </div>
       <div>
@@ -602,7 +620,7 @@ p{margin:0 0 1rem;}
         <div class="course-cols">
           <div class="c">H2S Alive &amp; H2S Awareness</div>
           <div class="c">OSHA 10 / 30 — GI &amp; Construction</div>
-          <div class="c">PEC Core &amp; SafeLand / SafeGulf</div>
+          <div class="c">Veriforce PEC Core &amp; SafeLand / SafeGulf</div>
           <div class="c">HAZWOPER 8 / 24 / 40 Hr</div>
           <div class="c">Confined Space (Permit-Required)</div>
           <div class="c">Fall Protection</div>
