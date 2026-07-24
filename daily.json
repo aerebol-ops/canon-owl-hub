@@ -1,49 +1,61 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "week": 6,
-  "day": 3,
-  "openingMessage": "The most important thing a leader can do is create an environment where everyone feels they are part of the team and the team is part of them.",
-  "openingAttribution": "Mike Krzyzewski",
-  "openingWhy": "The hand who feels like an outsider won't call stop-work — he'll hope somebody senior does it first. The crew where the greenest worm will grab an operator's sleeve and say 'walk me through this' is the crew that catches what everybody else walks right past.",
+  "day": 4,
+  "openingMessage": "I don't hire good coaches. I hire good people. If they turn out to be good coaches too, that's a plus.",
+  "openingAttribution": "Geno Auriemma",
+  "openingWhy": "You can teach a man to run a 4-gas in a week. You can't teach him to tell the truth about a reading that inconveniences the schedule. Character first — the skills follow. It's the same reason the best crews in this Basin aren't always the most experienced ones.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
-      "count": 50
+      "count": 56
     },
     {
       "name": "Nathan Contreras",
-      "count": 41
+      "count": 45
     },
     {
       "name": "David Hammond",
-      "count": 37
+      "count": 42
+    },
+    {
+      "name": "Ralph Forbes",
+      "count": 34
+    },
+    {
+      "name": "Justin Fontenot",
+      "count": 32
     },
     {
       "name": "Stefanie Kirschke",
       "count": 32
     },
     {
-      "name": "Ralph Forbes",
-      "count": 28
-    },
-    {
-      "name": "Justin Fontenot",
-      "count": 26
+      "name": "Larry Jaramillo",
+      "count": 31
     },
     {
       "name": "Jordan Lemmons",
-      "count": 25
-    },
-    {
-      "name": "Larry Jaramillo",
-      "count": 25
+      "count": 29
     },
     {
       "name": "Rolando Flores",
-      "count": 24
+      "count": 28
     },
     {
       "name": "Cindy Smith",
+      "count": 27
+    },
+    {
+      "name": "Jacob Hernandez",
+      "count": 26
+    },
+    {
+      "name": "Marylou Guerra",
+      "count": 26
+    },
+    {
+      "name": "Baldemar Bracamontes",
       "count": 23
     },
     {
@@ -51,23 +63,11 @@
       "count": 23
     },
     {
-      "name": "Marylou Guerra",
-      "count": 23
-    },
-    {
-      "name": "Baldemar Bracamontes",
-      "count": 22
-    },
-    {
       "name": "Caleb Smith",
       "count": 22
     },
     {
       "name": "Gage Gonzales",
-      "count": 22
-    },
-    {
-      "name": "Jacob Hernandez",
       "count": 22
     },
     {
@@ -91,6 +91,14 @@
       "count": 19
     },
     {
+      "name": "Jaques Faulk",
+      "count": 18
+    },
+    {
+      "name": "Dawson Drake",
+      "count": 17
+    },
+    {
       "name": "Gary Briones",
       "count": 17
     },
@@ -103,20 +111,16 @@
       "count": 15
     },
     {
-      "name": "Brianda Sandoval",
-      "count": 14
-    },
-    {
-      "name": "Jaques Faulk",
-      "count": 14
+      "name": "Jeremy Norris",
+      "count": 15
     },
     {
       "name": "Jimmy White",
-      "count": 14
+      "count": 15
     },
     {
-      "name": "Dawson Drake",
-      "count": 13
+      "name": "Brianda Sandoval",
+      "count": 14
     },
     {
       "name": "James Stephens",
@@ -131,12 +135,12 @@
       "count": 12
     },
     {
-      "name": "Jaquez Faulk",
-      "count": 11
+      "name": "Gael Antonio Avila",
+      "count": 12
     },
     {
-      "name": "Jeremy Norris",
-      "count": 9
+      "name": "Jaquez Faulk",
+      "count": 11
     },
     {
       "name": "Marcos Morales",
@@ -148,10 +152,6 @@
     },
     {
       "name": "Barthol Bj Caesar",
-      "count": 7
-    },
-    {
-      "name": "Gael Antonio Avila",
       "count": 7
     },
     {
@@ -207,40 +207,40 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Distraction, fatigue, and rushing are the three passengers that never announce themselves. Any one of them alone is a stop condition. Check for all three before the truck moves — not after the first close call.",
+  "leadershipThought": "Journey management is not paperwork for long hauls. It's somebody knowing where you are, what route you're on, and when to worry. On a lease road at 2 AM, that call-in is your attendant.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Set up for vehicle placement went well with spotters backing them in</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Driving)</span><br><span style='font-size:13px;'>Set up for vehicle placement went well with spotters backing them in</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span><br><br><strong>Communication with crew and MT was good talked about potential hazards</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Communication with crew and MT was good talked about potential hazards</span><br><br><strong>Complete the job in a timely manner, but safely and accurately to the MTs n</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Complete the job in a timely manner, but safely and accurately to the MTs needs ans job</span><br><br><strong>Job went smoothly crew used their LMRA before any task being done</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Job went smoothly crew used their LMRA before any task being done</span>",
+  "exxonMoments": "<strong>Set up for vehicle placement went well with spotters backing them in</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Driving)</span><br><span style='font-size:13px;'>Set up for vehicle placement went well with spotters backing them in</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span><br><br><strong>Crew mitigated potential problems by expanding exclusion zone</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew mitigated potential problems by expanding exclusion zone</span><br><br><strong>All crews on site were together simultaneously to complete the job safely</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>All crews on site were together simultaneously to complete the job safely.</span><br><br><strong>Everyone was out of the way when the pump truck operator started to hook up</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone was out of the way when the pump truck operator started to hook up to the</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Larry Jaramillo — Informed company man of a possible better scenario and left the decision in",
-      "detail": "Informed company man of a possible better scenario and left the decision in his hands",
+      "headline": "David Hammond — My and crews worked well together",
+      "detail": "Did we leave the location better Yes.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons — Crew helped me replace my tire",
-      "detail": "Crew helped me replace my tire",
+      "headline": "Caleb Smith — Crew physically went and verified lotto at the header and flowline were sti",
+      "detail": "Crew physically went and verified lotto at the header and flowline were still in place.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Anthony Scott — No gas was present, crew was very engaging in safety meeting",
-      "detail": "No gas was present, crew was very engaging in safety meeting. LMRAs were utilized",
+      "headline": "Ralph Forbes — Crew mitigated potential problems by expanding exclusion zone",
+      "detail": "Crew mitigated potential problems by expanding exclusion zone",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Alexander Clubb — Breaking containment under air",
-      "detail": "Breaking containment under air.",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Jeremy Norris — All crews on site were together simultaneously to complete the job safely",
+      "detail": "All crews on site were together simultaneously to complete the job safely.",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Brianda Sandoval — Crew worked efficiently trying to get ahead of the rain",
-      "detail": "Crew worked efficiently trying to get ahead of the rain.",
+      "headline": "Raymundo Solis — Even with the heat crew stayed hydrated and got the job done in a timely an",
+      "detail": "Even with the heat crew stayed hydrated and got the job done in a timely and safe",
       "psms": "Operational Discipline"
     },
     {
@@ -256,27 +256,27 @@
       "psms": "Driving · Wk 6"
     }
   ],
-  "todaysChallenge": "Your standard today protects people you'll never meet — the night crew, the pumper tomorrow, somebody's dad next month. Leave the location better because you were on it.",
-  "todaysChallengeSubtext": "“A life is not important except in the impact it has on other lives.” — Jackie Robinson",
+  "todaysChallenge": "If the reading looks off, test again. If the form's wrong, redo it. 'Close enough' isn't a Canon phrase — stay on it until it's right.",
+  "todaysChallengeSubtext": "“Champions keep playing until they get it right.” — Billie Jean King",
   "compliance": {
     "weekOf": "Week of July 20, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 60,
-        "total": 64
+        "done": 133,
+        "total": 140
       },
       {
         "label": "Trailer Inspections",
-        "done": 13,
-        "total": 15
+        "done": 31,
+        "total": 34
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 8,
-        "total": 10
+        "done": 18,
+        "total": 25
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 07/21"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 07/22"
   }
 }
