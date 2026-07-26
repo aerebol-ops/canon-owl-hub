@@ -1,30 +1,34 @@
 {
-  "date": "2026-07-23",
-  "week": 6,
-  "day": 4,
-  "openingMessage": "I don't hire good coaches. I hire good people. If they turn out to be good coaches too, that's a plus.",
+  "date": "2026-07-27",
+  "week": 7,
+  "day": 1,
+  "openingMessage": "The standard is the standard. It doesn't change based on who's watching.",
   "openingAttribution": "Geno Auriemma",
-  "openingWhy": "You can teach a man to run a 4-gas in a week. You can't teach him to tell the truth about a reading that inconveniences the schedule. Character first — the skills follow. It's the same reason the best crews in this Basin aren't always the most experienced ones.",
+  "openingWhy": "H2S doesn't check who's on location before it leaks. If the job runs one way with the company man watching and another way at 3 AM, that's not a standard — that's a show. And the gas only ever attends the 3 AM performance.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
-      "count": 56
+      "count": 59
     },
     {
       "name": "Nathan Contreras",
-      "count": 45
+      "count": 46
     },
     {
       "name": "David Hammond",
       "count": 42
     },
     {
-      "name": "Ralph Forbes",
+      "name": "Justin Fontenot",
+      "count": 35
+    },
+    {
+      "name": "Jordan Lemmons",
       "count": 34
     },
     {
-      "name": "Justin Fontenot",
-      "count": 32
+      "name": "Ralph Forbes",
+      "count": 34
     },
     {
       "name": "Stefanie Kirschke",
@@ -35,24 +39,20 @@
       "count": 31
     },
     {
-      "name": "Jordan Lemmons",
-      "count": 29
-    },
-    {
       "name": "Rolando Flores",
-      "count": 28
-    },
-    {
-      "name": "Cindy Smith",
-      "count": 27
+      "count": 31
     },
     {
       "name": "Jacob Hernandez",
-      "count": 26
+      "count": 30
     },
     {
       "name": "Marylou Guerra",
-      "count": 26
+      "count": 30
+    },
+    {
+      "name": "Cindy Smith",
+      "count": 29
     },
     {
       "name": "Baldemar Bracamontes",
@@ -71,6 +71,14 @@
       "count": 22
     },
     {
+      "name": "Jaques Faulk",
+      "count": 22
+    },
+    {
+      "name": "Robert Wright",
+      "count": 21
+    },
+    {
       "name": "David Jose Zamora",
       "count": 20
     },
@@ -87,19 +95,15 @@
       "count": 19
     },
     {
-      "name": "Robert Wright",
-      "count": 19
-    },
-    {
-      "name": "Jaques Faulk",
-      "count": 18
-    },
-    {
       "name": "Dawson Drake",
       "count": 17
     },
     {
       "name": "Gary Briones",
+      "count": 17
+    },
+    {
+      "name": "Jeremy Norris",
       "count": 17
     },
     {
@@ -111,10 +115,6 @@
       "count": 15
     },
     {
-      "name": "Jeremy Norris",
-      "count": 15
-    },
-    {
       "name": "Jimmy White",
       "count": 15
     },
@@ -123,19 +123,19 @@
       "count": 14
     },
     {
+      "name": "Luis Zarate",
+      "count": 14
+    },
+    {
+      "name": "Gael Antonio Avila",
+      "count": 13
+    },
+    {
       "name": "James Stephens",
       "count": 13
     },
     {
-      "name": "Luis Zarate",
-      "count": 13
-    },
-    {
       "name": "Christian Lee",
-      "count": 12
-    },
-    {
-      "name": "Gael Antonio Avila",
       "count": 12
     },
     {
@@ -175,6 +175,14 @@
       "count": 6
     },
     {
+      "name": "Michael Jobe",
+      "count": 5
+    },
+    {
+      "name": "William Jimmy Cooper",
+      "count": 5
+    },
+    {
       "name": "Allen White",
       "count": 4
     },
@@ -201,46 +209,42 @@
     {
       "name": "Jeremy Torrence",
       "count": 1
-    },
-    {
-      "name": "Michael Jobe",
-      "count": 1
     }
   ],
-  "leadershipThought": "Journey management is not paperwork for long hauls. It's somebody knowing where you are, what route you're on, and when to worry. On a lease road at 2 AM, that call-in is your attendant.",
+  "leadershipThought": "Problem solving under pressure works when you've already decided what you'll do before the pressure arrives. Know your muster point before the alarm. Know your role before the emergency.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Set up for vehicle placement went well with spotters backing them in</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Driving)</span><br><span style='font-size:13px;'>Set up for vehicle placement went well with spotters backing them in</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span><br><br><strong>Crew mitigated potential problems by expanding exclusion zone</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew mitigated potential problems by expanding exclusion zone</span><br><br><strong>All crews on site were together simultaneously to complete the job safely</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>All crews on site were together simultaneously to complete the job safely.</span><br><br><strong>Everyone was out of the way when the pump truck operator started to hook up</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone was out of the way when the pump truck operator started to hook up to the</span>",
+  "exxonMoments": "<strong>Crew followed the JSA, communicated effectively, maintained continuous gas</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Hot Work)</span><br><span style='font-size:13px;'>Crew followed the JSA, communicated effectively, maintained continuous gas monitoring,</span><br><br><strong>Crew did an awesome job on following Exxon's safety protocols</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew did an awesome job on following Exxon's safety protocols</span><br><br><strong>Everyone had a safety meeting before starting the job going over LMRAs</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone had a safety meeting before starting the job going over LMRAs</span><br><br><strong>Good communication between crew, company man, & safety crew everyone unders</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Good communication between crew, company man, & safety crew everyone understood</span><br><br><strong>Crew mitigated potential problems by expanding exclusion zone</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew mitigated potential problems by expanding exclusion zone</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "David Hammond — My and crews worked well together",
+      "headline": "Marylou Guerra — Communication is the key to successful job",
       "detail": "Did we leave the location better Yes.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Caleb Smith — Crew physically went and verified lotto at the header and flowline were sti",
-      "detail": "Crew physically went and verified lotto at the header and flowline were still in place.",
+      "headline": "Luis Zarate — The job went exactly has projected",
+      "detail": "Did we leave the location better Yes.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Crew mitigated potential problems by expanding exclusion zone",
-      "detail": "Crew mitigated potential problems by expanding exclusion zone",
+      "headline": "William Jimmy Cooper — Good communication stayed hydrated",
+      "detail": "Good communication stayed hydrated",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — All crews on site were together simultaneously to complete the job safely",
-      "detail": "All crews on site were together simultaneously to complete the job safely.",
+      "headline": "Cindy Smith — Conditions were ideal and crew (Magnum) was good at communicating with us",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis — Even with the heat crew stayed hydrated and got the job done in a timely an",
-      "detail": "Even with the heat crew stayed hydrated and got the job done in a timely and safe",
+      "headline": "Rolando Flores — Crew got the job done testing was all zeros",
+      "detail": "Crew got the job done testing was all zeros",
       "psms": "Operational Discipline"
     },
     {
@@ -256,8 +260,8 @@
       "psms": "Driving · Wk 6"
     }
   ],
-  "todaysChallenge": "If the reading looks off, test again. If the form's wrong, redo it. 'Close enough' isn't a Canon phrase — stay on it until it's right.",
-  "todaysChallengeSubtext": "“Champions keep playing until they get it right.” — Billie Jean King",
+  "todaysChallenge": "The standard gets heavy on day four of a long week. Hold it anyway — today's the day it's most tempting to skip a step, which makes today the day it counts most.",
+  "todaysChallengeSubtext": "“Don't give up. Don't ever give up.” — Jim Valvano",
   "compliance": {
     "weekOf": "Week of July 20, 2026",
     "metrics": [
