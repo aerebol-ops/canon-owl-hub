@@ -1,18 +1,18 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "week": 7,
-  "day": 1,
-  "openingMessage": "The standard is the standard. It doesn't change based on who's watching.",
-  "openingAttribution": "Geno Auriemma",
-  "openingWhy": "H2S doesn't check who's on location before it leaks. If the job runs one way with the company man watching and another way at 3 AM, that's not a standard — that's a show. And the gas only ever attends the 3 AM performance.",
+  "day": 2,
+  "openingMessage": "Responsibility is the path to meaning.",
+  "openingAttribution": "Jordan Peterson",
+  "openingWhy": "Ask a twenty-year hand why he's still out here — it's never the per diem. It's being the man a crew bets their lives on, and having earned that bet every single day. That weight isn't the cost of this job. It's the pay.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
-      "count": 59
+      "count": 60
     },
     {
       "name": "Nathan Contreras",
-      "count": 46
+      "count": 47
     },
     {
       "name": "David Hammond",
@@ -20,22 +20,34 @@
     },
     {
       "name": "Justin Fontenot",
-      "count": 35
+      "count": 37
     },
     {
       "name": "Jordan Lemmons",
-      "count": 34
+      "count": 36
     },
     {
       "name": "Ralph Forbes",
-      "count": 34
+      "count": 36
+    },
+    {
+      "name": "Larry Jaramillo",
+      "count": 32
     },
     {
       "name": "Stefanie Kirschke",
       "count": 32
     },
     {
-      "name": "Larry Jaramillo",
+      "name": "Cindy Smith",
+      "count": 31
+    },
+    {
+      "name": "Jacob Hernandez",
+      "count": 31
+    },
+    {
+      "name": "Marylou Guerra",
       "count": 31
     },
     {
@@ -43,16 +55,8 @@
       "count": 31
     },
     {
-      "name": "Jacob Hernandez",
-      "count": 30
-    },
-    {
-      "name": "Marylou Guerra",
-      "count": 30
-    },
-    {
-      "name": "Cindy Smith",
-      "count": 29
+      "name": "Jaques Faulk",
+      "count": 24
     },
     {
       "name": "Baldemar Bracamontes",
@@ -71,12 +75,8 @@
       "count": 22
     },
     {
-      "name": "Jaques Faulk",
-      "count": 22
-    },
-    {
       "name": "Robert Wright",
-      "count": 21
+      "count": 22
     },
     {
       "name": "David Jose Zamora",
@@ -96,7 +96,7 @@
     },
     {
       "name": "Dawson Drake",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Gary Briones",
@@ -123,12 +123,12 @@
       "count": 14
     },
     {
-      "name": "Luis Zarate",
+      "name": "Gael Antonio Avila",
       "count": 14
     },
     {
-      "name": "Gael Antonio Avila",
-      "count": 13
+      "name": "Luis Zarate",
+      "count": 14
     },
     {
       "name": "James Stephens",
@@ -155,15 +155,15 @@
       "count": 7
     },
     {
+      "name": "Bobby Galindo",
+      "count": 7
+    },
+    {
       "name": "Trevor Mckenzie",
       "count": 7
     },
     {
       "name": "Alexander Clubb",
-      "count": 6
-    },
-    {
-      "name": "Bobby Galindo",
       "count": 6
     },
     {
@@ -176,11 +176,11 @@
     },
     {
       "name": "Michael Jobe",
-      "count": 5
+      "count": 6
     },
     {
       "name": "William Jimmy Cooper",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Allen White",
@@ -211,40 +211,40 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Problem solving under pressure works when you've already decided what you'll do before the pressure arrives. Know your muster point before the alarm. Know your role before the emergency.",
+  "leadershipThought": "Breaking containment is where small mistakes turn into big consequences. Preparation, awareness, and discipline to stop work keep people safe.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Crew followed the JSA, communicated effectively, maintained continuous gas</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Hot Work)</span><br><span style='font-size:13px;'>Crew followed the JSA, communicated effectively, maintained continuous gas monitoring,</span><br><br><strong>Crew did an awesome job on following Exxon's safety protocols</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew did an awesome job on following Exxon's safety protocols</span><br><br><strong>Everyone had a safety meeting before starting the job going over LMRAs</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone had a safety meeting before starting the job going over LMRAs</span><br><br><strong>Good communication between crew, company man, & safety crew everyone unders</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Good communication between crew, company man, & safety crew everyone understood</span><br><br><strong>Crew mitigated potential problems by expanding exclusion zone</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew mitigated potential problems by expanding exclusion zone</span>",
+  "exxonMoments": "<strong>Crew followed the JSA, communicated effectively, maintained continuous gas</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Hot Work)</span><br><span style='font-size:13px;'>Crew followed the JSA, communicated effectively, maintained continuous gas monitoring,</span><br><br><strong>Communication between forklift operator and spotter was on point</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Communication between forklift operator and spotter was on point</span><br><br><strong>Parts reinstalled at a good rate of time with action discussed before hand</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Parts reinstalled at a good rate of time with action discussed before hand</span><br><br><strong>We inspected their tools and determined they were not correct, shut job dow</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>We inspected their tools and determined they were not correct, shut job down before</span><br><br><strong>Crew did an awesome job on following Exxon's safety protocols</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew did an awesome job on following Exxon's safety protocols</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Joshua Blassingame — on the OWL board",
-      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-07-12. That consistency is the habit.",
+      "headline": "Justin Fontenot — Job went as planned no issues",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jaques Faulk — on the OWL board",
-      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-07-09. That consistency is the habit.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Christian Lee — on the OWL board",
-      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-07-09. That consistency is the habit.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "John Blasingame — on the OWL board",
-      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-07-09. That consistency is the habit.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Bobby Galindo — on the OWL board",
+      "headline": "Michael Jobe — on the OWL board",
       "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-07-04. That consistency is the habit.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Jaquez Faulk — on the OWL board",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-07-02. That consistency is the habit.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Torrence — on the OWL board",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-06-29. That consistency is the habit.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez — Job scope executed to perfection",
+      "detail": "Job scope executed to perfection.",
       "psms": "Operational Discipline"
     },
     {
@@ -260,27 +260,27 @@
       "psms": "Driving · Wk 6"
     }
   ],
-  "todaysChallenge": "The standard gets heavy on day four of a long week. Hold it anyway — today's the day it's most tempting to skip a step, which makes today the day it counts most.",
-  "todaysChallengeSubtext": "“Don't give up. Don't ever give up.” — Jim Valvano",
+  "todaysChallenge": "Somebody on your location today is one coaching conversation away from being twice as good. Find them. That conversation is the opportunity — take it.",
+  "todaysChallengeSubtext": "“Great moments are born from great opportunity.” — Herb Brooks",
   "compliance": {
-    "weekOf": "Week of July 20, 2026",
+    "weekOf": "Week of July 27, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 133,
-        "total": 140
+        "done": 52,
+        "total": 62
       },
       {
         "label": "Trailer Inspections",
-        "done": 31,
-        "total": 34
+        "done": 10,
+        "total": 13
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 18,
-        "total": 25
+        "done": 9,
+        "total": 10
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 07/22"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 07/27"
   }
 }
