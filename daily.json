@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "week": 7,
-  "day": 2,
-  "openingMessage": "Responsibility is the path to meaning.",
+  "day": 3,
+  "openingMessage": "Set your house in perfect order before you criticize the world.",
   "openingAttribution": "Jordan Peterson",
-  "openingWhy": "Ask a twenty-year hand why he's still out here — it's never the per diem. It's being the man a crew bets their lives on, and having earned that bet every single day. That weight isn't the cost of this job. It's the pay.",
+  "openingWhy": "Before we critique the operator's plan at the pre-job, the honest question: is our own trailer inspected, our bottles full, our forms real? On location, the crew whose house is in order is the crew that gets listened to when it counts.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -211,7 +211,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Breaking containment is where small mistakes turn into big consequences. Preparation, awareness, and discipline to stop work keep people safe.",
+  "leadershipThought": "When the plan breaks down, the people who trained hardest perform best. That is not an accident. Every emergency response — real or drill — is a data point. Debrief it. Get better.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -219,32 +219,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Justin Fontenot — Job went as planned no issues",
-      "detail": "Did we leave the location better.",
+      "headline": "Gael Antonio Avila — Everything, job, communication",
+      "detail": "Everything, job, communication",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — on the OWL board",
-      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-07-04. That consistency is the habit.",
+      "headline": "Stefanie Kirschke — Crew followed the JSA, communicated effectively, maintained continuous gas",
+      "detail": "Crew followed the JSA, communicated effectively, maintained continuous gas monitoring,",
+      "psms": "Hot Work"
+    },
+    {
+      "type": "good",
+      "headline": "Alfredo Vaquera — Everyone respected the fact that there was H2 S on Location",
+      "detail": "Everyone respected the fact that there was H2 S on Location",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jaquez Faulk — on the OWL board",
-      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-07-02. That consistency is the habit.",
-      "psms": "Operational Discipline"
+      "headline": "Edward Carrillo — Crane crew did an except pre task of setting up exclusion zones prior to pe",
+      "detail": "Did we leave the location better Yes.",
+      "psms": "Mobile Equipment"
     },
     {
       "type": "good",
-      "headline": "Jeremy Torrence — on the OWL board",
-      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-06-29. That consistency is the habit.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Jacob Hernandez — Job scope executed to perfection",
-      "detail": "Job scope executed to perfection.",
+      "headline": "Dawson Drake — Everyone keep bringing up drink water",
+      "detail": "Everyone keep bringing up drink water",
       "psms": "Operational Discipline"
     },
     {
@@ -260,27 +260,27 @@
       "psms": "Driving · Wk 6"
     }
   ],
-  "todaysChallenge": "Somebody on your location today is one coaching conversation away from being twice as good. Find them. That conversation is the opportunity — take it.",
-  "todaysChallengeSubtext": "“Great moments are born from great opportunity.” — Herb Brooks",
+  "todaysChallenge": "Today, nobody works an island. Know who's upwind of you, who's watching your entry, who's got rescue. If you can't name them, the job isn't ready to start.",
+  "todaysChallengeSubtext": "“The way a team plays as a whole determines its success.” — Babe Ruth",
   "compliance": {
     "weekOf": "Week of July 27, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 52,
-        "total": 62
+        "done": 90,
+        "total": 101
       },
       {
         "label": "Trailer Inspections",
-        "done": 10,
-        "total": 13
+        "done": 17,
+        "total": 21
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 9,
-        "total": 10
+        "done": 15,
+        "total": 20
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 07/27"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 07/28"
   }
 }
