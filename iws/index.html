@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canon Safety × IWS — EHS Partnership Hub</title>
+<style>
+:root{
+  --navy:#1F3864; --navy-dk:#152848; --teal:#2E75B6; --teal-lt:#5b9bd8;
+  --red:#C00000; --gold:#BF8F00; --gold-lt:#e0b93b; --orange:#C55A11;
+  --paper:#F4F2EC; --paper-2:#E9E6DE; --ink:#161a20; --steel:#5a6472;
+  --steel-lt:#8a93a0; --line:#d8dce3; --white:#fff; --green:#2e7d32;
+  --disp:"Bahnschrift","DIN Alternate","Oswald","Arial Narrow",system-ui,sans-serif;
+  --body:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--paper);font-family:var(--body);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased;}
+h1,h2,h3,h4{font-family:var(--disp);font-weight:700;margin:0;line-height:1.05;text-wrap:balance;}
+p{margin:0 0 1rem;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+.eyebrow{font-family:var(--disp);font-weight:600;text-transform:uppercase;letter-spacing:.28em;font-size:.72rem;color:var(--red);margin:0 0 .6rem;display:flex;align-items:center;gap:.6rem;}
+.eyebrow::before{content:"";width:26px;height:3px;background:var(--red);}
+.eyebrow.gold{color:var(--gold);}.eyebrow.gold::before{background:var(--gold);}
+.eyebrow.ondark{color:var(--gold-lt);}.eyebrow.ondark::before{background:var(--gold);}
+.lead{font-size:1.07rem;color:#33404f;}
+.muted{color:var(--steel);}
+.tnum{font-variant-numeric:tabular-nums;}
+
+/* ===== top nav ===== */
+.topnav{position:sticky;top:0;z-index:50;background:var(--navy);box-shadow:0 4px 18px rgba(16,28,52,.35);}
+.topnav .bar{display:flex;align-items:center;gap:18px;max-width:1080px;margin:0 auto;padding:10px 22px;}
+.topnav img{height:34px;width:auto;display:block;}
+.topnav .owlmark{width:30px;height:30px;color:var(--gold-lt);flex:none;}
+.navlinks{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap;}
+.navlinks a{font-family:var(--disp);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:#c2d1e6;text-decoration:none;padding:8px 11px;border-radius:4px;}
+.navlinks a:hover{color:#fff;background:rgba(255,255,255,.08);}
+.goldbar{height:5px;background:var(--gold);}
+
+/* ===== hero ===== */
+.hero{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-dk) 70%);color:#fff;padding:74px 0 60px;position:relative;overflow:hidden;}
+.hero .ripple{position:absolute;right:-140px;top:-140px;width:520px;height:520px;border-radius:50%;border:2px solid rgba(224,185,59,.14);}
+.hero .ripple::before,.hero .ripple::after{content:"";position:absolute;inset:60px;border-radius:50%;border:2px solid rgba(224,185,59,.12);}
+.hero .ripple::after{inset:130px;border-color:rgba(91,155,216,.16);}
+.hero-kick{font-family:var(--disp);text-transform:uppercase;letter-spacing:.32em;font-size:.8rem;color:var(--teal-lt);font-weight:600;margin-bottom:20px;}
+.hero h1{font-size:clamp(2.5rem,6.2vw,3.9rem);text-transform:uppercase;letter-spacing:.005em;line-height:.96;}
+.hero h1 .g{color:var(--gold-lt);}
+.hero-sub{font-family:var(--disp);font-weight:400;letter-spacing:.13em;text-transform:uppercase;font-size:.95rem;color:#c2d1e6;margin-top:22px;max-width:58ch;}
+.hero-meta{display:flex;gap:34px;margin-top:38px;flex-wrap:wrap;}
+.hero-meta .hm b{font-family:var(--disp);font-size:1.5rem;color:#fff;display:block;line-height:1;}
+.hero-meta .hm span{font-size:.66rem;text-transform:uppercase;letter-spacing:.14em;color:#93a7c4;}
+
+/* ===== sections ===== */
+section.block{padding:58px 0;}
+section.block.alt{background:var(--paper-2);}
+section.block.dark{background:var(--navy);color:#e9eef6;}
+section.block.dark h2,section.block.dark h3{color:#fff;}
+section.block.dark .lead{color:#c3cfe2;}
+.sec-head h2{font-size:2.15rem;color:var(--navy);margin-bottom:12px;}
+.dark .sec-head h2{color:#fff;}
+
+/* cards */
+.cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px;}
+.cards2{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px;}
+.card{background:#fff;border:1px solid var(--line);box-shadow:0 10px 30px rgba(31,56,100,.07);padding:24px;}
+.card h3{color:var(--navy);font-size:1.05rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px;}
+.card .n{font-family:var(--disp);font-weight:700;font-size:2rem;color:var(--gold);line-height:1;display:block;margin-bottom:10px;}
+.card p{font-size:.9rem;color:#3b4552;margin:0;}
+.card ul{margin:8px 0 0;padding-left:18px;font-size:.88rem;color:#3b4552;}
+.card ul li{margin-bottom:5px;}
+
+/* phase rail */
+.phases{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px;}
+.phase{background:#fff;border:1px solid var(--line);border-top:5px solid var(--teal);padding:24px;box-shadow:0 10px 30px rgba(31,56,100,.07);}
+.phase.p2{border-top-color:var(--gold);}
+.phase.p3{border-top-color:var(--red);}
+.phase .pk{font-family:var(--disp);text-transform:uppercase;letter-spacing:.2em;font-size:.66rem;color:var(--steel);}
+.phase h3{color:var(--navy);font-size:1.25rem;margin:6px 0 4px;text-transform:uppercase;}
+.phase .pw{font-family:var(--disp);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--teal);margin-bottom:12px;}
+.phase.p2 .pw{color:var(--gold);}
+.phase.p3 .pw{color:var(--red);}
+.phase ul{margin:0;padding-left:18px;font-size:.87rem;color:#3b4552;}
+.phase ul li{margin-bottom:6px;}
+
+/* scope table */
+.scopegrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px;}
+.scopecard{background:#fff;border:1px solid var(--line);padding:22px;}
+.dark .scopecard{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.14);}
+.scopecard h3{font-size:.95rem;text-transform:uppercase;letter-spacing:.07em;color:var(--navy);border-bottom:2px solid var(--gold);padding-bottom:8px;margin-bottom:12px;}
+.dark .scopecard h3{color:#fff;}
+.scopecard ul{margin:0;padding-left:17px;font-size:.86rem;color:#3b4552;columns:1;}
+.dark .scopecard ul{color:#c8d3e4;}
+.scopecard ul li{margin-bottom:5px;}
+.tag{display:inline-block;font-family:var(--disp);font-size:.63rem;letter-spacing:.1em;text-transform:uppercase;background:var(--gold);color:#fff;padding:2px 8px;border-radius:3px;margin-left:6px;vertical-align:2px;}
+.tag.teal{background:var(--teal);}
+.tag.red{background:var(--red);}
+
+/* sites */
+.sites{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px;}
+.site{background:#fff;border:1px solid var(--line);padding:16px 18px;}
+.site b{font-family:var(--disp);color:var(--navy);text-transform:uppercase;letter-spacing:.04em;font-size:.9rem;display:block;}
+.site span{font-size:.76rem;color:var(--steel);}
+.site .chip{display:inline-block;font-size:.6rem;font-family:var(--disp);letter-spacing:.09em;text-transform:uppercase;border:1px solid var(--teal);color:var(--teal);border-radius:10px;padding:1px 8px;margin-top:8px;}
+.site .chip.opt{border-color:var(--steel-lt);color:var(--steel);}
+
+/* ===== living hub demo ===== */
+.demo{background:#fff;border:1px solid var(--line);box-shadow:0 18px 50px rgba(31,56,100,.14);margin-top:34px;overflow:hidden;}
+.demo-top{background:var(--navy);color:#fff;display:flex;align-items:center;gap:12px;padding:12px 18px;}
+.demo-top .owlmark{width:22px;height:22px;color:var(--gold-lt);}
+.demo-top b{font-family:var(--disp);text-transform:uppercase;letter-spacing:.1em;font-size:.82rem;}
+.demo-top .live{margin-left:auto;font-family:var(--disp);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:#9fe0a8;display:flex;align-items:center;gap:6px;}
+.demo-top .live i{width:8px;height:8px;border-radius:50%;background:#43c552;display:inline-block;animation:pulse 1.8s infinite;}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.demo-body{display:grid;grid-template-columns:1.35fr .95fr;gap:0;}
+.demo-left{padding:20px;border-right:1px solid var(--line);}
+.demo-right{padding:20px;background:#fafbfc;}
+.demo h4{font-family:var(--disp);text-transform:uppercase;letter-spacing:.07em;font-size:.8rem;color:var(--navy);margin-bottom:12px;}
+.filters{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;}
+.fbtn{font-family:var(--disp);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--line);background:#fff;color:var(--steel);padding:5px 12px;border-radius:14px;cursor:pointer;}
+.fbtn.on{background:var(--navy);border-color:var(--navy);color:#fff;}
+.finding{border:1px solid var(--line);border-left:4px solid var(--steel-lt);padding:12px 14px;margin-bottom:10px;background:#fff;}
+.finding.open{border-left-color:var(--red);}
+.finding.prog{border-left-color:var(--gold);}
+.finding.closed{border-left-color:var(--green);}
+.finding .fr{display:flex;justify-content:space-between;align-items:center;gap:10px;}
+.finding b{font-size:.86rem;color:var(--ink);}
+.finding .meta{font-size:.7rem;color:var(--steel);margin-top:4px;}
+.status{font-family:var(--disp);font-size:.6rem;letter-spacing:.09em;text-transform:uppercase;padding:3px 9px;border-radius:10px;white-space:nowrap;flex:none;}
+.status.open{background:#fdecea;color:var(--red);}
+.status.prog{background:#fdf6e3;color:var(--gold);}
+.status.closed{background:#e8f5e9;color:var(--green);}
+.donut-wrap{display:flex;align-items:center;gap:16px;margin-bottom:18px;}
+.donut{width:110px;height:110px;flex:none;border-radius:50%;background:conic-gradient(var(--teal) 0 68%,#e7ebf1 68% 100%);display:flex;align-items:center;justify-content:center;}
+.donut .hole{width:76px;height:76px;border-radius:50%;background:#fafbfc;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.donut .hp{font-family:var(--disp);font-weight:700;font-size:1.5rem;color:var(--navy);line-height:1;}
+.donut .hl{font-size:.55rem;text-transform:uppercase;letter-spacing:.07em;color:var(--steel);}
+.metrics{flex:1;display:flex;flex-direction:column;gap:9px;}
+.metric .ml{display:flex;justify-content:space-between;font-size:.74rem;margin-bottom:3px;}
+.metric .ml b{font-family:var(--disp);color:var(--navy);font-weight:600;}
+.metric .ml span{color:var(--steel);font-variant-numeric:tabular-nums;}
+.bar{height:6px;background:#e7ebf1;border-radius:4px;overflow:hidden;}
+.bar i{display:block;height:100%;background:var(--teal);border-radius:4px;}
+.bar.gold i{background:var(--gold);}
+.bar.green i{background:var(--green);}
+.recog{border:1px dashed var(--gold);background:#fffdf5;padding:12px 14px;margin-top:6px;}
+.recog b{font-family:var(--disp);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;color:var(--gold);display:block;margin-bottom:6px;}
+.recog p{font-size:.8rem;margin:0 0 6px;color:#4a4432;}
+.demo-note{font-size:.7rem;color:var(--steel-lt);padding:10px 18px;border-top:1px solid var(--line);background:#fafbfc;text-transform:uppercase;letter-spacing:.05em;font-family:var(--disp);}
+
+/* owl culture */
+.owlrow{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px;}
+.owlcard{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);padding:24px;text-align:center;}
+.owlcard .big{font-family:var(--disp);font-weight:700;font-size:2rem;color:var(--gold-lt);}
+.owlcard h3{font-size:1rem;text-transform:uppercase;letter-spacing:.1em;margin:6px 0 10px;}
+.owlcard p{font-size:.85rem;color:#c3cfe2;margin:0;}
+
+/* timeline */
+.tl{margin-top:32px;border-left:3px solid var(--gold);padding-left:26px;display:flex;flex-direction:column;gap:22px;}
+.tl .t{position:relative;}
+.tl .t::before{content:"";position:absolute;left:-33px;top:4px;width:11px;height:11px;border-radius:50%;background:var(--gold);border:2px solid var(--paper);}
+.tl b{font-family:var(--disp);text-transform:uppercase;letter-spacing:.07em;color:var(--navy);font-size:.9rem;display:block;}
+.tl span{font-size:.84rem;color:var(--steel);}
+
+/* investment */
+.invest{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px;}
+.tier{background:#fff;border:1px solid var(--line);padding:26px 24px;position:relative;box-shadow:0 10px 30px rgba(31,56,100,.07);display:flex;flex-direction:column;}
+.tier.hot{border:2px solid var(--gold);}
+.tier .tk{font-family:var(--disp);text-transform:uppercase;letter-spacing:.18em;font-size:.64rem;color:var(--steel);}
+.tier h3{color:var(--navy);font-size:1.2rem;text-transform:uppercase;margin:6px 0 2px;}
+.tier .price{font-family:var(--disp);font-weight:700;font-size:1.9rem;color:var(--navy);margin:10px 0 2px;}
+.tier .per{font-size:.7rem;color:var(--steel);text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px;}
+.tier ul{margin:0 0 12px;padding-left:17px;font-size:.84rem;color:#3b4552;flex:1;}
+.tier ul li{margin-bottom:6px;}
+.badge-hot{position:absolute;top:-12px;right:16px;background:var(--gold);color:#fff;font-family:var(--disp);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;padding:4px 12px;}
+.draft{display:inline-block;background:var(--red);color:#fff;font-family:var(--disp);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;padding:3px 10px;border-radius:3px;vertical-align:middle;margin-left:10px;}
+
+/* ===== audit framework ===== */
+.fw{margin-top:30px;border:1px solid var(--line);background:#fff;box-shadow:0 10px 30px rgba(31,56,100,.07);}
+.fw details{border-bottom:1px solid var(--line);}
+.fw details:last-child{border-bottom:none;}
+.fw summary{display:flex;align-items:center;gap:16px;padding:16px 20px;cursor:pointer;list-style:none;}
+.fw summary::-webkit-details-marker{display:none;}
+.fw summary:hover{background:#f7f8fa;}
+.fw .num{font-family:var(--disp);font-weight:700;font-size:1.05rem;color:var(--gold);width:34px;flex:none;text-align:right;}
+.fw .st{font-family:var(--disp);font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--navy);font-size:.95rem;flex:1;}
+.fw .tiers{display:flex;gap:5px;flex:none;}
+.fw .tdot{width:10px;height:10px;border-radius:50%;display:inline-block;}
+.fw .tdot.t1{background:var(--red);}
+.fw .tdot.t2{background:var(--orange);}
+.fw .tdot.t3{background:var(--gold);}
+.fw .tdot.t4{background:var(--teal);}
+.fw .chev{flex:none;color:var(--steel-lt);font-family:var(--disp);transition:transform .15s;font-size:.85rem;}
+.fw details[open] .chev{transform:rotate(90deg);}
+.fw .fbody{padding:4px 20px 20px 70px;display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.fw .fbody .col h5{font-family:var(--disp);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--steel);margin:0 0 8px;}
+.fw .fbody p{font-size:.84rem;color:#3b4552;margin:0;}
+.fw .fbody ul{margin:0;padding-left:2px;list-style:none;font-size:.84rem;color:#3b4552;}
+.fw .fbody ul li{margin-bottom:6px;padding-left:20px;position:relative;}
+.fw .fbody ul li::before{content:"";position:absolute;left:0;top:5px;width:9px;height:9px;border:2px solid var(--teal);}
+@media(max-width:880px){.fw .fbody{grid-template-columns:1fr;padding-left:20px;}}
+.fwlegend{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px;font-size:.72rem;color:var(--steel);align-items:center;}
+.fwlegend .fl{display:flex;align-items:center;gap:6px;}
+
+/* ===== risk matrix ===== */
+.sevlegend{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px;}
+.sevlegend .sl{font-family:var(--disp);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:#fff;padding:5px 14px;border-radius:3px;}
+.riskband{margin-top:30px;}
+.riskband .rb-head{display:flex;align-items:center;gap:14px;padding:12px 18px;color:#fff;}
+.riskband .rb-head .sev{font-family:var(--disp);font-weight:700;font-size:1.05rem;text-transform:uppercase;letter-spacing:.06em;}
+.riskband .rb-head .sub{font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;opacity:.85;font-family:var(--disp);margin-left:auto;text-align:right;}
+.riskband.t1 .rb-head{background:var(--red);}
+.riskband.t2 .rb-head{background:var(--orange);}
+.riskband.t3 .rb-head{background:var(--gold);}
+.riskband.t4 .rb-head{background:var(--teal);}
+.riskrow{display:grid;grid-template-columns:52px 1.15fr 1fr;gap:0;background:#fff;border:1px solid var(--line);border-top:none;}
+.riskrow .rk{font-family:var(--disp);font-weight:700;font-size:1.25rem;display:flex;align-items:flex-start;justify-content:center;padding:16px 0;color:var(--steel-lt);border-right:1px solid var(--line);}
+.riskband.t1 .riskrow .rk{color:var(--red);}
+.riskband.t2 .riskrow .rk{color:var(--orange);}
+.riskband.t3 .riskrow .rk{color:var(--gold);}
+.riskband.t4 .riskrow .rk{color:var(--teal);}
+.riskrow .rh{padding:14px 18px;border-right:1px solid var(--line);}
+.riskrow .rh b{font-family:var(--disp);text-transform:uppercase;letter-spacing:.04em;color:var(--navy);font-size:.92rem;display:block;margin-bottom:4px;}
+.riskrow .rh p{font-size:.82rem;color:#3b4552;margin:0;}
+.riskrow .ra{padding:14px 18px;background:#fafbfc;}
+.riskrow .ra em{font-family:var(--disp);font-style:normal;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--steel);display:block;margin-bottom:5px;}
+.riskrow .ra p{font-size:.82rem;color:#3b4552;margin:0;}
+.risknote{font-size:.78rem;color:var(--steel);margin-top:20px;max-width:90ch;}
+@media(max-width:880px){.riskrow{grid-template-columns:44px 1fr;}.riskrow .ra{grid-column:1/-1;border-top:1px dashed var(--line);}}
+
+/* footer */
+.foot{background:var(--navy-dk);color:#c2d1e6;padding:48px 0 40px;}
+.foot .fgrid{display:flex;justify-content:space-between;align-items:flex-start;gap:30px;flex-wrap:wrap;}
+.foot img{height:40px;}
+.foot .contact b{font-family:var(--disp);color:#fff;font-size:1.05rem;text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:6px;}
+.foot .contact span{display:block;font-size:.86rem;margin-bottom:3px;}
+.foot .since{text-align:right;font-family:var(--disp);}
+.foot .since .n{font-size:2rem;font-weight:700;color:#fff;line-height:.9;}
+.foot .since .l{font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:#8fa3c0;}
+
+@media(max-width:880px){
+  .cards3,.phases,.owlrow,.invest,.sites{grid-template-columns:1fr;}
+  .cards2,.scopegrid,.demo-body{grid-template-columns:1fr;}
+  .demo-left{border-right:none;border-bottom:1px solid var(--line);}
+  .navlinks{display:none;}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="owl" viewBox="0 0 64 64">
+  <path d="M14 20c-1-6 1-11 4-13 2 3 3 7 2.6 11.4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M50 20c1-6-1-11-4-13-2 3-3 7-2.6 11.4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M12 30C12 17 21 10 32 10s20 7 20 20c0 15-8 24-20 24S12 45 12 30Z" fill="none" stroke="currentColor" stroke-width="2.4"/>
+  <path d="M15 24l12 4M49 24l-12 4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="24" cy="32" r="8" fill="none" stroke="currentColor" stroke-width="2.4"/>
+  <circle cx="40" cy="32" r="8" fill="none" stroke="currentColor" stroke-width="2.4"/>
+  <circle cx="24" cy="32.5" r="2.8" fill="currentColor"/>
+  <circle cx="40" cy="32.5" r="2.8" fill="currentColor"/>
+  <path d="M32 34l-3.4 5.5h6.8L32 34Z" fill="currentColor"/>
+</symbol></svg>
+
+<!-- ============ NAV ============ -->
+<nav class="topnav">
+  <div class="bar">
+    <img src="logo_canon_white.png" alt="Canon Safety / RHI Group">
+    <svg class="owlmark"><use href="#owl"/></svg>
+    <div class="navlinks">
+      <a href="#approach">Approach</a>
+      <a href="#risk">Risk Matrix</a>
+      <a href="#scope">Scope</a>
+      <a href="#framework">Audit Framework</a>
+      <a href="#hub">The Living Hub</a>
+      <a href="#culture">Culture Engine</a>
+      <a href="#invest">Timeline &amp; Investment</a>
+      <a href="#why">Why Canon</a>
+      <a href="Canon Safety - IWS EHS Audit Proposal.pdf" target="_blank" style="background:var(--gold);color:#fff;">Proposal PDF ⭳</a>
+      <a href="Canon Safety - IWS Facility Review Letter.pdf" target="_blank" style="background:var(--teal);color:#fff;">Facility Letter ⭳</a>
+    </div>
+  </div>
+  <div class="goldbar"></div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="ripple"></div>
+  <div class="wrap">
+    <div class="hero-kick">Canon Safety × Integrated Water Services</div>
+    <h1>An Audit<br>With Legs<span class="g">.</span></h1>
+    <div class="hero-sub">A grass-roots, practical EHS assessment of the IWS platform — built not to sit in a binder, but to live, track, and grow into a culture your crews identify with.</div>
+    <div class="hero-meta">
+      <div class="hm"><b>1987</b><span>Improving safety since</span></div>
+      <div class="hm"><b>Boots-On</b><span>Floor-level auditing</span></div>
+      <div class="hm"><b>Living</b><span>Findings tracked to closure</span></div>
+      <div class="hm"><b>Culture</b><span>Behaviors, not binders</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ THE DIFFERENCE ============ -->
+<section class="block" id="approach">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">The Canon Approach</p>
+      <h2>A compliance audit tells you where you stand.<br>Ours also tells you how to walk.</h2>
+      <p class="lead">Most EHS assessments end the day the report is emailed. Findings get ranked, filed, and forgotten. Canon's assessment is built the opposite way: every finding lands in a living hub, gets an owner and a date, and stays visible until it's verified closed — while the same hub starts building the daily safety habits that keep you compliant after we leave.</p>
+    </div>
+    <div class="phases">
+      <div class="phase">
+        <div class="pk">Phase 1</div>
+        <h3>Baseline</h3>
+        <div class="pw">Walk the floor. Talk to the crew.</div>
+        <ul>
+          <li>Practical, site-by-site EHS audit — records <em>and</em> reality</li>
+          <li>OSHA program review, floor observation, equipment checks</li>
+          <li>Employee conversations at every level — the crew knows where the gaps are</li>
+          <li>Field-service ride-alongs, not just shop walkthroughs</li>
+          <li>Risk-ranked findings with practical, costed corrective actions</li>
+        </ul>
+      </div>
+      <div class="phase p2">
+        <div class="pk">Phase 2</div>
+        <h3>Track</h3>
+        <div class="pw">The hub goes live on day one.</div>
+        <ul>
+          <li>Every finding enters the IWS Safety Hub — owner, deadline, status</li>
+          <li>Leadership sees progress in real time; nothing dies in a PDF</li>
+          <li>Compliance scorecard per site, updated as items close</li>
+          <li>Verified closure — we come back and confirm, not assume</li>
+          <li>90-day follow-through included</li>
+        </ul>
+      </div>
+      <div class="phase p3">
+        <div class="pk">Phase 3</div>
+        <h3>Grow</h3>
+        <div class="pw">From audit to identity.</div>
+        <ul>
+          <li>Peer observation program modeled on Canon's proven Owl system</li>
+          <li>Named recognition — crews see their forms being read</li>
+          <li>Weekly safety topics tuned to water treatment operations</li>
+          <li>KPIs that build habits, not paperwork</li>
+          <li>Quarterly reviews keep the baseline from going stale</li>
+        </ul>
+      </div>
+    </div>
+    <p class="muted" style="margin-top:26px;font-size:.86rem;">Where exposure sampling is warranted — noise, welding fume, respirable dust, air quality — Canon engages certified industrial hygiene professionals as a defined, scoped add-on. Practical compliance first; specialists where they earn their keep.</p>
+  </div>
+</section>
+
+<!-- ============ RISK MATRIX ============ -->
+<section class="block alt" id="risk">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Water Treatment Risk Hierarchy</p>
+      <h2>The audit is built top-down from what actually kills people in this industry.</h2>
+      <p class="lead">This hierarchy is drawn from OSHA and NIOSH fatality investigations and documented industry hazard data for water and wastewater operations. Audit depth follows severity: Tier 1 hazards get the deepest field verification — atmosphere testing procedures, rescue readiness, energy isolation — while frequent lower-severity exposures are engineered into daily habits through the culture program.</p>
+    </div>
+    <div class="sevlegend">
+      <span class="sl" style="background:var(--red);">Tier 1 · Catastrophic — fatality potential</span>
+      <span class="sl" style="background:var(--orange);">Tier 2 · Critical — life-altering injury</span>
+      <span class="sl" style="background:var(--gold);">Tier 3 · Serious — lost time &amp; chronic illness</span>
+      <span class="sl" style="background:var(--teal);">Tier 4 · Frequent — highest likelihood day-to-day</span>
+    </div>
+
+    <div class="riskband t1">
+      <div class="rb-head"><span class="sev">Tier 1 — Catastrophic</span><span class="sub">Single-event fatality / multiple-fatality potential</span></div>
+      <div class="riskrow">
+        <div class="rk">1</div>
+        <div class="rh"><b>Confined Space + Toxic Atmosphere (H2S · Methane · O2 Deficiency)</b>
+          <p>The documented #1 killer in water and wastewater work. H2S paralyzes the sense of smell above 100 ppm and drops workers in seconds above 500 ppm. Most fatal events multiply — untrained would-be rescuers follow the first victim in (the "rescue cascade" OSHA and the CSB have warned about for decades).</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Permit program torn down line by line: atmosphere testing practice (not just the written program), monitor calibration records, ventilation, attendant duties, and a live rescue-plan walkthrough at every entry point — tanks, wet wells, digesters, vessels. Gas detection is Canon's home turf.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">2</div>
+        <div class="rh"><b>Treatment Chemical Gas Release (Chlorine · Chlorine Dioxide · Ozone · Ammonia)</b>
+          <p>Disinfection chemicals carry mass-exposure potential for workers and neighbors alike — the reason EPA RMP and OSHA PSM thresholds exist for these inventories.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Chemical inventory vs. RMP/PSM thresholds, storage and changeout practices, leak detection and alarm function tests, emergency response drills, and SDS-to-reality verification on the floor.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">3</div>
+        <div class="rh"><b>Engulfment &amp; Drowning</b>
+          <p>Wet wells, clarifiers, recirculation pits, and open basins — a fall into moving water or sludge in a confined structure is rarely survivable.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Guarding and grating integrity walkdown, fall-into-water controls, retrieval equipment placement, and lone-worker rules for tank-top and basin work.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">4</div>
+        <div class="rh"><b>Hazardous Energy — LOTO &amp; Machine Entanglement</b>
+          <p>Pumps, screens, augers, conveyors, and presses restart without warning when isolation fails. Fabrication shops add the full machine-guarding exposure on top.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Live lockout audits on real equipment with the technicians who do it — device by device — plus machine guarding verification across shop and plant floor.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">5</div>
+        <div class="rh"><b>Electrical &amp; Arc Flash in Wet Environments</b>
+          <p>High-voltage MCCs, pump panels, and standing water share the same rooms in treatment facilities. Arc flash energy at these panels is life-ending.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Arc flash labeling and study currency, qualified-person verification, panel clearances, GFCI protection, and wet-location wiring condition.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">6</div>
+        <div class="rh"><b>Fire &amp; Explosion (Digester Methane · Hot Work)</b>
+          <p>Anaerobic digestion produces methane; welding and cutting happen in fabrication and maintenance daily. The two must never meet unmanaged.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Hot work permit practice, combustible atmosphere testing before torch work, digester gas system integrity, and flammable storage walkdown.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">7</div>
+        <div class="rh"><b>Vehicle &amp; Driving Exposure — Field Crews</b>
+          <p>Mobile service is a driving business, and roadway crashes remain a leading cause of workplace death across every industry. Exposure scales with every service call.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>DOT/FMCSA file audit, hours-of-service and inspection practice, and a telematics-based driving scorecard — a program Canon already runs live for heavy industrial fleets.</p></div>
+      </div>
+    </div>
+
+    <div class="riskband t2">
+      <div class="rb-head"><span class="sev">Tier 2 — Critical</span><span class="sub">Hospitalization / life-altering injury</span></div>
+      <div class="riskrow">
+        <div class="rk">8</div>
+        <div class="rh"><b>Falls From Height</b>
+          <p>Tank tops, elevated platforms, fixed ladders, and truck/trailer access — the classic serious-injury generator in plants and shops.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Anchor points, guardrail and ladder condition, harness inspection records, and how work-at-height actually gets done versus how the program says it does.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">9</div>
+        <div class="rh"><b>Chemical Contact — Burns &amp; Splashes</b>
+          <p>Acids, caustics, hypochlorite, ferric chloride, and polymers are handled at transfer points, day tanks, and media changeouts.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Transfer and changeout procedures observed live, PPE matched to SDS requirements, eyewash/shower placement and test records.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">10</div>
+        <div class="rh"><b>Struck-By / Caught-Between — Lifting &amp; Rigging</b>
+          <p>Vessels, skids, and filter housings are heavy; cranes, hoists, and forklifts move them daily through fabrication and installs.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Rigging gear inspection, operator certification and evaluation currency, load path discipline, and forklift behavior on the floor.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">11</div>
+        <div class="rh"><b>Trenching &amp; Excavation — Install Crews</b>
+          <p>Field installation of treatment systems and piping puts crews in and around excavations on customer sites — so Canon audits where the work happens.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Competent-person designation, protective system practice, and utility locate discipline verified on live field jobs.</p></div>
+      </div>
+    </div>
+
+    <div class="riskband t3">
+      <div class="rb-head"><span class="sev">Tier 3 — Serious</span><span class="sub">Lost-time injury &amp; chronic occupational illness</span></div>
+      <div class="riskrow">
+        <div class="rk">12</div>
+        <div class="rh"><b>Pathogen &amp; Biological Exposure</b>
+          <p>Raw wastewater carries hepatitis, bacteria, and bloodborne hazards — a constant low-visibility exposure for operators and service techs.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Hygiene facilities and practice, vaccination program review, PPE and decon procedures, exposure control plan reality-check.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">13</div>
+        <div class="rh"><b>Respirable Dust &amp; Welding Fume (Silica · Hexavalent Chrome · Carbon Dust)</b>
+          <p>Multimedia filter work means sand, garnet, anthracite, and activated carbon; stainless fabrication means hex chrome fume. Chronic, compensable, and invisible.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Exposure screening walkdown; where sampling is warranted, certified industrial hygiene professionals are scoped in for dosimetry and air quality — practical first, specialists where they earn their keep.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">14</div>
+        <div class="rh"><b>Noise-Induced Hearing Loss</b>
+          <p>Blowers, pumps, compressors, and grinding — hearing loss is permanent and among the most common occupational illnesses in treatment and fabrication.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Hearing conservation program review, audiometric testing currency, and IH dosimetry scoped where screening flags it.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">15</div>
+        <div class="rh"><b>Heat Stress — Outdoor &amp; Field Work</b>
+          <p>Texas and Gulf-region service work puts techs in extreme heat with task-driven schedules.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Water/rest/shade practice on live jobs, acclimatization for new hires, and heat metrics in the daily field routine.</p></div>
+      </div>
+    </div>
+
+    <div class="riskband t4">
+      <div class="rb-head"><span class="sev">Tier 4 — Frequent</span><span class="sub">Highest day-to-day likelihood — where recordables actually come from</span></div>
+      <div class="riskrow">
+        <div class="rk">16</div>
+        <div class="rh"><b>Slips, Trips &amp; Same-Level Falls</b>
+          <p>Wet floors are the permanent condition of a water business. Lower severity per event — but the single most frequent injury source in the industry.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Housekeeping and drainage walkdown, footwear standards, and — the real fix — daily peer observations that make wet-surface awareness a habit, not a poster.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">17</div>
+        <div class="rh"><b>Manual Handling &amp; Ergonomics</b>
+          <p>Media bags, filter elements, hose runs, and valve work generate sprains and strains — the quiet driver of workers' comp cost.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Task observation on the heaviest recurring jobs, mechanical-assist opportunities, and team-lift norms built into the observation program.</p></div>
+      </div>
+      <div class="riskrow">
+        <div class="rk">18</div>
+        <div class="rh"><b>Hand Injuries &amp; Lacerations</b>
+          <p>Fabrication, media handling, and maintenance put hands on sharp, hot, and pinching surfaces all day.</p></div>
+        <div class="ra"><em>How the audit attacks it</em>
+          <p>Glove standard vs. task mapping, sharp-edge controls in fabrication, and hand-placement as a standing observation topic.</p></div>
+      </div>
+    </div>
+
+    <p class="risknote">Hierarchy sources: OSHA hydrogen sulfide guidance and confined-space enforcement history, NIOSH/CDC fatality investigation reports for wastewater facilities, U.S. Chemical Safety Board findings on toxic-atmosphere rescue cascades, and published industry hazard analyses for water/wastewater operations. Rankings weigh single-event severity first, then likelihood across the IWS operating footprint. The matrix is re-scored per site during Phase 1 — each facility gets its own ranked profile in the hub.</p>
+  </div>
+</section>
+
+<!-- ============ SCOPE ============ -->
+<section class="block" id="scope">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Scope of Assessment</p>
+      <h2>Built around how IWS actually operates.</h2>
+      <p class="lead">IWS isn't two buildings — it's a growing platform: fabrication shops, service centers, and mobile crews on customer sites every day. The audit is priced per site and scoped per operation, and audit time is allocated top-down through the risk hierarchy above — Tier 1 exposures get field verification at every site, every time.</p>
+    </div>
+    <div class="sites">
+      <div class="site"><b>Fabrication &amp; Mfg.</b><span>Filtration systems fabrication, welding, assembly, media handling</span><br><span class="chip">Core Scope</span></div>
+      <div class="site"><b>Service Centers</b><span>Regional service &amp; rental operations, shipping/receiving, fleet base</span><br><span class="chip">Core Scope</span></div>
+      <div class="site"><b>HQ &amp; Water Facilities</b><span>Corporate programs, treatment system operations, commissioning sites</span><br><span class="chip">Core Scope</span></div>
+      <div class="site"><b>Field Service Crews</b><span>Ride-alongs on live customer jobs — where the real exposure hours are</span><br><span class="chip">Core Scope</span></div>
+      <div class="site"><b>Fleet &amp; DOT</b><span>Driver files, hours of service, vehicle inspection, hazmat shipping</span><br><span class="chip">Core Scope</span></div>
+      <div class="site"><b>Industrial Hygiene</b><span>Noise dosimetry, welding fume, respirable dust — certified IH professionals</span><br><span class="chip opt">Scoped Add-On</span></div>
+    </div>
+    <div class="scopegrid">
+      <div class="scopecard">
+        <h3>Safety Programs — Audited on the Floor</h3>
+        <ul>
+          <li>Confined space entry — tanks, vessels, clearwells <span class="tag teal">Water-Specific</span></li>
+          <li>Lockout / tagout &amp; machine guarding</li>
+          <li>Hazard communication &amp; chemical handling</li>
+          <li>Welding, hot work &amp; compressed gas</li>
+          <li>Fall protection, ladders &amp; walking surfaces</li>
+          <li>Electrical safety &amp; arc flash awareness</li>
+          <li>H2S &amp; toxic gas awareness in wastewater environments <span class="tag red">Canon Core</span></li>
+          <li>Respiratory protection &amp; PPE</li>
+          <li>Powered industrial trucks, cranes &amp; rigging</li>
+          <li>Emergency action &amp; fire prevention</li>
+          <li>Hearing conservation</li>
+          <li>Medical / first aid readiness</li>
+          <li>State-plan specifics where they apply (e.g., IOSHA)</li>
+        </ul>
+      </div>
+      <div class="scopecard">
+        <h3>Records, Environment &amp; the Numbers</h3>
+        <ul>
+          <li>OSHA 300/300A accuracy — verified against first-aid &amp; claims records</li>
+          <li>Training matrix vs. what each standard actually requires</li>
+          <li>Injury &amp; incident recordkeeping, near-miss capture</li>
+          <li>KPI review benchmarked against industry peers (TRIR / DART / EMR)</li>
+          <li>Practical environmental screen: waste streams, used oil, universal waste, storm water housekeeping, SPCC, EPCRA/Tier II</li>
+          <li>Permit &amp; regulatory record review, enforcement history</li>
+          <li>Contractor &amp; multi-employer worksite management</li>
+          <li>Safety culture pulse — what the crew says when leadership isn't in the room</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AUDIT FRAMEWORK ============ -->
+<section class="block alt" id="framework">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">The Audit Framework</p>
+      <h2>Section by section — the same structure your program will live in.</h2>
+      <p class="lead">This framework follows the field-proven contractor safety-program format used across heavy industry — the structure insurers and operators already recognize — translated to water treatment operations. Each section below is an audit chapter in Phase 1, a findings category in the hub during Phase 2, and the skeleton of the written IWS safety program going forward. Audit one document structure; inherit a working program.</p>
+    </div>
+    <div class="fw">
+      <details open>
+        <summary><span class="num">1</span><span class="st">Commitment to Safety — Leadership Policy</span><span class="tiers"><span class="tdot t1"></span></span><span class="chev">▸</span></summary>
+        <div class="fbody">
+          <div class="col"><h5>The Program Element</h5><p>A signed leadership policy: no duty outweighs employee health and safety, accidents are preventable, management provides the resources, and every employee holds stop-work authority — no one is ever required to perform work they believe is unsafe.</p></div>
+          <div class="col"><h5>What Canon Verifies On Site</h5><ul><li>Policy exists, is current, and is signed by IWS leadership — not a template with blanks</li><li>Crews can state stop-work authority in their own words</li><li>A stop-work event has actually happened and was praised, not punished</li><li>Resources requested for safety got funded</li></ul></div>
+        </div>
+      </details>
+      <details>
+        <summary><span class="num">2</span><span class="st">Employee Responsibilities &amp; General Safety Rules</span><span class="tiers"><span class="tdot t4"></span></span><span class="chev">▸</span></summary>
+        <div class="fbody">
+          <div class="col"><h5>The Program Element</h5><p>Conduct, fitness for duty, housekeeping, and immediate injury reporting — the daily ground rules: clean aisles and exits, clear breakers and extinguishers, drips wiped before they become slips.</p></div>
+          <div class="col"><h5>What Canon Verifies On Site</h5><ul><li>Housekeeping walkdown — wet-floor control in a business where floors are always wet</li><li>Injury reporting practice vs. policy: do minor injuries actually get reported same-day?</li><li>Drug &amp; alcohol program administration and coverage</li><li>Egress, extinguisher, and electrical-panel clearance spot checks</li></ul></div>
+        </div>
+      </details>
+      <details>
+        <summary><span class="num">3</span><span class="st">Safety Orientation &amp; Training Matrix</span><span class="tiers"><span class="tdot t1"></span><span class="tdot t3"></span></span><span class="chev">▸</span></summary>
+        <div class="fbody">
+          <div class="col"><h5>The Program Element</h5><p>New-hire orientation before first assignment, plus a role-based training matrix: confined space, HazCom, LOTO, fall protection, respiratory protection, first aid/CPR, and equipment certifications.</p></div>
+          <div class="col"><h5>What Canon Verifies On Site</h5><ul><li>Matrix mapped against what each standard actually requires per role</li><li>Records current for every operator and field tech — including refresher cycles</li><li>Comprehension checks with the crew, not just signature pages</li><li>Contractor and new-acquisition employees folded in, not grandfathered</li></ul></div>
+        </div>
+      </details>
+      <details>
+        <summary><span class="num">4</span><span class="st">Injury Management &amp; Return to Work</span><span class="tiers"><span class="tdot t3"></span></span><span class="chev">▸</span></summary>
+        <div class="fbody">
+          <div class="col"><h5>The Program Element</h5><p>Immediate reporting, medical case management, transitional/light-duty jobs that keep injured employees healing and productive, and accurate OSHA recordkeeping behind it all.</p></div>
+          <div class="col"><h5>What Canon Verifies On Site</h5><ul><li>OSHA 300/300A accuracy — cross-checked against first-aid logs and comp claims</li><li>Return-to-work program used in practice, with real transitional assignments</li><li>TRIR / DART / EMR benchmarked against industry peers for Sciens reporting</li><li>Near-miss capture — the leading indicator most programs skip</li></ul></div>
+        </div>
+      </details>
+      <details>
+        <summary><span class="num">5</span><span class="st">Emergency Action Plan &amp; Response</span><span class="tiers"><span class="tdot t1"></span></span><span class="chev">▸</span></summary>
+        <div class="fbody">
+          <div class="col"><h5>The Program Element</h5><p>Site-specific EAPs: evacuation routes and muster points, alarm systems, chemical release response, severe weather, medical emergencies, and posted emergency contacts at every facility and field job.</p></div>
+          <div class="col"><h5>What Canon Verifies On Site</h5><ul><li>EAP is site-specific — not one generic plan across five facilities</li><li>Chlorine/chemical release scenarios drilled, with alarm function tests</li><li>Confined-space rescue plan walked at real entry points — the rescue cascade killer</li><li>Field crews carry job-site emergency info for customer locations</li></ul></div>
+        </div>
+      </details>
+      <details>
+        <summary><span class="num">6</span><span class="st">Employee Protections &amp; Records Access</span><span class="tiers"><span class="tdot t3"></span></span><span class="chev">▸</span></summary>
+        <div class="fbody">
+          <div class="col"><h5>The Program Element</h5><p>Harassment and workplace-violence policies, and employee access to exposure and medical records under 29 CFR 1910.1020 — the quiet compliance corner most audits skip entirely.</p></div>
+          <div class="col"><h5>What Canon Verifies On Site</h5><ul><li>Policies distributed and acknowledged across all acquired companies</li><li>Exposure and medical records retained, retrievable, and access process known</li><li>Reporting channels crews would actually use</li></ul></div>
+        </div>
+      </details>
+      <details>
+        <summary><span class="num">7</span><span class="st">Vehicle Use, MVR Grading &amp; Fleet Safety</span><span class="tiers"><span class="tdot t1"></span></span><span class="chev">▸</span></summary>
+        <div class="fbody">
+          <div class="col"><h5>The Program Element</h5><p>Vehicle use policy, motor vehicle record grading criteria for drivers, DOT/FMCSA compliance where it applies, and telematics-based coaching for a mobile service business that lives on the road.</p></div>
+          <div class="col"><h5>What Canon Verifies On Site</h5><ul><li>MVR grading actually enforced at hire and annually — with documented criteria</li><li>Driver qualification files, hours-of-service, and inspection records complete</li><li>Hazmat shipping compliance for media and chemical movements</li><li>Telematics data reviewed and coached — Canon runs this exact scorecard live today</li></ul></div>
+        </div>
+      </details>
+      <details>
+        <summary><span class="num">8</span><span class="st">Safe Work Procedures — Water Treatment Operations</span><span class="tiers"><span class="tdot t1"></span><span class="tdot t2"></span><span class="tdot t3"></span></span><span class="chev">▸</span></summary>
+        <div class="fbody">
+          <div class="col"><h5>The Program Element</h5><p>The operational heart of the program — procedure-by-procedure safe work rules matched to the risk matrix: confined space entry with atmosphere testing and gas classification (H2S, methane, O2), chemical handling &amp; HazCom, lockout/tagout, machine guarding, PPE by task, electrical/arc flash, fall protection, cranes &amp; rigging, hot work, compressed gas, pathogen hygiene, and heat stress.</p></div>
+          <div class="col"><h5>What Canon Verifies On Site</h5><ul><li>Each procedure audited on the floor with the crew that performs it — Tier 1 risks at every site, every time</li><li>Gas detection: monitor calibration, bump testing, and alarm response — Canon's home turf</li><li>Condition-flag system for gas hazard areas adapted from proven field practice</li><li>Procedures written for water treatment reality, not copied from another industry's template</li></ul></div>
+        </div>
+      </details>
+      <details>
+        <summary><span class="num">9</span><span class="st">Acknowledgement, Enforcement &amp; Continuous Improvement</span><span class="tiers"><span class="tdot t4"></span></span><span class="chev">▸</span></summary>
+        <div class="fbody">
+          <div class="col"><h5>The Program Element</h5><p>Signed employee acknowledgement of the program, consistent enforcement, and the feedback loop: observations, near-misses, and audit findings flowing back into revised procedures and weekly topics.</p></div>
+          <div class="col"><h5>What Canon Verifies On Site</h5><ul><li>Acknowledgements current for every employee — including acquisitions</li><li>Discipline applied consistently, supervisors included</li><li>A revision history that proves the program is alive, not shelf-ware</li><li>The culture engine (Phase 3) wired to feed this loop permanently</li></ul></div>
+        </div>
+      </details>
+    </div>
+    <div class="fwlegend">
+      <span style="font-family:var(--disp);letter-spacing:.1em;text-transform:uppercase;">Risk-matrix links:</span>
+      <span class="fl"><span class="tdot t1" style="width:10px;height:10px;border-radius:50%;background:var(--red);display:inline-block;"></span> Tier 1 Catastrophic</span>
+      <span class="fl"><span style="width:10px;height:10px;border-radius:50%;background:var(--orange);display:inline-block;"></span> Tier 2 Critical</span>
+      <span class="fl"><span style="width:10px;height:10px;border-radius:50%;background:var(--gold);display:inline-block;"></span> Tier 3 Serious</span>
+      <span class="fl"><span style="width:10px;height:10px;border-radius:50%;background:var(--teal);display:inline-block;"></span> Tier 4 Frequent</span>
+    </div>
+    <p class="muted" style="margin-top:18px;font-size:.84rem;">Every section above becomes a chapter in the written IWS safety program Canon delivers with the baseline — so the audit's structure, the hub's findings categories, and the program your crews sign are one and the same document family, not three disconnected binders.</p>
+  </div>
+</section>
+
+<!-- ============ LIVING HUB ============ -->
+<section class="block" id="hub">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">The Deliverable</p>
+      <h2>Not a report. A living hub.</h2>
+      <p class="lead">This page is built with the same system your hub will run on. Findings, compliance scores, recognition, and weekly topics — live, mobile-friendly, and visible from the boardroom to the breakroom. Below is a working preview with sample data.</p>
+    </div>
+    <div class="demo">
+      <div class="demo-top">
+        <svg class="owlmark"><use href="#owl"/></svg>
+        <b>IWS Safety Hub — Findings Tracker</b>
+        <span class="live"><i></i> Live Preview · Sample Data</span>
+      </div>
+      <div class="demo-body">
+        <div class="demo-left">
+          <h4>Corrective Actions</h4>
+          <div class="filters">
+            <button class="fbtn on" data-f="all">All</button>
+            <button class="fbtn" data-f="open">Open</button>
+            <button class="fbtn" data-f="prog">In Progress</button>
+            <button class="fbtn" data-f="closed">Verified Closed</button>
+          </div>
+          <div id="findings">
+            <div class="finding open" data-s="open">
+              <div class="fr"><b>Confined space permits missing rescue plan detail</b><span class="status open">Open</span></div>
+              <div class="meta">Fabrication shop · Owner: Site Mgr · Due 30 days · Risk: High</div>
+            </div>
+            <div class="finding prog" data-s="prog">
+              <div class="fr"><b>Forklift operator evaluations past 3-year cycle</b><span class="status prog">In Progress</span></div>
+              <div class="meta">Service center · Owner: Ops Lead · Due 14 days · Risk: Medium</div>
+            </div>
+            <div class="finding prog" data-s="prog">
+              <div class="fr"><b>Driver qualification files incomplete for 3 field techs</b><span class="status prog">In Progress</span></div>
+              <div class="meta">Fleet / DOT · Owner: HR + Ops · Due 21 days · Risk: Medium</div>
+            </div>
+            <div class="finding closed" data-s="closed">
+              <div class="fr"><b>Eyewash stations blocked / out of test cycle</b><span class="status closed">Verified Closed</span></div>
+              <div class="meta">Fabrication shop · Closed day 6 · Verified by Canon walkdown</div>
+            </div>
+            <div class="finding closed" data-s="closed">
+              <div class="fr"><b>SDS binder outdated for new media chemicals</b><span class="status closed">Verified Closed</span></div>
+              <div class="meta">Service center · Closed day 9 · Digital SDS access deployed</div>
+            </div>
+          </div>
+        </div>
+        <div class="demo-right">
+          <h4>Site Compliance Score</h4>
+          <div class="donut-wrap">
+            <div class="donut"><div class="hole"><span class="hp">68%</span><span class="hl">to baseline</span></div></div>
+            <div class="metrics">
+              <div class="metric"><div class="ml"><b>Safety Programs</b><span>74%</span></div><div class="bar"><i style="width:74%"></i></div></div>
+              <div class="metric"><div class="ml"><b>Training Current</b><span>61%</span></div><div class="bar gold"><i style="width:61%"></i></div></div>
+              <div class="metric"><div class="ml"><b>Actions Closed</b><span>2 / 5</span></div><div class="bar green"><i style="width:40%"></i></div></div>
+            </div>
+          </div>
+          <h4>Recognition Board</h4>
+          <div class="recog">
+            <b>Good Calls This Week</b>
+            <p>“Tech flagged a swapped regulator on a media transfer before hookup — job stopped, corrected, documented.”</p>
+            <p style="margin:0;">Every observation form gets read. Names go on the board. That's how habits get built.</p>
+          </div>
+        </div>
+      </div>
+      <div class="demo-note">Interactive preview — sample findings for demonstration. Your hub launches with real audit data on day one of Phase 2.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CULTURE ============ -->
+<section class="block dark" id="culture">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow ondark">The Culture Engine</p>
+      <h2>Compliance gets you to zero violations.<br>Culture gets you to zero injuries.</h2>
+      <p class="lead">Canon runs a peer-led observation program across live heavy-industrial operations every single day — thousands of observation forms, mined nightly, recognized weekly. We'll tune that same engine for water treatment: simple forms your crews actually fill out, recognition that rotates through the whole team, and weekly topics that match the work in front of them.</p>
+    </div>
+    <div class="owlrow">
+      <div class="owlcard">
+        <div class="big">Observe</div>
+        <h3>See the work</h3>
+        <p>Short, practical peer observations — good calls and watch items — from the shop floor and field jobs alike.</p>
+      </div>
+      <div class="owlcard">
+        <div class="big">Win</div>
+        <h3>Name the wins</h3>
+        <p>Named recognition on the hub and in the breakroom. When crews see their forms being read, the forms keep coming.</p>
+      </div>
+      <div class="owlcard">
+        <div class="big">Learn</div>
+        <h3>Close the loop</h3>
+        <p>Watch items become weekly topics and corrective actions. The program feeds itself — awareness becomes habit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TIMELINE + INVESTMENT ============ -->
+<section class="block" id="invest">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Timeline &amp; Investment</p>
+      <h2>Committed dates. Fixed fees. No meter running.</h2>
+    </div>
+    <div class="cards2">
+      <div class="card">
+        <h3>The Schedule — Committed, Not "Coordinated"</h3>
+        <div class="tl">
+          <div class="t"><b>Week 1–2 · Desktop Review</b><span>Records, permits, KPIs, enforcement history, training matrices. Hub shell configured.</span></div>
+          <div class="t"><b>Week 2–4 · Site Visits &amp; Ride-Alongs</b><span>Floor audits, crew conversations, field job observations — scheduled around production, not against it.</span></div>
+          <div class="t"><b>Week 5 · Findings Live in the Hub</b><span>Draft findings delivered in the tracker with owners, dates, and practical fixes. Review call with IWS + Sciens.</span></div>
+          <div class="t"><b>Week 6 · Final Baseline Report</b><span>Final per-site reports issued. Phase 2 tracking already running — no dead time between audit and action.</span></div>
+          <div class="t"><b>Day 90 · Verification Walkdown</b><span>Canon returns, verifies closures, updates the scorecard. The baseline becomes a trendline.</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>What IWS Gets That a $28K Binder Doesn't</h3>
+        <ul>
+          <li><b>Every site that matters</b> — priced per site so the baseline covers the platform, not a sample of it</li>
+          <li><b>Field crews audited on live jobs</b> — where the exposure hours actually are</li>
+          <li><b>Fleet &amp; DOT included</b> — mobile services run on trucks and driver files</li>
+          <li><b>Dollar-costed corrective actions</b> — an integration budget, not just a risk color</li>
+          <li><b>A living hub, not a PDF</b> — findings tracked to verified closure</li>
+          <li><b>90-day follow-through included</b> — the audit has legs</li>
+          <li><b>A culture program to grow into</b> — the part no compliance binder even attempts</li>
+        </ul>
+      </div>
+    </div>
+    <h3 style="margin-top:44px;font-family:var(--disp);color:var(--navy);text-transform:uppercase;font-size:1.2rem;">Investment <span class="draft">Draft — Pricing To Be Finalized</span></h3>
+    <div class="invest">
+      <div class="tier">
+        <div class="tk">Phase 1</div>
+        <h3>Baseline Audit</h3>
+        <div class="price">$—</div>
+        <div class="per">Fixed fee per site · multi-site pricing</div>
+        <ul>
+          <li>Full floor + records audit per facility</li>
+          <li>Field-service ride-alongs</li>
+          <li>Fleet / DOT file audit</li>
+          <li>Crew interviews &amp; culture pulse</li>
+          <li>Risk-ranked, dollar-costed findings</li>
+        </ul>
+      </div>
+      <div class="tier hot">
+        <span class="badge-hot">Recommended</span>
+        <div class="tk">Phase 1 + 2</div>
+        <h3>Audit + Living Hub</h3>
+        <div class="price">$—</div>
+        <div class="per">Fixed fee · hub included</div>
+        <ul>
+          <li>Everything in Phase 1</li>
+          <li>IWS Safety Hub — live findings tracker</li>
+          <li>Per-site compliance scorecards</li>
+          <li>90-day verification walkdown</li>
+          <li>Leadership dashboard access for Sciens</li>
+        </ul>
+      </div>
+      <div class="tier">
+        <div class="tk">Phase 3</div>
+        <h3>Culture Partnership</h3>
+        <div class="price">$—</div>
+        <div class="per">Quarterly · cancel anytime</div>
+        <ul>
+          <li>Peer observation program launch &amp; coaching</li>
+          <li>Weekly topics &amp; recognition engine</li>
+          <li>Quarterly compliance reviews</li>
+          <li>KPI benchmarking &amp; board-ready reporting</li>
+          <li>IH sampling scoped as needed (certified professionals)</li>
+        </ul>
+      </div>
+    </div>
+    <div style="margin-top:26px;display:flex;gap:14px;flex-wrap:wrap;">
+      <div style="flex:1;min-width:280px;">
+        <a href="Canon Safety - IWS EHS Audit Proposal.pdf" target="_blank" style="display:inline-block;background:var(--navy);color:#fff;font-family:var(--disp);text-transform:uppercase;letter-spacing:.1em;font-size:.8rem;padding:12px 22px;text-decoration:none;border-bottom:3px solid var(--gold);">⭳ &nbsp;Formal Proposal (PDF)</a>
+        <span class="muted" style="display:block;margin-top:8px;font-size:.76rem;">The signed-copy version: project understanding, phased scope, risk hierarchy, committed schedule, fees, and authorization to proceed. Ref CS-2026-IWS-001.</span>
+      </div>
+      <div style="flex:1;min-width:280px;">
+        <a href="Canon Safety - IWS Facility Review Letter.pdf" target="_blank" style="display:inline-block;background:var(--teal);color:#fff;font-family:var(--disp);text-transform:uppercase;letter-spacing:.1em;font-size:.8rem;padding:12px 22px;text-decoration:none;border-bottom:3px solid var(--gold);">⭳ &nbsp;Facility Review Letter &amp; Prep Checklist (PDF)</a>
+        <span class="muted" style="display:block;margin-top:8px;font-size:.76rem;">The letter each facility receives to open its review — transparency-first framing, example review schedule, step-by-step expectations, and the 9-section document prep checklist for the desktop audit.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CANON ============ -->
+<section class="block alt" id="why">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Why Canon Safety</p>
+      <h2>We don't study safety. We run it — every day, in the field.</h2>
+      <p class="lead">Canon Safety / RHI Group has been improving industrial safety since 1987. Today we operate safety programs across live heavy-industrial operations in some of the most hazardous environments in the country — gas detection, H2S response, confined space, training, and the daily discipline of crews going home whole.</p>
+    </div>
+    <div class="cards3">
+      <div class="card"><span class="n">39</span><h3>Years in the field</h3><p>Since 1987, Kilgore, Texas. Safety services, training, and gas detection for heavy industry.</p></div>
+      <div class="card"><span class="n">Daily</span><h3>Live culture program</h3><p>Our Owl observation program runs every day across active industrial operations — mined nightly, recognized weekly, proven to build reporting habits from zero.</p></div>
+      <div class="card"><span class="n">Real</span><h3>Data operations</h3><p>Compliance scorecards, driving telematics, live dashboards — we already run the exact hub infrastructure this proposal delivers.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <img src="logo_canon_white.png" alt="Canon Safety / RHI Group">
+        <p style="margin-top:14px;font-size:.8rem;max-width:38ch;color:#8fa3c0;">Prepared for Integrated Water Services &amp; Sciens Water. Confidential — for evaluation purposes.</p>
+      </div>
+      <div class="contact">
+        <b>Michael Lyons</b>
+        <span>Vice President, Canon Safety</span>
+        <span>mlyons@csrhigroup.com</span>
+        <span>1.800.553.2964 · CSRHIGROUP.COM</span>
+      </div>
+      <div class="since"><div class="n">1987</div><div class="l">Kilgore, Texas</div></div>
+    </div>
+  </div>
+</footer>
+
+<script src="findings.js"></script>
+<script>
+// If a Canon field-audit sync file (findings.js) sits next to this page, the tracker
+// switches from sample data to live audit data automatically.
+(function(){
+  var F = window.IWS_FINDINGS;
+  if (!F || !F.length) return;
+  var meta = window.IWS_AUDIT_META || {};
+  var labels = {open:'Open', prog:'In Progress', closed:'Verified Closed'};
+  var host = document.getElementById('findings');
+  host.innerHTML = F.map(function(f){
+    var s = (f.status === 'closed' || f.status === 'prog') ? f.status : 'open';
+    var due = f.dueDays ? ' · Due ' + f.dueDays + ' days' : '';
+    var cost = f.cost ? ' · Est. $' + f.cost : '';
+    return '<div class="finding ' + s + '" data-s="' + s + '">' +
+      '<div class="fr"><b>' + (f.title || f.item) + '</b><span class="status ' + s + '">' + labels[s] + '</span></div>' +
+      '<div class="meta">' + (f.site || '') + ' · §' + (f.section || '') + ' · Owner: ' + (f.owner || 'TBD') + due + ' · Risk: ' + (f.risk || '') + cost + '</div></div>';
+  }).join('');
+  var live = document.querySelector('.demo-top .live');
+  if (live) live.innerHTML = '<i></i> Live Audit Data' + (meta.site ? ' · ' + meta.site : '');
+  var note = document.querySelector('.demo-note');
+  if (note) note.textContent = 'Live audit data' + (meta.site ? ' — ' + meta.site : '') + (meta.date ? ' · ' + meta.date : '') + (meta.auditor ? ' · Auditor: ' + meta.auditor : '') + ' · Statuses update as corrective actions close.';
+  var closed = F.filter(function(f){ return f.status === 'closed'; }).length;
+  var mm = document.querySelectorAll('.demo-right .metric');
+  if (mm.length >= 3){
+    mm[2].querySelector('.ml span').textContent = closed + ' / ' + F.length;
+    mm[2].querySelector('.bar i').style.width = (F.length ? Math.round(closed / F.length * 100) : 0) + '%';
+  }
+})();
+document.querySelectorAll('.fbtn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    document.querySelectorAll('.fbtn').forEach(function(b){ b.classList.remove('on'); });
+    btn.classList.add('on');
+    var f = btn.getAttribute('data-f');
+    document.querySelectorAll('#findings .finding').forEach(function(el){
+      el.style.display = (f === 'all' || el.getAttribute('data-s') === f) ? '' : 'none';
+    });
+  });
+});
+</script>
+</body>
+</html>
