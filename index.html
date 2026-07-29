@@ -1693,6 +1693,7 @@
     <button data-page="template" onclick="showPage('template', this)">Daily Template</button>
     <button data-page="submit" onclick="showPage('submit', this)">Submit Review</button>
     <button data-page="safetycomp" onclick="showPage('safetycomp', this)">Safety Compliance</button>
+    <button data-page="fieldvisits" onclick="showPage('fieldvisits', this)">Field Visits</button>
     <button data-page="payroll" onclick="showPage('payroll', this)">Payroll &amp; Benefits</button>
     <button data-page="brochure" onclick="showPage('brochure', this)">Brochure</button>
   </nav>
@@ -2051,6 +2052,11 @@
 <div id="page-safetycomp" class="page">
   <div id="driving-content"></div>
   <div id="sc-content"></div>
+</div>
+
+<!-- ── FIELD VISITS ── -->
+<div id="page-fieldvisits" class="page">
+  <div id="fv-content"><div style="padding:30px 0; text-align:center; color:var(--muted);">Loading field visits&hellip;</div></div>
 </div>
 
 <!-- ── BROCHURE ── -->
@@ -4295,6 +4301,158 @@ function rateBg(v) {
 }
 
 // ── DRIVING SCORECARD (driving.json — BARCO telematics weekly export) ──
+let _fv = null;
+async function renderFieldVisits() {
+  const el = document.getElementById('fv-content');
+  if (!el) return;
+  let fv;
+  try {
+    const r = await fetch('fieldvisits.json?_=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) { el.innerHTML = ''; return; }
+    fv = await r.json();
+  } catch (e) { el.innerHTML = ''; return; }
+  if (!fv || !fv.totalVisits) { el.innerHTML = ''; return; }
+  _fv = fv;
+
+  const okRate = fv.okChecks + fv.badChecks ? Math.round(100 * fv.okChecks / (fv.okChecks + fv.badChecks)) : 100;
+  const maxMonth = Math.max(...fv.byMonth.map(m => m.n));
+  const maxBad = fv.improve.length ? fv.improve[0].bad : 0;
+
+  const monthBars = fv.byMonth.map(m => `
+    <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;">
+      <div style="font-size:12px;font-weight:800;color:var(--navy);">${m.n}</div>
+      <div style="width:70%;max-width:46px;background:${m.n >= maxMonth * 0.9 ? '#2E75B6' : '#9dc3e6'};border-radius:5px 5px 0 0;height:${Math.max(6, Math.round(70 * m.n / maxMonth))}px;"></div>
+      <div style="font-size:11px;color:var(--muted);font-weight:700;">${m.label}</div>
+    </div>`).join('');
+
+  const improveRows = fv.improve.map(r => `
+    <div style="display:flex;align-items:center;gap:10px;margin:7px 0;">
+      <div style="flex:0 0 190px;font-size:12.5px;font-weight:700;color:#374151;">${r.label}</div>
+      <div style="flex:1;background:#f1f5f9;border-radius:5px;height:14px;overflow:hidden;">
+        <div style="width:${Math.round(100 * r.bad / maxBad)}%;background:#b45309;height:100%;border-radius:5px;"></div>
+      </div>
+      <div style="flex:0 0 60px;font-size:12px;font-weight:800;color:#b45309;">${r.bad} visit${r.bad > 1 ? 's' : ''}</div>
+    </div>`).join('');
+
+  const hiCards = fv.highlights.map(h => `
+    <div style="background:#f0fdf4;border-left:4px solid #16a34a;border-radius:8px;padding:10px 12px;margin:8px 0;">
+      <div style="font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;color:#166534;">&#9733; ${h.kind} &middot; ${h.site} &middot; ${h.date}</div>
+      <div style="font-size:13.5px;color:#14532d;margin-top:3px;line-height:1.45;">&ldquo;${h.text}&rdquo;</div>
+      <div style="font-size:11px;color:#4d7c0f;margin-top:3px;">Visit by ${h.by}</div>
+    </div>`).join('');
+
+  const watchCards = fv.watch.map(w => `
+    <div style="background:#fffbeb;border-left:4px solid #d97706;border-radius:8px;padding:10px 12px;margin:8px 0;">
+      <div style="font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;color:#92400e;">&#9888; ${w.site} &middot; ${w.date} &middot; by ${w.by}</div>
+      <div style="margin-top:5px;">${w.items.map(i => `<span style="display:inline-block;background:#fde68a;color:#78350f;border-radius:99px;padding:2px 9px;font-size:11px;font-weight:800;margin:2px 4px 2px 0;">${i}</span>`).join('')}</div>
+      ${w.text ? `<div style="font-size:12.5px;color:#78350f;margin-top:4px;line-height:1.45;">${w.text}</div>` : ''}
+    </div>`).join('');
+
+  const mgrChips = fv.managers.map(m => `<span style="display:inline-block;background:#eef2f9;color:var(--navy);border-radius:99px;padding:4px 12px;font-size:12px;font-weight:800;margin:3px 5px 3px 0;">${m.name} &middot; ${m.n}</span>`).join('');
+
+  el.innerHTML = `
+  <div style="padding:16px 0 4px;display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;">
+    <div>
+      <div style="font-size:11px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin-bottom:4px;">Leaders on Location</div>
+      <div style="font-size:20px;font-weight:900;color:var(--navy);line-height:1.1;">&#129517; Manager Field Visits</div>
+      <div style="font-size:12px;color:var(--muted);margin-top:4px;">${fv.source} &nbsp;&middot;&nbsp; updated ${fv.generated}</div>
+    </div>
+    <button onclick="shareFieldVisitsPDF()" style="background:#1F3864;color:#fff;border:2px solid #BF8F00;border-radius:8px;padding:10px 16px;font-size:13px;font-weight:800;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,0.15);">&#128196; Share PDF &rarr; Team</button>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px;margin:14px 0;">
+    <div style="background:#eef2f9;border-radius:10px;padding:12px;">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:6px;">Visits in 2026</div>
+      <div style="font-size:30px;font-weight:900;color:var(--navy);line-height:1;">${fv.totalVisits}</div>
+    </div>
+    <div style="background:#eef2f9;border-radius:10px;padding:12px;">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:6px;">Sites Visited</div>
+      <div style="font-size:30px;font-weight:900;color:var(--navy);line-height:1;">${fv.sites}</div>
+    </div>
+    <div style="background:#dcfce7;border-radius:10px;padding:12px;">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#166534;margin-bottom:6px;">Checks Acceptable</div>
+      <div style="font-size:30px;font-weight:900;color:#166534;line-height:1;">${okRate}%</div>
+      <div style="font-size:11px;color:#166534;margin-top:4px;opacity:.8;">${fv.okChecks} of ${fv.okChecks + fv.badChecks} checks</div>
+    </div>
+    <div style="background:#fef3c7;border-radius:10px;padding:12px;">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#92400e;margin-bottom:6px;">Needs Improvement</div>
+      <div style="font-size:30px;font-weight:900;color:#92400e;line-height:1;">${fv.badChecks}</div>
+      <div style="font-size:11px;color:#92400e;margin-top:4px;opacity:.8;">findings all-time</div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin-bottom:14px;">
+    <div style="font-size:13px;font-weight:800;color:var(--navy);margin-bottom:12px;">Visits by Month</div>
+    <div style="display:flex;align-items:flex-end;gap:6px;height:110px;">${monthBars}</div>
+  </div>
+
+  ${fv.improve.length ? `
+  <div style="background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin-bottom:14px;">
+    <div style="font-size:13px;font-weight:800;color:var(--navy);margin-bottom:4px;">Where We Need to Tighten Up</div>
+    <div style="font-size:11.5px;color:var(--muted);margin-bottom:10px;">Checklist items marked Needs Improvement across all visits</div>
+    ${improveRows}
+  </div>` : ''}
+
+  <div style="background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin-bottom:14px;">
+    <div style="font-size:13px;font-weight:800;color:var(--navy);margin-bottom:4px;">&#9733; Highlights From Location</div>
+    <div style="font-size:11.5px;color:var(--muted);margin-bottom:6px;">What managers and company men saw on site — newest first</div>
+    ${hiCards || '<div style="color:var(--muted);font-size:13px;">No highlights parsed yet.</div>'}
+  </div>
+
+  ${fv.watch.length ? `
+  <div style="background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin-bottom:14px;">
+    <div style="font-size:13px;font-weight:800;color:var(--navy);margin-bottom:4px;">&#9888; Watch Items</div>
+    <div style="font-size:11.5px;color:var(--muted);margin-bottom:6px;">Findings flagged during visits — fix them before the next one</div>
+    ${watchCards}
+  </div>` : ''}
+
+  <div style="background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin-bottom:14px;">
+    <div style="font-size:13px;font-weight:800;color:var(--navy);margin-bottom:8px;">Visits by Manager</div>
+    ${mgrChips}
+    <div style="font-size:12px;color:var(--muted);margin-top:10px;line-height:1.5;">Every visit is a conversation, not an inspection. Leaders showing up on location is how the standard stays the standard.</div>
+  </div>`;
+}
+
+function shareFieldVisitsPDF() {
+  const fv = _fv;
+  if (!fv) return;
+  const okRate = fv.okChecks + fv.badChecks ? Math.round(100 * fv.okChecks / (fv.okChecks + fv.badChecks)) : 100;
+  const dateStr = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  const hi = fv.highlights.map(h => `
+    <div class="card good"><div class="badge">&#9733; ${h.kind.toUpperCase()} &middot; ${h.site} &middot; ${h.date}</div>
+    <div class="headline">&ldquo;${h.text}&rdquo;</div><div class="detail">Visit by ${h.by}</div></div>`).join('');
+  const watch = fv.watch.map(w => `
+    <div class="card flag"><div class="badge">&#9888; ${w.site} &middot; ${w.date} &middot; by ${w.by}</div>
+    <div class="headline">${w.items.join(' &middot; ')}</div>${w.text ? `<div class="detail">${w.text}</div>` : ''}</div>`).join('');
+  const html = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>Canon_Safety-Field_Visits</title><style>
+    body{font-family:'Segoe UI',Arial,sans-serif;margin:0;padding:28px;color:#1a2233;width:760px;}
+    .hdr{background:#1F3864;color:#fff;border-radius:10px;padding:18px 22px;margin-bottom:16px;}
+    .hdr h1{margin:0;font-size:22px;} .hdr .sub{font-size:12px;opacity:.85;margin-top:4px;}
+    .stats{display:flex;gap:10px;margin-bottom:16px;}
+    .stat{flex:1;border:2px solid #1F3864;border-radius:8px;padding:10px;text-align:center;}
+    .stat .n{font-size:26px;font-weight:800;color:#1F3864;} .stat .l{font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:#555;}
+    .sec{font-size:15px;font-weight:800;color:#1F3864;border-bottom:2px solid #BF8F00;padding-bottom:4px;margin:18px 0 10px;}
+    .card{border-radius:8px;padding:10px 12px;margin:8px 0;page-break-inside:avoid;}
+    .card.good{background:#f0fdf4;border-left:4px solid #16a34a;} .card.flag{background:#fffbeb;border-left:4px solid #d97706;}
+    .badge{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:#555;}
+    .headline{font-size:13.5px;font-weight:600;margin-top:3px;} .detail{font-size:11.5px;color:#555;margin-top:3px;}
+    .foot{margin-top:20px;font-size:11px;color:#777;text-align:center;}
+  </style></head><body>
+    <div class="hdr"><h1>&#129517; Manager Field Visits &mdash; Canon Safety</h1>
+    <div class="sub">${dateStr} &middot; ${fv.source}</div></div>
+    <div class="stats">
+      <div class="stat"><div class="n">${fv.totalVisits}</div><div class="l">Visits in 2026</div></div>
+      <div class="stat"><div class="n">${fv.sites}</div><div class="l">Sites Visited</div></div>
+      <div class="stat"><div class="n">${okRate}%</div><div class="l">Checks Acceptable</div></div>
+      <div class="stat"><div class="n">${fv.badChecks}</div><div class="l">Needs Improvement</div></div>
+    </div>
+    <div class="sec">&#9733; Highlights From Location</div>${hi}
+    ${watch ? `<div class="sec">&#9888; Watch Items</div>${watch}` : ''}
+    <div class="foot">Leaders on location &mdash; every visit is a conversation, not an inspection. &middot; Canon Safety / RHI Group</div>
+  </body></html>`;
+  sharePdfFromHtml(html);
+}
+
 async function renderDriving() {
   const el = document.getElementById('driving-content');
   if (!el) return;
@@ -4600,6 +4758,7 @@ renderBreakroom();
 loadOilGasNews();
 renderSafetyCompliance();
 renderDriving();
+renderFieldVisits();
 </script>
 </body>
 </html>

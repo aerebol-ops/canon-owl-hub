@@ -1,0 +1,205 @@
+{
+  "source": "Account Management Field Visit forms \u2014 Dropbox share folder",
+  "generated": "2026-07-29",
+  "totalVisits": 29,
+  "sites": 24,
+  "managers": [
+    {
+      "name": "Jimmy White",
+      "n": 10
+    },
+    {
+      "name": "Kelby & Kyle",
+      "n": 5
+    },
+    {
+      "name": "Kyle Williams",
+      "n": 5
+    },
+    {
+      "name": "Kelby",
+      "n": 4
+    },
+    {
+      "name": "Daniel Medrano",
+      "n": 2
+    },
+    {
+      "name": "Kelby Hammer",
+      "n": 2
+    },
+    {
+      "name": "Blake W",
+      "n": 1
+    }
+  ],
+  "okChecks": 286,
+  "badChecks": 6,
+  "byMonth": [
+    {
+      "label": "Feb",
+      "n": 4
+    },
+    {
+      "label": "Mar",
+      "n": 1
+    },
+    {
+      "label": "Apr",
+      "n": 7
+    },
+    {
+      "label": "May",
+      "n": 4
+    },
+    {
+      "label": "Jun",
+      "n": 12
+    },
+    {
+      "label": "Jul",
+      "n": 1
+    }
+  ],
+  "improve": [
+    {
+      "label": "Proper PPE",
+      "ok": 14,
+      "bad": 2,
+      "na": 0
+    },
+    {
+      "label": "Paperwork sent on time",
+      "ok": 14,
+      "bad": 2,
+      "na": 0
+    },
+    {
+      "label": "Employee behavior",
+      "ok": 28,
+      "bad": 1,
+      "na": 0
+    },
+    {
+      "label": "Forms filled out properly",
+      "ok": 15,
+      "bad": 1,
+      "na": 0
+    }
+  ],
+  "highlights": [
+    {
+      "date": "7/23",
+      "site": "Nichols #2",
+      "by": "Kelby Hammer",
+      "kind": "On location",
+      "text": "Dennis is high spirits as always and spoke very well during the tailgate meeting."
+    },
+    {
+      "date": "6/27",
+      "site": "Cosmo",
+      "by": "Kyle Williams",
+      "kind": "On location",
+      "text": "Adam seem a little tired but was alert when we pulled up"
+    },
+    {
+      "date": "6/27",
+      "site": "Coonskin",
+      "by": "Kyle Williams",
+      "kind": "On location",
+      "text": "Marcos had a great attitude and alert"
+    },
+    {
+      "date": "6/27",
+      "site": "Coonskin",
+      "by": "Kyle Williams",
+      "kind": "On location",
+      "text": "Everything seems Fine"
+    },
+    {
+      "date": "6/27",
+      "site": "Gipple",
+      "by": "Kelby",
+      "kind": "On location",
+      "text": "Larry was happy to be there and visiting with the company man when I arrived"
+    },
+    {
+      "date": "6/27",
+      "site": "Gipple",
+      "by": "Kyle Williams",
+      "kind": "On location",
+      "text": "Dennis seems to have a great attitude"
+    },
+    {
+      "date": "6/23",
+      "site": "Shull Hanks 15K 211H",
+      "by": "Jimmy White",
+      "kind": "Company man",
+      "text": "No complaints crew set up muster area and windsock. Pulled out equipment to be utilized for first break. PJSM conducted and work began."
+    },
+    {
+      "date": "6/23",
+      "site": "Shull Hanks 15K 211H",
+      "by": "Jimmy White",
+      "kind": "On location",
+      "text": "David and Marcos greeted me at my truck, and handed me JSA to sign. Very welcoming onto location."
+    },
+    {
+      "date": "6/9",
+      "site": "Silver Sevens 1H",
+      "by": "Kelby Hammer",
+      "kind": "On location",
+      "text": "Bobby had a great attitude and looked more than happy to be on location."
+    },
+    {
+      "date": "6/5",
+      "site": "Kirsch gas unit 5",
+      "by": "Jimmy White",
+      "kind": "Company man",
+      "text": "Talked with Mark, nothing but good things to say about the techs he has worked with from Canon Safety. Mark stated that they all do a great job and keep everyone safe."
+    }
+  ],
+  "watch": [
+    {
+      "date": "4/8",
+      "site": "WHITAKER #1H",
+      "by": "Kelby & Kyle",
+      "items": [
+        "Proper PPE"
+      ],
+      "text": ""
+    },
+    {
+      "date": "4/1",
+      "site": "Ovintiv Ensign 765",
+      "by": "Jimmy White",
+      "items": [
+        "Employee behavior",
+        "Proper PPE"
+      ],
+      "text": "Kedrick was alert and awake when I arrived on location. Kedrick was not wearing his Canon Safety uniform. While walking the rig with him, I asked if he had done his daily inspections yet he said no and started doing it. Kedrick needs to communicate more with Company man and management team."
+    },
+    {
+      "date": "2/10",
+      "site": "Comstock Brown Trueheart",
+      "by": "Jimmy White",
+      "items": [
+        "Paperwork sent on time"
+      ],
+      "text": "Arrived on location and observed Marcos and Keelan performing check on equipment on location. Marcos not wearing coveralls (hasn't been issued them yet). Keelan wearing coveralls, and all PPE being worn. Techs had calibrated all sensors, and updated all SCBAs for today 2/11."
+    },
+    {
+      "date": "2/9",
+      "site": "Machin- Elliot # 1",
+      "by": "Daniel Medrano",
+      "items": [
+        "Paperwork sent on time",
+        "Forms filled out properly"
+      ],
+      "text": "Jon has not been submitting daily supervision inspection forms. I had a discussion with Jon to make sure he understands that these must be done.. John said he understands."
+    }
+  ],
+  "latest": {
+    "date": "2026-07-23"
+  }
+}
