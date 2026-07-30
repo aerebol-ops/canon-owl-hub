@@ -376,6 +376,7 @@
   .rigcard .rigco{font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums;margin-top:2px}
   .rigcard .rigdir{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.45}
   .rigcard a.btn,.rigcard .btn{align-self:flex-start;margin-top:9px}
+  .reportbox{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:14px 16px;white-space:pre-wrap;font-size:13px;line-height:1.55;color:var(--ink);overflow-x:auto;word-break:break-word}
 </style>
 
 <div class="topbar">
@@ -440,6 +441,13 @@
         <span class="desc">Every form you've saved. Review, export, or re-open.</span>
         <span class="chip count zero" id="tileHistCount">0</span>
         <span class="go">Open records ›</span>
+      </button>
+
+      <button class="tile" data-goto="daily">
+        <span class="part">Records</span>
+        <span class="name">Daily Field Report</span>
+        <span class="desc">A day's work as a clean summary to share with the client.</span>
+        <span class="go">Open report ›</span>
       </button>
 
       <button class="tile" data-form="cycleB">
@@ -595,6 +603,25 @@
       <button class="btn primary" id="histExport">⬇ Export all (CSV)</button>
     </div>
     <div id="historyList"></div>
+  </div>
+</section>
+
+<!-- ============ DAILY FIELD REPORT ============ -->
+<section class="view" id="view-daily">
+  <div class="wrap">
+    <div class="hero" style="padding:14px 0 4px">
+      <div class="eyebrow">Records · Client-ready</div>
+      <h1 style="font-size:22px">Daily Field Report</h1>
+      <p>Pick a day and pull together everything done — rigs serviced, parts installed, issues opened and closed — as a clean summary to share with the client. No internal costs included.</p>
+    </div>
+    <div class="field" style="max-width:220px"><label>Date</label><input id="dailyDate" type="date"></div>
+    <div class="ilog-sum" id="dailySummary" style="margin-top:12px"></div>
+    <div class="toolbar" style="margin-top:0">
+      <button class="btn primary" id="dailyEmail">✉ Email report</button>
+      <button class="btn" id="dailyCopy">⧉ Copy</button>
+      <button class="btn" id="dailyExport">⬇ CSV</button>
+    </div>
+    <div id="dailyBody"></div>
   </div>
 </section>
 
@@ -1576,6 +1603,42 @@
     toast("Opening your email…");
   };
 
+  /* ---------- daily field report (client-shareable) ---------- */
+  var dailyDate=null;
+  function recDay(r){return (r.h&&r.h.date)||(r.savedAt?new Date(r.savedAt).toISOString().slice(0,10):"");}
+  function extractNotes(rec){var form=FORMS[rec.form],out=[];if(!form)return out;form.blocks.forEach(function(b,bi){var d=rec.data&&rec.data[bi];if(!d)return;if(b.type==="text"&&d.text&&String(d.text).trim())out.push({k:b.title,v:String(d.text).trim()});else if(b.type==="fields"&&d.f){b.fields.forEach(function(fd){if(fd.type==="area"){var v=d.f[fd.k];if(v&&String(v).trim())out.push({k:fd.label,v:String(v).trim()});}});}});return out;}
+  function dayData(date){return {insp:getDone().filter(function(r){return recDay(r)===date;}),uses:getTx().filter(function(t){return t.date===date&&t.type==="use";}),opened:getIssues().filter(function(i){return i.opened===date;}),closed:getIssues().filter(function(i){return i.closed===date;})};}
+  function buildDailyReport(date){
+    var d=dayData(date),s=getSettings(),L=[];
+    L.push("REDLINE RELIABILITY PROGRAM — DAILY FIELD REPORT");
+    L.push("Date: "+date+(s.tech?("     Technician: "+s.tech):""));L.push("");
+    L.push("RIGS SERVICED ("+d.insp.length+")");
+    if(!d.insp.length)L.push("  (none)");
+    d.insp.forEach(function(r){var st=recStats(r),rig=(r.h&&r.h.rig)||"(rig)",form=FORMS[r.form];L.push("  - "+rig+" — "+(form?form.tag:r.form)+(st.tot?(": "+st.ans+"/"+st.tot+" checks, "+st.fault+" fault"+(st.fault===1?"":"s")):""));extractNotes(r).forEach(function(n){if(n.v&&n.v.toUpperCase()!=="NONE")L.push("      note ("+n.k+"): "+n.v);});});
+    L.push("");
+    L.push("PARTS INSTALLED / USED ("+d.uses.length+")");
+    if(!d.uses.length)L.push("  (none)");
+    var byRig={};d.uses.forEach(function(t){var r=t.rig||"(rig)";(byRig[r]=byRig[r]||[]).push(t.desc+" x"+(t.qty||1));});
+    Object.keys(byRig).forEach(function(r){L.push("  - "+r+": "+byRig[r].join(", "));});
+    L.push("");
+    if(d.opened.length){L.push("ISSUES OPENED ("+d.opened.length+")");d.opened.forEach(function(i){L.push("  - "+(i.rig||"")+" — "+i.desc+"  ["+i.prio+"]");});L.push("");}
+    if(d.closed.length){L.push("ISSUES CLOSED ("+d.closed.length+")");d.closed.forEach(function(i){L.push("  - "+(i.rig||"")+" — "+i.desc+(i.resolution?("  ("+i.resolution+")"):""));});L.push("");}
+    L.push("— Redline Reliability Program");
+    return L.join("\r\n");
+  }
+  function renderDaily(){
+    if(!dailyDate)dailyDate=todayISO();
+    el("dailyDate").value=dailyDate;
+    var d=dayData(dailyDate);
+    el("dailySummary").innerHTML='<span class="s">'+d.insp.length+' rig'+(d.insp.length===1?"":"s")+' serviced</span><span class="s">'+d.uses.length+' part'+(d.uses.length===1?"":"s")+' used</span>'+(d.opened.length?'<span class="s overdue">'+d.opened.length+' opened</span>':'')+(d.closed.length?'<span class="s closed">'+d.closed.length+' closed</span>':'');
+    var empty=(!d.insp.length&&!d.uses.length&&!d.opened.length&&!d.closed.length);
+    el("dailyBody").innerHTML=empty?'<div class="parts-empty">No activity logged on '+esc(dailyDate)+'.<br>Save an inspection, use a part, or open a challenge on this date and it appears here.</div>':'<div class="reportbox">'+esc(buildDailyReport(dailyDate))+'</div>';
+  }
+  el("dailyDate").onchange=function(){dailyDate=el("dailyDate").value||todayISO();renderDaily();};
+  el("dailyEmail").onclick=function(){window.location.href="mailto:?subject="+encodeURIComponent("Redline Daily Field Report — "+dailyDate)+"&body="+encodeURIComponent(buildDailyReport(dailyDate));toast("Opening your email…");};
+  el("dailyCopy").onclick=function(){var body=buildDailyReport(dailyDate);if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(body).then(function(){toast("Report copied");},function(){toast("Copy failed");});}else toast("Copy not supported here");};
+  el("dailyExport").onclick=function(){var d=dayData(dailyDate);var rows=[["Date","Type","Rig / Location","Detail"]];d.insp.forEach(function(r){var st=recStats(r);rows.push([dailyDate,"Inspection",(r.h&&r.h.rig)||"",(FORMS[r.form]?FORMS[r.form].tag:r.form)+" — "+st.ans+"/"+st.tot+" checks, "+st.fault+" faults"]);});d.uses.forEach(function(t){rows.push([dailyDate,"Part used",t.rig||"",t.desc+" x"+(t.qty||1)]);});d.opened.forEach(function(i){rows.push([dailyDate,"Issue opened",i.rig||"",i.desc]);});d.closed.forEach(function(i){rows.push([dailyDate,"Issue closed",i.rig||"",i.desc+(i.resolution?(" — "+i.resolution):"")]);});if(rows.length===1){toast("Nothing to export");return;}downloadCsv(rows,"redline_daily_"+dailyDate+".csv");};
+
   /* ---------- reference: thresholds + contacts ---------- */
   var THRESH=[
     ["Battery resting voltage below…","V","Replace on the spot from truck stock"],
@@ -1701,11 +1764,12 @@
     el("view-"+view).classList.add("active");
     el("footbar").classList.toggle("show",view==="inspect");
     el("backBtn").style.display=(view==="hub")?"none":"inline-flex";
-    var subs={inspect:(CUR?CUR.tag:"Form"),parts:"Parts Order Log",issues:"Challenge Log",inventory:"Inventory",history:"Saved Records",reference:"Escalation · Part 9",settings:"Settings"};
+    var subs={inspect:(CUR?CUR.tag:"Form"),parts:"Parts Order Log",issues:"Challenge Log",inventory:"Inventory",daily:"Daily Field Report",history:"Saved Records",reference:"Escalation · Part 9",settings:"Settings"};
     el("topSub").textContent=subs[view]||"SM Energy · Permian";
     if(view==="parts")renderParts();
     if(view==="issues")renderIssues();
     if(view==="inventory")renderInventory();
+    if(view==="daily")renderDaily();
     if(view==="history")renderHistory();
     if(view==="reference")renderReference();
     if(view==="settings")bindSettings();
