@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "week": 7,
-  "day": 3,
-  "openingMessage": "Set your house in perfect order before you criticize the world.",
+  "day": 4,
+  "openingMessage": "You're going to pay a price for everything you do and everything you don't do.",
   "openingAttribution": "Jordan Peterson",
-  "openingWhy": "Before we critique the operator's plan at the pre-job, the honest question: is our own trailer inspected, our bottles full, our forms real? On location, the crew whose house is in order is the crew that gets listened to when it counts.",
+  "openingWhy": "The bleed-down check costs ten minutes. Skipping it costs whatever the well decides to charge — and the field sets brutal prices. In Odessa it was two lives for one monitor left in the truck. There's no free option. Just the small bill now, or the one nobody can pay.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Justin Fontenot",
-      "count": 37
+      "count": 38
     },
     {
       "name": "Jordan Lemmons",
@@ -32,6 +32,22 @@
     },
     {
       "name": "Larry Jaramillo",
+      "count": 33
+    },
+    {
+      "name": "Cindy Smith",
+      "count": 32
+    },
+    {
+      "name": "Jacob Hernandez",
+      "count": 32
+    },
+    {
+      "name": "Marylou Guerra",
+      "count": 32
+    },
+    {
+      "name": "Rolando Flores",
       "count": 32
     },
     {
@@ -39,24 +55,12 @@
       "count": 32
     },
     {
-      "name": "Cindy Smith",
-      "count": 31
-    },
-    {
-      "name": "Jacob Hernandez",
-      "count": 31
-    },
-    {
-      "name": "Marylou Guerra",
-      "count": 31
-    },
-    {
-      "name": "Rolando Flores",
-      "count": 31
-    },
-    {
       "name": "Jaques Faulk",
-      "count": 24
+      "count": 25
+    },
+    {
+      "name": "Jimmy White",
+      "count": 25
     },
     {
       "name": "Baldemar Bracamontes",
@@ -79,24 +83,24 @@
       "count": 22
     },
     {
-      "name": "David Jose Zamora",
-      "count": 20
+      "name": "Andrew Bailey",
+      "count": 21
     },
     {
-      "name": "Andrew Bailey",
-      "count": 19
+      "name": "David Jose Zamora",
+      "count": 20
     },
     {
       "name": "Anthony Scott",
       "count": 19
     },
     {
-      "name": "Dermont Morgan",
+      "name": "Dawson Drake",
       "count": 19
     },
     {
-      "name": "Dawson Drake",
-      "count": 18
+      "name": "Dermont Morgan",
+      "count": 19
     },
     {
       "name": "Gary Briones",
@@ -115,7 +119,7 @@
       "count": 15
     },
     {
-      "name": "Jimmy White",
+      "name": "Kelby Hammer Training",
       "count": 15
     },
     {
@@ -143,8 +147,20 @@
       "count": 11
     },
     {
+      "name": "Kyle Williams",
+      "count": 11
+    },
+    {
       "name": "Marcos Morales",
       "count": 9
+    },
+    {
+      "name": "Bobby Galindo",
+      "count": 8
+    },
+    {
+      "name": "Daniel Medrano",
+      "count": 8
     },
     {
       "name": "Anthony Scott 1099",
@@ -155,11 +171,11 @@
       "count": 7
     },
     {
-      "name": "Bobby Galindo",
+      "name": "Trevor Mckenzie",
       "count": 7
     },
     {
-      "name": "Trevor Mckenzie",
+      "name": "William Jimmy Cooper",
       "count": 7
     },
     {
@@ -167,19 +183,7 @@
       "count": 6
     },
     {
-      "name": "Daniel Medrano",
-      "count": 6
-    },
-    {
-      "name": "Kyle Williams",
-      "count": 6
-    },
-    {
       "name": "Michael Jobe",
-      "count": 6
-    },
-    {
-      "name": "William Jimmy Cooper",
       "count": 6
     },
     {
@@ -188,10 +192,6 @@
     },
     {
       "name": "John Blasingame",
-      "count": 4
-    },
-    {
-      "name": "Kelby Hammer Training",
       "count": 4
     },
     {
@@ -207,11 +207,15 @@
       "count": 2
     },
     {
+      "name": "Blake Walton Etx",
+      "count": 1
+    },
+    {
       "name": "Jeremy Torrence",
       "count": 1
     }
   ],
-  "leadershipThought": "When the plan breaks down, the people who trained hardest perform best. That is not an accident. Every emergency response — real or drill — is a data point. Debrief it. Get better.",
+  "leadershipThought": "Do you continue the task or stop? What readings are acceptable versus stop work? Who is responsible for calling it? Know those answers before you crack the hatch.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -219,32 +223,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Gael Antonio Avila — Everything, job, communication",
-      "detail": "Everything, job, communication",
+      "headline": "Andrew Bailey — Everything went as planned on conversion",
+      "detail": "Everything went as planned on conversion",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Crew followed the JSA, communicated effectively, maintained continuous gas",
-      "detail": "Crew followed the JSA, communicated effectively, maintained continuous gas monitoring,",
-      "psms": "Hot Work"
-    },
-    {
-      "type": "good",
-      "headline": "Alfredo Vaquera — Everyone respected the fact that there was H2 S on Location",
-      "detail": "Everyone respected the fact that there was H2 S on Location",
+      "headline": "Blake Walton Etx — Verify conditions, brief all personnel, and leave the location better than you f",
+      "detail": "OWL form — Operational Discipline",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Edward Carrillo — Crane crew did an except pre task of setting up exclusion zones prior to pe",
+      "headline": "Larry Jaramillo — We inspected their tools and determined they were not correct, shut job dow",
+      "detail": "We inspected their tools and determined they were not correct, shut job down before",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons — Dan let us know that they were running late",
       "detail": "Did we leave the location better Yes.",
-      "psms": "Mobile Equipment"
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Dawson Drake — Everyone keep bringing up drink water",
-      "detail": "Everyone keep bringing up drink water",
+      "headline": "Anthony Scott — Everything from safety meeting to clean up",
+      "detail": "Everything from safety meeting to clean up.",
       "psms": "Operational Discipline"
     },
     {
@@ -260,27 +264,27 @@
       "psms": "Driving · Wk 6"
     }
   ],
-  "todaysChallenge": "Today, nobody works an island. Know who's upwind of you, who's watching your entry, who's got rescue. If you can't name them, the job isn't ready to start.",
-  "todaysChallengeSubtext": "“The way a team plays as a whole determines its success.” — Babe Ruth",
+  "todaysChallenge": "Pick one thing today you'd only do if someone was checking — the monitor calibration, the trailer form, the tube count — and do it like the client was standing there. Nobody watching is the test.",
+  "todaysChallengeSubtext": "“The true test of a man's character is what he does when no one is watching.” — John Wooden",
   "compliance": {
     "weekOf": "Week of July 27, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 90,
-        "total": 101
+        "done": 121,
+        "total": 147
       },
       {
         "label": "Trailer Inspections",
-        "done": 17,
-        "total": 21
+        "done": 21,
+        "total": 28
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 15,
-        "total": 20
+        "done": 18,
+        "total": 26
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 07/28"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 07/29"
   }
 }
