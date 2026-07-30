@@ -1,0 +1,118 @@
+{
+  "source": "O.W.L Observe / Win / Learn forms \u2014 every submission to date",
+  "generated": "2026-07-29",
+  "pdfsScanned": 942,
+  "totalForms": 563,
+  "techs": 48,
+  "locations": 404,
+  "firstDate": "06/15/2026",
+  "lastDate": "07/29/2026",
+  "leftBetterYes": 348,
+  "leftBetterTotal": 348,
+  "observe": [
+    {
+      "label": "Job scope completed safely and as planned",
+      "n": 484
+    },
+    {
+      "label": "Atmospheric hazards tested prior to first break",
+      "n": 409
+    },
+    {
+      "label": "Evaluation and discussion of life saving rules",
+      "n": 405
+    },
+    {
+      "label": "Safety control measures were utilized(ex. Hot work/LOTO/Confined Space)",
+      "n": 404
+    },
+    {
+      "label": "Discussed and outlined exclusion zones",
+      "n": 372
+    },
+    {
+      "label": "Repiratory protection utilized",
+      "n": 299
+    },
+    {
+      "label": "Hold points utilized",
+      "n": 263
+    },
+    {
+      "label": "Communicated issues with PIC and corrected before work began",
+      "n": 237
+    },
+    {
+      "label": "Unsafe conditions",
+      "n": 88
+    },
+    {
+      "label": "Stop work authority utilized",
+      "n": 77
+    }
+  ],
+  "win": [
+    {
+      "label": "Strong communication between Canon technician and crews",
+      "n": 469
+    },
+    {
+      "label": "Strong communication between Canon technician and PIC",
+      "n": 461
+    },
+    {
+      "label": "All personnel on location work together effectively to mitigate any hazards",
+      "n": 440
+    },
+    {
+      "label": "Life saving rules understood and discussed with all personnel on site",
+      "n": 427
+    },
+    {
+      "label": "Crew verified conditions in the field instead of relying on paperwork",
+      "n": 398
+    },
+    {
+      "label": "Standard rig up completed correctly with no rework required",
+      "n": 331
+    },
+    {
+      "label": "Last Minute Risk Assessment utilized",
+      "n": 331
+    }
+  ],
+  "improvePct": 36,
+  "improveCount": 205,
+  "improveQuotes": [
+    {
+      "who": "Cindy Smith",
+      "date": "07/29/2026",
+      "text": "Had to redo reconnect a second time to run piping through a fence"
+    },
+    {
+      "who": "Rolando Flores",
+      "date": "07/29/2026",
+      "text": "Bring ice to cooler"
+    },
+    {
+      "who": "Larry Jaramillo",
+      "date": "07/29/2026",
+      "text": "Ice down waters and share with everyone"
+    },
+    {
+      "who": "Jacob Hernandez",
+      "date": "07/29/2026",
+      "text": "Have all techs use monitors"
+    },
+    {
+      "who": "Gael Antonio Avila",
+      "date": "07/27/2026",
+      "text": "Make sure everyone reads the cards before start the job"
+    },
+    {
+      "who": "Ralph Forbes",
+      "date": "07/27/2026",
+      "text": "Look for improvements"
+    }
+  ]
+}

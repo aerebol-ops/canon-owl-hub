@@ -2046,6 +2046,8 @@
     <p class="form-sub">Mike has your review. Good work this week.</p>
     <button class="submit-btn" onclick="resetReview()" style="margin-top:16px;">Submit Another</button>
   </div>
+
+  <div id="owlstats-content"></div>
 </div>
 
 <!-- ══════════════════════════════════ SAFETY COMPLIANCE ═══ -->
@@ -4301,6 +4303,86 @@ function rateBg(v) {
 }
 
 // ── DRIVING SCORECARD (driving.json — BARCO telematics weekly export) ──
+async function renderOwlStats() {
+  const el = document.getElementById('owlstats-content');
+  if (!el) return;
+  let os;
+  try {
+    const r = await fetch('owlstats.json?_=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) return;
+    os = await r.json();
+  } catch (e) { return; }
+  if (!os || !os.totalForms) return;
+
+  const pct = n => Math.round(100 * n / os.totalForms);
+  const hbar = (rows, color, warnLabel) => rows.map(r => {
+    const c = (warnLabel && r.label.toLowerCase().startsWith(warnLabel)) ? '#b45309' : color;
+    return `
+    <div style="display:flex;align-items:center;gap:10px;margin:7px 0;">
+      <div style="flex:0 0 46%;font-size:12px;font-weight:700;color:#374151;line-height:1.3;">${r.label}</div>
+      <div style="flex:1;background:#f1f5f9;border-radius:5px;height:15px;overflow:hidden;">
+        <div style="width:${Math.max(3, pct(r.n))}%;background:${c};height:100%;border-radius:5px;"></div>
+      </div>
+      <div style="flex:0 0 78px;font-size:11.5px;font-weight:800;color:${c};">${r.n} &middot; ${pct(r.n)}%</div>
+    </div>`;
+  }).join('');
+
+  const quoteCards = os.improveQuotes.map(q => `
+    <div style="background:#eef2f9;border-left:4px solid var(--teal);border-radius:8px;padding:9px 12px;margin:7px 0;">
+      <div style="font-size:13px;color:var(--navy);line-height:1.45;">&ldquo;${q.text}&rdquo;</div>
+      <div style="font-size:11px;color:var(--muted);margin-top:3px;">${q.who} &middot; ${q.date}</div>
+    </div>`).join('');
+
+  el.innerHTML = `
+  <div style="padding:26px 0 4px;">
+    <div style="font-size:11px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin-bottom:4px;">What the Forms Are Telling Us</div>
+    <div style="font-size:20px;font-weight:900;color:var(--navy);line-height:1.1;">&#129417; O.W.L Form Insights</div>
+    <div style="font-size:12px;color:var(--muted);margin-top:4px;">Every submitted Observe / Win / Learn review &nbsp;&middot;&nbsp; ${os.firstDate} &ndash; ${os.lastDate} &nbsp;&middot;&nbsp; updated ${os.generated}</div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px;margin:14px 0;">
+    <div style="background:#eef2f9;border-radius:10px;padding:12px;">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:6px;">Reviews Submitted</div>
+      <div style="font-size:30px;font-weight:900;color:var(--navy);line-height:1;">${os.totalForms}</div>
+      <div style="font-size:11px;color:var(--navy);margin-top:4px;opacity:.75;">in ${Math.round((new Date(os.lastDate) - new Date(os.firstDate)) / 864e5 / 7)} weeks</div>
+    </div>
+    <div style="background:#eef2f9;border-radius:10px;padding:12px;">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:6px;">Techs Contributing</div>
+      <div style="font-size:30px;font-weight:900;color:var(--navy);line-height:1;">${os.techs}</div>
+      <div style="font-size:11px;color:var(--navy);margin-top:4px;opacity:.75;">${os.locations} locations</div>
+    </div>
+    <div style="background:#dcfce7;border-radius:10px;padding:12px;">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#166534;margin-bottom:6px;">Left It Better</div>
+      <div style="font-size:30px;font-weight:900;color:#166534;line-height:1;">${os.leftBetterTotal ? Math.round(100 * os.leftBetterYes / os.leftBetterTotal) : 0}%</div>
+      <div style="font-size:11px;color:#166534;margin-top:4px;opacity:.8;">${os.leftBetterYes} of ${os.leftBetterTotal} answered yes</div>
+    </div>
+    <div style="background:#e0f2fe;border-radius:10px;padding:12px;">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#075985;margin-bottom:6px;">Self-Coaching</div>
+      <div style="font-size:30px;font-weight:900;color:#075985;line-height:1;">${os.improvePct}%</div>
+      <div style="font-size:11px;color:#075985;margin-top:4px;opacity:.8;">named something to do better</div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin-bottom:14px;">
+    <div style="font-size:13px;font-weight:800;color:var(--navy);margin-bottom:4px;">O &mdash; What Techs Verify on Location</div>
+    <div style="font-size:11.5px;color:var(--muted);margin-bottom:10px;">&ldquo;What did we observe?&rdquo; &mdash; % of all ${os.totalForms} reviews selecting each</div>
+    ${hbar(os.observe, '#2E75B6', 'unsafe conditions')}
+  </div>
+
+  <div style="background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin-bottom:14px;">
+    <div style="font-size:13px;font-weight:800;color:var(--navy);margin-bottom:4px;">W &mdash; What&rsquo;s Going Well</div>
+    <div style="font-size:11.5px;color:var(--muted);margin-bottom:10px;">&ldquo;What went well?&rdquo; &mdash; % of all reviews selecting each</div>
+    ${hbar(os.win, '#16a34a')}
+  </div>
+
+  <div style="background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin-bottom:14px;">
+    <div style="font-size:13px;font-weight:800;color:var(--navy);margin-bottom:4px;">L &mdash; In Their Own Words</div>
+    <div style="font-size:11.5px;color:var(--muted);margin-bottom:6px;">&ldquo;One thing we&rsquo;ll do better next time&rdquo; &mdash; freshest answers, one per tech</div>
+    ${quoteCards}
+    <div style="font-size:12px;color:var(--muted);margin-top:10px;line-height:1.5;">${os.techs} techs, ${os.totalForms} reviews, zero prompting &mdash; this is the crew coaching itself. The forms aren&rsquo;t paperwork; they&rsquo;re the habit.</div>
+  </div>`;
+}
+
 let _fv = null;
 async function renderFieldVisits() {
   const el = document.getElementById('fv-content');
@@ -4759,6 +4841,7 @@ loadOilGasNews();
 renderSafetyCompliance();
 renderDriving();
 renderFieldVisits();
+renderOwlStats();
 </script>
 </body>
 </html>
