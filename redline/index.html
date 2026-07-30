@@ -614,7 +614,13 @@
       <h1 style="font-size:22px">Daily Field Report</h1>
       <p>Pick a day and pull together everything done — rigs serviced, parts installed, issues opened and closed — as a clean summary to share with the client. No internal costs included.</p>
     </div>
-    <div class="field" style="max-width:220px"><label>Date</label><input id="dailyDate" type="date"></div>
+    <div class="filterbtns" id="reportRangeNav">
+      <button data-range="day" class="on">Day</button>
+      <button data-range="week">Week</button>
+      <button data-range="month">Month</button>
+    </div>
+    <div class="field" style="max-width:240px"><label>Date (any day in the period)</label><input id="dailyDate" type="date"></div>
+    <div class="hint" id="dailyPeriod" style="margin:6px 2px 0"></div>
     <div class="ilog-sum" id="dailySummary" style="margin-top:12px"></div>
     <div class="toolbar" style="margin-top:0">
       <button class="btn primary" id="dailyEmail">✉ Email report</button>
@@ -1603,23 +1609,36 @@
     toast("Opening your email…");
   };
 
-  /* ---------- daily field report (client-shareable) ---------- */
-  var dailyDate=null;
+  /* ---------- daily / weekly / monthly field report (client-shareable) ---------- */
+  var dailyDate=null, reportRange="day";
+  function isoOf(d){var m=d.getMonth()+1,day=d.getDate();return d.getFullYear()+"-"+(m<10?"0":"")+m+"-"+(day<10?"0":"")+day;}
+  function computeRange(anchor,range){
+    var a=parseISO(anchor)||new Date();a=new Date(a.getFullYear(),a.getMonth(),a.getDate());
+    if(range==="week"){var day=a.getDay(),off=(day===0?-6:1-day);var s=new Date(a.getFullYear(),a.getMonth(),a.getDate()+off);var e=new Date(s.getFullYear(),s.getMonth(),s.getDate()+6);return {start:isoOf(s),end:isoOf(e),label:"WEEKLY"};}
+    if(range==="month"){var s2=new Date(a.getFullYear(),a.getMonth(),1),e2=new Date(a.getFullYear(),a.getMonth()+1,0);return {start:isoOf(s2),end:isoOf(e2),label:"MONTHLY"};}
+    return {start:anchor,end:anchor,label:"DAILY"};
+  }
   function recDay(r){return (r.h&&r.h.date)||(r.savedAt?new Date(r.savedAt).toISOString().slice(0,10):"");}
+  function inRange(dstr,start,end){return !!dstr&&dstr>=start&&dstr<=end;}
   function extractNotes(rec){var form=FORMS[rec.form],out=[];if(!form)return out;form.blocks.forEach(function(b,bi){var d=rec.data&&rec.data[bi];if(!d)return;if(b.type==="text"&&d.text&&String(d.text).trim())out.push({k:b.title,v:String(d.text).trim()});else if(b.type==="fields"&&d.f){b.fields.forEach(function(fd){if(fd.type==="area"){var v=d.f[fd.k];if(v&&String(v).trim())out.push({k:fd.label,v:String(v).trim()});}});}});return out;}
-  function dayData(date){return {insp:getDone().filter(function(r){return recDay(r)===date;}),uses:getTx().filter(function(t){return t.date===date&&t.type==="use";}),opened:getIssues().filter(function(i){return i.opened===date;}),closed:getIssues().filter(function(i){return i.closed===date;})};}
-  function buildDailyReport(date){
-    var d=dayData(date),s=getSettings(),L=[];
-    L.push("REDLINE RELIABILITY PROGRAM — DAILY FIELD REPORT");
-    L.push("Date: "+date+(s.tech?("     Technician: "+s.tech):""));L.push("");
+  function rangeData(start,end){return {
+    insp:getDone().filter(function(r){return inRange(recDay(r),start,end);}),
+    uses:getTx().filter(function(t){return t.type==="use"&&inRange(t.date,start,end);}),
+    opened:getIssues().filter(function(i){return inRange(i.opened,start,end);}),
+    closed:getIssues().filter(function(i){return inRange(i.closed,start,end);})
+  };}
+  function buildReport(anchor,range){
+    var rg=computeRange(anchor,range),d=rangeData(rg.start,rg.end),s=getSettings(),L=[];
+    L.push("REDLINE RELIABILITY PROGRAM — "+rg.label+" FIELD REPORT");
+    L.push((range==="day"?("Date: "+rg.start):("Period: "+rg.start+" to "+rg.end))+(s.tech?("     Technician: "+s.tech):""));L.push("");
     L.push("RIGS SERVICED ("+d.insp.length+")");
     if(!d.insp.length)L.push("  (none)");
-    d.insp.forEach(function(r){var st=recStats(r),rig=(r.h&&r.h.rig)||"(rig)",form=FORMS[r.form];L.push("  - "+rig+" — "+(form?form.tag:r.form)+(st.tot?(": "+st.ans+"/"+st.tot+" checks, "+st.fault+" fault"+(st.fault===1?"":"s")):""));extractNotes(r).forEach(function(n){if(n.v&&n.v.toUpperCase()!=="NONE")L.push("      note ("+n.k+"): "+n.v);});});
+    d.insp.forEach(function(r){var st=recStats(r),rig=(r.h&&r.h.rig)||"(rig)",form=FORMS[r.form],pre=(range==="day"?"":(recDay(r)+"  "));L.push("  - "+pre+rig+" — "+(form?form.tag:r.form)+(st.tot?(": "+st.ans+"/"+st.tot+" checks, "+st.fault+" fault"+(st.fault===1?"":"s")):""));extractNotes(r).forEach(function(n){if(n.v&&n.v.toUpperCase()!=="NONE")L.push("      note ("+n.k+"): "+n.v);});});
     L.push("");
     L.push("PARTS INSTALLED / USED ("+d.uses.length+")");
     if(!d.uses.length)L.push("  (none)");
-    var byRig={};d.uses.forEach(function(t){var r=t.rig||"(rig)";(byRig[r]=byRig[r]||[]).push(t.desc+" x"+(t.qty||1));});
-    Object.keys(byRig).forEach(function(r){L.push("  - "+r+": "+byRig[r].join(", "));});
+    var byRig={};d.uses.forEach(function(t){var r=t.rig||"(rig)";byRig[r]=byRig[r]||{};var k=t.desc||"part";byRig[r][k]=(byRig[r][k]||0)+(t.qty||1);});
+    Object.keys(byRig).forEach(function(r){var its=[];for(var k in byRig[r])its.push(k+" x"+byRig[r][k]);L.push("  - "+r+": "+its.join(", "));});
     L.push("");
     if(d.opened.length){L.push("ISSUES OPENED ("+d.opened.length+")");d.opened.forEach(function(i){L.push("  - "+(i.rig||"")+" — "+i.desc+"  ["+i.prio+"]");});L.push("");}
     if(d.closed.length){L.push("ISSUES CLOSED ("+d.closed.length+")");d.closed.forEach(function(i){L.push("  - "+(i.rig||"")+" — "+i.desc+(i.resolution?("  ("+i.resolution+")"):""));});L.push("");}
@@ -1629,15 +1648,20 @@
   function renderDaily(){
     if(!dailyDate)dailyDate=todayISO();
     el("dailyDate").value=dailyDate;
-    var d=dayData(dailyDate);
+    document.querySelectorAll('#reportRangeNav [data-range]').forEach(function(b){b.classList.toggle("on",b.getAttribute("data-range")===reportRange);});
+    var rg=computeRange(dailyDate,reportRange);
+    el("dailyPeriod").textContent=(reportRange==="day"?("Showing "+rg.start):("Showing "+rg.start+"  →  "+rg.end));
+    var d=rangeData(rg.start,rg.end);
     el("dailySummary").innerHTML='<span class="s">'+d.insp.length+' rig'+(d.insp.length===1?"":"s")+' serviced</span><span class="s">'+d.uses.length+' part'+(d.uses.length===1?"":"s")+' used</span>'+(d.opened.length?'<span class="s overdue">'+d.opened.length+' opened</span>':'')+(d.closed.length?'<span class="s closed">'+d.closed.length+' closed</span>':'');
     var empty=(!d.insp.length&&!d.uses.length&&!d.opened.length&&!d.closed.length);
-    el("dailyBody").innerHTML=empty?'<div class="parts-empty">No activity logged on '+esc(dailyDate)+'.<br>Save an inspection, use a part, or open a challenge on this date and it appears here.</div>':'<div class="reportbox">'+esc(buildDailyReport(dailyDate))+'</div>';
+    el("dailyBody").innerHTML=empty?'<div class="parts-empty">No activity in this period.</div>':'<div class="reportbox">'+esc(buildReport(dailyDate,reportRange))+'</div>';
   }
   el("dailyDate").onchange=function(){dailyDate=el("dailyDate").value||todayISO();renderDaily();};
-  el("dailyEmail").onclick=function(){window.location.href="mailto:?subject="+encodeURIComponent("Redline Daily Field Report — "+dailyDate)+"&body="+encodeURIComponent(buildDailyReport(dailyDate));toast("Opening your email…");};
-  el("dailyCopy").onclick=function(){var body=buildDailyReport(dailyDate);if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(body).then(function(){toast("Report copied");},function(){toast("Copy failed");});}else toast("Copy not supported here");};
-  el("dailyExport").onclick=function(){var d=dayData(dailyDate);var rows=[["Date","Type","Rig / Location","Detail"]];d.insp.forEach(function(r){var st=recStats(r);rows.push([dailyDate,"Inspection",(r.h&&r.h.rig)||"",(FORMS[r.form]?FORMS[r.form].tag:r.form)+" — "+st.ans+"/"+st.tot+" checks, "+st.fault+" faults"]);});d.uses.forEach(function(t){rows.push([dailyDate,"Part used",t.rig||"",t.desc+" x"+(t.qty||1)]);});d.opened.forEach(function(i){rows.push([dailyDate,"Issue opened",i.rig||"",i.desc]);});d.closed.forEach(function(i){rows.push([dailyDate,"Issue closed",i.rig||"",i.desc+(i.resolution?(" — "+i.resolution):"")]);});if(rows.length===1){toast("Nothing to export");return;}downloadCsv(rows,"redline_daily_"+dailyDate+".csv");};
+  document.querySelectorAll('#reportRangeNav [data-range]').forEach(function(b){b.onclick=function(){reportRange=b.getAttribute("data-range");renderDaily();};});
+  function reportSubject(){var rg=computeRange(dailyDate,reportRange);var cap=rg.label.charAt(0)+rg.label.slice(1).toLowerCase();return "Redline "+cap+" Field Report — "+(reportRange==="day"?rg.start:(rg.start+" to "+rg.end));}
+  el("dailyEmail").onclick=function(){window.location.href="mailto:?subject="+encodeURIComponent(reportSubject())+"&body="+encodeURIComponent(buildReport(dailyDate,reportRange));toast("Opening your email…");};
+  el("dailyCopy").onclick=function(){var body=buildReport(dailyDate,reportRange);if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(body).then(function(){toast("Report copied");},function(){toast("Copy failed");});}else toast("Copy not supported here");};
+  el("dailyExport").onclick=function(){var rg=computeRange(dailyDate,reportRange),d=rangeData(rg.start,rg.end),rows=[["Date","Type","Rig / Location","Detail"]];d.insp.forEach(function(r){var st=recStats(r);rows.push([recDay(r),"Inspection",(r.h&&r.h.rig)||"",(FORMS[r.form]?FORMS[r.form].tag:r.form)+" — "+st.ans+"/"+st.tot+" checks, "+st.fault+" faults"]);});d.uses.forEach(function(t){rows.push([t.date,"Part used",t.rig||"",t.desc+" x"+(t.qty||1)]);});d.opened.forEach(function(i){rows.push([i.opened,"Issue opened",i.rig||"",i.desc]);});d.closed.forEach(function(i){rows.push([i.closed,"Issue closed",i.rig||"",i.desc+(i.resolution?(" — "+i.resolution):"")]);});if(rows.length===1){toast("Nothing to export");return;}downloadCsv(rows,"redline_"+reportRange+"_"+rg.start+".csv");};
 
   /* ---------- reference: thresholds + contacts ---------- */
   var THRESH=[
