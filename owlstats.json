@@ -2,45 +2,47 @@
   "source": "O.W.L Observe / Win / Learn forms \u2014 every submission to date",
   "generated": "2026-07-29",
   "pdfsScanned": 942,
-  "totalForms": 563,
+  "totalSubmitted": 934,
+  "blankForms": 376,
+  "totalForms": 558,
   "techs": 48,
   "locations": 404,
   "firstDate": "06/15/2026",
   "lastDate": "07/29/2026",
-  "leftBetterYes": 348,
-  "leftBetterTotal": 348,
+  "leftBetterYes": 345,
+  "leftBetterTotal": 345,
   "observe": [
     {
       "label": "Job scope completed safely and as planned",
-      "n": 484
+      "n": 479
     },
     {
       "label": "Atmospheric hazards tested prior to first break",
-      "n": 409
-    },
-    {
-      "label": "Evaluation and discussion of life saving rules",
       "n": 405
     },
     {
+      "label": "Evaluation and discussion of life saving rules",
+      "n": 402
+    },
+    {
       "label": "Safety control measures were utilized(ex. Hot work/LOTO/Confined Space)",
-      "n": 404
+      "n": 400
     },
     {
       "label": "Discussed and outlined exclusion zones",
-      "n": 372
+      "n": 368
     },
     {
       "label": "Repiratory protection utilized",
-      "n": 299
+      "n": 296
     },
     {
       "label": "Hold points utilized",
-      "n": 263
+      "n": 259
     },
     {
       "label": "Communicated issues with PIC and corrected before work began",
-      "n": 237
+      "n": 234
     },
     {
       "label": "Unsafe conditions",
@@ -54,65 +56,85 @@
   "win": [
     {
       "label": "Strong communication between Canon technician and crews",
-      "n": 469
+      "n": 465
     },
     {
       "label": "Strong communication between Canon technician and PIC",
-      "n": 461
+      "n": 457
     },
     {
       "label": "All personnel on location work together effectively to mitigate any hazards",
-      "n": 440
+      "n": 435
     },
     {
       "label": "Life saving rules understood and discussed with all personnel on site",
-      "n": 427
+      "n": 423
     },
     {
       "label": "Crew verified conditions in the field instead of relying on paperwork",
-      "n": 398
+      "n": 395
     },
     {
       "label": "Standard rig up completed correctly with no rework required",
-      "n": 331
+      "n": 329
     },
     {
       "label": "Last Minute Risk Assessment utilized",
-      "n": 331
+      "n": 328
     }
   ],
-  "improvePct": 36,
-  "improveCount": 205,
+  "improvePct": 37,
+  "improveCount": 204,
   "improveQuotes": [
     {
-      "who": "Cindy Smith",
-      "date": "07/29/2026",
-      "text": "Had to redo reconnect a second time to run piping through a fence"
-    },
-    {
-      "who": "Rolando Flores",
-      "date": "07/29/2026",
-      "text": "Bring ice to cooler"
-    },
-    {
       "who": "Larry Jaramillo",
-      "date": "07/29/2026",
-      "text": "Ice down waters and share with everyone"
+      "date": "06/18/2026",
+      "text": "Utilize a cheater pipe from the beginning stages of the job instead of \u201cbouncing\u201d on the pipe wrench and risking a potential fall."
     },
     {
-      "who": "Jacob Hernandez",
-      "date": "07/29/2026",
-      "text": "Have all techs use monitors"
+      "who": "Brianda Sandoval",
+      "date": "07/08/2026",
+      "text": "Set up a completely sealed exclusion zone \u2014 not just cones \u2014 because some people felt entitled to walk right in. I had to kick them out."
     },
     {
-      "who": "Gael Antonio Avila",
-      "date": "07/27/2026",
-      "text": "Make sure everyone reads the cards before start the job"
+      "who": "Nathan Contreras",
+      "date": "07/23/2026",
+      "text": "Do a pre-task briefing beforehand to ensure everyone is on the same page on job progression."
     },
     {
       "who": "Ralph Forbes",
-      "date": "07/27/2026",
-      "text": "Look for improvements"
+      "date": "07/14/2026",
+      "text": "Language barrier is a concern \u2014 roustabouts speak and understand Spanish, not so good with English."
+    },
+    {
+      "who": "Jacob Hernandez",
+      "date": "07/25/2026",
+      "text": "Interpret the Spanish side of the 12 Life-Saving Rules."
+    },
+    {
+      "who": "Stefanie Kirschke",
+      "date": "06/18/2026",
+      "text": "Add a brief refresher on offset frac protection criteria for new crew members before the job."
+    },
+    {
+      "who": "Brianda Sandoval",
+      "date": "06/20/2026",
+      "text": "A crew member showed up with an invalid fit-test card \u2014 we used someone else to break containment and flagged the card."
+    },
+    {
+      "who": "Jordan Lemmons",
+      "date": "06/15/2026",
+      "text": "Always check before starting work to make sure no casing valves are leaking \u2014 check the bleeders."
+    },
+    {
+      "who": "Ralph Forbes",
+      "date": "07/15/2026",
+      "text": "Verify all equipment is actually going to show up \u2014 the vac truck didn\u2019t, and it made a big mess cleaning tanks out."
+    },
+    {
+      "who": "Jeremy Norris",
+      "date": "07/15/2026",
+      "text": "More atmospheric tests while the crew is working, while staying out of the line of fire."
     }
   ]
 }

@@ -1964,6 +1964,7 @@
   <div style="text-align:center; margin:20px 0 8px;">
     <button onclick="shareFieldNewsPDF()" style="background:#1F3864; color:#fff; border:2px solid #BF8F00; border-radius:8px; padding:12px 22px; font-size:14px; font-weight:800; cursor:pointer; box-shadow:0 2px 6px rgba(0,0,0,0.15);">&#128196; Share Field News PDF &rarr; Breakroom</button>
   </div>
+  <div id="owlstats-content"></div>
 </div>
 
 <!-- ═══════════════════════════════════════════════ PSMS ═══ -->
@@ -2046,8 +2047,6 @@
     <p class="form-sub">Mike has your review. Good work this week.</p>
     <button class="submit-btn" onclick="resetReview()" style="margin-top:16px;">Submit Another</button>
   </div>
-
-  <div id="owlstats-content"></div>
 </div>
 
 <!-- ══════════════════════════════════ SAFETY COMPLIANCE ═══ -->
@@ -4343,13 +4342,13 @@ async function renderOwlStats() {
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px;margin:14px 0;">
     <div style="background:#eef2f9;border-radius:10px;padding:12px;">
       <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:6px;">Reviews Submitted</div>
-      <div style="font-size:30px;font-weight:900;color:var(--navy);line-height:1;">${os.totalForms}</div>
-      <div style="font-size:11px;color:var(--navy);margin-top:4px;opacity:.75;">in ${Math.round((new Date(os.lastDate) - new Date(os.firstDate)) / 864e5 / 7)} weeks</div>
+      <div style="font-size:30px;font-weight:900;color:var(--navy);line-height:1;">${os.totalSubmitted || os.totalForms}</div>
+      <div style="font-size:11px;color:var(--navy);margin-top:4px;opacity:.75;">${os.techs} techs &middot; ${Math.round((new Date(os.lastDate) - new Date(os.firstDate)) / 864e5 / 7)} weeks</div>
     </div>
     <div style="background:#eef2f9;border-radius:10px;padding:12px;">
-      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:6px;">Techs Contributing</div>
-      <div style="font-size:30px;font-weight:900;color:var(--navy);line-height:1;">${os.techs}</div>
-      <div style="font-size:11px;color:var(--navy);margin-top:4px;opacity:.75;">${os.locations} locations</div>
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:6px;">With Written Detail</div>
+      <div style="font-size:30px;font-weight:900;color:var(--navy);line-height:1;">${os.totalForms}</div>
+      <div style="font-size:11px;color:var(--navy);margin-top:4px;opacity:.75;">${os.totalSubmitted ? Math.round(100 * os.totalForms / os.totalSubmitted) : 100}% of submitted &middot; ${os.locations} locations</div>
     </div>
     <div style="background:#dcfce7;border-radius:10px;padding:12px;">
       <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#166534;margin-bottom:6px;">Left It Better</div>
@@ -4377,7 +4376,7 @@ async function renderOwlStats() {
 
   <div style="background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin-bottom:14px;">
     <div style="font-size:13px;font-weight:800;color:var(--navy);margin-bottom:4px;">L &mdash; In Their Own Words</div>
-    <div style="font-size:11.5px;color:var(--muted);margin-bottom:6px;">&ldquo;One thing we&rsquo;ll do better next time&rdquo; &mdash; freshest answers, one per tech</div>
+    <div style="font-size:11.5px;color:var(--muted);margin-bottom:6px;">&ldquo;One thing we&rsquo;ll do better next time&rdquo; &mdash; the sharpest calls from the field</div>
     ${quoteCards}
     <div style="font-size:12px;color:var(--muted);margin-top:10px;line-height:1.5;">${os.techs} techs, ${os.totalForms} reviews, zero prompting &mdash; this is the crew coaching itself. The forms aren&rsquo;t paperwork; they&rsquo;re the habit.</div>
   </div>`;
