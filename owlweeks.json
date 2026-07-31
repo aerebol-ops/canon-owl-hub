@@ -28,6 +28,16 @@
           "recognition": "Justin Fontenot — Job went as planned no issues"
         },
         {
+          "date": "Wed, Jul 29",
+          "day": "Wednesday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;When the plan breaks down, the people who trained hardest perform best. That is not an accident. Every emergency response — real or drill — is a data point. Debrief it. Get better.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Gael Antonio Avila</strong> — Everything, job, communication</li><li style='margin:3px 0;'><strong>Stefanie Kirschke</strong> — Crew followed the JSA, communicated effectively, maintained continuous gas monitoring,</li><li style='margin:3px 0;'><strong>Alfredo Vaquera</strong> — Everyone respected the fact that there was H2 S on Location</li><li style='margin:3px 0;'><strong>Edward Carrillo</strong> — Did we leave the location better Yes.</li><li style='margin:3px 0;'><strong>Dawson Drake</strong> — Everyone keep bringing up drink water</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "SM Energy #112 — 6,000 ppm H2S / 2% CO2 (carry-forward from 7/10)",
+            "Two driving near-misses flagged Friday — stay heads-up on the road"
+          ],
+          "recognition": "Gael Antonio Avila — Everything, job, communication"
+        },
+        {
           "date": "Thu, Jul 30",
           "day": "Thursday",
           "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Do you continue the task or stop? What readings are acceptable versus stop work? Who is responsible for calling it? Know those answers before you crack the hatch.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Brianda Sandoval</strong> — Two crews worked together as a team, no gas was present after we let it air out.</li><li style='margin:3px 0;'><strong>Alexander Clubb</strong> — Containment was broken the correct way with air on, AGT was done by us under air.</li><li style='margin:3px 0;'><strong>Raymundo Solis</strong> — Communication between forklift operator and spotter was on point</li><li style='margin:3px 0;'><strong>Ralph Forbes</strong> — Parts reinstalled at a good rate of time with action discussed before hand</li><li style='margin:3px 0;'><strong>Jeremy Norris</strong> — The job was completed according to scope with no incidents, while working cohesively as</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
