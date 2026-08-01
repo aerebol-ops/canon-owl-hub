@@ -115,6 +115,23 @@ section.block.dark .lead{color:#c3cfe2;}
 .demo-left{padding:20px;border-right:1px solid var(--line);}
 .demo-right{padding:20px;background:#fafbfc;}
 .demo h4{font-family:var(--disp);text-transform:uppercase;letter-spacing:.07em;font-size:.8rem;color:var(--navy);margin-bottom:12px;}
+/* ===== how-it-works walkthrough ===== */
+.steps{margin-top:30px;display:flex;flex-direction:column;gap:16px;}
+.step{display:grid;grid-template-columns:56px 1fr;gap:16px;background:#fff;border:1px solid var(--line);padding:20px 22px;box-shadow:0 8px 24px rgba(31,56,100,.06);}
+.step .sn{font-family:var(--disp);font-weight:700;font-size:1.4rem;color:#fff;background:var(--navy);width:44px;height:44px;display:flex;align-items:center;justify-content:center;border-radius:50%;border-bottom:3px solid var(--gold);}
+.step h3{color:var(--navy);text-transform:uppercase;font-size:1rem;margin-bottom:6px;font-family:var(--disp);}
+.step p{font-size:.9rem;color:#3b4552;margin:0 0 10px;}
+.step p:last-child{margin-bottom:0;}
+.mock{border:1px solid var(--line);background:#fbfcfd;padding:12px 14px;font-size:.82rem;color:var(--ink);}
+.mock .mk-id{font-family:var(--disp);color:var(--steel);font-size:.72rem;font-weight:700;}
+.mock .chip-bad{font-family:var(--disp);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;background:var(--red);color:#fff;padding:3px 10px;border-radius:10px;white-space:nowrap;}
+.mock .mrow{display:flex;justify-content:space-between;align-items:center;gap:12px;}
+.mock .mfields{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);display:grid;grid-template-columns:1fr 1fr;gap:4px 18px;font-size:.76rem;color:#3b4552;}
+.mock .mfields b{color:var(--navy);font-family:var(--disp);font-size:.66rem;text-transform:uppercase;letter-spacing:.06em;display:block;}
+.codebox{background:var(--navy-dk);color:#c2d1e6;font-family:Consolas,"Courier New",monospace;font-size:.74rem;padding:14px 16px;overflow-x:auto;line-height:1.65;}
+.codebox .ck{color:var(--gold-lt);}
+@media(max-width:760px){.step{grid-template-columns:1fr;}.mock .mfields{grid-template-columns:1fr;}}
+
 .filters{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;}
 .fbtn{font-family:var(--disp);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--line);background:#fff;color:var(--steel);padding:5px 12px;border-radius:14px;cursor:pointer;}
 .fbtn.on{background:var(--navy);border-color:var(--navy);color:#fff;}
@@ -269,6 +286,7 @@ section.block.dark .lead{color:#c3cfe2;}
       <a href="#risk">Risk Matrix</a>
       <a href="#scope">Scope</a>
       <a href="#framework">Audit Framework</a>
+      <a href="#process">How It Works</a>
       <a href="#hub">The Living Hub</a>
       <a href="#culture">Culture Engine</a>
       <a href="#invest">Timeline &amp; Investment</a>
@@ -672,8 +690,79 @@ section.block.dark .lead{color:#c3cfe2;}
   </div>
 </section>
 
+<!-- ============ HOW IT WORKS ============ -->
+<section class="block" id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">How It Works</p>
+      <h2>Follow one finding through the system.</h2>
+      <p class="lead">Every finding travels the same loop — from a boot-level observation to verified closure on the leadership dashboard. Here is one real-world example, start to finish, using Canon's home turf: gas detection at a wet well.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="sn">1</div>
+        <div>
+          <h3>Found on the floor — not in a binder</h3>
+          <p>During the site walk, Canon's auditor works item 8.2 of the field form with the crew that does the entries. At the headworks wet well: two of the four gas monitors are past their calibration due date, and there's no bump-test log at the gas board.</p>
+          <div class="mock">
+            <div class="mrow"><span><span class="mk-id">8.2</span> &nbsp;Gas detection: monitors calibrated, bump tested, alarm setpoints correct (H2S, LEL, O2)</span><span class="chip-bad">✗ Finding</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="sn">2</div>
+        <div>
+          <h3>Captured in about a minute</h3>
+          <p>The finding panel opens on the auditor's tablet. What gets recorded is everything leadership will need — the fix, the cost, the owner, the clock, and all five risk factors. The severity rank comes straight from the risk matrix: toxic atmosphere is Tier 1.</p>
+          <div class="mock">
+            <div class="mfields">
+              <span><b>Observation</b>2 of 4 wet-well monitors past cal due; no bump-test log at gas board</span>
+              <span><b>Corrective Action</b>Calibrate/replace units · monthly bump-test log · assign gas-board owner</span>
+              <span><b>Est. Cost to Close</b>$1,200</span>
+              <span><b>Owner / Due</b>Ops Lead · 14 days</span>
+              <span><b>Likelihood / Reg. Exposure / Op. Impact</b>Medium · High · High</span>
+              <span><b>Risk (from matrix)</b>High — Tier 1 · Toxic Atmosphere</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="sn">3</div>
+        <div>
+          <h3>One file updates the hub</h3>
+          <p>At the end of the visit the form exports a single sync file. Dropped into the hub — or swept automatically from the cloud folder the crew already uses — the tracker flips from sample data to the live audit. No new software, no logins, nothing to install.</p>
+          <div class="codebox">window.IWS_FINDINGS = [{<br>&nbsp;&nbsp;<span class="ck">id:</span> "8.2", <span class="ck">section:</span> "8 · Safe Work Procedures",<br>&nbsp;&nbsp;<span class="ck">title:</span> "Wet-well monitors past calibration — no bump-test log",<br>&nbsp;&nbsp;<span class="ck">action:</span> "Calibrate/replace · monthly bump-test log · assign owner",<br>&nbsp;&nbsp;<span class="ck">cost:</span> "1200", <span class="ck">owner:</span> "Ops Lead", <span class="ck">dueDays:</span> "14",<br>&nbsp;&nbsp;<span class="ck">risk:</span> "High", <span class="ck">regExposure:</span> "High", <span class="ck">status:</span> "open" }];</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="sn">4</div>
+        <div>
+          <h3>Visible from the boardroom to the breakroom — same day</h3>
+          <p>The finding is on the hub before the audit team leaves the parking lot: named owner, due date, risk rank, cost. Nothing waits for a final report, and nothing dies in a PDF.</p>
+          <div class="finding open" style="margin-bottom:0;">
+            <div class="fr"><b>Wet-well monitors past calibration — no bump-test log</b><span class="status open">Open</span></div>
+            <div class="meta">HQ &amp; Water Facilities · Owner: Ops Lead · Due 14 days · Risk: High · Reg. Exposure: High · $1,200 to close</div>
+          </div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="sn">5</div>
+        <div>
+          <h3>Fixed, verified, recognized</h3>
+          <p>The Ops Lead closes it in nine days. Canon doesn't take the email's word for it — the fix is confirmed on walkdown, the site scorecard ticks up, and the operator who flagged the missing log gets named on the recognition board. That last step is where the culture starts.</p>
+          <div class="finding closed" style="margin-bottom:0;">
+            <div class="fr"><b>Wet-well monitors past calibration — no bump-test log</b><span class="status closed">Verified Closed</span></div>
+            <div class="meta">Closed day 9 · Verified by Canon walkdown — all four units calibrated, bump-test log active at the gas board</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="muted" style="margin-top:22px;font-size:.88rem;">This exact finding is loaded in the working tracker below — filter it, watch the scorecard respond, and picture it with your sites' real data. <a href="#hub" style="color:var(--teal);font-weight:600;">See it live ↓</a></p>
+  </div>
+</section>
+
 <!-- ============ LIVING HUB ============ -->
-<section class="block" id="hub">
+<section class="block alt" id="hub">
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow">The Deliverable</p>
@@ -696,6 +785,10 @@ section.block.dark .lead{color:#c3cfe2;}
             <button class="fbtn" data-f="closed">Verified Closed</button>
           </div>
           <div id="findings">
+            <div class="finding open" data-s="open">
+              <div class="fr"><b>Wet-well monitors past calibration — no bump-test log</b><span class="status open">Open</span></div>
+              <div class="meta">HQ &amp; Water Facilities · Owner: Ops Lead · Due 14 days · Risk: High · From the walkthrough above ↑</div>
+            </div>
             <div class="finding open" data-s="open">
               <div class="fr"><b>Confined space permits missing rescue plan detail</b><span class="status open">Open</span></div>
               <div class="meta">Fabrication shop · Owner: Site Mgr · Due 30 days · Risk: High</div>
@@ -725,7 +818,7 @@ section.block.dark .lead{color:#c3cfe2;}
             <div class="metrics">
               <div class="metric"><div class="ml"><b>Safety Programs</b><span>74%</span></div><div class="bar"><i style="width:74%"></i></div></div>
               <div class="metric"><div class="ml"><b>Training Current</b><span>61%</span></div><div class="bar gold"><i style="width:61%"></i></div></div>
-              <div class="metric"><div class="ml"><b>Actions Closed</b><span>2 / 5</span></div><div class="bar green"><i style="width:40%"></i></div></div>
+              <div class="metric"><div class="ml"><b>Actions Closed</b><span>2 / 6</span></div><div class="bar green"><i style="width:33%"></i></div></div>
             </div>
           </div>
           <h4>Recognition Board</h4>
