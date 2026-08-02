@@ -1,6 +1,14 @@
 {
   "weeks": [
     {
+      "week": 8,
+      "owl": "Caleb Smith",
+      "theme": "Operational Discipline",
+      "psms": "Operational Discipline",
+      "dateRange": "Aug 3&ndash;Aug 7, 2026",
+      "meetings": []
+    },
+    {
       "week": 7,
       "owl": "Jimmy White",
       "theme": "Hot Work",
