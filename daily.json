@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-02",
-  "week": 7,
-  "day": 5,
-  "openingMessage": "Can you imagine yourself in ten years if, instead of avoiding the things you know you should do, you actually did them every single day?",
-  "openingAttribution": "Jordan Peterson",
-  "openingWhy": "Ten years of honest LMRAs is a few thousand reps — that hand doesn't get lucky, he gets accurate. The operator you'll be in ten years is being poured out of nothing but todays. Pour today's checks like foundation, because that's what they are.",
+  "date": "2026-08-03",
+  "week": 8,
+  "day": 1,
+  "openingMessage": "Perfection is not attainable, but if we chase perfection we can catch excellence.",
+  "openingAttribution": "Vince Lombardi",
+  "openingWhy": "We'll never run a flawless location. But chasing it is how our checks caught an empty SABA and an out-of-hydro bottle this week — before anybody's lungs needed them. Chasing perfect means the flaw gets found in the inspection instead of the emergency.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -215,40 +215,40 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Do not allow pressure to override PSMS standards. The company man saying 'we do this all the time' is not authorization. You are responsible for the call you make.",
+  "leadershipThought": "Character is built when nobody is watching. Small deviations don't stay small. Correct them now, when the cost is low.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Crew followed the JSA, communicated effectively, maintained continuous gas</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Hot Work)</span><br><span style='font-size:13px;'>Crew followed the JSA, communicated effectively, maintained continuous gas monitoring,</span><br><br><strong>Communication between forklift operator and spotter was on point</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Communication between forklift operator and spotter was on point</span><br><br><strong>Parts reinstalled at a good rate of time with action discussed before hand</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Parts reinstalled at a good rate of time with action discussed before hand</span><br><br><strong>We inspected their tools and determined they were not correct, shut job dow</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>We inspected their tools and determined they were not correct, shut job down before</span><br><br><strong>Crew did an awesome job on following Exxon's safety protocols</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew did an awesome job on following Exxon's safety protocols</span>",
+  "exxonMoments": "<strong>During the bleed-down of the well, MT exercised its stop work authority due</strong> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>During the bleed-down of the well, MT exercised its stop work authority due to a change in</span><br><br><strong>Stop Work Authority Exercised — Unsafe Man Basket Operations</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>Man basket work is one of the highest-risk lift operations on an oil and gas site — Stop Work Authority before elevation is always the right call when anything about the setup looks wrong.</span><br><br><strong>Positive Observation — LOTO Disconnect Completed Efficiently</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>LOTO, atmospheric testing, and hold points together form a complete energy control system — don't shortcut any one of them, even on a quick job.</span><br><br><strong>Stop Work by Equipment Operator — Spotter Lost Visual</strong> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Equipment operators own Stop Work Authority too — stop the moment you lose your spotter; regaining visual contact is the only acceptable restart condition.</span><br><br><strong>Crane Work — Horse Head Installation and Flowline Connection</strong> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Crane work demands real-time stop work authority — if anything changes during the lift, the person on the ground is empowered to call the stop immediately.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Cindy Smith — Crew workedl efficiently and there were no issues",
-      "detail": "Crew workedl efficiently and there were no issues",
+      "headline": "Stefanie Kirschke — Equipment remained operational throughout the shift, and the location was m",
+      "detail": "Equipment remained operational throughout the shift, and the location was monitored",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Rolando Flores — Everyone communicated had a brief meeting about LMRAs",
-      "detail": "Everyone communicated had a brief meeting about LMRAs",
+      "headline": "Edward Carrillo — All tasks performed without incident or delay",
+      "detail": "Did we leave the location better Yes.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "William Jimmy Cooper — Job completed without incidents",
-      "detail": "Job completed without incidents",
+      "headline": "Raymundo Solis — Crew did an awesome job on following Exxon's safety protocols",
+      "detail": "Crew did an awesome job on following Exxon's safety protocols",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez — Job was followed to scope",
-      "detail": "Job was followed to scope",
+      "headline": "Larry Jaramillo — Communication on every step of the job was good",
+      "detail": "Communication on every step of the job was good",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Gael Antonio Avila — Everything went good and safe",
-      "detail": "Everything went good and safe",
+      "headline": "Ralph Forbes — Smoothly completed task with the help of a good safety meeting",
+      "detail": "Smoothly completed task with the help of a good safety meeting",
       "psms": "Operational Discipline"
     },
     {
@@ -264,8 +264,8 @@
       "psms": "Driving · Wk 6"
     }
   ],
-  "todaysChallenge": "Busy isn't the same as safe. Before you leave a location today, ask: did I verify, or did I just move fast? Name one thing you verified out loud.",
-  "todaysChallengeSubtext": "“Never mistake activity for achievement.” — John Wooden",
+  "todaysChallenge": "No shortcuts on the pre-job today. The meeting, the walk-down, the gas test — the work comes first, every time, and that's why we go home.",
+  "todaysChallengeSubtext": "“The only place success comes before work is in the dictionary.” — Vince Lombardi",
   "compliance": {
     "weekOf": "Week of July 27, 2026",
     "metrics": [

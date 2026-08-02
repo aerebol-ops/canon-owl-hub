@@ -3,10 +3,21 @@
     {
       "week": 8,
       "owl": "Caleb Smith",
-      "theme": "Operational Discipline",
-      "psms": "Operational Discipline",
+      "theme": "Building Culture",
+      "psms": "Bypassing Safety Controls",
       "dateRange": "Aug 3&ndash;Aug 7, 2026",
-      "meetings": []
+      "meetings": [
+        {
+          "date": "Mon, Aug 3",
+          "day": "Week 8 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Character is built when nobody is watching. Small deviations don't stay small. Correct them now, when the cost is low.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Stefanie Kirschke</strong> — Equipment remained operational throughout the shift, and the location was monitored</li><li style='margin:3px 0;'><strong>Edward Carrillo</strong> — Did we leave the location better Yes.</li><li style='margin:3px 0;'><strong>Raymundo Solis</strong> — Crew did an awesome job on following Exxon's safety protocols</li><li style='margin:3px 0;'><strong>Larry Jaramillo</strong> — Communication on every step of the job was good</li><li style='margin:3px 0;'><strong>Ralph Forbes</strong> — Smoothly completed task with the help of a good safety meeting</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "SM Energy #112 — 6,000 ppm H2S / 2% CO2 (carry-forward from 7/10)",
+            "Two driving near-misses flagged Friday — stay heads-up on the road"
+          ],
+          "recognition": "Stefanie Kirschke — Equipment remained operational throughout the shift, and the location was m"
+        }
+      ]
     },
     {
       "week": 7,
