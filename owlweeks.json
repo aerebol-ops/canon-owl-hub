@@ -46,6 +46,16 @@
             "Two driving near-misses flagged Friday — stay heads-up on the road"
           ],
           "recognition": "Brianda Sandoval — Two crews worked together as a team, no gas was present after we let it air"
+        },
+        {
+          "date": "Fri, Jul 31",
+          "day": "Friday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Do not allow pressure to override PSMS standards. The company man saying 'we do this all the time' is not authorization. You are responsible for the call you make.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Cindy Smith</strong> — Crew workedl efficiently and there were no issues</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> — Everyone communicated had a brief meeting about LMRAs</li><li style='margin:3px 0;'><strong>William Jimmy Cooper</strong> — Job completed without incidents</li><li style='margin:3px 0;'><strong>Jacob Hernandez</strong> — Job was followed to scope</li><li style='margin:3px 0;'><strong>Gael Antonio Avila</strong> — Everything went good and safe</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "SM Energy #112 — 6,000 ppm H2S / 2% CO2 (carry-forward from 7/10)",
+            "Two driving near-misses flagged Friday — stay heads-up on the road"
+          ],
+          "recognition": "Cindy Smith — Crew workedl efficiently and there were no issues"
         }
       ]
     }

@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-08-02",
   "week": 7,
-  "day": 4,
-  "openingMessage": "You're going to pay a price for everything you do and everything you don't do.",
+  "day": 5,
+  "openingMessage": "Can you imagine yourself in ten years if, instead of avoiding the things you know you should do, you actually did them every single day?",
   "openingAttribution": "Jordan Peterson",
-  "openingWhy": "The bleed-down check costs ten minutes. Skipping it costs whatever the well decides to charge — and the field sets brutal prices. In Odessa it was two lives for one monitor left in the truck. There's no free option. Just the small bill now, or the one nobody can pay.",
+  "openingWhy": "Ten years of honest LMRAs is a few thousand reps — that hand doesn't get lucky, he gets accurate. The operator you'll be in ten years is being poured out of nothing but todays. Pour today's checks like foundation, because that's what they are.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -215,7 +215,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Do you continue the task or stop? What readings are acceptable versus stop work? Who is responsible for calling it? Know those answers before you crack the hatch.",
+  "leadershipThought": "Do not allow pressure to override PSMS standards. The company man saying 'we do this all the time' is not authorization. You are responsible for the call you make.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -223,32 +223,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Brianda Sandoval — Two crews worked together as a team, no gas was present after we let it air",
-      "detail": "Two crews worked together as a team, no gas was present after we let it air out.",
+      "headline": "Cindy Smith — Crew workedl efficiently and there were no issues",
+      "detail": "Crew workedl efficiently and there were no issues",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Alexander Clubb — Containment was broken the correct way with air on, AGT was done by us unde",
-      "detail": "Containment was broken the correct way with air on, AGT was done by us under air.",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Raymundo Solis — Communication between forklift operator and spotter was on point",
-      "detail": "Communication between forklift operator and spotter was on point",
-      "psms": "Mobile Equipment"
-    },
-    {
-      "type": "good",
-      "headline": "Ralph Forbes — Parts reinstalled at a good rate of time with action discussed before hand",
-      "detail": "Parts reinstalled at a good rate of time with action discussed before hand",
+      "headline": "Rolando Flores — Everyone communicated had a brief meeting about LMRAs",
+      "detail": "Everyone communicated had a brief meeting about LMRAs",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — The job was completed according to scope with no incidents, while working c",
-      "detail": "The job was completed according to scope with no incidents, while working cohesively as",
+      "headline": "William Jimmy Cooper — Job completed without incidents",
+      "detail": "Job completed without incidents",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez — Job was followed to scope",
+      "detail": "Job was followed to scope",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Gael Antonio Avila — Everything went good and safe",
+      "detail": "Everything went good and safe",
       "psms": "Operational Discipline"
     },
     {
@@ -264,27 +264,27 @@
       "psms": "Driving · Wk 6"
     }
   ],
-  "todaysChallenge": "Pick one thing today you'd only do if someone was checking — the monitor calibration, the trailer form, the tube count — and do it like the client was standing there. Nobody watching is the test.",
-  "todaysChallengeSubtext": "“The true test of a man's character is what he does when no one is watching.” — John Wooden",
+  "todaysChallenge": "Busy isn't the same as safe. Before you leave a location today, ask: did I verify, or did I just move fast? Name one thing you verified out loud.",
+  "todaysChallengeSubtext": "“Never mistake activity for achievement.” — John Wooden",
   "compliance": {
     "weekOf": "Week of July 27, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 121,
-        "total": 147
+        "done": 162,
+        "total": 198
       },
       {
         "label": "Trailer Inspections",
-        "done": 21,
-        "total": 28
+        "done": 28,
+        "total": 37
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 18,
-        "total": 26
+        "done": 23,
+        "total": 33
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 07/29"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 07/30"
   }
 }
