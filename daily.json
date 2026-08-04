@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "week": 8,
-  "day": 1,
-  "openingMessage": "Perfection is not attainable, but if we chase perfection we can catch excellence.",
+  "day": 2,
+  "openingMessage": "The price of success is hard work, dedication to the job at hand, and the determination that whether we win or lose, we have applied the best of ourselves to the task.",
   "openingAttribution": "Vince Lombardi",
-  "openingWhy": "We'll never run a flawless location. But chasing it is how our checks caught an empty SABA and an out-of-hydro bottle this week — before anybody's lungs needed them. Chasing perfect means the flaw gets found in the inspection instead of the emergency.",
+  "openingWhy": "Some days the well wins anyway — weather, downhole, plain luck. What can't ever happen is the well winning because we showed up loose. Rained out and rescheduled with the standard intact is a good day. Finished early with steps skipped is a loss, whatever the ticket says.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -215,7 +215,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Character is built when nobody is watching. Small deviations don't stay small. Correct them now, when the cost is low.",
+  "leadershipThought": "Recognition is culture in action. When you name what someone did right, you tell the whole crew what right looks like. Kudos to the ones doing it right every day.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -223,32 +223,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Job was done safely and good timing",
-      "detail": "Job was done safely and good timing",
+      "headline": "Edward Carrillo — Exclusion zones were erected and in place",
+      "detail": "Did we leave the location better Yes.",
+      "psms": "Mobile Equipment"
+    },
+    {
+      "type": "good",
+      "headline": "William Jimmy Cooper — Everyone worked well together",
+      "detail": "Everyone worked well together",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Rolando Flores — Crew communicated the LMRAs",
-      "detail": "Crew communicated the LMRAs",
+      "headline": "Ralph Forbes — Was prepared to deal with high pressure",
+      "detail": "Was prepared to deal with high pressure",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "William Jimmy Cooper — Crew worked together good communication",
-      "detail": "Crew worked together good communication",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Edward Carrillo — All parties involved in talks were very patient and thorough",
+      "headline": "Cindy Smith — No gas detected, job was completed with no issues",
       "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo — Crew members were patient and did not rush",
-      "detail": "Crew members were patient and did not rush",
+      "headline": "Rolando Flores — Everyone had a safety meeting before starting the job going over LMRAs",
+      "detail": "Everyone had a safety meeting before starting the job going over LMRAs",
       "psms": "Operational Discipline"
     },
     {
@@ -264,28 +264,28 @@
       "psms": "Driving · Wk 6"
     }
   ],
-  "todaysChallenge": "No shortcuts on the pre-job today. The meeting, the walk-down, the gas test — the work comes first, every time, and that's why we go home.",
-  "todaysChallengeSubtext": "“The only place success comes before work is in the dictionary.” — Vince Lombardi",
+  "todaysChallenge": "Whatever crew, whatever equipment, whatever location you drew today — run it at the Canon standard. The measure isn't the hand you're dealt, it's how you play it.",
+  "todaysChallengeSubtext": "“The measure of who we are is what we do with what we have.” — Vince Lombardi",
   "compliance": {
-    "weekOf": "Week of July 27, 2026",
+    "weekOf": "Week of August 3, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 162,
-        "total": 198
-      },
-      {
-        "label": "Trailer Inspections",
-        "done": 28,
+        "done": 34,
         "total": 37
       },
       {
+        "label": "Trailer Inspections",
+        "done": 4,
+        "total": 7
+      },
+      {
         "label": "Trailer Readiness Forms",
-        "done": 23,
-        "total": 33
+        "done": 4,
+        "total": 8
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 07/30"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 08/03"
   },
   "specialFocus": {
     "title": "Confined Space — Activate the Permit. Log the Air.",
