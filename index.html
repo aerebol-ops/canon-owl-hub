@@ -3249,11 +3249,37 @@ async function renderTemplate() {
     }
   ];
 
+  // SPECIAL FOCUS — standing high-visibility block above the numbered sections.
+  // Driven by daily.specialFocus (carried forward by every sweep until removed).
+  const sfHtml = (daily && daily.specialFocus) ? (() => {
+    const sf = daily.specialFocus;
+    return `
+    <div style="border:2px solid #b00020; border-radius:10px; margin-bottom:18px; overflow:hidden;">
+      <div style="background:#b00020;color:#fff;padding:10px 14px;font-weight:800;font-size:13px;letter-spacing:.06em;text-transform:uppercase;">&#9888;&#65039; Special Focus &mdash; ${sf.title}</div>
+      <div style="padding:14px;">
+        ${sf.why ? `<div class="runsheet-content" style="margin-bottom:12px;">${sf.why}</div>` : ''}
+        <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#b00020;margin-bottom:6px;">The Standard — No Exceptions</div>
+        ${(sf.standard || []).map((s, i) => `
+          <div style="display:flex;align-items:flex-start;gap:10px;padding:6px 0;border-bottom:1px solid #f0f0f0;">
+            <span style="min-width:22px;height:22px;border-radius:50%;background:#b00020;color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;">${i + 1}</span>
+            <span style="font-size:14px;line-height:1.4;">${s}</span>
+          </div>`).join('')}
+        ${sf.scenario ? `
+        <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#b00020;margin:14px 0 6px;">Scenario — Work It With the Crew</div>
+        <div class="runsheet-scenario" style="border-color:#b00020; background:#fff5f5;">${sf.scenario}</div>` : ''}
+        ${(sf.questions || []).map(q => `<div class="runsheet-question">Ask the crew: ${q}</div>`).join('')}
+        ${sf.nonNegotiable ? `<div style="margin-top:12px;padding:11px 13px;background:#b00020;color:#fff;border-radius:6px;font-weight:700;font-size:14px;line-height:1.5;">${sf.nonNegotiable}</div>` : ''}
+      </div>
+    </div>`;
+  })() : '';
+
   const html = `
     <div class="runsheet-header">
       <h2>Canon Safety — Morning Meeting</h2>
       <p>${today} &nbsp;·&nbsp; 5:30 AM &nbsp;·&nbsp; Week ${w.week}: ${w.theme}</p>
     </div>
+
+    ${sfHtml}
 
     ${sections.map(s => `
       <div class="runsheet-section">
@@ -3517,6 +3543,19 @@ function shareMeetingSummary() {
   <h1>Canon Safety — Morning Meeting</h1>
   <p>${dateStr} &nbsp;·&nbsp; 5:30 AM &nbsp;·&nbsp; Week ${w.week}: ${w.theme}</p>
 </div>
+
+${d && d.specialFocus ? (() => { const sf = d.specialFocus; return `
+<div class="section" style="border:2px solid #b00020; border-radius:8px; overflow:hidden;">
+  <div style="background:#b00020;color:#fff;padding:8px 12px;font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;">&#9888;&#65039; Special Focus &mdash; ${sf.title}</div>
+  <div style="padding:12px;">
+    ${sf.why ? `<div style="line-height:1.6;margin-bottom:10px;">${sf.why}</div>` : ''}
+    <p class="label" style="color:#b00020;">The Standard — No Exceptions</p>
+    <ol style="margin:0 0 0 18px;">${(sf.standard || []).map(s => `<li style="margin-left:0;">${s}</li>`).join('')}</ol>
+    ${sf.scenario ? `<p class="label" style="margin-top:10px;color:#b00020;">Scenario — Work It With the Crew</p><div class="box flag" style="border-color:#b00020;">${sf.scenario}</div>` : ''}
+    ${(sf.questions || []).map(q => `<div class="sub-note"><strong>Ask the crew:</strong> ${q}</div>`).join('')}
+    ${sf.nonNegotiable ? `<div style="margin-top:10px;padding:9px 11px;background:#b00020;color:#fff;border-radius:5px;font-weight:700;">${sf.nonNegotiable}</div>` : ''}
+  </div>
+</div>`; })() : ''}
 
 <div class="section">
   <div class="sec-header">
