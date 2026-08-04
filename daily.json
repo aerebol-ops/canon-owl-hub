@@ -8,71 +8,79 @@
   "formCounts": [
     {
       "name": "Raymundo Solis",
-      "count": 60
+      "count": 61
     },
     {
       "name": "Nathan Contreras",
-      "count": 47
+      "count": 48
     },
     {
       "name": "David Hammond",
       "count": 42
     },
     {
-      "name": "Justin Fontenot",
-      "count": 38
+      "name": "Jordan Lemmons",
+      "count": 42
     },
     {
-      "name": "Jordan Lemmons",
-      "count": 36
+      "name": "Justin Fontenot",
+      "count": 42
     },
     {
       "name": "Ralph Forbes",
-      "count": 36
-    },
-    {
-      "name": "Larry Jaramillo",
-      "count": 33
-    },
-    {
-      "name": "Cindy Smith",
-      "count": 32
-    },
-    {
-      "name": "Jacob Hernandez",
-      "count": 32
-    },
-    {
-      "name": "Marylou Guerra",
-      "count": 32
+      "count": 40
     },
     {
       "name": "Rolando Flores",
-      "count": 32
+      "count": 39
+    },
+    {
+      "name": "Larry Jaramillo",
+      "count": 38
+    },
+    {
+      "name": "Cindy Smith",
+      "count": 37
+    },
+    {
+      "name": "Jacob Hernandez",
+      "count": 36
     },
     {
       "name": "Stefanie Kirschke",
-      "count": 32
+      "count": 35
+    },
+    {
+      "name": "Marylou Guerra",
+      "count": 34
     },
     {
       "name": "Jaques Faulk",
-      "count": 25
+      "count": 27
     },
     {
       "name": "Jimmy White",
+      "count": 26
+    },
+    {
+      "name": "Caleb Smith",
       "count": 25
     },
     {
+      "name": "Andrew Bailey",
+      "count": 24
+    },
+    {
       "name": "Baldemar Bracamontes",
+      "count": 24
+    },
+    {
+      "name": "Dawson Drake",
       "count": 23
     },
     {
       "name": "Joseph Popillion",
       "count": 23
-    },
-    {
-      "name": "Caleb Smith",
-      "count": 22
     },
     {
       "name": "Gage Gonzales",
@@ -83,10 +91,6 @@
       "count": 22
     },
     {
-      "name": "Andrew Bailey",
-      "count": 21
-    },
-    {
       "name": "David Jose Zamora",
       "count": 20
     },
@@ -95,27 +99,31 @@
       "count": 19
     },
     {
-      "name": "Dawson Drake",
+      "name": "Dermont Morgan",
       "count": 19
     },
     {
-      "name": "Dermont Morgan",
-      "count": 19
+      "name": "Edward Carrillo",
+      "count": 18
+    },
+    {
+      "name": "Jeremy Norris",
+      "count": 18
     },
     {
       "name": "Gary Briones",
       "count": 17
     },
     {
-      "name": "Jeremy Norris",
-      "count": 17
-    },
-    {
       "name": "Alfredo Vaquera",
-      "count": 15
+      "count": 16
     },
     {
-      "name": "Edward Carrillo",
+      "name": "Christian Lee",
+      "count": 16
+    },
+    {
+      "name": "Gael Antonio Avila",
       "count": 15
     },
     {
@@ -127,19 +135,19 @@
       "count": 14
     },
     {
-      "name": "Gael Antonio Avila",
+      "name": "Luis Zarate",
       "count": 14
     },
     {
-      "name": "Luis Zarate",
-      "count": 14
+      "name": "Bobby Galindo",
+      "count": 13
     },
     {
       "name": "James Stephens",
       "count": 13
     },
     {
-      "name": "Christian Lee",
+      "name": "Kyle Williams",
       "count": 12
     },
     {
@@ -147,16 +155,16 @@
       "count": 11
     },
     {
-      "name": "Kyle Williams",
+      "name": "William Jimmy Cooper",
       "count": 11
+    },
+    {
+      "name": "Michael Jobe",
+      "count": 10
     },
     {
       "name": "Marcos Morales",
       "count": 9
-    },
-    {
-      "name": "Bobby Galindo",
-      "count": 8
     },
     {
       "name": "Daniel Medrano",
@@ -175,15 +183,7 @@
       "count": 7
     },
     {
-      "name": "William Jimmy Cooper",
-      "count": 7
-    },
-    {
       "name": "Alexander Clubb",
-      "count": 6
-    },
-    {
-      "name": "Michael Jobe",
       "count": 6
     },
     {
@@ -223,32 +223,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Equipment remained operational throughout the shift, and the location was m",
-      "detail": "Equipment remained operational throughout the shift, and the location was monitored",
+      "headline": "Jimmy White — Flowline successfully installed with little mistakes",
+      "detail": "Flowline successfully installed with little mistakes",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Edward Carrillo — All tasks performed without incident or delay",
-      "detail": "Did we leave the location better Yes.",
+      "headline": "Caleb Smith — Roustabout crew did a amazing job working with their new hire",
+      "detail": "Roustabout crew did a amazing job working with their new hire",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis — Crew did an awesome job on following Exxon's safety protocols",
-      "detail": "Crew did an awesome job on following Exxon's safety protocols",
+      "headline": "Justin Fontenot — Job went just as discussed in safety meeting",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo — Communication on every step of the job was good",
-      "detail": "Communication on every step of the job was good",
-      "psms": "Operational Discipline"
+      "headline": "Dawson Drake — Jaquces lead our meeting with great expectations and up held our standard",
+      "detail": "Jaquces lead our meeting with great expectations and up held our standard",
+      "psms": "Energy Isolation"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Smoothly completed task with the help of a good safety meeting",
-      "detail": "Smoothly completed task with the help of a good safety meeting",
+      "headline": "Jeremy Norris — Everyone worked together safely through ewch step of the process until it w",
+      "detail": "Everyone worked together safely through ewch step of the process until it was completed",
       "psms": "Operational Discipline"
     },
     {
