@@ -1,90 +1,90 @@
 {
   "source": "O.W.L Observe / Win / Learn forms \u2014 every submission to date",
-  "generated": "2026-08-02",
-  "pdfsScanned": 942,
-  "totalSubmitted": 934,
-  "blankForms": 376,
-  "totalForms": 558,
+  "generated": "2026-08-03",
+  "pdfsScanned": 1022,
+  "totalSubmitted": 1014,
+  "blankForms": 407,
+  "totalForms": 607,
   "techs": 48,
-  "locations": 404,
+  "locations": 435,
   "firstDate": "06/15/2026",
-  "lastDate": "07/29/2026",
-  "leftBetterYes": 345,
-  "leftBetterTotal": 345,
+  "lastDate": "08/02/2026",
+  "leftBetterYes": 375,
+  "leftBetterTotal": 375,
   "observe": [
     {
       "label": "Job scope completed safely and as planned",
-      "n": 479
+      "n": 520
     },
     {
       "label": "Atmospheric hazards tested prior to first break",
-      "n": 405
+      "n": 439
     },
     {
       "label": "Evaluation and discussion of life saving rules",
-      "n": 402
+      "n": 435
     },
     {
       "label": "Safety control measures were utilized(ex. Hot work/LOTO/Confined Space)",
-      "n": 400
+      "n": 429
     },
     {
       "label": "Discussed and outlined exclusion zones",
-      "n": 368
+      "n": 399
     },
     {
       "label": "Repiratory protection utilized",
-      "n": 296
+      "n": 316
     },
     {
       "label": "Hold points utilized",
-      "n": 259
+      "n": 282
     },
     {
       "label": "Communicated issues with PIC and corrected before work began",
-      "n": 234
+      "n": 263
     },
     {
       "label": "Unsafe conditions",
-      "n": 88
+      "n": 94
     },
     {
       "label": "Stop work authority utilized",
-      "n": 77
+      "n": 87
     }
   ],
   "win": [
     {
       "label": "Strong communication between Canon technician and crews",
-      "n": 465
+      "n": 505
     },
     {
       "label": "Strong communication between Canon technician and PIC",
-      "n": 457
+      "n": 495
     },
     {
       "label": "All personnel on location work together effectively to mitigate any hazards",
-      "n": 435
+      "n": 469
     },
     {
       "label": "Life saving rules understood and discussed with all personnel on site",
-      "n": 423
+      "n": 455
     },
     {
       "label": "Crew verified conditions in the field instead of relying on paperwork",
-      "n": 395
+      "n": 427
     },
     {
       "label": "Standard rig up completed correctly with no rework required",
-      "n": 329
+      "n": 357
     },
     {
       "label": "Last Minute Risk Assessment utilized",
-      "n": 328
+      "n": 357
     }
   ],
   "improvePct": 37,
-  "improveCount": 204,
+  "improveCount": 222,
   "improveQuotes": [
     {
       "who": "Larry Jaramillo",
