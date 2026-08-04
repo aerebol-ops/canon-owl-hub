@@ -2,22 +2,6 @@
   "date": "2026-08-03",
   "week": 8,
   "day": 1,
-  "specialFocus": {
-    "title": "Confined Space — Activate the Permit. Log the Air.",
-    "why": "This section exists because of a real accusation against our group: a claim that a permit wasn't activated before a job — on work our crew did right, with every piece of paperwork filled out. The documentation is what won that argument. That is the lesson, and it only has to be learned once: <strong>doing it right is not enough on its own — the record has to prove it, to the minute.</strong> From today forward this is how Canon runs every confined space job. We have confined space work on the board — this applies before anyone breaks the plane.",
-    "standard": [
-      "No entry — ever — without a pre-entry permit that is <strong>ACTIVATED</strong> before anyone breaks the plane. Filled out is not activated. A permit is live when it is authorized, signed, and time-stamped, before the job starts.",
-      "Atmospheric testing goes in the log, in writing: initial readings with the time and the tester's name <strong>before</strong> entry, then continuous or periodic readings recorded through the job. Every reading gets a timestamp.",
-      "The permit and the air log ride together and get retained after the job. If it isn't written down with a time on it, you cannot prove it happened — and someday you may have to."
-    ],
-    "scenario": "A crew runs a textbook entry: JSA done, permit filled out, gas tests taken, job goes clean. Days later an accusation lands — 'the permit was never activated before the job.' Memory won't settle it. Word against word won't settle it. The only thing that settles it is the paper: an authorization signature with a time on it, and an atmospheric log whose first readings are stamped BEFORE the entry time. If your permit shows activation at 08:42 and your first readings at 08:35, the accusation dies in thirty seconds. If your paperwork is perfect except that one line — you did the job right and you still can't prove it.",
-    "questions": [
-      "On your last confined space entry — could your paperwork prove, to the minute, that the permit was activated and the air was tested before anyone went in? Who signed it, and when?",
-      "What is the difference between a permit that is filled out and a permit that is activated? Who makes ours live, and what exactly makes it live?",
-      "If someone accuses this crew tomorrow of skipping a step you actually did — which document saves you, and is it filled out that way today?"
-    ],
-    "nonNegotiable": "There is no version of this job where we enter first and paper up after. Permit activated. Air tested and logged. Then entry. Every time. This is not optional."
-  },
   "openingMessage": "Perfection is not attainable, but if we chase perfection we can catch excellence.",
   "openingAttribution": "Vince Lombardi",
   "openingWhy": "We'll never run a flawless location. But chasing it is how our checks caught an empty SABA and an out-of-hydro bottle this week — before anybody's lungs needed them. Chasing perfect means the flaw gets found in the inspection instead of the emergency.",
@@ -239,33 +223,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "William Jimmy Cooper — Job was performed without incident",
-      "detail": "Job was performed without incident",
+      "headline": "Raymundo Solis — Job was done safely and good timing",
+      "detail": "Job was done safely and good timing",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez — Great communication at trigger point",
-      "detail": "Great communication at trigger point",
+      "headline": "Rolando Flores — Crew communicated the LMRAs",
+      "detail": "Crew communicated the LMRAs",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Rolando Flores — Everyone communicated the LMRAS",
-      "detail": "Everyone communicated the LMRAS",
+      "headline": "William Jimmy Cooper — Crew worked together good communication",
+      "detail": "Crew worked together good communication",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo — Observed crew member being set aside and the possible hazards were discusse",
-      "detail": "Observed crew member being set aside and the possible hazards were discussed",
+      "headline": "Edward Carrillo — All parties involved in talks were very patient and thorough",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Both crews worked together efficiently to complete the tank and separator c",
-      "detail": "Both crews worked together efficiently to complete the tank and separator cleanout. The",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Larry Jaramillo — Crew members were patient and did not rush",
+      "detail": "Crew members were patient and did not rush",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
@@ -302,5 +286,21 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 07/30"
+  },
+  "specialFocus": {
+    "title": "Confined Space — Activate the Permit. Log the Air.",
+    "why": "This section exists because of a real accusation against our group: a claim that a permit wasn't activated before a job — on work our crew did right, with every piece of paperwork filled out. The documentation is what won that argument. That is the lesson, and it only has to be learned once: <strong>doing it right is not enough on its own — the record has to prove it, to the minute.</strong> From today forward this is how Canon runs every confined space job. We have confined space work on the board — this applies before anyone breaks the plane.",
+    "standard": [
+      "No entry — ever — without a pre-entry permit that is <strong>ACTIVATED</strong> before anyone breaks the plane. Filled out is not activated. A permit is live when it is authorized, signed, and time-stamped, before the job starts.",
+      "Atmospheric testing goes in the log, in writing: initial readings with the time and the tester's name <strong>before</strong> entry, then continuous or periodic readings recorded through the job. Every reading gets a timestamp.",
+      "The permit and the air log ride together and get retained after the job. If it isn't written down with a time on it, you cannot prove it happened — and someday you may have to."
+    ],
+    "scenario": "A crew runs a textbook entry: JSA done, permit filled out, gas tests taken, job goes clean. Days later an accusation lands — 'the permit was never activated before the job.' Memory won't settle it. Word against word won't settle it. The only thing that settles it is the paper: an authorization signature with a time on it, and an atmospheric log whose first readings are stamped BEFORE the entry time. If your permit shows activation at 08:42 and your first readings at 08:35, the accusation dies in thirty seconds. If your paperwork is perfect except that one line — you did the job right and you still can't prove it.",
+    "questions": [
+      "On your last confined space entry — could your paperwork prove, to the minute, that the permit was activated and the air was tested before anyone went in? Who signed it, and when?",
+      "What is the difference between a permit that is filled out and a permit that is activated? Who makes ours live, and what exactly makes it live?",
+      "If someone accuses this crew tomorrow of skipping a step you actually did — which document saves you, and is it filled out that way today?"
+    ],
+    "nonNegotiable": "There is no version of this job where we enter first and paper up after. Permit activated. Air tested and logged. Then entry. Every time. This is not optional."
   }
 }
