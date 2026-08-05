@@ -3258,7 +3258,7 @@ async function renderTemplate() {
       <div style="background:#b00020;color:#fff;padding:10px 14px;font-weight:800;font-size:13px;letter-spacing:.06em;text-transform:uppercase;">&#9888;&#65039; Special Focus &mdash; ${sf.title}</div>
       <div style="padding:14px;">
         ${sf.why ? `<div class="runsheet-content" style="margin-bottom:12px;">${sf.why}</div>` : ''}
-        <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#b00020;margin-bottom:6px;">The Standard — No Exceptions</div>
+        <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#b00020;margin-bottom:6px;">${sf.standardLabel || 'The Standard — No Exceptions'}</div>
         ${(sf.standard || []).map((s, i) => `
           <div style="display:flex;align-items:flex-start;gap:10px;padding:6px 0;border-bottom:1px solid #f0f0f0;">
             <span style="min-width:22px;height:22px;border-radius:50%;background:#b00020;color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;">${i + 1}</span>
@@ -3549,7 +3549,7 @@ ${d && d.specialFocus ? (() => { const sf = d.specialFocus; return `
   <div style="background:#b00020;color:#fff;padding:8px 12px;font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;">&#9888;&#65039; Special Focus &mdash; ${sf.title}</div>
   <div style="padding:12px;">
     ${sf.why ? `<div style="line-height:1.6;margin-bottom:10px;">${sf.why}</div>` : ''}
-    <p class="label" style="color:#b00020;">The Standard — No Exceptions</p>
+    <p class="label" style="color:#b00020;">${sf.standardLabel || 'The Standard — No Exceptions'}</p>
     <ol style="margin:0 0 0 18px;">${(sf.standard || []).map(s => `<li style="margin-left:0;">${s}</li>`).join('')}</ol>
     ${sf.scenario ? `<p class="label" style="margin-top:10px;color:#b00020;">Scenario — Work It With the Crew</p><div class="box flag" style="border-color:#b00020;">${sf.scenario}</div>` : ''}
     ${(sf.questions || []).map(q => `<div class="sub-note"><strong>Ask the crew:</strong> ${q}</div>`).join('')}
