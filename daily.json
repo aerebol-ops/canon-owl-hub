@@ -223,40 +223,40 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Crews followed all safety protocols and installed all equipment safely",
-      "detail": "Crews followed all safety protocols and installed all equipment safely",
+      "headline": "Raymundo Solis — Crew took time to check out for any potential hazards",
+      "detail": "Crew took time to check out for any potential hazards",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Cindy Smith — Crew worked well with safety, crane and manllift operators",
-      "detail": "Did we leave the location better.",
-      "psms": "Mobile Equipment"
-    },
-    {
-      "type": "good",
-      "headline": "Jeremy Norris — Everyone completed their jobs in a safe matter according to scope",
+      "headline": "Cindy Smith — Job completed with no issues",
       "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Rolando Flores — Everyone communicated and made sure the job was done safely",
-      "detail": "Everyone communicated and made sure the job was done safely",
+      "headline": "Rolando Flores — Crew communicated masks were worn the whole time while cleaning the tanks",
+      "detail": "Crew communicated masks were worn the whole time while cleaning the tanks",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — All breaks performed and AGT on points to release area for crane to work",
-      "detail": "All breaks performed and AGT on points to release area for crane to work",
-      "psms": "Mobile Equipment"
+      "headline": "Ralph Forbes — Set up for vehicle placement went well with spotters backing them in",
+      "detail": "Set up for vehicle placement went well with spotters backing them in",
+      "psms": "Driving"
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris — All communication between various techs and and MT",
+      "detail": "All communication between various techs and and MT.",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
       "week": 8,
-      "headline": "Observed crew member being set aside and the possible hazards were discusse",
-      "detail": "Observed crew member being set aside and the possible hazards were discussed",
-      "psms": "Operational Discipline"
+      "headline": "Clean board — no open watch items this week",
+      "detail": "Nothing carried in from last week. See a hazard? Flag it on your OWL form and it lands here the same evening.",
+      "psms": "OWL Program"
     }
   ],
   "todaysChallenge": "Whatever crew, whatever equipment, whatever location you drew today — run it at the Canon standard. The measure isn't the hand you're dealt, it's how you play it.",
