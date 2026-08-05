@@ -25,6 +25,15 @@
             "Clean board — no open watch items this week"
           ],
           "recognition": "Raymundo Solis — Crew took time to check out for any potential hazards"
+        },
+        {
+          "date": "Wed, Aug 5",
+          "day": "Wednesday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;The person who does it right every time — even alone, even when it's tedious — is the person who builds the culture. That's not compliance. That's ownership.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Raymundo Solis</strong> — Following the LSRA and LMRA was on point</li><li style='margin:3px 0;'><strong>Cindy Smith</strong> — Did we leave the location better Yes.</li><li style='margin:3px 0;'><strong>Ralph Forbes</strong> — Finished first half of job</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> — Crew communicated LMRAs before going to each task</li><li style='margin:3px 0;'><strong>Stefanie Kirschke</strong> — Crew maintained good communication throughout the job. Equipment checks were</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Clean board — no open watch items this week"
+          ],
+          "recognition": "Raymundo Solis — Following the LSRA and LMRA was on point"
         }
       ]
     },

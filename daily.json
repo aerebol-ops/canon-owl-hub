@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "week": 8,
-  "day": 2,
-  "openingMessage": "The price of success is hard work, dedication to the job at hand, and the determination that whether we win or lose, we have applied the best of ourselves to the task.",
+  "day": 3,
+  "openingMessage": "The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack of will.",
   "openingAttribution": "Vince Lombardi",
-  "openingWhy": "Some days the well wins anyway — weather, downhole, plain luck. What can't ever happen is the well winning because we showed up loose. Rained out and rescheduled with the standard intact is a good day. Finished early with steps skipped is a loss, whatever the ticket says.",
+  "openingWhy": "Every hand on this crew can recite the five-point check in his sleep. Knowledge was never the gap. The gap shows up at hour eleven on job four, when knowing and doing start to separate — and will is the only thing that holds them together.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -215,7 +215,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Recognition is culture in action. When you name what someone did right, you tell the whole crew what right looks like. Kudos to the ones doing it right every day.",
+  "leadershipThought": "The person who does it right every time — even alone, even when it's tedious — is the person who builds the culture. That's not compliance. That's ownership.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -223,32 +223,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Crew took time to check out for any potential hazards",
-      "detail": "Crew took time to check out for any potential hazards",
+      "headline": "Raymundo Solis — Following the LSRA and LMRA was on point",
+      "detail": "Following the LSRA and LMRA was on point",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Cindy Smith — Job completed with no issues",
-      "detail": "Did we leave the location better.",
+      "headline": "Cindy Smith — Crew was prepared and worked safely",
+      "detail": "Did we leave the location better Yes.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Rolando Flores — Crew communicated masks were worn the whole time while cleaning the tanks",
-      "detail": "Crew communicated masks were worn the whole time while cleaning the tanks",
+      "headline": "Ralph Forbes — Finished first half of job",
+      "detail": "Finished first half of job",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Set up for vehicle placement went well with spotters backing them in",
-      "detail": "Set up for vehicle placement went well with spotters backing them in",
-      "psms": "Driving"
+      "headline": "Rolando Flores — Crew communicated LMRAs before going to each task",
+      "detail": "Crew communicated LMRAs before going to each task",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — All communication between various techs and and MT",
-      "detail": "All communication between various techs and and MT.",
+      "headline": "Stefanie Kirschke — Crew maintained good communication throughout the job",
+      "detail": "Crew maintained good communication throughout the job. Equipment checks were",
       "psms": "Operational Discipline"
     },
     {
@@ -259,8 +259,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Whatever crew, whatever equipment, whatever location you drew today — run it at the Canon standard. The measure isn't the hand you're dealt, it's how you play it.",
-  "todaysChallengeSubtext": "“The measure of who we are is what we do with what we have.” — Vince Lombardi",
+  "todaysChallenge": "Claim one thing on your location today out loud: 'the monitors are mine,' 'the trailer is mine,' 'the paperwork is mine.' Then make it bulletproof.",
+  "todaysChallengeSubtext": "“Responsibility equals accountability equals ownership.” — Pat Summitt",
   "compliance": {
     "weekOf": "Week of August 3, 2026",
     "metrics": [
