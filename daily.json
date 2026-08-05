@@ -223,32 +223,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Following the LSRA and LMRA was on point",
-      "detail": "Following the LSRA and LMRA was on point",
+      "headline": "Brianda Sandoval — Everything was set to the required Canon/Exxon standards",
+      "detail": "Everything was set to the required Canon/Exxon standards",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Cindy Smith — Crew was prepared and worked safely",
-      "detail": "Did we leave the location better Yes.",
+      "headline": "Jacob Hernandez — Communicated and developed action plan on leaking valve",
+      "detail": "Communicated and developed action plan on leaking valve",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Finished first half of job",
-      "detail": "Finished first half of job",
+      "headline": "Larry Jaramillo — Communication was key, everyone either understood or spoke English",
+      "detail": "Communication was key, everyone either understood or spoke English",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Rolando Flores — Crew communicated LMRAs before going to each task",
-      "detail": "Crew communicated LMRAs before going to each task",
-      "psms": "Operational Discipline"
+      "headline": "Edward Carrillo — Crew followed SOP's. Verified LOTO, and continued good communications through ta",
+      "detail": "OWL form — Energy Isolation",
+      "psms": "Energy Isolation"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Crew maintained good communication throughout the job",
-      "detail": "Crew maintained good communication throughout the job. Equipment checks were",
+      "headline": "Raymundo Solis — Job scope went as planned",
+      "detail": "Job scope went as planned",
       "psms": "Operational Discipline"
     },
     {
@@ -271,8 +271,8 @@
       },
       {
         "label": "Trailer Inspections",
-        "done": 4,
-        "total": 7
+        "done": 5,
+        "total": 8
       },
       {
         "label": "Trailer Readiness Forms",
@@ -280,7 +280,7 @@
         "total": 8
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 08/03"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 08/04"
   },
   "specialFocus": {
     "title": "Who Are We? — The Promise We Make Each Other",
