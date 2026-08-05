@@ -223,45 +223,40 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Crane crew and roustabout crew used proper PPE for the task being performed",
-      "detail": "Crane crew and roustabout crew used proper PPE for the task being performed and",
+      "headline": "Raymundo Solis — Crews followed all safety protocols and installed all equipment safely",
+      "detail": "Crews followed all safety protocols and installed all equipment safely",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Cindy Smith — Crew worked well with safety, crane and manllift operators",
+      "detail": "Did we leave the location better.",
       "psms": "Mobile Equipment"
     },
     {
       "type": "good",
-      "headline": "Cindy Smith — All team members worked together to complete the disconnect quickly and saf",
+      "headline": "Jeremy Norris — Everyone completed their jobs in a safe matter according to scope",
       "detail": "Did we leave the location better.",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Rolando Flores — Crew communicated about LMRAs",
-      "detail": "Crew communicated about LMRAs",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Killed well to replace parts on well head",
-      "detail": "Killed well to replace parts on well head. Had suction on well head and found it had a",
+      "headline": "Rolando Flores — Everyone communicated and made sure the job was done safely",
+      "detail": "Everyone communicated and made sure the job was done safely",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo — Hazards were discussed and each step in the breakdown process was discussed",
-      "detail": "Hazards were discussed and each step in the breakdown process was discussed prior to",
-      "psms": "Operational Discipline"
+      "headline": "Ralph Forbes — All breaks performed and AGT on points to release area for crane to work",
+      "detail": "All breaks performed and AGT on points to release area for crane to work",
+      "psms": "Mobile Equipment"
     },
     {
       "type": "flag",
-      "headline": "SM Energy #112 — 6,000 ppm H2S / 2% CO2 (carry-forward from 7/10)",
-      "detail": "Michael Hutt reported it Friday. Confirm current readings before any entry or first break this week.",
-      "psms": "Confined Space · Wk 5"
-    },
-    {
-      "type": "flag",
-      "headline": "Two driving near-misses flagged Friday — stay heads-up on the road",
-      "detail": "Jordan Lemmons (swerving driver, Jal 128) and Alex Clubb (service truck into his lane at 75 mph). The drive is part of the job.",
-      "psms": "Driving · Wk 6"
+      "week": 8,
+      "headline": "Observed crew member being set aside and the possible hazards were discusse",
+      "detail": "Observed crew member being set aside and the possible hazards were discussed",
+      "psms": "Operational Discipline"
     }
   ],
   "todaysChallenge": "Whatever crew, whatever equipment, whatever location you drew today — run it at the Canon standard. The measure isn't the hand you're dealt, it's how you play it.",
