@@ -288,19 +288,19 @@
     "footerNote": "Live from Daily Internal Compliance — Mon through Mon 08/03"
   },
   "specialFocus": {
-    "title": "Confined Space — Activate the Permit. Log the Air.",
-    "why": "This section exists because of a real accusation against our group: a claim that a permit wasn't activated before a job — on work our crew did right, with every piece of paperwork filled out. The documentation is what won that argument. That is the lesson, and it only has to be learned once: <strong>doing it right is not enough on its own — the record has to prove it, to the minute.</strong> From today forward this is how Canon runs every confined space job. We have confined space work on the board — this applies before anyone breaks the plane.",
+    "title": "Who Are We? — Have Your Teammate's Six",
+    "why": "This one comes from the top. Today I — Mike Lyons — took a call from a company man. Not about our monitors. Not about our paperwork. About camaraderie: he thought there should be more of it among our team. That call should never have to happen, and here is why. <strong>Who are we?</strong> We are the first ones on location and the last ones to leave. We are AGT and safety oversight — the second set of eyes that ops counts on. Acting as an individual when your job is done — not having the common courtesy to ask the teammates around you if they need a hand — is turning your back on this organization. And turning your back on this organization is turning your back on your teammates within it. I want people around me who have my back the way a SEAL team has each other's: you would never not cover your brother. You have his six. That is the team I'm building, and every one of you is in it.",
     "standard": [
-      "No entry — ever — without a pre-entry permit that is <strong>ACTIVATED</strong> before anyone breaks the plane. Filled out is not activated. A permit is live when it is authorized, signed, and time-stamped, before the job starts.",
-      "Atmospheric testing goes in the log, in writing: initial readings with the time and the tester's name <strong>before</strong> entry, then continuous or periodic readings recorded through the job. Every reading gets a timestamp.",
-      "The permit and the air log ride together and get retained after the job. If it isn't written down with a time on it, you cannot prove it happened — and someday you may have to."
+      "When your task is done, <strong>you are not done.</strong> Find your teammates on location and say it out loud: <strong>&ldquo;I'm here to help — what can I do?&rdquo;</strong> Every location, every time.",
+      "Out of the truck, clear-minded, involved. You cannot be a second set of eyes for ops from the cab. First to location, last to leave means present the whole way through — eyes up, in the work.",
+      "Cover your teammate's six. Nobody wearing Canon on their chest works alone while another Canon hand watches from a distance. If one of us is still working, all of us are still working."
     ],
-    "scenario": "A crew runs a textbook entry: JSA done, permit filled out, gas tests taken, job goes clean. Days later an accusation lands — 'the permit was never activated before the job.' Memory won't settle it. Word against word won't settle it. The only thing that settles it is the paper: an authorization signature with a time on it, and an atmospheric log whose first readings are stamped BEFORE the entry time. If your permit shows activation at 08:42 and your first readings at 08:35, the accusation dies in thirty seconds. If your paperwork is perfect except that one line — you did the job right and you still can't prove it.",
+    "scenario": "Two Canon techs on the same pad. One finishes his monitor setup, checks his box, and walks back to the truck. Fifty yards away, his teammate is still setting up alone in the heat. The company man sees all of it — and what he sees isn't laziness. It's two individuals wearing the same logo instead of one team. Now run it the other way: the first tech finishes, walks over, and says 'I'm done — what do you need?' Same two people, same job. But now the work goes faster, the location is safer because there's a second set of eyes on the task, and what the client remembers is a crew that covers each other. One of those crews gets called back by name. The other gets a phone call made about them. We got that phone call today. There will not be a second one.",
     "questions": [
-      "On your last confined space entry — could your paperwork prove, to the minute, that the permit was activated and the air was tested before anyone went in? Who signed it, and when?",
-      "What is the difference between a permit that is filled out and a permit that is activated? Who makes ours live, and what exactly makes it live?",
-      "If someone accuses this crew tomorrow of skipping a step you actually did — which document saves you, and is it filled out that way today?"
+      "When your part of the job is done, what is the very next thing you do — honestly? Do you walk toward your teammate, or toward your truck?",
+      "What does having someone's six actually look like on a location? Give me a real example from this week — who covered you, or who did you cover?",
+      "If a company man watched only you for an entire shift, would he describe you as 'here to help' or 'here to do a task'? What exactly would he see?"
     ],
-    "nonNegotiable": "There is no version of this job where we enter first and paper up after. Permit activated. Air tested and logged. Then entry. Every time. This is not optional."
+    "nonNegotiable": "First to location. Last to leave. Out of the truck and involved. And before you head for the gate, you ask every teammate still working: 'What can I do?' You never leave a brother or sister working alone — you have their six. That is who we are."
   }
 }
