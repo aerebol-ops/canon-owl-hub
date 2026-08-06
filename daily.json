@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "week": 8,
-  "day": 3,
-  "openingMessage": "The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack of will.",
+  "day": 4,
+  "openingMessage": "Individual commitment to a group effort — that is what makes a team work, a company work, a society work, a civilization work.",
   "openingAttribution": "Vince Lombardi",
-  "openingWhy": "Every hand on this crew can recite the five-point check in his sleep. Knowledge was never the gap. The gap shows up at hour eleven on job four, when knowing and doing start to separate — and will is the only thing that holds them together.",
+  "openingWhy": "An attendant at a tank entry does 'nothing' for four hours — and his staying put is the entire system. Most of safety is hands keeping boring promises so the whole crew inherits a boring, incident-free day. Be boring on purpose today.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -215,7 +215,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "The person who does it right every time — even alone, even when it's tedious — is the person who builds the culture. That's not compliance. That's ownership.",
+  "leadershipThought": "A bypass that everyone knows about is still a bypass. Document it, restore it, or escalate it. Never normalize it. The next crew won't know what you left behind.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -223,33 +223,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Communication with crew and MT was good talked about potential hazards",
-      "detail": "Communication with crew and MT was good talked about potential hazards",
+      "headline": "Raymundo Solis — Job went smoothly and safe got all part back into place",
+      "detail": "Job went smoothly and safe got all part back into place",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Cindy Smith — Team worked well keeping suction maintained and pressure controlled",
-      "detail": "Did we leave the location better Yes.",
+      "headline": "Rolando Flores — Everyone communicated used LMRAs",
+      "detail": "Everyone communicated used LMRAs",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Rolando Flores — Crew communicated and used LSRA",
-      "detail": "Crew communicated and used LSRA",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Ralph Forbes — Conducting work in steps that work well",
-      "detail": "Conducting work in steps that work well",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke — Continuous gas monitoring was maintained, communication with the crew was e",
-      "detail": "Continuous gas monitoring was maintained, communication with the crew was effective,",
+      "headline": "Stefanie Kirschke — Observed stuffing box replacement with continuous atmospheric monitoring",
+      "detail": "Observed stuffing box replacement with continuous atmospheric monitoring. The crew",
       "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Brianda Sandoval — We didn't get any gas on lines, also wind was on our favor",
+      "detail": "We didn't get any gas on lines, also wind was on our favor. Crew didn't reciprocate",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Ralph Forbes — Job was not rushed and steps not missed because of delay of start",
+      "detail": "Job was not rushed and steps not missed because of delay of start",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
@@ -259,8 +259,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Claim one thing on your location today out loud: 'the monitors are mine,' 'the trailer is mine,' 'the paperwork is mine.' Then make it bulletproof.",
-  "todaysChallengeSubtext": "“Responsibility equals accountability equals ownership.” — Pat Summitt",
+  "todaysChallenge": "Three rules, one day. Do right when the readings say stop. Do your best on the job nobody sees. And coach the newest hand the way you wish someone had coached you.",
+  "todaysChallengeSubtext": "“Do right. Do your best. Treat others as you want to be treated.” — Lou Holtz",
   "compliance": {
     "weekOf": "Week of August 3, 2026",
     "metrics": [
