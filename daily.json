@@ -8,18 +8,26 @@
   "formCounts": [
     {
       "name": "Raymundo Solis",
-      "count": 61
+      "count": 64
     },
     {
       "name": "Nathan Contreras",
-      "count": 48
-    },
-    {
-      "name": "David Hammond",
-      "count": 42
+      "count": 50
     },
     {
       "name": "Jordan Lemmons",
+      "count": 46
+    },
+    {
+      "name": "Larry Jaramillo",
+      "count": 44
+    },
+    {
+      "name": "Ralph Forbes",
+      "count": 44
+    },
+    {
+      "name": "David Hammond",
       "count": 42
     },
     {
@@ -27,24 +35,16 @@
       "count": 42
     },
     {
-      "name": "Ralph Forbes",
-      "count": 40
-    },
-    {
       "name": "Rolando Flores",
-      "count": 39
+      "count": 42
     },
     {
-      "name": "Larry Jaramillo",
-      "count": 38
+      "name": "Jacob Hernandez",
+      "count": 40
     },
     {
       "name": "Cindy Smith",
       "count": 37
-    },
-    {
-      "name": "Jacob Hernandez",
-      "count": 36
     },
     {
       "name": "Stefanie Kirschke",
@@ -56,7 +56,19 @@
     },
     {
       "name": "Jaques Faulk",
+      "count": 28
+    },
+    {
+      "name": "Andrew Bailey",
       "count": 27
+    },
+    {
+      "name": "Baldemar Bracamontes",
+      "count": 27
+    },
+    {
+      "name": "Dawson Drake",
+      "count": 26
     },
     {
       "name": "Jimmy White",
@@ -65,18 +77,6 @@
     {
       "name": "Caleb Smith",
       "count": 25
-    },
-    {
-      "name": "Andrew Bailey",
-      "count": 24
-    },
-    {
-      "name": "Baldemar Bracamontes",
-      "count": 24
-    },
-    {
-      "name": "Dawson Drake",
-      "count": 23
     },
     {
       "name": "Joseph Popillion",
@@ -91,15 +91,19 @@
       "count": 22
     },
     {
+      "name": "Anthony Scott",
+      "count": 21
+    },
+    {
       "name": "David Jose Zamora",
       "count": 20
     },
     {
-      "name": "Anthony Scott",
-      "count": 19
+      "name": "Dermont Morgan",
+      "count": 20
     },
     {
-      "name": "Dermont Morgan",
+      "name": "Jeremy Norris",
       "count": 19
     },
     {
@@ -107,15 +111,19 @@
       "count": 18
     },
     {
-      "name": "Jeremy Norris",
+      "name": "Gael Antonio Avila",
       "count": 18
+    },
+    {
+      "name": "Alfredo Vaquera",
+      "count": 17
     },
     {
       "name": "Gary Briones",
       "count": 17
     },
     {
-      "name": "Alfredo Vaquera",
+      "name": "Bobby Galindo",
       "count": 16
     },
     {
@@ -123,11 +131,11 @@
       "count": 16
     },
     {
-      "name": "Gael Antonio Avila",
+      "name": "Kelby Hammer Training",
       "count": 15
     },
     {
-      "name": "Kelby Hammer Training",
+      "name": "Michael Jobe",
       "count": 15
     },
     {
@@ -139,8 +147,8 @@
       "count": 14
     },
     {
-      "name": "Bobby Galindo",
-      "count": 13
+      "name": "William Jimmy Cooper",
+      "count": 14
     },
     {
       "name": "James Stephens",
@@ -155,12 +163,8 @@
       "count": 11
     },
     {
-      "name": "William Jimmy Cooper",
-      "count": 11
-    },
-    {
-      "name": "Michael Jobe",
-      "count": 10
+      "name": "Barthol Bj Caesar",
+      "count": 9
     },
     {
       "name": "Marcos Morales",
@@ -172,10 +176,6 @@
     },
     {
       "name": "Anthony Scott 1099",
-      "count": 7
-    },
-    {
-      "name": "Barthol Bj Caesar",
       "count": 7
     },
     {
@@ -203,6 +203,18 @@
       "count": 3
     },
     {
+      "name": "Kedrick Mccarter",
+      "count": 3
+    },
+    {
+      "name": "Michael Hutt",
+      "count": 3
+    },
+    {
+      "name": "Hayden Haugh",
+      "count": 2
+    },
+    {
       "name": "Justin Pack",
       "count": 2
     },
@@ -223,32 +235,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Job went smoothly and safe got all part back into place",
-      "detail": "Job went smoothly and safe got all part back into place",
+      "headline": "Hayden Haugh — Crew communicated throughly",
+      "detail": "Crew communicated throughly. Spotter was used at all times.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Rolando Flores — Everyone communicated used LMRAs",
-      "detail": "Everyone communicated used LMRAs",
+      "headline": "Kedrick Mccarter — on the OWL board",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-08-05. That consistency is the habit.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Observed stuffing box replacement with continuous atmospheric monitoring",
-      "detail": "Observed stuffing box replacement with continuous atmospheric monitoring. The crew",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Brianda Sandoval — We didn't get any gas on lines, also wind was on our favor",
-      "detail": "We didn't get any gas on lines, also wind was on our favor. Crew didn't reciprocate",
+      "headline": "Michael Hutt — on the OWL board",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-08-05. That consistency is the habit.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Job was not rushed and steps not missed because of delay of start",
-      "detail": "Job was not rushed and steps not missed because of delay of start",
+      "headline": "Alfredo Vaquera — Crew heard air leak and mustard up immediately",
+      "detail": "Crew heard air leak and mustard up immediately",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Andrew Bailey — Everything on job went well",
+      "detail": "Everything on job went well",
       "psms": "Operational Discipline"
     },
     {
@@ -266,21 +278,21 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 34,
-        "total": 37
+        "done": 112,
+        "total": 124
       },
       {
         "label": "Trailer Inspections",
-        "done": 5,
-        "total": 8
+        "done": 23,
+        "total": 31
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 4,
-        "total": 8
+        "done": 19,
+        "total": 29
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 08/04"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 08/05"
   },
   "specialFocus": {
     "title": "Who Are We? — The Promise We Make Each Other",
