@@ -235,21 +235,21 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Communication between all parties",
-      "detail": "Communication between all parties",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Rolando Flores — We communicated and made sure that the job was done safely as possible",
-      "detail": "We communicated and made sure that the job was done safely as possible",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Brianda Sandoval — Everybody followed given instructions, no massive amounts of gas were picke",
-      "detail": "Everybody followed given instructions, no massive amounts of gas were picked up. Crew",
+      "headline": "Raymundo Solis — Job went good ran into a bleeder valve being clogged so it really bleed off",
+      "detail": "Job went good ran into a bleeder valve being clogged so it really bleed off pressure had to",
       "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Rolando Flores — Communication was on point LMRAs exercised",
+      "detail": "Communication was on point LMRAs exercised",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Brianda Sandoval — Crew was moving fast with this conversion, yet they still managed to do a g",
+      "detail": "Crew was moving fast with this conversion, yet they still managed to do a great job. No",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
