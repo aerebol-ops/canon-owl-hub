@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "week": 8,
-  "day": 4,
-  "openingMessage": "Individual commitment to a group effort — that is what makes a team work, a company work, a society work, a civilization work.",
-  "openingAttribution": "Vince Lombardi",
-  "openingWhy": "An attendant at a tank entry does 'nothing' for four hours — and his staying put is the entire system. Most of safety is hands keeping boring promises so the whole crew inherits a boring, incident-free day. Be boring on purpose today.",
+  "day": 5,
+  "openingMessage": "No one's ever drowned in sweat.",
+  "openingAttribution": "Bear Bryant",
+  "openingWhy": "Nobody in this field ever got hurt by the second gas test, the extra walk-around, or the re-check that turned out to be unnecessary. That side of the ledger has no casualties. Every name on the other side of it saved himself a little effort.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -227,7 +227,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "A bypass that everyone knows about is still a bypass. Document it, restore it, or escalate it. Never normalize it. The next crew won't know what you left behind.",
+  "leadershipThought": "Before you leave today: What is one thing I can improve before I drive away? Not because someone is watching. Because excellence is a habit. And habits become character.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -235,32 +235,20 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Job went smoothly crew used their LMRA before any task being done",
-      "detail": "Job went smoothly crew used their LMRA before any task being done",
+      "headline": "Raymundo Solis — Communication between all parties",
+      "detail": "Communication between all parties",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Rolando Flores — We all communicated and used LMRAs",
-      "detail": "We all communicated and used LMRAs",
+      "headline": "Rolando Flores — We communicated and made sure that the job was done safely as possible",
+      "detail": "We communicated and made sure that the job was done safely as possible",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez — Communication and safe practice",
-      "detail": "Communication and safe practice",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke — Good communication, safe work practices, and the disconnect was completed w",
-      "detail": "Good communication, safe work practices, and the disconnect was completed without",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Brianda Sandoval — The wells helped by not being stacked with gases",
-      "detail": "The wells helped by not being stacked with gases. The crews know what to do, so they",
+      "headline": "Brianda Sandoval — Everybody followed given instructions, no massive amounts of gas were picke",
+      "detail": "Everybody followed given instructions, no massive amounts of gas were picked up. Crew",
       "psms": "Atmospheric Monitoring"
     },
     {
@@ -271,28 +259,28 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Three rules, one day. Do right when the readings say stop. Do your best on the job nobody sees. And coach the newest hand the way you wish someone had coached you.",
-  "todaysChallengeSubtext": "“Do right. Do your best. Treat others as you want to be treated.” — Lou Holtz",
+  "todaysChallenge": "'Everyone goes home safe' is the goal. The plan is the five: tested, monitored, attended, rescue staged, permit signed. Stay with the plan today — especially when it's inconvenient.",
+  "todaysChallengeSubtext": "“Setting a goal is not the main thing. It is deciding how you will go about achieving it and staying with that plan.” — Tom Landry",
   "compliance": {
     "weekOf": "Week of August 3, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 112,
-        "total": 124
+        "done": 153,
+        "total": 173
       },
       {
         "label": "Trailer Inspections",
-        "done": 23,
-        "total": 31
+        "done": 32,
+        "total": 42
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 19,
-        "total": 29
+        "done": 27,
+        "total": 41
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 08/05"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 08/06"
   },
   "specialFocus": {
     "title": "Who Are We? — The Promise We Make Each Other",
