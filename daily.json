@@ -235,21 +235,21 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Job went good ran into a bleeder valve being clogged so it really bleed off",
-      "detail": "Job went good ran into a bleeder valve being clogged so it really bleed off pressure had to",
+      "headline": "Raymundo Solis — Everything went well once the new bolts got here",
+      "detail": "Everything went well once the new bolts got here",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Rolando Flores — We didn't get any gas on the lines also wind was on our favor",
+      "detail": "We didn't get any gas on the lines also wind was on our favor. Crew didn't reciprocate",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Brianda Sandoval — Everybody stayed away from the well while the truck was pumping",
+      "detail": "Everybody stayed away from the well while the truck was pumping. We had low benzene",
       "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Rolando Flores — Communication was on point LMRAs exercised",
-      "detail": "Communication was on point LMRAs exercised",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Brianda Sandoval — Crew was moving fast with this conversion, yet they still managed to do a g",
-      "detail": "Crew was moving fast with this conversion, yet they still managed to do a great job. No",
-      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
