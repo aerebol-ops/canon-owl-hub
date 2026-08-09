@@ -1,7 +1,7 @@
 {
   "source": "O.W.L Observe / Win / Learn forms \u2014 every submission to date",
-  "generated": "2026-08-07",
-  "pdfsScanned": 1087,
+  "generated": "2026-08-09",
+  "pdfsScanned": 1105,
   "totalSubmitted": 1079,
   "blankForms": 435,
   "totalForms": 644,
@@ -135,6 +135,386 @@
       "who": "Jeremy Norris",
       "date": "07/15/2026",
       "text": "More atmospheric tests while the crew is working, while staying out of the line of fire."
+    }
+  ],
+  "people": [
+    {
+      "name": "Raymundo Solis",
+      "submitted": 64,
+      "blank": 11,
+      "filled": 53,
+      "pct": 83
+    },
+    {
+      "name": "Nathan Contreras",
+      "submitted": 50,
+      "blank": 35,
+      "filled": 15,
+      "pct": 30
+    },
+    {
+      "name": "Jordan Lemmons",
+      "submitted": 46,
+      "blank": 28,
+      "filled": 18,
+      "pct": 39
+    },
+    {
+      "name": "Larry Jaramillo",
+      "submitted": 44,
+      "blank": 19,
+      "filled": 25,
+      "pct": 57
+    },
+    {
+      "name": "Ralph Forbes",
+      "submitted": 44,
+      "blank": 24,
+      "filled": 20,
+      "pct": 45
+    },
+    {
+      "name": "David Hammond",
+      "submitted": 42,
+      "blank": 17,
+      "filled": 25,
+      "pct": 60
+    },
+    {
+      "name": "Justin Fontenot",
+      "submitted": 42,
+      "blank": 16,
+      "filled": 26,
+      "pct": 62
+    },
+    {
+      "name": "Rolando Flores",
+      "submitted": 42,
+      "blank": 4,
+      "filled": 38,
+      "pct": 90
+    },
+    {
+      "name": "Jacob Hernandez",
+      "submitted": 40,
+      "blank": 17,
+      "filled": 23,
+      "pct": 58
+    },
+    {
+      "name": "Cindy Smith",
+      "submitted": 37,
+      "blank": 0,
+      "filled": 37,
+      "pct": 100
+    },
+    {
+      "name": "Stefanie Kirschke",
+      "submitted": 35,
+      "blank": 7,
+      "filled": 28,
+      "pct": 80
+    },
+    {
+      "name": "Marylou Guerra",
+      "submitted": 34,
+      "blank": 10,
+      "filled": 24,
+      "pct": 71
+    },
+    {
+      "name": "Jaques Faulk",
+      "submitted": 28,
+      "blank": 15,
+      "filled": 13,
+      "pct": 46
+    },
+    {
+      "name": "Andrew Bailey",
+      "submitted": 27,
+      "blank": 9,
+      "filled": 18,
+      "pct": 67
+    },
+    {
+      "name": "Baldemar Bracamontes",
+      "submitted": 27,
+      "blank": 9,
+      "filled": 18,
+      "pct": 67
+    },
+    {
+      "name": "Dawson Drake",
+      "submitted": 26,
+      "blank": 18,
+      "filled": 8,
+      "pct": 31
+    },
+    {
+      "name": "Caleb Smith",
+      "submitted": 25,
+      "blank": 16,
+      "filled": 9,
+      "pct": 36
+    },
+    {
+      "name": "Joseph Popillion",
+      "submitted": 23,
+      "blank": 10,
+      "filled": 13,
+      "pct": 57
+    },
+    {
+      "name": "Gage Gonzales",
+      "submitted": 22,
+      "blank": 14,
+      "filled": 8,
+      "pct": 36
+    },
+    {
+      "name": "Robert Wright",
+      "submitted": 22,
+      "blank": 1,
+      "filled": 21,
+      "pct": 95
+    },
+    {
+      "name": "Anthony Scott",
+      "submitted": 21,
+      "blank": 1,
+      "filled": 20,
+      "pct": 95
+    },
+    {
+      "name": "David Jose Zamora",
+      "submitted": 20,
+      "blank": 20,
+      "filled": 0,
+      "pct": 0
+    },
+    {
+      "name": "Dermont Morgan",
+      "submitted": 20,
+      "blank": 19,
+      "filled": 1,
+      "pct": 5
+    },
+    {
+      "name": "Jeremy Norris",
+      "submitted": 19,
+      "blank": 8,
+      "filled": 11,
+      "pct": 58
+    },
+    {
+      "name": "Edward Carrillo",
+      "submitted": 18,
+      "blank": 5,
+      "filled": 13,
+      "pct": 72
+    },
+    {
+      "name": "Gael Antonio Avila",
+      "submitted": 18,
+      "blank": 0,
+      "filled": 18,
+      "pct": 100
+    },
+    {
+      "name": "Alfredo Vaquera",
+      "submitted": 17,
+      "blank": 11,
+      "filled": 6,
+      "pct": 35
+    },
+    {
+      "name": "Gary Briones",
+      "submitted": 17,
+      "blank": 13,
+      "filled": 4,
+      "pct": 24
+    },
+    {
+      "name": "Bobby Galindo",
+      "submitted": 16,
+      "blank": 1,
+      "filled": 15,
+      "pct": 94
+    },
+    {
+      "name": "Christian Lee",
+      "submitted": 16,
+      "blank": 2,
+      "filled": 14,
+      "pct": 88
+    },
+    {
+      "name": "Jimmy White",
+      "submitted": 16,
+      "blank": 13,
+      "filled": 3,
+      "pct": 19
+    },
+    {
+      "name": "Michael Jobe",
+      "submitted": 15,
+      "blank": 15,
+      "filled": 0,
+      "pct": 0
+    },
+    {
+      "name": "Brianda Sandoval",
+      "submitted": 14,
+      "blank": 3,
+      "filled": 11,
+      "pct": 79
+    },
+    {
+      "name": "Luis Zarate",
+      "submitted": 14,
+      "blank": 1,
+      "filled": 13,
+      "pct": 93
+    },
+    {
+      "name": "William Jimmy Cooper",
+      "submitted": 14,
+      "blank": 0,
+      "filled": 14,
+      "pct": 100
+    },
+    {
+      "name": "James Stephens",
+      "submitted": 13,
+      "blank": 11,
+      "filled": 2,
+      "pct": 15
+    },
+    {
+      "name": "Jaquez Faulk",
+      "submitted": 11,
+      "blank": 9,
+      "filled": 2,
+      "pct": 18
+    },
+    {
+      "name": "Barthol Bj Caesar",
+      "submitted": 9,
+      "blank": 0,
+      "filled": 9,
+      "pct": 100
+    },
+    {
+      "name": "Marcos Morales",
+      "submitted": 9,
+      "blank": 0,
+      "filled": 9,
+      "pct": 100
+    },
+    {
+      "name": "Anthony Scott 1099",
+      "submitted": 7,
+      "blank": 2,
+      "filled": 5,
+      "pct": 71
+    },
+    {
+      "name": "Kyle Williams",
+      "submitted": 7,
+      "blank": 4,
+      "filled": 3,
+      "pct": 43
+    },
+    {
+      "name": "Trevor Mckenzie",
+      "submitted": 7,
+      "blank": 4,
+      "filled": 3,
+      "pct": 43
+    },
+    {
+      "name": "Alexander Clubb",
+      "submitted": 6,
+      "blank": 0,
+      "filled": 6,
+      "pct": 100
+    },
+    {
+      "name": "Daniel Medrano",
+      "submitted": 6,
+      "blank": 0,
+      "filled": 6,
+      "pct": 100
+    },
+    {
+      "name": "Allen White",
+      "submitted": 4,
+      "blank": 1,
+      "filled": 3,
+      "pct": 75
+    },
+    {
+      "name": "John Blasingame",
+      "submitted": 4,
+      "blank": 4,
+      "filled": 0,
+      "pct": 0
+    },
+    {
+      "name": "Kelby Hammer Training",
+      "submitted": 4,
+      "blank": 3,
+      "filled": 1,
+      "pct": 25
+    },
+    {
+      "name": "Adam Holt",
+      "submitted": 3,
+      "blank": 0,
+      "filled": 3,
+      "pct": 100
+    },
+    {
+      "name": "Joshua Blassingame",
+      "submitted": 3,
+      "blank": 0,
+      "filled": 3,
+      "pct": 100
+    },
+    {
+      "name": "Kedrick Mccarter",
+      "submitted": 3,
+      "blank": 3,
+      "filled": 0,
+      "pct": 0
+    },
+    {
+      "name": "Michael Hutt",
+      "submitted": 3,
+      "blank": 2,
+      "filled": 1,
+      "pct": 33
+    },
+    {
+      "name": "Hayden Haugh",
+      "submitted": 2,
+      "blank": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Justin Pack",
+      "submitted": 2,
+      "blank": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Jeremy Torrence",
+      "submitted": 1,
+      "blank": 0,
+      "filled": 1,
+      "pct": 100
     }
   ]
 }

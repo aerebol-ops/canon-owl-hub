@@ -3631,16 +3631,30 @@ function shareFieldNewsPDF() {
   const flags = items.filter(n => n.type === 'flag');
   const clean = s => s ? s.replace(/<(?!\/?(strong|br))[^>]+>/g, '') : '';
 
-  // Leaderboard table — whole corpus form counts, ranked
-  const counts = (_daily && _daily.formCounts && _daily.formCounts.length) ? _daily.formCounts : [];
-  const totalForms = counts.reduce((s, c) => s + c.count, 0);
+  // Leaderboard table — chances vs. blanks (matches the on-page board);
+  // falls back to raw counts if owlstats hasn't loaded yet
   const medalTxt = i => i === 0 ? '&#129351;' : i === 1 ? '&#129352;' : i === 2 ? '&#129353;' : (i + 1);
-  const boardHtml = counts.length ? `
+  let boardHtml = '';
+  if (_owlPeople && _owlPeople.length) {
+    const chances = _owlPeople.reduce((s, p) => s + p.submitted, 0);
+    const blanks = _owlPeople.reduce((s, p) => s + p.blank, 0);
+    boardHtml = `
+    <div class="sec">&#9733; OWL Form Leaderboard — ${(chances - blanks).toLocaleString()} Filled, ${blanks.toLocaleString()} Left Blank</div>
+    <table class="board">
+      <tr><th style="width:36px;">#</th><th>Name</th><th style="width:64px; text-align:right;">Chances</th><th style="width:56px; text-align:right;">Filled</th><th style="width:56px; text-align:right;">Blank</th><th style="width:50px; text-align:right;">%</th></tr>
+      ${_owlPeople.map((p, i) => `<tr class="${i < 3 ? 'top' : ''}"><td style="text-align:center;">${medalTxt(i)}</td><td>${p.name}</td><td style="text-align:right;">${p.submitted}</td><td style="text-align:right; font-weight:800;">${p.filled}</td><td style="text-align:right; color:${p.blank > p.filled ? '#991b1b' : '#888'};">${p.blank}</td><td style="text-align:right; font-weight:800; color:${p.pct >= 80 ? '#166534' : p.pct >= 50 ? '#b45309' : '#991b1b'};">${p.pct}%</td></tr>`).join('')}
+    </table>
+    <div style="font-size:11px; color:#888; margin:4px 0 6px;">Every submission is a chance to write down what you saw. Ranked by forms filled with real detail — a blank form is a skipped chance to be heard.</div>`;
+  } else {
+    const counts = (_daily && _daily.formCounts && _daily.formCounts.length) ? _daily.formCounts : [];
+    const totalForms = counts.reduce((s, c) => s + c.count, 0);
+    boardHtml = counts.length ? `
     <div class="sec">&#9733; OWL Form Leaderboard — ${totalForms} Forms and Counting</div>
     <table class="board">
       <tr><th style="width:36px;">#</th><th>Name</th><th style="width:70px; text-align:right;">Forms</th></tr>
       ${counts.map((c, i) => `<tr class="${i < 3 ? 'top' : ''}"><td style="text-align:center;">${medalTxt(i)}</td><td>${c.name}</td><td style="text-align:right; font-weight:800;">${c.count}</td></tr>`).join('')}
     </table>` : '';
+  }
 
   const goodHtml = good.length ? good.map(n => `
     <div class="card good">
@@ -3704,28 +3718,59 @@ ${flagHtml ? `<div class="sec">&#9888; Watch Items</div>${flagHtml}` : ''}
   sharePdfFromHtml(html);
 }
 
-// ── FORM-COUNT LEADERBOARD (top of Field News) ─────────────
-function renderFormLeaderboard() {
+// ── FORM LEADERBOARD (top of Field News) — chances vs. blanks ──────────────
+// User direction 2026-08-06: show every CHANCE a tech had to write something
+// down (each submission) against how many they skipped and left blank.
+// Ranked by FILLED forms — writing the detail is what earns the medal.
+let _owlPeople = null;
+async function renderFormLeaderboard() {
   const el = document.getElementById('form-leaderboard');
   if (!el) return;
-  const counts = (_daily && _daily.formCounts && _daily.formCounts.length) ? _daily.formCounts : null;
-  if (!counts) { el.innerHTML = ''; return; }
-  const total = counts.reduce((s, c) => s + c.count, 0);
-  const max = counts[0].count || 1;
+  let people = null, chances = 0, blanks = 0;
+  try {
+    const r = await fetch('owlstats.json?_=' + Date.now(), { cache: 'no-store' });
+    if (r.ok) {
+      const os = await r.json();
+      if (os.people && os.people.length) {
+        people = [...os.people].sort((a, b) => b.filled - a.filled || a.blank - b.blank);
+        chances = people.reduce((s, p) => s + p.submitted, 0);
+        blanks = people.reduce((s, p) => s + p.blank, 0);
+        _owlPeople = people;
+      }
+    }
+  } catch (e) {}
+  if (!people) {
+    // Fallback — old raw-count view from daily.json
+    const counts = (_daily && _daily.formCounts && _daily.formCounts.length) ? _daily.formCounts : null;
+    if (!counts) { el.innerHTML = ''; return; }
+    people = counts.map(c => ({ name: c.name, submitted: c.count, filled: c.count, blank: 0, pct: null }));
+    chances = counts.reduce((s, c) => s + c.count, 0);
+  }
+  const maxChances = Math.max(...people.map(p => p.submitted), 1);
   const medal = i => i === 0 ? '&#129351;' : i === 1 ? '&#129352;' : i === 2 ? '&#129353;' : `<span style="color:var(--muted);font-size:11px;">${i + 1}</span>`;
+  const pctColor = p => p >= 80 ? '#166534' : p >= 50 ? '#b45309' : '#991b1b';
   el.innerHTML = `
     <div style="background:var(--card,#fff); border:2px solid #BF8F00; border-radius:12px; overflow:hidden; margin-bottom:20px;">
       <div style="background:#1F3864; color:#fff; padding:12px 16px;">
-        <div style="font-size:10px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#FFD966;">&#9733; OWL Form Leaderboard</div>
-        <div style="font-size:16px; font-weight:900; margin-top:2px;">${total} forms and counting — every one gets read</div>
+        <div style="font-size:10px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#FFD966;">&#9733; OWL Form Leaderboard &mdash; Filled vs. Left Blank</div>
+        <div style="font-size:16px; font-weight:900; margin-top:2px;">${chances.toLocaleString()} chances to write it down &mdash; ${(chances - blanks).toLocaleString()} filled, ${blanks.toLocaleString()} left blank</div>
+        <div style="font-size:11px; opacity:.75; margin-top:3px;">Ranked by forms filled with real detail. A blank form is a skipped chance to be heard.</div>
+      </div>
+      <div style="display:flex; gap:14px; padding:8px 16px 0; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.6px; color:var(--muted);">
+        <span style="display:inline-flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#1F3864;display:inline-block;"></span>Filled</span>
+        <span style="display:inline-flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#e5e7eb;display:inline-block;"></span>Left blank</span>
       </div>
       <div style="padding:8px 12px;">
-        ${counts.map((c, i) => `
-          <div style="display:flex; align-items:center; gap:10px; padding:5px 4px; ${i < counts.length - 1 ? 'border-bottom:1px solid #f0f0f0;' : ''}">
+        ${people.map((p, i) => `
+          <div style="display:flex; align-items:center; gap:10px; padding:5px 4px; ${i < people.length - 1 ? 'border-bottom:1px solid #f0f0f0;' : ''}">
             <span style="min-width:26px; text-align:center; font-size:15px;">${medal(i)}</span>
-            <span style="flex:1; font-size:13px; font-weight:${i < 3 ? 800 : 600};">${c.name}</span>
-            <span style="flex:2; height:8px; background:#f0f0f0; border-radius:4px; overflow:hidden;"><span style="display:block; height:100%; width:${Math.max(4, Math.round(c.count / max * 100))}%; background:${i === 0 ? '#BF8F00' : i < 3 ? '#d4af37' : '#1F3864'}; border-radius:4px;"></span></span>
-            <span style="min-width:34px; text-align:right; font-size:14px; font-weight:800; color:#1F3864;">${c.count}</span>
+            <span style="flex:1; font-size:13px; font-weight:${i < 3 ? 800 : 600};">${p.name}</span>
+            <span style="flex:2; height:10px; background:transparent; border-radius:4px; overflow:hidden; display:flex; width:${Math.max(6, Math.round(p.submitted / maxChances * 100))}%; max-width:40%;">
+              <span style="display:block; height:100%; width:${p.submitted ? Math.round(p.filled / p.submitted * 100) : 0}%; background:${i === 0 ? '#BF8F00' : i < 3 ? '#d4af37' : '#1F3864'};"></span>
+              <span style="display:block; height:100%; flex:1; background:#e5e7eb;"></span>
+            </span>
+            <span style="min-width:86px; text-align:right; font-size:11.5px; color:var(--muted);"><strong style="color:#1F3864; font-size:13px;">${p.filled}</strong> filled &middot; ${p.blank} blank</span>
+            ${p.pct !== null ? `<span style="min-width:38px; text-align:right; font-size:12px; font-weight:800; color:${pctColor(p.pct)};">${p.pct}%</span>` : ''}
           </div>`).join('')}
       </div>
     </div>`;
