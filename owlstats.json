@@ -1,90 +1,90 @@
 {
   "source": "O.W.L Observe / Win / Learn forms \u2014 every submission to date",
   "generated": "2026-08-09",
-  "pdfsScanned": 1105,
-  "totalSubmitted": 1079,
-  "blankForms": 435,
-  "totalForms": 644,
-  "techs": 50,
-  "locations": 460,
+  "pdfsScanned": 1172,
+  "totalSubmitted": 1146,
+  "blankForms": 469,
+  "totalForms": 677,
+  "techs": 51,
+  "locations": 486,
   "firstDate": "06/15/2026",
-  "lastDate": "08/05/2026",
-  "leftBetterYes": 398,
-  "leftBetterTotal": 398,
+  "lastDate": "08/09/2026",
+  "leftBetterYes": 424,
+  "leftBetterTotal": 424,
   "observe": [
     {
       "label": "Job scope completed safely and as planned",
-      "n": 554
+      "n": 583
     },
     {
       "label": "Atmospheric hazards tested prior to first break",
-      "n": 461
+      "n": 486
     },
     {
       "label": "Evaluation and discussion of life saving rules",
-      "n": 455
+      "n": 481
     },
     {
       "label": "Safety control measures were utilized(ex. Hot work/LOTO/Confined Space)",
-      "n": 450
+      "n": 475
     },
     {
       "label": "Discussed and outlined exclusion zones",
-      "n": 421
+      "n": 446
     },
     {
       "label": "Repiratory protection utilized",
-      "n": 333
+      "n": 352
     },
     {
       "label": "Hold points utilized",
-      "n": 294
+      "n": 312
     },
     {
       "label": "Communicated issues with PIC and corrected before work began",
-      "n": 276
+      "n": 291
     },
     {
       "label": "Unsafe conditions",
-      "n": 100
+      "n": 110
     },
     {
       "label": "Stop work authority utilized",
-      "n": 93
+      "n": 96
     }
   ],
   "win": [
     {
       "label": "Strong communication between Canon technician and crews",
-      "n": 532
+      "n": 561
     },
     {
       "label": "Strong communication between Canon technician and PIC",
-      "n": 524
+      "n": 553
     },
     {
       "label": "All personnel on location work together effectively to mitigate any hazards",
-      "n": 491
+      "n": 518
     },
     {
       "label": "Life saving rules understood and discussed with all personnel on site",
-      "n": 476
+      "n": 503
     },
     {
       "label": "Crew verified conditions in the field instead of relying on paperwork",
-      "n": 450
+      "n": 480
     },
     {
       "label": "Last Minute Risk Assessment utilized",
-      "n": 378
+      "n": 400
     },
     {
       "label": "Standard rig up completed correctly with no rework required",
-      "n": 370
+      "n": 392
     }
   ],
   "improvePct": 38,
-  "improveCount": 242,
+  "improveCount": 257,
   "improveQuotes": [
     {
       "who": "Larry Jaramillo",
@@ -140,24 +140,38 @@
   "people": [
     {
       "name": "Raymundo Solis",
-      "submitted": 64,
+      "submitted": 67,
       "blank": 11,
-      "filled": 53,
-      "pct": 83
-    },
-    {
-      "name": "Nathan Contreras",
-      "submitted": 50,
-      "blank": 35,
-      "filled": 15,
-      "pct": 30
+      "filled": 56,
+      "pct": 84
     },
     {
       "name": "Jordan Lemmons",
+      "submitted": 53,
+      "blank": 32,
+      "filled": 21,
+      "pct": 40
+    },
+    {
+      "name": "Nathan Contreras",
+      "submitted": 52,
+      "blank": 37,
+      "filled": 15,
+      "pct": 29
+    },
+    {
+      "name": "Rolando Flores",
+      "submitted": 49,
+      "blank": 4,
+      "filled": 45,
+      "pct": 92
+    },
+    {
+      "name": "Ralph Forbes",
       "submitted": 46,
-      "blank": 28,
-      "filled": 18,
-      "pct": 39
+      "blank": 25,
+      "filled": 21,
+      "pct": 46
     },
     {
       "name": "Larry Jaramillo",
@@ -165,13 +179,6 @@
       "blank": 19,
       "filled": 25,
       "pct": 57
-    },
-    {
-      "name": "Ralph Forbes",
-      "submitted": 44,
-      "blank": 24,
-      "filled": 20,
-      "pct": 45
     },
     {
       "name": "David Hammond",
@@ -188,18 +195,18 @@
       "pct": 62
     },
     {
-      "name": "Rolando Flores",
-      "submitted": 42,
-      "blank": 4,
-      "filled": 38,
-      "pct": 90
-    },
-    {
       "name": "Jacob Hernandez",
       "submitted": 40,
       "blank": 17,
       "filled": 23,
       "pct": 58
+    },
+    {
+      "name": "Stefanie Kirschke",
+      "submitted": 38,
+      "blank": 8,
+      "filled": 30,
+      "pct": 79
     },
     {
       "name": "Cindy Smith",
@@ -209,13 +216,6 @@
       "pct": 100
     },
     {
-      "name": "Stefanie Kirschke",
-      "submitted": 35,
-      "blank": 7,
-      "filled": 28,
-      "pct": 80
-    },
-    {
       "name": "Marylou Guerra",
       "submitted": 34,
       "blank": 10,
@@ -223,25 +223,25 @@
       "pct": 71
     },
     {
+      "name": "Baldemar Bracamontes",
+      "submitted": 31,
+      "blank": 13,
+      "filled": 18,
+      "pct": 58
+    },
+    {
       "name": "Jaques Faulk",
-      "submitted": 28,
+      "submitted": 30,
       "blank": 15,
-      "filled": 13,
-      "pct": 46
+      "filled": 15,
+      "pct": 50
     },
     {
       "name": "Andrew Bailey",
-      "submitted": 27,
-      "blank": 9,
-      "filled": 18,
-      "pct": 67
-    },
-    {
-      "name": "Baldemar Bracamontes",
-      "submitted": 27,
-      "blank": 9,
-      "filled": 18,
-      "pct": 67
+      "submitted": 29,
+      "blank": 10,
+      "filled": 19,
+      "pct": 66
     },
     {
       "name": "Dawson Drake",
@@ -258,7 +258,28 @@
       "pct": 36
     },
     {
+      "name": "Dermont Morgan",
+      "submitted": 25,
+      "blank": 24,
+      "filled": 1,
+      "pct": 4
+    },
+    {
       "name": "Joseph Popillion",
+      "submitted": 25,
+      "blank": 12,
+      "filled": 13,
+      "pct": 52
+    },
+    {
+      "name": "Anthony Scott",
+      "submitted": 24,
+      "blank": 2,
+      "filled": 22,
+      "pct": 92
+    },
+    {
+      "name": "Jeremy Norris",
       "submitted": 23,
       "blank": 10,
       "filled": 13,
@@ -279,13 +300,6 @@
       "pct": 95
     },
     {
-      "name": "Anthony Scott",
-      "submitted": 21,
-      "blank": 1,
-      "filled": 20,
-      "pct": 95
-    },
-    {
       "name": "David Jose Zamora",
       "submitted": 20,
       "blank": 20,
@@ -293,18 +307,18 @@
       "pct": 0
     },
     {
-      "name": "Dermont Morgan",
-      "submitted": 20,
-      "blank": 19,
-      "filled": 1,
-      "pct": 5
+      "name": "Alfredo Vaquera",
+      "submitted": 18,
+      "blank": 11,
+      "filled": 7,
+      "pct": 39
     },
     {
-      "name": "Jeremy Norris",
-      "submitted": 19,
-      "blank": 8,
-      "filled": 11,
-      "pct": 58
+      "name": "Bobby Galindo",
+      "submitted": 18,
+      "blank": 3,
+      "filled": 15,
+      "pct": 83
     },
     {
       "name": "Edward Carrillo",
@@ -321,13 +335,6 @@
       "pct": 100
     },
     {
-      "name": "Alfredo Vaquera",
-      "submitted": 17,
-      "blank": 11,
-      "filled": 6,
-      "pct": 35
-    },
-    {
       "name": "Gary Briones",
       "submitted": 17,
       "blank": 13,
@@ -335,11 +342,11 @@
       "pct": 24
     },
     {
-      "name": "Bobby Galindo",
-      "submitted": 16,
-      "blank": 1,
-      "filled": 15,
-      "pct": 94
+      "name": "Michael Jobe",
+      "submitted": 17,
+      "blank": 17,
+      "filled": 0,
+      "pct": 0
     },
     {
       "name": "Christian Lee",
@@ -356,11 +363,11 @@
       "pct": 19
     },
     {
-      "name": "Michael Jobe",
-      "submitted": 15,
-      "blank": 15,
-      "filled": 0,
-      "pct": 0
+      "name": "William Jimmy Cooper",
+      "submitted": 16,
+      "blank": 0,
+      "filled": 16,
+      "pct": 100
     },
     {
       "name": "Brianda Sandoval",
@@ -377,13 +384,6 @@
       "pct": 93
     },
     {
-      "name": "William Jimmy Cooper",
-      "submitted": 14,
-      "blank": 0,
-      "filled": 14,
-      "pct": 100
-    },
-    {
       "name": "James Stephens",
       "submitted": 13,
       "blank": 11,
@@ -396,6 +396,13 @@
       "blank": 9,
       "filled": 2,
       "pct": 18
+    },
+    {
+      "name": "Michael Hutt",
+      "submitted": 10,
+      "blank": 7,
+      "filled": 3,
+      "pct": 30
     },
     {
       "name": "Barthol Bj Caesar",
@@ -447,6 +454,13 @@
       "pct": 100
     },
     {
+      "name": "Hayden Haugh",
+      "submitted": 5,
+      "blank": 0,
+      "filled": 5,
+      "pct": 100
+    },
+    {
       "name": "Allen White",
       "submitted": 4,
       "blank": 1,
@@ -489,14 +503,7 @@
       "pct": 0
     },
     {
-      "name": "Michael Hutt",
-      "submitted": 3,
-      "blank": 2,
-      "filled": 1,
-      "pct": 33
-    },
-    {
-      "name": "Hayden Haugh",
+      "name": "Jose Hurtado",
       "submitted": 2,
       "blank": 0,
       "filled": 2,
@@ -508,6 +515,13 @@
       "blank": 0,
       "filled": 2,
       "pct": 100
+    },
+    {
+      "name": "Pablo Soto",
+      "submitted": 2,
+      "blank": 2,
+      "filled": 0,
+      "pct": 0
     },
     {
       "name": "Jeremy Torrence",

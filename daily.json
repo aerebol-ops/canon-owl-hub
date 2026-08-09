@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-09",
   "week": 8,
   "day": 5,
   "openingMessage": "No one's ever drowned in sweat.",
@@ -8,22 +8,26 @@
   "formCounts": [
     {
       "name": "Raymundo Solis",
-      "count": 64
-    },
-    {
-      "name": "Nathan Contreras",
-      "count": 50
+      "count": 67
     },
     {
       "name": "Jordan Lemmons",
+      "count": 53
+    },
+    {
+      "name": "Nathan Contreras",
+      "count": 52
+    },
+    {
+      "name": "Rolando Flores",
+      "count": 49
+    },
+    {
+      "name": "Ralph Forbes",
       "count": 46
     },
     {
       "name": "Larry Jaramillo",
-      "count": 44
-    },
-    {
-      "name": "Ralph Forbes",
       "count": 44
     },
     {
@@ -35,36 +39,32 @@
       "count": 42
     },
     {
-      "name": "Rolando Flores",
-      "count": 42
-    },
-    {
       "name": "Jacob Hernandez",
       "count": 40
+    },
+    {
+      "name": "Stefanie Kirschke",
+      "count": 38
     },
     {
       "name": "Cindy Smith",
       "count": 37
     },
     {
-      "name": "Stefanie Kirschke",
-      "count": 35
-    },
-    {
       "name": "Marylou Guerra",
       "count": 34
     },
     {
+      "name": "Baldemar Bracamontes",
+      "count": 31
+    },
+    {
       "name": "Jaques Faulk",
-      "count": 28
+      "count": 30
     },
     {
       "name": "Andrew Bailey",
-      "count": 27
-    },
-    {
-      "name": "Baldemar Bracamontes",
-      "count": 27
+      "count": 29
     },
     {
       "name": "Dawson Drake",
@@ -79,7 +79,19 @@
       "count": 25
     },
     {
+      "name": "Dermont Morgan",
+      "count": 25
+    },
+    {
       "name": "Joseph Popillion",
+      "count": 25
+    },
+    {
+      "name": "Anthony Scott",
+      "count": 24
+    },
+    {
+      "name": "Jeremy Norris",
       "count": 23
     },
     {
@@ -91,20 +103,16 @@
       "count": 22
     },
     {
-      "name": "Anthony Scott",
-      "count": 21
-    },
-    {
       "name": "David Jose Zamora",
       "count": 20
     },
     {
-      "name": "Dermont Morgan",
-      "count": 20
+      "name": "Alfredo Vaquera",
+      "count": 18
     },
     {
-      "name": "Jeremy Norris",
-      "count": 19
+      "name": "Bobby Galindo",
+      "count": 18
     },
     {
       "name": "Edward Carrillo",
@@ -115,27 +123,23 @@
       "count": 18
     },
     {
-      "name": "Alfredo Vaquera",
-      "count": 17
-    },
-    {
       "name": "Gary Briones",
       "count": 17
     },
     {
-      "name": "Bobby Galindo",
-      "count": 16
+      "name": "Michael Jobe",
+      "count": 17
     },
     {
       "name": "Christian Lee",
       "count": 16
     },
     {
-      "name": "Kelby Hammer Training",
-      "count": 15
+      "name": "William Jimmy Cooper",
+      "count": 16
     },
     {
-      "name": "Michael Jobe",
+      "name": "Kelby Hammer Training",
       "count": 15
     },
     {
@@ -144,10 +148,6 @@
     },
     {
       "name": "Luis Zarate",
-      "count": 14
-    },
-    {
-      "name": "William Jimmy Cooper",
       "count": 14
     },
     {
@@ -161,6 +161,10 @@
     {
       "name": "Jaquez Faulk",
       "count": 11
+    },
+    {
+      "name": "Michael Hutt",
+      "count": 10
     },
     {
       "name": "Barthol Bj Caesar",
@@ -187,6 +191,10 @@
       "count": 6
     },
     {
+      "name": "Hayden Haugh",
+      "count": 5
+    },
+    {
       "name": "Allen White",
       "count": 4
     },
@@ -207,15 +215,15 @@
       "count": 3
     },
     {
-      "name": "Michael Hutt",
-      "count": 3
-    },
-    {
-      "name": "Hayden Haugh",
+      "name": "Jose Hurtado",
       "count": 2
     },
     {
       "name": "Justin Pack",
+      "count": 2
+    },
+    {
+      "name": "Pablo Soto",
       "count": 2
     },
     {
@@ -235,32 +243,44 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Everything went well once the new bolts got here",
-      "detail": "Everything went well once the new bolts got here",
+      "headline": "Jose Hurtado — Crew used PPE for work done",
+      "detail": "Crew used PPE for work done",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Rolando Flores — We didn't get any gas on the lines also wind was on our favor",
-      "detail": "We didn't get any gas on the lines also wind was on our favor. Crew didn't reciprocate",
+      "headline": "Pablo Soto — on the OWL board",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-08-06. That consistency is the habit.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Brianda Sandoval — Everybody stayed away from the well while the truck was pumping",
-      "detail": "Everybody stayed away from the well while the truck was pumping. We had low benzene",
+      "headline": "Jordan Lemmons — It wasn't all the way closed",
+      "detail": "Did we leave the location better Yes.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Stefanie Kirschke — HS levels were monitored throughout the disconnect, proper PPE was used, an",
+      "detail": "HS levels were monitored throughout the disconnect, proper PPE was used, and the crew",
       "psms": "Atmospheric Monitoring"
     },
     {
+      "type": "good",
+      "headline": "Jeremy Norris — everyone was making sure to not only keep themselves hydrated but those aro",
+      "detail": "Did we leave the location better.",
+      "psms": "Operational Discipline"
+    },
+    {
       "type": "flag",
-      "week": 8,
+      "week": 9,
       "headline": "Clean board — no open watch items this week",
       "detail": "Nothing carried in from last week. See a hazard? Flag it on your OWL form and it lands here the same evening.",
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "'Everyone goes home safe' is the goal. The plan is the five: tested, monitored, attended, rescue staged, permit signed. Stay with the plan today — especially when it's inconvenient.",
-  "todaysChallengeSubtext": "“Setting a goal is not the main thing. It is deciding how you will go about achieving it and staying with that plan.” — Tom Landry",
+  "todaysChallenge": "Today's job is probably ordinary. Do the ordinary at a champion's level: the routine bleed-down, the routine cal, the routine form — better than anyone else in the Basin.",
+  "todaysChallengeSubtext": "“Champions are champions not because they do anything extraordinary but because they do the ordinary things better than anyone else.” — Chuck Noll",
   "compliance": {
     "weekOf": "Week of August 3, 2026",
     "metrics": [
