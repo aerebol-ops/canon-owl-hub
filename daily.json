@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-09",
-  "week": 8,
-  "day": 5,
-  "openingMessage": "No one's ever drowned in sweat.",
+  "date": "2026-08-10",
+  "week": 9,
+  "day": 1,
+  "openingMessage": "In a crisis, don't hide behind anything or anybody. They're going to find you anyway.",
   "openingAttribution": "Bear Bryant",
-  "openingWhy": "Nobody in this field ever got hurt by the second gas test, the extra walk-around, or the re-check that turned out to be unnecessary. That side of the ledger has no casualties. Every name on the other side of it saved himself a little effort.",
+  "openingWhy": "Every incident out here gets rebuilt hour by hour — who read what, who said what, who signed what. The truth comes out on location or it comes out in the investigation. Only one of those versions is yours to be proud of. Call it in straight, the minute it happens.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -235,41 +235,41 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Before you leave today: What is one thing I can improve before I drive away? Not because someone is watching. Because excellence is a habit. And habits become character.",
+  "leadershipThought": "Precision is not perfectionism. It's doing the right thing in the right order before the ground opens up. The locate flag tells you where to look — your eyes and hands tell you what's actually there.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>During the bleed-down of the well, MT exercised its stop work authority due</strong> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>During the bleed-down of the well, MT exercised its stop work authority due to a change in</span><br><br><strong>Stop Work Authority Exercised — Unsafe Man Basket Operations</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>Man basket work is one of the highest-risk lift operations on an oil and gas site — Stop Work Authority before elevation is always the right call when anything about the setup looks wrong.</span><br><br><strong>Positive Observation — LOTO Disconnect Completed Efficiently</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>LOTO, atmospheric testing, and hold points together form a complete energy control system — don't shortcut any one of them, even on a quick job.</span><br><br><strong>Stop Work by Equipment Operator — Spotter Lost Visual</strong> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Equipment operators own Stop Work Authority too — stop the moment you lose your spotter; regaining visual contact is the only acceptable restart condition.</span><br><br><strong>Crane Work — Horse Head Installation and Flowline Connection</strong> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Crane work demands real-time stop work authority — if anything changes during the lift, the person on the ground is empowered to call the stop immediately.</span>",
+  "exxonMoments": "<strong>Had everyone that was breaking containment mask up before breaking containm</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Had everyone that was breaking containment mask up before breaking containment</span><br><br><strong>HS levels were monitored throughout the disconnect, proper PPE was used, an</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>HS levels were monitored throughout the disconnect, proper PPE was used, and the crew</span><br><br><strong>Everyone on location had good communication and helped each other out</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone on location had good communication and helped each other out</span><br><br><strong>Good communication between the crew and safety, proper PPE was used, and th</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Good communication between the crew and safety, proper PPE was used, and the</span><br><br><strong>The reconnect of the flow line went really well with no problems at all</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The reconnect of the flow line went really well with no problems at all</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jose Hurtado — Crew used PPE for work done",
-      "detail": "Crew used PPE for work done",
+      "headline": "Alfredo Vaquera — Great communication between all personnel",
+      "detail": "Great communication between all personnel",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Pablo Soto — on the OWL board",
-      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-08-06. That consistency is the habit.",
+      "headline": "Ralph Forbes — Caught a valve that wasn't locked out that should of been",
+      "detail": "Caught a valve that wasn't locked out that should of been",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons — It wasn't all the way closed",
-      "detail": "Did we leave the location better Yes.",
+      "headline": "Anthony Scott — Everything from safety meeting to job task",
+      "detail": "Everything from safety meeting to job task.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — HS levels were monitored throughout the disconnect, proper PPE was used, an",
-      "detail": "HS levels were monitored throughout the disconnect, proper PPE was used, and the crew",
+      "headline": "Hayden Haugh — People stayed out of the exclusion zones, crews worked together",
+      "detail": "People stayed out of the exclusion zones, crews worked together",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Rolando Flores — Had everyone that was breaking containment mask up before breaking containm",
+      "detail": "Had everyone that was breaking containment mask up before breaking containment",
       "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Jeremy Norris — everyone was making sure to not only keep themselves hydrated but those aro",
-      "detail": "Did we leave the location better.",
-      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
@@ -279,8 +279,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Today's job is probably ordinary. Do the ordinary at a champion's level: the routine bleed-down, the routine cal, the routine form — better than anyone else in the Basin.",
-  "todaysChallengeSubtext": "“Champions are champions not because they do anything extraordinary but because they do the ordinary things better than anyone else.” — Chuck Noll",
+  "todaysChallenge": "Something will not go to plan today. Decide now what your response looks like: calm, by the numbers, communicated early. Control the controllables.",
+  "todaysChallengeSubtext": "“You can't always control circumstances. However, you can always control your attitude, approach, and response.” — Tony Dungy",
   "compliance": {
     "weekOf": "Week of August 3, 2026",
     "metrics": [
