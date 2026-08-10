@@ -1,0 +1,15 @@
+{
+  "name": "SM Maintenance Dispatch & LOE Accrual — Canon Safety",
+  "short_name": "SM Dispatch",
+  "description": "Working demo: Canon Safety dispatches SM maintenance work cost-coded at birth, prices tickets from MSA rates, and accrues LOE same-day.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#141F38",
+  "background_color": "#F5F7FA",
+  "icons": [
+    { "src": "../icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "../icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "../icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

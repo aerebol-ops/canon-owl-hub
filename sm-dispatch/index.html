@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>SM Maintenance Dispatch &amp; LOE Accrual — DEMO</title>
+<meta name="theme-color" content="#141F38">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SM Dispatch">
+<meta name="application-name" content="SM Dispatch">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="../icons/icon-192.png">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<style>
+:root{
+  --navy:#141F38; --navy2:#1B2A4A; --navy3:#24365C; --red:#C8102E; --slate:#B9C6DE;
+  --ink:#1B2A4A; --body:#3A4456; --muted:#5A6B85; --line:#DDE4EF; --light:#EEF2F8;
+  --paper:#F5F7FA; --card:#FFFFFF; --green:#1E8E3E; --greenbg:#E6F4EA;
+  --amber:#B7791F; --amberbg:#FBF0DA; --blue:#1C63C9; --bluebg:#E8F0FD;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;color:var(--ink);background:var(--paper);font-size:14px}
+button{font-family:inherit;cursor:pointer}
+input,select,textarea{font-family:inherit;font-size:13px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:7px;padding:7px 9px;width:100%}
+input:focus,select:focus,textarea:focus{outline:2px solid rgba(200,16,46,.25);border-color:var(--red)}
+label{display:block;font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--muted);margin:0 0 4px}
+
+/* ── header ─────────────────────────────────────────── */
+.head{background:linear-gradient(135deg,var(--navy),var(--navy3));color:#fff;padding:14px 22px;position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.head h1{margin:0;font-size:17px;font-weight:700;letter-spacing:.2px}
+.head .sub{font-size:10.5px;opacity:.75;letter-spacing:.8px;text-transform:uppercase;margin-top:3px}
+.hbtns{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.pill{padding:4px 12px;border-radius:20px;font-size:11.5px;font-weight:700;letter-spacing:.3px}
+.pill-date{background:rgba(255,255,255,.16);color:#fff}
+.btn{border:none;border-radius:8px;font-weight:700;font-size:12.5px;padding:8px 16px}
+.btn-red{background:var(--red);color:#fff}
+.btn-red:hover{filter:brightness(1.12)}
+.btn-ghost{background:rgba(255,255,255,.14);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.24)}
+.btn-line{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.btn-line:hover{background:var(--light)}
+.btn-navy{background:var(--navy2);color:#fff}
+.btn-navy:hover{filter:brightness(1.2)}
+.btn[disabled]{opacity:.45;cursor:default;filter:none}
+.tabs{display:flex;gap:8px;margin-top:9px}
+.tab{color:#fff;font-size:12px;font-weight:700;padding:5px 15px;border-radius:16px;background:rgba(255,255,255,.13);border:none}
+.tab.on{background:#fff;color:var(--navy)}
+
+/* ── demo banner ────────────────────────────────────── */
+.simnote{margin:12px 22px 0;max-width:1500px;background:var(--amberbg);color:var(--amber);border:1px solid rgba(183,121,31,.35);border-radius:8px;padding:8px 14px;font-size:12.5px;font-weight:600}
+.simnote b{letter-spacing:.4px}
+
+/* ── layout ─────────────────────────────────────────── */
+.main{display:flex;gap:18px;padding:14px 22px 60px;max-width:1522px;align-items:flex-start}
+.left{flex:1 1 auto;min-width:0}
+.rail{flex:0 0 315px;position:sticky;top:76px}
+@media(max-width:980px){.main{flex-direction:column}.rail{position:static;flex:1 1 auto;width:100%}}
+.panel{display:none}
+.panel.on{display:block}
+.card{background:var(--card);border:1px solid var(--line);border-radius:11px;box-shadow:0 1px 2px rgba(20,31,56,.05)}
+.card h2{font-size:14px;margin:0;padding:13px 16px;border-bottom:1px solid var(--line);letter-spacing:.2px}
+.card h2 .tag{font-size:10px;font-weight:800;color:var(--red);letter-spacing:.6px;margin-left:8px}
+.pad{padding:14px 16px}
+
+/* ── dispatch form ──────────────────────────────────── */
+.formgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px 12px}
+.formgrid .w2{grid-column:span 2}
+.formgrid .w4{grid-column:span 4}
+@media(max-width:1200px){.formgrid{grid-template-columns:repeat(2,1fr)}.formgrid .w2,.formgrid .w4{grid-column:span 2}}
+.cc-ok{color:var(--green);font-size:11px;font-weight:700;margin-top:3px}
+.cc-bad{color:var(--red);font-size:11px;font-weight:700;margin-top:3px}
+.formfoot{display:flex;justify-content:space-between;align-items:center;margin-top:12px;gap:10px;flex-wrap:wrap}
+.formfoot .hint{color:var(--muted);font-size:11.5px}
+
+/* ── jobs table ─────────────────────────────────────── */
+.tblwrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%}
+th,td{text-align:left;padding:8px 10px;font-size:12.5px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--navy);color:#fff;font-weight:600;text-transform:uppercase;font-size:10px;letter-spacing:.5px;position:sticky;top:0}
+tbody tr:last-child td{border-bottom:none}
+tbody tr.sel td{background:var(--light)}
+tbody tr{cursor:pointer}
+tbody tr:hover td{background:var(--paper)}
+td.money,th.money{text-align:right;font-variant-numeric:tabular-nums}
+td.tkt{font-weight:800;color:var(--navy2)}
+td.lease{font-weight:700}
+td.scope{white-space:normal;min-width:180px;max-width:340px;color:var(--body)}
+.chip{display:inline-block;padding:2.5px 10px;border-radius:12px;font-size:10px;font-weight:800;letter-spacing:.4px}
+.st-DISPATCHED{background:var(--light);color:var(--navy2)}
+.st-CONFIRMED{background:var(--bluebg);color:var(--blue)}
+.st-CLOSED{background:var(--amberbg);color:var(--amber)}
+.st-ACCRUED{background:var(--greenbg);color:var(--green)}
+
+/* ── job detail drawer ──────────────────────────────── */
+.drawer{border-top:3px solid var(--red)}
+.dtitle{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.dmsg{background:var(--light);border-radius:9px;padding:10px 12px;font-size:12px;line-height:1.5;white-space:pre-wrap;color:var(--ink)}
+.dmsg b{color:var(--navy2)}
+.reply textarea{min-height:64px;font-size:12.5px}
+.parse{margin-top:10px;border:1px dashed var(--line);border-radius:9px;padding:10px 12px}
+.parse .pt{font-size:10px;font-weight:800;letter-spacing:.5px;color:var(--muted);text-transform:uppercase;margin-bottom:6px}
+.pline{display:flex;justify-content:space-between;font-size:12.5px;padding:3px 0;font-variant-numeric:tabular-nums}
+.pline .amt{font-weight:700}
+.pline.tot{border-top:1px solid var(--line);margin-top:5px;padding-top:7px;font-weight:800}
+.pline.tot .amt{color:var(--red);font-size:14px}
+.dact{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+
+/* ── rates ──────────────────────────────────────────── */
+.rates td input{width:110px;text-align:right;font-variant-numeric:tabular-nums;font-weight:700}
+.ratenote{color:var(--muted);font-size:12px;padding:10px 16px;line-height:1.5;border-top:1px solid var(--line)}
+
+/* ── ledger ─────────────────────────────────────────── */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}
+@media(max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:13px 15px}
+.stat .v{font-size:24px;font-weight:800;color:var(--red);font-variant-numeric:tabular-nums}
+.stat .l{font-size:10px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--muted);margin-top:3px}
+.classrow{display:flex;gap:10px;padding:12px 16px;border-top:1px solid var(--line);flex-wrap:wrap}
+.classbox{flex:1;background:var(--light);border-radius:9px;padding:9px 13px;min-width:130px}
+.classbox .v{font-weight:800;font-variant-numeric:tabular-nums}
+.classbox .l{font-size:10px;font-weight:700;letter-spacing:.4px;color:var(--muted);text-transform:uppercase}
+.ledgeract{display:flex;gap:8px;padding:12px 16px;border-top:1px solid var(--line);flex-wrap:wrap;align-items:center}
+.ledgeract .note{color:var(--muted);font-size:11.5px}
+
+/* ── digest email preview ───────────────────────────── */
+.email{border:1px solid var(--line);border-radius:11px;overflow:hidden;margin-top:14px;background:var(--card)}
+.ehead{background:var(--light);padding:11px 16px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.ehead .from{color:var(--muted);font-size:12px}
+.ehead .subj{font-weight:800;font-size:14px;margin-top:3px}
+.ehead .meta{text-align:right;font-size:11px;color:var(--muted)}
+.ehead .meta .s{color:var(--red);font-weight:800;letter-spacing:.4px}
+.ebody{padding:6px 16px 14px}
+.echip{display:inline-flex;align-items:center;gap:7px;background:var(--light);border-radius:16px;padding:6px 14px;font-size:11.5px;font-weight:700;color:var(--navy2);margin-top:10px;border:none}
+.echip:hover{background:var(--line)}
+.eclass{color:var(--muted);font-size:12px;margin-top:9px}
+
+/* ── phone rail ─────────────────────────────────────── */
+.phone{background:var(--navy);border-radius:22px;padding:10px;box-shadow:0 6px 20px rgba(20,31,56,.25)}
+.screen{background:#fff;border-radius:15px;height:430px;display:flex;flex-direction:column;overflow:hidden}
+.ptitle{text-align:center;font-weight:800;font-size:12px;padding:9px 10px 7px;border-bottom:1px solid var(--line)}
+.ptitle .n{color:var(--muted);font-weight:600;font-size:9.5px;letter-spacing:.5px;text-transform:uppercase;margin-top:1px}
+.msgs{flex:1;overflow-y:auto;padding:10px 10px 12px;display:flex;flex-direction:column;gap:7px}
+.bub{max-width:86%;border-radius:12px;padding:7px 10px;font-size:11px;line-height:1.45;white-space:pre-wrap;animation:pop .25s ease}
+.bub.in{background:var(--light);color:var(--ink);align-self:flex-start;border-bottom-left-radius:4px}
+.bub.out{background:var(--navy2);color:#fff;align-self:flex-end;border-bottom-right-radius:4px}
+.bub .t{display:block;font-size:9px;opacity:.6;margin-top:3px;font-variant-numeric:tabular-nums}
+.bub b{font-weight:800}
+@keyframes pop{from{transform:translateY(6px);opacity:0}to{transform:none;opacity:1}}
+.raillab{font-size:10px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);margin:14px 2px 6px}
+.feed{background:var(--card);border:1px solid var(--line);border-radius:11px;max-height:240px;overflow-y:auto;padding:8px 12px}
+.fline{font-size:11.5px;padding:4px 0;border-bottom:1px dashed var(--line);color:var(--body);line-height:1.4}
+.fline:last-child{border-bottom:none}
+.fline .ft{font-weight:800;color:var(--navy2);font-variant-numeric:tabular-nums;margin-right:6px}
+.fline.hi{color:var(--red);font-weight:700}
+.foot{color:var(--muted);font-size:11px;text-align:center;padding:16px;border-top:1px solid var(--line);line-height:1.6;max-width:1100px;margin:0 auto}
+</style>
+</head>
+<body>
+
+<div class="head">
+  <div>
+    <h1>Canon Safety — SM Maintenance Dispatch</h1>
+    <div class="sub">LOE accrual system &middot; working demo &middot; sample data</div>
+    <div class="tabs">
+      <button class="tab on" data-tab="board" onclick="showTab('board')">Dispatch board</button>
+      <button class="tab" data-tab="rates" onclick="showTab('rates')">Rate sheet</button>
+      <button class="tab" data-tab="ledger" onclick="showTab('ledger')">LOE ledger</button>
+    </div>
+  </div>
+  <div class="hbtns">
+    <span class="pill pill-date">DEMO DAY &middot; FRI AUG 14, 2026</span>
+    <button class="btn btn-red" id="playBtn" onclick="playDay()">&#9654;&nbsp; Play a demo day</button>
+    <button class="btn btn-ghost" onclick="resetDemo(true)">Reset</button>
+  </div>
+</div>
+
+<div class="simnote"><b>DEMO&nbsp;&middot;&nbsp;</b> Crew texts and SM emails are simulated on-screen. In production, dispatches go out through the SMS gateway and dispatch@csrhigroup.com — the same engine that runs our live Permian dispatch board today.</div>
+
+<div class="main">
+  <div class="left">
+
+    <!-- ══ BOARD ══ -->
+    <div class="panel on" id="panel-board">
+      <div class="card" style="margin-bottom:14px">
+        <h2>New dispatch <span class="tag">COST CODE REQUIRED AT BIRTH</span></h2>
+        <div class="pad">
+          <div class="formgrid">
+            <div class="w2">
+              <label>Route / lease</label>
+              <select id="fLease"></select>
+            </div>
+            <div>
+              <label>Job type</label>
+              <select id="fType">
+                <option>Flowline repair</option><option>Pumping unit service</option>
+                <option>Stuffing box / packing</option><option>Road &amp; location work</option>
+                <option>Fencing, berms &amp; signage</option><option>Tank battery work</option><option>Other</option>
+              </select>
+            </div>
+            <div>
+              <label>Priority</label>
+              <select id="fPrio"><option>Routine</option><option>Priority</option><option>Emergency</option></select>
+            </div>
+            <div class="w4">
+              <label>Scope (goes on the work order verbatim)</label>
+              <input id="fScope" placeholder="e.g. Replace 40 ft 2&quot; poly at pump house, pressure test before leaving">
+            </div>
+            <div>
+              <label>Window — date</label>
+              <input id="fDate" value="Tue 8/18">
+            </div>
+            <div>
+              <label>Window — time</label>
+              <input id="fTime" value="07:00–15:00">
+            </div>
+            <div>
+              <label>Crew (sample contractors)</label>
+              <select id="fCrew">
+                <option>Caprock Roustabout — Crew 3</option>
+                <option>Mesa Field Services — Crew 1</option>
+                <option>Llano Maintenance — Crew 2</option>
+              </select>
+            </div>
+            <div>
+              <label>Cost code (10-digit)</label>
+              <input id="fCC" maxlength="10" inputmode="numeric" placeholder="1950148279">
+              <div id="ccMsg"></div>
+            </div>
+          </div>
+          <div class="formfoot">
+            <span class="hint">Cost code is validated <i>before</i> the crew rolls — the number every dollar of this job will accrue to.</span>
+            <button class="btn btn-red" id="dispatchBtn" onclick="manualDispatch()">Dispatch job &nbsp;&rarr;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Today&rsquo;s board — Fri Aug 14 <span class="tag" id="boardCount"></span></h2>
+        <div class="tblwrap">
+          <table>
+            <thead><tr><th>TKT</th><th>Route / lease</th><th>Scope</th><th>Crew</th><th>Window</th><th>Status</th><th class="money">Accrued</th></tr></thead>
+            <tbody id="jobsBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card drawer" id="drawer" style="display:none;margin-top:14px">
+        <h2 class="dtitle"><span id="dTkt"></span><button class="btn btn-line" onclick="closeDrawer()">Close</button></h2>
+        <div class="pad">
+          <label>Work order — sent as text + email to the crew</label>
+          <div class="dmsg" id="dMsg"></div>
+          <div id="dReplyWrap" class="reply" style="margin-top:12px">
+            <label>Crew close-out reply (editable — this is what the parser reads)</label>
+            <textarea id="dReply"></textarea>
+            <div class="dact">
+              <button class="btn btn-navy" id="dConfirmBtn" onclick="simConfirm()">Simulate crew confirm</button>
+              <button class="btn btn-red" id="dCloseBtn" onclick="simCloseout()">Parse close-out &amp; price</button>
+            </div>
+          </div>
+          <div id="dParse"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ RATES ══ -->
+    <div class="panel" id="panel-rates">
+      <div class="card">
+        <h2>MSA rate sheet <span class="tag">SAMPLE RATES</span></h2>
+        <div class="tblwrap rates">
+          <table>
+            <thead><tr><th>Line item</th><th>Unit</th><th class="money">Rate</th></tr></thead>
+            <tbody id="ratesBody"></tbody>
+          </table>
+        </div>
+        <div class="ratenote">In production these load once from the MSA rate sheets SM has already approved — then every ticket prices identically, automatically. Edits here apply to the next tickets priced in this demo. Mileage is on the sheet but unused in today&rsquo;s sample jobs.</div>
+      </div>
+    </div>
+
+    <!-- ══ LEDGER ══ -->
+    <div class="panel" id="panel-ledger">
+      <div class="stats" id="ledgerStats"></div>
+      <div class="card">
+        <h2>Accrual ledger — by route / lease <span class="tag">MONTH-TO-DATE AUG 2026</span></h2>
+        <div class="tblwrap">
+          <table>
+            <thead><tr><th>Route / lease</th><th>Cost code</th><th class="money">Jobs today</th><th class="money">Today</th><th class="money">MTD</th></tr></thead>
+            <tbody id="ledgerBody"></tbody>
+          </table>
+        </div>
+        <div class="classrow" id="classRow"></div>
+        <div class="ledgeract">
+          <button class="btn btn-red" onclick="genDigest()">Generate 6:00 PM digest &rarr;</button>
+          <button class="btn btn-line" onclick="downloadCSV()">Download month-end CSV</button>
+          <span class="note">The digest goes to the SM recipient list every working day at 6:00 PM. The CSV carries ticket-level backup for accounting.</span>
+        </div>
+      </div>
+      <div id="digestWrap"></div>
+    </div>
+  </div>
+
+  <!-- ══ RAIL ══ -->
+  <div class="rail">
+    <div class="phone">
+      <div class="screen">
+        <div class="ptitle">Field line<div class="n">Simulated &middot; crews text this number</div></div>
+        <div class="msgs" id="msgs"></div>
+      </div>
+    </div>
+    <div class="raillab">Activity — what the system did on its own</div>
+    <div class="feed" id="feed"></div>
+  </div>
+</div>
+
+<div class="foot">
+  Canon Safety / RHI Group &middot; SM Maintenance Dispatch &amp; LOE Accrual — working demonstration &middot; all leases real, all dollars &amp; rates <b>sample</b><br>
+  Production build: SMS gateway + dispatch@csrhigroup.com outbound &middot; parsing &amp; board engine already proven on our live Permian dispatch board &middot; nothing for SM to install
+</div>
+
+<script>
+'use strict';
+/* ════════════════════ data ════════════════════ */
+const LEASES = {
+  'Calverly B Reed':      {cc:'1950148279'},
+  'Junior Mint':          {cc:'1950127403'},
+  'Seinfeld Federal Unit':{cc:'1950119802'},
+  'First Tee':            {cc:'1950130914'},
+  'TB Christi 9018':      {cc:'1950122860'},
+};
+const RATE_DEFS = [
+  {k:'hand',    label:'Roustabout labor — per hand', unit:'$/hr',  v:79},
+  {k:'backhoe', label:'Backhoe with operator',       unit:'$/day', v:450},
+  {k:'winch',   label:'Winch truck',                 unit:'$/hr',  v:135},
+  {k:'trencher',label:'Trencher',                    unit:'$/day', v:380},
+  {k:'weldrig', label:'Welding rig',                 unit:'$/hr',  v:115},
+  {k:'markup',  label:'Materials markup',            unit:'%',     v:15},
+  {k:'mileage', label:'Mileage',                     unit:'$/mi',  v:1.50},
+];
+/* history tickets (Aug 1–13) — cents-exact so MTD ties to the pitch deck */
+const HISTORY = [
+  {d:'8/3', t:100702, lease:'Junior Mint',           scope:'Flowline replacement — 120 ft',            crew:'Caprock Roustabout — Crew 3', L:126400, E:45000,  M:40200},
+  {d:'8/4', t:100703, lease:'Calverly B Reed',       scope:'Pumping unit gearbox oil & belts',         crew:'Mesa Field Services — Crew 1', L:94800,  E:0,      M:12010},
+  {d:'8/4', t:100704, lease:'Seinfeld Federal Unit', scope:'Location caliche & regrade',               crew:'Llano Maintenance — Crew 2',  L:63200,  E:90000,  M:40101},
+  {d:'8/5', t:100705, lease:'Junior Mint',           scope:'Tank battery berm & containment',          crew:'Caprock Roustabout — Crew 3', L:118500, E:125000, M:9600},
+  {d:'8/6', t:100706, lease:'First Tee',             scope:'Road washout & culvert set',               crew:'Llano Maintenance — Crew 2',  L:63200,  E:85000,  M:77300},
+  {d:'8/7', t:100707, lease:'Seinfeld Federal Unit', scope:'Header valve replacement',                 crew:'Mesa Field Services — Crew 1', L:94800,  E:27000,  M:30800},
+  {d:'8/8', t:100708, lease:'Calverly B Reed',       scope:'Cattleguard & gate repair',                crew:'Caprock Roustabout — Crew 3', L:94800,  E:45000,  M:17000},
+  {d:'8/9', t:100709, lease:'TB Christi 9018',       scope:'Fence & H2S signage replacement',          crew:'Llano Maintenance — Crew 2',  L:66000,  E:50000,  M:110000},
+  {d:'8/10',t:100710, lease:'Junior Mint',           scope:'Pumping unit set & align — crane assist',  crew:'Mesa Field Services — Crew 1', L:158000, E:120000, M:18000},
+  {d:'8/11',t:100711, lease:'Seinfeld Federal Unit', scope:'Firewall berm cleanup',                    crew:'Llano Maintenance — Crew 2',  L:63200,  E:90000,  M:15000},
+  {d:'8/12',t:100712, lease:'Junior Mint',           scope:'Polish rod & packing',                     crew:'Mesa Field Services — Crew 1', L:79000,  E:0,      M:15000},
+];
+/* scripted demo day — dispatches then close-outs; replies are parsed by the same parser manual jobs use */
+const DAY = [
+  {at:'06:12', type:'note',  text:'Foreman J. Ramirez (SM) calls the line: flowline leak at Calverly B Reed pump house — needs repair.', hi:false},
+  {at:'06:15', type:'job',   tkt:100713, lease:'Calverly B Reed', jtype:'Flowline repair', prio:'Priority',
+    scope:'Flowline repair at pump house — replace 40 ft 2" poly, pressure test', crew:'Caprock Roustabout — Crew 3',
+    date:'Fri 8/14', time:'07:00–15:00', h2s:'monitor required'},
+  {at:'06:17', type:'confirm', tkt:100713, text:'YES — Crew 3 rolling 06:45'},
+  {at:'07:02', type:'job',   tkt:100714, lease:'Junior Mint', jtype:'Pumping unit service', prio:'Routine',
+    scope:'Pumping unit belts & brake band — unit 12', crew:'Mesa Field Services — Crew 1',
+    date:'Fri 8/14', time:'08:00–16:00', h2s:'clear — last reading 0 ppm'},
+  {at:'07:04', type:'confirm', tkt:100714, text:'YES — Crew 1 en route'},
+  {at:'08:40', type:'job',   tkt:100715, lease:'Junior Mint', jtype:'Other', prio:'Routine',
+    scope:'Reset guy-line anchors — unit 7', crew:'Mesa Field Services — Crew 1',
+    date:'Fri 8/14', time:'13:00–17:00', h2s:'clear — last reading 0 ppm'},
+  {at:'08:41', type:'confirm', tkt:100715, text:'YES — after unit 12'},
+  {at:'10:15', type:'job',   tkt:100716, lease:'Seinfeld Federal Unit', jtype:'Stuffing box / packing', prio:'Priority',
+    scope:'Stuffing box leak — repack, replace gasket, clean cellar', crew:'Llano Maintenance — Crew 2',
+    date:'Fri 8/14', time:'11:00–16:00', h2s:'monitor required'},
+  {at:'10:17', type:'confirm', tkt:100716, text:'YES — Crew 2 rolling'},
+  {at:'10:48', type:'job',   tkt:100717, lease:'TB Christi 9018', jtype:'Road & location work', prio:'Routine',
+    scope:'Regrade road washout at cattleguard, set caliche', crew:'Caprock Roustabout — Crew 3',
+    date:'Fri 8/14', time:'12:00–17:00', h2s:'clear'},
+  {at:'10:49', type:'confirm', tkt:100717, text:'YES — backhoe on the float'},
+  {at:'13:38', type:'close', tkt:100714, reply:'DONE 100714 — 2 hands 8 hr, winch truck 2 hr, mat $135.65 — belts & brake band, photos attached'},
+  {at:'15:05', type:'close', tkt:100715, reply:'DONE 100715 — 2 hands 6 hr, mat $219.13 — anchors & cable'},
+  {at:'15:52', type:'close', tkt:100716, reply:'DONE 100716 — 2 hands 5 hr, mat $130.43 — packing & gasket set'},
+  {at:'16:44', type:'close', tkt:100717, reply:'DONE 100717 — 1 hand 8 hr, backhoe 1 day, mat $111.30 — culvert & caliche'},
+  {at:'17:21', type:'close', tkt:100713, reply:'DONE 100713 — 2 hands 6.5 hr, backhoe 1 day, mat $86.00 — 40 ft 2" poly + fittings, photos attached'},
+  {at:'18:00', type:'digest'},
+];
+
+/* ════════════════════ state ════════════════════ */
+let jobs = [], rates = {}, nextTkt = 100713, selTkt = null, playing = false, playTimer = null;
+
+function seed(){
+  jobs = []; selTkt = null; nextTkt = 100713;
+  rates = {}; RATE_DEFS.forEach(r => rates[r.k] = r.v);
+  document.getElementById('msgs').innerHTML = '';
+  document.getElementById('feed').innerHTML = '';
+  document.getElementById('digestWrap').innerHTML = '';
+  closeDrawer();
+  feed('—', 'Board reset — 11 accrued tickets on the August ledger (Aug 3–12), none yet today.', false);
+}
+
+/* ════════════════════ money helpers (cents-exact) ════════════ */
+const fmt$ = c => '$' + (c/100).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmt$0 = c => '$' + Math.round(c/100).toLocaleString('en-US');
+const matPriced = baseCents => Math.round(baseCents * (100 + rates.markup) / 100);
+
+/* ════════════════════ parser — the same engine for scripted & manual replies ════ */
+function parseReply(text){
+  const items = [];
+  let m;
+  const hands = [...text.matchAll(/(\d+)\s*hands?\s*(?:x|×)?\s*([\d.]+)\s*(?:hrs?|hours?)/gi)];
+  hands.forEach(h=>{
+    const n=+h[1], hrs=+h[2], cents=Math.round(n*hrs*rates.hand*100);
+    items.push({cls:'L', desc:`Roustabout labor — ${n} hand${n>1?'s':''} × ${hrs} hr @ $${rates.hand}/hr`, cents});
+  });
+  if(m=text.match(/backhoe\s*([\d.]+)\s*day/i)) items.push({cls:'E', desc:`Backhoe with operator — ${+m[1]} day @ $${rates.backhoe}/day`, cents:Math.round(+m[1]*rates.backhoe*100)});
+  if(m=text.match(/winch(?:\s*truck)?\s*([\d.]+)\s*hr/i)) items.push({cls:'E', desc:`Winch truck — ${+m[1]} hr @ $${rates.winch}/hr`, cents:Math.round(+m[1]*rates.winch*100)});
+  if(m=text.match(/trencher\s*([\d.]+)\s*day/i)) items.push({cls:'E', desc:`Trencher — ${+m[1]} day @ $${rates.trencher}/day`, cents:Math.round(+m[1]*rates.trencher*100)});
+  if(m=text.match(/weld(?:ing)?\s*rig\s*([\d.]+)\s*hr/i)) items.push({cls:'E', desc:`Welding rig — ${+m[1]} hr @ $${rates.weldrig}/hr`, cents:Math.round(+m[1]*rates.weldrig*100)});
+  if(m=text.match(/mat(?:erials?)?\s*\$?\s*([\d,]+(?:\.\d{1,2})?)/i)){
+    const base = Math.round(parseFloat(m[1].replace(/,/g,''))*100);
+    const after = text.slice(m.index).match(/—\s*([^,]+?)(?:,|$)/);
+    items.push({cls:'M', desc:`Materials — ${after?after[1].trim():'per supply ticket'}, cost + ${rates.markup}%`, cents:matPriced(base)});
+  }
+  return items;
+}
+
+/* ════════════════════ UI plumbing ════════════════════ */
+function showTab(t){
+  document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('on', b.dataset.tab===t));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('on', p.id==='panel-'+t));
+  if(t==='ledger') renderLedger();
+  if(t==='rates') renderRates();
+}
+function bubble(dir, text, at){
+  const d = document.createElement('div');
+  d.className = 'bub ' + dir;
+  d.innerHTML = text.replace(/\n/g,'<br>') + `<span class="t">${at}</span>`;
+  const box = document.getElementById('msgs');
+  box.appendChild(d); box.scrollTop = box.scrollHeight;
+}
+function feed(at, text, hi){
+  const d = document.createElement('div');
+  d.className = 'fline' + (hi?' hi':'');
+  d.innerHTML = `<span class="ft">${at}</span>${text}`;
+  const box = document.getElementById('feed');
+  box.appendChild(d); box.scrollTop = box.scrollHeight;
+}
+function chipFor(st){
+  const lab = {DISPATCHED:'DISPATCHED', CONFIRMED:'CONFIRMED', CLOSED:'CLOSED OUT', ACCRUED:'ACCRUED ✓'}[st];
+  return `<span class="chip st-${st}">${lab}</span>`;
+}
+function renderBoard(){
+  const tb = document.getElementById('jobsBody');
+  tb.innerHTML = jobs.map(j=>`
+    <tr class="${j.tkt===selTkt?'sel':''}" onclick="openDrawer(${j.tkt})">
+      <td class="tkt">${j.tkt}</td><td class="lease">${j.lease}</td>
+      <td class="scope">${j.scope}</td><td>${j.crew}</td>
+      <td>${j.date} · ${j.time}</td><td>${chipFor(j.status)}</td>
+      <td class="money">${j.status==='ACCRUED'?'<b>'+fmt$(j.total)+'</b>':'—'}</td>
+    </tr>`).join('') || '<tr><td colspan="7" style="color:var(--muted)">No dispatches yet today — use the form above, or hit ▶ Play a demo day.</td></tr>';
+  const open = jobs.filter(j=>j.status!=='ACCRUED').length;
+  document.getElementById('boardCount').textContent = jobs.length ? `${jobs.length} JOBS · ${open} OPEN` : '';
+}
+function woText(j){
+  return `<b>CANON DISPATCH · TKT ${j.tkt}</b>\n<b>SM MAINT — ${j.lease.toUpperCase()}</b>\n${j.scope}\nWindow: ${j.date} · ${j.time}\nCost code: ${j.cc} · ${j.prio.toUpperCase()}\nH2S: ${j.h2s} · JSA on arrival\nSM contact: J. Ramirez · 432-555-0147\nReply YES to confirm · reply DONE ${j.tkt} + hours/equipment/materials at close-out`;
+}
+
+/* ════════════════════ job lifecycle (shared by manual & scripted) ═══════ */
+function createJob(o, at){
+  const j = {tkt:o.tkt, lease:o.lease, jtype:o.jtype, prio:o.prio||'Routine', scope:o.scope, crew:o.crew,
+             date:o.date, time:o.time, cc:LEASES[o.lease].cc, h2s:o.h2s||'clear', status:'DISPATCHED',
+             items:[], total:0, L:0, E:0, M:0};
+  jobs.push(j);
+  nextTkt = Math.max(nextTkt, o.tkt+1);
+  bubble('in', woText(j), at);
+  feed(at, `TKT ${j.tkt} dispatched — text + email to ${j.crew} · cost code ${j.cc} validated ✓`, false);
+  renderBoard();
+  return j;
+}
+function confirmJob(tkt, text, at){
+  const j = jobs.find(x=>x.tkt===tkt); if(!j) return;
+  j.status = 'CONFIRMED';
+  bubble('out', text, at);
+  feed(at, `TKT ${tkt} confirmed by crew.`, false);
+  renderBoard(); if(selTkt===tkt) openDrawer(tkt);
+}
+function closeoutJob(tkt, reply, at){
+  const j = jobs.find(x=>x.tkt===tkt); if(!j) return null;
+  const items = parseReply(reply);
+  if(!items.length){ return {err:'Parser found no line items — needs e.g. “2 hands 4 hr”, “backhoe 1 day”, “mat $50.00”.'}; }
+  j.items = items;
+  j.total = items.reduce((s,i)=>s+i.cents,0);
+  j.L = items.filter(i=>i.cls==='L').reduce((s,i)=>s+i.cents,0);
+  j.E = items.filter(i=>i.cls==='E').reduce((s,i)=>s+i.cents,0);
+  j.M = items.filter(i=>i.cls==='M').reduce((s,i)=>s+i.cents,0);
+  j.status = 'ACCRUED'; j.reply = reply;
+  bubble('out', reply, at);
+  bubble('in', `Received ✓ TKT ${tkt} priced from MSA rates: ${fmt$(j.total)} — accrued to ${j.lease.toUpperCase()} (${j.cc}). On tonight's 6:00 PM digest.`, at);
+  feed(at, `TKT ${tkt} close-out parsed → priced ${fmt$(j.total)} → accrued to ${j.lease} · ${j.cc}. SM per-job confirmation emailed.`, true);
+  renderBoard(); renderLedger();
+  return j;
+}
+
+/* ════════════════════ drawer (manual interaction) ════════════════ */
+function openDrawer(tkt){
+  selTkt = tkt;
+  const j = jobs.find(x=>x.tkt===tkt); if(!j) return;
+  document.getElementById('drawer').style.display = 'block';
+  document.getElementById('dTkt').innerHTML = `TKT ${j.tkt} — ${j.lease} &nbsp;${chipFor(j.status)}`;
+  document.getElementById('dMsg').innerHTML = woText(j);
+  document.getElementById('dConfirmBtn').disabled = j.status!=='DISPATCHED';
+  document.getElementById('dCloseBtn').disabled = j.status==='ACCRUED';
+  document.getElementById('dReply').value = j.reply ||
+    `DONE ${j.tkt} — 2 hands 4 hr, mat $50.00 — ${j.jtype.toLowerCase()} supplies`;
+  document.getElementById('dParse').innerHTML = j.status==='ACCRUED' ? parseHTML(j) : '';
+  renderBoard();
+  document.getElementById('drawer').scrollIntoView({behavior:'smooth', block:'nearest'});
+}
+function closeDrawer(){ selTkt=null; const d=document.getElementById('drawer'); if(d) d.style.display='none'; renderBoard(); }
+function parseHTML(j){
+  return `<div class="parse"><div class="pt">Parsed &amp; priced — posts to ledger under ${j.cc}</div>` +
+    j.items.map(i=>`<div class="pline"><span>${i.desc}</span><span class="amt">${fmt$(i.cents)}</span></div>`).join('') +
+    `<div class="pline tot"><span>Accrued to ${j.lease.toUpperCase()}</span><span class="amt">${fmt$(j.total)}</span></div></div>`;
+}
+function simConfirm(){ if(selTkt) confirmJob(selTkt, 'YES — crew rolling', nowStr()); }
+function simCloseout(){
+  if(!selTkt) return;
+  const r = closeoutJob(selTkt, document.getElementById('dReply').value.trim(), nowStr());
+  if(r && r.err){ document.getElementById('dParse').innerHTML = `<div class="parse"><div class="pt" style="color:var(--red)">${r.err}</div></div>`; return; }
+  if(r) openDrawer(r.tkt);
+}
+function nowStr(){ const d=new Date(); return String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0'); }
+
+/* ════════════════════ manual dispatch form ════════════════ */
+function manualDispatch(){
+  const lease = document.getElementById('fLease').value;
+  const scope = document.getElementById('fScope').value.trim() || document.getElementById('fType').value;
+  const cc = document.getElementById('fCC').value.trim();
+  if(!/^\d{10}$/.test(cc)){ ccFeedback(); document.getElementById('fCC').focus(); return; }
+  const j = createJob({tkt:nextTkt, lease, jtype:document.getElementById('fType').value,
+    prio:document.getElementById('fPrio').value, scope, crew:document.getElementById('fCrew').value,
+    date:document.getElementById('fDate').value, time:document.getElementById('fTime').value,
+    h2s:'per site status'}, nowStr());
+  document.getElementById('fScope').value='';
+  openDrawer(j.tkt);
+}
+function ccFeedback(){
+  const cc = document.getElementById('fCC').value.trim();
+  const el = document.getElementById('ccMsg');
+  if(!cc){ el.innerHTML=''; return; }
+  el.innerHTML = /^\d{10}$/.test(cc) ? '<div class="cc-ok">✓ format valid — job will accrue here</div>'
+                                     : '<div class="cc-bad">✗ needs 10 digits — dispatch blocked until valid</div>';
+}
+
+/* ════════════════════ rates panel ════════════════════ */
+function renderRates(){
+  document.getElementById('ratesBody').innerHTML = RATE_DEFS.map(r=>`
+    <tr><td>${r.label}</td><td>${r.unit}</td>
+    <td class="money"><input value="${rates[r.k]}" onchange="rates['${r.k}']=parseFloat(this.value)||0"></td></tr>`).join('');
+}
+
+/* ════════════════════ ledger ════════════════════ */
+function routeTotals(){
+  const out = {};
+  Object.keys(LEASES).forEach(l=>out[l]={today:0,jobs:0,mtd:0,L:0,E:0,M:0});
+  HISTORY.forEach(h=>{ const o=out[h.lease]; const tot=h.L+h.E+h.M; o.mtd+=tot; o.L+=h.L; o.E+=h.E; o.M+=h.M; });
+  jobs.filter(j=>j.status==='ACCRUED').forEach(j=>{ const o=out[j.lease]; o.today+=j.total; o.jobs++; o.mtd+=j.total; o.L+=j.L; o.E+=j.E; o.M+=j.M; });
+  return out;
+}
+function renderLedger(){
+  const rt = routeTotals();
+  const leases = Object.keys(LEASES);
+  const today = leases.reduce((s,l)=>s+rt[l].today,0);
+  const mtd = leases.reduce((s,l)=>s+rt[l].mtd,0);
+  const jobsToday = leases.reduce((s,l)=>s+rt[l].jobs,0);
+  const open = jobs.filter(j=>j.status!=='ACCRUED').length;
+  document.getElementById('ledgerStats').innerHTML = [
+    [fmt$0(today),'accrued today'],[fmt$0(mtd),'month-to-date LOE'],
+    [jobsToday,'tickets accrued today'],[open,'open tickets on the board']
+  ].map(x=>`<div class="stat"><div class="v">${x[0]}</div><div class="l">${x[1]}</div></div>`).join('');
+  document.getElementById('ledgerBody').innerHTML = leases.map(l=>`
+    <tr style="cursor:default"><td class="lease">${l}</td><td style="color:var(--muted)">${LEASES[l].cc}</td>
+    <td class="money">${rt[l].jobs||'—'}</td>
+    <td class="money">${rt[l].today?fmt$(rt[l].today):'—'}</td>
+    <td class="money"><b>${fmt$(rt[l].mtd)}</b></td></tr>`).join('') +
+    `<tr style="cursor:default"><td><b>Total — maintenance LOE</b></td><td></td>
+     <td class="money"><b>${jobsToday}</b></td><td class="money"><b>${fmt$(today)}</b></td>
+     <td class="money"><b style="color:var(--red)">${fmt$(mtd)}</b></td></tr>`;
+  const L = leases.reduce((s,l)=>s+rt[l].L,0), E = leases.reduce((s,l)=>s+rt[l].E,0), M = leases.reduce((s,l)=>s+rt[l].M,0);
+  document.getElementById('classRow').innerHTML = [
+    ['Labor',L],['Equipment',E],['Materials + markup',M]
+  ].map(x=>`<div class="classbox"><div class="v">${fmt$0(x[1])}</div><div class="l">${x[0]} · MTD</div></div>`).join('');
+}
+
+/* ════════════════════ digest + CSV ════════════════════ */
+function genDigest(){
+  const rt = routeTotals();
+  const leases = Object.keys(LEASES);
+  const today = leases.reduce((s,l)=>s+rt[l].today,0);
+  const mtd = leases.reduce((s,l)=>s+rt[l].mtd,0);
+  const jobsToday = leases.reduce((s,l)=>s+rt[l].jobs,0);
+  const L = leases.reduce((s,l)=>s+rt[l].L,0), E = leases.reduce((s,l)=>s+rt[l].E,0), M = leases.reduce((s,l)=>s+rt[l].M,0);
+  const rows = leases.map(l=>`
+    <div class="pline"><span>${l}</span><span style="display:inline-flex;gap:26px" class="amt">
+      <span style="min-width:30px;text-align:right;font-weight:400">${rt[l].jobs||'—'}</span>
+      <span style="min-width:70px;text-align:right;font-weight:400">${rt[l].today?fmt$0(rt[l].today):'—'}</span>
+      <span style="min-width:78px;text-align:right">${fmt$0(rt[l].mtd)}</span></span></div>`).join('');
+  document.getElementById('digestWrap').innerHTML = `
+    <div class="email">
+      <div class="ehead">
+        <div><div class="from">From: dispatch@csrhigroup.com &nbsp;·&nbsp; To: SM maintenance recipient list</div>
+        <div class="subj">SM Maintenance — Daily LOE Accrual · Fri Aug 14</div></div>
+        <div class="meta">6:00 PM<br><span class="s">SIMULATED SEND</span></div>
+      </div>
+      <div class="ebody">
+        <div class="pline" style="color:var(--muted);font-size:10.5px;font-weight:800;letter-spacing:.4px">
+          <span>ROUTE / LEASE</span><span style="display:inline-flex;gap:26px">
+          <span style="min-width:30px;text-align:right">JOBS</span><span style="min-width:70px;text-align:right">TODAY</span>
+          <span style="min-width:78px;text-align:right">MTD</span></span></div>
+        ${rows}
+        <div class="pline tot"><span>Total — maintenance LOE</span><span style="display:inline-flex;gap:26px" class="amt">
+          <span style="min-width:30px;text-align:right">${jobsToday}</span>
+          <span style="min-width:70px;text-align:right">${fmt$0(today)}</span>
+          <span style="min-width:78px;text-align:right;color:var(--red)">${fmt$0(mtd)}</span></span></div>
+        <div class="eclass">MTD by class:&nbsp; Labor ${fmt$0(L)} &nbsp;·&nbsp; Equipment ${fmt$0(E)} &nbsp;·&nbsp; Materials ${fmt$0(M)}</div>
+        <button class="echip" onclick="downloadCSV()">\u{1F4CE} sm-maint-accrual-2026-08-14.csv — ticket-level backup</button>
+      </div>
+    </div>`;
+  feed('18:00', `Daily digest emailed to SM maintenance — today ${fmt$0(today)}, MTD ${fmt$0(mtd)}. CSV attached for accounting.`, true);
+  showTab('ledger');
+  document.getElementById('digestWrap').scrollIntoView({behavior:'smooth', block:'nearest'});
+}
+function downloadCSV(){
+  const esc = s => '"' + String(s).replace(/"/g,'""') + '"';
+  const lines = [['Date','Ticket','Route/Lease','Scope','Crew','Labor $','Equipment $','Materials $','Total $','Cost code'].join(',')];
+  HISTORY.forEach(h=>lines.push([h.d, h.t, esc(h.lease), esc(h.scope), esc(h.crew),
+    (h.L/100).toFixed(2), (h.E/100).toFixed(2), (h.M/100).toFixed(2), ((h.L+h.E+h.M)/100).toFixed(2), LEASES[h.lease].cc].join(',')));
+  jobs.filter(j=>j.status==='ACCRUED').forEach(j=>lines.push(['8/14', j.tkt, esc(j.lease), esc(j.scope), esc(j.crew),
+    (j.L/100).toFixed(2), (j.E/100).toFixed(2), (j.M/100).toFixed(2), (j.total/100).toFixed(2), j.cc].join(',')));
+  const rt = routeTotals();
+  const mtd = Object.keys(LEASES).reduce((s,l)=>s+rt[l].mtd,0);
+  lines.push(['','','','','','','','TOTAL MTD',(mtd/100).toFixed(2),''].join(','));
+  const blob = new Blob([lines.join('\r\n')], {type:'text/csv'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = 'sm-maint-accrual-2026-08-14.csv'; a.click();
+  URL.revokeObjectURL(a.href);
+  feed(nowStr(), 'Month-end CSV downloaded — ticket-level accrual backup, Aug 1–14.', false);
+}
+
+/* ════════════════════ demo day player ════════════════════ */
+function playDay(){
+  if(playing){ return; }
+  resetDemo(false);
+  playing = true;
+  const btn = document.getElementById('playBtn');
+  btn.disabled = true; btn.innerHTML = 'Playing…';
+  showTab('board');
+  let i = 0;
+  const step = () => {
+    if(i >= DAY.length){
+      playing = false; btn.disabled = false; btn.innerHTML = '▶  Play a demo day';
+      return;
+    }
+    const e = DAY[i++];
+    if(e.type==='note') feed(e.at, e.text, e.hi);
+    else if(e.type==='job') createJob(e, e.at);
+    else if(e.type==='confirm') confirmJob(e.tkt, e.text, e.at);
+    else if(e.type==='close') closeoutJob(e.tkt, e.reply, e.at);
+    else if(e.type==='digest') genDigest();
+    playTimer = setTimeout(step, e.type==='note'?1900 : e.type==='confirm'?1300 : 2100);
+  };
+  step();
+}
+function resetDemo(announce){
+  if(playTimer) clearTimeout(playTimer);
+  playing = false;
+  const btn = document.getElementById('playBtn');
+  btn.disabled = false; btn.innerHTML = '▶  Play a demo day';
+  seed(); renderBoard(); renderLedger(); renderRates();
+  if(announce) showTab('board');
+}
+
+/* ════════════════════ boot ════════════════════ */
+document.getElementById('fLease').innerHTML = Object.keys(LEASES).map(l=>`<option>${l}</option>`).join('');
+document.getElementById('fLease').onchange = e => { document.getElementById('fCC').value = LEASES[e.target.value].cc; ccFeedback(); };
+document.getElementById('fCC').oninput = ccFeedback;
+document.getElementById('fCC').value = LEASES['Calverly B Reed'].cc;
+ccFeedback();
+resetDemo(false);
+</script>
+</body>
+</html>
