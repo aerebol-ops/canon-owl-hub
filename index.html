@@ -2086,6 +2086,33 @@
     <iframe id="brochure-frame" data-src="./brochure/" title="Canon Safety 2026 Brochure"
             style="width:100%; height:75vh; border:0; border-radius:6px; background:#1F3864;"></iframe>
   </div>
+
+  <!-- ── DRILLING RIG H2S RESPONSE PLAN ── -->
+  <div class="section-label" style="margin-top:24px;">Drilling Rig H2S Response Plan</div>
+
+  <div style="background:#7f1d1d; color:#fff; border-radius:var(--radius); padding:18px; box-shadow:var(--shadow); margin-bottom:14px;">
+    <div style="font-size:19px; font-weight:800; margin-bottom:6px;">&#9888;&#65039; Known H2S Location — The Standard Packet</div>
+    <div style="font-size:14px; opacity:0.92; line-height:1.55;">
+      The 8-page Canon drilling-rig H2S response plan: emergency contacts, entrance flag conditions,
+      alarm setpoints, muster and evacuation, and the response steps that go on the wall at every
+      known-H2S rig. Share it with the company man or a new crew straight from here.
+    </div>
+  </div>
+
+  <a href="./brochure/Canon-Safety-Drilling-Rig-H2S-Response-Plan.pdf" target="_blank" rel="noopener"
+     style="display:block; text-align:center; background:#7f1d1d; color:#fff; border:2px solid var(--gold); border-radius:8px; padding:13px; font-weight:700; text-decoration:none; margin-bottom:10px;">
+    &#128193; Open the Response Plan Full Screen
+  </a>
+  <button onclick="shareResponsePlanPDF(this)"
+     style="display:block; width:100%; text-align:center; background:#fff; color:#7f1d1d; border:2px solid #7f1d1d; border-radius:8px; padding:13px; font-size:16px; font-weight:700; cursor:pointer; margin-bottom:14px;">
+    &#128196; Share the PDF &mdash; Text or Email
+  </button>
+
+  <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:8px; margin-bottom:14px;">
+    <iframe data-src="./brochure/Canon-Safety-Drilling-Rig-H2S-Response-Plan.pdf" id="responseplan-frame" title="Canon Safety Drilling Rig H2S Response Plan"
+            src="./brochure/Canon-Safety-Drilling-Rig-H2S-Response-Plan.pdf"
+            style="width:100%; height:75vh; border:0; border-radius:6px; background:#7f1d1d;"></iframe>
+  </div>
 </div>
 
 <!-- ── PAYROLL & BENEFITS ── -->
@@ -3467,6 +3494,40 @@ async function shareBrochurePDF(btn) {
     btn.innerHTML = orig;
     btn.disabled = false;
     window.__brochureBusy = false;
+  }
+}
+
+async function shareResponsePlanPDF(btn) {
+  if (window.__planBusy) return;
+  window.__planBusy = true;
+  const PDF = './brochure/Canon-Safety-Drilling-Rig-H2S-Response-Plan.pdf';
+  const orig = btn.innerHTML;
+  btn.innerHTML = '⏳ Getting the PDF ready…';
+  btn.disabled = true;
+  try {
+    // ~0.4MB — small enough to text directly, no lite version needed
+    const resp = await fetch(PDF);
+    if (!resp.ok) throw new Error('PDF fetch failed: ' + resp.status);
+    const blob = await resp.blob();
+    const file = new File([blob], 'Canon-Safety-Drilling-Rig-H2S-Response-Plan.pdf', { type: 'application/pdf' });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({ files: [file], title: 'Canon Safety — Drilling Rig H2S Response Plan' });
+        return;
+      } catch (e) {
+        if (e && e.name === 'AbortError') return;  // user closed the share sheet
+      }
+    }
+    const a = document.createElement('a');
+    a.href = PDF;
+    a.download = 'Canon-Safety-Drilling-Rig-H2S-Response-Plan.pdf';
+    document.body.appendChild(a); a.click(); a.remove();
+  } catch (e) {
+    window.open(PDF, '_blank', 'noopener');
+  } finally {
+    btn.innerHTML = orig;
+    btn.disabled = false;
+    window.__planBusy = false;
   }
 }
 
