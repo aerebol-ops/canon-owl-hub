@@ -243,33 +243,27 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Alfredo Vaquera — Great communication between all personnel",
-      "detail": "Great communication between all personnel",
+      "headline": "Raymundo Solis — Everyone on location had good communication and helped each other out",
+      "detail": "Everyone on location had good communication and helped each other out",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Caught a valve that wasn't locked out that should of been",
-      "detail": "Caught a valve that wasn't locked out that should of been",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Anthony Scott — Everything from safety meeting to job task",
-      "detail": "Everything from safety meeting to job task.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Hayden Haugh — People stayed out of the exclusion zones, crews worked together",
-      "detail": "People stayed out of the exclusion zones, crews worked together",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Rolando Flores — Had everyone that was breaking containment mask up before breaking containm",
-      "detail": "Had everyone that was breaking containment mask up before breaking containment",
+      "headline": "Stefanie Kirschke — Good communication between the crew and safety, proper PPE was used, and th",
+      "detail": "Good communication between the crew and safety, proper PPE was used, and the",
       "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris — The job went according to scope and everyone left together safely",
+      "detail": "The job went according to scope and everyone left together safely.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Rolando Flores — Everyone communicated and stopped for assessments",
+      "detail": "Everyone communicated and stopped for assessments",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
