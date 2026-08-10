@@ -243,27 +243,15 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Everyone on location had good communication and helped each other out",
-      "detail": "Everyone on location had good communication and helped each other out",
+      "headline": "Rolando Flores — Everyone communicated well",
+      "detail": "Everyone communicated well",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Good communication between the crew and safety, proper PPE was used, and th",
-      "detail": "Good communication between the crew and safety, proper PPE was used, and the",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Jeremy Norris — The job went according to scope and everyone left together safely",
-      "detail": "The job went according to scope and everyone left together safely.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Rolando Flores — Everyone communicated and stopped for assessments",
-      "detail": "Everyone communicated and stopped for assessments",
-      "psms": "Operational Discipline"
+      "headline": "Raymundo Solis — Good communication between spotter and forklift operator",
+      "detail": "Good communication between spotter and forklift operator",
+      "psms": "Mobile Equipment"
     },
     {
       "type": "flag",
