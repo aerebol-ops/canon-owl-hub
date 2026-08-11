@@ -243,15 +243,15 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Rolando Flores — Everyone communicated well",
-      "detail": "Everyone communicated well",
+      "headline": "Rolando Flores — Valves bleed out and tested zero pressure on flow lines",
+      "detail": "Valves bleed out and tested zero pressure on flow lines",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis — Good communication between spotter and forklift operator",
-      "detail": "Good communication between spotter and forklift operator",
-      "psms": "Mobile Equipment"
+      "headline": "Raymundo Solis — The reconnect of the flow line went really well with no problems at all",
+      "detail": "The reconnect of the flow line went really well with no problems at all",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
