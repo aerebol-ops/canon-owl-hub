@@ -15,6 +15,15 @@
             "Clean board — no open watch items this week"
           ],
           "recognition": "Rolando Flores — Valves bleed out and tested zero pressure on flow lines"
+        },
+        {
+          "date": "Tue, Aug 11",
+          "day": "Tuesday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Slow down at the dig. Authorization before excavation is not bureaucracy. It's the step that has protected every crew that didn't lose someone.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Rolando Flores</strong> — Everyone was communicating between being the spotter to connecting the flowline, the</li><li style='margin:3px 0;'><strong>Raymundo Solis</strong> — After the issue crew was still able to get the job done at a reasonable time</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Clean board — no open watch items this week"
+          ],
+          "recognition": "Rolando Flores — Everyone was communicating between being the spotter to connecting the flow"
         }
       ]
     },
