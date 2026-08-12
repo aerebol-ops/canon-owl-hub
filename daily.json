@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "week": 9,
-  "day": 2,
-  "openingMessage": "Show class, have pride, and display character. If you do, winning takes care of itself.",
-  "openingAttribution": "Bear Bryant",
-  "openingWhy": "We don't chase the operator's scorecard — we run our standard and let the scorecard follow. The crew that leaves the pad cleaner than they found it never needs a sales pitch. Their locations are the pitch.",
+  "day": 3,
+  "openingMessage": "Don't think about the scoreboard. Think about what you need to do right now on this play. Do it well.",
+  "openingAttribution": "Nick Saban",
+  "openingWhy": "Halfway through a bleed-down is no time to be mentally in the truck heading home. The step in front of you — this valve, this reading, this line — is the only one that can hurt you and the only one you control. String enough right-now steps together and the shift takes care of itself.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -235,7 +235,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Slow down at the dig. Authorization before excavation is not bureaucracy. It's the step that has protected every crew that didn't lose someone.",
+  "leadershipThought": "If conditions change underground, you don't push through. You get out. You reassess. You re-authorize. That is not weakness — that is discipline.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -243,20 +243,8 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Even though we had an issue they were still able to get the job done and sa",
-      "detail": "Even though we had an issue they were still able to get the job done and safely",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke — H2S levels monitored through the entire disconnect",
-      "detail": "H2S levels were monitored throughout the disconnect, proper PPE was used, and the crew communicated well and completed the job safely.",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Jordan Lemmons — caught it before it mattered: “It wasn't all the way closed”",
-      "detail": "Wrote down exactly what he found — a valve that wasn't fully closed. That's the form doing its job: the small catch, on paper, before it becomes the big one.",
+      "headline": "Raymundo Solis — Communication was a key factor and went well",
+      "detail": "Communication was a key factor and went well",
       "psms": "Operational Discipline"
     },
     {
@@ -267,8 +255,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Near-misses are the reps that make us good — but only if they're reported. If you see one today, write it up. An unreported near-miss is a wasted lesson.",
-  "todaysChallengeSubtext": "“I've failed over and over and over again in my life. And that is why I succeed.” — Michael Jordan",
+  "todaysChallenge": "The job is won in the first thirty minutes: the brief, the walk-down, the atmosphere test, the muster point. Prepare like it matters, because it does.",
+  "todaysChallengeSubtext": "“The will to succeed is important, but what's more important is the will to prepare.” — Bobby Knight",
   "compliance": {
     "weekOf": "Week of August 3, 2026",
     "metrics": [
