@@ -248,6 +248,18 @@
       "psms": "Operational Discipline"
     },
     {
+      "type": "good",
+      "headline": "Stefanie Kirschke — H2S levels monitored through the entire disconnect",
+      "detail": "H2S levels were monitored throughout the disconnect, proper PPE was used, and the crew communicated well and completed the job safely.",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons — caught it before it mattered: “It wasn't all the way closed”",
+      "detail": "Wrote down exactly what he found — a valve that wasn't fully closed. That's the form doing its job: the small catch, on paper, before it becomes the big one.",
+      "psms": "Operational Discipline"
+    },
+    {
       "type": "flag",
       "week": 9,
       "headline": "Clean board — no open watch items this week",
