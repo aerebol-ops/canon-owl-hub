@@ -248,6 +248,18 @@
       "psms": "Operational Discipline"
     },
     {
+      "type": "good",
+      "headline": "Ralph Forbes — caught a valve that wasn't locked out",
+      "detail": "Found a valve that should have been locked out and wasn't — and wrote it up. That's exactly the catch energy isolation depends on: the second set of eyes doing its job before anyone gets surprised.",
+      "psms": "Energy Isolation"
+    },
+    {
+      "type": "good",
+      "headline": "Alfredo Vaquera — crew heard an air leak and mustered up immediately",
+      "detail": "No hesitation, no debate: the crew heard an air leak and everyone moved to muster right away. That's the response drilled right — treat every leak as real until the monitors say otherwise.",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
       "type": "flag",
       "week": 9,
       "headline": "Clean board — no open watch items this week",
