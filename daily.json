@@ -1,50 +1,50 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "week": 9,
-  "day": 3,
-  "openingMessage": "Don't think about the scoreboard. Think about what you need to do right now on this play. Do it well.",
+  "day": 4,
+  "openingMessage": "The process is about what you need to do today, in practice, in the film room, in the weight room, so that you can be the best player you can be.",
   "openingAttribution": "Nick Saban",
-  "openingWhy": "Halfway through a bleed-down is no time to be mentally in the truck heading home. The step in front of you — this valve, this reading, this line — is the only one that can hurt you and the only one you control. String enough right-now steps together and the shift takes care of itself.",
+  "openingWhy": "Our film room is seven hundred OWL forms of what the field actually did. Our weight room is the morning cal, the LMRA, the trailer check. Champions in this trade are built in the same boring rooms as champions anywhere — daily, unglamorous, non-negotiable.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
-      "count": 67
+      "count": 71
     },
     {
       "name": "Jordan Lemmons",
-      "count": 53
+      "count": 59
     },
     {
       "name": "Nathan Contreras",
-      "count": 52
+      "count": 58
     },
     {
       "name": "Rolando Flores",
-      "count": 49
+      "count": 53
     },
     {
       "name": "Ralph Forbes",
-      "count": 46
+      "count": 48
     },
     {
       "name": "Larry Jaramillo",
-      "count": 44
+      "count": 47
+    },
+    {
+      "name": "Justin Fontenot",
+      "count": 43
     },
     {
       "name": "David Hammond",
       "count": 42
     },
     {
-      "name": "Justin Fontenot",
+      "name": "Jacob Hernandez",
       "count": 42
     },
     {
-      "name": "Jacob Hernandez",
-      "count": 40
-    },
-    {
       "name": "Stefanie Kirschke",
-      "count": 38
+      "count": 40
     },
     {
       "name": "Cindy Smith",
@@ -56,7 +56,11 @@
     },
     {
       "name": "Baldemar Bracamontes",
-      "count": 31
+      "count": 33
+    },
+    {
+      "name": "Dermont Morgan",
+      "count": 30
     },
     {
       "name": "Jaques Faulk",
@@ -68,10 +72,14 @@
     },
     {
       "name": "Dawson Drake",
-      "count": 26
+      "count": 28
     },
     {
       "name": "Jimmy White",
+      "count": 28
+    },
+    {
+      "name": "Anthony Scott",
       "count": 26
     },
     {
@@ -79,7 +87,7 @@
       "count": 25
     },
     {
-      "name": "Dermont Morgan",
+      "name": "Jeremy Norris",
       "count": 25
     },
     {
@@ -87,12 +95,16 @@
       "count": 25
     },
     {
-      "name": "Anthony Scott",
-      "count": 24
+      "name": "Alfredo Vaquera",
+      "count": 23
     },
     {
-      "name": "Jeremy Norris",
+      "name": "Gael Antonio Avila",
       "count": 23
+    },
+    {
+      "name": "Bobby Galindo",
+      "count": 22
     },
     {
       "name": "Gage Gonzales",
@@ -107,19 +119,11 @@
       "count": 20
     },
     {
-      "name": "Alfredo Vaquera",
-      "count": 18
-    },
-    {
-      "name": "Bobby Galindo",
-      "count": 18
+      "name": "William Jimmy Cooper",
+      "count": 20
     },
     {
       "name": "Edward Carrillo",
-      "count": 18
-    },
-    {
-      "name": "Gael Antonio Avila",
       "count": 18
     },
     {
@@ -135,10 +139,6 @@
       "count": 16
     },
     {
-      "name": "William Jimmy Cooper",
-      "count": 16
-    },
-    {
       "name": "Kelby Hammer Training",
       "count": 15
     },
@@ -148,6 +148,10 @@
     },
     {
       "name": "Luis Zarate",
+      "count": 14
+    },
+    {
+      "name": "Michael Hutt",
       "count": 14
     },
     {
@@ -161,10 +165,6 @@
     {
       "name": "Jaquez Faulk",
       "count": 11
-    },
-    {
-      "name": "Michael Hutt",
-      "count": 10
     },
     {
       "name": "Barthol Bj Caesar",
@@ -188,6 +188,14 @@
     },
     {
       "name": "Alexander Clubb",
+      "count": 6
+    },
+    {
+      "name": "Jose Hurtado",
+      "count": 6
+    },
+    {
+      "name": "Pablo Soto",
       "count": 6
     },
     {
@@ -215,15 +223,7 @@
       "count": 3
     },
     {
-      "name": "Jose Hurtado",
-      "count": 2
-    },
-    {
       "name": "Justin Pack",
-      "count": 2
-    },
-    {
-      "name": "Pablo Soto",
       "count": 2
     },
     {
@@ -235,29 +235,41 @@
       "count": 1
     }
   ],
-  "leadershipThought": "If conditions change underground, you don't push through. You get out. You reassess. You re-authorize. That is not weakness — that is discipline.",
+  "leadershipThought": "Treat the locate as a starting point, not a guarantee. Hand-dig near any flag. Verify by sight. The utility map was last updated before something was buried.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Had everyone that was breaking containment mask up before breaking containm</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Had everyone that was breaking containment mask up before breaking containment</span><br><br><strong>HS levels were monitored throughout the disconnect, proper PPE was used, an</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>HS levels were monitored throughout the disconnect, proper PPE was used, and the crew</span><br><br><strong>Everyone on location had good communication and helped each other out</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone on location had good communication and helped each other out</span><br><br><strong>Good communication between the crew and safety, proper PPE was used, and th</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Good communication between the crew and safety, proper PPE was used, and the</span><br><br><strong>The reconnect of the flow line went really well with no problems at all</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The reconnect of the flow line went really well with no problems at all</span>",
+  "exxonMoments": "<strong>The crew responded quickly to the emergency call and took the leak seriousl</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The crew responded quickly to the emergency call and took the leak seriously. We checked</span><br><br><strong>Crew understood their could be trapped pressure because a gauge had 60psi o</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew understood their could be trapped pressure because a gauge had 60psi on it</span><br><br><strong>All of the hold points were utilized in their perspective manners to comple</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>All of the hold points were utilized in their perspective manners to complete the job fully</span><br><br><strong>Crew used proper PPE for task being done and also followed LSRA</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew used proper PPE for task being done and also followed LSRA</span><br><br><strong>Good communication when blowing down the well and being in the right area,</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Dermont Morgan]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Good communication when blowing down the well and being in the right area, not in the</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Good communication between all parties",
-      "detail": "Good communication between all parties",
+      "headline": "Baldemar Bracamontes — Job was completed in a timely manner while maintaining all LSRA's even thou",
+      "detail": "Job was completed in a timely manner while maintaining all LSRA's even though rig crew",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — caught a valve that wasn't locked out",
-      "detail": "Found a valve that should have been locked out and wasn't — and wrote it up. That's exactly the catch energy isolation depends on: the second set of eyes doing its job before anyone gets surprised.",
-      "psms": "Energy Isolation"
+      "headline": "Dermont Morgan — Good communication when blowing down the well and being in the right area,",
+      "detail": "Good communication when blowing down the well and being in the right area, not in the",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Alfredo Vaquera — crew heard an air leak and mustered up immediately",
-      "detail": "No hesitation, no debate: the crew heard an air leak and everyone moved to muster right away. That's the response drilled right — treat every leak as real until the monitors say otherwise.",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Nathan Contreras — Crews communicated effectively and worked together to get the job done whil",
+      "detail": "Crews communicated effectively and worked together to get the job done while also being",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Gael Antonio Avila — The job went well, the meeting went well, so far everything",
+      "detail": "The job went well, the meeting went well, so far everything",
+      "psms": "Mobile Equipment"
+    },
+    {
+      "type": "good",
+      "headline": "Jimmy White — Reconnect wellhead and flowline, job completed with no accidents or injurie",
+      "detail": "Reconnect wellhead and flowline, job completed with no accidents or injuries.",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
@@ -267,28 +279,28 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "The job is won in the first thirty minutes: the brief, the walk-down, the atmosphere test, the muster point. Prepare like it matters, because it does.",
-  "todaysChallengeSubtext": "“The will to succeed is important, but what's more important is the will to prepare.” — Bobby Knight",
+  "todaysChallenge": "Don't just get through today — put your fingerprint on it. One hazard closed out, one hand coached up, one location left better. Make it count.",
+  "todaysChallengeSubtext": "“Don't count the days; make the days count.” — Muhammad Ali",
   "compliance": {
-    "weekOf": "Week of August 3, 2026",
+    "weekOf": "Week of August 10, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 153,
-        "total": 173
+        "done": 19,
+        "total": 26
       },
       {
         "label": "Trailer Inspections",
-        "done": 32,
-        "total": 42
+        "done": 3,
+        "total": 3
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 27,
-        "total": 41
+        "done": 3,
+        "total": 3
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 08/06"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 08/12"
   },
   "specialFocus": {
     "title": "Who Are We? — The Promise We Make Each Other",
