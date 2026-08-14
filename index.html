@@ -4928,10 +4928,12 @@ async function renderDriving() {
     if (!r.ok) return;
     dv = await r.json();
   } catch (e) { return; }
-  if (!dv || !dv.drivers || !dv.drivers.length) return;
+  if (!dv || !dv.byDay || !dv.byDay.length) return;
 
-  const maxEvents = dv.drivers[0].events;
+  const clean = !dv.totalEvents;
+  const maxEvents = (dv.drivers && dv.drivers.length) ? dv.drivers[0].events : 0;
   const maxDay = Math.max(...dv.byDay.map(d => d.n));
+  const dayScale = Math.max(1, maxDay);
   const first = dv.byDay[0], last = dv.byDay[dv.byDay.length - 1];
   const worst = dv.byDay.find(d => d.n === maxDay) || first;
   const rankColor = i => i === 0 ? '#991b1b' : i === 1 ? '#c2410c' : i === 2 ? '#b45309' : '#374151';
@@ -4975,8 +4977,8 @@ async function renderDriving() {
     <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:12px;border-bottom:2px solid var(--navy);padding-bottom:4px;">&#128201; Events by Day</div>
     <div style="display:flex;align-items:flex-end;gap:6px;height:90px;">
       ${dv.byDay.map(d => {
-        const h = Math.max(4, Math.round(d.n / maxDay * 74));
-        const c = d.n >= maxDay * 0.6 ? '#991b1b' : d.n >= maxDay * 0.25 ? '#b45309' : '#166534';
+        const h = Math.max(4, Math.round(d.n / dayScale * 74));
+        const c = d.n >= dayScale * 0.6 && d.n > 0 ? '#991b1b' : d.n >= dayScale * 0.25 && d.n > 0 ? '#b45309' : '#166534';
         return `<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;">
           <div style="font-size:10px;font-weight:800;color:${c};">${d.n}</div>
           <div style="width:100%;height:${h}px;background:${c};border-radius:3px 3px 0 0;"></div>
@@ -4985,10 +4987,22 @@ async function renderDriving() {
       }).join('')}
     </div>
     <div style="margin-top:10px;font-size:11.5px;color:var(--muted);line-height:1.5;">
-      ${first.n} events on ${first.date} down to ${last.n} on ${last.date}. The trend is the story &mdash; every day this week should look like the right side of this chart.
+      ${clean
+        ? `Every bar on this chart is a zero. ${dv.byDay.length} straight days, ${dv.prev && dv.prev.totalEvents ? `after ${dv.prev.totalEvents} events the period before` : 'fleet-wide'} &mdash; this is what the right side of the chart looking like the whole chart means.`
+        : `${first.n} events on ${first.date} down to ${last.n} on ${last.date}. The trend is the story &mdash; every day this week should look like the right side of this chart.`}
     </div>
   </div>
 
+  ${clean ? `
+  <!-- CLEAN REPORT -->
+  <div style="background:#dcfce7;border-radius:12px;padding:18px;margin-bottom:14px;text-align:center;">
+    <div style="font-size:34px;line-height:1;">&#127942;</div>
+    <div style="font-size:18px;font-weight:900;color:#166534;margin-top:8px;">Clean report &mdash; zero recorded events</div>
+    <div style="font-size:12.5px;color:#166534;margin-top:6px;line-height:1.6;max-width:520px;margin-left:auto;margin-right:auto;">
+      Barco logged no speeding events for the entire period${dv.prev && dv.prev.totalEvents ? ` &mdash; down from ${dv.prev.totalEvents} the period before` : ''}.
+      No ranking this cycle because there is nobody to rank. That's the whole goal. Keep driving like the board is watching &mdash; because it is.
+    </div>
+  </div>` : `
   <!-- DRIVER RANKING -->
   <div style="background:var(--card);border-radius:12px;padding:14px;margin-bottom:14px;">
     <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:10px;border-bottom:2px solid var(--navy);padding-bottom:4px;">&#127937; Ranked &mdash; Events by Driver</div>
@@ -5025,7 +5039,7 @@ async function renderDriving() {
     <div style="margin-top:10px;font-size:11.5px;color:var(--muted);line-height:1.5;">
       Nobody gets to the location faster than the truck in front of them gets there safely. Updated weekly from the fleet telematics report.
     </div>
-  </div>`;
+  </div>`}`;
 }
 
 async function renderFormCompliance() {
