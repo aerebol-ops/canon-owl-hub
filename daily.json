@@ -12,35 +12,35 @@
     },
     {
       "name": "Jordan Lemmons",
-      "count": 62
+      "count": 64
+    },
+    {
+      "name": "Rolando Flores",
+      "count": 63
     },
     {
       "name": "Nathan Contreras",
       "count": 60
     },
     {
-      "name": "Rolando Flores",
-      "count": 60
-    },
-    {
       "name": "Ralph Forbes",
-      "count": 52
+      "count": 53
     },
     {
       "name": "Larry Jaramillo",
-      "count": 47
+      "count": 49
     },
     {
       "name": "Stefanie Kirschke",
-      "count": 47
+      "count": 49
     },
     {
       "name": "Jacob Hernandez",
-      "count": 44
+      "count": 45
     },
     {
       "name": "Justin Fontenot",
-      "count": 43
+      "count": 45
     },
     {
       "name": "David Hammond",
@@ -95,6 +95,10 @@
       "count": 25
     },
     {
+      "name": "William Jimmy Cooper",
+      "count": 25
+    },
+    {
       "name": "Gael Antonio Avila",
       "count": 24
     },
@@ -111,11 +115,11 @@
       "count": 22
     },
     {
-      "name": "Robert Wright",
+      "name": "Michael Jobe",
       "count": 22
     },
     {
-      "name": "William Jimmy Cooper",
+      "name": "Robert Wright",
       "count": 22
     },
     {
@@ -123,11 +127,11 @@
       "count": 20
     },
     {
-      "name": "Edward Carrillo",
-      "count": 18
+      "name": "Brianda Sandoval",
+      "count": 19
     },
     {
-      "name": "Michael Jobe",
+      "name": "Edward Carrillo",
       "count": 18
     },
     {
@@ -137,10 +141,6 @@
     {
       "name": "Christian Lee",
       "count": 16
-    },
-    {
-      "name": "Brianda Sandoval",
-      "count": 15
     },
     {
       "name": "Kelby Hammer Training",
@@ -243,20 +243,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jordan Lemmons — Made sure it was all good just was having a little Benzene of 0",
-      "detail": "Made sure it was all good just was having a little Benzene of 0.23",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Rolando Flores — Everyone communicated very well had spotter and a tagline to make sure piec",
-      "detail": "Everyone communicated very well had spotter and a tagline to make sure pieces don't fly",
+      "headline": "Michael Jobe — The job scope went as planned crew worked safely MT did the meeting went ri",
+      "detail": "The job scope went as planned crew worked safely MT did the meeting went right to work",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis — Everyone worked and communicated with each other well about task being done",
-      "detail": "Everyone worked and communicated with each other well about task being done.",
+      "headline": "William Jimmy Cooper — Communication all wearing gas detectors observation",
+      "detail": "Communication all wearing gas detectors observation",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Justin Fontenot — Job went well and discussed in the meeting",
+      "detail": "Job went well and discussed in the meeting",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Brianda Sandoval — The crew already has a better notion on masking up",
+      "detail": "The crew already has a better notion on masking up.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Larry Jaramillo — Good prejob meeting, discussed several possibilities",
+      "detail": "Good prejob meeting, discussed several possibilities",
       "psms": "Operational Discipline"
     },
     {
