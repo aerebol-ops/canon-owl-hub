@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-17",
-  "week": 10,
-  "day": 1,
-  "openingMessage": "Left foot, right foot, breathe — just put one foot in front of the other and keep moving.",
+  "date": "2026-08-16",
+  "week": 9,
+  "day": 5,
+  "openingMessage": "Winning is fun, but winning is not the point. Wanting to win is the point. Not giving up is the point. Never letting up is the point.",
   "openingAttribution": "Pat Summitt",
-  "openingWhy": "Fourth location, triple-digit heat, everybody's smoked — don't negotiate with the whole day at once. Next reading. Next valve. Next form. Done right, in order. That's how hard weeks end with every truck in its own driveway.",
+  "openingWhy": "A long clean streak is exactly when crews get bit — because a good record starts feeling like PPE. It isn't. Last quarter's zero doesn't test today's atmosphere. Never letting up IS the safety program.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -235,40 +235,40 @@
       "count": 1
     }
   ],
-  "leadershipThought": "A lift plan isn't paperwork. It's the conversation that keeps the load from becoming the incident. Planning a lift means executing the plan — not just making one.",
+  "leadershipThought": "Own the process. Own the verify. Own the outcome. Precision in the field is what separates a completed job from an investigation.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Forklift driver wasn't paying attention spotter stopped the job and talked</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Dermont Morgan]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Forklift driver wasn't paying attention spotter stopped the job and talked with the driver.</span><br><br><strong>Good communication with the crane operator, rigger, and crew</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Dermont Morgan]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Good communication with the crane operator, rigger, and crew.</span><br><br><strong>Spotter was spotting the forklift driver and tag liner was making sure the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Spotter was spotting the forklift driver and tag liner was making sure the pieces didn't go</span><br><br><strong>Crew was communicating, spotter was there to spot the forklift driver</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Crew was communicating, spotter was there to spot the forklift driver</span><br><br><strong>Communications was great because everyone on location spoke and understood</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Communications was great because everyone on location spoke and understood English</span>",
+  "exxonMoments": "<strong>The crew stayed focused, communicated with each other, and completed the di</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>The crew stayed focused, communicated with each other, and completed the disconnect</span><br><br><strong>The crew did a great job of communicating and taking turns while breaking t</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Hayden Haugh]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The crew did a great job of communicating and taking turns while breaking the hammer</span><br><br><strong>The crew and everyone is was informed about LMRAs and made sure the job wen</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The crew and everyone is was informed about LMRAs and made sure the job went well</span><br><br><strong>Magnum went over nearest hospital and muster areas , crew also double check</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Magnum went over nearest hospital and muster areas , crew also double checked safe</span><br><br><strong>Determined it was safe to use power towels to make repair on gas line</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Determined it was safe to use power towels to make repair on gas line</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Hayden Haugh — The communication on the job site",
-      "detail": "The communication on the job site",
+      "headline": "Nathan Contreras — Crews were excellent on the pre task briefing and were involved and well in",
+      "detail": "Crews were excellent on the pre task briefing and were involved and well informed, crews",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — The crew communicated throughout the job and stayed aware of the equipment",
-      "detail": "The crew communicated throughout the job and stayed aware of the equipment and",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Rolando Flores — Everyone communicated perfectly",
-      "detail": "Everyone communicated perfectly",
+      "headline": "Alfredo Vaquera — Everyone was very diligent about the task at hand and use all safety precau",
+      "detail": "Everyone was very diligent about the task at hand and use all safety precautions to",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Proper steps used to ensure a safe completed job",
-      "detail": "Proper steps used to ensure a safe completed job",
+      "headline": "Dermont Morgan — Forklift driver wasn't paying attention spotter stopped the job and talked",
+      "detail": "Forklift driver wasn't paying attention spotter stopped the job and talked with the driver.",
+      "psms": "Mobile Equipment"
+    },
+    {
+      "type": "good",
+      "headline": "Larry Jaramillo — I looked up and the guy was chit-chatting with his fellow workers and they",
+      "detail": "I looked up and the guy was chit-chatting with his fellow workers and they did realize he",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons — We all took breaks and drank water when needed instead of waiting until it'",
-      "detail": "We all took breaks and drank water when needed instead of waiting until it's to late",
+      "headline": "Raymundo Solis — After the situation got settled everything went smoothly",
+      "detail": "After the situation got settled everything went smoothly",
       "psms": "Operational Discipline"
     },
     {
@@ -279,8 +279,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Good week so far? Don't coast on it. Find one thing on today's job you can do a notch better than yesterday, and do it.",
-  "todaysChallengeSubtext": "“Handle success like you handle failure — with grace and a hunger to improve.” — Pat Summitt",
+  "todaysChallenge": "Run your monitor check the full way today — pump, tubing, cal date, mode — not the short way. How you do it every day is how you'll do it the day it matters.",
+  "todaysChallengeSubtext": "“Practice does not make perfect. Only perfect practice makes perfect.” — Vince Lombardi",
   "compliance": {
     "weekOf": "Week of August 10, 2026",
     "metrics": [
