@@ -4342,7 +4342,8 @@ function renderCompliance(daily) {
   if (!widget) return;
   widget.style.display = 'block';
 
-  document.getElementById('comp-week-label').textContent = 'Week of ' + (c.weekOf || '');
+  const _wk = c.weekOf || '';
+  document.getElementById('comp-week-label').textContent = /^week of/i.test(_wk) ? _wk : 'Week of ' + _wk;
 
   const COLORS = ['#1F3864', '#C55A11', '#375623'];
   const metrics = c.metrics || [];
