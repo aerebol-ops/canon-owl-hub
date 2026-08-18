@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "week": 10,
-  "day": 1,
-  "openingMessage": "Left foot, right foot, breathe — just put one foot in front of the other and keep moving.",
+  "day": 2,
+  "openingMessage": "Attitude is a choice. What you think you can do, whether positive or negative, confidence or scared, will most likely happen.",
   "openingAttribution": "Pat Summitt",
-  "openingWhy": "Fourth location, triple-digit heat, everybody's smoked — don't negotiate with the whole day at once. Next reading. Next valve. Next form. Done right, in order. That's how hard weeks end with every truck in its own driveway.",
+  "openingWhy": "The crew that rolls out of this meeting believing the standard is doable holds it all day. The crew that decides at 5:30 AM that today's a goat rope builds themselves exactly that. You're not predicting your day in here — you're choosing it.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -235,7 +235,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "A lift plan isn't paperwork. It's the conversation that keeps the load from becoming the incident. Planning a lift means executing the plan — not just making one.",
+  "leadershipThought": "Qualified to operate means trained, current, and honest about your limits. Not just familiar. The rigging check and the communication plan are what separate a completed lift from an investigation.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -243,26 +243,20 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Michael Jobe — We did our check everything went good",
-      "detail": "We did our check everything went good",
+      "headline": "Brianda Sandoval — Great communication between both crews and the rest of the team",
+      "detail": "Great communication between both crews and the rest of the team. Safety meeting was",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Brianda Sandoval — The job was quick yet completed safely",
-      "detail": "The job was quick yet completed safely. The crew was good at listening.",
+      "headline": "Jordan Lemmons — Went over the job scope found out it's a conversion not just a regular reco",
+      "detail": "Did we leave the location better Yes.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons — That we all understood the assignment and that we didn't have any leaks",
-      "detail": "That we all understood the assignment and that we didn't have any leaks",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Raymundo Solis — Job was completed safely and at a timely pace",
-      "detail": "Job was completed safely and at a timely pace",
+      "headline": "Raymundo Solis — All companies worked well together",
+      "detail": "Did we leave the location better Yes.",
       "psms": "Operational Discipline"
     },
     {
@@ -273,8 +267,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Good week so far? Don't coast on it. Find one thing on today's job you can do a notch better than yesterday, and do it.",
-  "todaysChallengeSubtext": "“Handle success like you handle failure — with grace and a hunger to improve.” — Pat Summitt",
+  "todaysChallenge": "Act like the crew every operator asks for by name — today, on this job, before anyone's handed you the credit. That's how you become it.",
+  "todaysChallengeSubtext": "“Champions behave like champions before they're champions.” — Bill Walsh",
   "compliance": {
     "weekOf": "Week of August 10, 2026",
     "metrics": [
