@@ -16,75 +16,83 @@
     },
     {
       "name": "Rolando Flores",
-      "count": 63
+      "count": 64
     },
     {
       "name": "Nathan Contreras",
-      "count": 60
+      "count": 62
     },
     {
       "name": "Ralph Forbes",
-      "count": 53
+      "count": 55
+    },
+    {
+      "name": "Stefanie Kirschke",
+      "count": 50
     },
     {
       "name": "Larry Jaramillo",
       "count": 49
     },
     {
-      "name": "Stefanie Kirschke",
-      "count": 49
+      "name": "Justin Fontenot",
+      "count": 47
     },
     {
       "name": "Jacob Hernandez",
-      "count": 45
-    },
-    {
-      "name": "Justin Fontenot",
-      "count": 45
+      "count": 46
     },
     {
       "name": "David Hammond",
       "count": 42
     },
     {
+      "name": "Cindy Smith",
+      "count": 38
+    },
+    {
       "name": "Baldemar Bracamontes",
       "count": 37
     },
     {
-      "name": "Cindy Smith",
-      "count": 37
+      "name": "Dermont Morgan",
+      "count": 34
     },
     {
       "name": "Marylou Guerra",
       "count": 34
     },
     {
-      "name": "Dermont Morgan",
-      "count": 33
+      "name": "Andrew Bailey",
+      "count": 31
+    },
+    {
+      "name": "Dawson Drake",
+      "count": 31
     },
     {
       "name": "Jaques Faulk",
       "count": 30
     },
     {
-      "name": "Andrew Bailey",
-      "count": 29
+      "name": "Anthony Scott",
+      "count": 28
     },
     {
-      "name": "Dawson Drake",
-      "count": 29
+      "name": "Jeremy Norris",
+      "count": 28
     },
     {
       "name": "Jimmy White",
       "count": 28
     },
     {
-      "name": "Jeremy Norris",
+      "name": "William Jimmy Cooper",
       "count": 27
     },
     {
-      "name": "Anthony Scott",
-      "count": 26
+      "name": "Bobby Galindo",
+      "count": 25
     },
     {
       "name": "Caleb Smith",
@@ -95,19 +103,11 @@
       "count": 25
     },
     {
-      "name": "William Jimmy Cooper",
-      "count": 25
-    },
-    {
       "name": "Gael Antonio Avila",
       "count": 24
     },
     {
       "name": "Alfredo Vaquera",
-      "count": 23
-    },
-    {
-      "name": "Bobby Galindo",
       "count": 23
     },
     {
@@ -148,7 +148,7 @@
     },
     {
       "name": "Luis Zarate",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Michael Hutt",
@@ -167,7 +167,19 @@
       "count": 11
     },
     {
+      "name": "Pablo Soto",
+      "count": 11
+    },
+    {
       "name": "Barthol Bj Caesar",
+      "count": 9
+    },
+    {
+      "name": "Hayden Haugh",
+      "count": 9
+    },
+    {
+      "name": "Jose Hurtado",
       "count": 9
     },
     {
@@ -175,23 +187,11 @@
       "count": 9
     },
     {
-      "name": "Pablo Soto",
-      "count": 9
-    },
-    {
       "name": "Daniel Medrano",
       "count": 8
     },
     {
-      "name": "Jose Hurtado",
-      "count": 8
-    },
-    {
       "name": "Anthony Scott 1099",
-      "count": 7
-    },
-    {
-      "name": "Hayden Haugh",
       "count": 7
     },
     {
@@ -243,20 +243,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Brianda Sandoval — Great communication between both crews and the rest of the team",
-      "detail": "Great communication between both crews and the rest of the team. Safety meeting was",
+      "headline": "Luis Zarate — The job went according to plan",
+      "detail": "The job went according to plan. We did continuous monitoring as they reconnected",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons — Went over the job scope found out it's a conversion not just a regular reco",
-      "detail": "Did we leave the location better Yes.",
+      "headline": "Andrew Bailey — Took readings for gas before crew made first break and after first break no",
+      "detail": "Took readings for gas before crew made first break and after first break no hazards were",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis — All companies worked well together",
-      "detail": "Did we leave the location better Yes.",
+      "headline": "Dawson Drake — Communication and performing the job",
+      "detail": "Communication and performing the job",
+      "psms": "Working at Height"
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez — All work crews worked together and communicated",
+      "detail": "All work crews worked together and communicated",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Anthony Scott — Well head and flowline tested zero",
+      "detail": "Well head and flowline tested zero.",
       "psms": "Operational Discipline"
     },
     {
