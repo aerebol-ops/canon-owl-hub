@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "week": 10,
-  "day": 2,
-  "openingMessage": "Attitude is a choice. What you think you can do, whether positive or negative, confidence or scared, will most likely happen.",
-  "openingAttribution": "Pat Summitt",
-  "openingWhy": "The crew that rolls out of this meeting believing the standard is doable holds it all day. The crew that decides at 5:30 AM that today's a goat rope builds themselves exactly that. You're not predicting your day in here — you're choosing it.",
+  "day": 3,
+  "openingMessage": "Today we own our day before it owns us. Every crew out there is counting on the person next to them. Let's make sure we're worth counting on.",
+  "openingAttribution": null,
+  "openingWhy": "Odessa, 2019. A pumper answered a routine pump alarm at a waterflood station without his H2S monitor on. The gas dropped him at the site — and when he didn't come home, his wife drove out looking for him. It got her too. The people counting on your discipline today aren't all on location. Some of them are at home.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -235,7 +235,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Qualified to operate means trained, current, and honest about your limits. Not just familiar. The rigging check and the communication plan are what separate a completed lift from an investigation.",
+  "leadershipThought": "The exclusion zone is non-negotiable because the load path is never perfectly predictable. Nobody walks under a suspended load. Not for a second.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -279,8 +279,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Act like the crew every operator asks for by name — today, on this job, before anyone's handed you the credit. That's how you become it.",
-  "todaysChallengeSubtext": "“Champions behave like champions before they're champions.” — Bill Walsh",
+  "todaysChallenge": "Don't wait on perfect conditions or the gear you wish you had. Verify what's in front of you, escalate what's missing, and do today's job right with today's tools.",
+  "todaysChallengeSubtext": "“Start where you are. Use what you have. Do what you can.” — Arthur Ashe",
   "compliance": {
     "weekOf": "Week of August 10, 2026",
     "metrics": [
