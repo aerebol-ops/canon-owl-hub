@@ -243,32 +243,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jeremy Norris — Each crew did their job safely and accordingly while also keeping their eye",
-      "detail": "Each crew did their job safely and accordingly while also keeping their eye on their fellow",
+      "headline": "Hayden Haugh — Job ran smoothly due to good communication",
+      "detail": "Job ran smoothly due to good communication",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Dermont Morgan — Good communication with the spotter and forklift driver",
-      "detail": "Did we leave the location better.",
-      "psms": "Mobile Equipment"
+      "headline": "William Jimmy Cooper — Proper atmospheric testing before job",
+      "detail": "Proper atmospheric testing before job",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras — Job was completed safely and crews verified safeguards were in place prior",
-      "detail": "Job was completed safely and crews verified safeguards were in place prior to work ,",
-      "psms": "Mobile Equipment"
-    },
-    {
-      "type": "good",
-      "headline": "Rolando Flores — Everyone was on top of their job and what was the job scope",
-      "detail": "Everyone was on top of their job and what was the job scope",
+      "headline": "Ralph Forbes — Moving parts into place safely achieved",
+      "detail": "Moving parts into place safely achieved.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Personnel followed established procedures and maintained good communication",
-      "detail": "Personnel followed established procedures and maintained good communication",
+      "headline": "Justin Fontenot — Job went according to plan without any issues",
+      "detail": "Job went according to plan without any issues",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Anthony Scott — crew readjusted after small issue with flowline connecting to check valve",
+      "detail": "Crew readjusted after small issue with flowline connecting to check valve",
       "psms": "Operational Discipline"
     },
     {
