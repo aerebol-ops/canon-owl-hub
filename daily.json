@@ -8,7 +8,7 @@
   "formCounts": [
     {
       "name": "Raymundo Solis",
-      "count": 72
+      "count": 73
     },
     {
       "name": "Rolando Flores",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Nathan Contreras",
-      "count": 62
+      "count": 63
     },
     {
       "name": "Ralph Forbes",
@@ -36,11 +36,11 @@
     },
     {
       "name": "Justin Fontenot",
-      "count": 47
+      "count": 48
     },
     {
       "name": "Jacob Hernandez",
-      "count": 46
+      "count": 47
     },
     {
       "name": "David Hammond",
@@ -51,36 +51,36 @@
       "count": 38
     },
     {
-      "name": "Baldemar Bracamontes",
-      "count": 37
+      "name": "Dermont Morgan",
+      "count": 38
     },
     {
-      "name": "Dermont Morgan",
-      "count": 34
+      "name": "Baldemar Bracamontes",
+      "count": 37
     },
     {
       "name": "Marylou Guerra",
       "count": 34
     },
     {
+      "name": "Dawson Drake",
+      "count": 33
+    },
+    {
       "name": "Andrew Bailey",
+      "count": 32
+    },
+    {
+      "name": "Anthony Scott",
       "count": 31
     },
     {
-      "name": "Dawson Drake",
+      "name": "Jeremy Norris",
       "count": 31
     },
     {
       "name": "Jaques Faulk",
       "count": 30
-    },
-    {
-      "name": "Anthony Scott",
-      "count": 29
-    },
-    {
-      "name": "Jeremy Norris",
-      "count": 28
     },
     {
       "name": "Jimmy White",
@@ -91,28 +91,28 @@
       "count": 28
     },
     {
+      "name": "Joseph Popillion",
+      "count": 27
+    },
+    {
       "name": "Bobby Galindo",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Caleb Smith",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Gael Antonio Avila",
-      "count": 25
-    },
-    {
-      "name": "Joseph Popillion",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Alfredo Vaquera",
-      "count": 24
+      "count": 25
     },
     {
       "name": "Michael Jobe",
-      "count": 23
+      "count": 24
     },
     {
       "name": "Gage Gonzales",
@@ -159,27 +159,27 @@
       "count": 13
     },
     {
+      "name": "Pablo Soto",
+      "count": 13
+    },
+    {
       "name": "Kyle Williams",
       "count": 12
+    },
+    {
+      "name": "Hayden Haugh",
+      "count": 11
     },
     {
       "name": "Jaquez Faulk",
       "count": 11
     },
     {
-      "name": "Pablo Soto",
+      "name": "Jose Hurtado",
       "count": 11
     },
     {
-      "name": "Jose Hurtado",
-      "count": 10
-    },
-    {
       "name": "Barthol Bj Caesar",
-      "count": 9
-    },
-    {
-      "name": "Hayden Haugh",
       "count": 9
     },
     {
@@ -243,33 +243,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jose Hurtado — All personal work together",
-      "detail": "All personal work together",
+      "headline": "Joseph Popillion — Job functionality was perfect",
+      "detail": "Did we leave the location better Yes.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Gael Antonio Avila — Everything even we got some Exxon reps on location looking at the job and e",
-      "detail": "Everything even we got some Exxon reps on location looking at the job and everything",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Alfredo Vaquera — All team members and all third-party companies applied all safety rules to",
-      "detail": "All team members and all third-party companies applied all safety rules to the operation to",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Michael Jobe — Had safety meeting went over what needed to be done in a safe working way",
-      "detail": "Had safety meeting went over what needed to be done in a safe working way",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke — Crew worked safely and maintained good communication while completing the p",
-      "detail": "Crew worked safely and maintained good communication while completing the polish rod",
+      "headline": "Caleb Smith — The communication between OS and h2s techs were clear and precise",
+      "detail": "The communication between OS and h2s techs were clear and precise.",
       "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Raymundo Solis — Masked up for atmospheric test crew used proper techniques and proper PPE f",
+      "detail": "Masked up for atmospheric test crew used proper techniques and proper PPE for job",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Anthony Scott — Everything went well because everyone was on point with their LMRAs and spo",
+      "detail": "Everything went well because everyone was on point with their LMRAs and spotter was",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Hayden Haugh — Job went smoothly with good communication",
+      "detail": "Job went smoothly with good communication",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
