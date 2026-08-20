@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "week": 10,
-  "day": 3,
-  "openingMessage": "Today we own our day before it owns us. Every crew out there is counting on the person next to them. Let's make sure we're worth counting on.",
+  "day": 4,
+  "openingMessage": "Yesterday happened. Today is what we do about it. We're not here to talk about safety — we're here to execute it. Ten minutes, then let's go to work.",
   "openingAttribution": null,
-  "openingWhy": "Odessa, 2019. A pumper answered a routine pump alarm at a waterflood station without his H2S monitor on. The gas dropped him at the site — and when he didn't come home, his wife drove out looking for him. It got her too. The people counting on your discipline today aren't all on location. Some of them are at home.",
+  "openingWhy": "Every hand here has seen a job where the safety meeting was perfect and the job wasn't. The meeting doesn't bleed the line, verify the zero, or clip the monitor to your collar — you do. These ten minutes only count if they ride out the gate with you.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
-      "count": 71
-    },
-    {
-      "name": "Jordan Lemmons",
-      "count": 64
+      "count": 72
     },
     {
       "name": "Rolando Flores",
+      "count": 65
+    },
+    {
+      "name": "Jordan Lemmons",
       "count": 64
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "name": "Stefanie Kirschke",
-      "count": 50
+      "count": 51
     },
     {
       "name": "Larry Jaramillo",
@@ -76,7 +76,7 @@
     },
     {
       "name": "Anthony Scott",
-      "count": 28
+      "count": 29
     },
     {
       "name": "Jeremy Norris",
@@ -88,7 +88,7 @@
     },
     {
       "name": "William Jimmy Cooper",
-      "count": 27
+      "count": 28
     },
     {
       "name": "Bobby Galindo",
@@ -99,23 +99,23 @@
       "count": 25
     },
     {
+      "name": "Gael Antonio Avila",
+      "count": 25
+    },
+    {
       "name": "Joseph Popillion",
       "count": 25
     },
     {
-      "name": "Gael Antonio Avila",
+      "name": "Alfredo Vaquera",
       "count": 24
     },
     {
-      "name": "Alfredo Vaquera",
+      "name": "Michael Jobe",
       "count": 23
     },
     {
       "name": "Gage Gonzales",
-      "count": 22
-    },
-    {
-      "name": "Michael Jobe",
       "count": 22
     },
     {
@@ -171,15 +171,15 @@
       "count": 11
     },
     {
+      "name": "Jose Hurtado",
+      "count": 10
+    },
+    {
       "name": "Barthol Bj Caesar",
       "count": 9
     },
     {
       "name": "Hayden Haugh",
-      "count": 9
-    },
-    {
-      "name": "Jose Hurtado",
       "count": 9
     },
     {
@@ -235,7 +235,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "The exclusion zone is non-negotiable because the load path is never perfectly predictable. Nobody walks under a suspended load. Not for a second.",
+  "leadershipThought": "When the lift plan calls for two ground crew and one leaves — you stop. You don't improvise around a broken plan. That is where incidents are born.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -243,33 +243,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Nathan Contreras — Crews did a amazing job with communication between us and the mt, we also w",
-      "detail": "Crews did a amazing job with communication between us and the mt, we also went over",
+      "headline": "Jose Hurtado — All personal work together",
+      "detail": "All personal work together",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Dawson Drake — Job completed safely and efficiently",
-      "detail": "Job completed safely and efficiently",
+      "headline": "Gael Antonio Avila — Everything even we got some Exxon reps on location looking at the job and e",
+      "detail": "Everything even we got some Exxon reps on location looking at the job and everything",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Justin Fontenot — Everything tested zero job was conducted without supplied air",
-      "detail": "Everything tested zero job was conducted without supplied air. No issues",
+      "headline": "Alfredo Vaquera — All team members and all third-party companies applied all safety rules to",
+      "detail": "All team members and all third-party companies applied all safety rules to the operation to",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Michael Jobe — Had safety meeting went over what needed to be done in a safe working way",
+      "detail": "Had safety meeting went over what needed to be done in a safe working way",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Stefanie Kirschke — Crew worked safely and maintained good communication while completing the p",
+      "detail": "Crew worked safely and maintained good communication while completing the polish rod",
       "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Andrew Bailey — Everyone left the job safely",
-      "detail": "Everyone left the job safely",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Jordan Lemmons — Job wasn't able to be started so told it's rescheduled for tommrow",
-      "detail": "Did we leave the location better Yes.",
-      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
@@ -279,8 +279,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Don't wait on perfect conditions or the gear you wish you had. Verify what's in front of you, escalate what's missing, and do today's job right with today's tools.",
-  "todaysChallengeSubtext": "“Start where you are. Use what you have. Do what you can.” — Arthur Ashe",
+  "todaysChallenge": "Walk your location for the small stuff today: one loose fitting, one uncharged battery, one missing sticker. Fix the little thing before it becomes the big thing.",
+  "todaysChallengeSubtext": "“It's the little details that are vital. Little things make big things happen.” — John Wooden",
   "compliance": {
     "weekOf": "Week of August 10, 2026",
     "metrics": [
