@@ -270,24 +270,24 @@
   "todaysChallenge": "If something goes sideways today, call it in straight — no polish, no blame. Admit it, log the lesson on your OWL form, and make sure the next crew hears it.",
   "todaysChallengeSubtext": "“When you make a mistake, there are only three things you should ever do about it: admit it, learn from it, and don't repeat it.” — Bear Bryant",
   "compliance": {
-    "weekOf": "Week of August 10, 2026",
+    "weekOf": "Week of August 17, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 94,
-        "total": 104
+        "done": 5,
+        "total": 5
       },
       {
         "label": "Trailer Inspections",
-        "done": 22,
-        "total": 25
+        "done": 0,
+        "total": 0
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 15,
-        "total": 17
+        "done": 0,
+        "total": 0
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 08/13"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 08/20"
   }
 }
