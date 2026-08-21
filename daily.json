@@ -8,111 +8,111 @@
   "formCounts": [
     {
       "name": "Raymundo Solis",
-      "count": 73
+      "count": 74
     },
     {
       "name": "Rolando Flores",
-      "count": 65
+      "count": 69
+    },
+    {
+      "name": "Nathan Contreras",
+      "count": 66
     },
     {
       "name": "Jordan Lemmons",
       "count": 64
     },
     {
-      "name": "Nathan Contreras",
-      "count": 63
-    },
-    {
       "name": "Ralph Forbes",
-      "count": 55
+      "count": 61
     },
     {
       "name": "Stefanie Kirschke",
-      "count": 51
+      "count": 55
+    },
+    {
+      "name": "Justin Fontenot",
+      "count": 52
+    },
+    {
+      "name": "Jacob Hernandez",
+      "count": 49
     },
     {
       "name": "Larry Jaramillo",
       "count": 49
     },
     {
-      "name": "Justin Fontenot",
-      "count": 48
-    },
-    {
-      "name": "Jacob Hernandez",
-      "count": 47
-    },
-    {
       "name": "David Hammond",
       "count": 42
     },
     {
-      "name": "Cindy Smith",
-      "count": 38
+      "name": "Dermont Morgan",
+      "count": 41
     },
     {
-      "name": "Dermont Morgan",
-      "count": 38
+      "name": "Cindy Smith",
+      "count": 39
     },
     {
       "name": "Baldemar Bracamontes",
       "count": 37
     },
     {
+      "name": "Andrew Bailey",
+      "count": 36
+    },
+    {
+      "name": "Dawson Drake",
+      "count": 36
+    },
+    {
+      "name": "William Jimmy Cooper",
+      "count": 36
+    },
+    {
+      "name": "Jeremy Norris",
+      "count": 35
+    },
+    {
+      "name": "Anthony Scott",
+      "count": 34
+    },
+    {
       "name": "Marylou Guerra",
       "count": 34
     },
     {
-      "name": "Dawson Drake",
-      "count": 33
-    },
-    {
-      "name": "Andrew Bailey",
-      "count": 32
-    },
-    {
-      "name": "Anthony Scott",
-      "count": 31
-    },
-    {
-      "name": "Jeremy Norris",
-      "count": 31
+      "name": "Bobby Galindo",
+      "count": 30
     },
     {
       "name": "Jaques Faulk",
       "count": 30
     },
     {
+      "name": "Gael Antonio Avila",
+      "count": 29
+    },
+    {
       "name": "Jimmy White",
       "count": 28
     },
     {
-      "name": "William Jimmy Cooper",
+      "name": "Michael Jobe",
       "count": 28
+    },
+    {
+      "name": "Caleb Smith",
+      "count": 27
     },
     {
       "name": "Joseph Popillion",
       "count": 27
     },
     {
-      "name": "Bobby Galindo",
-      "count": 26
-    },
-    {
-      "name": "Caleb Smith",
-      "count": 26
-    },
-    {
-      "name": "Gael Antonio Avila",
-      "count": 26
-    },
-    {
       "name": "Alfredo Vaquera",
       "count": 25
-    },
-    {
-      "name": "Michael Jobe",
-      "count": 24
     },
     {
       "name": "Gage Gonzales",
@@ -131,6 +131,10 @@
       "count": 19
     },
     {
+      "name": "Pablo Soto",
+      "count": 19
+    },
+    {
       "name": "Edward Carrillo",
       "count": 18
     },
@@ -143,12 +147,20 @@
       "count": 16
     },
     {
+      "name": "Jose Hurtado",
+      "count": 15
+    },
+    {
       "name": "Kelby Hammer Training",
       "count": 15
     },
     {
       "name": "Luis Zarate",
       "count": 15
+    },
+    {
+      "name": "Hayden Haugh",
+      "count": 14
     },
     {
       "name": "Michael Hutt",
@@ -159,23 +171,11 @@
       "count": 13
     },
     {
-      "name": "Pablo Soto",
-      "count": 13
-    },
-    {
       "name": "Kyle Williams",
       "count": 12
     },
     {
-      "name": "Hayden Haugh",
-      "count": 11
-    },
-    {
       "name": "Jaquez Faulk",
-      "count": 11
-    },
-    {
-      "name": "Jose Hurtado",
       "count": 11
     },
     {
@@ -239,25 +239,37 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Forklift driver wasn't paying attention spotter stopped the job and talked</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Dermont Morgan]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Forklift driver wasn't paying attention spotter stopped the job and talked with the driver.</span><br><br><strong>Good communication with the crane operator, rigger, and crew</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Dermont Morgan]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Good communication with the crane operator, rigger, and crew.</span><br><br><strong>Spotter was spotting the forklift driver and tag liner was making sure the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Spotter was spotting the forklift driver and tag liner was making sure the pieces didn't go</span><br><br><strong>Crew was communicating, spotter was there to spot the forklift driver</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Crew was communicating, spotter was there to spot the forklift driver</span><br><br><strong>Communications was great because everyone on location spoke and understood</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Communications was great because everyone on location spoke and understood English</span>",
+  "exxonMoments": "<strong>Exclusion zone established for overhead crane work and job executed without</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Exclusion zone established for overhead crane work and job executed without incident</span><br><br><strong>Stop job, wasn't able to kill well and when pulling up polished rod the wei</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Stop job, wasn't able to kill well and when pulling up polished rod the weight for the crane</span><br><br><strong>Forklift driver wasn't paying attention spotter stopped the job and talked</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Dermont Morgan]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Forklift driver wasn't paying attention spotter stopped the job and talked with the driver.</span><br><br><strong>Good communication with the crane operator, rigger, and crew</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Dermont Morgan]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Good communication with the crane operator, rigger, and crew.</span><br><br><strong>Spotter was spotting the forklift driver and tag liner was making sure the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Spotter was spotting the forklift driver and tag liner was making sure the pieces didn't go</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Alfredo Vaquera — The crew did very well and identifying all hazards and mustard areas and em",
-      "detail": "The crew did very well and identifying all hazards and mustard areas and emergency",
+      "headline": "Rolando Flores — The crew communicated effectively, followed the LSRAs, and maintained good",
+      "detail": "The crew communicated effectively, followed the LSRAs, and maintained good awareness",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Dermont Morgan — Witness crew looking at their LMRAs before doing work",
-      "detail": "Witness crew looking at their LMRAs before doing work.",
+      "headline": "Ralph Forbes — Exclusion zone established for overhead crane work and job executed without",
+      "detail": "Exclusion zone established for overhead crane work and job executed without incident",
+      "psms": "Mobile Equipment"
+    },
+    {
+      "type": "good",
+      "headline": "William Jimmy Cooper — Everyone working together",
+      "detail": "Everyone working together",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — Job went smoothly and according to scope of work",
-      "detail": "Job went smoothly and according to scope of work. MT was happy",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Dawson Drake — The communication between crew and Canon tax trying to put a weird flow lin",
+      "detail": "The communication between crew and Canon tax trying to put a weird flow line design",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Michael Jobe — Did safety meeting balance the unit",
+      "detail": "Did safety meeting balance the unit",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
