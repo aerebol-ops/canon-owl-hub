@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "week": 10,
-  "day": 4,
-  "openingMessage": "Yesterday happened. Today is what we do about it. We're not here to talk about safety — we're here to execute it. Ten minutes, then let's go to work.",
+  "day": 5,
+  "openingMessage": "Every crew in the field comes home today. That's not a goal — that's the standard. Here's how we hold it.",
   "openingAttribution": null,
-  "openingWhy": "Every hand here has seen a job where the safety meeting was perfect and the job wasn't. The meeting doesn't bleed the line, verify the zero, or clip the monitor to your collar — you do. These ten minutes only count if they ride out the gate with you.",
+  "openingWhy": "A man goes down at a thief hatch and every good hand's first instinct is to run to him. That instinct — no air, no test — is how one man down becomes three. The standard exists so that nobody's best instinct becomes the worst decision of his life.",
   "formCounts": [
     {
       "name": "Raymundo Solis",
@@ -235,7 +235,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "When the lift plan calls for two ground crew and one leaves — you stop. You don't improvise around a broken plan. That is where incidents are born.",
+  "leadershipThought": "Inspect, communicate, execute — in that order, every time. Not because someone is watching. Because the load doesn't care about shortcuts.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -267,8 +267,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Walk your location for the small stuff today: one loose fitting, one uncharged battery, one missing sticker. Fix the little thing before it becomes the big thing.",
-  "todaysChallengeSubtext": "“It's the little details that are vital. Little things make big things happen.” — John Wooden",
+  "todaysChallenge": "If something goes sideways today, call it in straight — no polish, no blame. Admit it, log the lesson on your OWL form, and make sure the next crew hears it.",
+  "todaysChallengeSubtext": "“When you make a mistake, there are only three things you should ever do about it: admit it, learn from it, and don't repeat it.” — Bear Bryant",
   "compliance": {
     "weekOf": "Week of August 10, 2026",
     "metrics": [
