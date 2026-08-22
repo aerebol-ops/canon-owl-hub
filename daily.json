@@ -243,33 +243,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Rolando Flores — The crew communicated effectively, followed the LSRAs, and maintained good",
-      "detail": "The crew communicated effectively, followed the LSRAs, and maintained good awareness",
+      "headline": "Jeremy Norris — Proper use of spotters and signals while doing the job",
+      "detail": "Proper use of spotters and signals while doing the job.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Exclusion zone established for overhead crane work and job executed without",
-      "detail": "Exclusion zone established for overhead crane work and job executed without incident",
-      "psms": "Mobile Equipment"
-    },
-    {
-      "type": "good",
-      "headline": "William Jimmy Cooper — Everyone working together",
-      "detail": "Everyone working together",
+      "headline": "Justin Fontenot — Everything went well with zero issues just as discussed in meeting",
+      "detail": "Everything went well with zero issues just as discussed in meeting",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Dawson Drake — The communication between crew and Canon tax trying to put a weird flow lin",
-      "detail": "The communication between crew and Canon tax trying to put a weird flow line design",
+      "headline": "Andrew Bailey — The flowline was disconnected and pumped successfully",
+      "detail": "The flowline was disconnected and pumped successfully",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Jose Hurtado — The entire job scope went according to plan",
+      "detail": "The entire job scope went according to plan",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — Did safety meeting balance the unit",
-      "detail": "Did safety meeting balance the unit",
-      "psms": "Operational Discipline"
+      "headline": "Stefanie Kirschke — Good communication and teamwork",
+      "detail": "Good communication and teamwork. Disconnect was completed safely with no incidents.",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "flag",
