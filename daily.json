@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-23",
   "week": 10,
   "day": 5,
   "openingMessage": "Every crew in the field comes home today. That's not a goal — that's the standard. Here's how we hold it.",
@@ -7,156 +7,64 @@
   "openingWhy": "A man goes down at a thief hatch and every good hand's first instinct is to run to him. That instinct — no air, no test — is how one man down becomes three. The standard exists so that nobody's best instinct becomes the worst decision of his life.",
   "formCounts": [
     {
-      "name": "Raymundo Solis",
-      "count": 74
-    },
-    {
       "name": "Rolando Flores",
-      "count": 69
-    },
-    {
-      "name": "Nathan Contreras",
-      "count": 66
-    },
-    {
-      "name": "Jordan Lemmons",
-      "count": 64
-    },
-    {
-      "name": "Ralph Forbes",
-      "count": 61
-    },
-    {
-      "name": "Stefanie Kirschke",
-      "count": 55
-    },
-    {
-      "name": "Justin Fontenot",
-      "count": 52
-    },
-    {
-      "name": "Jacob Hernandez",
-      "count": 49
-    },
-    {
-      "name": "Larry Jaramillo",
-      "count": 49
-    },
-    {
-      "name": "David Hammond",
-      "count": 42
-    },
-    {
-      "name": "Dermont Morgan",
-      "count": 41
-    },
-    {
-      "name": "Cindy Smith",
-      "count": 39
-    },
-    {
-      "name": "Baldemar Bracamontes",
-      "count": 37
-    },
-    {
-      "name": "Andrew Bailey",
-      "count": 36
-    },
-    {
-      "name": "Dawson Drake",
-      "count": 36
+      "count": 34
     },
     {
       "name": "William Jimmy Cooper",
-      "count": 36
-    },
-    {
-      "name": "Jeremy Norris",
-      "count": 35
-    },
-    {
-      "name": "Anthony Scott",
-      "count": 34
-    },
-    {
-      "name": "Marylou Guerra",
-      "count": 34
-    },
-    {
-      "name": "Bobby Galindo",
-      "count": 30
-    },
-    {
-      "name": "Jaques Faulk",
-      "count": 30
-    },
-    {
-      "name": "Gael Antonio Avila",
-      "count": 29
-    },
-    {
-      "name": "Jimmy White",
-      "count": 28
-    },
-    {
-      "name": "Michael Jobe",
-      "count": 28
-    },
-    {
-      "name": "Caleb Smith",
-      "count": 27
-    },
-    {
-      "name": "Joseph Popillion",
-      "count": 27
-    },
-    {
-      "name": "Alfredo Vaquera",
       "count": 25
     },
     {
-      "name": "Gage Gonzales",
+      "name": "Jordan Lemmons",
+      "count": 24
+    },
+    {
+      "name": "Dermont Morgan",
       "count": 22
     },
     {
-      "name": "Robert Wright",
+      "name": "Stefanie Kirschke",
       "count": 22
     },
     {
-      "name": "David Jose Zamora",
-      "count": 20
-    },
-    {
-      "name": "Brianda Sandoval",
-      "count": 19
+      "name": "Ralph Forbes",
+      "count": 21
     },
     {
       "name": "Pablo Soto",
       "count": 19
     },
     {
-      "name": "Edward Carrillo",
+      "name": "Bobby Galindo",
       "count": 18
     },
     {
-      "name": "Gary Briones",
+      "name": "Michael Jobe",
+      "count": 18
+    },
+    {
+      "name": "Nathan Contreras",
+      "count": 18
+    },
+    {
+      "name": "Jeremy Norris",
       "count": 17
     },
     {
-      "name": "Christian Lee",
+      "name": "Dawson Drake",
       "count": 16
+    },
+    {
+      "name": "Anthony Scott",
+      "count": 15
     },
     {
       "name": "Jose Hurtado",
       "count": 15
     },
     {
-      "name": "Kelby Hammer Training",
-      "count": 15
-    },
-    {
-      "name": "Luis Zarate",
-      "count": 15
+      "name": "Gael Antonio Avila",
+      "count": 14
     },
     {
       "name": "Hayden Haugh",
@@ -167,55 +75,51 @@
       "count": 14
     },
     {
-      "name": "James Stephens",
+      "name": "Baldemar Bracamontes",
       "count": 13
     },
     {
-      "name": "Kyle Williams",
+      "name": "Jacob Hernandez",
+      "count": 13
+    },
+    {
+      "name": "Larry Jaramillo",
+      "count": 13
+    },
+    {
+      "name": "Raymundo Solis",
+      "count": 13
+    },
+    {
+      "name": "Andrew Bailey",
       "count": 12
     },
     {
-      "name": "Jaquez Faulk",
-      "count": 11
+      "name": "Justin Fontenot",
+      "count": 12
     },
     {
-      "name": "Barthol Bj Caesar",
+      "name": "Alfredo Vaquera",
       "count": 9
     },
     {
-      "name": "Marcos Morales",
-      "count": 9
+      "name": "Brianda Sandoval",
+      "count": 5
     },
     {
-      "name": "Daniel Medrano",
-      "count": 8
-    },
-    {
-      "name": "Anthony Scott 1099",
-      "count": 7
-    },
-    {
-      "name": "Trevor Mckenzie",
-      "count": 7
-    },
-    {
-      "name": "Alexander Clubb",
-      "count": 6
-    },
-    {
-      "name": "Allen White",
+      "name": "Caleb Smith",
       "count": 4
     },
     {
-      "name": "John Blasingame",
+      "name": "Jaques Faulk",
       "count": 4
     },
     {
-      "name": "Adam Holt",
-      "count": 3
+      "name": "Joseph Popillion",
+      "count": 4
     },
     {
-      "name": "Joshua Blassingame",
+      "name": "Cindy Smith",
       "count": 3
     },
     {
@@ -223,15 +127,19 @@
       "count": 3
     },
     {
-      "name": "Justin Pack",
+      "name": "Barthol Bj Caesar",
       "count": 2
     },
     {
-      "name": "Blake Walton Etx",
-      "count": 1
+      "name": "Christian Lee",
+      "count": 2
     },
     {
-      "name": "Jeremy Torrence",
+      "name": "Jimmy White",
+      "count": 2
+    },
+    {
+      "name": "Luis Zarate",
       "count": 1
     }
   ],
@@ -243,44 +151,44 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jeremy Norris — Proper use of spotters and signals while doing the job",
-      "detail": "Proper use of spotters and signals while doing the job.",
+      "headline": "Gael Antonio Avila — Everything was smooth and safe",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Justin Fontenot — Everything went well with zero issues just as discussed in meeting",
-      "detail": "Everything went well with zero issues just as discussed in meeting",
+      "headline": "Raymundo Solis — Hold points used before every task being completed",
+      "detail": "Hold points used before every task being completed",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Andrew Bailey — The flowline was disconnected and pumped successfully",
-      "detail": "The flowline was disconnected and pumped successfully",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Dermont Morgan — Good communication; the flow line that the crew was living was a hudge awkw",
+      "detail": "Did we leave the location better.",
+      "psms": "Mobile Equipment"
     },
     {
       "type": "good",
-      "headline": "Jose Hurtado — The entire job scope went according to plan",
-      "detail": "The entire job scope went according to plan",
+      "headline": "Hayden Haugh — Crew didn't have any issues putting everything back",
+      "detail": "Crew didn't have any issues putting everything back",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Good communication and teamwork",
-      "detail": "Good communication and teamwork. Disconnect was completed safely with no incidents.",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Nathan Contreras — Crews set up exclusion zone and went over triggers and wame in the pre task",
+      "detail": "Crews set up exclusion zone and went over triggers and wame in the pre task briefing,",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
-      "week": 10,
+      "week": 11,
       "headline": "Clean board — no open watch items this week",
       "detail": "Nothing carried in from last week. See a hazard? Flag it on your OWL form and it lands here the same evening.",
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "If something goes sideways today, call it in straight — no polish, no blame. Admit it, log the lesson on your OWL form, and make sure the next crew hears it.",
-  "todaysChallengeSubtext": "“When you make a mistake, there are only three things you should ever do about it: admit it, learn from it, and don't repeat it.” — Bear Bryant",
+  "todaysChallenge": "Every decision on location today is about all the days after it. One skipped test is never worth the rest. Protect your 100%.",
+  "todaysChallengeSubtext": "“Today, you have 100% of your life left.” — Tom Landry",
   "compliance": {
     "weekOf": "Week of August 17, 2026",
     "metrics": [
