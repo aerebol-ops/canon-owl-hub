@@ -3700,7 +3700,7 @@ function shareFieldNewsPDF() {
     const chances = _owlPeople.reduce((s, p) => s + p.submitted, 0);
     const blanks = _owlPeople.reduce((s, p) => s + p.blank, 0);
     boardHtml = `
-    <div class="sec">&#9733; OWL Form Leaderboard — ${(chances - blanks).toLocaleString()} Filled, ${blanks.toLocaleString()} Left Blank</div>
+    <div class="sec">&#9733; OWL Form Leaderboard (Since Aug 1) — ${(chances - blanks).toLocaleString()} Filled, ${blanks.toLocaleString()} Left Blank</div>
     <table class="board">
       <tr><th style="width:36px;">#</th><th>Name</th><th style="width:64px; text-align:right;">Chances</th><th style="width:56px; text-align:right;">Filled</th><th style="width:56px; text-align:right;">Blank</th><th style="width:50px; text-align:right;">%</th></tr>
       ${_owlPeople.map((p, i) => `<tr class="${i < 3 && p._ranked ? 'top' : ''}"><td style="text-align:center;">${p._ranked ? medalTxt(i) : '—'}</td><td>${p.name}</td><td style="text-align:right;">${p.submitted}</td><td style="text-align:right; font-weight:800;">${p.filled}</td><td style="text-align:right; color:${p.blank > p.filled ? '#991b1b' : '#888'};">${p.blank}</td><td style="text-align:right; font-weight:800; color:${p.pct >= 80 ? '#166534' : p.pct >= 50 ? '#b45309' : '#991b1b'};">${p.pct}%</td></tr>`).join('')}
@@ -3822,9 +3822,9 @@ async function renderFormLeaderboard() {
     <div style="background:var(--card,#fff); border:2px solid #BF8F00; border-radius:12px; overflow:hidden; margin-bottom:20px;">
       <div style="background:#1F3864; color:#fff; padding:12px 16px; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;">
         <div>
-          <div style="font-size:10px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#FFD966;">&#9733; OWL Form Leaderboard &mdash; Filled vs. Left Blank</div>
+          <div style="font-size:10px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#FFD966;">&#9733; OWL Form Leaderboard &mdash; Since Aug 1</div>
           <div style="font-size:16px; font-weight:900; margin-top:2px;">${chances.toLocaleString()} chances to write it down &mdash; ${(chances - blanks).toLocaleString()} filled, ${blanks.toLocaleString()} left blank</div>
-          <div style="font-size:11px; opacity:.75; margin-top:3px;">Ranked by fill rate &mdash; the percentage of your chances you actually wrote down (minimum 10 chances). A blank form is a skipped chance to be heard.</div>
+          <div style="font-size:11px; opacity:.75; margin-top:3px;">Completed forms since August 1 &mdash; ranked by fill rate, the percentage of your chances you actually wrote down (minimum 10 chances). A blank form is a skipped chance to be heard.</div>
         </div>
         <button onclick="shareLeaderboardPDF()" style="flex-shrink:0; background:#fff; color:#1F3864; border:2px solid #BF8F00; border-radius:8px; padding:9px 14px; font-size:12.5px; font-weight:800; cursor:pointer;">&#128196; Share PDF</button>
       </div>
