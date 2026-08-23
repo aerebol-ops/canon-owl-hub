@@ -3705,7 +3705,7 @@ function shareFieldNewsPDF() {
       <tr><th style="width:36px;">#</th><th>Name</th><th style="width:64px; text-align:right;">Chances</th><th style="width:56px; text-align:right;">Filled</th><th style="width:56px; text-align:right;">Blank</th><th style="width:50px; text-align:right;">%</th></tr>
       ${_owlPeople.map((p, i) => `<tr class="${i < 3 && p._ranked ? 'top' : ''}"><td style="text-align:center;">${p._ranked ? medalTxt(i) : '—'}</td><td>${p.name}</td><td style="text-align:right;">${p.submitted}</td><td style="text-align:right; font-weight:800;">${p.filled}</td><td style="text-align:right; color:${p.blank > p.filled ? '#991b1b' : '#888'};">${p.blank}</td><td style="text-align:right; font-weight:800; color:${p.pct >= 80 ? '#166534' : p.pct >= 50 ? '#b45309' : '#991b1b'};">${p.pct}%</td></tr>`).join('')}
     </table>
-    <div style="font-size:11px; color:#888; margin:4px 0 6px;">Every submission is a chance to write down what you saw. Ranked by fill rate — the percentage of your chances you actually filled in (minimum 10 chances; "—" rows are still building the sample). A blank form is a skipped chance to be heard.</div>`;
+    <div style="font-size:11px; color:#888; margin:4px 0 6px;">Every submission is a chance to write down what you saw. Ranked by fill rate — the percentage of your chances you actually filled in (minimum 10 chances; "—" rows are still building the sample). A blank form is a skipped chance to be heard — blanks from cancelled or rescheduled jobs don't count against anyone.</div>`;
   } else {
     const counts = (_daily && _daily.formCounts && _daily.formCounts.length) ? _daily.formCounts : [];
     const totalForms = counts.reduce((s, c) => s + c.count, 0);
@@ -3824,7 +3824,7 @@ async function renderFormLeaderboard() {
         <div>
           <div style="font-size:10px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#FFD966;">&#9733; OWL Form Leaderboard &mdash; Since Aug 1</div>
           <div style="font-size:16px; font-weight:900; margin-top:2px;">${chances.toLocaleString()} chances to write it down &mdash; ${(chances - blanks).toLocaleString()} filled, ${blanks.toLocaleString()} left blank</div>
-          <div style="font-size:11px; opacity:.75; margin-top:3px;">Completed forms since August 1 &mdash; ranked by fill rate, the percentage of your chances you actually wrote down (minimum 10 chances). A blank form is a skipped chance to be heard.</div>
+          <div style="font-size:11px; opacity:.75; margin-top:3px;">Completed forms since August 1 &mdash; ranked by fill rate, the percentage of your chances you actually wrote down (minimum 10 chances). A blank form is a skipped chance to be heard &mdash; unless the job was cancelled or rescheduled off the board, in which case the blank doesn't count against you.</div>
         </div>
         <button onclick="shareLeaderboardPDF()" style="flex-shrink:0; background:#fff; color:#1F3864; border:2px solid #BF8F00; border-radius:8px; padding:9px 14px; font-size:12.5px; font-weight:800; cursor:pointer;">&#128196; Share PDF</button>
       </div>
@@ -3842,7 +3842,7 @@ async function renderFormLeaderboard() {
               <span style="display:block; height:100%; width:${p.submitted ? Math.round(p.filled / p.submitted * 100) : 0}%; background:${i === 0 ? '#BF8F00' : i < 3 ? '#d4af37' : '#1F3864'};"></span>
               <span style="display:block; height:100%; flex:1; background:#e5e7eb;"></span>
             </span>
-            <span style="min-width:86px; text-align:right; font-size:11.5px; color:var(--muted);"><strong style="color:#1F3864; font-size:13px;">${p.filled}</strong> filled &middot; ${p.blank} blank</span>
+            <span style="min-width:86px; text-align:right; font-size:11.5px; color:var(--muted);"><strong style="color:#1F3864; font-size:13px;">${p.filled}</strong> filled &middot; ${p.blank} blank${p.excused ? ` &middot; <span style="color:#2E75B6;">${p.excused} cancelled</span>` : ''}</span>
             ${p.pct !== null ? `<span style="min-width:38px; text-align:right; font-size:12px; font-weight:800; color:${pctColor(p.pct)};">${p.pct}%</span>` : ''}
           </div>`).join('')}
       </div>

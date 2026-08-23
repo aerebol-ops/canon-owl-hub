@@ -2,8 +2,9 @@
   "source": "O.W.L Observe / Win / Learn forms \u2014 completed forms since Aug 1, 2026",
   "generated": "2026-08-23",
   "pdfsScanned": 1462,
-  "totalSubmitted": 441,
-  "blankForms": 93,
+  "totalSubmitted": 439,
+  "blankForms": 91,
+  "excusedBlanks": 2,
   "totalForms": 348,
   "techs": 33,
   "locations": 266,
@@ -142,6 +143,7 @@
       "name": "Rolando Flores",
       "submitted": 34,
       "blank": 1,
+      "excused": 0,
       "filled": 33,
       "pct": 97
     },
@@ -149,6 +151,7 @@
       "name": "William Jimmy Cooper",
       "submitted": 25,
       "blank": 4,
+      "excused": 0,
       "filled": 21,
       "pct": 84
     },
@@ -156,6 +159,7 @@
       "name": "Jordan Lemmons",
       "submitted": 24,
       "blank": 10,
+      "excused": 0,
       "filled": 14,
       "pct": 58
     },
@@ -163,6 +167,7 @@
       "name": "Dermont Morgan",
       "submitted": 22,
       "blank": 10,
+      "excused": 0,
       "filled": 12,
       "pct": 55
     },
@@ -170,6 +175,7 @@
       "name": "Stefanie Kirschke",
       "submitted": 22,
       "blank": 1,
+      "excused": 0,
       "filled": 21,
       "pct": 95
     },
@@ -177,6 +183,7 @@
       "name": "Ralph Forbes",
       "submitted": 21,
       "blank": 5,
+      "excused": 0,
       "filled": 16,
       "pct": 76
     },
@@ -184,41 +191,47 @@
       "name": "Pablo Soto",
       "submitted": 19,
       "blank": 5,
+      "excused": 0,
       "filled": 14,
       "pct": 74
-    },
-    {
-      "name": "Bobby Galindo",
-      "submitted": 18,
-      "blank": 4,
-      "filled": 14,
-      "pct": 78
-    },
-    {
-      "name": "Michael Jobe",
-      "submitted": 18,
-      "blank": 7,
-      "filled": 11,
-      "pct": 61
     },
     {
       "name": "Nathan Contreras",
       "submitted": 18,
       "blank": 5,
+      "excused": 0,
       "filled": 13,
       "pct": 72
+    },
+    {
+      "name": "Bobby Galindo",
+      "submitted": 17,
+      "blank": 3,
+      "excused": 1,
+      "filled": 14,
+      "pct": 82
     },
     {
       "name": "Jeremy Norris",
       "submitted": 17,
       "blank": 2,
+      "excused": 0,
       "filled": 15,
       "pct": 88
+    },
+    {
+      "name": "Michael Jobe",
+      "submitted": 17,
+      "blank": 6,
+      "excused": 1,
+      "filled": 11,
+      "pct": 65
     },
     {
       "name": "Dawson Drake",
       "submitted": 16,
       "blank": 5,
+      "excused": 0,
       "filled": 11,
       "pct": 69
     },
@@ -226,6 +239,7 @@
       "name": "Anthony Scott",
       "submitted": 15,
       "blank": 2,
+      "excused": 0,
       "filled": 13,
       "pct": 87
     },
@@ -233,6 +247,7 @@
       "name": "Jose Hurtado",
       "submitted": 15,
       "blank": 0,
+      "excused": 0,
       "filled": 15,
       "pct": 100
     },
@@ -240,6 +255,7 @@
       "name": "Gael Antonio Avila",
       "submitted": 14,
       "blank": 0,
+      "excused": 0,
       "filled": 14,
       "pct": 100
     },
@@ -247,6 +263,7 @@
       "name": "Hayden Haugh",
       "submitted": 14,
       "blank": 0,
+      "excused": 0,
       "filled": 14,
       "pct": 100
     },
@@ -254,6 +271,7 @@
       "name": "Michael Hutt",
       "submitted": 14,
       "blank": 7,
+      "excused": 0,
       "filled": 7,
       "pct": 50
     },
@@ -261,6 +279,7 @@
       "name": "Baldemar Bracamontes",
       "submitted": 13,
       "blank": 5,
+      "excused": 0,
       "filled": 8,
       "pct": 62
     },
@@ -268,6 +287,7 @@
       "name": "Jacob Hernandez",
       "submitted": 13,
       "blank": 2,
+      "excused": 0,
       "filled": 11,
       "pct": 85
     },
@@ -275,6 +295,7 @@
       "name": "Larry Jaramillo",
       "submitted": 13,
       "blank": 3,
+      "excused": 0,
       "filled": 10,
       "pct": 77
     },
@@ -282,6 +303,7 @@
       "name": "Raymundo Solis",
       "submitted": 13,
       "blank": 0,
+      "excused": 0,
       "filled": 13,
       "pct": 100
     },
@@ -289,6 +311,7 @@
       "name": "Andrew Bailey",
       "submitted": 12,
       "blank": 2,
+      "excused": 0,
       "filled": 10,
       "pct": 83
     },
@@ -296,6 +319,7 @@
       "name": "Justin Fontenot",
       "submitted": 12,
       "blank": 1,
+      "excused": 0,
       "filled": 11,
       "pct": 92
     },
@@ -303,6 +327,7 @@
       "name": "Alfredo Vaquera",
       "submitted": 9,
       "blank": 2,
+      "excused": 0,
       "filled": 7,
       "pct": 78
     },
@@ -310,6 +335,7 @@
       "name": "Brianda Sandoval",
       "submitted": 5,
       "blank": 0,
+      "excused": 0,
       "filled": 5,
       "pct": 100
     },
@@ -317,6 +343,7 @@
       "name": "Caleb Smith",
       "submitted": 4,
       "blank": 1,
+      "excused": 0,
       "filled": 3,
       "pct": 75
     },
@@ -324,6 +351,7 @@
       "name": "Jaques Faulk",
       "submitted": 4,
       "blank": 1,
+      "excused": 0,
       "filled": 3,
       "pct": 75
     },
@@ -331,6 +359,7 @@
       "name": "Joseph Popillion",
       "submitted": 4,
       "blank": 3,
+      "excused": 0,
       "filled": 1,
       "pct": 25
     },
@@ -338,6 +367,7 @@
       "name": "Cindy Smith",
       "submitted": 3,
       "blank": 1,
+      "excused": 0,
       "filled": 2,
       "pct": 67
     },
@@ -345,6 +375,7 @@
       "name": "Kedrick Mccarter",
       "submitted": 3,
       "blank": 3,
+      "excused": 0,
       "filled": 0,
       "pct": 0
     },
@@ -352,6 +383,7 @@
       "name": "Barthol Bj Caesar",
       "submitted": 2,
       "blank": 0,
+      "excused": 0,
       "filled": 2,
       "pct": 100
     },
@@ -359,6 +391,7 @@
       "name": "Christian Lee",
       "submitted": 2,
       "blank": 1,
+      "excused": 0,
       "filled": 1,
       "pct": 50
     },
@@ -366,6 +399,7 @@
       "name": "Jimmy White",
       "submitted": 2,
       "blank": 0,
+      "excused": 0,
       "filled": 2,
       "pct": 100
     },
@@ -373,6 +407,7 @@
       "name": "Luis Zarate",
       "submitted": 1,
       "blank": 0,
+      "excused": 0,
       "filled": 1,
       "pct": 100
     }
