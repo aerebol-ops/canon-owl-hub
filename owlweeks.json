@@ -1,6 +1,24 @@
 {
   "weeks": [
     {
+      "week": 11,
+      "owl": "Auto-logged",
+      "theme": "Working at Height",
+      "psms": "Working at Height",
+      "dateRange": "Aug 24&ndash;Aug 28, 2026",
+      "meetings": [
+        {
+          "date": "Mon, Aug 24",
+          "day": "Week 11 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;100% tie-off means one hook is always in before the other comes off. Not almost always. Always. Standards don't soften because the job is routine — the routine job is where standards get skipped.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Justin Fontenot</strong> — No issues job went according to plan</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> — Crew communicated the job scope and reviewed LSRAs prior to starting. Continuous</li><li style='margin:3px 0;'><strong>Andrew Bailey</strong> — Job was successful and no injuries</li><li style='margin:3px 0;'><strong>Dawson Drake</strong> — Did we leave the location better.</li><li style='margin:3px 0;'><strong>Jose Hurtado</strong> — Good communication with mt</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Clean board — no open watch items this week"
+          ],
+          "recognition": "Justin Fontenot — No issues job went according to plan"
+        }
+      ]
+    },
+    {
       "week": 10,
       "owl": "Jimmy White",
       "theme": "Mobile Equipment",
