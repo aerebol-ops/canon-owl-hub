@@ -8,7 +8,11 @@
   "formCounts": [
     {
       "name": "Rolando Flores",
-      "count": 34
+      "count": 38
+    },
+    {
+      "name": "Stefanie Kirschke",
+      "count": 26
     },
     {
       "name": "William Jimmy Cooper",
@@ -23,12 +27,12 @@
       "count": 22
     },
     {
-      "name": "Stefanie Kirschke",
-      "count": 22
-    },
-    {
       "name": "Ralph Forbes",
       "count": 21
+    },
+    {
+      "name": "Michael Jobe",
+      "count": 19
     },
     {
       "name": "Pablo Soto",
@@ -39,7 +43,7 @@
       "count": 18
     },
     {
-      "name": "Michael Jobe",
+      "name": "Jeremy Norris",
       "count": 18
     },
     {
@@ -47,19 +51,19 @@
       "count": 18
     },
     {
-      "name": "Jeremy Norris",
+      "name": "Dawson Drake",
       "count": 17
     },
     {
-      "name": "Dawson Drake",
-      "count": 16
+      "name": "Jose Hurtado",
+      "count": 17
     },
     {
       "name": "Anthony Scott",
       "count": 15
     },
     {
-      "name": "Jose Hurtado",
+      "name": "Michael Hutt",
       "count": 15
     },
     {
@@ -71,8 +75,8 @@
       "count": 14
     },
     {
-      "name": "Michael Hutt",
-      "count": 14
+      "name": "Andrew Bailey",
+      "count": 13
     },
     {
       "name": "Baldemar Bracamontes",
@@ -80,6 +84,10 @@
     },
     {
       "name": "Jacob Hernandez",
+      "count": 13
+    },
+    {
+      "name": "Justin Fontenot",
       "count": 13
     },
     {
@@ -91,23 +99,19 @@
       "count": 13
     },
     {
-      "name": "Andrew Bailey",
-      "count": 12
-    },
-    {
-      "name": "Justin Fontenot",
-      "count": 12
-    },
-    {
       "name": "Alfredo Vaquera",
       "count": 9
     },
     {
       "name": "Brianda Sandoval",
-      "count": 5
+      "count": 7
     },
     {
       "name": "Caleb Smith",
+      "count": 4
+    },
+    {
+      "name": "Cindy Smith",
       "count": 4
     },
     {
@@ -117,10 +121,6 @@
     {
       "name": "Joseph Popillion",
       "count": 4
-    },
-    {
-      "name": "Cindy Smith",
-      "count": 3
     },
     {
       "name": "Kedrick Mccarter",
@@ -140,38 +140,44 @@
     },
     {
       "name": "Luis Zarate",
-      "count": 1
+      "count": 2
     }
   ],
   "leadershipThought": "100% tie-off means one hook is always in before the other comes off. Not almost always. Always. Standards don't soften because the job is routine — the routine job is where standards get skipped.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>The crew communicated effectively, followed the LSRAs, and maintained good</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The crew communicated effectively, followed the LSRAs, and maintained good awareness</span><br><br><strong>Exclusion zone established for overhead crane work and job executed without</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Exclusion zone established for overhead crane work and job executed without incident</span><br><br><strong>Everything went well with zero issues just as discussed in meeting</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Justin Fontenot]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything went well with zero issues just as discussed in meeting</span><br><br><strong>Everyone kept an eye on their fellow teammate and that we were all staying</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone kept an eye on their fellow teammate and that we were all staying hydrated.</span><br><br><strong>Stop job, wasn't able to kill well and when pulling up polished rod the wei</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Stop job, wasn't able to kill well and when pulling up polished rod the weight for the crane</span>",
+  "exxonMoments": "<strong>Good communication and awareness of nearby operations</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Good communication and awareness of nearby operations. The horsehead was not</span><br><br><strong>Crew was ready to roll with all their PPE, and didn't fuzz about masking up</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Brianda Sandoval]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew was ready to roll with all their PPE, and didn't fuzz about masking up.</span><br><br><strong>Pumper got it under control, had a safety meeting before proceeding with th</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Pumper got it under control, had a safety meeting before proceeding with the job and</span><br><br><strong>Good communication and teamwork between crews</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Good communication and teamwork between crews. The valve issue was identified quickly,</span><br><br><strong>Greasing was successful, lowering down the pressure on the main valve</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Brianda Sandoval]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Greasing was successful, lowering down the pressure on the main valve.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Andrew Bailey — The job was completed safely and successfully",
-      "detail": "The job was completed safely and successfully",
+      "headline": "Cindy Smith — Job was completed without any incidents or near misses",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — even with a complete change of job scope everything still went exactly acco",
-      "detail": "Even with a complete change of job scope everything still went exactly accordingly",
+      "headline": "Luis Zarate — Crew and we had all equipment needed to do job scope",
+      "detail": "Crew and we had all equipment needed to do job scope.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Justin Fontenot — Everything went well no issues",
-      "detail": "Everything went well no issues",
+      "headline": "Brianda Sandoval — Crew was ready to roll with all their PPE, and didn't fuzz about masking up",
+      "detail": "Crew was ready to roll with all their PPE, and didn't fuzz about masking up.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Rolando Flores — Crew effectively implemented the LSRAs and maintained clear communication t",
-      "detail": "Crew effectively implemented the LSRAs and maintained clear communication throughout",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Stefanie Kirschke — Good communication and awareness of nearby operations",
+      "detail": "Good communication and awareness of nearby operations. The horsehead was not",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Michael Jobe — Did safety meeting job got cancelled couldn't kill the well",
+      "detail": "Did safety meeting job got cancelled couldn't kill the well",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
