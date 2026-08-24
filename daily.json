@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-23",
-  "week": 10,
-  "day": 5,
-  "openingMessage": "Every crew in the field comes home today. That's not a goal — that's the standard. Here's how we hold it.",
+  "date": "2026-08-24",
+  "week": 11,
+  "day": 1,
+  "openingMessage": "The field doesn't care how your morning started. It cares whether you're ready. Let's make sure we are.",
   "openingAttribution": null,
-  "openingWhy": "A man goes down at a thief hatch and every good hand's first instinct is to run to him. That instinct — no air, no test — is how one man down becomes three. The standard exists so that nobody's best instinct becomes the worst decision of his life.",
+  "openingWhy": "H2S doesn't know you slept bad, fought with the house, or that the truck's AC quit. A hundred ppm at the hatch is a hundred ppm. The gas shows up ready every single day. The only question on the table is whether you do.",
   "formCounts": [
     {
       "name": "Rolando Flores",
@@ -143,41 +143,35 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Inspect, communicate, execute — in that order, every time. Not because someone is watching. Because the load doesn't care about shortcuts.",
+  "leadershipThought": "100% tie-off means one hook is always in before the other comes off. Not almost always. Always. Standards don't soften because the job is routine — the routine job is where standards get skipped.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Exclusion zone established for overhead crane work and job executed without</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Exclusion zone established for overhead crane work and job executed without incident</span><br><br><strong>Stop job, wasn't able to kill well and when pulling up polished rod the wei</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Stop job, wasn't able to kill well and when pulling up polished rod the weight for the crane</span><br><br><strong>Forklift driver wasn't paying attention spotter stopped the job and talked</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Dermont Morgan]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Forklift driver wasn't paying attention spotter stopped the job and talked with the driver.</span><br><br><strong>Good communication with the crane operator, rigger, and crew</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Dermont Morgan]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Good communication with the crane operator, rigger, and crew.</span><br><br><strong>Spotter was spotting the forklift driver and tag liner was making sure the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Spotter was spotting the forklift driver and tag liner was making sure the pieces didn't go</span>",
+  "exxonMoments": "<strong>The crew communicated effectively, followed the LSRAs, and maintained good</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The crew communicated effectively, followed the LSRAs, and maintained good awareness</span><br><br><strong>Exclusion zone established for overhead crane work and job executed without</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Exclusion zone established for overhead crane work and job executed without incident</span><br><br><strong>Everything went well with zero issues just as discussed in meeting</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Justin Fontenot]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything went well with zero issues just as discussed in meeting</span><br><br><strong>Everyone kept an eye on their fellow teammate and that we were all staying</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone kept an eye on their fellow teammate and that we were all staying hydrated.</span><br><br><strong>Stop job, wasn't able to kill well and when pulling up polished rod the wei</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Stop job, wasn't able to kill well and when pulling up polished rod the weight for the crane</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Ralph Forbes — The completion of blowing the well down went smoothly",
-      "detail": "The completion of blowing the well down went smoothly",
+      "headline": "Andrew Bailey — The job was completed safely and successfully",
+      "detail": "The job was completed safely and successfully",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — crews worked well to get the job completed well together",
-      "detail": "Crews worked well to get the job completed well together",
+      "headline": "Jeremy Norris — even with a complete change of job scope everything still went exactly acco",
+      "detail": "Even with a complete change of job scope everything still went exactly accordingly",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Hayden Haugh — Didn't run into any issues due to good communication",
-      "detail": "Didn't run into any issues due to good communication",
+      "headline": "Justin Fontenot — Everything went well no issues",
+      "detail": "Everything went well no issues",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — Got the safety meeting done got to work killed the well",
-      "detail": "Got the safety meeting done got to work killed the well",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Andrew Bailey — Crew successfully reconnected flowline",
-      "detail": "Crew successfully reconnected flowline",
-      "psms": "Operational Discipline"
+      "headline": "Rolando Flores — Crew effectively implemented the LSRAs and maintained clear communication t",
+      "detail": "Crew effectively implemented the LSRAs and maintained clear communication throughout",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "flag",
@@ -187,8 +181,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Every decision on location today is about all the days after it. One skipped test is never worth the rest. Protect your 100%.",
-  "todaysChallengeSubtext": "“Today, you have 100% of your life left.” — Tom Landry",
+  "todaysChallenge": "Guts today means the unpopular call: pausing the job, questioning the plan, telling a senior hand his monitor's on his belt instead of his collar. Make the gutsy call.",
+  "todaysChallengeSubtext": "“Gold medals aren't really made of gold. They're made of sweat, determination, and a hard-to-find alloy called guts.” — Dan Gable",
   "compliance": {
     "weekOf": "Week of August 17, 2026",
     "metrics": [
