@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-08-25",
-  "ytdPct": 84.5,
-  "ytdMissed": 587,
+  "ytdPct": 84.6,
+  "ytdMissed": 590,
   "months": [
     {
       "month": "July 2026",
@@ -273,17 +273,17 @@
       "month": "August 2026",
       "year": 2026,
       "monthNum": 8,
-      "compliancePct": 85.4,
-      "missedTotal": 208,
-      "dailyNo": 115,
-      "trailerInspNo": 30,
+      "compliancePct": 85.6,
+      "missedTotal": 211,
+      "dailyNo": 117,
+      "trailerInspNo": 31,
       "trailerReadyNo": 49,
-      "problemRows": 149,
-      "blanks": 287,
+      "problemRows": 150,
+      "blanks": 250,
       "employees": 72,
       "cleanEmployees": 29,
-      "dailyYesTotal": 670,
-      "dailyNoTotal": 115,
+      "dailyYesTotal": 694,
+      "dailyNoTotal": 117,
       "rawRows": 1195,
       "daysCovered": 21,
       "sheetsInMonth": 26,
@@ -325,13 +325,13 @@
         },
         {
           "date": "8/11",
-          "missed": 5,
-          "pct": 79
+          "missed": 9,
+          "pct": 84
         },
         {
           "date": "8/12",
-          "missed": 9,
-          "pct": 87
+          "missed": 8,
+          "pct": 89
         },
         {
           "date": "8/13",
@@ -405,15 +405,6 @@
           "pct": 29
         },
         {
-          "name": "Benjamin Boutte",
-          "totalMissed": 10,
-          "dailyMissed": 10,
-          "trailerMissed": 0,
-          "dailyYes": 6,
-          "dailyNo": 10,
-          "pct": 38
-        },
-        {
           "name": "Joseph Popillion",
           "totalMissed": 6,
           "dailyMissed": 6,
@@ -421,6 +412,15 @@
           "dailyYes": 4,
           "dailyNo": 6,
           "pct": 40
+        },
+        {
+          "name": "Benjamin Boutte",
+          "totalMissed": 10,
+          "dailyMissed": 10,
+          "trailerMissed": 0,
+          "dailyYes": 7,
+          "dailyNo": 10,
+          "pct": 41
         },
         {
           "name": "Josh Blassingame",
@@ -454,9 +454,9 @@
           "totalMissed": 14,
           "dailyMissed": 7,
           "trailerMissed": 7,
-          "dailyYes": 13,
+          "dailyYes": 15,
           "dailyNo": 7,
-          "pct": 65
+          "pct": 68
         },
         {
           "name": "Kedrick Mccarter",
