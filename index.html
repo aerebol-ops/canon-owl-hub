@@ -5072,7 +5072,7 @@ async function renderFormCompliance() {
     const maxWatch = Math.max(1, ...m.watch.map(w => w.totalMissed));
     return `
   <div style="padding:16px 0 4px;">
-    <div style="font-size:15px;font-weight:900;color:var(--navy);border-bottom:2px solid var(--navy);padding-bottom:4px;margin-bottom:12px;">${m.month}</div>
+    <div style="font-size:15px;font-weight:900;color:var(--navy);border-bottom:2px solid var(--navy);padding-bottom:4px;margin-bottom:12px;">${m.month}${m.live ? ` <span style="font-size:11px;font-weight:700;color:#b45309;">&mdash; in progress, scored through ${m.throughDate}</span>` : ''}</div>
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:14px;">
     <div style="background:${m.compliancePct >= 95 ? '#dcfce7' : m.compliancePct >= 85 ? '#fef3c7' : '#fee2e2'};border-radius:10px;padding:12px;">
