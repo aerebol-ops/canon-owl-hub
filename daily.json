@@ -151,9 +151,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Rolando Flores — Pumper got it under control, had a safety meeting before proceeding with th",
-      "detail": "Pumper got it under control, had a safety meeting before proceeding with the job and",
-      "psms": "Operational Discipline"
+      "headline": "Josh Blassingame",
+      "detail": "publicly called Kelby Hammer and Kyle \"The Dream Team right there!\" in response to their arrival check-in at UNIVERSITY 6-48E #105H (9:00 AM)",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Kelby Hammer uploaded \"Falltech Davit Arm Manual.pdf\" to Team Files (fall protec",
+      "detail": "Breakroom — 2026-06-28",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Louie Zarate → Justin Pack",
+      "detail": "Kudos for \"Great Attitude\" — *\"For getting along with everyone! Has a positive attitude every day and never lets anything bring him down! Keep up the great attitude Justin!\"*",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Freddy V (H&P 264)",
+      "detail": "5:47 AM shift check-in with hole depth, alarms tested, and all equipment confirmed. Solid rig discipline right at shift start.",
+      "psms": null
+    },
+    {
+      "type": "good",
+      "headline": "Alex Clubb",
+      "detail": "Transparent, real-time communication on a developing H2S situation across three separate updates over 4+ hours. Mustered immediately at 31 ppm. Set proper expectations for Wednesday return to vessel.",
+      "psms": null
     },
     {
       "type": "flag",
