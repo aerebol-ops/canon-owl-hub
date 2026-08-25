@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "week": 11,
-  "day": 1,
-  "openingMessage": "The field doesn't care how your morning started. It cares whether you're ready. Let's make sure we are.",
+  "day": 2,
+  "openingMessage": "Small things done right every day are what build the kind of crew people want to work next to. That's what we're doing here.",
   "openingAttribution": null,
-  "openingWhy": "H2S doesn't know you slept bad, fought with the house, or that the truck's AC quit. A hundred ppm at the hatch is a hundred ppm. The gas shows up ready every single day. The only question on the table is whether you do.",
+  "openingWhy": "Nobody ever got hurt by the fitting they checked. A skipped bump test, a soft tire on a washed-out lease road, grease that didn't happen — small skips feel free right up until the day they collect. Every big wreck in this field started life as a little shortcut that worked fine last time.",
   "formCounts": [
     {
       "name": "Rolando Flores",
@@ -143,7 +143,7 @@
       "count": 2
     }
   ],
-  "leadershipThought": "100% tie-off means one hook is always in before the other comes off. Not almost always. Always. Standards don't soften because the job is routine — the routine job is where standards get skipped.",
+  "leadershipThought": "Inspect your harness before you put it on. Not because you were told to — because you know what wear looks like at altitude and you own what happens next.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -163,8 +163,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Guts today means the unpopular call: pausing the job, questioning the plan, telling a senior hand his monitor's on his belt instead of his collar. Make the gutsy call.",
-  "todaysChallengeSubtext": "“Gold medals aren't really made of gold. They're made of sweat, determination, and a hard-to-find alloy called guts.” — Dan Gable",
+  "todaysChallenge": "Preparation is the job today: fuel before you need it, calibrate before you're asked, stage the rescue plan before the break. Win the job before it starts.",
+  "todaysChallengeSubtext": "“It's not the will to win that matters — everyone has that. It's the will to prepare to win that matters.” — Bear Bryant",
   "compliance": {
     "weekOf": "Week of August 17, 2026",
     "metrics": [
