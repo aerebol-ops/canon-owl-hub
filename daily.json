@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "week": 11,
-  "day": 2,
-  "openingMessage": "Small things done right every day are what build the kind of crew people want to work next to. That's what we're doing here.",
+  "day": 3,
+  "openingMessage": "The meeting isn't the safety program. The meeting is where we sharpen it. The field is where we prove it.",
   "openingAttribution": null,
-  "openingWhy": "Nobody ever got hurt by the fitting they checked. A skipped bump test, a soft tire on a washed-out lease road, grease that didn't happen — small skips feel free right up until the day they collect. Every big wreck in this field started life as a little shortcut that worked fine last time.",
+  "openingWhy": "July 13, TXL 27 Unit 4 — Ralph Forbes ran his LMRA on valves the paperwork said were bled off. They weren't. Trapped pressure, found before the break instead of during it. That's this meeting doing its job out there.",
   "formCounts": [
     {
       "name": "Rolando Flores",
@@ -151,7 +151,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Inspect your harness before you put it on. Not because you were told to — because you know what wear looks like at altitude and you own what happens next.",
+  "leadershipThought": "Know your anchor point is rated for your fall distance before you step off the platform. A dropped tool at 20 feet hits hard. Tether it before you climb, not after.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -159,32 +159,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Cindy Smith — Job was completed without any incidents or near misses",
-      "detail": "Did we leave the location better.",
+      "headline": "Andrew Bailey — Job canceled due to wellhead leaking while pumping on it",
+      "detail": "Job canceled due to wellhead leaking while pumping on it",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Luis Zarate — Crew and we had all equipment needed to do job scope",
-      "detail": "Crew and we had all equipment needed to do job scope.",
+      "headline": "Jose Hurtado — The entire job scope went according to plan",
+      "detail": "The entire job scope went according to plan",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — Did safety meeting job got cancelled couldn't kill the well",
-      "detail": "Did safety meeting job got cancelled couldn't kill the well",
+      "headline": "Jacob Hernandez — Job scope completed safely",
+      "detail": "Job scope completed safely",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Brianda Sandoval — Crew was ready to roll with all their PPE, and didn't fuzz about masking up",
-      "detail": "Crew was ready to roll with all their PPE, and didn't fuzz about masking up.",
+      "headline": "Gael Antonio Avila — Everything making sure everyone was safe and working on a safe place",
+      "detail": "Everything making sure everyone was safe and working on a safe place",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Dawson Drake — It was a great day with communication from all parties",
-      "detail": "It was a great day with communication from all parties",
+      "headline": "Jeremy Norris — Job was canceled due to fracking",
+      "detail": "Job was canceled due to fracking",
       "psms": "Operational Discipline"
     },
     {
@@ -195,8 +195,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Preparation is the job today: fuel before you need it, calibrate before you're asked, stage the rescue plan before the break. Win the job before it starts.",
-  "todaysChallengeSubtext": "“It's not the will to win that matters — everyone has that. It's the will to prepare to win that matters.” — Bear Bryant",
+  "todaysChallenge": "Yesterday's miss doesn't ride with you today — but its lesson does. Put the lesson on your OWL form where the whole crew can use it, then run today clean.",
+  "todaysChallengeSubtext": "“What to do with a mistake: recognize it, admit it, learn from it, forget it.” — Dean Smith",
   "compliance": {
     "weekOf": "Week of August 24, 2026",
     "metrics": [
