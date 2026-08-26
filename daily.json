@@ -159,33 +159,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Alfredo Vaquera — Great tailgate meeting and all personnel followed Safety precaution rules a",
-      "detail": "Great tailgate meeting and all personnel followed Safety precaution rules accordingly",
+      "headline": "Stefanie Kirschke — Good communication and awareness of nearby operations",
+      "detail": "Good communication and awareness of nearby operations. The horsehead was not",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "William Jimmy Cooper — Job complete without incidents",
-      "detail": "Job complete without incidents",
+      "headline": "Rolando Flores — Pumper got it under control, had a safety meeting before proceeding with th",
+      "detail": "Pumper got it under control, had a safety meeting before proceeding with the job and",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Exclusion zone established for lift of Horse head",
-      "detail": "Exclusion zone established for lift of Horse head.",
+      "headline": "Brianda Sandoval — Greasing was successful, lowering down the pressure on the main valve",
+      "detail": "Greasing was successful, lowering down the pressure on the main valve.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ruben Rojo — The air tested 0 for all readings including post breaks",
-      "detail": "The air tested 0 for all readings including post breaks",
+      "headline": "Michael Jobe — Did safety meeting balance the unit",
+      "detail": "Did safety meeting balance the unit",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Caleb Smith — All members associated with the work being performed",
-      "detail": "All members associated with the work being performed",
-      "psms": "Operational Discipline"
+      "headline": "Justin Fontenot — No issues job went according to plan",
+      "detail": "No issues job went according to plan",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "flag",
@@ -202,21 +202,21 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 34,
-        "total": 40
+        "done": 86,
+        "total": 94
       },
       {
         "label": "Trailer Inspections",
-        "done": 11,
-        "total": 14
+        "done": 22,
+        "total": 30
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 6,
-        "total": 8
+        "done": 17,
+        "total": 21
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 08/24"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 08/25"
   },
   "specialFocus": {
     "title": "The 30-Minute Loop — Red Flag to Decision",
