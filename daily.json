@@ -217,5 +217,24 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Mon 08/24"
+  },
+  "specialFocus": {
+    "title": "The 30-Minute Loop — Red Flag to Decision",
+    "standardLabel": "My Part of the Loop — Every Shift",
+    "why": "Look at what your own crew wrote this month. On the 12th, Stefanie Kirschke's crew got an emergency call on a leak &mdash; they treated it like an emergency, checked for gas, and kept monitoring while they worked the problem. That is the loop firing exactly the way it should: something changed, and it moved. Then look at what Jeremy Norris wrote on the 18th. Job went smooth, MT was happy &mdash; and his one thing to do better was <strong>&ldquo;have a better time frame of exactly when we will be on a job when it's an unexpected call, so they're not waiting.&rdquo;</strong> Read that again. Nothing went wrong on that location. The gap was that <strong>the answer never came back</strong> &mdash; somebody on the other end was standing there guessing. That's a loop that opened and didn't close.<br><br>That's what this is about. The 30-Minute Loop isn't a form and it isn't a chain of command you climb when things get bad enough. It is situational awareness plus a phone call: <strong>field to regional, regional to Canon leadership, decision back to the crew &mdash; inside thirty minutes.</strong> The reason we put a clock on it is that a surprise you sit on for two hours stops being a surprise and starts being an incident. And the reason the decision has to come <em>back</em> is that a crew waiting on an answer is a crew improvising. On the 11th, Stefanie's crew adjusted mid-job to a change in leadership and still finished safe &mdash; and her takeaway was to know who's responsible for the job <em>before</em> it starts. Same lesson. The loop is how we all know.",
+    "standard": [
+      "<strong>I call when I see it, not after I've tried to solve it alone.</strong> Scope changed, gas showed up, I'm running behind, the company man's got a problem &mdash; my regional manager hears it from me first, in minutes, not at the end of the day.",
+      "<strong>No flag is too small.</strong> Nobody at Canon has ever been in trouble for making the call. Plenty of days have gone sideways because somebody decided it wasn't worth bothering anyone over.",
+      "<strong>I give the facts straight:</strong> where I am, what changed, what I need, and by when. A clear thirty-second call gets a decision. A vague one gets three more calls.",
+      "<strong>I don't let a loop die on me.</strong> If I made the call and haven't heard the decision come back, I call again. The loop isn't closed until the crew on location has the answer in hand."
+    ],
+    "scenario": "Short-notice call comes in &mdash; a job nobody planned for this morning. You're rolling, but you're honestly not sure whether you're forty minutes out or ninety, and you don't know what's already on that location. Run it the quiet way first: you drive, you figure you'll sort it out when you get eyes on it, and the rep on location spends an hour and a half wondering whether anybody is coming. Nothing unsafe happened &mdash; and we still lost his confidence. <strong>Now run it through the loop.</strong> Five minutes in, you call your regional: &ldquo;Unexpected call, I'm on 285 north of Orla, I'll be on location by 7:40, I don't know the scope &mdash; can somebody confirm what's staged out there?&rdquo; Regional gets Canon leadership, somebody calls the rep with a real ETA, and the answer comes back to you before you turn off the highway. Same drive. Same job. The difference is that <strong>nobody was standing around guessing</strong> &mdash; and that is entirely a decision you make in the first five minutes.",
+    "questions": [
+      "Think about the last time something changed on you at a location — scope, gas, timing, a rep with a problem. Did you make the call, or did you decide you'd handle it yourself? Be honest.",
+      "When you made a call this month, did the decision actually come back to you — or did you end up guessing anyway? If it went dead, say so right now, because that's ours to fix.",
+      "What's the flag you'd hesitate to call in — the one that feels too small to bother anybody with? That's exactly the one we want."
+    ],
+    "nonNegotiable": "See it, say it, let the loop solve it — together. Thirty minutes from red flag to decision, and the loop is not closed until the crew on location has the answer.",
+    "week": 11
   }
 }
