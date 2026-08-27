@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-08-27",
-  "ytdPct": 84.0,
-  "ytdMissed": 656,
+  "ytdPct": 83.9,
+  "ytdMissed": 662,
   "months": [
     {
       "month": "July 2026",
@@ -273,20 +273,20 @@
       "month": "August 2026",
       "year": 2026,
       "monthNum": 8,
-      "compliancePct": 84.0,
-      "missedTotal": 277,
-      "dailyNo": 163,
+      "compliancePct": 83.8,
+      "missedTotal": 283,
+      "dailyNo": 169,
       "trailerInspNo": 42,
       "trailerReadyNo": 55,
-      "problemRows": 195,
-      "blanks": 69,
+      "problemRows": 203,
+      "blanks": 107,
       "employees": 72,
       "cleanEmployees": 27,
-      "dailyYesTotal": 858,
-      "dailyNoTotal": 163,
-      "rawRows": 1247,
-      "daysCovered": 25,
-      "sheetsInMonth": 26,
+      "dailyYesTotal": 872,
+      "dailyNoTotal": 169,
+      "rawRows": 1301,
+      "daysCovered": 26,
+      "sheetsInMonth": 28,
       "byDay": [
         {
           "date": "8/1",
@@ -412,17 +412,22 @@
           "date": "8/25",
           "missed": 9,
           "pct": 96
+        },
+        {
+          "date": "8/26",
+          "missed": 6,
+          "pct": 70
         }
       ],
       "watch": [
         {
           "name": "Trevor Mckenzie",
-          "totalMissed": 11,
-          "dailyMissed": 11,
+          "totalMissed": 12,
+          "dailyMissed": 12,
           "trailerMissed": 0,
           "dailyYes": 2,
-          "dailyNo": 11,
-          "pct": 15
+          "dailyNo": 12,
+          "pct": 14
         },
         {
           "name": "Barthol Caesar",
@@ -444,12 +449,21 @@
         },
         {
           "name": "Benjamin Boutte",
-          "totalMissed": 13,
-          "dailyMissed": 13,
+          "totalMissed": 14,
+          "dailyMissed": 14,
           "trailerMissed": 0,
           "dailyYes": 11,
-          "dailyNo": 13,
-          "pct": 46
+          "dailyNo": 14,
+          "pct": 44
+        },
+        {
+          "name": "Allen White",
+          "totalMissed": 9,
+          "dailyMissed": 9,
+          "trailerMissed": 0,
+          "dailyYes": 9,
+          "dailyNo": 9,
+          "pct": 50
         },
         {
           "name": "Joseph Popillion",
@@ -470,22 +484,13 @@
           "pct": 52
         },
         {
-          "name": "Allen White",
-          "totalMissed": 8,
-          "dailyMissed": 8,
-          "trailerMissed": 0,
-          "dailyYes": 9,
-          "dailyNo": 8,
-          "pct": 53
-        },
-        {
           "name": "Bobby Fleming",
           "totalMissed": 7,
           "dailyMissed": 7,
           "trailerMissed": 0,
-          "dailyYes": 8,
+          "dailyYes": 9,
           "dailyNo": 7,
-          "pct": 53
+          "pct": 56
         },
         {
           "name": "Daniel Medrano",
@@ -497,17 +502,17 @@
           "pct": 60
         },
         {
-          "name": "Michael Ellis",
-          "totalMissed": 7,
-          "dailyMissed": 7,
-          "trailerMissed": 0,
-          "dailyYes": 13,
-          "dailyNo": 7,
+          "name": "Baldemar Bracomontes",
+          "totalMissed": 17,
+          "dailyMissed": 8,
+          "trailerMissed": 9,
+          "dailyYes": 15,
+          "dailyNo": 8,
           "pct": 65
         }
       ],
       "live": true,
-      "throughDate": "8/25"
+      "throughDate": "8/26"
     }
   ]
 }
