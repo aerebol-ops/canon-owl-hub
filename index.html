@@ -3292,9 +3292,9 @@ async function renderTemplate() {
             <span style="min-width:22px;height:22px;border-radius:50%;background:#b00020;color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;">${i + 1}</span>
             <span style="font-size:14px;line-height:1.4;">${s}</span>
           </div>`).join('')}
-        ${sf.scenario ? `
-        <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#b00020;margin:14px 0 6px;">Scenario — Work It With the Crew</div>
-        <div class="runsheet-scenario" style="border-color:#b00020; background:#fff5f5;">${sf.scenario}</div>` : ''}
+        ${(sf.scenarios || (sf.scenario ? [{ body: sf.scenario }] : [])).map(s => `
+        <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#b00020;margin:14px 0 6px;">Scenario &mdash; ${s.title || 'Work It With the Crew'}</div>
+        <div class="runsheet-scenario" style="border-color:#b00020; background:#fff5f5;">${s.body}</div>`).join('')}
         ${(sf.questions || []).map(q => `<div class="runsheet-question">Ask the crew: ${q}</div>`).join('')}
         ${sf.nonNegotiable ? `<div style="margin-top:12px;padding:11px 13px;background:#b00020;color:#fff;border-radius:6px;font-weight:700;font-size:14px;line-height:1.5;">${sf.nonNegotiable}</div>` : ''}
       </div>
@@ -3613,7 +3613,7 @@ ${d && d.specialFocus ? (() => { const sf = d.specialFocus; return `
     ${sf.why ? `<div style="line-height:1.6;margin-bottom:10px;">${sf.why}</div>` : ''}
     <p class="label" style="color:#b00020;">${sf.standardLabel || 'The Standard — No Exceptions'}</p>
     <ol style="margin:0 0 0 18px;">${(sf.standard || []).map(s => `<li style="margin-left:0;">${s}</li>`).join('')}</ol>
-    ${sf.scenario ? `<p class="label" style="margin-top:10px;color:#b00020;">Scenario — Work It With the Crew</p><div class="box flag" style="border-color:#b00020;">${sf.scenario}</div>` : ''}
+    ${(sf.scenarios || (sf.scenario ? [{ body: sf.scenario }] : [])).map(s => `<p class="label" style="margin-top:10px;color:#b00020;">Scenario &mdash; ${s.title || 'Work It With the Crew'}</p><div class="box flag" style="border-color:#b00020;">${s.body}</div>`).join('')}
     ${(sf.questions || []).map(q => `<div class="sub-note"><strong>Ask the crew:</strong> ${q}</div>`).join('')}
     ${sf.nonNegotiable ? `<div style="margin-top:10px;padding:9px 11px;background:#b00020;color:#fff;border-radius:5px;font-weight:700;">${sf.nonNegotiable}</div>` : ''}
   </div>
