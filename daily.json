@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "week": 11,
-  "day": 3,
-  "openingMessage": "The meeting isn't the safety program. The meeting is where we sharpen it. The field is where we prove it.",
+  "day": 4,
+  "openingMessage": "If you leave this meeting knowing one more thing than you walked in with, it worked. Let's make these ten minutes count.",
   "openingAttribution": null,
-  "openingWhy": "July 13, TXL 27 Unit 4 — Ralph Forbes ran his LMRA on valves the paperwork said were bled off. They weren't. Trapped pressure, found before the break instead of during it. That's this meeting doing its job out there.",
+  "openingWhy": "The hand who fought a frozen pump hose trying to kill a well wrote it up on his OWL form — and now every crew that reads it learns that lesson the easy way. One form reaches every trailer in the Basin by morning. What you know only protects people if it moves.",
   "formCounts": [
     {
       "name": "Rolando Flores",
@@ -151,7 +151,7 @@
       "count": 2
     }
   ],
-  "leadershipThought": "Know your anchor point is rated for your fall distance before you step off the platform. A dropped tool at 20 feet hits hard. Tether it before you climb, not after.",
+  "leadershipThought": "Rescue capability must be staged before you ascend — someone must be able to get you down. That plan exists before the first rung. Not after.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -159,33 +159,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Larry Jaramillo — Communication was on point, translater did great",
-      "detail": "Communication was on point, translater did great",
+      "headline": "Gael Antonio Avila — Getting the job done the safest way possible and fast to not be in the heat",
+      "detail": "Getting the job done the safest way possible and fast to not be in the heat that much",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Baldemar Bracamontes — All safety measures were in place and job was completed",
-      "detail": "Did we leave the location better Yes.",
+      "headline": "Jeremy Norris — The job wenr well and according to scope with minimal trigger points needin",
+      "detail": "The job wenr well and according to scope with minimal trigger points needing to be",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jimmy White — Communication between crews and MT went well",
-      "detail": "Communication between crews and MT went well.",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Michael Hutt — 2 OWL forms filed and counting",
-      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-08-25. That consistency is the habit.",
+      "headline": "Ralph Forbes — Setting work area up to conduct reconnect with other equipment from another",
+      "detail": "Setting work area up to conduct reconnect with other equipment from another job went",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Gas monitoring and communication with the crew went well",
-      "detail": "Gas monitoring and communication with the crew went well. The crew followed safety",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Stefanie Kirschke — Communication with the crew was good, and everyone followed the required sa",
+      "detail": "Communication with the crew was good, and everyone followed the required safety",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Ruben Rojo — The gasket change went perfect",
+      "detail": "The gasket change went perfect",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
@@ -195,8 +195,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Yesterday's miss doesn't ride with you today — but its lesson does. Put the lesson on your OWL form where the whole crew can use it, then run today clean.",
-  "todaysChallengeSubtext": "“What to do with a mistake: recognize it, admit it, learn from it, forget it.” — Dean Smith",
+  "todaysChallenge": "Finish today — all the way. The last form, the last photo, the location left better than you found it. Ninety percent done is not done.",
+  "todaysChallengeSubtext": "“Discipline helps you finish a job, and finishing is what separates excellence from mediocrity.” — Pat Summitt",
   "compliance": {
     "weekOf": "Week of August 24, 2026",
     "metrics": [

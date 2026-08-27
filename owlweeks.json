@@ -33,6 +33,15 @@
             "Clean board — no open watch items this week"
           ],
           "recognition": "Larry Jaramillo — Communication was on point, translater did great"
+        },
+        {
+          "date": "Thu, Aug 27",
+          "day": "Thursday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Rescue capability must be staged before you ascend — someone must be able to get you down. That plan exists before the first rung. Not after.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Gael Antonio Avila</strong> — Getting the job done the safest way possible and fast to not be in the heat that much</li><li style='margin:3px 0;'><strong>Jeremy Norris</strong> — The job wenr well and according to scope with minimal trigger points needing to be</li><li style='margin:3px 0;'><strong>Ralph Forbes</strong> — Setting work area up to conduct reconnect with other equipment from another job went</li><li style='margin:3px 0;'><strong>Stefanie Kirschke</strong> — Communication with the crew was good, and everyone followed the required safety</li><li style='margin:3px 0;'><strong>Ruben Rojo</strong> — The gasket change went perfect</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Clean board — no open watch items this week"
+          ],
+          "recognition": "Gael Antonio Avila — Getting the job done the safest way possible and fast to not be in the heat"
         }
       ]
     },
