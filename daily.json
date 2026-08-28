@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "week": 11,
-  "day": 4,
-  "openingMessage": "If you leave this meeting knowing one more thing than you walked in with, it worked. Let's make these ten minutes count.",
+  "day": 5,
+  "openingMessage": "Protect the group. Protect the work. Our jobs, our clients, and our reputation depend on it.",
   "openingAttribution": null,
-  "openingWhy": "The hand who fought a frozen pump hose trying to kill a well wrote it up on his OWL form — and now every crew that reads it learns that lesson the easy way. One form reaches every trailer in the Basin by morning. What you know only protects people if it moves.",
+  "openingWhy": "One pencil-whipped form on one location can put a whole client relationship in review. The operator doesn't just grade the hand that slipped — they grade Canon. Every crew in this Basin is either protected or exposed by what happens on your location today.",
   "formCounts": [
     {
       "name": "Rolando Flores",
@@ -151,7 +151,7 @@
       "count": 2
     }
   ],
-  "leadershipThought": "Rescue capability must be staged before you ascend — someone must be able to get you down. That plan exists before the first rung. Not after.",
+  "leadershipThought": "This industry rewards preparation, effort, and ownership — not excuses. You help power homes, hospitals, schools, and communities. Take pride in the standard you represent.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -159,32 +159,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Cindy Smith — Job was completed safety and in a timely manner",
-      "detail": "Did we leave the location better.",
+      "headline": "Rafael Corralez — Worked together with great communication",
+      "detail": "Worked together with great communication",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Dawson Drake — Communication went well for the job",
-      "detail": "Communication went well for the job",
+      "headline": "Jose Hurtado — Excellent communication with crew on setting up affective exclusion zone",
+      "detail": "Excellent communication with crew on setting up affective exclusion zone",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — Did how test got to put together went smoothly",
-      "detail": "Did how test got to put together went smoothly",
+      "headline": "Jacob Hernandez — Communicated with crew and MT made sure everyone stayed safe",
+      "detail": "Communicated with crew and MT made sure everyone stayed safe",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras — Crews went over pretask briefing really well , the recognizes that even if",
-      "detail": "Crews went over pretask briefing really well , the recognizes that even if it's a reconnect",
+      "headline": "Justin Fontenot — Everything went well no issues",
+      "detail": "Everything went well no issues",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis — Roustabout crew used proper PPE and made sure that everything was connected",
-      "detail": "Roustabout crew used proper PPE and made sure that everything was connected properly",
+      "headline": "Anthony Scott — Everything went well because everyone was on point with their LMRAs and spo",
+      "detail": "Everything went well because everyone was on point with their LMRAs and spotter was",
       "psms": "Operational Discipline"
     },
     {
@@ -195,8 +195,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Finish today — all the way. The last form, the last photo, the location left better than you found it. Ninety percent done is not done.",
-  "todaysChallengeSubtext": "“Discipline helps you finish a job, and finishing is what separates excellence from mediocrity.” — Pat Summitt",
+  "todaysChallenge": "Beat the callout today. Do your inspection, your cal check, and your paperwork before anyone has to ask for it. Self-discipline means nobody has to chase you.",
+  "todaysChallengeSubtext": "“Discipline yourself, and others won't need to.” — John Wooden",
   "compliance": {
     "weekOf": "Week of August 24, 2026",
     "metrics": [
