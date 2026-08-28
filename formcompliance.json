@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-08-28",
-  "ytdPct": 83.9,
-  "ytdMissed": 662,
+  "ytdPct": 83.8,
+  "ytdMissed": 663,
   "months": [
     {
       "month": "July 2026",
@@ -273,20 +273,20 @@
       "month": "August 2026",
       "year": 2026,
       "monthNum": 8,
-      "compliancePct": 83.8,
-      "missedTotal": 283,
-      "dailyNo": 169,
+      "compliancePct": 83.7,
+      "missedTotal": 284,
+      "dailyNo": 170,
       "trailerInspNo": 42,
       "trailerReadyNo": 55,
-      "problemRows": 203,
-      "blanks": 107,
+      "problemRows": 204,
+      "blanks": 157,
       "employees": 72,
       "cleanEmployees": 27,
       "dailyYesTotal": 872,
-      "dailyNoTotal": 169,
-      "rawRows": 1301,
-      "daysCovered": 26,
-      "sheetsInMonth": 28,
+      "dailyNoTotal": 170,
+      "rawRows": 1358,
+      "daysCovered": 27,
+      "sheetsInMonth": 29,
       "byDay": [
         {
           "date": "8/1",
@@ -417,6 +417,11 @@
           "date": "8/26",
           "missed": 6,
           "pct": 70
+        },
+        {
+          "date": "8/27",
+          "missed": 1,
+          "pct": 0
         }
       ],
       "watch": [
@@ -431,12 +436,12 @@
         },
         {
           "name": "Barthol Caesar",
-          "totalMissed": 17,
-          "dailyMissed": 17,
+          "totalMissed": 18,
+          "dailyMissed": 18,
           "trailerMissed": 0,
           "dailyYes": 5,
-          "dailyNo": 17,
-          "pct": 23
+          "dailyNo": 18,
+          "pct": 22
         },
         {
           "name": "Josh Blassingame",
@@ -512,7 +517,7 @@
         }
       ],
       "live": true,
-      "throughDate": "8/26"
+      "throughDate": "8/27"
     }
   ]
 }
