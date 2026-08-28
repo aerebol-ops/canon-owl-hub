@@ -2583,12 +2583,18 @@ const DATA = {
       "fieldScenarios": [
         "A tech climbs to the top of a tank to check an instrument. He hooks his lanyard to the handrail — not an approved anchor point. A coworker notices but does not say anything. The rescue plan for this location was never discussed. Standards on height work do not apply only when it feels dangerous. They apply every time, from the first rung up.",
         "A crew is working at elevation on a production facility. One tech ties off to an I-beam that is not an approved anchor — but it looks solid. His harness is inspected. His lanyard is in good shape. The one weak link is the anchor. If the anchor fails, none of the other equipment matters. Tie-off is only as strong as what you clip to.",
-        "A two-man crew is working on a tank roof. They are 100% tied off. One moves to a new position and has to unclip for 10 feet to reach the next anchor. He is experienced. The distance is short. He does not ask for a second lanyard. Ten feet of untethered movement is not a minor gap — it is where the fall happens. 100% tie-off means there is no acceptable gap, not a small one."
+        "A two-man crew is working on a tank roof. They are 100% tied off. One moves to a new position and has to unclip for 10 feet to reach the next anchor. He is experienced. The distance is short. He does not ask for a second lanyard. Ten feet of untethered movement is not a minor gap — it is where the fall happens. 100% tie-off means there is no acceptable gap, not a small one.",
+        "A tech climbs onto the trailer deck to reach a monitor mast. He figures he is about five and a half feet up — under the six-foot line, so he does not tie off. But the trailer is parked on a slope, the deck is diamond plate with dust on it, and what is below him is a hitch and a set of jack stands. Six feet is measured from where you would land, not from where you are standing. Ask what is under you before you decide the rule does not apply.",
+        "A Canon tech is asked to come up on the rig floor to reposition a monitor while the derrickman is working overhead. The tech is not the one at height this time — he is the one underneath it. Nobody has said a word about what is tied off up there. Secured tools cut both ways: some days the rule protects the man above you, and some days you are the reason it exists.",
+        "A tech is on top of a tank at a remote location, tied off correctly to a rated anchor, doing everything right. The only other person on site is the gate guard, and the rig crew left for town an hour ago. If he goes over the side he is hanging in a harness with a clock running on him. Validated rescue capability means a name and a plan — not the assumption that somebody would figure it out."
       ],
       "discussionQuestions": [
         "What do you check on your harness before you put it on? Walk through it right now.",
         "On your locations, what is the rescue plan if someone is suspended and cannot self-rescue?",
-        "When have you seen someone clip to the wrong anchor point? Did you say something?"
+        "When have you seen someone clip to the wrong anchor point? Did you say something?",
+        "When did you last step up on a trailer deck or a tank stair without thinking twice about it? What is actually underneath you if you come off?",
+        "Who is working above you on your locations — and what is keeping their tools from coming down on you?",
+        "Name the person who would get you down if you went over the side today. If you cannot name one, you do not have a rescue plan."
       ]
     },
     {
@@ -3193,7 +3199,10 @@ async function renderTemplate() {
         // with its crew question. This is the heart of the daily meeting.
         const scens = w.fieldScenarios || [];
         const qs    = w.discussionQuestions || [];
-        const order = seededShuffle(scens.map((_, i) => i), dailySeed());
+        // Three per morning, drawn from the week's pool in a daily-shuffled
+        // order. Weeks with a deeper pool therefore work different scenarios on
+        // different days instead of repeating the same three all week.
+        const order = seededShuffle(scens.map((_, i) => i), dailySeed()).slice(0, 3);
         const scenHtml = order.map((idx, n) => `
           <div class="runsheet-scenario" style="margin-bottom:4px;"><strong>Scenario ${n + 1}:</strong> ${scens[idx]}</div>
           ${qs[idx] ? `<div class="runsheet-question" style="margin-bottom:14px;">Ask the crew: ${qs[idx]}</div>` : ''}
