@@ -1,6 +1,24 @@
 {
   "weeks": [
     {
+      "week": 12,
+      "owl": "Auto-logged",
+      "theme": "Operational Discipline",
+      "psms": "Operational Discipline",
+      "dateRange": "Aug 31&ndash;Sep 4, 2026",
+      "meetings": [
+        {
+          "date": "Mon, Aug 31",
+          "day": "Week 12 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Twelve weeks is a starting point. The discipline you've built here is what you take into every job after this. Familiarity is where shortcuts are born. Do job 500 the same way you did job 1.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Michael Jobe</strong> — Work went smoothly safety meet</li><li style='margin:3px 0;'><strong>Hayden Haugh</strong> — Job went well due to good communication</li><li style='margin:3px 0;'><strong>Gael Antonio Avila</strong> — Everything even we got some Exxon reps on location looking at the job and everything</li><li style='margin:3px 0;'><strong>Justin Fontenot</strong> — Good communication with crew and everything went smoothly</li><li style='margin:3px 0;'><strong>Raymundo Solis</strong> — Crew would stop work every time they would smell gas and we'd masked up and test</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Clean board — no open watch items this week"
+          ],
+          "recognition": "Michael Jobe — Work went smoothly safety meet"
+        }
+      ]
+    },
+    {
       "week": 11,
       "owl": "Jimmy White &rarr; Caleb Smith",
       "theme": "Standards",
