@@ -3205,10 +3205,18 @@ async function renderTemplate() {
         // with its crew question. This is the heart of the daily meeting.
         const scens = w.fieldScenarios || [];
         const qs    = w.discussionQuestions || [];
-        // Three per morning, drawn from the week's pool in a daily-shuffled
-        // order. Weeks with a deeper pool therefore work different scenarios on
-        // different days instead of repeating the same three all week.
-        const order = seededShuffle(scens.map((_, i) => i), dailySeed()).slice(0, 3);
+        // Three per morning. The pool is shuffled once for the week (seed is the
+        // week number, so the order holds Mon-Fri) and then walked as a rotating
+        // window, three at a time. Reshuffling independently each day looked
+        // varied but guaranteed nothing: week 12's six scenarios came out
+        // 3/4/1/4/3/0 across the week, so one was never worked at all. The
+        // window airs every scenario in a six-deep pool twice a week.
+        const nScen = scens.length;
+        const weekOrder = seededShuffle(scens.map((_, i) => i), (w.week || 1) * 104729);
+        const dayIdx = (daily && daily.day ? daily.day : 1) - 1;
+        const order = nScen <= 3
+          ? weekOrder
+          : Array.from({ length: 3 }, (_, k) => weekOrder[((dayIdx * 3) + k) % nScen]);
         const scenHtml = order.map((idx, n) => `
           <div class="runsheet-scenario" style="margin-bottom:4px;"><strong>Scenario ${n + 1}:</strong> ${scens[idx]}</div>
           ${qs[idx] ? `<div class="runsheet-question" style="margin-bottom:14px;">Ask the crew: ${qs[idx]}</div>` : ''}
