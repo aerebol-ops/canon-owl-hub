@@ -171,33 +171,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Followed guidelines for line of fire crew position themselves out from any",
-      "detail": "Followed guidelines for line of fire crew position themselves out from any hazards",
+      "headline": "Rolando Flores — The crew communicated well, got the well to be killed and start to work on",
+      "detail": "The crew communicated well, got the well to be killed and start to work on it and the job",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Gael Antonio Avila — Everything, just a little hot but we got the job done fast",
+      "headline": "Ruben Rojo — Did a hold point because of tools that weren't available",
+      "detail": "Did a hold point because of tools that weren't available",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Dermont Morgan — Good communication during the confined space rescue job; everyone was on th",
       "detail": "Did we leave the location better.",
+      "psms": "Confined Space Entry"
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez — Reevaluate our process to get piping out",
+      "detail": "Reevaluate our process to get piping out",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras — Crews identified hazards and triggers of the job scope and mitigated them",
-      "detail": "Crews identified hazards and triggers of the job scope and mitigated them . Crews",
+      "headline": "Jeremy Norris — Everyone kept an eye on their fellow teammate and that we were all staying",
+      "detail": "Everyone kept an eye on their fellow teammate and that we were all staying hydrated.",
       "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "William Jimmy Cooper — Cooperation between all parties on location",
-      "detail": "Cooperation between all parties on location",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke — Good communication with the crew throughout the job",
-      "detail": "Good communication with the crew throughout the job. The well was properly killed before",
-      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "flag",
