@@ -3,18 +3,18 @@
     {
       "week": 12,
       "owl": "Auto-logged",
-      "theme": "Operational Discipline",
-      "psms": "Operational Discipline",
+      "theme": "Discipline",
+      "psms": "Work Authorization",
       "dateRange": "Aug 31&ndash;Sep 4, 2026",
       "meetings": [
         {
           "date": "Mon, Aug 31",
           "day": "Week 12 Kickoff",
-          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Twelve weeks is a starting point. The discipline you've built here is what you take into every job after this. Familiarity is where shortcuts are born. Do job 500 the same way you did job 1.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Dawson Drake</strong> — Did we leave the location better.</li><li style='margin:3px 0;'><strong>Jose Hurtado</strong> — Good communication with mt</li><li style='margin:3px 0;'><strong>Anthony Scott</strong> — Everything due to everyone doing wht needed to be done on disconnect.</li><li style='margin:3px 0;'><strong>Brianda Sandoval</strong> — Crew was pretty good on following instructions and advices.</li><li style='margin:3px 0;'><strong>Baldemar Bracamontes</strong> — Crew successfully disconnected flow line there was no injection line to disconnect</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Twelve weeks is a starting point. The discipline you've built here is what you take into every job after this. Familiarity is where shortcuts are born. Do job 500 the same way you did job 1.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Alfredo Vaquera</strong> — All Safety rules were put into place and a great communication ability throughout all third-</li><li style='margin:3px 0;'><strong>Larry Jaramillo</strong> — Crew member realizes truck driver did not have swamper and was backing into location</li><li style='margin:3px 0;'><strong>Nathan Contreras</strong> — Job scope went well , crew utilized lmra and lsra . Crew also verified safeguards were in</li><li style='margin:3px 0;'><strong>Cindy Smith</strong> — Did we leave the location better.</li><li style='margin:3px 0;'><strong>Justin Fontenot</strong> — Job was completed safely no hazards or issues with any member of the crew</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
           "flags": [
             "Clean board — no open watch items this week"
           ],
-          "recognition": "Dawson Drake — Communication between the MT and the crew communication between empty and C"
+          "recognition": "Alfredo Vaquera — All Safety rules were put into place and a great communication ability thro"
         }
       ]
     },
@@ -74,11 +74,43 @@
     },
     {
       "week": 10,
-      "owl": "Auto-logged",
-      "theme": "Mobile Equipment",
-      "psms": "Mobile Equipment",
+      "owl": "Jimmy White",
+      "theme": "Planning",
+      "psms": "Safe Mechanical Lifting",
       "dateRange": "Aug 17&ndash;Aug 21, 2026",
       "meetings": [
+        {
+          "date": "Mon, Aug 17",
+          "day": "Week 10 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Dermont Morgan</strong> &mdash; Good communication with the spotter and forklift driver</li><li style='margin:3px 0;'><strong>Hayden Haugh</strong> &mdash; Area tested 0 on gases</li><li style='margin:3px 0;'><strong>Justin Fontenot</strong> &mdash; Job went according to plan without any issues</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> &mdash; Everyone was on top of their job and what was the job scope</li><li style='margin:3px 0;'><strong>William Jimmy Cooper</strong> &mdash; Proper atmospheric testing before job</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>20 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Tue, Aug 18",
+          "day": "Tuesday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Alfredo Vaquera</strong> &mdash; All team members and all third-party companies applied all safety rules to</li><li style='margin:3px 0;'><strong>Dermont Morgan</strong> &mdash; Stopped the job spoke with the person trying to enter the red zone</li><li style='margin:3px 0;'><strong>Gael Antonio Avila</strong> &mdash; Everything even we got some Exxon reps on location looking at the job and e</li><li style='margin:3px 0;'><strong>Hayden Haugh</strong> &mdash; Job went smoothly with good communication</li><li style='margin:3px 0;'><strong>Joseph Popillion</strong> &mdash; Job functionality was perfect</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>24 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Wed, Aug 19",
+          "day": "Wednesday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Hayden Haugh</strong> &mdash; Didn't run into any issues due to good communication</li><li style='margin:3px 0;'><strong>Justin Fontenot</strong> &mdash; Everything went well no issues</li><li style='margin:3px 0;'><strong>Michael Jobe</strong> &mdash; Had safety meeting went all good as job scope said</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> &mdash; Crew effectively implemented the LSRAs and maintained clear communication t</li><li style='margin:3px 0;'><strong>Andrew Bailey</strong> &mdash; Crew successfully reconnected flowline</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>14 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Thu, Aug 20",
+          "day": "Thursday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Dermont Morgan</strong> &mdash; Good communication; the flow line that the crew was living was a hudge awkw</li><li style='margin:3px 0;'><strong>Gael Antonio Avila</strong> &mdash; Everything was smooth and safe</li><li style='margin:3px 0;'><strong>Hayden Haugh</strong> &mdash; Crew didn't have any issues putting everything back</li><li style='margin:3px 0;'><strong>Justin Fontenot</strong> &mdash; No issues job went according to plan</li><li style='margin:3px 0;'><strong>Michael Jobe</strong> &mdash; Work went smoothly safety meet</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>15 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
         {
           "date": "Fri, Aug 21",
           "day": "Friday",
@@ -87,6 +119,153 @@
             "Clean board — no open watch items this week"
           ],
           "recognition": "Ralph Forbes — The completion of blowing the well down went smoothly"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "owl": "Mike Lyons (Mon) &rarr; Jimmy White",
+      "theme": "Precision",
+      "psms": "Excavation",
+      "dateRange": "Aug 10&ndash;Aug 14, 2026",
+      "meetings": [
+        {
+          "date": "Mon, Aug 10",
+          "day": "Week 9 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Dermont Morgan</strong> &mdash; Good communication with the crane operator, rigger, and crew</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> &mdash; Everyone communicated very well had spotter and a tagline to make sure piec</li><li style='margin:3px 0;'><strong>Jeremy Norris</strong> &mdash; the job was completed safely and efficiently under constant air supply and</li><li style='margin:3px 0;'><strong>Jordan Lemmons</strong> &mdash; Went over the job scope found out it's a conversion not just a regular reco</li><li style='margin:3px 0;'><strong>Larry Jaramillo</strong> &mdash; I looked up and the guy was chit-chatting with his fellow workers and they</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>8 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Tue, Aug 11",
+          "day": "Tuesday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Alfredo Vaquera</strong> &mdash; We utilized all tools to complete job safely</li><li style='margin:3px 0;'><strong>Dermont Morgan</strong> &mdash; Everyone was on the same page and worked good together</li><li style='margin:3px 0;'><strong>Gael Antonio Avila</strong> &mdash; Everything in general specially with this crew they understand everything</li><li style='margin:3px 0;'><strong>Justin Fontenot</strong> &mdash; Job was rescheduled issues with the permit</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> &mdash; The valves bleed out tested and it came out good</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>16 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Wed, Aug 12",
+          "day": "Wednesday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Alfredo Vaquera</strong> &mdash; All Safety rules were put into place and a great communication ability thro</li><li style='margin:3px 0;'><strong>Baldemar Bracamontes</strong> &mdash; Job was completed in a timely manner while maintaining all LSRA's even thou</li><li style='margin:3px 0;'><strong>Dermont Morgan</strong> &mdash; Good communication when blowing down the well and being in the right area,</li><li style='margin:3px 0;'><strong>Gael Antonio Avila</strong> &mdash; The job went well, the meeting went well, so far everything</li><li style='margin:3px 0;'><strong>William Jimmy Cooper</strong> &mdash; No injuries or environmental impact</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>23 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Thu, Aug 13",
+          "day": "Thursday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Baldemar Bracamontes</strong> &mdash; Canon techs had good communication with the crew to ensure that there was n</li><li style='margin:3px 0;'><strong>Dermont Morgan</strong> &mdash; Good communication and hand placement</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> &mdash; The crew worked together effectively and followed the established safety pr</li><li style='margin:3px 0;'><strong>Jeremy Norris</strong> &mdash; Everyone on site working together as a team to complete the job safely</li><li style='margin:3px 0;'><strong>Jordan Lemmons</strong> &mdash; Went over muster points for incase something bad happened</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>15 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Fri, Aug 14",
+          "day": "Friday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Baldemar Bracamontes</strong> &mdash; All crews worked together to finish the disconnect safely</li><li style='margin:3px 0;'><strong>Hayden Haugh</strong> &mdash; The crew did a great job of communicating and taking turns while breaking t</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> &mdash; The crew and everyone is was informed about LMRAs and made sure the job wen</li><li style='margin:3px 0;'><strong>William Jimmy Cooper</strong> &mdash; Safety made the prority</li><li style='margin:3px 0;'><strong>Brianda Sandoval</strong> &mdash; Job was completed safely and everyone adhered to the rules like we told the</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>20 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "owl": "Edward Carrillo &rarr; Caleb Smith",
+      "theme": "Building Culture",
+      "psms": "Bypassing Safety Controls",
+      "dateRange": "Aug 3&ndash;Aug 7, 2026",
+      "meetings": [
+        {
+          "date": "Mon, Aug 3",
+          "day": "Week 8 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Anthony Scott</strong> &mdash; Mobile Equipment — Anthony Scott</li><li style='margin:3px 0;'><strong>Raymundo Solis</strong> &mdash; Good communication with crew and also with another company man that was doi</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>2 form(s) submitted by 2 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Tue, Aug 4",
+          "day": "Tuesday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Hayden Haugh</strong> &mdash; Forklift driver didn't move the forklift until he saw his spotter in place</li><li style='margin:3px 0;'><strong>William Jimmy Cooper</strong> &mdash; All safety rules observed meetings conducted in English and Spanishpoint ou</li><li style='margin:3px 0;'><strong>Jacob Hernandez</strong> &mdash; Job went to scope with no safety issues</li><li style='margin:3px 0;'><strong>Jeremy Norris</strong> &mdash; Good usage of the forklift spotters</li><li style='margin:3px 0;'><strong>Larry Jaramillo</strong> &mdash; Communications was great because everyone on location spoke and understood</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>9 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Wed, Aug 5",
+          "day": "Wednesday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Alfredo Vaquera</strong> &mdash; Crew heard air leak and mustard up immediately</li><li style='margin:3px 0;'><strong>Hayden Haugh</strong> &mdash; Crew communicated throughly</li><li style='margin:3px 0;'><strong>Kedrick Mccarter</strong> &mdash; Operational Discipline — 1099 Kedrick Mccarter</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> &mdash; Crew was communicating, spotter was there to spot the forklift driver</li><li style='margin:3px 0;'><strong>William Jimmy Cooper</strong> &mdash; Crews worked as a unit</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>9 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Thu, Aug 6",
+          "day": "Thursday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Alfredo Vaquera</strong> &mdash; Great communication between all personnel</li><li style='margin:3px 0;'><strong>Hayden Haugh</strong> &mdash; People stayed out of the exclusion zones, crews worked together</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> &mdash; Everyone was communicating between being the spotter to connecting the flow</li><li style='margin:3px 0;'><strong>William Jimmy Cooper</strong> &mdash; Rig up safety meeting</li><li style='margin:3px 0;'><strong>Anthony Scott</strong> &mdash; Everything from safety meeting to job task</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>9 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Fri, Aug 7",
+          "day": "Friday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Hayden Haugh</strong> &mdash; Communication of the job</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> &mdash; Valves bleed out and tested zero pressure on flow lines</li><li style='margin:3px 0;'><strong>Jeremy Norris</strong> &mdash; everyone was making sure to not only keep themselves hydrated but those aro</li><li style='margin:3px 0;'><strong>Jose Hurtado</strong> &mdash; Crew used PPE for work done</li><li style='margin:3px 0;'><strong>Raymundo Solis</strong> &mdash; Good communication between spotter and forklift operator</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>8 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "owl": "Jimmy White",
+      "theme": "Problem Solving",
+      "psms": "Hot Work",
+      "dateRange": "Jul 27&ndash;Jul 31, 2026",
+      "meetings": [
+        {
+          "date": "Mon, Jul 27",
+          "day": "Week 7 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Cindy Smith</strong> &mdash; No gas detected, job was completed with no issues</li><li style='margin:3px 0;'><strong>Justin Fontenot</strong> &mdash; Job went as planned no issues</li><li style='margin:3px 0;'><strong>William Jimmy Cooper</strong> &mdash; All parties communicated well and worked safelycomm</li><li style='margin:3px 0;'><strong>Jacob Hernandez</strong> &mdash; Job executed flawlessly</li><li style='margin:3px 0;'><strong>Larry Jaramillo</strong> &mdash; We inspected their tools and determined they were not correct, shut job dow</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>8 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Tue, Jul 28",
+          "day": "Tuesday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>No OWL forms were submitted on this date.</em><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Wed, Jul 29",
+          "day": "Wednesday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Cindy Smith</strong> &mdash; Crew workedl efficiently and there were no issues</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> &mdash; Everyone communicated had a brief meeting about LMRAs</li><li style='margin:3px 0;'><strong>William Jimmy Cooper</strong> &mdash; Job completed without incidents</li><li style='margin:3px 0;'><strong>Andrew Bailey</strong> &mdash; Everything went as planned on conversion</li><li style='margin:3px 0;'><strong>Jacob Hernandez</strong> &mdash; Job was followed to scope</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>5 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Thu, Jul 30",
+          "day": "Thursday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Edward Carrillo</strong> &mdash; All parties involved in talks were very patient and thorough</li><li style='margin:3px 0;'><strong>Justin Fontenot</strong> &mdash; Job went just as discussed in safety meeting</li><li style='margin:3px 0;'><strong>William Jimmy Cooper</strong> &mdash; Crew worked together good communication</li><li style='margin:3px 0;'><strong>Jacob Hernandez</strong> &mdash; Great communication at trigger point</li><li style='margin:3px 0;'><strong>Larry Jaramillo</strong> &mdash; Crew members were patient and did not rush</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>8 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
+        {
+          "date": "Fri, Jul 31",
+          "day": "Friday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Cindy Smith</strong> &mdash; Crew is very efficient and man with tagline contrelled the huge pieces well</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> &mdash; Crew communicated the LMRAs</li><li style='margin:3px 0;'><strong>William Jimmy Cooper</strong> &mdash; Job was performed without incident</li><li style='margin:3px 0;'><strong>Jimmy White</strong> &mdash; Flowline successfully installed with little mistakes</li><li style='margin:3px 0;'><strong>Kyle Williams</strong> &mdash; Life saving rule meeting</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>8 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
         }
       ]
     }
