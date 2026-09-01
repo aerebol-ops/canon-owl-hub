@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "week": 12,
-  "day": 1,
-  "openingMessage": "The oilfield is not made for everyone. It is made for the gritty. The disciplined. The dependable. This industry rewards preparation, effort, and ownership — not excuses.",
+  "day": 2,
+  "openingMessage": "Nobody wins alone. Nobody builds a company alone. Nobody protects a location alone. We succeed by winning the small daily battles.",
   "openingAttribution": null,
-  "openingWhy": "This field pays what it pays because it's unforgiving. Pressure, gas, iron, and weather don't accept apologies. The hands who make thirty years out here aren't the lucky ones — they're the ones who never once got comfortable.",
+  "openingWhy": "On an H2S separator job a few weeks back, Alex Clubb wouldn't let the break start until rescue was staged — himself primary, Justin secondary, named out loud before a bolt turned. The job went clean because three men were tied together, not because one man was good.",
   "formCounts": [
     {
       "name": "Rolando Flores",
@@ -163,7 +163,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Twelve weeks is a starting point. The discipline you've built here is what you take into every job after this. Familiarity is where shortcuts are born. Do job 500 the same way you did job 1.",
+  "leadershipThought": "Authorization is the last gate before work starts. It exists because the people who skipped it taught us why it matters. When conditions change, the permit changes. The job doesn't keep moving.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -171,32 +171,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Alfredo Vaquera — All Safety rules were put into place and a great communication ability thro",
-      "detail": "All Safety rules were put into place and a great communication ability throughout all third-",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Larry Jaramillo — Crew member realizes truck driver did not have swamper and was backing into",
-      "detail": "Crew member realizes truck driver did not have swamper and was backing into location",
-      "psms": "Stop Work Authority"
-    },
-    {
-      "type": "good",
-      "headline": "Nathan Contreras — Job scope went well , crew utilized lmra and lsra",
-      "detail": "Job scope went well , crew utilized lmra and lsra . Crew also verified safeguards were in",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Cindy Smith — Crew completed the job as planned without any incidents or near misses",
+      "headline": "Cindy Smith — Job was completed according to the plan",
       "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Justin Fontenot — Job was completed safely no hazards or issues with any member of the crew",
-      "detail": "Job was completed safely no hazards or issues with any member of the crew",
+      "headline": "Andrew Bailey — The flowline and hothead were removed and atmospheric testing was completed",
+      "detail": "The flowline and hothead were removed and atmospheric testing was completed",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Hayden Haugh — Crew was sure to use spotter and communicated properly while operating the",
+      "detail": "Crew was sure to use spotter and communicated properly while operating the forklift",
+      "psms": "Mobile Equipment"
+    },
+    {
+      "type": "good",
+      "headline": "Justin Fontenot — Job went well no issues with the job scope",
+      "detail": "Job went well no issues with the job scope",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Ralph Forbes — Pulled the well down to be able to replace packing successfully",
+      "detail": "Pulled the well down to be able to replace packing successfully",
       "psms": "Operational Discipline"
     },
     {
@@ -207,8 +207,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "One percent better today: one cleaner form, one earlier callout, one sharper LMRA. Stack enough days like that and it stops being effort — it's just who we are.",
-  "todaysChallengeSubtext": "“Excellence is the gradual result of always striving to do better.” — Pat Riley",
+  "todaysChallenge": "You can't control the weather, the schedule, or the company man. You can control your readings, your checks, and your callout. Own the part that's yours today.",
+  "todaysChallengeSubtext": "“Do not let what you cannot do interfere with what you can do.” — John Wooden",
   "compliance": {
     "weekOf": "Week of August 24, 2026",
     "metrics": [
