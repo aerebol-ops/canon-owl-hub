@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "week": 12,
-  "day": 2,
-  "openingMessage": "Nobody wins alone. Nobody builds a company alone. Nobody protects a location alone. We succeed by winning the small daily battles.",
+  "day": 3,
+  "openingMessage": "You help power homes, hospitals, schools, businesses, and communities across North America. Take pride in that. Take pride in the standard you represent. Take pride in each other.",
   "openingAttribution": null,
-  "openingWhy": "On an H2S separator job a few weeks back, Alex Clubb wouldn't let the break start until rescue was staged — himself primary, Justin secondary, named out loud before a bolt turned. The job went clean because three men were tied together, not because one man was good.",
+  "openingWhy": "The gas you meter today ends up in somebody's stove, a hospital's boiler, a school's heat this winter. The Permian runs a big piece of this country. Run your piece of the Permian like it matters — because it does.",
   "formCounts": [
     {
       "name": "Rolando Flores",
@@ -163,7 +163,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Authorization is the last gate before work starts. It exists because the people who skipped it taught us why it matters. When conditions change, the permit changes. The job doesn't keep moving.",
+  "leadershipThought": "You came into this program as a leader. You leave it as one. The crew you walk with is watching what you do next. The standard is the standard — it doesn't change.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -171,33 +171,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Brianda Sandoval — The job was quick yet completed safely",
-      "detail": "The job was quick yet completed safely. The crew was good at listening.",
+      "headline": "Andrew Bailey — The job was completed without injuries",
+      "detail": "The job was completed without injuries",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons — Went over muster points for incase something bad happened",
-      "detail": "Did we leave the location better Yes.",
+      "headline": "Hayden Haugh — Crew safely reconnected the wellhead",
+      "detail": "Crew safely reconnected the wellhead",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Baldemar Bracamontes — Job was completed in a timely manner while maintaining all LSRA's even thou",
-      "detail": "Job was completed in a timely manner while maintaining all LSRA's even though rig crew",
+      "headline": "Ralph Forbes — Exclusion zone set up, all parts connected no issues",
+      "detail": "Exclusion zone set up, all parts connected no issues",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Alfredo Vaquera — We utilized all tools to complete job safely",
-      "detail": "We utilized all tools to complete job safely. Great communication between all parties and",
+      "headline": "Cindy Smith — Job was completed according to plan",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo — I looked up and the guy was chit-chatting with his fellow workers and they",
-      "detail": "I looked up and the guy was chit-chatting with his fellow workers and they did realize he",
-      "psms": "Operational Discipline"
+      "headline": "Justin Fontenot — Well was disconnected with zero issues",
+      "detail": "Well was disconnected with zero issues. Job went well",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "flag",
@@ -207,8 +207,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "You can't control the weather, the schedule, or the company man. You can control your readings, your checks, and your callout. Own the part that's yours today.",
-  "todaysChallengeSubtext": "“Do not let what you cannot do interfere with what you can do.” — John Wooden",
+  "todaysChallenge": "When the job goes sideways today — weather, delays, a hot line — nobody needs your frustration, they need your next right call. Lead the response, not the complaint.",
+  "todaysChallengeSubtext": "“During critical periods, a leader is not allowed to feel sorry for himself.” — Mike Krzyzewski",
   "compliance": {
     "weekOf": "Week of August 24, 2026",
     "metrics": [
