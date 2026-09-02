@@ -8,46 +8,58 @@
   "formCounts": [
     {
       "name": "Rolando Flores",
-      "count": 50
-    },
-    {
-      "name": "Stefanie Kirschke",
-      "count": 37
+      "count": 53
     },
     {
       "name": "William Jimmy Cooper",
-      "count": 36
+      "count": 41
     },
     {
-      "name": "Anthony Scott",
-      "count": 32
+      "name": "Stefanie Kirschke",
+      "count": 40
     },
     {
       "name": "Ralph Forbes",
+      "count": 34
+    },
+    {
+      "name": "Anthony Scott",
+      "count": 33
+    },
+    {
+      "name": "Nathan Contreras",
+      "count": 31
+    },
+    {
+      "name": "Bobby Galindo",
       "count": 30
+    },
+    {
+      "name": "Jordan Lemmons",
+      "count": 29
     },
     {
       "name": "Dermont Morgan",
       "count": 28
     },
     {
-      "name": "Nathan Contreras",
-      "count": 28
-    },
-    {
-      "name": "Jordan Lemmons",
-      "count": 27
-    },
-    {
-      "name": "Bobby Galindo",
-      "count": 26
+      "name": "Jeremy Norris",
+      "count": 25
     },
     {
       "name": "Andrew Bailey",
       "count": 23
     },
     {
-      "name": "Jeremy Norris",
+      "name": "Hayden Haugh",
+      "count": 23
+    },
+    {
+      "name": "Jacob Hernandez",
+      "count": 22
+    },
+    {
+      "name": "Jose Hurtado",
       "count": 22
     },
     {
@@ -59,11 +71,7 @@
       "count": 21
     },
     {
-      "name": "Jacob Hernandez",
-      "count": 20
-    },
-    {
-      "name": "Jose Hurtado",
+      "name": "Dawson Drake",
       "count": 20
     },
     {
@@ -75,16 +83,8 @@
       "count": 20
     },
     {
-      "name": "Dawson Drake",
-      "count": 19
-    },
-    {
-      "name": "Hayden Haugh",
-      "count": 19
-    },
-    {
       "name": "Pablo Soto",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Raymundo Solis",
@@ -92,11 +92,11 @@
     },
     {
       "name": "Cindy Smith",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Baldemar Bracamontes",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Larry Jaramillo",
@@ -108,27 +108,27 @@
     },
     {
       "name": "Luis Zarate",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Robert Henigan",
-      "count": 9
+      "count": 11
     },
     {
       "name": "Ruben Rojo",
-      "count": 9
+      "count": 11
     },
     {
       "name": "Brianda Sandoval",
       "count": 7
     },
     {
-      "name": "Joseph Popillion",
+      "name": "Caleb Smith",
       "count": 7
     },
     {
-      "name": "Caleb Smith",
-      "count": 6
+      "name": "Joseph Popillion",
+      "count": 7
     },
     {
       "name": "Rafael Corralez",
@@ -143,16 +143,20 @@
       "count": 4
     },
     {
+      "name": "Alejandro Najar",
+      "count": 3
+    },
+    {
+      "name": "Christian Lee",
+      "count": 3
+    },
+    {
       "name": "Jimmy White",
       "count": 3
     },
     {
       "name": "Kedrick Mccarter",
       "count": 3
-    },
-    {
-      "name": "Christian Lee",
-      "count": 2
     },
     {
       "name": "Larry Taylor",
@@ -167,36 +171,36 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Job scope went well , crew utilized lmra and lsra</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Job scope went well , crew utilized lmra and lsra . Crew also verified safeguards were in</span><br><br><strong>Pulled the well down to be able to replace packing successfully</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Pulled the well down to be able to replace packing successfully</span><br><br><strong>Followed guidelines for line of fire crew position themselves out from any</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Followed guidelines for line of fire crew position themselves out from any hazards</span><br><br><strong>Crews identified hazards and triggers of the job scope and mitigated them</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crews identified hazards and triggers of the job scope and mitigated them . Crews</span><br><br><strong>Exclusion zone established and maintained while bleeding pressure off the w</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Exclusion zone established and maintained while bleeding pressure off the well</span>",
+  "exxonMoments": "<strong>Everything went well and according to scope</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything went well and according to scope. All teams on site worked well together to</span><br><br><strong>Crew's communicated with one another and gave strong sense of potential haz</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew's communicated with one another and gave strong sense of potential hazards and</span><br><br><strong>Observed the wellhead reconnect being completed safely with good communicat</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Observed the wellhead reconnect being completed safely with good communication</span><br><br><strong>Crew communicated on what the first step would be and executed the plan pro</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Hayden Haugh]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew communicated on what the first step would be and executed the plan properly</span><br><br><strong>The job went good and everyone made it out the same way they came in</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The job went good and everyone made it out the same way they came in.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jeremy Norris — crews worked well to get the job completed well together",
-      "detail": "Crews worked well to get the job completed well together",
+      "headline": "Alejandro Najar — crew was cautious about disconnecting and having trapped pressure",
+      "detail": "Crew was cautious about disconnecting and having trapped pressure",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Caleb Smith — We observed crew using proper lifting measures with the forklift",
+      "detail": "We observed crew using proper lifting measures with the forklift. They had a spotter in",
+      "psms": "Mobile Equipment"
+    },
+    {
+      "type": "good",
+      "headline": "Baldemar Bracamontes — The job was completed without any incident, all atmosphere readings were co",
+      "detail": "The job was completed without any incident, all atmosphere readings were compliant with",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — Got the safety meeting done got to work killed the well",
-      "detail": "Got the safety meeting done got to work killed the well",
+      "headline": "Jose Hurtado — Job went well good communication",
+      "detail": "Job went well good communication",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Dermont Morgan — Witness crew looking at their LMRAs before doing work",
-      "detail": "Witness crew looking at their LMRAs before doing work.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Anthony Scott — crew readjusted after small issue with flowline connecting to check valve",
-      "detail": "Crew readjusted after small issue with flowline connecting to check valve",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Dawson Drake — Job completed safely and efficiently",
-      "detail": "Job completed safely and efficiently",
+      "headline": "Jacob Hernandez — Stop job utilized when scope of job changed",
+      "detail": "Stop job utilized when scope of job changed",
       "psms": "Operational Discipline"
     },
     {
@@ -214,8 +218,8 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 43,
-        "total": 47
+        "done": 47,
+        "total": 54
       },
       {
         "label": "Trailer Inspections",
