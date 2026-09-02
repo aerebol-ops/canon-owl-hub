@@ -171,33 +171,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Andrew Bailey — The job was completed without injuries",
-      "detail": "The job was completed without injuries",
+      "headline": "Raymundo Solis — How the roustabout crew did a hold point so they can get tools to break off",
+      "detail": "How the roustabout crew did a hold point so they can get tools to break off bolts",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Hayden Haugh — Crew safely reconnected the wellhead",
-      "detail": "Crew safely reconnected the wellhead",
+      "headline": "Nathan Contreras — Crews did well in pre task briefing, crews acknowledged hazards and recogni",
+      "detail": "Crews did well in pre task briefing, crews acknowledged hazards and recognized",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Exclusion zone set up, all parts connected no issues",
-      "detail": "Exclusion zone set up, all parts connected no issues",
+      "headline": "Stefanie Kirschke — Good communication and teamwork between crews",
+      "detail": "Good communication and teamwork between crews. The valve issue was identified quickly,",
+      "psms": "Stop Work Authority"
+    },
+    {
+      "type": "good",
+      "headline": "Rolando Flores — The crew communicated effectively, followed the LSRAs, and maintained good",
+      "detail": "The crew communicated effectively, followed the LSRAs, and maintained good awareness",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Cindy Smith — Job was completed according to plan",
-      "detail": "Did we leave the location better.",
+      "headline": "William Jimmy Cooper — Cooperation with crews and company rep",
+      "detail": "Cooperation with crews and company rep",
       "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Justin Fontenot — Well was disconnected with zero issues",
-      "detail": "Well was disconnected with zero issues. Job went well",
-      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "flag",
@@ -210,25 +210,25 @@
   "todaysChallenge": "When the job goes sideways today — weather, delays, a hot line — nobody needs your frustration, they need your next right call. Lead the response, not the complaint.",
   "todaysChallengeSubtext": "“During critical periods, a leader is not allowed to feel sorry for himself.” — Mike Krzyzewski",
   "compliance": {
-    "weekOf": "Week of August 24, 2026",
+    "weekOf": "Week of August 31, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 100,
-        "total": 115
+        "done": 43,
+        "total": 47
       },
       {
         "label": "Trailer Inspections",
-        "done": 23,
-        "total": 31
+        "done": 7,
+        "total": 10
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 17,
-        "total": 21
+        "done": 7,
+        "total": 11
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 08/27"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 09/01"
   },
   "specialFocus": {
     "title": "Twelve Weeks, One Habit — Discipline Is What's Left",
