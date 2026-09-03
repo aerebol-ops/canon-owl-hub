@@ -175,33 +175,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Alejandro Najar — crew was cautious about disconnecting and having trapped pressure",
-      "detail": "Crew was cautious about disconnecting and having trapped pressure",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Jordan Lemmons — Finally was able to kill well",
+      "detail": "Finally was able to kill well",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Caleb Smith — We observed crew using proper lifting measures with the forklift",
-      "detail": "We observed crew using proper lifting measures with the forklift. They had a spotter in",
+      "headline": "Ruben Rojo — No hiccups or problems during installation of new gasket",
+      "detail": "No hiccups or problems during installation of new gasket",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Luis Zarate — Everything went according to plan on job scope",
+      "detail": "Everything went according to plan on job scope.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Brianda Sandoval — Great communication between both crews and the rest of the team",
+      "detail": "Great communication between both crews and the rest of the team. Safety meeting was",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Gael Antonio Avila — The job went well, the meeting went well, so far everything",
+      "detail": "The job went well, the meeting went well, so far everything",
       "psms": "Mobile Equipment"
-    },
-    {
-      "type": "good",
-      "headline": "Baldemar Bracamontes — The job was completed without any incident, all atmosphere readings were co",
-      "detail": "The job was completed without any incident, all atmosphere readings were compliant with",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Jose Hurtado — Job went well good communication",
-      "detail": "Job went well good communication",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Jacob Hernandez — Stop job utilized when scope of job changed",
-      "detail": "Stop job utilized when scope of job changed",
-      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
