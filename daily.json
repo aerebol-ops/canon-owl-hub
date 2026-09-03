@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "week": 12,
-  "day": 3,
-  "openingMessage": "You help power homes, hospitals, schools, businesses, and communities across North America. Take pride in that. Take pride in the standard you represent. Take pride in each other.",
+  "day": 4,
+  "openingMessage": "Character is built when nobody is watching. Check your monitor one more time. Verify tube inventory. Fuel your truck before it becomes a problem. Nobody rewards these actions. But they create certainty.",
   "openingAttribution": null,
-  "openingWhy": "The gas you meter today ends up in somebody's stove, a hospital's boiler, a school's heat this winter. The Permian runs a big piece of this country. Run your piece of the Permian like it matters — because it does.",
+  "openingWhy": "A monitor that never gets bump-tested still reads zero — zero is also what a dead sensor says. On a one-man location there's nobody to catch that but you. The gas will absolutely test the equipment you didn't.",
   "formCounts": [
     {
       "name": "Rolando Flores",
@@ -167,7 +167,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "You came into this program as a leader. You leave it as one. The crew you walk with is watching what you do next. The standard is the standard — it doesn't change.",
+  "leadershipThought": "PSMS isn't just a work system — it is a life system. It teaches us to identify hazards, control risk, communicate clearly, and take ownership before problems become incidents.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -175,33 +175,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jordan Lemmons — Finally was able to kill well",
-      "detail": "Finally was able to kill well",
+      "headline": "Alfredo Vaquera — Everyone was very diligent about the task at hand and use all safety precau",
+      "detail": "Everyone was very diligent about the task at hand and use all safety precautions to",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ruben Rojo — No hiccups or problems during installation of new gasket",
-      "detail": "No hiccups or problems during installation of new gasket",
+      "headline": "Larry Jaramillo — Crew communicated with each other and everyone else on location",
+      "detail": "Crew communicated with each other and everyone else on location...",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Luis Zarate — Everything went according to plan on job scope",
-      "detail": "Everything went according to plan on job scope.",
+      "headline": "Hayden Haugh — Crew was cautious while disconnecting incase there was any trapped pressure",
+      "detail": "Crew was cautious while disconnecting incase there was any trapped pressure.",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris — Everything went well and according to scope",
+      "detail": "Everything went well and according to scope. All teams on site worked well together to",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Brianda Sandoval — Great communication between both crews and the rest of the team",
-      "detail": "Great communication between both crews and the rest of the team. Safety meeting was",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Gael Antonio Avila — The job went well, the meeting went well, so far everything",
-      "detail": "The job went well, the meeting went well, so far everything",
-      "psms": "Mobile Equipment"
+      "headline": "Dawson Drake — Stop work authority utilize one of the crew members stepped underneath the",
+      "detail": "Stop work authority utilize one of the crew members stepped underneath the boom to try",
+      "psms": "Stop Work Authority"
     },
     {
       "type": "flag",
@@ -211,15 +211,15 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "When the job goes sideways today — weather, delays, a hot line — nobody needs your frustration, they need your next right call. Lead the response, not the complaint.",
-  "todaysChallengeSubtext": "“During critical periods, a leader is not allowed to feel sorry for himself.” — Mike Krzyzewski",
+  "todaysChallenge": "Ask for the truth today: have a senior hand watch one thing you do and tell you straight what they'd do better. Then return the favor for someone newer.",
+  "todaysChallengeSubtext": "“Average players want to be left alone. Good players want to be coached. Great players want to be told the truth.” — Doc Rivers",
   "compliance": {
     "weekOf": "Week of August 31, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 47,
-        "total": 54
+        "done": 54,
+        "total": 68
       },
       {
         "label": "Trailer Inspections",
@@ -228,11 +228,11 @@
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 7,
-        "total": 11
+        "done": 8,
+        "total": 12
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 09/01"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 09/02"
   },
   "specialFocus": {
     "title": "Twelve Weeks, One Habit — Discipline Is What's Left",
