@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-09-03",
-  "ytdPct": 83.7,
-  "ytdMissed": 401,
+  "ytdPct": 84.1,
+  "ytdMissed": 411,
   "months": [
     {
       "month": "July 2026",
@@ -273,20 +273,20 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 78.8,
-      "missedTotal": 22,
-      "dailyNo": 14,
-      "trailerInspNo": 3,
-      "trailerReadyNo": 4,
-      "problemRows": 22,
-      "blanks": 51,
+      "compliancePct": 86.0,
+      "missedTotal": 32,
+      "dailyNo": 15,
+      "trailerInspNo": 5,
+      "trailerReadyNo": 8,
+      "problemRows": 28,
+      "blanks": 71,
       "employees": 53,
-      "cleanEmployees": 36,
-      "dailyYesTotal": 52,
-      "dailyNoTotal": 14,
-      "rawRows": 123,
+      "cleanEmployees": 33,
+      "dailyYesTotal": 92,
+      "dailyNoTotal": 15,
+      "rawRows": 189,
       "daysCovered": 2,
-      "sheetsInMonth": 2,
+      "sheetsInMonth": 3,
       "byDay": [
         {
           "date": "9/1",
@@ -295,8 +295,8 @@
         },
         {
           "date": "9/2",
-          "missed": 7,
-          "pct": 50
+          "missed": 14,
+          "pct": 85
         }
       ],
       "watch": [],
