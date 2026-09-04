@@ -179,33 +179,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Ralph Forbes — Pipes removed and exchanged for new ones without incidents",
-      "detail": "Pipes removed and exchanged for new ones without incidents",
+      "headline": "Alejandro Najar — initially told we'd be doing confined space, that part of job scope was pus",
+      "detail": "Initially told we'd be doing confined space, that part of job scope was pushed to following",
+      "psms": "Confined Space Entry"
+    },
+    {
+      "type": "good",
+      "headline": "Stefanie Kirschke — Crew worked together to troubleshoot the issue and successfully stopped the",
+      "detail": "Crew worked together to troubleshoot the issue and successfully stopped the leak. HS",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "William Jimmy Cooper — Communication line of site",
+      "detail": "Communication line of site",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jose Hurtado — Crew was ready and knew what to do",
-      "detail": "Crew was ready and knew what to do",
+      "headline": "Cindy Smith — Job was completed as planned with no incidents",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Caleb Smith — The crew and crane crew all worked together to complete the job",
-      "detail": "The crew and crane crew all worked together to complete the job.",
-      "psms": "Mobile Equipment"
-    },
-    {
-      "type": "good",
-      "headline": "Gael Antonio Avila — Everything good meeting and quick so they can get the job done quick die th",
-      "detail": "Everything good meeting and quick so they can get the job done quick die the heat being",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Jacob Hernandez — Communication on changing job scope was excellent",
-      "detail": "Communication on changing job scope was excellent",
-      "psms": "Operational Discipline"
+      "headline": "Andrew Bailey — Well was disconnected without any injury",
+      "detail": "Well was disconnected without any injury",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "flag",
