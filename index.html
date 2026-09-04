@@ -4976,7 +4976,7 @@ async function renderRentals() {
   <div class="section-label">Active Rental Board — Battery &amp; Calibration Tracking</div>
   <div style="background:var(--navy);color:#fff;border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow);margin-bottom:14px;">
     <div style="font-size:18px;font-weight:800;">&#128260; Rentals on Location</div>
-    <div style="font-size:12.5px;opacity:.9;margin-top:4px;line-height:1.5;">Drilling rigs, flowback, and standing equipment on rent — and when each unit last had a battery &amp; calibration check. Green &le; ${rj.warnDays} days &middot; amber ${rj.warnDays + 1}&ndash;${rj.overdueDays} &middot; red past ${rj.overdueDays} or never recorded.</div>
+    <div style="font-size:12.5px;opacity:.9;margin-top:4px;line-height:1.5;">Drilling rigs, flowback, and standing equipment on rent — and when each unit last had a battery &amp; calibration check. <strong>The goal: every unit checked twice a month.</strong> Green = on cadence (&le;${rj.warnDays} days) &middot; amber = second check running late (${rj.warnDays + 1}&ndash;${rj.overdueDays}) &middot; red = a full month without one, or never recorded.</div>
   </div>
   <div style="display:flex;gap:10px;margin-bottom:14px;flex-wrap:wrap;">
     <div style="flex:1;min-width:100px;background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:12px;text-align:center;">
@@ -4996,7 +4996,7 @@ async function renderRentals() {
   <div style="background:#fff5f5;border-left:4px solid #b00020;border-radius:8px;padding:12px 14px;margin-bottom:14px;">
     <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:#b00020;margin-bottom:6px;">&#9888; No battery/cal check on record</div>
     <div style="font-size:13px;color:#7f1d1d;line-height:1.6;">${needsAttention.map(g => `<strong>${g.rig}</strong> (${g.company} &middot; ${g.location || 'location TBD'})`).join(' &nbsp;&middot;&nbsp; ')}</div>
-    <div style="font-size:11.5px;color:#991b1b;margin-top:6px;">A unit with no recorded check has been on rent since as far back as ${fmtD(needsAttention.map(g => g.onRentSince).filter(Boolean).sort()[0])}. Get a date in the RIG CHECK column when a tech verifies batteries &amp; calibration.</div>
+    <div style="font-size:11.5px;color:#991b1b;margin-top:6px;">The goal is two checks a month per unit — a unit with no recorded check has been on rent since as far back as ${fmtD(needsAttention.map(g => g.onRentSince).filter(Boolean).sort()[0])}. Get a date in the RIG CHECK column when a tech verifies batteries &amp; calibration.</div>
   </div>` : ''}
   ${tables}
   ${inactive.length ? `

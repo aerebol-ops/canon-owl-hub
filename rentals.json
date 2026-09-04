@@ -6,7 +6,7 @@
     "Permian Basin Rental Board September 2026.xlsx"
   ],
   "warnDays": 15,
-  "overdueDays": 31,
+  "overdueDays": 30,
   "activeRentals": 13,
   "neverChecked": 12,
   "overdueChecks": 0,
