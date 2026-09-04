@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "week": 12,
-  "day": 4,
-  "openingMessage": "Character is built when nobody is watching. Check your monitor one more time. Verify tube inventory. Fuel your truck before it becomes a problem. Nobody rewards these actions. But they create certainty.",
+  "day": 5,
+  "openingMessage": "What can I do about it now? That's the only question that matters when something isn't right. The moment you stop blaming, you gain control. That's where leadership begins.",
   "openingAttribution": null,
-  "openingWhy": "A monitor that never gets bump-tested still reads zero — zero is also what a dead sensor says. On a one-man location there's nobody to catch that but you. The gas will absolutely test the equipment you didn't.",
+  "openingWhy": "Valve's weeping, the spotter didn't show, the wrong kill water got delivered — you can burn an hour on whose fault it is, or handle it and sort the story after. The leak doesn't pause for the argument. The hand asking 'what now' is running the job while everyone else runs the trial.",
   "formCounts": [
     {
       "name": "Rolando Flores",
@@ -171,7 +171,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "PSMS isn't just a work system — it is a life system. It teaches us to identify hazards, control risk, communicate clearly, and take ownership before problems become incidents.",
+  "leadershipThought": "Own the whole thing. Own your response. Own your equipment. Own your preparation. Own your outcome. That's what it means to be an Owl. Let's go to work.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -179,33 +179,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Alejandro Najar — initially told we'd be doing confined space, that part of job scope was pus",
-      "detail": "Initially told we'd be doing confined space, that part of job scope was pushed to following",
-      "psms": "Confined Space Entry"
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke — Crew worked together to troubleshoot the issue and successfully stopped the",
-      "detail": "Crew worked together to troubleshoot the issue and successfully stopped the leak. HS",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "William Jimmy Cooper — Communication line of site",
-      "detail": "Communication line of site",
+      "headline": "Justin Fontenot — Everything went smoothly. No issues. Well is recompleted and ready for operation",
+      "detail": "OWL form — Operational Discipline",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Cindy Smith — Job was completed as planned with no incidents",
+      "headline": "Rolando Flores — Crew communicated the job scope and reviewed LSRAs prior to starting",
+      "detail": "Crew communicated the job scope and reviewed LSRAs prior to starting. Continuous",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Michael Jobe — Had safety meeting went over what needed to be done in a safe working way",
+      "detail": "Had safety meeting went over what needed to be done in a safe working way",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Dermont Morgan — Good communication with the spotter and forklift driver",
       "detail": "Did we leave the location better.",
-      "psms": "Operational Discipline"
+      "psms": "Mobile Equipment"
     },
     {
       "type": "good",
-      "headline": "Andrew Bailey — Well was disconnected without any injury",
-      "detail": "Well was disconnected without any injury",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Brianda Sandoval — Job was completed safely and everyone adhered to the rules like we told the",
+      "detail": "Job was completed safely and everyone adhered to the rules like we told them to.",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
@@ -215,8 +215,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Ask for the truth today: have a senior hand watch one thing you do and tell you straight what they'd do better. Then return the favor for someone newer.",
-  "todaysChallengeSubtext": "“Average players want to be left alone. Good players want to be coached. Great players want to be told the truth.” — Doc Rivers",
+  "todaysChallenge": "Do one thing today nobody asked for: re-walk the location before you leave, top off the truck for the next shift, double-check the SCBA the checklist already passed. The extra mile is empty — be on it.",
+  "todaysChallengeSubtext": "“There are no traffic jams along the extra mile.” — Roger Staubach",
   "compliance": {
     "weekOf": "Week of August 31, 2026",
     "metrics": [
