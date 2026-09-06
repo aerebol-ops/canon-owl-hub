@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-07",
   "week": 12,
-  "day": 5,
-  "openingMessage": "What can I do about it now? That's the only question that matters when something isn't right. The moment you stop blaming, you gain control. That's where leadership begins.",
+  "day": 1,
+  "openingMessage": "Own your response. Own your equipment. Own your preparation. Own your outcome. Stay disciplined. Stay prepared. Protect each other. Let's go to work.",
   "openingAttribution": null,
-  "openingWhy": "Valve's weeping, the spotter didn't show, the wrong kill water got delivered — you can burn an hour on whose fault it is, or handle it and sort the story after. The leak doesn't pause for the argument. The hand asking 'what now' is running the job while everyone else runs the trial.",
+  "openingWhy": "This week our own trailer checks caught a low SABA, an empty one, and an SCBA out of hydro — before one hand staked his lungs on any of them. Ownership isn't a poster on the wall. It's a bottle that's full because somebody checked it.",
   "formCounts": [
     {
       "name": "Rolando Flores",
@@ -171,7 +171,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Own the whole thing. Own your response. Own your equipment. Own your preparation. Own your outcome. That's what it means to be an Owl. Let's go to work.",
+  "leadershipThought": "Twelve weeks is a starting point. The discipline you've built here is what you take into every job after this. Familiarity is where shortcuts are born. Do job 500 the same way you did job 1.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -179,33 +179,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Alejandro Najar — everyone followed safety procedures",
-      "detail": "Everyone followed safety procedures",
+      "headline": "Jose Hurtado — Communication with crew and my",
+      "detail": "Communication with crew and my",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Cindy Smith — Crew worked at a good pace, considering the high heat",
-      "detail": "Did we leave the location better.",
+      "headline": "Baldemar Bracamontes — Strong communication between the mechanics and canon techs gave a clear",
+      "detail": "Strong communication between the mechanics and canon techs gave a clear",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Andrew Bailey — Job was completed safely without injuries",
-      "detail": "Job was completed safely without injuries",
+      "headline": "Gael Antonio Avila — Everything went well and always making sure there's no gases",
+      "detail": "Everything went well and always making sure there's no gases",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "William Jimmy Cooper — Proper atmospheric testing before job",
-      "detail": "Proper atmospheric testing before job",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Alfredo Vaquera — Great communication between all personnel",
+      "detail": "Great communication between all personnel",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez — Communication of job cancellation",
-      "detail": "Communication of job cancellation",
-      "psms": "Operational Discipline"
+      "headline": "Larry Jaramillo — Communications was great because everyone on location spoke and understood",
+      "detail": "Communications was great because everyone on location spoke and understood English",
+      "psms": "Mobile Equipment"
     },
     {
       "type": "flag",
@@ -215,8 +215,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Do one thing today nobody asked for: re-walk the location before you leave, top off the truck for the next shift, double-check the SCBA the checklist already passed. The extra mile is empty — be on it.",
-  "todaysChallengeSubtext": "“There are no traffic jams along the extra mile.” — Roger Staubach",
+  "todaysChallenge": "If yesterday had a miss — a form skipped, a reading you should have questioned — square it today. Get up, fix it, and tell the next crew what you learned.",
+  "todaysChallengeSubtext": "“It's not whether you get knocked down, it's whether you get up.” — Vince Lombardi",
   "compliance": {
     "weekOf": "Week of August 31, 2026",
     "metrics": [

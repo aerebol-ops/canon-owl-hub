@@ -51,6 +51,15 @@
             "Clean board — no open watch items this week"
           ],
           "recognition": "Alejandro Najar — everyone followed safety procedures"
+        },
+        {
+          "date": "Mon, Sep 7",
+          "day": "Week 12 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Twelve weeks is a starting point. The discipline you've built here is what you take into every job after this. Familiarity is where shortcuts are born. Do job 500 the same way you did job 1.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Jose Hurtado</strong> — Communication with crew and my</li><li style='margin:3px 0;'><strong>Baldemar Bracamontes</strong> — Strong communication between the mechanics and canon techs gave a clear</li><li style='margin:3px 0;'><strong>Gael Antonio Avila</strong> — Everything went well and always making sure there's no gases</li><li style='margin:3px 0;'><strong>Alfredo Vaquera</strong> — Great communication between all personnel</li><li style='margin:3px 0;'><strong>Larry Jaramillo</strong> — Communications was great because everyone on location spoke and understood English</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Clean board — no open watch items this week"
+          ],
+          "recognition": "Jose Hurtado — Communication with crew and my"
         }
       ]
     },
