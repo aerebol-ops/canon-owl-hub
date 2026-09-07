@@ -182,32 +182,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Andrew Bailey — Atmospheric testing was completed safely",
-      "detail": "Atmospheric testing was completed safely",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Rolando Flores — Crew effectively implemented the LSRAs and maintained clear communication t",
-      "detail": "Crew effectively implemented the LSRAs and maintained clear communication throughout",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Justin Fontenot — Everybody communicated well and completed job with zero issues",
-      "detail": "Everybody communicated well and completed job with zero issues",
+      "headline": "William Jimmy Cooper — Communication all wearing gas detectors observation",
+      "detail": "Communication all wearing gas detectors observation",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis — Masked up for atmospheric test crew used proper techniques and proper PPE f",
-      "detail": "Masked up for atmospheric test crew used proper techniques and proper PPE for job",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Dawson Drake — Job completed safely and effective",
+      "detail": "Job completed safely and effective",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — Took the parts off smoothly everything went great",
-      "detail": "Took the parts off smoothly everything went great",
+      "headline": "Dermont Morgan — Good communication and hand placement",
+      "detail": "Good communication and hand placement",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons — Crew understood their could be trapped pressure because a gauge had 60psi o",
+      "detail": "Crew understood their could be trapped pressure because a gauge had 60psi on it",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez — Heat communication and participation",
+      "detail": "Heat communication and participation",
       "psms": "Operational Discipline"
     },
     {
