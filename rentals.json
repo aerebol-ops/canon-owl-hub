@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04",
+  "generated": "2026-09-06",
   "source": "Permian Basin Rental Board September 2026.xlsx",
   "boardsScanned": [
     "Permian Basin Rental Board August 2026.xlsx",
@@ -203,7 +203,7 @@
       "onRentSince": "2026-08-01",
       "currentStart": "2026-08-01",
       "lastCheck": "2026-08-28",
-      "daysSinceCheck": 7,
+      "daysSinceCheck": 9,
       "checkState": "ok"
     }
   ]

@@ -3174,8 +3174,11 @@ async function renderTemplate() {
   } catch(e) {}
   _daily = daily;
 
-  const weekNum = daily ? daily.week : DATA.meta.currentWeek;
+  // Cycle 2+ boards carry an absolute week (13, 14, …) plus topicWeek, the
+  // 1-12 curriculum slot to render, and displayWeek, the number the crew sees.
+  const weekNum = daily ? (daily.topicWeek || daily.week) : DATA.meta.currentWeek;
   const w = DATA.weeks[weekNum - 1] || DATA.weeks[0];
+  const shownWeek = daily ? (daily.displayWeek || daily.week) : weekNum;
   const flag = DATA.news.find(n => n.type === 'flag');
   const today = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 
@@ -3227,7 +3230,7 @@ async function renderTemplate() {
           <div class="runsheet-scenario" style="margin-bottom:4px;"><strong>Scenario ${n + 1}:</strong> ${scens[idx]}</div>
           ${qs[idx] ? `<div class="runsheet-question" style="margin-bottom:14px;">Ask the crew: ${qs[idx]}</div>` : ''}
         `).join('');
-        return `<div class="runsheet-content" style="margin-bottom:10px;"><strong>Week ${w.week}: ${w.theme}</strong><br><span style="font-size:13px;color:var(--muted);">${w.standard}</span></div>
+        return `<div class="runsheet-content" style="margin-bottom:10px;"><strong>Week ${shownWeek}: ${w.theme}</strong><br><span style="font-size:13px;color:var(--muted);">${w.standard}</span></div>
                 ${photoHtml}
                 <div style="margin-bottom:14px;">${stepsHtml}</div>
                 <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--red);margin-bottom:8px;">Scenario Workshop — Work Each One With the Crew</div>
@@ -3333,7 +3336,7 @@ async function renderTemplate() {
   const html = `
     <div class="runsheet-header">
       <h2>Canon Safety — Morning Meeting</h2>
-      <p>${today} &nbsp;·&nbsp; 5:30 AM &nbsp;·&nbsp; Week ${w.week}: ${w.theme}</p>
+      <p>${today} &nbsp;·&nbsp; 5:30 AM &nbsp;·&nbsp; Week ${shownWeek}: ${w.theme}${daily && daily.cycle > 1 ? ` &middot; Cycle ${daily.cycle}` : ''}</p>
     </div>
 
     ${sfHtml}
@@ -3562,7 +3565,8 @@ async function shareResponsePlanPDF(btn) {
 
 function shareMeetingSummary() {
   const d = _daily;
-  const w = DATA.weeks[Math.min((d ? d.week : 1) - 1, DATA.weeks.length - 1)];
+  const w = DATA.weeks[Math.min((d ? (d.topicWeek || d.week) : 1) - 1, DATA.weeks.length - 1)];
+  const shownWeek = d ? (d.displayWeek || d.week) : 1;
   const dateStr = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
   const seed = dailySeed();
 
@@ -3632,7 +3636,7 @@ function shareMeetingSummary() {
 </style></head><body>
 <div class="masthead">
   <h1>Canon Safety — Morning Meeting</h1>
-  <p>${dateStr} &nbsp;·&nbsp; 5:30 AM &nbsp;·&nbsp; Week ${w.week}: ${w.theme}</p>
+  <p>${dateStr} &nbsp;·&nbsp; 5:30 AM &nbsp;·&nbsp; Week ${shownWeek}: ${w.theme}${d && d.cycle > 1 ? ` &middot; Cycle ${d.cycle}` : ''}</p>
 </div>
 
 ${d && d.specialFocus ? (() => { const sf = d.specialFocus; return `
