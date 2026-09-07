@@ -182,32 +182,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Hayden Haugh — Communicated well while working",
-      "detail": "Communicated well while working",
+      "headline": "Andrew Bailey — Atmospheric testing was completed safely",
+      "detail": "Atmospheric testing was completed safely",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Rolando Flores — Crew effectively implemented the LSRAs and maintained clear communication t",
+      "detail": "Crew effectively implemented the LSRAs and maintained clear communication throughout",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Justin Fontenot — Everybody communicated well and completed job with zero issues",
+      "detail": "Everybody communicated well and completed job with zero issues",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — Even with multiple triggers and hold points the job was finally completed s",
-      "detail": "Even with multiple triggers and hold points the job was finally completed successfully and",
-      "psms": "Operational Discipline"
+      "headline": "Raymundo Solis — Masked up for atmospheric test crew used proper techniques and proper PPE f",
+      "detail": "Masked up for atmospheric test crew used proper techniques and proper PPE for job",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Observed the wellhead reconnect being completed safely with good communicat",
-      "detail": "Observed the wellhead reconnect being completed safely with good communication",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Ralph Forbes — Kept everyone one clear of work area as the well was being killed pumping d",
-      "detail": "Kept everyone one clear of work area as the well was being killed pumping down hole",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Nathan Contreras — Job scope went well, crews talked about lsra and lmra and what is means , c",
-      "detail": "Job scope went well, crews talked about lsra and lmra and what is means , crews went",
+      "headline": "Michael Jobe — Took the parts off smoothly everything went great",
+      "detail": "Took the parts off smoothly everything went great",
       "psms": "Operational Discipline"
     },
     {
