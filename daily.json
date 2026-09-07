@@ -2,6 +2,9 @@
   "date": "2026-09-07",
   "week": 12,
   "day": 1,
+  "topicWeek": 12,
+  "displayWeek": 12,
+  "cycle": 1,
   "openingMessage": "Own your response. Own your equipment. Own your preparation. Own your outcome. Stay disciplined. Stay prepared. Protect each other. Let's go to work.",
   "openingAttribution": null,
   "openingWhy": "This week our own trailer checks caught a low SABA, an empty one, and an SCBA out of hydro — before one hand staked his lungs on any of them. Ownership isn't a poster on the wall. It's a bottle that's full because somebody checked it.",
@@ -179,33 +182,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jose Hurtado — Communication with crew and my",
-      "detail": "Communication with crew and my",
+      "headline": "Hayden Haugh — Communicated well while working",
+      "detail": "Communicated well while working",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Baldemar Bracamontes — Strong communication between the mechanics and canon techs gave a clear",
-      "detail": "Strong communication between the mechanics and canon techs gave a clear",
+      "headline": "Jeremy Norris — Even with multiple triggers and hold points the job was finally completed s",
+      "detail": "Even with multiple triggers and hold points the job was finally completed successfully and",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Gael Antonio Avila — Everything went well and always making sure there's no gases",
-      "detail": "Everything went well and always making sure there's no gases",
+      "headline": "Stefanie Kirschke — Observed the wellhead reconnect being completed safely with good communicat",
+      "detail": "Observed the wellhead reconnect being completed safely with good communication",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Alfredo Vaquera — Great communication between all personnel",
-      "detail": "Great communication between all personnel",
+      "headline": "Ralph Forbes — Kept everyone one clear of work area as the well was being killed pumping d",
+      "detail": "Kept everyone one clear of work area as the well was being killed pumping down hole",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo — Communications was great because everyone on location spoke and understood",
-      "detail": "Communications was great because everyone on location spoke and understood English",
-      "psms": "Mobile Equipment"
+      "headline": "Nathan Contreras — Job scope went well, crews talked about lsra and lmra and what is means , c",
+      "detail": "Job scope went well, crews talked about lsra and lmra and what is means , crews went",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
@@ -239,34 +242,37 @@
     "footerNote": "Live from Daily Internal Compliance — Mon through Wed 09/02"
   },
   "specialFocus": {
-    "title": "Twelve Weeks, One Habit — Discipline Is What's Left",
-    "standardLabel": "What I Carry Off This Program — Every Shift After Friday",
-    "why": "Twelve weeks ago we opened with Energy Isolation and a room full of people privately wondering how long this thing was going to last. Friday is the last one. So before anybody starts talking about what we <em>covered</em>, look at what this crew actually <strong>did</strong>.<br><br>In August alone: <strong>548 completed OWL forms, 38 technicians, 412 locations.</strong> Stop work authority used <strong>91 times.</strong> Unsafe conditions written up <strong>118 times.</strong> Atmospheric hazards tested before the first break on <strong>390</strong> of them. And of the 392 forms that answered &ldquo;did we leave it better than we found it&rdquo; &mdash; <strong>392 said yes.</strong> That last one is self-reported and I'll say so out loud. It is still 392 times somebody sat in the truck and asked himself the question before he drove off. Twelve weeks ago nobody was asking it.<br><br>Now here is the number that actually matters. The write-ups feeding our lessons library ran <strong>195 in June, 169 in July, and 347 in August.</strong> Read that middle number again. <strong>July went down.</strong> That's the month the program stopped being new &mdash; and that is exactly where most safety programs quietly die. Ours didn't. August more than doubled July. <strong>The curve went up at the end, not the beginning.</strong> That is not enthusiasm. Enthusiasm is a June number. What you are looking at is discipline, and you built it yourselves.<br><br>So understand what Week 12 is. Work Authorization is not a thirteenth topic stacked on the other eleven &mdash; it is the one that <strong>holds</strong> them. Isolation, containment, line of fire, mobile equipment, confined space, driving, hot work, bypassing controls, excavation, lifting, height: every one of those is a control that only exists if somebody stops and authorizes the work before it starts. And out here the field never hands you one topic at a time. It hands you four at once, on a Tuesday, when you're already behind. <strong>Twelve weeks gave you twelve topics. Discipline is what makes all twelve available to you at the same time, on a location where nobody is watching.</strong>",
+    "title": "Full Circle — Where Twelve Weeks Took Us",
+    "standardLabel": "The Twelve — What Each Week Left Behind",
+    "why": "Twelve weeks ago, on June 15th, we started this thing with Energy Isolation and a promise that it wouldn't be another safety program that dies in week three. This morning it's finished. So before we launch the next cycle tomorrow, look at what actually happened &mdash; not what we hoped, what the numbers say happened.<br><br><strong>Form compliance, by month, this year:</strong> January 80%. February 76%. March 79%. April 79%. May 80%. Five straight months stuck under 80 &mdash; that was us before. Then June, the month this program launched: <strong>88%</strong>. July 84. August 84. September so far: <strong>86 and climbing</strong>. The needle didn't move because anybody got yelled at. It moved because 5:30 every morning, this crew sat down and talked about the work.<br><br><strong>The writing:</strong> 764 field write-ups now sit in our lessons library &mdash; 195 in June, 169 in July, and here's the one that matters: <strong>360 in August</strong>. July dipped. That's the month every program dies, when the newness wears off. Ours came back double. 53 different hands have written into that library. Stop-work authority was used <strong>100 times</strong> in the last month alone, and every single one of the 459 forms that answered &ldquo;did we leave it better than we found it&rdquo; said yes.<br><br>That's where we've come from. Not from unsafe to safe &mdash; you were never cowboys. From <strong>habits that lived in a few good hands to habits that live in the whole crew.</strong> Take two minutes this morning and walk the twelve below &mdash; every one of them is now something we do, not something we covered.",
     "standard": [
-      "<strong>I do job 500 the way I did job 1.</strong> Familiarity is where shortcuts get born. The location I've been to forty times is the one that gets me, because it's the only one I stop looking at.",
-      "<strong>Nobody has to be watching.</strong> Twelve weeks of meetings end Friday. The gas, the pressure, the iron and the traffic do not. The only thing that carries past Friday is what I do when the board isn't up and nobody asked me for a form.",
-      "<strong>I don't get to pick the topic.</strong> The field doesn't run one week at a time. If I only sharpened up on whatever we talked about that Monday, I built nothing. All twelve or none.",
-      "<strong>I still write it down.</strong> A near-miss I keep to myself protects exactly one person &mdash; me, for about a day. A near-miss I write up protects 38 people for as long as we're out here. That's the whole reason the library exists.",
-      "<strong>I keep the standard when it costs me something.</strong> Anybody holds the line on an easy day. Discipline is the permit that isn't live yet, the walk-down nobody else wants to do, and the call I make when I know it's going to slow the job down."
+      "<strong>Wk 1 — Ownership / Energy Isolation:</strong> the job is mine even when the lockout is somebody else's. Verify the isolation, never assume it.",
+      "<strong>Wk 2 — Communication / Breaking Containment:</strong> the first break is a conversation before it's a wrench. Bleed, verify, then open.",
+      "<strong>Wk 3 — Accountability / Line of Fire:</strong> know where the energy goes when it lets loose, and don't stand there. Watch each other's positioning.",
+      "<strong>Wk 4 — Professionalism / Mobile Equipment:</strong> spotters spot, taglines get their own hands, and the swing radius belongs to nobody.",
+      "<strong>Wk 5 — Coaching Others / Confined Space:</strong> a permit isn't rescue capability. A name and a plan is. Teach the new hand why.",
+      "<strong>Wk 6 — Situational Awareness / Driving:</strong> the most dangerous iron we run has a windshield. Fatigue and the phone kill more hands than H2S.",
+      "<strong>Wk 7 — Problem Solving / Hot Work:</strong> decide before the pressure arrives. Know the muster point before the alarm, the fire watch before the spark.",
+      "<strong>Wk 8 — Building Culture / Bypassing Safety Controls:</strong> small deviations don't stay small. Correct them when the cost is low — character is what happens when nobody's watching.",
+      "<strong>Wk 9 — Precision / Excavation:</strong> right thing, right order, before the ground opens. The locate flag tells you where to look; your eyes tell you what's there.",
+      "<strong>Wk 10 — Planning / Safe Mechanical Lifting:</strong> the lift plan is written standing still. Nobody improvises with a suspended load.",
+      "<strong>Wk 11 — Standards / Working at Height:</strong> six feet is measured from where you'd land. Validated rescue means a name, not an assumption.",
+      "<strong>Wk 12 — Discipline / Work Authorization:</strong> if it isn't on a ticket it isn't a Canon job. Do job 500 the way you did job 1."
     ],
     "scenarios": [
       {
-        "title": "Week Thirteen",
-        "body": "It's the first Monday after this program ends. There is no meeting. There is no board on the wall, no runsheet, no scenario, and nobody is going to read your name out for recognition. You get up at 4:00 the same as always and you drive to a location you've been to before. <strong>That morning is the entire program.</strong><br><br>Everything up to Friday was practice with the lights on. Twelve weeks of somebody handing you the topic, reminding you what to look for, and asking you afterward how it went. Week thirteen is the first morning nobody hands you anything &mdash; and the exposure is exactly the same as it was in week one. The gas doesn't know the program ended.<br><br>So decide it now, in this room, not out there at 6:15 by yourself. <strong>What do you still do on September 7th?</strong> Do you still walk the location before you rig up? Do you still test before the first break? Do you still write the form when the job was clean and boring and nobody would ever know you skipped it? Because the honest answer is that <strong>a habit you only keep while somebody is checking was never a habit &mdash; it was compliance, and compliance ends when the checking does.</strong> The reason this program ran twelve weeks instead of one is that twelve weeks is roughly how long it takes for a thing to stop being something you remember to do and start being something you'd feel wrong not doing. If we got that right, week thirteen looks exactly like week twelve and none of you will even notice it happened.<br><br><strong>So answer it here, not out there:</strong> what is the first thing you'd be tempted to let slide on a morning nobody is watching? Name it. That's the one you guard."
-      },
-      {
-        "title": "The Tuesday That Doesn't Care Which Week It Is",
-        "body": "You roll up mid-morning. Here is what's actually on that location: a workover rig is moving in, so there is <strong>mobile equipment</strong> in motion and a <strong>line of fire</strong> that changes every ten minutes. The job is a first break, so you have <strong>breaking containment</strong> and <strong>atmospheric monitoring</strong>. There's a man on the rig floor above where you'll be standing &mdash; <strong>working at height</strong>, except it's his height and your head. A vac truck is waiting on you, so somebody is already pushing on the clock. And the <strong>permit</strong> for the task you actually came to do has not gone live yet.<br><br>Count them. That is five of our twelve weeks, plus the one we're on, all standing in the same fifty feet of caliche at the same time. Nobody rang a bell and announced which topic Tuesday was going to be.<br><br>This is the part people miss about a twelve-week program. <strong>You didn't learn twelve things. You learned one thing twelve different ways.</strong> Stop. Look at what's actually in front of you, not what you expected to find. Confirm you're authorized to start. Make the call if you're not. The reason we spent a week on each of those topics was never so you could recite them &mdash; it was so that when four of them show up at once on a Tuesday you're already fluent in all four and you don't have to think about it. <strong>Discipline is what turns twelve separate lessons into one set of eyes.</strong>"
+        "title": "Tomorrow, We Go Again",
+        "body": "Tomorrow morning this board flips to <strong>Week 1 of Cycle 2, and we open with Breaking Containment.</strong> Somebody's going to think it: <em>&ldquo;we already did this one.&rdquo;</em> Here's why that's wrong.<br><br>First: <strong>the crew that walks in tomorrow is not the crew that heard it in June.</strong> We've added hands since then who have never sat through a containment week — the newest guy on your location learned first breaks by watching you, and cycle 2 is where he finds out <em>why</em> you do it that way. Second: <strong>you're not the same hands either.</strong> In June you listened to scenarios. Since then this crew wrote 764 of its own — real first breaks, real trapped pressure, real calls made at real locations. When we work Breaking Containment this time, the material is yours: Jordan calling out trapped pressure behind a gauge, Ralph holding the hold point while the air cleared on a first break, two crews airing a vessel to zero before anybody cracked a flange. Cycle 1 taught the standard. <strong>Cycle 2 holds the standard up against what you actually did</strong> — and that's a different meeting.<br><br>And third, the honest one: <strong>twelve weeks builds a habit, and habits decay without maintenance.</strong> That compliance number climbed when we started meeting every morning and it will slide the quarter we decide we've graduated. There is no graduating. That's the whole point of a loop."
       }
     ],
     "questions": [
-      "Twelve weeks in — which one of these topics actually changed how you work? Not which one was interesting. Which one made you do something different on a location.",
-      "Be straight with me: which week went in one ear and out the other? I'd rather know now than find out from an incident report, and it tells me what we run again.",
-      "In July our write-ups dropped before they came back up in August. What was different about July for you out in the field — and what pulled it back?",
-      "Have you written up a near-miss or an unsafe condition in the last twelve weeks? If not, is that because you didn't see one, or because you saw one and let it go?",
-      "Who in this crew got better over these twelve weeks in a way you noticed? Say their name right now — they probably don't know you saw it."
+      "Of the twelve, which one actually changed how you work — not which was interesting, which one you now do differently on location?",
+      "Which week would you have run differently — wrong scenarios, wrong emphasis, missed what actually matters in the field? Cycle 2 can fix it, but only if you say it now.",
+      "The numbers say June jumped to 88% and July dipped before August came back. You lived those months — what actually happened out there?",
+      "Who taught you something during this cycle — in a meeting, on a location, in a write-up? Name them out loud.",
+      "What does the newest hand on your crew need cycle 2 to give him that cycle 1 gave you?"
     ],
-    "nonNegotiable": "Twelve weeks built the habit. Friday ends the meetings, not the standard. Do job 500 the way you did job 1 — and do it on the mornings when nobody is checking, because those are the only ones that ever counted.",
+    "nonNegotiable": "Twelve topics, twelve weeks, one crew. Tomorrow we start the loop again with Breaking Containment — because the standard isn't something we finished, it's something we keep.",
     "week": 12
   }
 }
