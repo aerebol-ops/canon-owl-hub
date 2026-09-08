@@ -1,6 +1,24 @@
 {
   "weeks": [
     {
+      "week": 13,
+      "owl": "Auto-logged",
+      "theme": "Communication",
+      "psms": "Breaking Containment",
+      "dateRange": "Sep 7&ndash;Sep 11, 2026",
+      "meetings": [
+        {
+          "date": "Tue, Sep 8",
+          "day": "Week 13 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Communication is how we execute as a team. Teams that communicate best — win. Before you speak, ask: what outcome am I trying to create? If you don't define the outcome, you default to emotion.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Ralph Forbes</strong> — Exclusion zone established and maintained while bleeding pressure off the well</li><li style='margin:3px 0;'><strong>Nathan Contreras</strong> — Crews did well in the pretask briefing, went over everything correcting and recognized</li><li style='margin:3px 0;'><strong>Stefanie Kirschke</strong> — Good communication and teamwork. Disconnect was completed safely with no incidents.</li><li style='margin:3px 0;'><strong>Andrew Bailey</strong> — Job was successful and no injuries</li><li style='margin:3px 0;'><strong>Jeremy Norris</strong> — Even with a complete change of job scope everything still went exactly accordingly</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Clean board — no open watch items this week"
+          ],
+          "recognition": "Ralph Forbes — Exclusion zone established and maintained while bleeding pressure off the w"
+        }
+      ]
+    },
+    {
       "week": 12,
       "owl": "Auto-logged",
       "theme": "Discipline",
