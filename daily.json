@@ -182,33 +182,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Anthony Scott — Crew did a great job going over there LMRAs before starting each task",
-      "detail": "Crew did a great job going over there LMRAs before starting each task.",
+      "headline": "Hayden Haugh — Crew worked well together with good communication",
+      "detail": "Crew worked well together with good communication",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Hayden Haugh — Crew communicated on what the first step would be and executed the plan pro",
-      "detail": "Crew communicated on what the first step would be and executed the plan properly",
+      "headline": "Nathan Contreras — Crews communicated effectively with one another as job went on , crews iden",
+      "detail": "Crews communicated effectively with one another as job went on , crews identified",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — The job went good and everyone made it out the same way they came in",
-      "detail": "The job went good and everyone made it out the same way they came in.",
+      "headline": "Ralph Forbes — Disconnection went smoothly",
+      "detail": "Disconnection went smoothly",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris — Good communication between all techs and MT on site",
+      "detail": "Good communication between all techs and MT on site.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Change in how reconnect iron was made",
-      "detail": "Change in how reconnect iron was made",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke — The job went smoothly with good teamwork and communication",
-      "detail": "The job went smoothly with good teamwork and communication. Everyone followed the",
-      "psms": "Operational Discipline"
+      "headline": "Andrew Bailey — The flowline was disconnected and pumped successfully",
+      "detail": "The flowline was disconnected and pumped successfully",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "flag",
