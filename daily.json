@@ -11,78 +11,78 @@
   "formCounts": [
     {
       "name": "Rolando Flores",
-      "count": 55
+      "count": 67
     },
     {
       "name": "Stefanie Kirschke",
-      "count": 42
+      "count": 54
     },
     {
       "name": "William Jimmy Cooper",
-      "count": 42
+      "count": 53
     },
     {
       "name": "Ralph Forbes",
-      "count": 35
-    },
-    {
-      "name": "Anthony Scott",
-      "count": 33
-    },
-    {
-      "name": "Bobby Galindo",
-      "count": 32
+      "count": 44
     },
     {
       "name": "Jordan Lemmons",
-      "count": 32
+      "count": 41
+    },
+    {
+      "name": "Anthony Scott",
+      "count": 40
     },
     {
       "name": "Nathan Contreras",
+      "count": 40
+    },
+    {
+      "name": "Bobby Galindo",
+      "count": 38
+    },
+    {
+      "name": "Jeremy Norris",
       "count": 32
     },
     {
       "name": "Dermont Morgan",
+      "count": 30
+    },
+    {
+      "name": "Gael Antonio Avila",
       "count": 28
     },
     {
-      "name": "Jeremy Norris",
+      "name": "Hayden Haugh",
       "count": 27
     },
     {
-      "name": "Hayden Haugh",
-      "count": 25
+      "name": "Jacob Hernandez",
+      "count": 27
+    },
+    {
+      "name": "Pablo Soto",
+      "count": 26
+    },
+    {
+      "name": "Dawson Drake",
+      "count": 24
+    },
+    {
+      "name": "Jose Hurtado",
+      "count": 24
     },
     {
       "name": "Andrew Bailey",
       "count": 23
     },
     {
-      "name": "Jacob Hernandez",
+      "name": "Raymundo Solis",
       "count": 23
-    },
-    {
-      "name": "Jose Hurtado",
-      "count": 23
-    },
-    {
-      "name": "Gael Antonio Avila",
-      "count": 22
-    },
-    {
-      "name": "Dawson Drake",
-      "count": 21
     },
     {
       "name": "Michael Hutt",
-      "count": 21
-    },
-    {
-      "name": "Pablo Soto",
-      "count": 21
-    },
-    {
-      "name": "Raymundo Solis",
       "count": 21
     },
     {
@@ -94,36 +94,44 @@
       "count": 20
     },
     {
+      "name": "Baldemar Bracamontes",
+      "count": 19
+    },
+    {
       "name": "Cindy Smith",
+      "count": 19
+    },
+    {
+      "name": "Ruben Rojo",
       "count": 17
     },
     {
-      "name": "Baldemar Bracamontes",
-      "count": 15
+      "name": "Robert Henigan",
+      "count": 16
     },
     {
       "name": "Larry Jaramillo",
       "count": 13
     },
     {
-      "name": "Ruben Rojo",
+      "name": "Luis Zarate",
       "count": 13
     },
     {
-      "name": "Robert Henigan",
-      "count": 12
+      "name": "Alejandro Najar",
+      "count": 11
     },
     {
       "name": "Alfredo Vaquera",
       "count": 11
     },
     {
-      "name": "Luis Zarate",
+      "name": "Caleb Smith",
       "count": 11
     },
     {
-      "name": "Caleb Smith",
-      "count": 8
+      "name": "Christian Lee",
+      "count": 10
     },
     {
       "name": "Brianda Sandoval",
@@ -134,16 +142,12 @@
       "count": 7
     },
     {
-      "name": "Christian Lee",
+      "name": "Gage Gonzales",
       "count": 5
     },
     {
       "name": "Rafael Corralez",
       "count": 5
-    },
-    {
-      "name": "Alejandro Najar",
-      "count": 4
     },
     {
       "name": "Barthol Bj Caesar",
@@ -162,8 +166,16 @@
       "count": 3
     },
     {
-      "name": "Gage Gonzales",
+      "name": "Allen White",
       "count": 2
+    },
+    {
+      "name": "Alexander Clubb",
+      "count": 1
+    },
+    {
+      "name": "Brey Rasco",
+      "count": 1
     },
     {
       "name": "Larry Taylor",
@@ -178,36 +190,36 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Crew worked together to troubleshoot the issue and successfully stopped the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crew worked together to troubleshoot the issue and successfully stopped the leak. HS</span><br><br><strong>Crew was cautious while disconnecting incase there was any trapped pressure</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Hayden Haugh]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crew was cautious while disconnecting incase there was any trapped pressure.</span><br><br><strong>crew was cautious about disconnecting and having trapped pressure</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alejandro Najar]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crew was cautious about disconnecting and having trapped pressure</span><br><br><strong>The flowline and hothead were removed and atmospheric testing was completed</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>The flowline and hothead were removed and atmospheric testing was completed</span><br><br><strong>Good communication with the crew throughout the job</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Good communication with the crew throughout the job. The well was properly killed before</span>",
+  "exxonMoments": "<strong>The crew communicated well throughout the job, reviewed the LMRA and job sc</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>The crew communicated well throughout the job, reviewed the LMRA and job scope prior</span><br><br><strong>Did our testing and found out only one was leaking but it was a minor leak</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Did our testing and found out only one was leaking but it was a minor leak but no gases</span><br><br><strong>Roustabout crew and safety crew masked up for first break, after verifying</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Baldemar Bracamontes]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Roustabout crew and safety crew masked up for first break, after verifying a safe working</span><br><br><strong>Area was monitored for H2S and benzene during the disconnect</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Area was monitored for H2S and benzene during the disconnect. No leaks or unexpected</span><br><br><strong>Crew worked together to troubleshoot the issue and successfully stopped the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crew worked together to troubleshoot the issue and successfully stopped the leak. HS</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Ralph Forbes — Exclusion zone established and maintained while bleeding pressure off the w",
-      "detail": "Exclusion zone established and maintained while bleeding pressure off the well",
+      "headline": "Brey Rasco — on the OWL board",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-09-03. That consistency is the habit.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras — Crews did well in the pretask briefing, went over everything correcting and",
-      "detail": "Crews did well in the pretask briefing, went over everything correcting and recognized",
+      "headline": "Allen White — on the OWL board",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-09-03. That consistency is the habit.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Good communication and teamwork",
-      "detail": "Good communication and teamwork. Disconnect was completed safely with no incidents.",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Alexander Clubb — Had zero issues with crew utilizing spotter for safe mechanical lifting",
+      "detail": "Had zero issues with crew utilizing spotter for safe mechanical lifting.",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Andrew Bailey — Job was successful and no injuries",
-      "detail": "Job was successful and no injuries",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Ruben Rojo — Little to no gas and all went smoothly",
+      "detail": "Did we leave the location better.",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — even with a complete change of job scope everything still went exactly acco",
-      "detail": "Even with a complete change of job scope everything still went exactly accordingly",
+      "headline": "Caleb Smith — Crew took their time to verify lotto, and valves were holding",
+      "detail": "Crew took their time to verify lotto, and valves were holding.",
       "psms": "Operational Discipline"
     },
     {
@@ -221,24 +233,24 @@
   "todaysChallenge": "Heavy schedule today? Don't let the load rush your checks. Carry it in order: verify first, move second. The busiest day is the one that most needs the standard.",
   "todaysChallengeSubtext": "“It's not the load that breaks you down, it's the way you carry it.” — Lou Holtz",
   "compliance": {
-    "weekOf": "Week of August 31, 2026",
+    "weekOf": "Week of September 7, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 94,
-        "total": 109
+        "done": 30,
+        "total": 35
       },
       {
         "label": "Trailer Inspections",
-        "done": 18,
-        "total": 23
+        "done": 4,
+        "total": 4
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 17,
-        "total": 25
+        "done": 3,
+        "total": 5
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 09/02"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 09/07"
   }
 }
