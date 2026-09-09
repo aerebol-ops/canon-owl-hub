@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "week": 13,
-  "day": 1,
+  "day": 2,
   "topicWeek": 2,
   "displayWeek": 1,
   "cycle": 2,
-  "openingMessage": "We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.",
-  "openingAttribution": null,
-  "openingWhy": "Company men swap crew stories at every tank battery in the Basin. The crew that leaves the pad clean, calls in early, and doesn't argue gets requested by name. The one that doesn't gets replaced without a phone call. Both reputations get built one location at a time.",
+  "openingMessage": "If you don't have time to do it right, when will you have time to do it over?",
+  "openingAttribution": "John Wooden",
+  "openingWhy": "A rushed handover — 'she's bled down, you're good' — with one valve still holding pressure is how the night hand ends up wearing what the day hand skipped. The five minutes a real handover takes is the cheapest time in the oilfield.",
   "formCounts": [
     {
       "name": "Rolando Flores",
@@ -186,7 +186,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Communication is how we execute as a team. Teams that communicate best — win. Before you speak, ask: what outcome am I trying to create? If you don't define the outcome, you default to emotion.",
+  "leadershipThought": "Don't accuse — describe. Don't assume — ask. Don't escalate — clarify. That's the no-defense rule. Use it every time.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -194,33 +194,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Anthony Scott — Great communication with MT and crew and us and MT",
-      "detail": "Great communication with MT and crew and us and MT.",
+      "headline": "Jose Hurtado — Good communication with mt and crew",
+      "detail": "Good communication with mt and crew",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez — Great communication at meeting and trigger",
-      "detail": "Great communication at meeting and trigger.",
+      "headline": "Hayden Haugh — Crew did a great job while working the job",
+      "detail": "Crew did a great job while working the job.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Baldemar Bracamontes — Job task was completed without incidents, all lock out points held properly",
-      "detail": "Job task was completed without incidents, all lock out points held properly",
+      "headline": "Gael Antonio Avila — Everything crew did the job a little more fast then usual to not be in the",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Dawson Drake — The communication was on point to where everybody was understanding of the",
-      "detail": "The communication was on point to where everybody was understanding of the job and",
+      "headline": "Dermont Morgan — Overall good job with having good communication and everyone being on the s",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis — Even though it wasn't a complete job they still swapped out the gasket for",
-      "detail": "Even though it wasn't a complete job they still swapped out the gasket for the stuffing box",
-      "psms": "Stop Work Authority"
+      "headline": "Justin Fontenot — Job was completed safely without any issues",
+      "detail": "Job was completed safely without any issues",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "flag",
@@ -230,14 +230,14 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Heavy schedule today? Don't let the load rush your checks. Carry it in order: verify first, move second. The busiest day is the one that most needs the standard.",
-  "todaysChallengeSubtext": "“It's not the load that breaks you down, it's the way you carry it.” — Lou Holtz",
+  "todaysChallenge": "Check your attitude at the gate today. The crew reads it before you say a word — bring the version of you that makes the location better.",
+  "todaysChallengeSubtext": "“Ability is what you're capable of doing. Motivation determines what you do. Attitude determines how well you do it.” — Lou Holtz",
   "compliance": {
     "weekOf": "Week of September 7, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 30,
+        "done": 31,
         "total": 35
       },
       {

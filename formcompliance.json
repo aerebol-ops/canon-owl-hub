@@ -1928,16 +1928,16 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 86.8,
+      "compliancePct": 86.9,
       "missedTotal": 39,
       "dailyNo": 20,
       "trailerInspNo": 5,
       "trailerReadyNo": 10,
-      "problemRows": 37,
-      "blanks": 258,
+      "problemRows": 36,
+      "blanks": 257,
       "employees": 60,
       "cleanEmployees": 38,
-      "dailyYesTotal": 132,
+      "dailyYesTotal": 133,
       "dailyNoTotal": 20,
       "rawRows": 452,
       "daysCovered": 4,
@@ -1955,13 +1955,13 @@
         },
         {
           "date": "9/6",
-          "missed": 0,
-          "pct": 100
+          "missed": 1,
+          "pct": 91
         },
         {
           "date": "9/7",
-          "missed": 7,
-          "pct": 86
+          "missed": 6,
+          "pct": 89
         }
       ],
       "watch": [],
