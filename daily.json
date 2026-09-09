@@ -252,5 +252,32 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Mon 09/07"
+  },
+  "specialFocus": {
+    "title": "Spotlight — The Breakroom & The Duck",
+    "standardLabel": "How We Keep Both Alive in Cycle 2",
+    "why": "Twelve weeks produced a lot of numbers, but the two biggest wins of this program aren't numbers. They're habits nobody ordered anybody to build.<br><br><strong>The first is the Breakroom.</strong> What started as a group chat turned into this crew's live wire. Jordan Lemmons put the whole fleet on alert at <strong>5:25 in the morning</strong> about a swerving driver on Jal 128 who'd nearly clipped two semis — and Dennis Easley confirmed it from his own route minutes later. Alex Clubb posted his 75-mph near-miss <em>the same day it happened</em>, so every crew on the road drove the rest of that Friday heads-up. Michael Hutt called out <strong>6,000 ppm H2S and 2% CO2</strong> at a pull so the next crew went in with their eyes open. Dennis flagged a wreck on the I-20 bridge before crews hit it. Louie Zarate wrote up a stuck sensor fix start-to-finish — element changed, every sensor recalibrated, company man confirmed. And on June 12th, when Midland had an active shooter event, <strong>every Canon hand was accounted for within minutes — through the Breakroom.</strong> That is not a chat thread. That is a safety system this crew built for itself, one post at a time.<br><br><strong>The second is the Duck.</strong> On the Canon Leadership Pathway, the first rung is the one everything else stands on: <em>a Duck earns trust.</em> When a duck gets handed to a hand on location, in front of the crew, it says one thing: <strong>I watched what you did, and I trust you.</strong> Not an email three weeks later. Not a name read off a list. A physical thing, given in the moment, for a behavior somebody actually saw. Fifty-eight hands got named out loud at morning meetings this cycle — but the ducks are the ones people keep on the dash.<br><br>Notice what these two wins have in common, because it's this week's PSMS topic: <strong>both of them are communication.</strong> The Breakroom is hazard communication at the speed of the hazard. The duck is recognition at the speed of the behavior. And Breaking Containment — the topic on the board right now — is won or lost the same way: by what gets <em>said</em> before the first wrench. The crew that talks is the crew that catches the trapped pressure.",
+    "standard": [
+      "<strong>Post it when you see it.</strong> A rough Breakroom post at 5:25 AM beats a perfect report at tomorrow's meeting. The hazard doesn't wait for polish, so neither do we.",
+      "<strong>Close the loop in the thread.</strong> Somebody posts a hazard, somebody confirms it or clears it — the way Dennis backed Jordan's road call. A post with no reply is a flare nobody answered.",
+      "<strong>Give the duck ON the location, and name the behavior.</strong> Not 'good job' — say what you saw: 'you held that hold point with the vac truck waiting.' The duck means nothing without the sentence.",
+      "<strong>Every hand can give one.</strong> Recognition isn't a supervisor's job. A Duck earns trust — and trust gets handed sideways, not just down.",
+      "<strong>The newest hand learns from what we celebrate.</strong> He reads the Breakroom and watches who gets ducks. That's how he finds out what Canon actually values — make sure it's the right things."
+    ],
+    "scenarios": [
+      {
+        "title": "The Post That Beats the Meeting",
+        "body": "It's 5:25 AM and you just watched a truck drift across the center line on Jal 128 and nearly take out two semis. You've got a choice, and it's smaller than it looks. You can tell the story at tomorrow's morning meeting — good story, everybody nods, and it protects exactly nobody, because every crew running 128 today already ran it. Or you can do what Jordan did: <strong>thumb out four rough sentences right now, from the shoulder, and put the whole fleet on alert while the hazard is still on the road.</strong> Same information. Twenty-four hours' difference. One of them is a story; the other is a safety system.<br><br>Now stretch it to this week's topic. The same choice shows up at the first break: you can know about the corroded fitting, the sticky valve, the line that holds pressure funny — or you can <strong>say it, out loud, in the pre-job, before anybody cracks anything.</strong> Knowledge that stays in your head protects one person, part-time. The whole program — the Breakroom, the OWL forms, the duck in a hand that earned it — is the same lesson wearing different clothes: <strong>what you see only counts when the crew can see it too.</strong>"
+      }
+    ],
+    "questions": [
+      "What's the best Breakroom post you saw this cycle — the one that actually changed what you did that day? Name it.",
+      "What did you see this month that you almost posted and didn't? What stopped you — and who would it have helped?",
+      "Who on this crew has earned a duck that hasn't gotten one yet? Say the name and say what you watched them do.",
+      "When you got recognized this cycle — duck, name on the board, either one — what did it actually change for you? Be honest, it matters for how we do this.",
+      "It's the first break of today's job: what's the one thing you know about this location that the crew doesn't — and when are you going to say it?"
+    ],
+    "nonNegotiable": "See it, post it. Watch it, duck it. What you see only counts when the crew can see it too — and that's how containment gets broken safe.",
+    "week": 13
   }
 }

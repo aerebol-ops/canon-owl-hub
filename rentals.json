@@ -1,14 +1,13 @@
 {
-  "generated": "2026-09-06",
+  "generated": "2026-09-08",
   "source": "Permian Basin Rental Board September 2026.xlsx",
   "boardsScanned": [
-    "Permian Basin Rental Board August 2026.xlsx",
     "Permian Basin Rental Board September 2026.xlsx"
   ],
   "warnDays": 15,
   "overdueDays": 30,
   "activeRentals": 13,
-  "neverChecked": 12,
+  "neverChecked": 13,
   "overdueChecks": 0,
   "rigs": [
     {
@@ -44,14 +43,14 @@
     {
       "rig": "H&P 395",
       "company": "OVINTIV",
-      "location": "DAVIDSON C 3G 305HD",
+      "location": "TERILINGUA",
       "status": "RUNNING",
       "active": true,
-      "equipment": "",
-      "ticket": "99369",
+      "equipment": "REDLINE",
+      "ticket": "101664",
       "at": "",
       "onRentSince": "2026-07-30",
-      "currentStart": "2026-08-02",
+      "currentStart": "2026-08-08",
       "lastCheck": null,
       "daysSinceCheck": null,
       "checkState": "never"
@@ -59,7 +58,7 @@
     {
       "rig": "H&P 551",
       "company": "OVINTIV",
-      "location": "PENDING",
+      "location": "FASKEN",
       "status": "RUNNING",
       "active": true,
       "equipment": "REDLINE",
@@ -67,6 +66,21 @@
       "at": "",
       "onRentSince": "2026-07-30",
       "currentStart": "2026-08-29",
+      "lastCheck": null,
+      "daysSinceCheck": null,
+      "checkState": "never"
+    },
+    {
+      "rig": "H&P 616",
+      "company": "OVINTIV",
+      "location": "HR VENOM 320JB 1HS",
+      "status": "RUNNING",
+      "active": true,
+      "equipment": "REDLINE",
+      "ticket": "99368",
+      "at": "",
+      "onRentSince": "2026-08-01",
+      "currentStart": "2026-08-01",
       "lastCheck": null,
       "daysSinceCheck": null,
       "checkState": "never"
@@ -190,21 +204,6 @@
       "lastCheck": null,
       "daysSinceCheck": null,
       "checkState": "never"
-    },
-    {
-      "rig": "H&P 616",
-      "company": "OVINTIV",
-      "location": "HR VENOM 320JB 1HS",
-      "status": "RUNNING",
-      "active": true,
-      "equipment": "REDLINE",
-      "ticket": "99368",
-      "at": "",
-      "onRentSince": "2026-08-01",
-      "currentStart": "2026-08-01",
-      "lastCheck": "2026-08-28",
-      "daysSinceCheck": 9,
-      "checkState": "ok"
     }
   ]
 }
