@@ -11,11 +11,11 @@
   "formCounts": [
     {
       "name": "Rolando Flores",
-      "count": 67
+      "count": 69
     },
     {
       "name": "Stefanie Kirschke",
-      "count": 54
+      "count": 56
     },
     {
       "name": "William Jimmy Cooper",
@@ -23,19 +23,19 @@
     },
     {
       "name": "Ralph Forbes",
-      "count": 44
+      "count": 45
     },
     {
       "name": "Jordan Lemmons",
-      "count": 41
-    },
-    {
-      "name": "Anthony Scott",
-      "count": 40
+      "count": 44
     },
     {
       "name": "Nathan Contreras",
-      "count": 40
+      "count": 42
+    },
+    {
+      "name": "Anthony Scott",
+      "count": 41
     },
     {
       "name": "Bobby Galindo",
@@ -43,55 +43,55 @@
     },
     {
       "name": "Jeremy Norris",
-      "count": 32
+      "count": 35
     },
     {
       "name": "Dermont Morgan",
-      "count": 30
+      "count": 32
     },
     {
       "name": "Gael Antonio Avila",
-      "count": 28
+      "count": 31
     },
     {
       "name": "Hayden Haugh",
-      "count": 27
+      "count": 30
     },
     {
       "name": "Jacob Hernandez",
-      "count": 27
+      "count": 29
     },
     {
       "name": "Pablo Soto",
-      "count": 26
+      "count": 28
+    },
+    {
+      "name": "Jose Hurtado",
+      "count": 27
+    },
+    {
+      "name": "Andrew Bailey",
+      "count": 24
     },
     {
       "name": "Dawson Drake",
       "count": 24
     },
     {
-      "name": "Jose Hurtado",
-      "count": 24
-    },
-    {
-      "name": "Andrew Bailey",
-      "count": 23
-    },
-    {
       "name": "Raymundo Solis",
       "count": 23
     },
     {
-      "name": "Michael Hutt",
-      "count": 21
+      "name": "Michael Jobe",
+      "count": 22
     },
     {
       "name": "Justin Fontenot",
-      "count": 20
+      "count": 21
     },
     {
-      "name": "Michael Jobe",
-      "count": 20
+      "name": "Michael Hutt",
+      "count": 21
     },
     {
       "name": "Baldemar Bracamontes",
@@ -103,11 +103,23 @@
     },
     {
       "name": "Ruben Rojo",
-      "count": 17
+      "count": 19
     },
     {
       "name": "Robert Henigan",
       "count": 16
+    },
+    {
+      "name": "Alejandro Najar",
+      "count": 13
+    },
+    {
+      "name": "Caleb Smith",
+      "count": 13
+    },
+    {
+      "name": "Christian Lee",
+      "count": 13
     },
     {
       "name": "Larry Jaramillo",
@@ -118,20 +130,8 @@
       "count": 13
     },
     {
-      "name": "Alejandro Najar",
-      "count": 11
-    },
-    {
       "name": "Alfredo Vaquera",
       "count": 11
-    },
-    {
-      "name": "Caleb Smith",
-      "count": 11
-    },
-    {
-      "name": "Christian Lee",
-      "count": 10
     },
     {
       "name": "Brianda Sandoval",
@@ -159,7 +159,7 @@
     },
     {
       "name": "Jimmy White",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Kedrick Mccarter",
@@ -167,6 +167,10 @@
     },
     {
       "name": "Allen White",
+      "count": 2
+    },
+    {
+      "name": "Trevor Mckenzie",
       "count": 2
     },
     {
@@ -180,10 +184,6 @@
     {
       "name": "Larry Taylor",
       "count": 1
-    },
-    {
-      "name": "Trevor Mckenzie",
-      "count": 1
     }
   ],
   "leadershipThought": "Don't accuse — describe. Don't assume — ask. Don't escalate — clarify. That's the no-defense rule. Use it every time.",
@@ -194,32 +194,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Michael Jobe — The job scope went as planned crew worked safely MT did the meeting went ri",
-      "detail": "The job scope went as planned crew worked safely MT did the meeting went right to work",
+      "headline": "Christian Lee — Communication and safety work practices",
+      "detail": "Communication and safety work practices",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Alfredo Vaquera — Crew heard air leak and mustard up immediately",
-      "detail": "Crew heard air leak and mustard up immediately",
+      "headline": "Jimmy White — Job completed safely and no accidents or injuries occurred while on locatio",
+      "detail": "Job completed safely and no accidents or injuries occurred while on location",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo — Good communication, different crew but translating was good",
-      "detail": "Good communication, different crew but translating was good",
+      "headline": "Jeremy Norris — job went quickly and smoothly with no gases detected",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras — Crews had the right attitude for the job , crews communicated effectively w",
-      "detail": "Crews had the right attitude for the job , crews communicated effectively with one another",
-      "psms": "Operational Discipline"
+      "headline": "Caleb Smith — Crew followed MT and verified Loto was in place",
+      "detail": "Crew followed MT and verified Loto was in place.",
+      "psms": "Energy Isolation"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Set up exclusion zone and dismantled wellhead",
-      "detail": "Set up exclusion zone and dismantled wellhead",
+      "headline": "Jordan Lemmons — Let the crew know there wasn't any lel so they could use impacts",
+      "detail": "Let the crew know there wasn't any lel so they could use impacts",
       "psms": "Operational Discipline"
     },
     {
@@ -237,21 +237,21 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 31,
-        "total": 35
+        "done": 57,
+        "total": 63
       },
       {
         "label": "Trailer Inspections",
-        "done": 4,
-        "total": 4
+        "done": 9,
+        "total": 9
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 3,
-        "total": 5
+        "done": 8,
+        "total": 10
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 09/07"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 09/08"
   },
   "specialFocus": {
     "title": "Spotlight — The Breakroom & The Duck",

@@ -2,7 +2,7 @@
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-09-09",
   "ytdPct": 83.0,
-  "ytdMissed": 1492,
+  "ytdMissed": 1505,
   "months": [
     {
       "month": "January 2026",
@@ -1928,19 +1928,19 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 86.9,
-      "missedTotal": 39,
-      "dailyNo": 20,
-      "trailerInspNo": 5,
-      "trailerReadyNo": 10,
-      "problemRows": 36,
-      "blanks": 257,
-      "employees": 60,
-      "cleanEmployees": 38,
-      "dailyYesTotal": 133,
-      "dailyNoTotal": 20,
-      "rawRows": 452,
-      "daysCovered": 4,
+      "compliancePct": 86.6,
+      "missedTotal": 52,
+      "dailyNo": 30,
+      "trailerInspNo": 6,
+      "trailerReadyNo": 12,
+      "problemRows": 51,
+      "blanks": 245,
+      "employees": 62,
+      "cleanEmployees": 35,
+      "dailyYesTotal": 194,
+      "dailyNoTotal": 30,
+      "rawRows": 513,
+      "daysCovered": 6,
       "sheetsInMonth": 9,
       "byDay": [
         {
@@ -1954,19 +1954,57 @@
           "pct": 85
         },
         {
+          "date": "9/5",
+          "missed": 10,
+          "pct": 81
+        },
+        {
           "date": "9/6",
-          "missed": 1,
-          "pct": 91
+          "missed": 2,
+          "pct": 88
         },
         {
           "date": "9/7",
           "missed": 6,
           "pct": 89
+        },
+        {
+          "date": "9/8",
+          "missed": 2,
+          "pct": 93
         }
       ],
-      "watch": [],
+      "watch": [
+        {
+          "name": "Jeremy Norris",
+          "totalMissed": 3,
+          "dailyMissed": 2,
+          "trailerMissed": 1,
+          "dailyYes": 9,
+          "dailyNo": 2,
+          "pct": 82
+        },
+        {
+          "name": "Stefanie Kirschke",
+          "totalMissed": 1,
+          "dailyMissed": 0,
+          "trailerMissed": 1,
+          "dailyYes": 12,
+          "dailyNo": 0,
+          "pct": 100
+        },
+        {
+          "name": "Rolando Flores",
+          "totalMissed": 1,
+          "dailyMissed": 0,
+          "trailerMissed": 1,
+          "dailyYes": 12,
+          "dailyNo": 0,
+          "pct": 100
+        }
+      ],
       "live": true,
-      "throughDate": "9/7"
+      "throughDate": "9/8"
     }
   ]
 }
