@@ -1928,16 +1928,16 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 86.6,
+      "compliancePct": 87.0,
       "missedTotal": 52,
       "dailyNo": 30,
       "trailerInspNo": 6,
       "trailerReadyNo": 12,
       "problemRows": 51,
-      "blanks": 245,
+      "blanks": 237,
       "employees": 62,
       "cleanEmployees": 35,
-      "dailyYesTotal": 194,
+      "dailyYesTotal": 200,
       "dailyNoTotal": 30,
       "rawRows": 513,
       "daysCovered": 6,
@@ -1971,7 +1971,7 @@
         {
           "date": "9/8",
           "missed": 2,
-          "pct": 93
+          "pct": 94
         }
       ],
       "watch": [

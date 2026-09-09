@@ -194,32 +194,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Christian Lee — Communication and safety work practices",
-      "detail": "Communication and safety work practices",
+      "headline": "Jacob Hernandez — Stop worked befor we broke containment and spoke on it",
+      "detail": "Stop worked befor we broke containment and spoke on it.",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Alejandro Najar — in depth meeting before work started",
+      "detail": "In depth meeting before work started",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jimmy White — Job completed safely and no accidents or injuries occurred while on locatio",
-      "detail": "Job completed safely and no accidents or injuries occurred while on location",
+      "headline": "Stefanie Kirschke — The job went smoothly with no issues",
+      "detail": "The job went smoothly with no issues. The crew maintained good communication, followed",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — job went quickly and smoothly with no gases detected",
-      "detail": "Did we leave the location better.",
+      "headline": "Andrew Bailey — Job was completed without any hiccups",
+      "detail": "Job was completed without any hiccups",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Caleb Smith — Crew followed MT and verified Loto was in place",
-      "detail": "Crew followed MT and verified Loto was in place.",
-      "psms": "Energy Isolation"
-    },
-    {
-      "type": "good",
-      "headline": "Jordan Lemmons — Let the crew know there wasn't any lel so they could use impacts",
-      "detail": "Let the crew know there wasn't any lel so they could use impacts",
+      "headline": "William Jimmy Cooper — Everyone obeyed safety rules",
+      "detail": "Everyone obeyed safety rules",
       "psms": "Operational Discipline"
     },
     {
@@ -237,18 +237,18 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 57,
-        "total": 63
+        "done": 63,
+        "total": 69
       },
       {
         "label": "Trailer Inspections",
-        "done": 9,
-        "total": 9
+        "done": 10,
+        "total": 10
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 8,
-        "total": 10
+        "done": 9,
+        "total": 11
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 09/08"
