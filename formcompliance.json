@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-09-09",
-  "ytdPct": 83.0,
-  "ytdMissed": 1505,
+  "ytdPct": 82.9,
+  "ytdMissed": 1514,
   "months": [
     {
       "month": "January 2026",
@@ -1928,20 +1928,20 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 87.0,
-      "missedTotal": 52,
-      "dailyNo": 30,
+      "compliancePct": 84.3,
+      "missedTotal": 61,
+      "dailyNo": 39,
       "trailerInspNo": 6,
       "trailerReadyNo": 12,
-      "problemRows": 51,
-      "blanks": 263,
-      "employees": 65,
-      "cleanEmployees": 38,
-      "dailyYesTotal": 200,
-      "dailyNoTotal": 30,
-      "rawRows": 534,
+      "problemRows": 60,
+      "blanks": 300,
+      "employees": 70,
+      "cleanEmployees": 41,
+      "dailyYesTotal": 210,
+      "dailyNoTotal": 39,
+      "rawRows": 597,
       "daysCovered": 6,
-      "sheetsInMonth": 9,
+      "sheetsInMonth": 10,
       "byDay": [
         {
           "date": "9/1",
@@ -1970,8 +1970,8 @@
         },
         {
           "date": "9/8",
-          "missed": 2,
-          "pct": 94
+          "missed": 11,
+          "pct": 79
         }
       ],
       "watch": [
@@ -1983,6 +1983,15 @@
           "dailyYes": 9,
           "dailyNo": 2,
           "pct": 82
+        },
+        {
+          "name": "Jordan Lemmons",
+          "totalMissed": 2,
+          "dailyMissed": 1,
+          "trailerMissed": 1,
+          "dailyYes": 9,
+          "dailyNo": 1,
+          "pct": 90
         },
         {
           "name": "Stefanie Kirschke",

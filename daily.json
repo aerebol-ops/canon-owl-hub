@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "week": 13,
-  "day": 2,
+  "day": 3,
   "topicWeek": 2,
   "displayWeek": 1,
   "cycle": 2,
-  "openingMessage": "If you don't have time to do it right, when will you have time to do it over?",
+  "openingMessage": "Be quick, but don't hurry.",
   "openingAttribution": "John Wooden",
-  "openingWhy": "A rushed handover — 'she's bled down, you're good' — with one valve still holding pressure is how the night hand ends up wearing what the day hand skipped. The five minutes a real handover takes is the cheapest time in the oilfield.",
+  "openingWhy": "Quick is a crew that's run the job a hundred times and moves clean. Hurry is skipping the re-test because the workover rig is standing by and the company man is pacing. Quick gets you home early. Hurry gets you an incident review.",
   "formCounts": [
     {
       "name": "Rolando Flores",
@@ -186,7 +186,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Don't accuse — describe. Don't assume — ask. Don't escalate — clarify. That's the no-defense rule. Use it every time.",
+  "leadershipThought": "Vague words create confusion. Precision builds trust and leadership. Say what is true, as clearly as possible. Not emotional. Not exaggerated. Not passive aggressive.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -194,32 +194,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dawson Drake — The effectiveness of mitigating hazards",
+      "headline": "Rolando Flores — Everyone was on top of their job and what was the job scope",
+      "detail": "Everyone was on top of their job and what was the job scope",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Anthony Scott — Everything from safety meeting to job task",
+      "detail": "Everything from safety meeting to job task.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Gael Antonio Avila — Everything and everyone understood everything",
       "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Baldemar Bracamontes — Job was completed without incident, all required safety precautions were re",
-      "detail": "Job was completed without incident, all required safety precautions were recognizable",
+      "headline": "Michael Jobe — Job went as it should no issues",
+      "detail": "Job went as it should no issues",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Gage Gonzales — Job completed without unplanned stops",
-      "detail": "Job completed without unplanned stops",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Ruben Rojo — No gas on pre test or after break",
-      "detail": "Did we leave the location better.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Raymundo Solis — Crew position themselves away from the line of fire",
-      "detail": "Crew position themselves away from the line of fire",
+      "headline": "Hayden Haugh — Crew worked together well while reconnecting wellhead",
+      "detail": "Crew worked together well while reconnecting wellhead",
       "psms": "Operational Discipline"
     },
     {
@@ -230,25 +230,25 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Check your attitude at the gate today. The crew reads it before you say a word — bring the version of you that makes the location better.",
-  "todaysChallengeSubtext": "“Ability is what you're capable of doing. Motivation determines what you do. Attitude determines how well you do it.” — Lou Holtz",
+  "todaysChallenge": "If the numbers say stop today, stop — even if the whole location is waiting on you. That call takes courage once. It builds a reputation forever.",
+  "todaysChallengeSubtext": "“Courage and confidence are what decision making is all about.” — Mike Krzyzewski",
   "compliance": {
     "weekOf": "Week of September 7, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 63,
-        "total": 69
+        "done": 73,
+        "total": 88
       },
       {
         "label": "Trailer Inspections",
-        "done": 10,
-        "total": 10
+        "done": 11,
+        "total": 11
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 9,
-        "total": 11
+        "done": 10,
+        "total": 12
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 09/08"
