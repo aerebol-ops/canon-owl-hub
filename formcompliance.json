@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-09-10",
-  "ytdPct": 82.9,
-  "ytdMissed": 1530,
+  "ytdPct": 82.7,
+  "ytdMissed": 1554,
   "months": [
     {
       "month": "January 2026",
@@ -1928,17 +1928,17 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 83.0,
-      "missedTotal": 77,
-      "dailyNo": 50,
-      "trailerInspNo": 7,
-      "trailerReadyNo": 15,
-      "problemRows": 78,
-      "blanks": 253,
+      "compliancePct": 80.1,
+      "missedTotal": 101,
+      "dailyNo": 65,
+      "trailerInspNo": 11,
+      "trailerReadyNo": 19,
+      "problemRows": 95,
+      "blanks": 220,
       "employees": 70,
-      "cleanEmployees": 36,
-      "dailyYesTotal": 244,
-      "dailyNoTotal": 50,
+      "cleanEmployees": 31,
+      "dailyYesTotal": 261,
+      "dailyNoTotal": 65,
       "rawRows": 596,
       "daysCovered": 7,
       "sheetsInMonth": 10,
@@ -1975,28 +1975,37 @@
         },
         {
           "date": "9/9",
-          "missed": 14,
-          "pct": 73
+          "missed": 37,
+          "pct": 64
         }
       ],
       "watch": [
         {
           "name": "Jeremy Norris",
-          "totalMissed": 3,
+          "totalMissed": 5,
+          "dailyMissed": 3,
+          "trailerMissed": 2,
+          "dailyYes": 10,
+          "dailyNo": 3,
+          "pct": 77
+        },
+        {
+          "name": "Christian Lee",
+          "totalMissed": 2,
           "dailyMissed": 2,
-          "trailerMissed": 1,
-          "dailyYes": 9,
+          "trailerMissed": 0,
+          "dailyYes": 8,
           "dailyNo": 2,
-          "pct": 82
+          "pct": 80
         },
         {
           "name": "Jordan Lemmons",
-          "totalMissed": 2,
-          "dailyMissed": 1,
-          "trailerMissed": 1,
-          "dailyYes": 9,
-          "dailyNo": 1,
-          "pct": 90
+          "totalMissed": 4,
+          "dailyMissed": 2,
+          "trailerMissed": 2,
+          "dailyYes": 10,
+          "dailyNo": 2,
+          "pct": 83
         },
         {
           "name": "Stefanie Kirschke",

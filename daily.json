@@ -194,32 +194,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dermont Morgan — Good communication, proper hand placement out of line of fire",
+      "headline": "Justin Fontenot — Job was completed just as discussed",
+      "detail": "Job was completed just as discussed. Atmosphere was tested and work was conducted",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris — Everyone worked well together, good communication and respected the exclusi",
       "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras — Crews showed great communication and hand signals when hooking and working",
-      "detail": "Crews showed great communication and hand signals when hooking and working .",
+      "headline": "Jose Hurtado — Crew knew what there were doing",
+      "detail": "Crew knew what there were doing",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons — Let them know it was good so we could change out the flange on the well hea",
-      "detail": "Did we leave the location better Yes.",
+      "headline": "Ralph Forbes — Set up exclusion zone and cleaned out two oil tanks successfully today",
+      "detail": "Set up exclusion zone and cleaned out two oil tanks successfully today",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — The job went very well. The crew demonstrated strong teamwork, communication, an",
-      "detail": "OWL form — Operational Discipline",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Christian Lee — They job was completed safely",
-      "detail": "They job was completed safely",
+      "headline": "Caleb Smith — Rig up went well and all job completed safely",
+      "detail": "Rig up went well and all job completed safely",
       "psms": "Operational Discipline"
     },
     {
@@ -237,18 +237,18 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 107,
-        "total": 133
+        "done": 124,
+        "total": 165
       },
       {
         "label": "Trailer Inspections",
-        "done": 21,
-        "total": 22
+        "done": 24,
+        "total": 29
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 16,
-        "total": 21
+        "done": 19,
+        "total": 28
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Wed 09/09"
