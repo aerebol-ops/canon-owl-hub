@@ -194,32 +194,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Rolando Flores — Everyone was on top of their job and what was the job scope",
-      "detail": "Everyone was on top of their job and what was the job scope",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Anthony Scott — Everything from safety meeting to job task",
-      "detail": "Everything from safety meeting to job task.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Gael Antonio Avila — Everything and everyone understood everything",
+      "headline": "Dermont Morgan — Good communication, proper hand placement out of line of fire",
       "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — Job went as it should no issues",
-      "detail": "Job went as it should no issues",
+      "headline": "Nathan Contreras — Crews showed great communication and hand signals when hooking and working",
+      "detail": "Crews showed great communication and hand signals when hooking and working .",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Hayden Haugh — Crew worked together well while reconnecting wellhead",
-      "detail": "Crew worked together well while reconnecting wellhead",
+      "headline": "Jordan Lemmons — Let them know it was good so we could change out the flange on the well hea",
+      "detail": "Did we leave the location better Yes.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Stefanie Kirschke — The job went very well. The crew demonstrated strong teamwork, communication, an",
+      "detail": "OWL form — Operational Discipline",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Christian Lee — They job was completed safely",
+      "detail": "They job was completed safely",
       "psms": "Operational Discipline"
     },
     {
@@ -237,21 +237,21 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 73,
-        "total": 88
+        "done": 107,
+        "total": 133
       },
       {
         "label": "Trailer Inspections",
-        "done": 11,
-        "total": 11
+        "done": 21,
+        "total": 22
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 10,
-        "total": 12
+        "done": 16,
+        "total": 21
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 09/08"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 09/09"
   },
   "specialFocus": {
     "title": "The New Standard — Workover Rig Sensor Rig-Up",

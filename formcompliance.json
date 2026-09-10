@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
-  "generated": "2026-09-09",
+  "generated": "2026-09-10",
   "ytdPct": 82.9,
-  "ytdMissed": 1514,
+  "ytdMissed": 1530,
   "months": [
     {
       "month": "January 2026",
@@ -1928,19 +1928,19 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 84.3,
-      "missedTotal": 61,
-      "dailyNo": 39,
-      "trailerInspNo": 6,
-      "trailerReadyNo": 12,
-      "problemRows": 60,
-      "blanks": 300,
+      "compliancePct": 83.0,
+      "missedTotal": 77,
+      "dailyNo": 50,
+      "trailerInspNo": 7,
+      "trailerReadyNo": 15,
+      "problemRows": 78,
+      "blanks": 253,
       "employees": 70,
-      "cleanEmployees": 41,
-      "dailyYesTotal": 210,
-      "dailyNoTotal": 39,
-      "rawRows": 597,
-      "daysCovered": 6,
+      "cleanEmployees": 36,
+      "dailyYesTotal": 244,
+      "dailyNoTotal": 50,
+      "rawRows": 596,
+      "daysCovered": 7,
       "sheetsInMonth": 10,
       "byDay": [
         {
@@ -1970,8 +1970,13 @@
         },
         {
           "date": "9/8",
-          "missed": 11,
-          "pct": 79
+          "missed": 12,
+          "pct": 80
+        },
+        {
+          "date": "9/9",
+          "missed": 14,
+          "pct": 73
         }
       ],
       "watch": [
@@ -1995,25 +2000,34 @@
         },
         {
           "name": "Stefanie Kirschke",
-          "totalMissed": 1,
-          "dailyMissed": 0,
+          "totalMissed": 2,
+          "dailyMissed": 1,
           "trailerMissed": 1,
-          "dailyYes": 12,
-          "dailyNo": 0,
-          "pct": 100
+          "dailyYes": 13,
+          "dailyNo": 1,
+          "pct": 93
         },
         {
           "name": "Rolando Flores",
-          "totalMissed": 1,
-          "dailyMissed": 0,
+          "totalMissed": 2,
+          "dailyMissed": 1,
           "trailerMissed": 1,
-          "dailyYes": 12,
+          "dailyYes": 13,
+          "dailyNo": 1,
+          "pct": 93
+        },
+        {
+          "name": "Ralph Forbes",
+          "totalMissed": 0,
+          "dailyMissed": 0,
+          "trailerMissed": 0,
+          "dailyYes": 10,
           "dailyNo": 0,
           "pct": 100
         }
       ],
       "live": true,
-      "throughDate": "9/8"
+      "throughDate": "9/9"
     }
   ]
 }
