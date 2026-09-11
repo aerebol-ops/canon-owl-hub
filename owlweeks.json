@@ -37,11 +37,11 @@
         {
           "date": "Fri, Sep 11",
           "day": "Friday",
-          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Observation → Impact → Request. That is the structure. Use it before the job starts, not after something goes wrong.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Jordan Lemmons</strong> — Did our testing and found out only one was leaking but it was a minor leak but no gases</li><li style='margin:3px 0;'><strong>Stefanie Kirschke</strong> — Job has been canceled and rescheduled for Tuesday</li><li style='margin:3px 0;'><strong>Jeremy Norris</strong> — Did we leave the location better.</li><li style='margin:3px 0;'><strong>Ralph Forbes</strong> — Setup exclusion zone and prevented trucks from entering work area, work over rig active</li><li style='margin:3px 0;'><strong>Nathan Contreras</strong> — Crews communicated with the crane and roustabouts to complete the job efficiently. Crews</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Observation → Impact → Request. That is the structure. Use it before the job starts, not after something goes wrong.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Jordan Lemmons</strong> — Got with the crew and found a guy that was fitted for our masks and got him suited up</li><li style='margin:3px 0;'><strong>Stefanie Kirschke</strong> — The crew worked well together and maintained good communication throughout the job.</li><li style='margin:3px 0;'><strong>Nathan Contreras</strong> — Crews communicated and worked efficiently with one another . Crews also went over</li><li style='margin:3px 0;'><strong>Ralph Forbes</strong> — Completed the job scope with no issues</li><li style='margin:3px 0;'><strong>Jeremy Norris</strong> — Everyone worked together well and safely to complete the job according to acope also</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
           "flags": [
             "Clean board — no open watch items this week"
           ],
-          "recognition": "Jordan Lemmons — Did our testing and found out only one was leaking but it was a minor leak"
+          "recognition": "Jordan Lemmons — Got with the crew and found a guy that was fitted for our masks and got him"
         }
       ]
     },

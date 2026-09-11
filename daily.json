@@ -106,33 +106,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jordan Lemmons — Did our testing and found out only one was leaking but it was a minor leak",
-      "detail": "Did our testing and found out only one was leaking but it was a minor leak but no gases",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke — Job has been canceled and rescheduled for Tuesday",
-      "detail": "Job has been canceled and rescheduled for Tuesday",
+      "headline": "Jordan Lemmons — Got with the crew and found a guy that was fitted for our masks and got him",
+      "detail": "Got with the crew and found a guy that was fitted for our masks and got him suited up",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — The job went accordingly to the scope of work and everyone workwd together",
-      "detail": "Did we leave the location better.",
+      "headline": "Stefanie Kirschke — The crew worked well together and maintained good communication throughout",
+      "detail": "The crew worked well together and maintained good communication throughout the job.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Setup exclusion zone and prevented trucks from entering work area, work ove",
-      "detail": "Setup exclusion zone and prevented trucks from entering work area, work over rig active",
+      "headline": "Nathan Contreras — Crews communicated and worked efficiently with one another",
+      "detail": "Crews communicated and worked efficiently with one another . Crews also went over",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras — Crews communicated with the crane and roustabouts to complete the job effic",
-      "detail": "Crews communicated with the crane and roustabouts to complete the job efficiently. Crews",
-      "psms": "Mobile Equipment"
+      "headline": "Ralph Forbes — Completed the job scope with no issues",
+      "detail": "Completed the job scope with no issues",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris — Everyone worked together well and safely to complete the job according to a",
+      "detail": "Everyone worked together well and safely to complete the job according to acope also",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
@@ -149,21 +149,21 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 124,
-        "total": 165
+        "done": 183,
+        "total": 226
       },
       {
         "label": "Trailer Inspections",
-        "done": 24,
-        "total": 29
+        "done": 38,
+        "total": 46
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 19,
-        "total": 28
+        "done": 28,
+        "total": 40
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 09/09"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 09/10"
   },
   "specialFocus": {
     "title": "The New Standard — Workover Rig Sensor Rig-Up",

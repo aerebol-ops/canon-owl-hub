@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-09-11",
-  "ytdPct": 82.7,
-  "ytdMissed": 1554,
+  "ytdPct": 82.8,
+  "ytdMissed": 1567,
   "months": [
     {
       "month": "January 2026",
@@ -1928,20 +1928,20 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 80.1,
-      "missedTotal": 101,
-      "dailyNo": 65,
-      "trailerInspNo": 11,
-      "trailerReadyNo": 19,
-      "problemRows": 95,
-      "blanks": 220,
+      "compliancePct": 82.3,
+      "missedTotal": 114,
+      "dailyNo": 70,
+      "trailerInspNo": 14,
+      "trailerReadyNo": 22,
+      "problemRows": 109,
+      "blanks": 225,
       "employees": 70,
-      "cleanEmployees": 31,
-      "dailyYesTotal": 261,
-      "dailyNoTotal": 65,
-      "rawRows": 596,
-      "daysCovered": 7,
-      "sheetsInMonth": 10,
+      "cleanEmployees": 28,
+      "dailyYesTotal": 325,
+      "dailyNoTotal": 70,
+      "rawRows": 673,
+      "daysCovered": 9,
+      "sheetsInMonth": 11,
       "byDay": [
         {
           "date": "9/1",
@@ -1952,6 +1952,11 @@
           "date": "9/2",
           "missed": 14,
           "pct": 85
+        },
+        {
+          "date": "9/4",
+          "missed": 3,
+          "pct": 62
         },
         {
           "date": "9/5",
@@ -1977,20 +1982,34 @@
           "date": "9/9",
           "missed": 37,
           "pct": 64
+        },
+        {
+          "date": "9/10",
+          "missed": 8,
+          "pct": 97
         }
       ],
       "watch": [
+        {
+          "name": "Bobby Galindo",
+          "totalMissed": 4,
+          "dailyMissed": 3,
+          "trailerMissed": 1,
+          "dailyYes": 7,
+          "dailyNo": 3,
+          "pct": 70
+        },
         {
           "name": "Jeremy Norris",
           "totalMissed": 5,
           "dailyMissed": 3,
           "trailerMissed": 2,
-          "dailyYes": 10,
+          "dailyYes": 11,
           "dailyNo": 3,
-          "pct": 77
+          "pct": 79
         },
         {
-          "name": "Christian Lee",
+          "name": "William Cooper",
           "totalMissed": 2,
           "dailyMissed": 2,
           "trailerMissed": 0,
@@ -1999,44 +2018,71 @@
           "pct": 80
         },
         {
+          "name": "Pablo Soto",
+          "totalMissed": 3,
+          "dailyMissed": 2,
+          "trailerMissed": 1,
+          "dailyYes": 9,
+          "dailyNo": 2,
+          "pct": 82
+        },
+        {
+          "name": "Christian Lee",
+          "totalMissed": 2,
+          "dailyMissed": 2,
+          "trailerMissed": 0,
+          "dailyYes": 9,
+          "dailyNo": 2,
+          "pct": 82
+        },
+        {
           "name": "Jordan Lemmons",
           "totalMissed": 4,
           "dailyMissed": 2,
           "trailerMissed": 2,
-          "dailyYes": 10,
+          "dailyYes": 11,
           "dailyNo": 2,
-          "pct": 83
+          "pct": 85
+        },
+        {
+          "name": "Gael Avila",
+          "totalMissed": 2,
+          "dailyMissed": 1,
+          "trailerMissed": 1,
+          "dailyYes": 9,
+          "dailyNo": 1,
+          "pct": 90
+        },
+        {
+          "name": "Bobby Fleming",
+          "totalMissed": 1,
+          "dailyMissed": 1,
+          "trailerMissed": 0,
+          "dailyYes": 9,
+          "dailyNo": 1,
+          "pct": 90
         },
         {
           "name": "Stefanie Kirschke",
           "totalMissed": 2,
           "dailyMissed": 1,
           "trailerMissed": 1,
-          "dailyYes": 13,
+          "dailyYes": 15,
           "dailyNo": 1,
-          "pct": 93
+          "pct": 94
         },
         {
           "name": "Rolando Flores",
           "totalMissed": 2,
           "dailyMissed": 1,
           "trailerMissed": 1,
-          "dailyYes": 13,
+          "dailyYes": 15,
           "dailyNo": 1,
-          "pct": 93
-        },
-        {
-          "name": "Ralph Forbes",
-          "totalMissed": 0,
-          "dailyMissed": 0,
-          "trailerMissed": 0,
-          "dailyYes": 10,
-          "dailyNo": 0,
-          "pct": 100
+          "pct": 94
         }
       ],
       "live": true,
-      "throughDate": "9/9"
+      "throughDate": "9/10"
     }
   ]
 }
