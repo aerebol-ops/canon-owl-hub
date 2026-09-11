@@ -106,33 +106,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Ralph Forbes — Established exclusion zone, stopped work over crew from entering while work",
-      "detail": "Established exclusion zone, stopped work over crew from entering while work was being",
+      "headline": "Jordan Lemmons — Did our testing and found out only one was leaking but it was a minor leak",
+      "detail": "Did our testing and found out only one was leaking but it was a minor leak but no gases",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Stefanie Kirschke — Job has been canceled and rescheduled for Tuesday",
+      "detail": "Job has been canceled and rescheduled for Tuesday",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez — Job was productive and safely completed",
-      "detail": "Job was productive and safely completed",
+      "headline": "Jeremy Norris — The job went accordingly to the scope of work and everyone workwd together",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Alejandro Najar — no injuries despite loose dirt",
-      "detail": "No injuries despite loose dirt",
+      "headline": "Ralph Forbes — Setup exclusion zone and prevented trucks from entering work area, work ove",
+      "detail": "Setup exclusion zone and prevented trucks from entering work area, work over rig active",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Caleb Smith — Crew took their time to balance the wh plumbing that was being remove to en",
-      "detail": "Crew took their time to balance the wh plumbing that was being remove to ensure the",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke — Communication and teamwork went well, and the job was completed safely and",
-      "detail": "Communication and teamwork went well, and the job was completed safely and efficiently.",
-      "psms": "Operational Discipline"
+      "headline": "Nathan Contreras — Crews communicated with the crane and roustabouts to complete the job effic",
+      "detail": "Crews communicated with the crane and roustabouts to complete the job efficiently. Crews",
+      "psms": "Mobile Equipment"
     },
     {
       "type": "flag",
