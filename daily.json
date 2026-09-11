@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "week": 13,
-  "day": 3,
+  "day": 4,
   "topicWeek": 2,
   "displayWeek": 1,
   "cycle": 2,
-  "openingMessage": "Be quick, but don't hurry.",
+  "openingMessage": "It takes time to create excellence. If it could be done quickly, more people would do it.",
   "openingAttribution": "John Wooden",
-  "openingWhy": "Quick is a crew that's run the job a hundred times and moves clean. Hurry is skipping the re-test because the workover rig is standing by and the company man is pacing. Quick gets you home early. Hurry gets you an incident review.",
+  "openingWhy": "Nobody catches trapped pressure on a 'dead' line in his first month. That catch comes from a thousand honest LMRAs where nothing was wrong. Every real check you run today is buying the instinct that saves you in year five.",
   "formCounts": [
     {
       "name": "Rolando Flores",
@@ -186,7 +186,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Vague words create confusion. Precision builds trust and leadership. Say what is true, as clearly as possible. Not emotional. Not exaggerated. Not passive aggressive.",
+  "leadershipThought": "Observation → Impact → Request. That is the structure. Use it before the job starts, not after something goes wrong.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -194,32 +194,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Andrew Bailey — Crew successfully reconnected flowline",
-      "detail": "Crew successfully reconnected flowline",
+      "headline": "Hayden Haugh — Crew did a fantastic job reconnecting the wellhead",
+      "detail": "Crew did a fantastic job reconnecting the wellhead",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis — Crew used proper PPE for task being done and also followed LSRA",
-      "detail": "Crew used proper PPE for task being done and also followed LSRA",
+      "headline": "Jeremy Norris — Job went well with communication across the board and everyone working toge",
+      "detail": "Did we leave the location better Yes.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Hayden Haugh — Crew worked great together with great communication",
-      "detail": "Crew worked great together with great communication",
+      "headline": "Jordan Lemmons — Tested and got 0s and replaced the dump",
+      "detail": "Did we leave the location better Yes.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — Did our check everything went as it should",
-      "detail": "Did our check everything went as it should",
+      "headline": "Nathan Contreras — Crews had great communication and strong understanding of potential hazards",
+      "detail": "Crews had great communication and strong understanding of potential hazards and how to",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Christian Lee — The job was safely completed",
-      "detail": "The job was safely completed",
+      "headline": "Stefanie Kirschke — Arrived on location prepared and ready to begin work",
+      "detail": "Arrived on location prepared and ready to begin work. Initial site conditions were assessed",
       "psms": "Operational Discipline"
     },
     {
@@ -230,8 +230,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "If the numbers say stop today, stop — even if the whole location is waiting on you. That call takes courage once. It builds a reputation forever.",
-  "todaysChallengeSubtext": "“Courage and confidence are what decision making is all about.” — Mike Krzyzewski",
+  "todaysChallenge": "Yesterday's miss doesn't ride with you today — but its lesson does. Put the lesson on your OWL form where the whole crew can use it, then run today clean.",
+  "todaysChallengeSubtext": "“What to do with a mistake: recognize it, admit it, learn from it, forget it.” — Dean Smith",
   "compliance": {
     "weekOf": "Week of September 7, 2026",
     "metrics": [
