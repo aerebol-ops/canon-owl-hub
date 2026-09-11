@@ -37,11 +37,11 @@
         {
           "date": "Fri, Sep 11",
           "day": "Friday",
-          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Observation → Impact → Request. That is the structure. Use it before the job starts, not after something goes wrong.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Hayden Haugh</strong> — Crew did a fantastic job reconnecting the wellhead</li><li style='margin:3px 0;'><strong>Jeremy Norris</strong> — Did we leave the location better Yes.</li><li style='margin:3px 0;'><strong>Jordan Lemmons</strong> — Did we leave the location better Yes.</li><li style='margin:3px 0;'><strong>Nathan Contreras</strong> — Crews had great communication and strong understanding of potential hazards and how to</li><li style='margin:3px 0;'><strong>Stefanie Kirschke</strong> — Arrived on location prepared and ready to begin work. Initial site conditions were assessed</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Observation → Impact → Request. That is the structure. Use it before the job starts, not after something goes wrong.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Ralph Forbes</strong> — Established exclusion zone, stopped work over crew from entering while work was being</li><li style='margin:3px 0;'><strong>Jacob Hernandez</strong> — Job was productive and safely completed</li><li style='margin:3px 0;'><strong>Alejandro Najar</strong> — No injuries despite loose dirt</li><li style='margin:3px 0;'><strong>Caleb Smith</strong> — Crew took their time to balance the wh plumbing that was being remove to ensure the</li><li style='margin:3px 0;'><strong>Stefanie Kirschke</strong> — Communication and teamwork went well, and the job was completed safely and efficiently.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
           "flags": [
             "Clean board — no open watch items this week"
           ],
-          "recognition": "Hayden Haugh — Crew did a fantastic job reconnecting the wellhead"
+          "recognition": "Ralph Forbes — Established exclusion zone, stopped work over crew from entering while work"
         }
       ]
     },
