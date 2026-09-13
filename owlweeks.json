@@ -1,12 +1,38 @@
 {
   "weeks": [
     {
+      "week": 14,
+      "owl": "Auto-logged",
+      "theme": "Accountability",
+      "psms": "Line of Fire",
+      "dateRange": "Sep 14&ndash;Sep 18, 2026",
+      "meetings": [
+        {
+          "date": "Mon, Sep 14",
+          "day": "Week 14 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Protect the group. Protect the work. Our jobs, our clients, and our reputation depend on it. If you show up and communicate — you protect the group. If you don't — you expose it.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Jordan Lemmons</strong> — Crew didn't use impact until we gave the ok</li><li style='margin:3px 0;'><strong>Stefanie Kirschke</strong> — Everyone was okay, the issue was identified quickly, and the crew stopped the job instead</li><li style='margin:3px 0;'><strong>Ralph Forbes</strong> — Reconnected flow and injection lines without isssue</li><li style='margin:3px 0;'><strong>Nathan Contreras</strong> — Crews identified hazards and how to mitigate them , crews went over LSRA and LMRS and</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Stop worked befor we broke containment and spoke on it"
+          ],
+          "recognition": "Jordan Lemmons — Crew didn't use impact until we gave the ok"
+        }
+      ]
+    },
+    {
       "week": 13,
       "owl": "Auto-logged",
       "theme": "Communication",
       "psms": "Breaking Containment",
       "dateRange": "Sep 7&ndash;Sep 11, 2026",
       "meetings": [
+        {
+          "date": "Mon, Sep 7",
+          "day": "Week 13 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Rolando Flores</strong> &mdash; The crew communicated well throughout the job, reviewed the LMRA and job sc</li><li style='margin:3px 0;'><strong>Jordan Lemmons</strong> &mdash; Crew did the job as planned</li><li style='margin:3px 0;'><strong>Nathan Contreras</strong> &mdash; Crews had the right attitude for the job , crews communicated effectively w</li><li style='margin:3px 0;'><strong>Ralph Forbes</strong> &mdash; Set up exclusion zone and dismantled wellhead</li><li style='margin:3px 0;'><strong>Stefanie Kirschke</strong> &mdash; Arrived on location prepared and ready to begin work</li></ul><div style='margin-top:6px;color:#555;font-size:11px;'>7 form(s) submitted by 5 technician(s).</div><div style='margin-top:8px;color:#555;font-size:11px;'>Reconstructed from the OWL form archive — this day predates the daily auto-log, so it reflects the forms filed, not the meeting discussion.</div></div>",
+          "flags": [],
+          "recognition": "",
+          "reconstructed": true
+        },
         {
           "date": "Tue, Sep 8",
           "day": "Week 13 Kickoff",

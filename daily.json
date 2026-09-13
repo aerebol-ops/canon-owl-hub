@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-11",
-  "week": 13,
-  "day": 4,
-  "topicWeek": 2,
-  "displayWeek": 1,
+  "date": "2026-09-14",
+  "week": 14,
+  "day": 1,
+  "topicWeek": 3,
+  "displayWeek": 2,
   "cycle": 2,
-  "openingMessage": "It takes time to create excellence. If it could be done quickly, more people would do it.",
+  "openingMessage": "Be more concerned with your character than your reputation, because your character is what you really are, while your reputation is merely what others think you are.",
   "openingAttribution": "John Wooden",
-  "openingWhy": "Nobody catches trapped pressure on a 'dead' line in his first month. That catch comes from a thousand honest LMRAs where nothing was wrong. Every real check you run today is buying the instinct that saves you in year five.",
+  "openingWhy": "Your reputation is what the audit sees. Your character is what the wellhead sees at 3 AM with no company man in fifty miles. Out here, the gas only ever meets your character.",
   "formCounts": [
     {
       "name": "Christian Lee",
@@ -98,52 +98,46 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Observation → Impact → Request. That is the structure. Use it before the job starts, not after something goes wrong.",
+  "leadershipThought": "Protect the group. Protect the work. Our jobs, our clients, and our reputation depend on it. If you show up and communicate — you protect the group. If you don't — you expose it.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>The crew communicated well throughout the job, reviewed the LMRA and job sc</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>The crew communicated well throughout the job, reviewed the LMRA and job scope prior</span><br><br><strong>Did our testing and found out only one was leaking but it was a minor leak</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Did our testing and found out only one was leaking but it was a minor leak but no gases</span><br><br><strong>Roustabout crew and safety crew masked up for first break, after verifying</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Baldemar Bracamontes]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Roustabout crew and safety crew masked up for first break, after verifying a safe working</span><br><br><strong>Area was monitored for H2S and benzene during the disconnect</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Area was monitored for H2S and benzene during the disconnect. No leaks or unexpected</span><br><br><strong>Crew worked together to troubleshoot the issue and successfully stopped the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crew worked together to troubleshoot the issue and successfully stopped the leak. HS</span>",
+  "exxonMoments": "<strong>Stop Work Authority Exercised — Unsafe Man Basket Operations</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>Man basket work is one of the highest-risk lift operations on an oil and gas site — Stop Work Authority before elevation is always the right call when anything about the setup looks wrong.</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span><br><br><strong>Set up exclusion zone and cleaned out two oil tanks successfully today</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Set up exclusion zone and cleaned out two oil tanks successfully today</span><br><br><strong>Established exclusion zone, stopped work over crew from entering while work</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Established exclusion zone, stopped work over crew from entering while work was being</span><br><br><strong>Setup exclusion zone and prevented trucks from entering work area, work ove</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Setup exclusion zone and prevented trucks from entering work area, work over rig active</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Everyone stayed on task, followed procedures, and the job was completed saf",
-      "detail": "Everyone stayed on task, followed procedures, and the job was completed safely and",
+      "headline": "Jordan Lemmons — Crew didn't use impact until we gave the ok",
+      "detail": "Crew didn't use impact until we gave the ok",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons — The reconnect went well and no issues",
-      "detail": "The reconnect went well and no issues",
+      "headline": "Stefanie Kirschke — Everyone was okay, the issue was identified quickly, and the crew stopped t",
+      "detail": "Everyone was okay, the issue was identified quickly, and the crew stopped the job instead",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Stopped removing flow line until a plan was made to safely remove it was es",
-      "detail": "Stopped removing flow line until a plan was made to safely remove it was established",
+      "headline": "Ralph Forbes — Reconnected flow and injection lines without isssue",
+      "detail": "Reconnected flow and injection lines without isssue",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez — Stopped pork to readjust let gas clear and continue safely",
-      "detail": "Stopped pork to readjust let gas clear and continue safely",
+      "headline": "Nathan Contreras — Crews identified hazards and how to mitigate them , crews went over LSRA an",
+      "detail": "Crews identified hazards and how to mitigate them , crews went over LSRA and LMRS and",
       "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Caleb Smith — Crew utilized Lmra properly",
-      "detail": "Crew utilized Lmra properly",
-      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "flag",
-      "week": 13,
-      "headline": "Clean board — no open watch items this week",
-      "detail": "Nothing carried in from last week. See a hazard? Flag it on your OWL form and it lands here the same evening.",
-      "psms": "OWL Program"
+      "week": 14,
+      "headline": "Stop worked befor we broke containment and spoke on it",
+      "detail": "Stop worked befor we broke containment and spoke on it.",
+      "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "Yesterday's miss doesn't ride with you today — but its lesson does. Put the lesson on your OWL form where the whole crew can use it, then run today clean.",
-  "todaysChallengeSubtext": "“What to do with a mistake: recognize it, admit it, learn from it, forget it.” — Dean Smith",
+  "todaysChallenge": "Your standard today protects people you'll never meet — the night crew, the pumper tomorrow, somebody's dad next month. Leave the location better because you were on it.",
+  "todaysChallengeSubtext": "“A life is not important except in the impact it has on other lives.” — Jackie Robinson",
   "compliance": {
     "weekOf": "Week of September 7, 2026",
     "metrics": [
@@ -164,32 +158,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 09/10"
-  },
-  "specialFocus": {
-    "title": "The New Standard — Workover Rig Sensor Rig-Up",
-    "standardLabel": "Why Each Head Sits Where It Sits — Say It With the Picture Up",
-    "why": "As of yesterday, Canon has a published standard for how a workover rig location gets sensored up &mdash; and it belongs in this week's conversation, because <strong>every position in this picture is a Breaking Containment decision.</strong><br><br><img src=\"./sop/workover_4sensor_rev_b.jpg\" alt=\"Workover Rig 4-Sensor H2S Layout\" style=\"width:100%;border-radius:8px;display:block;margin:4px 0;\"><br>Walk the crew through it left to right. A workover rig exists to break containment &mdash; that's the job. Pulling rods, pulling tubing, opening the well: containment is coming apart on purpose, all day. So the heads go where the breaks happen: <strong>the wellhead, where the first break lives. The manifold, where every pressured connection runs.</strong> And <strong>two heads on the gas buster</strong> &mdash; because the buster is where broken containment gets <em>sent</em>, flashing gas off the returns the entire job, and the tank is long enough that wind carries a release right past a single head. The controller sits <strong>upwind at the trailer</strong> with the cascade air, the red zone holds at the source, and now there are <strong>two named muster points</strong> &mdash; primary upwind, secondary crosswind &mdash; because the wind owns the first one.<br><br>This is the whole week's message in one aerial photo: <strong>a controlled break is one where you've already decided where the gas would go and who would know first.</strong> The full standard and setup checklist live on the hub's <a href=\"#\" onclick=\"showPage('sops', document.querySelector('nav button[data-page=sops]'));return false;\" style=\"color:#1F3864;font-weight:700;\">SOPs tab</a> &mdash; it's headed to the Breakroom, and from today it's how every workover location gets rigged up.",
-    "standard": [
-      "<strong>Head 1 — wellhead/BOP:</strong> the first break lives here. The head goes in before the first wrench, not after the first smell.",
-      "<strong>Head 2 — manifold:</strong> every connection under pressure runs through it. Second most likely place containment lets go.",
-      "<strong>Heads 3 &amp; 4 — gas buster, both ends:</strong> the buster is where broken containment goes on purpose. Two heads because the tank is long and the wind doesn't care where you put one.",
-      "<strong>Controller upwind, red zone flagged, two musters named.</strong> Primary upwind, secondary crosswind &mdash; pointed out to every hand at the pre-job, not discovered during the muster.",
-      "<strong>Wind shifts? The plan shifts.</strong> The layout is only right for the wind on the sock. When it swings, stop, re-read it, and move what has to move."
-    ],
-    "scenarios": [
-      {
-        "title": "Rig-Up, 6:15 AM",
-        "body": "You roll onto a workover location at daylight. Rig's already spotted, crew wants to turn to, and you're setting heads. The pusher watches you stake the second head at the gas buster and says, <em>&ldquo;y'all already got one on that tank &mdash; two seems like overkill. We're burning daylight.&rdquo;</em><br><br>Yesterday, that was a conversation about your judgment. <strong>Today it's a conversation about the picture.</strong> You pull up the SOP on your phone: four heads, labeled, on an aerial photo of exactly this setup &mdash; and the reason out loud: the buster takes the returns all job, the tank is thirty feet long, and a single head only protects the end the wind favors. Not your opinion. <strong>Canon's published standard, same on every location, every crew, every time.</strong> That's what a standard is for &mdash; so the right rig-up doesn't depend on who won an argument at 6:15 in the morning. And notice the other thing it buys you: the pusher who pushed back this morning will watch the next Canon crew stake it exactly the same way &mdash; and that's the moment it stops being paperwork and becomes who we are."
-      }
-    ],
-    "questions": [
-      "Pull the SOP up on your phone right now — everybody. Which of the four heads would you have placed differently before seeing it, and why?",
-      "Think about your last workover job: where did the heads actually go? What would this layout have changed?",
-      "The buster gets two heads and the wellhead gets one. Somebody explain the reasoning back to me like I'm the newest hand on the crew.",
-      "Wind swings 180 mid-job — walk me through it: what moves, who calls it, and where does the crew go while it's moving?",
-      "What's the next SOP that deserves this treatment — the setup you do from memory that a new hand couldn't rig from anything written down?"
-    ],
-    "nonNegotiable": "Four heads, controller upwind, red zone held, two musters named — every workover location, every time. A controlled break is one where you already decided where the gas would go and who would know first.",
-    "week": 13
   }
 }
