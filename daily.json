@@ -106,26 +106,14 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jordan Lemmons — Crew didn't use impact until we gave the ok",
-      "detail": "Crew didn't use impact until we gave the ok",
-      "psms": "Operational Discipline"
+      "headline": "Stefanie Kirschke — Area was monitored for H2S and benzene during the disconnect",
+      "detail": "Area was monitored for H2S and benzene during the disconnect. No leaks or unexpected",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Everyone was okay, the issue was identified quickly, and the crew stopped t",
-      "detail": "Everyone was okay, the issue was identified quickly, and the crew stopped the job instead",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Ralph Forbes — Reconnected flow and injection lines without isssue",
-      "detail": "Reconnected flow and injection lines without isssue",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Nathan Contreras — Crews identified hazards and how to mitigate them , crews went over LSRA an",
-      "detail": "Crews identified hazards and how to mitigate them , crews went over LSRA and LMRS and",
+      "headline": "Jordan Lemmons — A gasket broke so the crew went and was able to find one",
+      "detail": "A gasket broke so the crew went and was able to find one",
       "psms": "Operational Discipline"
     },
     {
