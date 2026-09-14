@@ -11,90 +11,130 @@
   "formCounts": [
     {
       "name": "Christian Lee",
-      "count": 3
-    },
-    {
-      "name": "Gael Antonio Avila",
-      "count": 3
-    },
-    {
-      "name": "Hayden Haugh",
-      "count": 3
-    },
-    {
-      "name": "Jeremy Norris",
-      "count": 3
+      "count": 12
     },
     {
       "name": "Jordan Lemmons",
-      "count": 3
-    },
-    {
-      "name": "Jose Hurtado",
-      "count": 3
-    },
-    {
-      "name": "Alejandro Najar",
-      "count": 2
-    },
-    {
-      "name": "Caleb Smith",
-      "count": 2
-    },
-    {
-      "name": "Dermont Morgan",
-      "count": 2
+      "count": 11
     },
     {
       "name": "Jacob Hernandez",
-      "count": 2
+      "count": 10
+    },
+    {
+      "name": "Jeremy Norris",
+      "count": 10
     },
     {
       "name": "Michael Jobe",
-      "count": 2
-    },
-    {
-      "name": "Nathan Contreras",
-      "count": 2
-    },
-    {
-      "name": "Pablo Soto",
-      "count": 2
+      "count": 10
     },
     {
       "name": "Rolando Flores",
-      "count": 2
+      "count": 10
     },
     {
-      "name": "Ruben Rojo",
-      "count": 2
+      "name": "Gael Antonio Avila",
+      "count": 9
     },
     {
-      "name": "Stefanie Kirschke",
-      "count": 2
-    },
-    {
-      "name": "Andrew Bailey",
-      "count": 1
-    },
-    {
-      "name": "Anthony Scott",
-      "count": 1
-    },
-    {
-      "name": "Jimmy White",
-      "count": 1
+      "name": "Hayden Haugh",
+      "count": 9
     },
     {
       "name": "Justin Fontenot",
-      "count": 1
+      "count": 9
+    },
+    {
+      "name": "Pablo Soto",
+      "count": 9
+    },
+    {
+      "name": "Stefanie Kirschke",
+      "count": 9
+    },
+    {
+      "name": "Alejandro Najar",
+      "count": 8
+    },
+    {
+      "name": "Brian Medlin",
+      "count": 8
+    },
+    {
+      "name": "Anthony Scott",
+      "count": 7
+    },
+    {
+      "name": "Dermont Morgan",
+      "count": 7
+    },
+    {
+      "name": "Jose Hurtado",
+      "count": 7
     },
     {
       "name": "Ralph Forbes",
-      "count": 1
+      "count": 7
+    },
+    {
+      "name": "Andrew Bailey",
+      "count": 6
+    },
+    {
+      "name": "Jerry Gonzales",
+      "count": 6
+    },
+    {
+      "name": "Nathan Contreras",
+      "count": 6
+    },
+    {
+      "name": "Luis Zarate",
+      "count": 5
+    },
+    {
+      "name": "Ruben Rojo",
+      "count": 5
+    },
+    {
+      "name": "Baldemar Bracamontes",
+      "count": 4
+    },
+    {
+      "name": "Jimmy White",
+      "count": 4
+    },
+    {
+      "name": "Caleb Smith",
+      "count": 3
+    },
+    {
+      "name": "Dawson Drake",
+      "count": 3
+    },
+    {
+      "name": "Raymundo Solis",
+      "count": 2
     },
     {
       "name": "Trevor Mckenzie",
+      "count": 2
+    },
+    {
+      "name": "William Jimmy Cooper",
+      "count": 2
+    },
+    {
+      "name": "Alexander Clubb",
+      "count": 1
+    },
+    {
+      "name": "Joshua Blassingame",
+      "count": 1
+    },
+    {
+      "name": "Kelby Hammer Training",
       "count": 1
     }
   ],
@@ -102,19 +142,37 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Stop Work Authority Exercised — Unsafe Man Basket Operations</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>Man basket work is one of the highest-risk lift operations on an oil and gas site — Stop Work Authority before elevation is always the right call when anything about the setup looks wrong.</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span><br><br><strong>Set up exclusion zone and cleaned out two oil tanks successfully today</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Set up exclusion zone and cleaned out two oil tanks successfully today</span><br><br><strong>Established exclusion zone, stopped work over crew from entering while work</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Established exclusion zone, stopped work over crew from entering while work was being</span><br><br><strong>Setup exclusion zone and prevented trucks from entering work area, work ove</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Setup exclusion zone and prevented trucks from entering work area, work over rig active</span>",
+  "exxonMoments": "<strong>Stop Work Authority Exercised — Unsafe Man Basket Operations</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>Man basket work is one of the highest-risk lift operations on an oil and gas site — Stop Work Authority before elevation is always the right call when anything about the setup looks wrong.</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span><br><br><strong>Used exclusion zone to clean out water tank TK-554, opened a confine space</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Used exclusion zone to clean out water tank TK-554, opened a confine space permit to get</span><br><br><strong>Everyone had their exclusion zones around work zone and everyone had great</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone had their exclusion zones around work zone and everyone had great</span><br><br><strong>Set up exclusion zone and commenced to cleaning out two oil tanks without i</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Set up exclusion zone and commenced to cleaning out two oil tanks without incident</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Area was monitored for H2S and benzene during the disconnect",
-      "detail": "Area was monitored for H2S and benzene during the disconnect. No leaks or unexpected",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Jerry Gonzales — The crews communication was well and everything went well",
+      "detail": "The crews communication was well and everything went well .",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons — A gasket broke so the crew went and was able to find one",
-      "detail": "A gasket broke so the crew went and was able to find one",
+      "headline": "Brian Medlin — 2 OWL forms filed and counting",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-09-12. That consistency is the habit.",
       "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Luis Zarate — Everyone had their exclusion zones around work zone and everyone had great",
+      "detail": "Everyone had their exclusion zones around work zone and everyone had great",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Ruben Rojo — No body passed out or died from gas",
+      "detail": "Did we leave the location better.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Jimmy White — Disconnected with no issues, well ready to be worked over by workover rig",
+      "detail": "Disconnected with no issues, well ready to be worked over by workover rig.",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "flag",
