@@ -146,33 +146,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jerry Gonzales — The crews communication was well and everything went well",
-      "detail": "The crews communication was well and everything went well .",
+      "headline": "Michael Jobe — Did our test job went smoothly",
+      "detail": "Did our test job went smoothly",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Brian Medlin — 2 OWL forms filed and counting",
-      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-09-12. That consistency is the habit.",
+      "headline": "Justin Fontenot — Job went well safely with zero issues",
+      "detail": "Job went well safely with zero issues",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Raymundo Solis — Safety meeting went well everyone was involved and had read an LSRA each",
+      "detail": "Safety meeting went well everyone was involved and had read an LSRA each",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Luis Zarate — Everyone had their exclusion zones around work zone and everyone had great",
-      "detail": "Everyone had their exclusion zones around work zone and everyone had great",
+      "headline": "Christian Lee — The job was completed safely and left clean",
+      "detail": "The job was completed safely and left clean",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ruben Rojo — No body passed out or died from gas",
+      "headline": "Dermont Morgan — Staying out of line of fire and everyone working together",
       "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Jimmy White — Disconnected with no issues, well ready to be worked over by workover rig",
-      "detail": "Disconnected with no issues, well ready to be worked over by workover rig.",
-      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "flag",
