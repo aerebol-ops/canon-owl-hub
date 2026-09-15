@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-14",
   "source": "Permian Basin Rental Board September 2026.xlsx",
   "boardsScanned": [
     "Permian Basin Rental Board September 2024.xlsx",
@@ -61,7 +61,7 @@
       "onRentSince": "2024-09-01",
       "currentStart": "2026-09-01",
       "lastCheck": "2026-01-17",
-      "daysSinceCheck": 236,
+      "daysSinceCheck": 240,
       "checkState": "overdue"
     },
     {
@@ -76,7 +76,7 @@
       "onRentSince": "2025-10-31",
       "currentStart": "2026-09-09",
       "lastCheck": "2026-06-01",
-      "daysSinceCheck": 101,
+      "daysSinceCheck": 105,
       "checkState": "overdue"
     },
     {
@@ -91,7 +91,7 @@
       "onRentSince": "2026-05-04",
       "currentStart": "2026-09-01",
       "lastCheck": "2026-06-04",
-      "daysSinceCheck": 98,
+      "daysSinceCheck": 102,
       "checkState": "overdue"
     },
     {
@@ -106,7 +106,7 @@
       "onRentSince": "2026-05-02",
       "currentStart": "2026-08-30",
       "lastCheck": "2026-06-06",
-      "daysSinceCheck": 96,
+      "daysSinceCheck": 100,
       "checkState": "overdue"
     },
     {
@@ -121,22 +121,22 @@
       "onRentSince": "2026-05-01",
       "currentStart": "2026-08-31",
       "lastCheck": "2026-06-06",
-      "daysSinceCheck": 96,
+      "daysSinceCheck": 100,
       "checkState": "overdue"
     },
     {
       "rig": "H&P 551",
       "company": "OVINTIV",
-      "location": "FASKEN",
+      "location": "FASKEN MD 9 U 102HL",
       "status": "RUNNING",
       "active": true,
       "equipment": "REDLINE",
-      "ticket": "101172",
+      "ticket": "101172D",
       "at": "",
       "onRentSince": "2024-09-01",
-      "currentStart": "2026-08-27",
+      "currentStart": "2026-09-08",
       "lastCheck": "2026-06-10",
-      "daysSinceCheck": 92,
+      "daysSinceCheck": 96,
       "checkState": "overdue"
     },
     {
@@ -151,22 +151,22 @@
       "onRentSince": "2026-05-01",
       "currentStart": "2026-09-07",
       "lastCheck": "2026-06-10",
-      "daysSinceCheck": 92,
+      "daysSinceCheck": 96,
       "checkState": "overdue"
     },
     {
       "rig": "H&P 376",
       "company": "SM ENERGY",
-      "location": "SEINFELD FED UNIT #",
+      "location": "SEINFELD FED UNIT #433H",
       "status": "RUNNING",
       "active": true,
       "equipment": "REDLINE",
-      "ticket": "101126",
+      "ticket": "101126D",
       "at": "",
       "onRentSince": "2026-05-01",
-      "currentStart": "2026-08-26",
+      "currentStart": "2026-09-11",
       "lastCheck": "2026-06-15",
-      "daysSinceCheck": 87,
+      "daysSinceCheck": 91,
       "checkState": "overdue"
     },
     {
@@ -181,7 +181,7 @@
       "onRentSince": "2024-08-30",
       "currentStart": "2026-09-01",
       "lastCheck": "2026-06-21",
-      "daysSinceCheck": 81,
+      "daysSinceCheck": 85,
       "checkState": "overdue"
     },
     {
@@ -196,14 +196,14 @@
       "onRentSince": "2024-08-30",
       "currentStart": "2026-09-08",
       "lastCheck": "2026-06-21",
-      "daysSinceCheck": 81,
+      "daysSinceCheck": 85,
       "checkState": "overdue"
     },
     {
       "rig": "H&P 312",
       "company": "SM ENERGY",
       "location": "BULLOCKS WEST A 312H",
-      "status": "READY TO INVOICE",
+      "status": "PENDING CODING",
       "active": true,
       "equipment": "REDLINE",
       "ticket": "101200B",
@@ -211,14 +211,14 @@
       "onRentSince": "2026-05-01",
       "currentStart": "2026-09-05",
       "lastCheck": "2026-06-21",
-      "daysSinceCheck": 81,
+      "daysSinceCheck": 85,
       "checkState": "overdue"
     },
     {
       "rig": "H&P 616",
       "company": "OVINTIV",
-      "location": "HR VENOM 320JB 1HS",
-      "status": "RUNNING",
+      "location": "HR VENOM 320LL 4HR",
+      "status": "PENDING CODING",
       "active": true,
       "equipment": "REDLINE",
       "ticket": "101199",
@@ -226,8 +226,8 @@
       "onRentSince": "2024-08-27",
       "currentStart": "2026-09-01",
       "lastCheck": "2026-08-28",
-      "daysSinceCheck": 13,
-      "checkState": "ok"
+      "daysSinceCheck": 17,
+      "checkState": "due"
     }
   ]
 }
