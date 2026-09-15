@@ -2703,6 +2703,44 @@ const DATA = {
         "Name a time the permit or the work order described a location that didn't match what you found when you got there. What was different, and what did you do about it?",
         "Who has walked into your work area this month that had no business being in there? Who stopped them — and would it have been caught if you'd been the only one looking?"
       ]
+    },
+    {
+      "week": 13,
+      "theme": "Operational Discipline",
+      "psms": "Operational Discipline",
+      "color": "#1F3864",
+      "textColor": "#ffffff",
+      "standard": "Every job runs the same disciplined sequence — pre-task briefing, LMRA, controls verified in the field — whether it is job 1 or job 500, routine or emergency, watched or unwatched. Familiarity is where shortcuts are born; discipline is doing it right when nobody would ever know you didn't.",
+      "lifesavingRules": [
+        "Run the pre-task briefing on every job — the five-hundredth cellar entry gets the same briefing as the first",
+        "LMRA before the first wrench: last-minute risk assessment, out loud, every time",
+        "Verify controls in the field — never rely on paperwork to describe the location you're standing on",
+        "The routine job is the dangerous one: raise your attention when the work feels familiar",
+        "Pressure is not authorization — 'we do this all the time' from anyone is a signal to slow down, not speed up"
+      ],
+      "psmsSteps": [
+        "I ran the pre-task briefing and everyone knows the plan",
+        "I completed my LMRA before starting",
+        "I verified the controls are actually in place, not just on paper",
+        "I hold the same standard on job 500 as job 1",
+        "I stop and reassess when anything changes"
+      ],
+      "fieldScenarios": [
+        "This one is Canon history now. Ray Solis rolled up to a flow-line disconnect at XBC Giddings and found the pumper's LOTO on a valve he needed. Nothing was leaking, nothing looked wrong, and working around it would have saved twenty minutes. He stopped, verified the isolation with the pumper, and only then proceeded. That's the whole topic in one move: <strong>discipline is what happens in the gap between 'nothing looks wrong' and 'I verified it.'</strong> The lock wasn't an obstacle — it was information, and he treated it that way.",
+        "You've been to this location forty times. You could rig up blindfolded, and this morning that's nearly what you're doing — because the location you've been to forty times is the only one you've stopped looking at. Somewhere between visit five and visit forty, the walk-around became a walk-past. Nothing has ever gone wrong here, which proves exactly nothing: <strong>the routine job is the dangerous one, because routine is when your eyes retire early.</strong> Job 500 the same way as job 1 isn't a slogan — it's a countermeasure against your own comfort.",
+        "The company man is friendly, experienced, and in a hurry: <em>'we do this all the time — y'all don't need to run the whole briefing for this.'</em> He might even be right that nothing will happen today. But 'we do this all the time' is a description of the odds, not an authorization to skip the controls — and the day the odds come due is precisely the day the briefing would have caught it. The answer stays easy and friendly: <strong>'this'll take us four minutes, and then we'll move fast the rest of the day.'</strong> You are responsible for the call you make, not for his patience.",
+        "Louie Zarate's sensor 15 stuck at 15 ppm — it wouldn't null, wouldn't calibrate. The undisciplined version of that morning is a shrug: note it, work around it, let the next hand discover it. What actually happened: he changed the element, recalibrated it and every other sensor on the unit, and confirmed with the company man before heading back. <strong>Operational discipline isn't just how you run a job — it's how you leave equipment for the hand who gets it next.</strong> A monitor you worked around is a lie you left behind for somebody else to trust.",
+        "Nothing went wrong today. The job was clean, boring, and completely uneventful — and now comes the most skipped step in the oilfield: the form. The temptation says a boring job isn't worth writing up. But 764 write-ups taught this crew what its own good days look like: the boring day IS the evidence that the system works, and the day you don't write is invisible to everyone who could learn from it. <strong>Discipline includes the paperwork on the day nothing happened</strong> — because a habit that only fires on the exciting days was never a habit.",
+        "Peak season. Everyone's been out 40-plus days, three calls are stacked behind this one, and the pressure to compress the front end of the job — briefing, walk-down, LMRA — is enormous, because that's the part with no visible product. Here's the math that matters: the front end costs five minutes; the incident it prevents costs the whole week and maybe a hand. <strong>Busy season is when discipline pays its highest wage — and when it's hardest to collect.</strong> The five minutes isn't what you spend instead of working. It's the part of the work that keeps the rest of it survivable at this pace."
+      ],
+      "discussionQuestions": [
+        "What's your XBC Giddings moment — the time a lock, a reading, or a gut feeling stopped you, and verifying it turned out to matter?",
+        "Name the location you've been to the most times. When did you last actually walk it like it was new — and what would fresh eyes catch there today?",
+        "Say your version of the four-minute answer out loud — the exact words you'd use when somebody who signs the ticket says 'skip the briefing.'",
+        "What equipment did you last hand off, and would you stake the next hand's morning on the state you left it in?",
+        "When did you last skip the write-up on a boring day? What did that day have in it that nobody will ever know about?",
+        "It's the December peak and you're on day 43: which step will be YOUR first temptation to compress — name it now, so the crew can watch for it."
+      ]
     }
   ],
   "meetingLog": [
@@ -3446,7 +3484,8 @@ async function renderTemplate() {
   const html = `
     <div class="runsheet-header">
       <h2>Canon Safety — Morning Meeting</h2>
-      <p>${today} &nbsp;·&nbsp; 5:30 AM &nbsp;·&nbsp; Week ${shownWeek}: ${w.theme}${daily && daily.cycle > 1 ? ` &middot; Cycle ${daily.cycle}` : ''}</p>
+      <p>${today} &nbsp;·&nbsp; 5:30 AM &nbsp;·&nbsp; Week ${shownWeek}: ${daily && daily.rotation ? daily.rotation.topic : w.theme}${daily && daily.cycle > 1 ? ` &middot; Cycle ${daily.cycle}` : ''}${daily && daily.rotation ? ` &middot; Host: ${daily.rotation.host.charAt(0) + daily.rotation.host.slice(1).toLowerCase()}` : ''}</p>
+      ${daily && daily.rotation && daily.rotation.marker ? `<p style="margin-top:2px;font-size:11.5px;color:#FFD966;font-weight:700;">&#9873; ${daily.rotation.marker}</p>` : ''}
     </div>
 
     ${sfHtml}
@@ -4141,7 +4180,53 @@ async function renderLog() {
     container.innerHTML = '<div class="log-card"><div class="log-detail">No OWL weeks logged yet.</div></div>';
     return;
   }
-  container.innerHTML = renderOverallReview() + DATA.owlWeeks.map((wk, wi) => `
+  // Year-End Rotation card (Smooth Mornings, Sep 15 - Jan 4) — the Team Leads'
+  // hosting schedule, served from rotation.json so the sweep and this card
+  // never disagree.
+  let rotHtml = '';
+  try {
+    const rr = await fetch('rotation.json?_=' + Date.now(), { cache: 'no-store' });
+    if (rr.ok) {
+      const rot = await rr.json();
+      const t = new Date(); t.setHours(0,0,0,0);
+      const rows = rot.weeks.map(w => {
+        const cur = new Date(w.start + 'T00:00:00') <= t && t <= new Date(w.end + 'T23:59:59');
+        const fmt = s => { const [y,m,d] = s.split('-'); return `${Number(m)}/${Number(d)}`; };
+        return `<tr style="border-top:1px solid #e5e7eb;${cur ? 'background:#fff8e8;font-weight:700;' : ''}">
+          <td style="padding:5px 8px;white-space:nowrap;">${cur ? '&#9654; ' : ''}Wk ${w.week}</td>
+          <td style="padding:5px 8px;white-space:nowrap;">${fmt(w.start)}&ndash;${fmt(w.end)}</td>
+          <td style="padding:5px 8px;font-weight:800;color:var(--navy);">${w.host.charAt(0)+w.host.slice(1).toLowerCase()}</td>
+          <td style="padding:5px 8px;">${w.topic}</td>
+          <td style="padding:5px 8px;font-size:11px;color:#92400e;">${w.marker || ''}</td>
+        </tr>`;
+      }).join('');
+      rotHtml = `
+      <div class="owl-week-block" style="border:2px solid var(--navy);">
+        <div class="owl-week-header" style="background:#375623;">
+          <div class="owl-week-meta">
+            <div class="owl-week-label" style="color:#c6e0b4;">&#127793; Smooth Mornings</div>
+            <div class="owl-week-name" style="color:#fff;">Year-End Rotation &mdash; Sep 15 to Jan 4</div>
+            <div class="owl-week-theme" style="color:rgba(255,255,255,.85);">Ray &rarr; Jacob &rarr; Caleb &rarr; Alex &middot; four full rounds to New Year's &middot; the Hub serves the week's PSMS topic automatically</div>
+            <div class="owl-week-dates" style="color:rgba(255,255,255,.65);">Host: night-before board confirm &middot; first one in &middot; kickoff off this template &middot; walk the line &middot; send-off &middot; one line to Jimmy</div>
+          </div>
+        </div>
+        <div style="padding:12px 14px;">
+          <div style="overflow-x:auto;">
+            <table style="width:100%;border-collapse:collapse;min-width:560px;font-size:12.5px;">
+              <thead><tr style="font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);text-align:left;">
+                <th style="padding:4px 8px;">Week</th><th style="padding:4px 8px;">Dates</th><th style="padding:4px 8px;">Host</th><th style="padding:4px 8px;">PSMS Topic</th><th style="padding:4px 8px;">Markers</th>
+              </tr></thead><tbody>${rows}</tbody>
+            </table>
+          </div>
+          <div style="margin-top:10px;background:#f0fdf4;border-left:3px solid #375623;border-radius:0 6px 6px 0;padding:8px 12px;">
+            <div style="font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:#375623;margin-bottom:4px;">Staying in contact — scattered crews</div>
+            <div style="font-size:12px;line-height:1.6;color:#374151;">${rot.contactRhythm.map(c => `&bull; ${c}`).join('<br>')}</div>
+          </div>
+        </div>
+      </div>`;
+    }
+  } catch (e) { /* schedule card is additive — the log renders without it */ }
+  container.innerHTML = rotHtml + renderOverallReview() + DATA.owlWeeks.map((wk, wi) => `
     <div class="owl-week-block">
       <div class="owl-week-header">
         <div class="owl-week-meta">
