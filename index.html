@@ -3888,7 +3888,7 @@ function shareFieldNewsPDF() {
     const chances = _owlPeople.reduce((s, p) => s + p.submitted, 0);
     const blanks = _owlPeople.reduce((s, p) => s + p.blank, 0);
     boardHtml = `
-    <div class="sec">&#9733; OWL Form Leaderboard (Since Aug 1) — ${(chances - blanks).toLocaleString()} Filled, ${blanks.toLocaleString()} Left Blank</div>
+    <div class="sec">&#9733; OWL Form Leaderboard (Since ${_owlWinLabel}) — ${(chances - blanks).toLocaleString()} Filled, ${blanks.toLocaleString()} Left Blank</div>
     <table class="board">
       <tr><th style="width:36px;">#</th><th>Name</th><th style="width:64px; text-align:right;">Chances</th><th style="width:56px; text-align:right;">Filled</th><th style="width:56px; text-align:right;">Blank</th><th style="width:50px; text-align:right;">%</th></tr>
       ${_owlPeople.map((p, i) => `<tr class="${i < 3 && p._ranked ? 'top' : ''}"><td style="text-align:center;">${p._ranked ? medalTxt(i) : '—'}</td><td>${p.name}</td><td style="text-align:right;">${p.submitted}</td><td style="text-align:right; font-weight:800;">${p.filled}</td><td style="text-align:right; color:${p.blank > p.filled ? '#991b1b' : '#888'};">${p.blank}</td><td style="text-align:right; font-weight:800; color:${p.pct >= 80 ? '#166534' : p.pct >= 50 ? '#b45309' : '#991b1b'};">${p.pct}%</td></tr>`).join('')}
@@ -3955,6 +3955,10 @@ function shareFieldNewsPDF() {
   <h1>Field News</h1>
   <p>${dateStr} &nbsp;&middot;&nbsp; Pulled straight from your OWL forms</p>
 </div>
+${_owlYtd ? `<div style="background:#1F3864; border:2px solid #BF8F00; border-radius:8px; padding:10px 16px; margin-bottom:8px; display:flex; align-items:center; gap:14px;">
+  <span style="font-size:30px; font-weight:900; color:#FFD966; line-height:1;">${_owlYtd.submitted.toLocaleString()}</span>
+  <span style="font-size:11px; font-weight:800; letter-spacing:1.2px; text-transform:uppercase; color:#FFD966;">OWL Forms Submitted &mdash; ${_owlYtd.year} Running Tally &nbsp;<span style="color:rgba(255,255,255,.85); font-weight:600; text-transform:none; letter-spacing:0;">${_owlYtd.filled.toLocaleString()} with real detail from the field</span></span>
+</div>` : ''}
 <div class="mission"><strong>Every form gets read.</strong> The names below made Field News because they wrote down what they saw. What you turn in tonight could be what the whole group reads tomorrow.</div>
 ${boardHtml}
 <div class="sec">&#9733; Good Calls — Named and Noted</div>
@@ -3972,14 +3976,17 @@ ${flagHtml ? `<div class="sec">&#9888; Watch Items</div>${flagHtml}` : ''}
 // down (each submission) against how many they skipped and left blank.
 // Ranked by FILLED forms — writing the detail is what earns the medal.
 let _owlPeople = null;
+let _owlYtd = null, _owlWinLabel = 'Aug 1';
 async function renderFormLeaderboard() {
   const el = document.getElementById('form-leaderboard');
   if (!el) return;
-  let people = null, chances = 0, blanks = 0;
+  let people = null, chances = 0, blanks = 0, ytd = null, winLabel = 'Aug 1';
   try {
     const r = await fetch('owlstats.json?_=' + Date.now(), { cache: 'no-store' });
     if (r.ok) {
       const os = await r.json();
+      if (os.windowLabel) winLabel = os.windowLabel;
+      if (os.ytdSubmitted) ytd = { year: os.ytdYear, submitted: os.ytdSubmitted, filled: os.ytdFilled || 0 };
       if (os.people && os.people.length) {
         // Rank by FILL RATE with a 10-chance floor (same methodology as the
         // Form Compliance section — percentages, not raw counts), tie-broken
@@ -3996,6 +4003,7 @@ async function renderFormLeaderboard() {
       }
     }
   } catch (e) {}
+  _owlYtd = ytd; _owlWinLabel = winLabel;
   if (!people) {
     // Fallback — old raw-count view from daily.json
     const counts = (_daily && _daily.formCounts && _daily.formCounts.length) ? _daily.formCounts : null;
@@ -4007,12 +4015,20 @@ async function renderFormLeaderboard() {
   const medal = i => i === 0 ? '&#129351;' : i === 1 ? '&#129352;' : i === 2 ? '&#129353;' : `<span style="color:var(--muted);font-size:11px;">${i + 1}</span>`;
   const pctColor = p => p >= 80 ? '#166534' : p >= 50 ? '#b45309' : '#991b1b';
   el.innerHTML = `
+    ${ytd ? `
+    <div style="background:#1F3864; border:2px solid #BF8F00; border-radius:12px; padding:14px 18px; margin-bottom:14px; display:flex; align-items:center; gap:18px; flex-wrap:wrap;">
+      <div style="font-size:44px; font-weight:900; color:#FFD966; letter-spacing:1px; line-height:1; font-variant-numeric:tabular-nums;">${ytd.submitted.toLocaleString()}</div>
+      <div style="flex:1; min-width:220px;">
+        <div style="font-size:11px; font-weight:800; letter-spacing:1.6px; text-transform:uppercase; color:#FFD966;">OWL Forms Submitted &mdash; ${ytd.year} Running Tally</div>
+        <div style="font-size:12.5px; color:rgba(255,255,255,.88); margin-top:3px;">${ytd.filled.toLocaleString()} carried real detail from the field. Every form gets read &mdash; this number is the crew's voice, growing every day.</div>
+      </div>
+    </div>` : ''}
     <div style="background:var(--card,#fff); border:2px solid #BF8F00; border-radius:12px; overflow:hidden; margin-bottom:20px;">
       <div style="background:#1F3864; color:#fff; padding:12px 16px; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;">
         <div>
-          <div style="font-size:10px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#FFD966;">&#9733; OWL Form Leaderboard &mdash; Since Aug 1</div>
+          <div style="font-size:10px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#FFD966;">&#9733; OWL Form Leaderboard &mdash; Since ${winLabel}</div>
           <div style="font-size:16px; font-weight:900; margin-top:2px;">${chances.toLocaleString()} chances to write it down &mdash; ${(chances - blanks).toLocaleString()} filled, ${blanks.toLocaleString()} left blank</div>
-          <div style="font-size:11px; opacity:.75; margin-top:3px;">Completed forms since August 1 &mdash; ranked by fill rate, the percentage of your chances you actually wrote down (minimum 10 chances). A blank form is a skipped chance to be heard &mdash; unless the job was cancelled or rescheduled off the board, in which case the blank doesn't count against you.</div>
+          <div style="font-size:11px; opacity:.75; margin-top:3px;">Completed forms since ${winLabel} &mdash; ranked by fill rate, the percentage of your chances you actually wrote down (minimum 10 chances). A blank form is a skipped chance to be heard &mdash; unless the job was cancelled or rescheduled off the board, in which case the blank doesn't count against you.</div>
         </div>
         <button onclick="shareLeaderboardPDF()" style="flex-shrink:0; background:#fff; color:#1F3864; border:2px solid #BF8F00; border-radius:8px; padding:9px 14px; font-size:12.5px; font-weight:800; cursor:pointer;">&#128196; Share PDF</button>
       </div>
