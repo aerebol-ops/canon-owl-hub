@@ -15,6 +15,15 @@
             "Stop worked befor we broke containment and spoke on it"
           ],
           "recognition": "Dawson Drake — The communication with the new crew"
+        },
+        {
+          "date": "Tue, Sep 15",
+          "day": "Week 14 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Protect the group. Protect the work. Our jobs, our clients, and our reputation depend on it. If you show up and communicate — you protect the group. If you don't — you expose it.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Michael Hutt</strong> — Showing up in the paperwork every time — latest form: Operational Discipline, 2026-08-25. That consistency is the habit.</li><li style='margin:3px 0;'><strong>Rafael Corralez</strong> — Job steps were followed as planned to reduce all safety hazards</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> — The crew communicated well, followed the job plan, maintained atmospheric monitoring,</li><li style='margin:3px 0;'><strong>Anthony Scott</strong> — Great communication and great use of LMRAs</li><li style='margin:3px 0;'><strong>Jacob Hernandez</strong> — Job completed to scope,safely,and productive.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Stop worked befor we broke containment and spoke on it"
+          ],
+          "recognition": "Michael Hutt — on the OWL board"
         }
       ]
     },

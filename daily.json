@@ -1,13 +1,19 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "week": 14,
   "day": 1,
   "topicWeek": 3,
-  "displayWeek": 2,
+  "displayWeek": 5,
   "cycle": 2,
-  "openingMessage": "Be more concerned with your character than your reputation, because your character is what you really are, while your reputation is merely what others think you are.",
+  "rotation": {
+    "week": 5,
+    "host": "RAY",
+    "topic": "Line of Fire",
+    "marker": "Round 2 begins — hosts now have a week under their belt"
+  },
+  "openingMessage": "Failure is not fatal, but failure to change might be.",
   "openingAttribution": "John Wooden",
-  "openingWhy": "Your reputation is what the audit sees. Your character is what the wellhead sees at 3 AM with no company man in fifty miles. Out here, the gas only ever meets your character.",
+  "openingWhy": "A near-miss is the well telling you exactly how it plans to hurt somebody — free of charge. The crews that end up in the report are rarely the ones who got no warning. They're the ones who turned the warning into a story instead of a change.",
   "formCounts": [
     {
       "name": "Christian Lee",
@@ -146,32 +152,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dawson Drake — The communication with the new crew",
-      "detail": "The communication with the new crew",
+      "headline": "Michael Hutt — on the OWL board",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-08-25. That consistency is the habit.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Baldemar Bracamontes — All equipment was staged properly and no one needed to move or readjust zon",
-      "detail": "All equipment was staged properly and no one needed to move or readjust zones",
+      "headline": "Rafael Corralez — Job steps were followed as planned to reduce all safety hazards",
+      "detail": "Job steps were followed as planned to reduce all safety hazards",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Andrew Bailey — The well was killed and the job was completed successfully",
-      "detail": "The well was killed and the job was completed successfully",
+      "headline": "Rolando Flores — The crew communicated well, followed the job plan, maintained atmospheric m",
+      "detail": "The crew communicated well, followed the job plan, maintained atmospheric monitoring,",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Anthony Scott — great communication and great use of LMRAs",
+      "detail": "Great communication and great use of LMRAs",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Gael Antonio Avila — Well head and flow line connect essay and simple job",
-      "detail": "Did we leave the location better.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Jose Hurtado — Strong communication between us and the crew with all the safety precaution",
-      "detail": "Strong communication between us and the crew with all the safety precautions",
+      "headline": "Jacob Hernandez — Job completed to scope,safely,and productive",
+      "detail": "Job completed to scope,safely,and productive.",
       "psms": "Operational Discipline"
     },
     {
@@ -182,8 +188,8 @@
       "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "Your standard today protects people you'll never meet — the night crew, the pumper tomorrow, somebody's dad next month. Leave the location better because you were on it.",
-  "todaysChallengeSubtext": "“A life is not important except in the impact it has on other lives.” — Jackie Robinson",
+  "todaysChallenge": "Do one thing today nobody asked for: re-walk the location before you leave, top off the truck for the next shift, double-check the SCBA the checklist already passed. The extra mile is empty — be on it.",
+  "todaysChallengeSubtext": "“There are no traffic jams along the extra mile.” — Roger Staubach",
   "compliance": {
     "weekOf": "Week of September 7, 2026",
     "metrics": [
