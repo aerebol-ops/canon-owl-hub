@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "week": 14,
-  "day": 1,
+  "day": 2,
   "topicWeek": 3,
   "displayWeek": 5,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Line of Fire",
     "marker": "Round 2 begins — hosts now have a week under their belt"
   },
-  "openingMessage": "Failure is not fatal, but failure to change might be.",
+  "openingMessage": "The most important thing in the world is family and love. Never forget that.",
   "openingAttribution": "John Wooden",
-  "openingWhy": "A near-miss is the well telling you exactly how it plans to hurt somebody — free of charge. The crews that end up in the report are rarely the ones who got no warning. They're the ones who turned the warning into a story instead of a change.",
+  "openingWhy": "Every rule we run — the attendant who stays put, the tested atmosphere, the staged rescue — traces back to some kitchen table that got a phone call instead of a truck in the driveway. The standard was never for the client. It's for whoever is waiting on you tonight.",
   "formCounts": [
     {
       "name": "Christian Lee",
@@ -144,7 +144,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Protect the group. Protect the work. Our jobs, our clients, and our reputation depend on it. If you show up and communicate — you protect the group. If you don't — you expose it.",
+  "leadershipThought": "Nobody wins alone. Nobody builds a company alone. Nobody protects a location alone. We succeed by winning the small daily battles: the extra phone call, the extra equipment check, the willingness to help.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -152,32 +152,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Gael Antonio Avila — Good communication on both jobs and very good understanding the hazards of",
+      "headline": "Cindy Smith — Project was completed efficiently and safely without incident",
       "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Andrew Bailey — The flowline was disconnected, polish rod removed and atmospheric testing c",
-      "detail": "The flowline was disconnected, polish rod removed and atmospheric testing completed",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Ruben Rojo — No benzene or gas on job site",
-      "detail": "Did we leave the location better.",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Jimmy White — No gas detected on location",
-      "detail": "No gas detected on location. Flowline reconnected with no issues.",
+      "headline": "Luis Zarate — As this was the crews first job with Exxon, they did excellent on following",
+      "detail": "As this was the crews first job with Exxon, they did excellent on following procedures and",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jose Hurtado — Good communication with my and crew",
-      "detail": "Good communication with my and crew",
+      "headline": "Michael Jobe — Job we smooth in nothing went wrong",
+      "detail": "Job we smooth in nothing went wrong",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons — Job went well except trying to get everything pieced back together",
+      "detail": "Job went well except trying to get everything pieced back together",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Justin Fontenot — Agt was conducted and crew completed job with zero issues",
+      "detail": "Agt was conducted and crew completed job with zero issues",
       "psms": "Operational Discipline"
     },
     {
@@ -188,8 +188,8 @@
       "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "Do one thing today nobody asked for: re-walk the location before you leave, top off the truck for the next shift, double-check the SCBA the checklist already passed. The extra mile is empty — be on it.",
-  "todaysChallengeSubtext": "“There are no traffic jams along the extra mile.” — Roger Staubach",
+  "todaysChallenge": "Guts today means the unpopular call: pausing the job, questioning the plan, telling a senior hand his monitor's on his belt instead of his collar. Make the gutsy call.",
+  "todaysChallengeSubtext": "“Gold medals aren't really made of gold. They're made of sweat, determination, and a hard-to-find alloy called guts.” — Dan Gable",
   "compliance": {
     "weekOf": "Week of September 7, 2026",
     "metrics": [
