@@ -152,33 +152,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Everything went well. The disconnect was completed safely, efficiently, and with",
-      "detail": "OWL form — Atmospheric Monitoring",
+      "headline": "Christian Lee — The job was completed safely and on time",
+      "detail": "The job was completed safely and on time",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Andrew Bailey — Flowline was connected and atmospheric testing was done without any injurie",
+      "detail": "Flowline was connected and atmospheric testing was done without any injuries or hiccups",
       "psms": "Atmospheric Monitoring"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras — Crews went over all LSRA and communication was on point , crews put their L",
-      "detail": "Crews went over all LSRA and communication was on point , crews put their LOTO tags",
-      "psms": "Energy Isolation"
-    },
-    {
-      "type": "good",
-      "headline": "Jacob Hernandez — Job scope went to plan and safely",
-      "detail": "Job scope went to plan and safely.",
+      "headline": "Alejandro Najar — crews reassessed plan after initial plan didnt work",
+      "detail": "Crews reassessed plan after initial plan didnt work",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Gael Antonio Avila — Everything good crew and wokr pretty fast",
-      "detail": "Did we leave the location better.",
+      "headline": "Jordan Lemmons — Crew communication was on point",
+      "detail": "Crew communication was on point",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Dermont Morgan — All around Good communication everyone being on the same page and working t",
-      "detail": "Did we leave the location better.",
-      "psms": "Operational Discipline"
+      "headline": "Michael Jobe — Job went very smoothly tested everything we needed to test they disconnecte",
+      "detail": "Job went very smoothly tested everything we needed to test they disconnected it all job",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "flag",
