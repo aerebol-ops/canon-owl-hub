@@ -172,33 +172,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jose Campos — Good communication, no injuries, Proper PPE was utilized",
-      "detail": "Good communication, no injuries, Proper PPE was utilized",
+      "headline": "Raymundo Solis — Everyone was alert and used a hold point to avoid any injuries or possibly",
+      "detail": "Everyone was alert and used a hold point to avoid any injuries or possibly death",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Bryan Medlin — Everyone went home safely",
+      "headline": "Jose Hurtado — Strong communication with crew",
+      "detail": "Strong communication with crew",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Ruben Rojo — No gas on first or second break",
       "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Alexander Clubb — Job scope was handled as talked about",
-      "detail": "Job scope was handled as talked about.",
+      "headline": "Luis Zarate — There was no issues that we were challenged with",
+      "detail": "There was no issues that we were challenged with. All went according to plan.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo — I stopped the job and informed the MT of the situation and the correction w",
-      "detail": "I stopped the job and informed the MT of the situation and the correction was made...",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Caleb Smith — Crew performed well on the reconnect with no issues",
-      "detail": "Crew performed well on the reconnect with no issues.",
-      "psms": "Operational Discipline"
+      "headline": "Nathan Contreras — Crews verified LOTO , crews did great in pre task briefing",
+      "detail": "Crews verified LOTO , crews did great in pre task briefing. Crane crew had amazing",
+      "psms": "Energy Isolation"
     },
     {
       "type": "flag",
@@ -215,18 +215,18 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 64,
-        "total": 75
+        "done": 87,
+        "total": 98
       },
       {
         "label": "Trailer Inspections",
-        "done": 11,
-        "total": 16
+        "done": 16,
+        "total": 23
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 11,
-        "total": 13
+        "done": 14,
+        "total": 19
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Wed 09/16"

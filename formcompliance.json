@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-09-17",
-  "ytdPct": 82.8,
-  "ytdMissed": 1593,
+  "ytdPct": 82.9,
+  "ytdMissed": 1598,
   "months": [
     {
       "month": "January 2026",
@@ -1928,16 +1928,16 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 82.7,
-      "missedTotal": 140,
+      "compliancePct": 83.4,
+      "missedTotal": 145,
       "dailyNo": 87,
-      "trailerInspNo": 19,
-      "trailerReadyNo": 25,
-      "problemRows": 132,
-      "blanks": 462,
+      "trailerInspNo": 21,
+      "trailerReadyNo": 28,
+      "problemRows": 136,
+      "blanks": 439,
       "employees": 79,
-      "cleanEmployees": 36,
-      "dailyYesTotal": 415,
+      "cleanEmployees": 35,
+      "dailyYesTotal": 438,
       "dailyNoTotal": 87,
       "rawRows": 1043,
       "daysCovered": 12,
@@ -1995,8 +1995,8 @@
         },
         {
           "date": "9/15",
-          "missed": 4,
-          "pct": 79
+          "missed": 9,
+          "pct": 92
         },
         {
           "date": "9/16",
@@ -2052,12 +2052,12 @@
         },
         {
           "name": "Jacob Hernandez",
-          "totalMissed": 3,
+          "totalMissed": 5,
           "dailyMissed": 3,
-          "trailerMissed": 0,
-          "dailyYes": 8,
+          "trailerMissed": 2,
+          "dailyYes": 9,
           "dailyNo": 3,
-          "pct": 73
+          "pct": 75
         },
         {
           "name": "William Cooper",
@@ -2069,15 +2069,6 @@
           "pct": 77
         },
         {
-          "name": "Jeremy Norris",
-          "totalMissed": 6,
-          "dailyMissed": 3,
-          "trailerMissed": 3,
-          "dailyYes": 14,
-          "dailyNo": 3,
-          "pct": 82
-        },
-        {
           "name": "Pablo Soto",
           "totalMissed": 3,
           "dailyMissed": 2,
@@ -2087,13 +2078,22 @@
           "pct": 83
         },
         {
+          "name": "Jeremy Norris",
+          "totalMissed": 6,
+          "dailyMissed": 3,
+          "trailerMissed": 3,
+          "dailyYes": 16,
+          "dailyNo": 3,
+          "pct": 84
+        },
+        {
           "name": "Christian Lee",
-          "totalMissed": 2,
+          "totalMissed": 3,
           "dailyMissed": 2,
-          "trailerMissed": 0,
-          "dailyYes": 11,
+          "trailerMissed": 1,
+          "dailyYes": 13,
           "dailyNo": 2,
-          "pct": 85
+          "pct": 87
         }
       ],
       "live": true,
