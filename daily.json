@@ -210,5 +210,28 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 09/10"
+  },
+  "specialFocus": {
+    "week": 14,
+    "title": "Proof, Not Paperwork — Raise the Bar Two Notches",
+    "why": "Our Exxon billing is running clean — almost no disputes, no chasing tickets — and that's not the office's doing. It's yours. Every field force form filled out right is proof in your handwriting, and proof is what gets this company paid without a fight. When billing had a question about who worked a job on 8/3, nobody argued about it — they opened the crew's packet and read the answer. That's the power of writing it down. So while we're strong, we're sharpening two habits — and reminding ourselves why the bar travels with us.",
+    "standardLabel": "The Standard — No Exceptions",
+    "standard": [
+      "<strong>The JSA, complete — with the company man's name on it.</strong> Walk up, shake his hand, introduce yourself, and write his name on the Work Lead / Work Authorizer line. Not \"the company man\" — his name. The day something goes sideways, \"I talked to Denny at 6:40 and here's what we agreed\" is a different conversation than \"some guy in a white truck.\" If you can't say his name at the end of the day, you never really checked in.",
+      "<strong>Gas detection logs filled out as the day progresses.</strong> Log the reading when you take it — pre-start, after first break, when the work changes — with your initials on every column. A log filled in at the truck at 4 PM is a story from memory. A log filled in at 7:20, 8:33, and 8:53 is a record — and the record is your defense.",
+      "<strong>The standard rides in the truck.</strong> This isn't the \"Exxon standard.\" Exxon just sets a high bar — so we took it and made it ours. The same JSA, the same handshake, the same live gas log goes to every location, every customer, every vendor we work beside. Nobody gets our second-best."
+    ],
+    "scenarios": [
+      {
+        "title": "Ray & Pablo's 8/3 Packet — What Complete Looks Like",
+        "body": "Pull up the Cass Countiss 20C #3H air job from August 3rd. The JSA has hold points checked and a specific safeguard written for every step — \"don SCBA, upwind and crosswind,\" \"report missing LOTO tags\" — not one blind checkmark. The atmospheric test record shows readings at 7:20, 8:33, and 8:53 with AGT initials on every column, tied to the actual work: initial readings on the bleeder valves, first-break readings on the tubing valves after the lubricator conversion. Six weeks later, that packet answered a billing question in thirty seconds. And one lesson even this packet teaches: the name lines at the top of the JSA are the easiest thing on the page to skip — so don't."
+      }
+    ],
+    "questions": [
+      "What's the company man's name on your current location — right now, without looking at your phone?",
+      "When did you write your last gas reading — at the reading, or at the truck?",
+      "What's one habit we run at Exxon that your next location deserves tomorrow, no matter whose name is on the sign?"
+    ],
+    "nonNegotiable": "If his name isn't written down and the log isn't live, the job isn't being run to our standard — no matter how well it went. We choose the highest bar on any location we work, and it rides with us to every location after."
   }
 }
