@@ -1802,6 +1802,23 @@
     </div>
   </div>
 
+  <div class="training-gallery-card" style="border:2px solid #C55A11;">
+    <div class="tg-header">
+      <div class="tg-title">&#128293; Tank &amp; Flare Fire — Canon On Location · September 15, 2026</div>
+      <div class="tg-subtitle">Fire at the tanks and flare line — out before it became a headline</div>
+    </div>
+    <div class="tg-hero">
+      <img src="./fire-response-2026-09-15_3.jpg" alt="Canon crew pulling the water hose toward the fire line at the flare stack">
+    </div>
+    <div class="tg-row">
+      <img src="./fire-response-2026-09-15_1.jpg" alt="Smoke column behind the tank battery">
+      <img src="./fire-response-2026-09-15_2.jpg" alt="Smoke rising past the flare stack on location">
+    </div>
+    <div class="tg-caption">
+      Canon was on location when fire broke out at the tanks and flares — and the crew put it out with the water truck and hose. No panic, no waiting: staged equipment, checked hoses, and hands that knew the plan. This is what "ready" means — it's a daily standard, not a word. Proud of this crew.
+    </div>
+  </div>
+
   <div class="training-gallery-card">
     <div class="tg-header">
       <div class="tg-title">&#127979; Andrews Fire Rescue Tower — June 28, 2026</div>
@@ -3259,23 +3276,31 @@ const DATA = {
 async function loadWeather() {
   const el = document.getElementById('weather-content');
   try {
-    const res = await fetch('https://api.open-meteo.com/v1/forecast?latitude=32.32&longitude=-102.55&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_speed_10m_max,weathercode&wind_speed_unit=mph&temperature_unit=fahrenheit&timezone=America%2FChicago&forecast_days=3');
+    const res = await fetch('https://api.open-meteo.com/v1/forecast?latitude=32.32&longitude=-102.55&daily=temperature_2m_max,temperature_2m_min,apparent_temperature_max,precipitation_probability_max,wind_speed_10m_max,weathercode&current=temperature_2m,apparent_temperature,wind_speed_10m&wind_speed_unit=mph&temperature_unit=fahrenheit&timezone=America%2FChicago&forecast_days=3');
     const d = await res.json();
     const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
     const codes = { 0:'Clear', 1:'Mostly Clear', 2:'Partly Cloudy', 3:'Overcast', 45:'Foggy', 48:'Foggy', 51:'Drizzle', 53:'Drizzle', 55:'Drizzle', 61:'Rain', 63:'Rain', 65:'Heavy Rain', 71:'Snow', 80:'Showers', 81:'Showers', 82:'Heavy Showers', 95:'Thunderstorm', 96:'Thunderstorm', 99:'Thunderstorm' };
+    // "Feels like" carries the safety signal out here — heat index in summer,
+    // wind chill on winter nights — so it leads the card.
+    const nowHtml = d.current ? `<div style="display:flex;align-items:baseline;gap:10px;padding:2px 0 8px;border-bottom:2px solid var(--gold,#BF8F00);margin-bottom:6px;">
+        <span style="font-size:26px;font-weight:900;color:var(--navy,#1F3864);">${Math.round(d.current.temperature_2m)}&deg;</span>
+        <span style="font-size:13px;font-weight:800;color:#C55A11;">Feels like ${Math.round(d.current.apparent_temperature)}&deg;</span>
+        <span style="font-size:11px;color:var(--muted,#777);">now &middot; ${Math.round(d.current.wind_speed_10m)} mph wind</span>
+      </div>` : '';
     const rows = d.daily.time.map((t, i) => {
       const date = new Date(t + 'T12:00:00');
       const day = i === 0 ? 'Today' : days[date.getDay()];
       const cond = codes[d.daily.weathercode[i]] || 'Mixed';
       const wind = Math.round(d.daily.wind_speed_10m_max[i]);
       const rain = d.daily.precipitation_probability_max[i];
+      const feels = Math.round(d.daily.apparent_temperature_max[i]);
       return `<div class="weather-day">
         <span class="weather-day-name">${day}</span>
         <span class="weather-temp">${Math.round(d.daily.temperature_2m_max[i])}°</span>
-        <span class="weather-detail">${Math.round(d.daily.temperature_2m_min[i])}° low<br>${cond}<br>${wind}mph · ${rain}% rain</span>
+        <span class="weather-detail"><strong style="color:#C55A11;">feels ${feels}°</strong> · ${Math.round(d.daily.temperature_2m_min[i])}° low<br>${cond}<br>${wind}mph · ${rain}% rain</span>
       </div>`;
     }).join('');
-    el.innerHTML = rows;
+    el.innerHTML = nowHtml + rows;
   } catch(e) {
     el.innerHTML = '<a class="dash-fallback" href="https://forecast.weather.gov/MapClick.php?CityName=Andrews&state=TX&site=MAF" target="_blank">View NWS Forecast →</a>';
   }
@@ -4703,6 +4728,10 @@ function renderCompliance(daily) {
     const bEl = document.getElementById('cbd-bar-' + i);
     if (pEl) pEl.textContent = pcts[i] + '%';
     if (bEl) bEl.style.width = pcts[i] + '%';
+    // Labels come from the live metrics, not the static HTML — the hardcoded
+    // cards once showed "Benzene / 4-Gas Cal." over Trailer Inspection numbers.
+    const lEl = pEl && pEl.parentElement.querySelector('.cbd-label');
+    if (lEl) lEl.textContent = m.label;
   });
 }
 
