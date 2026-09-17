@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "week": 14,
-  "day": 2,
+  "day": 3,
   "topicWeek": 3,
   "displayWeek": 5,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Line of Fire",
     "marker": "Round 2 begins — hosts now have a week under their belt"
   },
-  "openingMessage": "The most important thing in the world is family and love. Never forget that.",
+  "openingMessage": "Success is peace of mind, which is a direct result of self-satisfaction in knowing you did your best to become the best you are capable of becoming.",
   "openingAttribution": "John Wooden",
-  "openingWhy": "Every rule we run — the attendant who stays put, the tested atmosphere, the staged rescue — traces back to some kitchen table that got a phone call instead of a truck in the driveway. The standard was never for the client. It's for whoever is waiting on you tonight.",
+  "openingWhy": "There's a quiet that rides home with you when every reading was real and the location's better than you found it. No shortcut has ever produced that feeling, and no paycheck covers not having it.",
   "formCounts": [
     {
       "name": "Christian Lee",
@@ -144,7 +144,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Nobody wins alone. Nobody builds a company alone. Nobody protects a location alone. We succeed by winning the small daily battles: the extra phone call, the extra equipment check, the willingness to help.",
+  "leadershipThought": "Communicate early. Call leadership. Notify dispatch. Post in Breakroom. No surprises. Ever. That is how trust is built.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -152,33 +152,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Christian Lee — The job was completed safely and on time",
-      "detail": "The job was completed safely and on time",
+      "headline": "William Jimmy Cooper — Crews were made aware of hazards no incidents effective communication",
+      "detail": "Crews were made aware of hazards no incidents effective communication",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Andrew Bailey — Flowline was connected and atmospheric testing was done without any injurie",
-      "detail": "Flowline was connected and atmospheric testing was done without any injuries or hiccups",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Alejandro Najar — crews reassessed plan after initial plan didnt work",
-      "detail": "Crews reassessed plan after initial plan didnt work",
+      "headline": "Rolando Flores — Crew communicated effectively, reviewed the necessary safety considerations",
+      "detail": "Crew communicated effectively, reviewed the necessary safety considerations, and",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons — Crew communication was on point",
-      "detail": "Crew communication was on point",
+      "headline": "Dawson Drake — Communication went well for the job",
+      "detail": "Communication went well for the job",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — Job went very smoothly tested everything we needed to test they disconnecte",
-      "detail": "Job went very smoothly tested everything we needed to test they disconnected it all job",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Jeremy Norris — Job went smoothly and safely according to the scope of work",
+      "detail": "Job went smoothly and safely according to the scope of work.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons — Work over cm came over and told the mt we could just remove one line instea",
+      "detail": "Work over cm came over and told the mt we could just remove one line instead of the",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
@@ -188,8 +188,8 @@
       "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "Guts today means the unpopular call: pausing the job, questioning the plan, telling a senior hand his monitor's on his belt instead of his collar. Make the gutsy call.",
-  "todaysChallengeSubtext": "“Gold medals aren't really made of gold. They're made of sweat, determination, and a hard-to-find alloy called guts.” — Dan Gable",
+  "todaysChallenge": "Today, nobody works an island. Know who's upwind of you, who's watching your entry, who's got rescue. If you can't name them, the job isn't ready to start.",
+  "todaysChallengeSubtext": "“The way a team plays as a whole determines its success.” — Babe Ruth",
   "compliance": {
     "weekOf": "Week of September 7, 2026",
     "metrics": [

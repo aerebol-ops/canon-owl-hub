@@ -33,6 +33,15 @@
             "Stop worked befor we broke containment and spoke on it"
           ],
           "recognition": "Christian Lee — The job was completed safely and on time"
+        },
+        {
+          "date": "Thu, Sep 17",
+          "day": "Thursday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Communicate early. Call leadership. Notify dispatch. Post in Breakroom. No surprises. Ever. That is how trust is built.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>William Jimmy Cooper</strong> — Crews were made aware of hazards no incidents effective communication</li><li style='margin:3px 0;'><strong>Rolando Flores</strong> — Crew communicated effectively, reviewed the necessary safety considerations, and</li><li style='margin:3px 0;'><strong>Dawson Drake</strong> — Communication went well for the job</li><li style='margin:3px 0;'><strong>Jeremy Norris</strong> — Job went smoothly and safely according to the scope of work.</li><li style='margin:3px 0;'><strong>Jordan Lemmons</strong> — Work over cm came over and told the mt we could just remove one line instead of the</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Stop worked befor we broke containment and spoke on it"
+          ],
+          "recognition": "William Jimmy Cooper — Crews were made aware of hazards no incidents effective communication"
         }
       ]
     },
