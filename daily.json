@@ -16,51 +16,79 @@
   "openingWhy": "There's a quiet that rides home with you when every reading was real and the location's better than you found it. No shortcut has ever produced that feeling, and no paycheck covers not having it.",
   "formCounts": [
     {
-      "name": "Christian Lee",
-      "count": 12
+      "name": "Jeremy Norris",
+      "count": 17
     },
     {
       "name": "Jordan Lemmons",
-      "count": 11
+      "count": 17
     },
     {
-      "name": "Jacob Hernandez",
-      "count": 10
-    },
-    {
-      "name": "Jeremy Norris",
-      "count": 10
+      "name": "Christian Lee",
+      "count": 16
     },
     {
       "name": "Michael Jobe",
-      "count": 10
-    },
-    {
-      "name": "Rolando Flores",
-      "count": 10
+      "count": 16
     },
     {
       "name": "Gael Antonio Avila",
-      "count": 9
-    },
-    {
-      "name": "Hayden Haugh",
-      "count": 9
+      "count": 15
     },
     {
       "name": "Justin Fontenot",
-      "count": 9
+      "count": 15
     },
     {
-      "name": "Pablo Soto",
-      "count": 9
+      "name": "Rolando Flores",
+      "count": 15
+    },
+    {
+      "name": "Jacob Hernandez",
+      "count": 14
+    },
+    {
+      "name": "Nathan Contreras",
+      "count": 13
+    },
+    {
+      "name": "Hayden Haugh",
+      "count": 12
     },
     {
       "name": "Stefanie Kirschke",
-      "count": 9
+      "count": 12
     },
     {
       "name": "Alejandro Najar",
+      "count": 11
+    },
+    {
+      "name": "Jose Hurtado",
+      "count": 11
+    },
+    {
+      "name": "Pablo Soto",
+      "count": 11
+    },
+    {
+      "name": "Jerry Gonzales",
+      "count": 10
+    },
+    {
+      "name": "Luis Zarate",
+      "count": 10
+    },
+    {
+      "name": "Ralph Forbes",
+      "count": 10
+    },
+    {
+      "name": "Ruben Rojo",
+      "count": 10
+    },
+    {
+      "name": "Anthony Scott",
       "count": 8
     },
     {
@@ -68,19 +96,15 @@
       "count": 8
     },
     {
-      "name": "Anthony Scott",
-      "count": 7
-    },
-    {
       "name": "Dermont Morgan",
       "count": 7
     },
     {
-      "name": "Jose Hurtado",
+      "name": "Raymundo Solis",
       "count": 7
     },
     {
-      "name": "Ralph Forbes",
+      "name": "Robert Henigan",
       "count": 7
     },
     {
@@ -88,51 +112,43 @@
       "count": 6
     },
     {
-      "name": "Jerry Gonzales",
-      "count": 6
-    },
-    {
-      "name": "Nathan Contreras",
-      "count": 6
-    },
-    {
-      "name": "Luis Zarate",
-      "count": 5
-    },
-    {
-      "name": "Ruben Rojo",
-      "count": 5
-    },
-    {
       "name": "Baldemar Bracamontes",
-      "count": 4
+      "count": 6
+    },
+    {
+      "name": "Bryan Medlin",
+      "count": 5
     },
     {
       "name": "Jimmy White",
+      "count": 5
+    },
+    {
+      "name": "Alexander Clubb",
       "count": 4
     },
     {
       "name": "Caleb Smith",
-      "count": 3
+      "count": 4
+    },
+    {
+      "name": "Jose Campos",
+      "count": 4
     },
     {
       "name": "Dawson Drake",
       "count": 3
     },
     {
-      "name": "Raymundo Solis",
-      "count": 2
+      "name": "William Jimmy Cooper",
+      "count": 3
     },
     {
       "name": "Trevor Mckenzie",
       "count": 2
     },
     {
-      "name": "William Jimmy Cooper",
-      "count": 2
-    },
-    {
-      "name": "Alexander Clubb",
+      "name": "Joseph Popillion",
       "count": 1
     },
     {
@@ -141,6 +157,10 @@
     },
     {
       "name": "Kelby Hammer Training",
+      "count": 1
+    },
+    {
+      "name": "Larry Jaramillo",
       "count": 1
     }
   ],
@@ -152,32 +172,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Michael Jobe — Had meeting all went well",
-      "detail": "Had meeting all went well",
+      "headline": "Jose Campos — Good communication, no injuries, Proper PPE was utilized",
+      "detail": "Good communication, no injuries, Proper PPE was utilized",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Justin Fontenot — Job went well and was completed safely with zero issues",
-      "detail": "Job went well and was completed safely with zero issues",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Hayden Haugh — Crew worked efficiently together with great communication",
-      "detail": "Crew worked efficiently together with great communication",
+      "headline": "Bryan Medlin — Everyone went home safely",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — At 3 o'clock stopped all work held another safety meeting and got to work o",
-      "detail": "At 3 o'clock stopped all work held another safety meeting and got to work on two tanks at",
+      "headline": "Alexander Clubb — Job scope was handled as talked about",
+      "detail": "Job scope was handled as talked about.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Everything went well, and the job was completed safely and without incident",
-      "detail": "Everything went well, and the job was completed safely and without incident.",
+      "headline": "Larry Jaramillo — I stopped the job and informed the MT of the situation and the correction w",
+      "detail": "I stopped the job and informed the MT of the situation and the correction was made...",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Caleb Smith — Crew performed well on the reconnect with no issues",
+      "detail": "Crew performed well on the reconnect with no issues.",
       "psms": "Operational Discipline"
     },
     {
@@ -191,25 +211,25 @@
   "todaysChallenge": "Today, nobody works an island. Know who's upwind of you, who's watching your entry, who's got rescue. If you can't name them, the job isn't ready to start.",
   "todaysChallengeSubtext": "“The way a team plays as a whole determines its success.” — Babe Ruth",
   "compliance": {
-    "weekOf": "Week of September 7, 2026",
+    "weekOf": "Week of September 14, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 183,
-        "total": 226
+        "done": 64,
+        "total": 75
       },
       {
         "label": "Trailer Inspections",
-        "done": 38,
-        "total": 46
+        "done": 11,
+        "total": 16
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 28,
-        "total": 40
+        "done": 11,
+        "total": 13
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 09/10"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 09/16"
   },
   "specialFocus": {
     "week": 14,
