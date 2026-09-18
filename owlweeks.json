@@ -42,6 +42,15 @@
             "Stop worked befor we broke containment and spoke on it"
           ],
           "recognition": "Raymundo Solis — Everyone was alert and used a hold point to avoid any injuries or possibly"
+        },
+        {
+          "date": "Fri, Sep 18",
+          "day": "Friday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Humility over ego. Effectiveness over being right. Team over individual. That is the mindset. The standard doesn't change based on who's watching.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Robert Henigan</strong> — Showing up in the paperwork every time — latest form: Operational Discipline, 2026-08-27. That consistency is the habit.</li><li style='margin:3px 0;'><strong>Christian Lee</strong> — To he job was completed safely and on time</li><li style='margin:3px 0;'><strong>Jerry Gonzales</strong> — Crew moved fast and smooth and got the job done</li><li style='margin:3px 0;'><strong>Baldemar Bracamontes</strong> — All steps were identified and proper hold points were used to get the job done safely</li><li style='margin:3px 0;'><strong>Jacob Hernandez</strong> — Crew communicated along with MT especially at hold points</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Stop worked befor we broke containment and spoke on it"
+          ],
+          "recognition": "Robert Henigan — on the OWL board"
         }
       ]
     },

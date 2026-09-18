@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "week": 14,
-  "day": 3,
+  "day": 4,
   "topicWeek": 3,
   "displayWeek": 5,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Line of Fire",
     "marker": "Round 2 begins — hosts now have a week under their belt"
   },
-  "openingMessage": "Success is peace of mind, which is a direct result of self-satisfaction in knowing you did your best to become the best you are capable of becoming.",
-  "openingAttribution": "John Wooden",
-  "openingWhy": "There's a quiet that rides home with you when every reading was real and the location's better than you found it. No shortcut has ever produced that feeling, and no paycheck covers not having it.",
+  "openingMessage": "Discipline is doing what you are supposed to do in the best possible manner at the time you are supposed to do it.",
+  "openingAttribution": "Mike Krzyzewski",
+  "openingWhy": "A gas test run after the line is already open is the right thing done too late. Out here the clock is part of the procedure: test before, monitor during, verify after. When you do it matters as much as whether you do it.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,7 +164,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Communicate early. Call leadership. Notify dispatch. Post in Breakroom. No surprises. Ever. That is how trust is built.",
+  "leadershipThought": "Humility over ego. Effectiveness over being right. Team over individual. That is the mindset. The standard doesn't change based on who's watching.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -172,33 +172,33 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis — Everyone was alert and used a hold point to avoid any injuries or possibly",
-      "detail": "Everyone was alert and used a hold point to avoid any injuries or possibly death",
+      "headline": "Robert Henigan — on the OWL board",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-08-27. That consistency is the habit.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jose Hurtado — Strong communication with crew",
-      "detail": "Strong communication with crew",
+      "headline": "Christian Lee — To he job was completed safely and on time",
+      "detail": "To he job was completed safely and on time",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ruben Rojo — No gas on first or second break",
-      "detail": "Did we leave the location better.",
+      "headline": "Jerry Gonzales — Crew moved fast and smooth and got the job done",
+      "detail": "Crew moved fast and smooth and got the job done",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Luis Zarate — There was no issues that we were challenged with",
-      "detail": "There was no issues that we were challenged with. All went according to plan.",
+      "headline": "Baldemar Bracamontes — All steps were identified and proper hold points were used to get the job d",
+      "detail": "All steps were identified and proper hold points were used to get the job done safely",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras — Crews verified LOTO , crews did great in pre task briefing",
-      "detail": "Crews verified LOTO , crews did great in pre task briefing. Crane crew had amazing",
-      "psms": "Energy Isolation"
+      "headline": "Jacob Hernandez — Crew communicated along with MT especially at hold points",
+      "detail": "Crew communicated along with MT especially at hold points",
+      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
@@ -208,8 +208,8 @@
       "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "Today, nobody works an island. Know who's upwind of you, who's watching your entry, who's got rescue. If you can't name them, the job isn't ready to start.",
-  "todaysChallengeSubtext": "“The way a team plays as a whole determines its success.” — Babe Ruth",
+  "todaysChallenge": "Walk your location for the small stuff today: one loose fitting, one uncharged battery, one missing sticker. Fix the little thing before it becomes the big thing.",
+  "todaysChallengeSubtext": "“It's the little details that are vital. Little things make big things happen.” — John Wooden",
   "compliance": {
     "weekOf": "Week of September 14, 2026",
     "metrics": [
