@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-09-18",
-  "ytdPct": 82.9,
-  "ytdMissed": 1598,
+  "ytdPct": 83.0,
+  "ytdMissed": 1611,
   "months": [
     {
       "month": "January 2026",
@@ -1928,20 +1928,20 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 83.4,
-      "missedTotal": 145,
-      "dailyNo": 87,
-      "trailerInspNo": 21,
-      "trailerReadyNo": 28,
-      "problemRows": 136,
-      "blanks": 439,
+      "compliancePct": 84.3,
+      "missedTotal": 158,
+      "dailyNo": 90,
+      "trailerInspNo": 24,
+      "trailerReadyNo": 32,
+      "problemRows": 147,
+      "blanks": 455,
       "employees": 79,
-      "cleanEmployees": 35,
-      "dailyYesTotal": 438,
-      "dailyNoTotal": 87,
-      "rawRows": 1043,
-      "daysCovered": 12,
-      "sheetsInMonth": 18,
+      "cleanEmployees": 34,
+      "dailyYesTotal": 482,
+      "dailyNoTotal": 90,
+      "rawRows": 1122,
+      "daysCovered": 13,
+      "sheetsInMonth": 19,
       "byDay": [
         {
           "date": "9/1",
@@ -2002,27 +2002,14 @@
           "date": "9/16",
           "missed": 14,
           "pct": 87
+        },
+        {
+          "date": "9/17",
+          "missed": 10,
+          "pct": 94
         }
       ],
       "watch": [
-        {
-          "name": "Larry Jaramillo",
-          "totalMissed": 5,
-          "dailyMissed": 5,
-          "trailerMissed": 0,
-          "dailyYes": 5,
-          "dailyNo": 5,
-          "pct": 50
-        },
-        {
-          "name": "Michael Ellis",
-          "totalMissed": 5,
-          "dailyMissed": 5,
-          "trailerMissed": 0,
-          "dailyYes": 7,
-          "dailyNo": 5,
-          "pct": 58
-        },
         {
           "name": "Baldemar Bracomontes",
           "totalMissed": 5,
@@ -2033,31 +2020,49 @@
           "pct": 60
         },
         {
-          "name": "Bobby Galindo",
-          "totalMissed": 5,
-          "dailyMissed": 4,
+          "name": "Larry Jaramillo",
+          "totalMissed": 6,
+          "dailyMissed": 5,
           "trailerMissed": 1,
           "dailyYes": 8,
+          "dailyNo": 5,
+          "pct": 62
+        },
+        {
+          "name": "Michael Ellis",
+          "totalMissed": 5,
+          "dailyMissed": 5,
+          "trailerMissed": 0,
+          "dailyYes": 8,
+          "dailyNo": 5,
+          "pct": 62
+        },
+        {
+          "name": "Bobby Galindo",
+          "totalMissed": 7,
+          "dailyMissed": 4,
+          "trailerMissed": 3,
+          "dailyYes": 11,
           "dailyNo": 4,
-          "pct": 67
+          "pct": 73
         },
         {
           "name": "Josh Blassingame",
           "totalMissed": 4,
           "dailyMissed": 3,
           "trailerMissed": 1,
-          "dailyYes": 7,
+          "dailyYes": 8,
           "dailyNo": 3,
-          "pct": 70
+          "pct": 73
         },
         {
           "name": "Jacob Hernandez",
           "totalMissed": 5,
           "dailyMissed": 3,
           "trailerMissed": 2,
-          "dailyYes": 9,
+          "dailyYes": 10,
           "dailyNo": 3,
-          "pct": 75
+          "pct": 77
         },
         {
           "name": "William Cooper",
@@ -2079,25 +2084,25 @@
         },
         {
           "name": "Jeremy Norris",
-          "totalMissed": 6,
+          "totalMissed": 7,
           "dailyMissed": 3,
-          "trailerMissed": 3,
-          "dailyYes": 16,
+          "trailerMissed": 4,
+          "dailyYes": 19,
           "dailyNo": 3,
-          "pct": 84
+          "pct": 86
         },
         {
           "name": "Christian Lee",
           "totalMissed": 3,
           "dailyMissed": 2,
           "trailerMissed": 1,
-          "dailyYes": 13,
+          "dailyYes": 15,
           "dailyNo": 2,
-          "pct": 87
+          "pct": 88
         }
       ],
       "live": true,
-      "throughDate": "9/16"
+      "throughDate": "9/17"
     }
   ]
 }

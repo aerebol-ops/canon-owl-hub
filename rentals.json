@@ -30,9 +30,9 @@
   ],
   "warnDays": 15,
   "overdueDays": 30,
-  "activeRentals": 13,
+  "activeRentals": 11,
   "neverChecked": 1,
-  "overdueChecks": 11,
+  "overdueChecks": 9,
   "rigs": [
     {
       "rig": "PRODUCTION",
@@ -140,21 +140,6 @@
       "checkState": "overdue"
     },
     {
-      "rig": "H&P 438",
-      "company": "SM ENERGY",
-      "location": "JUNIOR MINT FED 117H",
-      "status": "RUNNING",
-      "active": true,
-      "equipment": "REDLINE",
-      "ticket": "101201B",
-      "at": "",
-      "onRentSince": "2026-05-01",
-      "currentStart": "2026-09-07",
-      "lastCheck": "2026-06-10",
-      "daysSinceCheck": 100,
-      "checkState": "overdue"
-    },
-    {
       "rig": "H&P 376",
       "company": "SM ENERGY",
       "location": "SEINFELD FED UNIT #433H",
@@ -167,21 +152,6 @@
       "currentStart": "2026-09-11",
       "lastCheck": "2026-06-15",
       "daysSinceCheck": 95,
-      "checkState": "overdue"
-    },
-    {
-      "rig": "H&P 379",
-      "company": "OVINTIV",
-      "location": "DAVIDSON C 3X 307HL",
-      "status": "RUNNING",
-      "active": true,
-      "equipment": "OTIS",
-      "ticket": "101198",
-      "at": "",
-      "onRentSince": "2024-08-30",
-      "currentStart": "2026-09-01",
-      "lastCheck": "2026-06-21",
-      "daysSinceCheck": 89,
       "checkState": "overdue"
     },
     {
@@ -228,6 +198,36 @@
       "lastCheck": "2026-08-28",
       "daysSinceCheck": 21,
       "checkState": "due"
+    },
+    {
+      "rig": "H&P 438",
+      "company": "SM ENERGY",
+      "location": "JUNIOR MINT FED 117H",
+      "status": "RIGGED DOWN",
+      "active": false,
+      "equipment": "REDLINE",
+      "ticket": "101201B",
+      "at": "",
+      "onRentSince": "2026-05-01",
+      "currentStart": "2026-09-07",
+      "lastCheck": "2026-06-10",
+      "daysSinceCheck": 100,
+      "checkState": "overdue"
+    },
+    {
+      "rig": "H&P 379",
+      "company": "OVINTIV",
+      "location": "DAVIDSON C 3X 307HL",
+      "status": "RIGGED DOWN",
+      "active": false,
+      "equipment": "OTIS",
+      "ticket": "101198",
+      "at": "",
+      "onRentSince": "2024-08-30",
+      "currentStart": "2026-09-01",
+      "lastCheck": "2026-06-21",
+      "daysSinceCheck": 89,
+      "checkState": "overdue"
     }
   ]
 }

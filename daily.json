@@ -172,32 +172,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Rolando Flores — The crew communicated well and took the time to review the job and potentia",
-      "detail": "The crew communicated well and took the time to review the job and potential hazards",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Justin Fontenot — Job went well zero gas no issues",
-      "detail": "Job went well zero gas no issues",
+      "headline": "Jeremy Norris — The job went smoothly and safely exactly according to the scope of work",
+      "detail": "The job went smoothly and safely exactly according to the scope of work. PSMS was out",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — Crew was great job went fast in easy no issues at all",
-      "detail": "Crew was great job went fast in easy no issues at all",
+      "headline": "Ralph Forbes — No issues, clean out oil tank 503 and 504",
+      "detail": "No issues, clean out oil tank 503 and 504",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Hayden Haugh — Crew was smooth and efficient",
-      "detail": "Crew was smooth and efficient",
+      "headline": "Raymundo Solis — Good communication and hand signals between forklift operator and spotter p",
+      "detail": "Good communication and hand signals between forklift operator and spotter proper PPE for",
+      "psms": "Mobile Equipment"
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons — Everything went well just had some alignment issues to get the well back to",
+      "detail": "Everything went well just had some alignment issues to get the well back together",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras — Crews verified safeguards were in place prior to work , verified proper equ",
-      "detail": "Crews verified safeguards were in place prior to work , verified proper equipment for the",
+      "headline": "Stefanie Kirschke — Connections and valves were verified secure with no issues observed",
+      "detail": "Connections and valves were verified secure with no issues observed.",
       "psms": "Operational Discipline"
     },
     {
@@ -215,21 +215,21 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 87,
-        "total": 98
+        "done": 131,
+        "total": 145
       },
       {
         "label": "Trailer Inspections",
-        "done": 16,
-        "total": 23
+        "done": 24,
+        "total": 34
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 14,
-        "total": 19
+        "done": 23,
+        "total": 32
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 09/16"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 09/17"
   },
   "specialFocus": {
     "week": 14,
