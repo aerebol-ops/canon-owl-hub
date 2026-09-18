@@ -2,6 +2,7 @@
   "source": "Smooth Mornings — Year-End Rotation (Sep-Dec 2026).pdf · owl account leads framework · Mike 9/14/2026",
   "note": "Tuesday-anchored weeks. Host duties: night-before board confirm · first one in · kickoff off the Hub daily template (under 10 min) · walk the line · send-off · one line to Jimmy. Holiday weeks: host trades fine — the morning never goes unhosted.",
   "hostRotation": ["RAY", "JACOB", "CALEB", "ALEX"],
+  "hostOverrides": { "2026-09-18": "JACOB" },
   "weeks": [
     { "week": 5,  "start": "2026-09-15", "end": "2026-09-21", "host": "RAY",   "topic": "Line of Fire",                                  "topicWeek": 3,  "cycle": 2, "marker": "Round 2 begins — hosts now have a week under their belt" },
     { "week": 6,  "start": "2026-09-22", "end": "2026-09-28", "host": "JACOB", "topic": "Operational Discipline",                        "topicWeek": 13, "cycle": 2, "marker": "" },
