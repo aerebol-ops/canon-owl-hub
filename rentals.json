@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17",
+  "generated": "2026-09-18",
   "source": "Permian Basin Rental Board September 2026.xlsx",
   "boardsScanned": [
     "Permian Basin Rental Board September 2024.xlsx",
@@ -61,7 +61,7 @@
       "onRentSince": "2024-09-01",
       "currentStart": "2026-09-01",
       "lastCheck": "2026-01-17",
-      "daysSinceCheck": 243,
+      "daysSinceCheck": 244,
       "checkState": "overdue"
     },
     {
@@ -76,7 +76,7 @@
       "onRentSince": "2025-10-31",
       "currentStart": "2026-09-09",
       "lastCheck": "2026-06-01",
-      "daysSinceCheck": 108,
+      "daysSinceCheck": 109,
       "checkState": "overdue"
     },
     {
@@ -91,7 +91,7 @@
       "onRentSince": "2026-05-04",
       "currentStart": "2026-09-01",
       "lastCheck": "2026-06-04",
-      "daysSinceCheck": 105,
+      "daysSinceCheck": 106,
       "checkState": "overdue"
     },
     {
@@ -106,7 +106,7 @@
       "onRentSince": "2026-05-02",
       "currentStart": "2026-08-30",
       "lastCheck": "2026-06-06",
-      "daysSinceCheck": 103,
+      "daysSinceCheck": 104,
       "checkState": "overdue"
     },
     {
@@ -121,7 +121,7 @@
       "onRentSince": "2026-05-01",
       "currentStart": "2026-08-31",
       "lastCheck": "2026-06-06",
-      "daysSinceCheck": 103,
+      "daysSinceCheck": 104,
       "checkState": "overdue"
     },
     {
@@ -136,7 +136,7 @@
       "onRentSince": "2024-09-01",
       "currentStart": "2026-09-08",
       "lastCheck": "2026-06-10",
-      "daysSinceCheck": 99,
+      "daysSinceCheck": 100,
       "checkState": "overdue"
     },
     {
@@ -151,7 +151,7 @@
       "onRentSince": "2026-05-01",
       "currentStart": "2026-09-07",
       "lastCheck": "2026-06-10",
-      "daysSinceCheck": 99,
+      "daysSinceCheck": 100,
       "checkState": "overdue"
     },
     {
@@ -166,7 +166,7 @@
       "onRentSince": "2026-05-01",
       "currentStart": "2026-09-11",
       "lastCheck": "2026-06-15",
-      "daysSinceCheck": 94,
+      "daysSinceCheck": 95,
       "checkState": "overdue"
     },
     {
@@ -181,7 +181,7 @@
       "onRentSince": "2024-08-30",
       "currentStart": "2026-09-01",
       "lastCheck": "2026-06-21",
-      "daysSinceCheck": 88,
+      "daysSinceCheck": 89,
       "checkState": "overdue"
     },
     {
@@ -196,7 +196,7 @@
       "onRentSince": "2024-08-30",
       "currentStart": "2026-09-16",
       "lastCheck": "2026-06-21",
-      "daysSinceCheck": 88,
+      "daysSinceCheck": 89,
       "checkState": "overdue"
     },
     {
@@ -211,7 +211,7 @@
       "onRentSince": "2026-05-01",
       "currentStart": "2026-09-14",
       "lastCheck": "2026-06-21",
-      "daysSinceCheck": 88,
+      "daysSinceCheck": 89,
       "checkState": "overdue"
     },
     {
@@ -226,7 +226,7 @@
       "onRentSince": "2024-08-27",
       "currentStart": "2026-09-16",
       "lastCheck": "2026-08-28",
-      "daysSinceCheck": 20,
+      "daysSinceCheck": 21,
       "checkState": "due"
     }
   ]
