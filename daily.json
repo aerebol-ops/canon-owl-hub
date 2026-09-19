@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-19",
   "week": 14,
   "day": 4,
   "topicWeek": 3,
@@ -172,44 +172,44 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Bryan Medlin — Job objective success everyone went home safely",
-      "detail": "Did we leave the location better.",
+      "headline": "Hayden Haugh — Crew was cautious when taking apart the well and installing new parts",
+      "detail": "Crew was cautious when taking apart the well and installing new parts",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Luis Zarate — Everything went well and we had no issues",
-      "detail": "Everything went well and we had no issues.",
+      "headline": "Justin Fontenot — Job went well zero issues",
+      "detail": "Job went well zero issues",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jose Campos — The Crew used proper PPE and safe tools to prevent any hazards, good commun",
-      "detail": "Did we leave the location better.",
+      "headline": "Jerry Gonzales — Crew was very detailed when connecting",
+      "detail": "Crew was very detailed when connecting",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Alexander Clubb — Job scope was executed properly with no issues that occurred",
-      "detail": "Job scope was executed properly with no issues that occurred.",
+      "headline": "Jordan Lemmons — Let them know all were 0s and able to do the job without being under air",
+      "detail": "Let them know all were 0s and able to do the job without being under air",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — Job went great had meeting crew got right to work to kill the well",
-      "detail": "Job went great had meeting crew got right to work to kill the well",
+      "headline": "Christian Lee — Job was completed safely and quick",
+      "detail": "Job was completed safely and quick",
       "psms": "Operational Discipline"
     },
     {
       "type": "flag",
-      "week": 14,
-      "headline": "Stop worked befor we broke containment and spoke on it",
-      "detail": "Stop worked befor we broke containment and spoke on it.",
-      "psms": "Atmospheric Monitoring"
+      "week": 15,
+      "headline": "Clean board — no open watch items this week",
+      "detail": "Nothing carried in from last week. See a hazard? Flag it on your OWL form and it lands here the same evening.",
+      "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Walk your location for the small stuff today: one loose fitting, one uncharged battery, one missing sticker. Fix the little thing before it becomes the big thing.",
-  "todaysChallengeSubtext": "“It's the little details that are vital. Little things make big things happen.” — John Wooden",
+  "todaysChallenge": "Treat today's job — however routine — as the one they'll judge your whole career on. One location, done completely right, start to finish.",
+  "todaysChallengeSubtext": "“Make each day your masterpiece.” — John Wooden",
   "compliance": {
     "weekOf": "Week of September 14, 2026",
     "metrics": [
