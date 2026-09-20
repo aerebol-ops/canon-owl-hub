@@ -1,19 +1,19 @@
 {
-  "date": "2026-09-19",
-  "week": 14,
-  "day": 4,
+  "date": "2026-09-21",
+  "week": 15,
+  "day": 5,
   "topicWeek": 3,
   "displayWeek": 5,
   "cycle": 2,
   "rotation": {
     "week": 5,
-    "host": "JACOB",
+    "host": "RAY",
     "topic": "Line of Fire",
     "marker": "Round 2 begins — hosts now have a week under their belt"
   },
-  "openingMessage": "Discipline is doing what you are supposed to do in the best possible manner at the time you are supposed to do it.",
+  "openingMessage": "In leadership, there are no words more important than trust.",
   "openingAttribution": "Mike Krzyzewski",
-  "openingWhy": "A gas test run after the line is already open is the right thing done too late. Out here the clock is part of the procedure: test before, monitor during, verify after. When you do it matters as much as whether you do it.",
+  "openingWhy": "When you write 0 ppm on a form, the next crew opens that line without re-testing — your signature is their gas test. Fudge one reading and every number you've ever signed becomes a question. There's no re-cal for a hand nobody trusts.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,7 +164,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Humility over ego. Effectiveness over being right. Team over individual. That is the mindset. The standard doesn't change based on who's watching.",
+  "leadershipThought": "We don't operate exposed. If there's an issue, call it in. Don't argue. Don't escalate. Execute.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -172,32 +172,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jeremy Norris — The job went smoothly and safely",
-      "detail": "The job went smoothly and safely. There were multiple hold points used to step back and",
+      "headline": "Ralph Forbes — Cleaned out tanks 501 and 502 from manway and thief hatch",
+      "detail": "Cleaned out tanks 501 and 502 from manway and thief hatch.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — Job went smoothly crew got right to work in did it in a safety manner",
-      "detail": "Job went smoothly crew got right to work in did it in a safety manner",
+      "headline": "Gael Antonio Avila — Job done essay cero on everything so",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jose Campos — Good Communication between MT, Cannon safety and Roustabout Crew",
-      "detail": "Good Communication between MT, Cannon safety and Roustabout Crew",
+      "headline": "Rolando Flores — We observed the crew working below grade in the cellar with the proper safe",
+      "detail": "We observed the crew working below grade in the cellar with the proper safety controls in",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "Stefanie Kirschke — Exclusion zones were established using cones and caution tape, and designat",
+      "detail": "Exclusion zones were established using cones and caution tape, and designated muster",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras — Crews communicated well , job scope was spot on",
-      "detail": "Crews communicated well , job scope was spot on . Crews wore all PPE. Crews verified all",
-      "psms": "Energy Isolation"
-    },
-    {
-      "type": "good",
-      "headline": "Jacob Hernandez — All crews knew exactly what to do and when",
-      "detail": "All crews knew exactly what to do and when. Hold points utilized",
+      "headline": "Baldemar Bracamontes — Job was completed as planned, no triggers or injuries, strong communication",
+      "detail": "Job was completed as planned, no triggers or injuries, strong communication between",
       "psms": "Operational Discipline"
     },
     {
@@ -208,8 +208,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Treat today's job — however routine — as the one they'll judge your whole career on. One location, done completely right, start to finish.",
-  "todaysChallengeSubtext": "“Make each day your masterpiece.” — John Wooden",
+  "todaysChallenge": "Run your monitor check the full way today — pump, tubing, cal date, mode — not the short way. How you do it every day is how you'll do it the day it matters.",
+  "todaysChallengeSubtext": "“Practice does not make perfect. Only perfect practice makes perfect.” — Vince Lombardi",
   "compliance": {
     "weekOf": "Week of September 14, 2026",
     "metrics": [
@@ -230,28 +230,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 09/17"
-  },
-  "specialFocus": {
-    "week": 14,
-    "title": "Proof, Not Paperwork — Raise the Bar Two Notches",
-    "why": "Our Exxon billing is running clean — almost no disputes, no chasing tickets — and that's not the office's doing. It's yours. Every field force form filled out right is proof in your handwriting, and proof is what gets this company paid without a fight. When billing had a question about who worked a job on 8/3, nobody argued about it — they opened the crew's packet and read the answer. That's the power of writing it down. So while we're strong, we're sharpening two habits — and reminding ourselves why the bar travels with us.",
-    "standardLabel": "The Standard — No Exceptions",
-    "standard": [
-      "<strong>The JSA, complete — with the company man's name on it.</strong> Walk up, shake his hand, introduce yourself, and write his name on the Work Lead / Work Authorizer line. Not \"the company man\" — his name. The day something goes sideways, \"I talked to Denny at 6:40 and here's what we agreed\" is a different conversation than \"some guy in a white truck.\" If you can't say his name at the end of the day, you never really checked in.",
-      "<strong>Gas detection logs filled out as the day progresses.</strong> Log the reading when you take it — pre-start, after first break, when the work changes — with your initials on every column. A log filled in at the truck at 4 PM is a story from memory. A log filled in at 7:20, 8:33, and 8:53 is a record — and the record is your defense.",
-      "<strong>The standard rides in the truck.</strong> This isn't the \"Exxon standard.\" Exxon just sets a high bar — so we took it and made it ours. The same JSA, the same handshake, the same live gas log goes to every location, every customer, every vendor we work beside. Nobody gets our second-best."
-    ],
-    "scenarios": [
-      {
-        "title": "Ray & Pablo's 8/3 Packet — What Complete Looks Like",
-        "body": "Pull up the Cass Countiss 20C #3H air job from August 3rd. The JSA has hold points checked and a specific safeguard written for every step — \"don SCBA, upwind and crosswind,\" \"report missing LOTO tags\" — not one blind checkmark. The atmospheric test record shows readings at 7:20, 8:33, and 8:53 with AGT initials on every column, tied to the actual work: initial readings on the bleeder valves, first-break readings on the tubing valves after the lubricator conversion. Six weeks later, that packet answered a billing question in thirty seconds. And one lesson even this packet teaches: the name lines at the top of the JSA are the easiest thing on the page to skip — so don't."
-      }
-    ],
-    "questions": [
-      "What's the company man's name on your current location — right now, without looking at your phone?",
-      "When did you write your last gas reading — at the reading, or at the truck?",
-      "What's one habit we run at Exxon that your next location deserves tomorrow, no matter whose name is on the sign?"
-    ],
-    "nonNegotiable": "If his name isn't written down and the log isn't live, the job isn't being run to our standard — no matter how well it went. We choose the highest bar on any location we work, and it rides with us to every location after."
   }
 }
