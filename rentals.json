@@ -30,9 +30,9 @@
   ],
   "warnDays": 15,
   "overdueDays": 30,
-  "activeRentals": 10,
+  "activeRentals": 12,
   "neverChecked": 0,
-  "overdueChecks": 9,
+  "overdueChecks": 10,
   "rigs": [
     {
       "rig": "AIR TRAILER",
@@ -47,21 +47,6 @@
       "currentStart": "2026-09-01",
       "lastCheck": "2026-01-17",
       "daysSinceCheck": 247,
-      "checkState": "overdue"
-    },
-    {
-      "rig": "H&P 264",
-      "company": "OVINTIV",
-      "location": "FASKEN MD 9-U 109HL",
-      "status": "RUNNING",
-      "active": true,
-      "equipment": "REDLINE",
-      "ticket": "101074C",
-      "at": "",
-      "onRentSince": "2025-10-31",
-      "currentStart": "2026-09-09",
-      "lastCheck": "2026-06-01",
-      "daysSinceCheck": 112,
       "checkState": "overdue"
     },
     {
@@ -125,6 +110,21 @@
       "checkState": "overdue"
     },
     {
+      "rig": "H&P 438",
+      "company": "SM ENERGY",
+      "location": "PENDING",
+      "status": "RUNNING",
+      "active": true,
+      "equipment": "REDLINE",
+      "ticket": "101281",
+      "at": "",
+      "onRentSince": "2026-05-01",
+      "currentStart": "2026-09-20",
+      "lastCheck": "2026-06-10",
+      "daysSinceCheck": 103,
+      "checkState": "overdue"
+    },
+    {
       "rig": "H&P 376",
       "company": "SM ENERGY",
       "location": "SEINFELD FED UNIT #433H",
@@ -137,6 +137,21 @@
       "currentStart": "2026-09-11",
       "lastCheck": "2026-06-15",
       "daysSinceCheck": 98,
+      "checkState": "overdue"
+    },
+    {
+      "rig": "H&P 379",
+      "company": "OVINTIV",
+      "location": "TERLINGUA",
+      "status": "RUNNING",
+      "active": true,
+      "equipment": "OTIS",
+      "ticket": "101286",
+      "at": "",
+      "onRentSince": "2024-08-30",
+      "currentStart": "2026-09-21",
+      "lastCheck": "2026-06-21",
+      "daysSinceCheck": 92,
       "checkState": "overdue"
     },
     {
@@ -185,6 +200,21 @@
       "checkState": "due"
     },
     {
+      "rig": "H&P 264",
+      "company": "OVINTIV",
+      "location": "FASKEN MD 9-U 109HL",
+      "status": "RUNNING",
+      "active": true,
+      "equipment": "REDLINE",
+      "ticket": "101074C",
+      "at": "",
+      "onRentSince": "2025-10-31",
+      "currentStart": "2026-09-09",
+      "lastCheck": "2026-09-19",
+      "daysSinceCheck": 2,
+      "checkState": "ok"
+    },
+    {
       "rig": "PRODUCTION",
       "company": "SM ENERGY",
       "location": "COSMO PAD",
@@ -198,36 +228,6 @@
       "lastCheck": null,
       "daysSinceCheck": null,
       "checkState": "never"
-    },
-    {
-      "rig": "H&P 438",
-      "company": "SM ENERGY",
-      "location": "JUNIOR MINT FED 117H",
-      "status": "RIGGED DOWN",
-      "active": false,
-      "equipment": "REDLINE",
-      "ticket": "101201B",
-      "at": "",
-      "onRentSince": "2026-05-01",
-      "currentStart": "2026-09-07",
-      "lastCheck": "2026-06-10",
-      "daysSinceCheck": 103,
-      "checkState": "overdue"
-    },
-    {
-      "rig": "H&P 379",
-      "company": "OVINTIV",
-      "location": "DAVIDSON C 3X 307HL",
-      "status": "RIGGED DOWN",
-      "active": false,
-      "equipment": "OTIS",
-      "ticket": "101198",
-      "at": "",
-      "onRentSince": "2024-08-30",
-      "currentStart": "2026-09-01",
-      "lastCheck": "2026-06-21",
-      "daysSinceCheck": 92,
-      "checkState": "overdue"
     }
   ]
 }

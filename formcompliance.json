@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-09-21",
-  "ytdPct": 83.0,
-  "ytdMissed": 1611,
+  "ytdPct": 82.9,
+  "ytdMissed": 1615,
   "months": [
     {
       "month": "January 2026",
@@ -1928,20 +1928,20 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 84.3,
-      "missedTotal": 158,
-      "dailyNo": 90,
+      "compliancePct": 83.9,
+      "missedTotal": 162,
+      "dailyNo": 94,
       "trailerInspNo": 24,
       "trailerReadyNo": 32,
-      "problemRows": 147,
-      "blanks": 455,
+      "problemRows": 151,
+      "blanks": 565,
       "employees": 79,
       "cleanEmployees": 34,
-      "dailyYesTotal": 482,
-      "dailyNoTotal": 90,
-      "rawRows": 1122,
-      "daysCovered": 13,
-      "sheetsInMonth": 19,
+      "dailyYesTotal": 489,
+      "dailyNoTotal": 94,
+      "rawRows": 1244,
+      "daysCovered": 14,
+      "sheetsInMonth": 22,
       "byDay": [
         {
           "date": "9/1",
@@ -2007,6 +2007,11 @@
           "date": "9/17",
           "missed": 10,
           "pct": 94
+        },
+        {
+          "date": "9/20",
+          "missed": 4,
+          "pct": 64
         }
       ],
       "watch": [
@@ -2036,6 +2041,15 @@
           "dailyYes": 8,
           "dailyNo": 5,
           "pct": 62
+        },
+        {
+          "name": "Larry Taylor",
+          "totalMissed": 3,
+          "dailyMissed": 3,
+          "trailerMissed": 0,
+          "dailyYes": 7,
+          "dailyNo": 3,
+          "pct": 70
         },
         {
           "name": "Bobby Galindo",
@@ -2090,19 +2104,10 @@
           "dailyYes": 19,
           "dailyNo": 3,
           "pct": 86
-        },
-        {
-          "name": "Christian Lee",
-          "totalMissed": 3,
-          "dailyMissed": 2,
-          "trailerMissed": 1,
-          "dailyYes": 15,
-          "dailyNo": 2,
-          "pct": 88
         }
       ],
       "live": true,
-      "throughDate": "9/17"
+      "throughDate": "9/20"
     }
   ]
 }
