@@ -1,15 +1,15 @@
 {
   "date": "2026-09-21",
   "week": 15,
-  "day": 5,
-  "topicWeek": 3,
-  "displayWeek": 5,
+  "day": 1,
+  "topicWeek": 13,
+  "displayWeek": 6,
   "cycle": 2,
   "rotation": {
-    "week": 5,
-    "host": "RAY",
-    "topic": "Line of Fire",
-    "marker": "Round 2 begins — hosts now have a week under their belt"
+    "week": 6,
+    "host": "JACOB",
+    "topic": "Operational Discipline",
+    "marker": "Second lap of the 12 begins — same standards, fresh scenarios, zero autopilot"
   },
   "openingMessage": "In leadership, there are no words more important than trust.",
   "openingAttribution": "Mike Krzyzewski",
@@ -164,40 +164,40 @@
       "count": 1
     }
   ],
-  "leadershipThought": "We don't operate exposed. If there's an issue, call it in. Don't argue. Don't escalate. Execute.",
+  "leadershipThought": "We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Stop Work Authority Exercised — Unsafe Man Basket Operations</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>Man basket work is one of the highest-risk lift operations on an oil and gas site — Stop Work Authority before elevation is always the right call when anything about the setup looks wrong.</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span><br><br><strong>Used exclusion zone to clean out water tank TK-554, opened a confine space</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Used exclusion zone to clean out water tank TK-554, opened a confine space permit to get</span><br><br><strong>Everyone had their exclusion zones around work zone and everyone had great</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone had their exclusion zones around work zone and everyone had great</span><br><br><strong>Set up exclusion zone and commenced to cleaning out two oil tanks without i</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Set up exclusion zone and commenced to cleaning out two oil tanks without incident</span>",
+  "exxonMoments": "<strong>There was no issues that we were challenged with</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>There was no issues that we were challenged with. All went according to plan.</span><br><br><strong>I stopped the job and informed the MT of the situation and the correction w</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>I stopped the job and informed the MT of the situation and the correction was made...</span><br><br><strong>Crews verified safeguards were in place prior to work , verified proper equ</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crews verified safeguards were in place prior to work , verified proper equipment for the</span><br><br><strong>Everyone was alert and used a hold point to avoid any injuries or possibly</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone was alert and used a hold point to avoid any injuries or possibly death</span><br><br><strong>The job went smoothly and safely exactly according to the scope of work</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The job went smoothly and safely exactly according to the scope of work. PSMS was out</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Ralph Forbes — Cleaned out tanks 501 and 502 from manway and thief hatch",
-      "detail": "Cleaned out tanks 501 and 502 from manway and thief hatch.",
+      "headline": "Raymundo Solis — Discussed all LMRA pertaining the tasks being done",
+      "detail": "Discussed all LMRA pertaining the tasks being done",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Gael Antonio Avila — Job done essay cero on everything so",
+      "headline": "Alejandro Najar — had I/E hold off on doing work till we finished our work in the area they n",
+      "detail": "Had I/E hold off on doing work till we finished our work in the area they needed to work in",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Dermont Morgan — Every maintaining distance and staying out of line of fire",
       "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Rolando Flores — We observed the crew working below grade in the cellar with the proper safe",
-      "detail": "We observed the crew working below grade in the cellar with the proper safety controls in",
-      "psms": "Atmospheric Monitoring"
+      "headline": "Luis Zarate — Crew made sure to use exclusion zones for forklift, had spotter and used ta",
+      "detail": "Crew made sure to use exclusion zones for forklift, had spotter and used tag line when",
+      "psms": "Mobile Equipment"
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Exclusion zones were established using cones and caution tape, and designat",
-      "detail": "Exclusion zones were established using cones and caution tape, and designated muster",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Baldemar Bracamontes — Job was completed as planned, no triggers or injuries, strong communication",
-      "detail": "Job was completed as planned, no triggers or injuries, strong communication between",
+      "headline": "Cindy Smith — Job was completed as planned and there were no incidents or near misses",
+      "detail": "Did we leave the location better.",
       "psms": "Operational Discipline"
     },
     {
