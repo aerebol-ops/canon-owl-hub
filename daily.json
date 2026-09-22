@@ -230,5 +230,28 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 09/17"
+  },
+  "specialFocus": {
+    "week": 15,
+    "title": "Core Values — On Time, and Out of the Truck",
+    "why": "These aren't policies and they aren't suggestions — they're who Canon is. A company man plans his whole morning around when we say we'll be there: crews stage, work holds, and the clock starts on our word. And once we're on location, our value isn't the seat of a truck — it's a second set of eyes in the work. Two core values, one message: show up when you said, and be all the way there when you do.",
+    "standardLabel": "The Standard — Core Values, Not Options",
+    "standard": [
+      "<strong>Be on time — every location, every day.</strong> On time is fundamental to Canon Safety. The crew that's waiting on us can't break containment without us, and every minute they wait is our name on the delay.",
+      "<strong>Can't make it on time? The call is a MUST.</strong> The moment you know you'll be late — traffic, breakdown, held at the yard — you call, so we can inform the company man before he's looking at an empty gate. Late with a call ahead is a plan the location can work around. Late without one is a no-show until the second you arrive.",
+      "<strong>Get out of your truck and be involved.</strong> Park it, walk the location, find the PIC, ask what's moving today. Your task being done doesn't mean you're done — 'I'm here to help, what can I do?' is the Canon handshake. Nobody protects a location through a windshield."
+    ],
+    "scenarios": [
+      {
+        "title": "Twenty Minutes Out at Five Till",
+        "body": "It's 5:40 AM, the job starts at 6:00, and you're twenty minutes past that on your best day — wreck on the highway, nothing you did wrong. The temptation is to push hard and slip in quiet, hoping nobody clocks it. The standard is the opposite: make the call NOW, while the news is still useful. Dispatch tells the company man, he re-sequences his morning, and when you roll in he already knows — Canon's word held even when the road didn't. Then finish it right: park, get out, walk to the crew, and get in the work. The late arrival people forget; the empty gate and the tech who never left the cab, they remember."
+      }
+    ],
+    "questions": [
+      "You're going to be fifteen minutes late tomorrow — who do you call, and do you have that number in your phone right now?",
+      "When your task is done and the crew is still working, where are you standing — and what does the company man see when he looks over?",
+      "What time do you have to leave the yard to be EARLY to your farthest location — not on time, early?"
+    ],
+    "nonNegotiable": "On time, or on the phone before you're late — so the company man hears it from us, not from an empty gate. And out of the truck, in the work. These are core values. This is who we are."
   }
 }
