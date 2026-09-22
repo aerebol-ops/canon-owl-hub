@@ -2,7 +2,7 @@
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-09-22",
   "ytdPct": 82.9,
-  "ytdMissed": 1615,
+  "ytdMissed": 1616,
   "months": [
     {
       "month": "January 2026",
@@ -1929,19 +1929,19 @@
       "year": 2026,
       "monthNum": 9,
       "compliancePct": 83.9,
-      "missedTotal": 162,
-      "dailyNo": 94,
+      "missedTotal": 163,
+      "dailyNo": 95,
       "trailerInspNo": 24,
       "trailerReadyNo": 32,
-      "problemRows": 151,
-      "blanks": 565,
-      "employees": 79,
-      "cleanEmployees": 34,
-      "dailyYesTotal": 489,
-      "dailyNoTotal": 94,
-      "rawRows": 1244,
+      "problemRows": 155,
+      "blanks": 619,
+      "employees": 80,
+      "cleanEmployees": 35,
+      "dailyYesTotal": 495,
+      "dailyNoTotal": 95,
+      "rawRows": 1305,
       "daysCovered": 14,
-      "sheetsInMonth": 22,
+      "sheetsInMonth": 23,
       "byDay": [
         {
           "date": "9/1",
@@ -2010,8 +2010,8 @@
         },
         {
           "date": "9/20",
-          "missed": 4,
-          "pct": 64
+          "missed": 5,
+          "pct": 72
         }
       ],
       "watch": [
@@ -2041,6 +2041,15 @@
           "dailyYes": 8,
           "dailyNo": 5,
           "pct": 62
+        },
+        {
+          "name": "Dawson Drake",
+          "totalMissed": 9,
+          "dailyMissed": 4,
+          "trailerMissed": 5,
+          "dailyYes": 7,
+          "dailyNo": 4,
+          "pct": 64
         },
         {
           "name": "Larry Taylor",
@@ -2095,15 +2104,6 @@
           "dailyYes": 10,
           "dailyNo": 2,
           "pct": 83
-        },
-        {
-          "name": "Jeremy Norris",
-          "totalMissed": 7,
-          "dailyMissed": 3,
-          "trailerMissed": 4,
-          "dailyYes": 19,
-          "dailyNo": 3,
-          "pct": 86
         }
       ],
       "live": true,
