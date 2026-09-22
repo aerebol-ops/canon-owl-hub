@@ -19,11 +19,11 @@
         {
           "date": "Tue, Sep 22",
           "day": "Tuesday",
-          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Think before you speak. Think before you joke. Think before you act. Ask yourself: if this shows up in front of a client, my family, or leadership — does it represent me well? If the answer is no — don't do it.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Jerry Gonzales</strong> — Crew communication was excellent</li><li style='margin:3px 0;'><strong>Luis Zarate</strong> — Crew set out exclusion zone for forklift, used spotter and tagline when moving the</li><li style='margin:3px 0;'><strong>Jordan Lemmons</strong> — Did monitor tested and got 0s while crew was working in below grade well and kept the mt</li><li style='margin:3px 0;'><strong>Hayden Haugh</strong> — Crew understood the LSRAs and executed the job well.</li><li style='margin:3px 0;'><strong>Jeremy Norris</strong> — The job was completed with no incidents and no gases detected throughout</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Think before you speak. Think before you joke. Think before you act. Ask yourself: if this shows up in front of a client, my family, or leadership — does it represent me well? If the answer is no — don't do it.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Jordan Lemmons</strong> — Did our testing and got 0s so we got out of the way because the crew before didn't take off</li><li style='margin:3px 0;'><strong>Michael Jobe</strong> — Job went smoothly has planned</li><li style='margin:3px 0;'><strong>Justin Fontenot</strong> — Job went well with zero issues</li><li style='margin:3px 0;'><strong>Jeremy Norris</strong> — Job went safely and according to scope of work</li><li style='margin:3px 0;'><strong>Hayden Haugh</strong> — Crew worked well together due to good communication</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
           "flags": [
             "Clean board — no open watch items this week"
           ],
-          "recognition": "Jerry Gonzales — Crew communication was excellent"
+          "recognition": "Jordan Lemmons — Did our testing and got 0s so we got out of the way because the crew before"
         }
       ]
     },
