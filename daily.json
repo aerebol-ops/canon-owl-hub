@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "week": 15,
-  "day": 1,
+  "day": 2,
   "topicWeek": 13,
   "displayWeek": 6,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Operational Discipline",
     "marker": "Second lap of the 12 begins — same standards, fresh scenarios, zero autopilot"
   },
-  "openingMessage": "In leadership, there are no words more important than trust.",
+  "openingMessage": "A crisis can be a momentous time for a team to grow — if a leader handles it properly.",
   "openingAttribution": "Mike Krzyzewski",
-  "openingWhy": "When you write 0 ppm on a form, the next crew opens that line without re-testing — your signature is their gas test. Fudge one reading and every number you've ever signed becomes a question. There's no re-cal for a hand nobody trusts.",
+  "openingWhy": "When monitors alarmed mid-pull on a separator — gas off an unidentified line at 31 ppm — the crew mustered upwind, counted heads, and escalated. Nobody froze, nobody played hero. A bad moment handled by the numbers is the best training the field ever hands out.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,7 +164,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.",
+  "leadershipThought": "Think before you speak. Think before you joke. Think before you act. Ask yourself: if this shows up in front of a client, my family, or leadership — does it represent me well? If the answer is no — don't do it.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -172,32 +172,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jordan Lemmons — It was facing the opposite way when it happened so no one got hurt and ever",
-      "detail": "It was facing the opposite way when it happened so no one got hurt and everyone was",
+      "headline": "Jordan Lemmons — All tested 0s and crew got everything together",
+      "detail": "All tested 0s and crew got everything together",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras — Crews had great communication working together , crews verified LOTO, crews",
-      "detail": "Crews had great communication working together , crews verified LOTO, crews went over",
-      "psms": "Energy Isolation"
-    },
-    {
-      "type": "good",
-      "headline": "Justin Fontenot — Job went well zero gas or issues",
-      "detail": "Job went well zero gas or issues",
+      "headline": "Hayden Haugh — Crew did an excellent job with great communication",
+      "detail": "Crew did an excellent job with great communication",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Conducted a confined space job in tank 551 and 552 with no issues cleaning",
-      "detail": "Conducted a confined space job in tank 551 and 552 with no issues cleaning out water",
-      "psms": "Confined Space Entry"
+      "headline": "Jeremy Norris — The job went smoothly and according to the scope of work with everyone work",
+      "detail": "The job went smoothly and according to the scope of work with everyone working together",
+      "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — Everyone worked well together to quickly and efficiently get the job done,",
-      "detail": "Everyone worked well together to quickly and efficiently get the job done, but most of all",
+      "headline": "Michael Jobe — Job it self went great we had to wait on a part to get here after that was",
+      "detail": "Job it self went great we had to wait on a part to get here after that was smooth",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Justin Fontenot — Job was completed safely with zero issues",
+      "detail": "Job was completed safely with zero issues",
       "psms": "Operational Discipline"
     },
     {
@@ -208,8 +208,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Run your monitor check the full way today — pump, tubing, cal date, mode — not the short way. How you do it every day is how you'll do it the day it matters.",
-  "todaysChallengeSubtext": "“Practice does not make perfect. Only perfect practice makes perfect.” — Vince Lombardi",
+  "todaysChallenge": "Claim one thing on your location today out loud: 'the monitors are mine,' 'the trailer is mine,' 'the paperwork is mine.' Then make it bulletproof.",
+  "todaysChallengeSubtext": "“Responsibility equals accountability equals ownership.” — Pat Summitt",
   "compliance": {
     "weekOf": "Week of September 14, 2026",
     "metrics": [
