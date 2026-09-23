@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "week": 15,
-  "day": 2,
+  "day": 3,
   "topicWeek": 13,
   "displayWeek": 6,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Operational Discipline",
     "marker": "Second lap of the 12 begins — same standards, fresh scenarios, zero autopilot"
   },
-  "openingMessage": "A crisis can be a momentous time for a team to grow — if a leader handles it properly.",
+  "openingMessage": "I don't look at myself as a basketball coach. I look at myself as a leader who happens to coach basketball.",
   "openingAttribution": "Mike Krzyzewski",
-  "openingWhy": "When monitors alarmed mid-pull on a separator — gas off an unidentified line at 31 ppm — the crew mustered upwind, counted heads, and escalated. Nobody froze, nobody played hero. A bad moment handled by the numbers is the best training the field ever hands out.",
+  "openingWhy": "You're not an H2S tech who happens to be standing on a location — you're the safety leader that roustabout crew is watching. The newest worm out there is learning this trade off your habits, not your words. You're teaching either way. Teach on purpose.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,7 +164,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Think before you speak. Think before you joke. Think before you act. Ask yourself: if this shows up in front of a client, my family, or leadership — does it represent me well? If the answer is no — don't do it.",
+  "leadershipThought": "We protect lives on location. We represent our clients — Exxon, Civitas, and everyone we work for. We operate with professionalism, even when no one is watching. That is our standard at Canon.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -172,32 +172,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jordan Lemmons — Did our testing and got 0s so we got out of the way because the crew before",
-      "detail": "Did our testing and got 0s so we got out of the way because the crew before didn't take off",
+      "headline": "Jose Hurtado — Job went well good communication",
+      "detail": "Job went well good communication",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe — Job went smoothly has planned",
-      "detail": "Job went smoothly has planned",
+      "headline": "Caleb Smith — We observed crew using proper lifting measures with the forklift",
+      "detail": "We observed crew using proper lifting measures with the forklift. They had a spotter in",
+      "psms": "Mobile Equipment"
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez — Stop job utilized when scope of job changed",
+      "detail": "Stop job utilized when scope of job changed",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Justin Fontenot — Job went well with zero issues",
-      "detail": "Job went well with zero issues",
-      "psms": "Operational Discipline"
+      "headline": "Alejandro Najar — crew was cautious about disconnecting and having trapped pressure",
+      "detail": "Crew was cautious about disconnecting and having trapped pressure",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris — Job went safely and according to scope of work",
-      "detail": "Job went safely and according to scope of work",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Hayden Haugh — Crew worked well together due to good communication",
-      "detail": "Crew worked well together due to good communication",
+      "headline": "Jordan Lemmons — We went in and test got 0s so we were able to continue the job without air",
+      "detail": "We went in and test got 0s so we were able to continue the job without air",
       "psms": "Operational Discipline"
     },
     {
@@ -208,8 +208,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Claim one thing on your location today out loud: 'the monitors are mine,' 'the trailer is mine,' 'the paperwork is mine.' Then make it bulletproof.",
-  "todaysChallengeSubtext": "“Responsibility equals accountability equals ownership.” — Pat Summitt",
+  "todaysChallenge": "Check your attitude at the gate today. The crew reads it before you say a word — bring the version of you that makes the location better.",
+  "todaysChallengeSubtext": "“Ability is what you're capable of doing. Motivation determines what you do. Attitude determines how well you do it.” — Lou Holtz",
   "compliance": {
     "weekOf": "Week of September 14, 2026",
     "metrics": [
