@@ -3479,6 +3479,30 @@ async function renderTemplate() {
         const isToday = daily && daily.opsDate === todayStr;
         let html = '';
 
+        // Yesterday's Jobs — every job from the latest form day, grouped by
+        // category, with the crew's own bottom line. Leads scan this block and
+        // raise the flagged rows out loud.
+        if (daily && daily.yesterdaysJobs && daily.yesterdaysJobs.count) {
+          const yj = daily.yesterdaysJobs;
+          html += `<div style="border:2px solid var(--navy); border-radius:10px; margin-bottom:16px; overflow:hidden;">
+            <div style="background:var(--navy); color:#fff; padding:8px 12px; display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:6px;">
+              <span style="font-weight:800; font-size:13px;">&#128736; Yesterday's Jobs &mdash; ${yj.label}</span>
+              <span style="font-size:11.5px; opacity:.9;">${yj.count} job${yj.count === 1 ? '' : 's'}${yj.flags ? ` &middot; <strong style="color:#FFD966;">${yj.flags} to raise out loud</strong>` : ' &middot; clean day'}</span>
+            </div>
+            <div style="padding:10px 12px;">
+              ${yj.groups.map(g => `
+                <div style="font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--navy);margin:6px 0 4px;">${g.category} &mdash; ${g.jobs.length}</div>
+                ${g.jobs.map(j => `
+                  <div style="padding:6px 8px;margin-bottom:5px;border-left:3px solid ${j.flag ? '#C55A11' : '#d5dbe6'};background:${j.flag ? '#fff5ec' : '#f8f9fb'};border-radius:0 6px 6px 0;">
+                    <div style="font-size:13px;"><strong>${j.well}</strong>${j.jobType ? ` &middot; ${j.jobType}` : ''}${j.flag ? ' <strong style="color:#C55A11;">&#9888; raise this one</strong>' : ''}</div>
+                    <div style="font-size:12.5px;color:#333;margin-top:2px;">${j.note}</div>
+                    <div style="font-size:11px;color:var(--muted);margin-top:2px;">${j.crew || 'crew unattributed'}${j.cm ? ` &middot; CM: ${j.cm}` : ''}</div>
+                  </div>`).join('')}
+              `).join('')}
+            </div>
+          </div>`;
+        }
+
         // OWL form findings — the crew's own submissions, matched to the weekly topic
         if (daily && daily.exxonMoments) {
           html += `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--orange);margin-bottom:6px;">From the Crew's OWL Forms — ${w.psms}</div>`;
@@ -3837,7 +3861,15 @@ function shareMeetingSummary() {
   const todayCheck = (() => { const t = new Date(); return `${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,'0')}-${String(t.getDate()).padStart(2,'0')}`; })();
   const isToday = d && d.opsDate === todayCheck;
   let sec3 = '';
-  if (exxon)               sec3 += `<p class="label">From the Crew's OWL Forms — ${w.psms}</p><div class="box">${clean(exxon).replace(/<br><br>/g,'</div><div class="box" style="margin-top:8px;">')}</div>`;
+  if (d && d.yesterdaysJobs && d.yesterdaysJobs.count) {
+    const yj = d.yesterdaysJobs;
+    sec3 += `<p class="label">&#128736; Yesterday's Jobs — ${yj.label} · ${yj.count} job${yj.count === 1 ? '' : 's'}${yj.flags ? ` · ${yj.flags} flagged` : ' · clean day'}</p>`;
+    sec3 += yj.groups.map(g =>
+      `<p class="label" style="margin-top:8px;font-size:10px;">${g.category} — ${g.jobs.length}</p>` +
+      g.jobs.map(j => `<div class="box${j.flag ? ' flag' : ''}" style="margin-top:5px;"><strong>${j.well}</strong>${j.jobType ? ` · ${j.jobType}` : ''}${j.flag ? ' · <strong>&#9888; raise this one</strong>' : ''}<br>${j.note}<br><span style="font-size:11px;color:#888;">${j.crew || 'crew unattributed'}${j.cm ? ` · CM: ${j.cm}` : ''}</span></div>`).join('')
+    ).join('');
+  }
+  if (exxon)               sec3 += `<p class="label"${(d && d.yesterdaysJobs && d.yesterdaysJobs.count) ? ' style="margin-top:12px;"' : ''}>From the Crew's OWL Forms — ${w.psms}</p><div class="box">${clean(exxon).replace(/<br><br>/g,'</div><div class="box" style="margin-top:8px;">')}</div>`;
   const _flagItems = (d && d.fieldNews) ? d.fieldNews.filter(n => n.type === 'flag') : [];
   if (_flagItems.length)   sec3 += `<p class="label" style="margin-top:12px;">Watch Items</p>` + _flagItems.map(n => `<div class="box flag" style="margin-top:6px;"><strong>${n.headline}</strong>${n.detail ? '<br>' + n.detail : ''}</div>`).join('');
   if (lessons && isToday)  sec3 += `<p class="label" style="margin-top:12px;">Breakroom — Incidents &amp; Near-Misses</p><div class="box flag">${clean(lessons)}</div>`;
