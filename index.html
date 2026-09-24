@@ -3509,6 +3509,26 @@ async function renderTemplate() {
           </div>`;
         }
 
+        // Form Review highlights — Matt's daily audit of every StreetSmart
+        // form. Not all roses: the real concerns get coached out loud.
+        if (daily && daily.formReview && daily.formReview.concerns && daily.formReview.concerns.length) {
+          const fr = daily.formReview;
+          html += `<div style="border:2px solid #7f1d1d; border-radius:10px; margin-bottom:16px; overflow:hidden;">
+            <div style="background:#7f1d1d; color:#fff; padding:8px 12px;">
+              <span style="font-weight:800; font-size:13px;">&#128203; Form Review — ${fr.label}: ${fr.concerns.length} real concern${fr.concerns.length === 1 ? '' : 's'} to coach this morning</span>
+              <div style="font-size:11px; opacity:.85; margin-top:2px;">From the daily audit of every submitted form. We are not all roses and rainbows — this is where we improve.</div>
+            </div>
+            <div style="padding:10px 12px;">
+              ${fr.concerns.map(c => `
+                <div style="padding:6px 8px; margin-bottom:6px; border-left:3px solid #7f1d1d; background:#fdf2f2; border-radius:0 6px 6px 0;">
+                  <div style="font-size:12.5px; font-weight:700;">${c.title}</div>
+                  ${c.quote ? `<div style="font-size:12px; color:#555; font-style:italic; margin-top:2px;">&ldquo;${c.quote}&rdquo;</div>` : ''}
+                </div>`).join('')}
+              <div style="font-size:11px; color:var(--muted);">Full review on the Field Jobs tab &rarr; FORM REVIEW. Name these out loud — catching them is the win.</div>
+            </div>
+          </div>`;
+        }
+
         // OWL form findings — the crew's own submissions, matched to the weekly topic
         if (daily && daily.exxonMoments) {
           html += `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--orange);margin-bottom:6px;">From the Crew's OWL Forms — ${w.psms}</div>`;
@@ -3874,6 +3894,11 @@ function shareMeetingSummary() {
       `<p class="label" style="margin-top:8px;font-size:10px;">${g.category} — ${g.jobs.length}</p>` +
       g.jobs.map(j => `<div class="box${j.flag ? ' flag' : ''}" style="margin-top:5px;"><strong>${j.well}</strong>${j.jobType ? ` · ${j.jobType}` : ''}${j.flag ? ' · <strong>&#9888; raise this one</strong>' : ''}<br>${j.note}<br><span style="font-size:11px;color:#888;">${j.crew || 'crew unattributed'}${j.cm ? ` · CM: ${j.cm}` : ''}</span></div>`).join('')
     ).join('');
+  }
+  if (d && d.formReview && d.formReview.concerns && d.formReview.concerns.length) {
+    const fr = d.formReview;
+    sec3 += `<p class="label" style="margin-top:12px;">&#128203; Form Review — ${fr.label}: ${fr.concerns.length} real concern${fr.concerns.length === 1 ? '' : 's'} to coach</p>`;
+    sec3 += fr.concerns.map(c => `<div class="box flag" style="margin-top:5px;"><strong>${c.title}</strong>${c.quote ? `<br><em>&ldquo;${c.quote}&rdquo;</em>` : ''}</div>`).join('');
   }
   if (exxon)               sec3 += `<p class="label"${(d && d.yesterdaysJobs && d.yesterdaysJobs.count) ? ' style="margin-top:12px;"' : ''}>From the Crew's OWL Forms — ${w.psms}</p><div class="box">${clean(exxon).replace(/<br><br>/g,'</div><div class="box" style="margin-top:8px;">')}</div>`;
   const _flagItems = (d && d.fieldNews) ? d.fieldNews.filter(n => n.type === 'flag') : [];
@@ -5296,6 +5321,7 @@ function _jlLoopStrip() {
 function renderJobLogView(v) { _jlView = v; _jlPaint(); }
 
 let _formqc = null;
+let _ssreview = null;
 async function renderJobLog() {
   const el = document.getElementById('joblog-content');
   if (!el) return;
@@ -5308,8 +5334,12 @@ async function renderJobLog() {
     const rq = await fetch('formqc.json?_=' + Date.now(), { cache: 'no-store' });
     if (rq.ok) _formqc = await rq.json();
   } catch (e) { _formqc = null; }
+  try {
+    const rs = await fetch('ssreview.json?_=' + Date.now(), { cache: 'no-store' });
+    if (rs.ok) _ssreview = await rs.json();
+  } catch (e) { _ssreview = null; }
   const dayList = (_joblog.days || []).filter(d => d.jobs).map(d => d.date).sort().reverse();
-  if (!_jlView || (_jlView !== 'flags' && _jlView !== 'trends' && _jlView !== 'qc' && !dayList.includes(_jlView))) {
+  if (!_jlView || (_jlView !== 'flags' && _jlView !== 'trends' && _jlView !== 'qc' && _jlView !== 'review' && !dayList.includes(_jlView))) {
     _jlView = dayList[0] || 'trends';
   }
   _jlPaint();
@@ -5342,6 +5372,7 @@ function _jlPaint() {
     chip('flags', `&#9888; RED FLAGS${flagged.length ? ` (${flagged.length})` : ''}`, { color: '#b00020' }) +
     chip('trends', '&#128200; TRENDS', { color: '#375623' }) +
     (_formqc ? chip('qc', '&#10003; FORM QC', { color: '#BF8F00' }) : '') +
+    (_ssreview && _ssreview.latest ? chip('review', `&#128203; FORM REVIEW${(_ssreview.latest.concerns || []).length ? ` (${_ssreview.latest.concerns.length})` : ''}`, { color: '#7f1d1d' }) : '') +
     dayList.map(d => {
       const meta = (jl.days || []).find(x => x.date === d) || {};
       return chip(d, `${_jlDayName(d)} ${_jlFmtDay(d)} &middot; ${meta.jobs}${meta.flags ? ' <span style="color:#FFD966;">&#9679;</span>' : ''}`);
@@ -5484,6 +5515,27 @@ function _jlPaint() {
           <div style="margin-top:3px;">${(j.missing || []).map(m => `<span style="display:inline-block; background:#b45309; color:#fff; border-radius:99px; padding:1px 9px; font-size:10px; font-weight:800; margin:0 4px 3px 0;">${m}</span>`).join('')}${j.late_min !== null && j.late_min > 15 ? `<span style="display:inline-block; background:#C55A11; color:#fff; border-radius:99px; padding:1px 9px; font-size:10px; font-weight:800;">first activity +${j.late_min} min vs sched</span>` : ''}</div>
         </div>`).join('') : '<div style="color:#166534; font-weight:700; padding:10px 4px;">Every audited job complete — clean board.</div>'}
       <div style="font-size:11px; color:var(--muted); margin-top:10px; line-height:1.5;">&#9878; Fair-play note: "missing" means not visible in the daily export — a strong signal, not yet proof. Clean-record leads (Jordan Lemmons, Jose Hurtado, Pablo Soto at pilot) show the habit fits inside the workday. Late-start times are first form activity vs the board's scheduled start — a conversation starter, not a verdict.</div>`;
+  } else if (_jlView === 'review' && _ssreview && _ssreview.latest) {
+    const rv = _ssreview.latest;
+    const blocks = bs => bs.map(b => b.t === 'li'
+      ? `<div style="display:flex; gap:7px; padding:4px 0 4px 6px; font-size:12.5px; line-height:1.5;"><span style="color:#7f1d1d; font-weight:800;">&#8226;</span><span>${b.text}</span></div>`
+      : `<div style="font-size:12.5px; line-height:1.55; margin:8px 0 4px; ${/^[A-Z][^.]{3,60}\./.test(b.text) ? 'font-weight:600;' : ''}">${b.text}</div>`).join('');
+    body = `
+      <div style="background:#7f1d1d; color:#fff; border-radius:0 8px 8px 8px; padding:10px 14px; margin-bottom:12px;">
+        <div style="font-size:14px; font-weight:800;">&#128203; StreetSmart Form Review — ${rv.date}</div>
+        <div style="font-size:11.5px; opacity:.9; margin-top:3px;">${rv.summary}</div>
+        ${rv.verdict ? `<div style="font-size:12px; font-weight:700; margin-top:5px; color:#FFD966;">Verdict: ${rv.verdict}</div>` : ''}
+      </div>
+      ${(rv.concerns || []).length ? `<div style="font-size:13px; font-weight:800; color:#7f1d1d; margin:12px 0 8px;">Real Safety Concerns — coach these</div>` + rv.concerns.map(c => `
+        <div style="border:2px solid #7f1d1d; border-radius:10px; padding:10px 12px; margin-bottom:10px; background:#fdf2f2;">
+          <div style="font-size:13px; font-weight:800;">${c.title}</div>
+          ${c.quote ? `<div style="font-size:13px; color:#444; font-style:italic; margin-top:5px; padding-left:10px; border-left:3px solid #7f1d1d;">&ldquo;${c.quote}&rdquo;</div>` : ''}
+          ${c.text ? `<div style="font-size:12px; color:#555; margin-top:5px;">${c.text}</div>` : ''}
+        </div>`).join('') : ''}
+      ${(rv.confirm || []).length ? `<div style="font-size:13px; font-weight:800; color:#b45309; margin:14px 0 6px;">Needs the Tech's Confirmation — selection vs. what actually happened</div><div style="background:#fffbeb; border:1px solid #f0e0b0; border-radius:10px; padding:8px 12px;">${blocks(rv.confirm)}</div>` : ''}
+      ${(rv.doc || []).length ? `<div style="font-size:13px; font-weight:800; color:var(--navy); margin:14px 0 6px;">Documentation Issues — the record is what we hand an auditor</div><div style="background:#f8f9fb; border:1px solid #e2e6ee; border-radius:10px; padding:8px 12px;">${blocks(rv.doc)}</div>` : ''}
+      ${(rv.clean || []).length ? `<div style="font-size:13px; font-weight:800; color:#166534; margin:14px 0 6px;">Clean Submissions</div><div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:10px; padding:8px 12px;">${blocks(rv.clean)}</div>` : ''}
+      <div style="font-size:11px; color:var(--muted); margin-top:10px;">Source: Matt Croom's daily audit of the full packet corpus — every StreetSmart form, every type. Latest version of each day's review supersedes earlier ones.</div>`;
   } else {
     // a single day's sheet, grouped by category like the job board
     const dayJobs = jobs.filter(j => j.date === _jlView);
@@ -5511,7 +5563,7 @@ function _jlPaint() {
       <button onclick="shareJobLogPDF()" style="flex-shrink:0; background:#fff; color:var(--navy); border:2px solid var(--gold); border-radius:8px; padding:9px 14px; font-size:12.5px; font-weight:800; cursor:pointer;">&#128196; Share PDF</button>
     </div>
     <div style="display:flex; gap:4px; overflow-x:auto; padding:0 0 0 2px; margin-bottom:0;">${tabs}</div>
-    <div style="border-top:2px solid ${_jlView === 'flags' ? '#b00020' : _jlView === 'trends' ? '#375623' : _jlView === 'qc' ? '#BF8F00' : 'var(--navy)'}; padding-top:12px;">${body}</div>
+    <div style="border-top:2px solid ${_jlView === 'flags' ? '#b00020' : _jlView === 'trends' ? '#375623' : _jlView === 'qc' ? '#BF8F00' : _jlView === 'review' ? '#7f1d1d' : 'var(--navy)'}; padding-top:12px;">${body}</div>
     <div style="font-size:11px; color:var(--muted); text-align:center; margin:14px 0;">Jobs deduped by well + day &middot; form counts reconcile with the OWL leaderboard &middot; flags and PSMS topics mined from the crews' own notes</div>`;
 }
 
