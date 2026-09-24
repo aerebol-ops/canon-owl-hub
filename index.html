@@ -5258,88 +5258,185 @@ async function renderFieldVisits() {
   </div>`;
 }
 
-// ── FIELD JOBS TAB (added 9/24/2026) ──────────────────────────────────────
-// Trends the daily FieldForce job forms: volume by category, flag rate,
-// repeat-flag wells, and a 14-day job table. Fed by joblog.json (nightly).
+// ── FIELD JOBS TAB (added 9/24/2026; day-tab layout per Mike same day) ─────
+// Organized like the Exxon job board: one tab per day (each day's sheet of
+// forms), a highlighted RED FLAGS tab, and a TRENDS tab. Every note carries
+// its PSMS topic (the safety challenge, classified), and every flag carries
+// the 30-Minute Loop escalation strip. Fed by joblog.json (every sweep).
 let _joblog = null;
+let _jlView = null;
+const _JL_CAT_COLORS = { AGT: '#1F3864', Maintenance: '#C55A11', 'Well Testing': '#375623', Other: '#8a8f98' };
+const _jlFmtDay = s => { const d = new Date(s + 'T12:00:00'); return `${d.getMonth()+1}/${d.getDate()}`; };
+const _jlDayName = s => { const d = new Date(s + 'T12:00:00'); return ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][d.getDay()]; };
+
+function _jlPsmsChip(p, red) {
+  if (!p) return '';
+  return `<span style="display:inline-block; background:${red ? '#b00020' : 'var(--navy)'}; color:#fff; border-radius:99px; padding:1px 9px; font-size:10px; font-weight:800; letter-spacing:.03em; white-space:nowrap;">PSMS: ${p}</span>`;
+}
+
+function _jlJobRow(j, showDate) {
+  return `
+    <div style="padding:8px 10px; margin-bottom:6px; border-left:3px solid ${j.flag ? '#C55A11' : '#d5dbe6'}; background:${j.flag ? '#fff5ec' : '#f8f9fb'}; border-radius:0 6px 6px 0;">
+      <div style="display:flex; justify-content:space-between; align-items:baseline; gap:8px; flex-wrap:wrap;">
+        <div style="font-size:13px;"><strong>${j.well}</strong>${j.jobType ? ` &middot; ${j.jobType}` : ''}${showDate ? ` &middot; <span style="color:var(--muted);">${_jlDayName(j.date)} ${_jlFmtDay(j.date)}</span>` : ''}${j.flag ? ' <strong style="color:#C55A11;">&#9888;</strong>' : ''}</div>
+        ${_jlPsmsChip(j.psms, j.flag)}
+      </div>
+      ${j.note ? `<div style="font-size:12.5px; color:#333; margin-top:3px;">${j.note}</div>` : '<div style="font-size:11.5px; color:var(--muted); font-style:italic; margin-top:3px;">Form filed — no written note (picklists only).</div>'}
+      <div style="font-size:11px; color:var(--muted); margin-top:3px;">${j.crew || 'crew unattributed'}${j.cm ? ` &middot; CM: ${j.cm}` : ''}</div>
+    </div>`;
+}
+
+function _jlLoopStrip() {
+  return `<div onclick="showPage('loop', document.querySelector('nav button[data-page=loop]'))" style="cursor:pointer; display:flex; align-items:center; gap:8px; background:#f0f4ff; border:1px solid #d5e0f5; border-radius:6px; padding:6px 10px; margin-top:6px;">
+    <span style="font-size:15px;">&#128260;</span>
+    <span style="font-size:11px; line-height:1.45; color:#1F3864;"><strong>Run the 30-Minute Loop:</strong> tech &rarr; Team Lead (a call, not a text) &rarr; dispatch &rarr; Breakroom post. Challenge named, leadership informed, decision inside 30 minutes. <span style="text-decoration:underline;">Open the Loop &rarr;</span></span>
+  </div>`;
+}
+
+function renderJobLogView(v) { _jlView = v; _jlPaint(); }
+
 async function renderJobLog() {
   const el = document.getElementById('joblog-content');
   if (!el) return;
-  let jl;
   try {
     const r = await fetch('joblog.json?_=' + Date.now(), { cache: 'no-store' });
     if (!r.ok) { el.innerHTML = ''; return; }
-    jl = await r.json();
+    _joblog = await r.json();
   } catch (e) { el.innerHTML = ''; return; }
-  _joblog = jl;
-  const t = jl.tiles || {};
-  const days = jl.days || [];
-  const maxJobs = Math.max(...days.map(d => d.jobs), 1);
-  const CAT_COLORS = { AGT: '#1F3864', Maintenance: '#C55A11', 'Well Testing': '#375623', Other: '#8a8f98' };
-  const fmtDay = s => { const d = new Date(s + 'T12:00:00'); return `${d.getMonth()+1}/${d.getDate()}`; };
+  const dayList = (_joblog.days || []).filter(d => d.jobs).map(d => d.date).sort().reverse();
+  if (!_jlView || (_jlView !== 'flags' && _jlView !== 'trends' && !dayList.includes(_jlView))) {
+    _jlView = dayList[0] || 'trends';
+  }
+  _jlPaint();
+}
 
-  const tile = (n, label, sub, color) => `
-    <div style="flex:1; min-width:130px; background:#fff; border:2px solid ${color || 'var(--navy)'}; border-radius:10px; padding:12px 10px; text-align:center;">
-      <div style="font-size:27px; font-weight:900; color:${color || 'var(--navy)'};">${n}</div>
-      <div style="font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.6px; color:var(--muted); margin-top:2px;">${label}</div>
-      ${sub ? `<div style="font-size:10.5px; color:var(--muted); margin-top:2px;">${sub}</div>` : ''}
-    </div>`;
+function _jlPaint() {
+  const el = document.getElementById('joblog-content');
+  const jl = _joblog;
+  if (!el || !jl) return;
+  const jobs = jl.recent || [];
+  const flagged = jobs.filter(j => j.flag);
+  const dayList = (jl.days || []).filter(d => d.jobs).map(d => d.date).sort().reverse();
 
-  const bars = days.map(d => {
-    const segs = ['AGT', 'Maintenance', 'Well Testing', 'Other'].map(c =>
-      d[c] ? `<div style="height:${Math.round(d[c] / maxJobs * 120)}px; background:${CAT_COLORS[c]};" title="${c}: ${d[c]}"></div>` : ''
-    ).join('');
-    const rate = d.jobs ? Math.round(100 * d.flags / d.jobs) : 0;
-    return `<div style="display:flex; flex-direction:column; align-items:center; gap:3px; min-width:34px;">
-      <div style="font-size:10px; font-weight:800; color:${d.flags ? '#C55A11' : '#16a34a'};">${d.jobs ? rate + '%' : ''}</div>
-      <div style="display:flex; flex-direction:column-reverse; width:22px; border-radius:3px 3px 0 0; overflow:hidden;">${segs || '<div style="height:2px;background:#e5e7eb;"></div>'}</div>
-      <div style="font-size:9.5px; color:var(--muted);">${fmtDay(d.date)}</div>
-      <div style="font-size:9.5px; font-weight:700; color:#444;">${d.jobs}</div>
-    </div>`;
-  }).join('');
+  // ── sheet-tab strip (job-board style: red flags first, then trends, then days)
+  const chip = (id, label, opts) => {
+    const on = _jlView === id;
+    const c = (opts && opts.color) || 'var(--navy)';
+    return `<button onclick="renderJobLogView('${id}')" style="flex-shrink:0; border:2px solid ${c}; border-bottom:${on ? '2px solid #fff' : `2px solid ${c}`}; background:${on ? '#fff' : c}; color:${on ? c : '#fff'}; border-radius:8px 8px 0 0; padding:7px 12px; font-size:12px; font-weight:800; cursor:pointer; white-space:nowrap;">${label}</button>`;
+  };
+  const tabs =
+    chip('flags', `&#9888; RED FLAGS${flagged.length ? ` (${flagged.length})` : ''}`, { color: '#b00020' }) +
+    chip('trends', '&#128200; TRENDS', { color: '#375623' }) +
+    dayList.map(d => {
+      const meta = (jl.days || []).find(x => x.date === d) || {};
+      return chip(d, `${_jlDayName(d)} ${_jlFmtDay(d)} &middot; ${meta.jobs}${meta.flags ? ' <span style="color:#FFD966;">&#9679;</span>' : ''}`);
+    }).join('');
 
-  const legend = Object.entries(CAT_COLORS).slice(0, 3).map(([c, col]) =>
-    `<span style="display:inline-flex;align-items:center;gap:4px;font-size:10.5px;color:var(--muted);"><span style="width:10px;height:10px;border-radius:2px;background:${col};display:inline-block;"></span>${c}</span>`).join(' ');
-
-  const repeat = (jl.repeatFlagWells || []).map(w => `
-    <div style="background:#fff5ec; border:2px solid #C55A11; border-radius:10px; padding:12px 14px; margin-bottom:10px;">
-      <div style="font-size:14px; font-weight:800; color:#C55A11;">&#9888; ${w.well} — flagged ${w.count}&times; in 21 days</div>
-      ${w.notes.map(n => `<div style="font-size:12.5px; margin-top:6px; padding-left:10px; border-left:3px solid #C55A11;"><strong>${fmtDay(n.date)}</strong> — ${n.note}<br><span style="font-size:11px;color:var(--muted);">${n.crew || 'crew unattributed'}</span></div>`).join('')}
-    </div>`).join('');
-
-  const rows = (jl.recent || []).map(j => `
-    <div style="padding:7px 9px; margin-bottom:5px; border-left:3px solid ${j.flag ? '#C55A11' : '#d5dbe6'}; background:${j.flag ? '#fff5ec' : '#f8f9fb'}; border-radius:0 6px 6px 0;">
-      <div style="font-size:13px;"><strong>${j.well}</strong> &middot; <span style="color:${CAT_COLORS[j.category] || '#444'}; font-weight:700;">${j.category}</span>${j.jobType ? ` &middot; ${j.jobType}` : ''} &middot; <span style="color:var(--muted);">${fmtDay(j.date)}</span>${j.flag ? ' <strong style="color:#C55A11;">&#9888;</strong>' : ''}</div>
-      ${j.note ? `<div style="font-size:12.5px; color:#333; margin-top:2px;">${j.note}</div>` : ''}
-      <div style="font-size:11px; color:var(--muted); margin-top:2px;">${j.crew || 'crew unattributed'}${j.cm ? ` &middot; CM: ${j.cm}` : ''}</div>
-    </div>`).join('');
+  // ── view body
+  let body = '';
+  if (_jlView === 'flags') {
+    body = `
+      <div style="background:#b00020; color:#fff; border-radius:0 8px 8px 8px; padding:10px 14px; margin-bottom:12px;">
+        <div style="font-size:14px; font-weight:800;">&#9888; Red Flags — challenges the techs named on location</div>
+        <div style="font-size:11.5px; opacity:.9; margin-top:2px;">Pulled from the crews' own written notes &middot; each one carries its PSMS topic and runs the Loop &middot; last ${flagged.length ? Math.ceil((new Date() - new Date(flagged[flagged.length-1].date)) / 86400000) : 0} days</div>
+      </div>
+      ${flagged.length ? flagged.map(j => `
+        <div style="border:2px solid #b00020; border-radius:10px; padding:10px 12px; margin-bottom:10px; background:#fff5f5;">
+          <div style="display:flex; justify-content:space-between; align-items:baseline; gap:8px; flex-wrap:wrap;">
+            <div style="font-size:13.5px;"><strong>${j.well}</strong> &middot; <span style="color:${_JL_CAT_COLORS[j.category] || '#444'}; font-weight:700;">${j.category}</span> &middot; ${_jlDayName(j.date)} ${_jlFmtDay(j.date)}</div>
+            ${_jlPsmsChip(j.psms, true)}
+          </div>
+          <div style="font-size:13px; color:#333; margin-top:4px;">&ldquo;${j.note}&rdquo;</div>
+          <div style="font-size:11px; color:var(--muted); margin-top:3px;">${j.crew || 'crew unattributed'}${j.cm ? ` &middot; CM: ${j.cm}` : ''}</div>
+          ${_jlLoopStrip()}
+        </div>`).join('') : '<div style="color:var(--muted); font-style:italic; padding:12px 4px;">Clean board — no red flags in the window. When a tech writes a challenge, it lands here with its PSMS topic and the Loop.</div>'}
+      ${(jl.repeatFlagWells || []).length ? `<div style="font-size:13px; font-weight:800; color:#b00020; margin:16px 0 8px;">Repeat-Flag Wells — one flag is a day, two is a pattern</div>` + jl.repeatFlagWells.map(w => `
+        <div style="background:#fff5ec; border:2px solid #C55A11; border-radius:10px; padding:12px 14px; margin-bottom:10px;">
+          <div style="font-size:14px; font-weight:800; color:#C55A11;">&#9888; ${w.well} — flagged ${w.count}&times; in 21 days</div>
+          ${w.notes.map(n => `<div style="font-size:12.5px; margin-top:6px; padding-left:10px; border-left:3px solid #C55A11;"><strong>${_jlFmtDay(n.date)}</strong> — ${n.note}<br><span style="font-size:11px;color:var(--muted);">${n.crew || 'crew unattributed'}</span></div>`).join('')}
+        </div>`).join('') : ''}`;
+  } else if (_jlView === 'trends') {
+    const t = jl.tiles || {};
+    const days = jl.days || [];
+    const maxJobs = Math.max(...days.map(d => d.jobs), 1);
+    const tile = (n, label, sub, color) => `
+      <div style="flex:1; min-width:130px; background:#fff; border:2px solid ${color || 'var(--navy)'}; border-radius:10px; padding:12px 10px; text-align:center;">
+        <div style="font-size:27px; font-weight:900; color:${color || 'var(--navy)'};">${n}</div>
+        <div style="font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.6px; color:var(--muted); margin-top:2px;">${label}</div>
+        ${sub ? `<div style="font-size:10.5px; color:var(--muted); margin-top:2px;">${sub}</div>` : ''}
+      </div>`;
+    const bars = days.map(d => {
+      const segs = ['AGT', 'Maintenance', 'Well Testing', 'Other'].map(c =>
+        d[c] ? `<div style="height:${Math.round(d[c] / maxJobs * 120)}px; background:${_JL_CAT_COLORS[c]};" title="${c}: ${d[c]}"></div>` : ''
+      ).join('');
+      const rate = d.jobs ? Math.round(100 * d.flags / d.jobs) : 0;
+      return `<div style="display:flex; flex-direction:column; align-items:center; gap:3px; min-width:34px;">
+        <div style="font-size:10px; font-weight:800; color:${d.flags ? '#C55A11' : '#16a34a'};">${d.jobs ? rate + '%' : ''}</div>
+        <div style="display:flex; flex-direction:column-reverse; width:22px; border-radius:3px 3px 0 0; overflow:hidden;">${segs || '<div style="height:2px;background:#e5e7eb;"></div>'}</div>
+        <div style="font-size:9.5px; color:var(--muted);">${_jlFmtDay(d.date)}</div>
+        <div style="font-size:9.5px; font-weight:700; color:#444;">${d.jobs}</div>
+      </div>`;
+    }).join('');
+    const legend = Object.entries(_JL_CAT_COLORS).slice(0, 3).map(([c, col]) =>
+      `<span style="display:inline-flex;align-items:center;gap:4px;font-size:10.5px;color:var(--muted);"><span style="width:10px;height:10px;border-radius:2px;background:${col};display:inline-block;"></span>${c}</span>`).join(' ');
+    // PSMS mix across the window — which safety topics the challenges cluster in
+    const psmsCounts = {};
+    jobs.forEach(j => { if (j.psms && j.note) psmsCounts[j.psms] = (psmsCounts[j.psms] || 0) + 1; });
+    const psmsMax = Math.max(...Object.values(psmsCounts), 1);
+    const psmsBars = Object.entries(psmsCounts).sort((a, b) => b[1] - a[1]).map(([p, n]) => `
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:5px;">
+        <span style="min-width:170px; font-size:11.5px; font-weight:700; color:#333;">${p}</span>
+        <span style="flex:1; height:12px; background:#eef1f8; border-radius:4px; overflow:hidden;"><span style="display:block; height:100%; width:${Math.round(n / psmsMax * 100)}%; background:var(--navy);"></span></span>
+        <span style="min-width:24px; text-align:right; font-size:11.5px; font-weight:800; color:var(--navy);">${n}</span>
+      </div>`).join('');
+    body = `
+      <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px;">
+        ${tile(t.weekJobs, 'Jobs — Last 7 Days', `${t.weekForms} forms filed`)}
+        ${tile(t.weekFlagRate + '%', 'Flag Rate', 'jobs with a raise-it note', t.weekFlagRate >= 20 ? '#C55A11' : '#375623')}
+        ${tile(t.weekWells, 'Wells Covered', '', '#C55A11')}
+        ${tile(t.weekCrews, 'Crews Active', '', '#375623')}
+      </div>
+      <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:14px; margin-bottom:14px;">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
+          <div style="font-size:13px; font-weight:800; color:var(--navy);">Jobs per Day — flag rate on top</div>
+          <div style="display:flex; gap:10px;">${legend}</div>
+        </div>
+        <div style="display:flex; gap:4px; align-items:flex-end; overflow-x:auto; padding-bottom:4px;">${bars}</div>
+      </div>
+      ${psmsBars ? `<div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:14px; margin-bottom:14px;">
+        <div style="font-size:13px; font-weight:800; color:var(--navy); margin-bottom:8px;">Where the Challenges Cluster — PSMS topics from the written notes</div>
+        ${psmsBars}
+        <div style="font-size:10.5px; color:var(--muted); margin-top:6px;">Each written note is classified against the PSMS curriculum — the tall bars are next week's meeting material.</div>
+      </div>` : ''}`;
+  } else {
+    // a single day's sheet, grouped by category like the job board
+    const dayJobs = jobs.filter(j => j.date === _jlView);
+    const meta = (jl.days || []).find(x => x.date === _jlView) || {};
+    const groups = {};
+    dayJobs.forEach(j => (groups[j.category] = groups[j.category] || []).push(j));
+    body = `
+      <div style="background:var(--navy); color:#fff; border-radius:0 8px 8px 8px; padding:10px 14px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:6px;">
+        <div style="font-size:14px; font-weight:800;">${new Date(_jlView + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}</div>
+        <div style="font-size:11.5px; opacity:.9;">${meta.jobs || 0} jobs &middot; ${meta.forms || 0} forms${meta.flags ? ` &middot; <strong style="color:#FFD966;">${meta.flags} flagged</strong>` : ' &middot; clean day'}</div>
+      </div>
+      ${Object.keys(groups).sort().map(c => `
+        <div style="font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.06em; color:${_JL_CAT_COLORS[c] || 'var(--navy)'}; margin:10px 0 5px;">${c} — ${groups[c].length}</div>
+        ${groups[c].map(j => _jlJobRow(j, false)).join('')}
+      `).join('') || '<div style="color:var(--muted); font-style:italic;">No jobs on this sheet.</div>'}`;
+  }
 
   el.innerHTML = `
     <div class="section-label" style="margin-top:20px;">Field Jobs — Daily Form Log</div>
     <div style="background:var(--navy); color:#fff; border-radius:var(--radius); padding:14px 16px; box-shadow:var(--shadow); margin-bottom:14px; display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;">
       <div>
         <div style="font-size:16px; font-weight:800;">&#128736; Every job, every day — in the crew's own words</div>
-        <div style="font-size:12px; opacity:.85; margin-top:3px;">${jl.source} &middot; trending since ${fmtDay(jl.since)}</div>
+        <div style="font-size:12px; opacity:.85; margin-top:3px;">${jl.source} &middot; trending since ${_jlFmtDay(jl.since)} &middot; organized like the job board: one tab per day</div>
       </div>
       <button onclick="shareJobLogPDF()" style="flex-shrink:0; background:#fff; color:var(--navy); border:2px solid var(--gold); border-radius:8px; padding:9px 14px; font-size:12.5px; font-weight:800; cursor:pointer;">&#128196; Share PDF</button>
     </div>
-    <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px;">
-      ${tile(t.weekJobs, 'Jobs — Last 7 Days', `${t.weekForms} forms filed`)}
-      ${tile(t.weekFlagRate + '%', 'Flag Rate', 'jobs with a raise-it note', t.weekFlagRate >= 20 ? '#C55A11' : '#375623')}
-      ${tile(t.weekWells, 'Wells Covered', '', '#C55A11')}
-      ${tile(t.weekCrews, 'Crews Active', '', '#375623')}
-    </div>
-    <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:14px; margin-bottom:14px;">
-      <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-        <div style="font-size:13px; font-weight:800; color:var(--navy);">Jobs per Day — flag rate on top</div>
-        <div style="display:flex; gap:10px;">${legend}</div>
-      </div>
-      <div style="display:flex; gap:4px; align-items:flex-end; overflow-x:auto; padding-bottom:4px;">${bars}</div>
-    </div>
-    ${repeat ? `<div style="font-size:13px; font-weight:800; color:#C55A11; margin:16px 0 8px;">Repeat-Flag Wells — one flag is a day, two is a pattern</div>${repeat}` : ''}
-    <div style="font-size:13px; font-weight:800; color:var(--navy); margin:16px 0 8px;">Job Log — Last 14 Days</div>
-    ${rows || '<div style="color:var(--muted); font-style:italic;">No jobs in the window yet.</div>'}
-    <div style="font-size:11px; color:var(--muted); text-align:center; margin:14px 0;">Jobs deduped by well + day &middot; form counts reconcile with the OWL leaderboard &middot; flags mined from the crew's own notes</div>`;
+    <div style="display:flex; gap:4px; overflow-x:auto; padding:0 0 0 2px; margin-bottom:0;">${tabs}</div>
+    <div style="border-top:2px solid ${_jlView === 'flags' ? '#b00020' : _jlView === 'trends' ? '#375623' : 'var(--navy)'}; padding-top:12px;">${body}</div>
+    <div style="font-size:11px; color:var(--muted); text-align:center; margin:14px 0;">Jobs deduped by well + day &middot; form counts reconcile with the OWL leaderboard &middot; flags and PSMS topics mined from the crews' own notes</div>`;
 }
 
 function shareJobLogPDF() {
@@ -5349,7 +5446,7 @@ function shareJobLogPDF() {
   const dateStr = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
   const fmtDay = s => { const d = new Date(s + 'T12:00:00'); return `${d.getMonth()+1}/${d.getDate()}`; };
   const rows = (jl.recent || []).map(j => `
-    <div class="card${j.flag ? ' flag' : ''}"><strong>${j.well}</strong> · ${j.category}${j.jobType ? ` · ${j.jobType}` : ''} · ${fmtDay(j.date)}${j.flag ? ' · <strong>&#9888; flagged</strong>' : ''}
+    <div class="card${j.flag ? ' flag' : ''}"><strong>${j.well}</strong> · ${j.category}${j.jobType ? ` · ${j.jobType}` : ''} · ${fmtDay(j.date)}${j.psms && j.note ? ` · <span style="font-size:10px;font-weight:800;color:#1F3864;">PSMS: ${j.psms}</span>` : ''}${j.flag ? ' · <strong>&#9888; flagged</strong>' : ''}
     ${j.note ? `<br>${j.note}` : ''}<br><span style="font-size:11px;color:#888;">${j.crew || 'crew unattributed'}${j.cm ? ` · CM: ${j.cm}` : ''}</span></div>`).join('');
   const repeat = (jl.repeatFlagWells || []).map(w =>
     `<div class="card flag"><strong>&#9888; ${w.well} — flagged ${w.count}&times; in 21 days</strong>${w.notes.map(n => `<br>${fmtDay(n.date)} — ${n.note} <span style="font-size:11px;color:#888;">(${n.crew || 'unattributed'})</span>`).join('')}</div>`).join('');

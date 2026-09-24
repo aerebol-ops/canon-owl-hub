@@ -81,6 +81,7 @@
    "crew": "Jose Hurtado / Dermont Morgan 1099",
    "cm": "",
    "note": "Good communication staying out of line of fire",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -91,6 +92,7 @@
    "crew": "Larry Jaramillo / Christian Lee 1099",
    "cm": "Foreman_East Ops 2",
    "note": "New roustabout crew, all SSE's on crew",
+   "psms": "Operational Discipline",
    "flag": true
   },
   {
@@ -101,6 +103,7 @@
    "crew": "Ralph Forbes / William \"Jimmy\" Cooper 1099",
    "cm": "Abe Espinoza",
    "note": "Set up exclusion zone for Preston Freeman 15 I 109H and 15 H108H",
+   "psms": "Atmospheric Monitoring",
    "flag": false
   },
   {
@@ -111,6 +114,7 @@
    "crew": "",
    "cm": "",
    "note": "",
+   "psms": "",
    "flag": false
   },
   {
@@ -121,6 +125,7 @@
    "crew": "Caleb Smith / Bobby Galindo 1099",
    "cm": "Chad Farr",
    "note": "Crew completed the job according to plan",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -131,6 +136,7 @@
    "crew": "Ralph Forbes / William \"Jimmy\" Cooper 1099",
    "cm": "Clay Mateo",
    "note": "Set up exclusion zone and conducted a reconnect job",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -141,6 +147,7 @@
    "crew": "Pablo Soto / Bryan Medlin",
    "cm": "Andrew Mcfadden",
    "note": "Flow line connecting to well",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -151,6 +158,7 @@
    "crew": "",
    "cm": "",
    "note": "All around great communication",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -161,6 +169,7 @@
    "crew": "",
    "cm": "",
    "note": "First break deemed well area safe, workers all used proper ppe and safe too",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -171,6 +180,7 @@
    "crew": "Pablo Soto / Bryan Medlin",
    "cm": "James Glass",
    "note": "Connecting flow line to well",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -181,6 +191,7 @@
    "crew": "Nathan Contreras / Rolando Flores 1099",
    "cm": "Wade Russom",
    "note": "The crew accessed the cellar and ensured proper safety measures were in pla",
+   "psms": "Atmospheric Monitoring",
    "flag": false
   },
   {
@@ -191,6 +202,7 @@
    "crew": "Nathan Contreras / Rolando Flores 1099",
    "cm": "Wes Tankersley",
    "note": "Crew maintained clear communication throughout the job, reviewed the LSRAs",
+   "psms": "Atmospheric Monitoring",
    "flag": false
   },
   {
@@ -201,6 +213,7 @@
    "crew": "Dawson Drake / Jerry Gonzales",
    "cm": "Foreman_West Ops 9",
    "note": "Disconnect but with a leak vaule and the csg had 800 psi after loto",
+   "psms": "Energy Isolation",
    "flag": true
   },
   {
@@ -211,6 +224,7 @@
    "crew": "Larry Jaramillo / Christian Lee 1099",
    "cm": "Foreman_East Ops 3",
    "note": "Good communication when crew supervisor arrived on the second location",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -221,6 +235,7 @@
    "crew": "",
    "cm": "",
    "note": "Crew held safety meeting and went over everything",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -231,6 +246,7 @@
    "crew": "Michael Jobe / Justin Fontenot 1099",
    "cm": "Jeff Jones",
    "note": "Had a great meeting with the MT got the job done",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -241,6 +257,7 @@
    "crew": "",
    "cm": "",
    "note": "Crew was well prepared and fast at getting work done in a safe and orderly",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -251,6 +268,7 @@
    "crew": "Larry Jaramillo / Jerry Gonzales",
    "cm": "Foreman_South Ops 3",
    "note": "Disconnect and upgrade on heater treater",
+   "psms": "Atmospheric Monitoring",
    "flag": false
   },
   {
@@ -261,6 +279,7 @@
    "crew": "Caleb Smith / Alejandro Najar",
    "cm": "Brian Murphree",
    "note": "Crew performed their pre task briefing according psms standards",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -271,6 +290,7 @@
    "crew": "",
    "cm": "",
    "note": "Disconnected flow line from well",
+   "psms": "Atmospheric Monitoring",
    "flag": false
   },
   {
@@ -281,6 +301,7 @@
    "crew": "",
    "cm": "",
    "note": "Job canceled due to work over rig still on",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -291,6 +312,7 @@
    "crew": "Nathan Contreras / Gael \"Antonio\" Avila 1099",
    "cm": "Chad Farr",
    "note": "Did a meeting in the morning just waiting on the crane pretty essay and sim",
+   "psms": "Mobile Equipment",
    "flag": false
   },
   {
@@ -301,6 +323,7 @@
    "crew": "Jacob Hernandez / Jose Campos",
    "cm": "",
    "note": "Job completed productively to scope and safely",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -311,6 +334,7 @@
    "crew": "Michael Jobe / Ruben Rojo",
    "cm": "Tim Blackwell",
    "note": "Everything went great MT did the meeting went good ver what needed to be do",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -321,6 +345,7 @@
    "crew": "Jose Hurtado / Baldemar Bracomontes 1099",
    "cm": "Foreman_East Ops 9",
    "note": "Crane crew and safety crew had good communication, all LSRAs pertaining to",
+   "psms": "Mobile Equipment",
    "flag": true
   },
   {
@@ -331,6 +356,7 @@
    "crew": "Michael Jobe / Ruben Rojo",
    "cm": "Tim Blackwell",
    "note": "Had a meeting went over what needed to be done got right to work",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -341,6 +367,7 @@
    "crew": "Jeremy Norris / Justin Fontenot 1099",
    "cm": "Clay Mateo",
    "note": "Observed safety meeting and went over triggers and hold points",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -351,6 +378,7 @@
    "crew": "Jeremy Norris / Justin Fontenot 1099",
    "cm": "Clay Mateo",
    "note": "Crew held safety meeting",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -361,6 +389,7 @@
    "crew": "Jordan Lemmons / Bryan Medlin",
    "cm": "Jeff Jones",
    "note": "Reconnecting flow line to the well head",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -371,6 +400,7 @@
    "crew": "",
    "cm": "",
    "note": "",
+   "psms": "",
    "flag": false
   },
   {
@@ -381,6 +411,7 @@
    "crew": "Michael Jobe / Rolando Flores 1099",
    "cm": "Jeff Jones",
    "note": "MT went over the meeting really well covered everything that needed to be",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -391,6 +422,7 @@
    "crew": "Michael Jobe / Rolando Flores 1099",
    "cm": "Robert Murphree",
    "note": "Flow lines were disconnected in a controlled manner during the initial firs",
+   "psms": "Atmospheric Monitoring",
    "flag": false
   },
   {
@@ -401,6 +433,7 @@
    "crew": "",
    "cm": "",
    "note": "",
+   "psms": "",
    "flag": false
   },
   {
@@ -411,6 +444,7 @@
    "crew": "Jordan Lemmons / Pablo Soto",
    "cm": "Wes Tankersley",
    "note": "Had a leaking casing valve we tested and had high lel so we didn't use any",
+   "psms": "Operational Discipline",
    "flag": true
   },
   {
@@ -421,6 +455,7 @@
    "crew": "Stefanie Kirschke / Rolando Flores 1099",
    "cm": "James Glass",
    "note": "Crew followed proper procedures and maintained good communication throughou",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -431,6 +466,7 @@
    "crew": "Jordan Lemmons / Pablo Soto",
    "cm": "Tim Blackwell",
    "note": "Job went well we did first break under air and got some benzene",
+   "psms": "Atmospheric Monitoring",
    "flag": false
   },
   {
@@ -441,6 +477,7 @@
    "crew": "Jordan Lemmons / Pablo Soto",
    "cm": "Tim Blackwell",
    "note": "Went over Lsra before we used the forklift and when over what could happen",
+   "psms": "Mobile Equipment",
    "flag": false
   },
   {
@@ -451,6 +488,7 @@
    "crew": "Michael Jobe / Justin Fontenot 1099",
    "cm": "Foreman_West Ops 8",
    "note": "Had a good meeting told what needed to be done",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -461,6 +499,7 @@
    "crew": "",
    "cm": "",
    "note": "Reconnecting flow line to the wellhead",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -471,6 +510,7 @@
    "crew": "Jordan Lemmons / Bryan Medlin",
    "cm": "Foreman_West Ops 6",
    "note": "Pump trucks connected to well head using proper equipment and pumping fluid",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -481,6 +521,7 @@
    "crew": "Jeremy Norris / Justin Fontenot 1099",
    "cm": "Foreman_East Ops 2",
    "note": "Safety meeting was conducted and went over all LMRA's",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -491,6 +532,7 @@
    "crew": "Michael Jobe / Bobby Galindo 1099",
    "cm": "Bryan Hamilton",
    "note": "Had meeting went great job had no issues they took there time in did everyt",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -501,6 +543,7 @@
    "crew": "Michael Jobe / Bobby Galindo 1099",
    "cm": "Bryan Hamilton",
    "note": "Had meetings went great had to kill the well",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -511,6 +554,7 @@
    "crew": "Caleb Smith / Ruben Rojo",
    "cm": "",
    "note": "Job was already completed before we got to location",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -521,6 +565,7 @@
    "crew": "Caleb Smith / Ruben Rojo",
    "cm": "",
    "note": "Job was completed yesterday",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -531,6 +576,7 @@
    "crew": "Jose Hurtado / Baldemar Bracomontes 1099",
    "cm": "Foreman_West Ops 4",
    "note": "Had pretask meeting, all hazards and possible triggers were discussed and e",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -541,6 +587,7 @@
    "crew": "Jose Hurtado / Baldemar Bracomontes 1099",
    "cm": "Foreman_West Ops 6",
    "note": "Job was completed safely, no incident or triggers occurred",
+   "psms": "Operational Discipline",
    "flag": true
   },
   {
@@ -551,6 +598,7 @@
    "crew": "Pablo Soto / Alexander Clubb",
    "cm": "Foreman_Central Ops 2",
    "note": "Job scope was hanging polished rod on pump jack",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -561,6 +609,7 @@
    "crew": "Nathan Contreras / Christian Lee 1099",
    "cm": "Clay Mateo",
    "note": "A disconnect on wh/fl/elec",
+   "psms": "Atmospheric Monitoring",
    "flag": false
   },
   {
@@ -571,6 +620,7 @@
    "crew": "Dawson Drake / Jerry Gonzales",
    "cm": "Shelly Thiel",
    "note": "Crew reconnect with tubing",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -581,6 +631,7 @@
    "crew": "Dawson Drake / Jerry Gonzales",
    "cm": "Shelly Thiel",
    "note": "Crew worked at steady pase",
+   "psms": "Atmospheric Monitoring",
    "flag": false
   },
   {
@@ -591,6 +642,7 @@
    "crew": "Larry Jaramillo / Rolando Flores 1099",
    "cm": "Foreman_East Ops 6",
    "note": "Job got canceled due to well head leaking",
+   "psms": "Operational Discipline",
    "flag": true
   },
   {
@@ -601,6 +653,7 @@
    "crew": "Larry Jaramillo / Rolando Flores 1099",
    "cm": "Foreman_East Ops 3",
    "note": "Initially, the kill truck did not successfully kill the well as expected",
+   "psms": "Atmospheric Monitoring",
    "flag": true
   },
   {
@@ -611,6 +664,7 @@
    "crew": "Nathan Contreras / Christian Lee 1099",
    "cm": "Keane Robinson",
    "note": "We observed a disconnect on a wellhead",
+   "psms": "Energy Isolation",
    "flag": false
   },
   {
@@ -621,6 +675,7 @@
    "crew": "Jacob Hernandez / Alejandro Najar",
    "cm": "Victor Cruz",
    "note": "work was not performed due to work still being performed by workover crew",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -631,6 +686,7 @@
    "crew": "Jacob Hernandez / Alejandro Najar",
    "cm": "",
    "note": "crews reconnected flow lines",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -641,6 +697,7 @@
    "crew": "Jeremy Norris / Justin Fontenot 1099",
    "cm": "Foreman_East Ops 3",
    "note": "Safety meeting was conducted and crew began working on assembling the conve",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -651,6 +708,7 @@
    "crew": "",
    "cm": "",
    "note": "Successful disconnect",
+   "psms": "Atmospheric Monitoring",
    "flag": false
   },
   {
@@ -661,6 +719,7 @@
    "crew": "Jordan Lemmons / Bryan Medlin",
    "cm": "Foreman_West Ops 8",
    "note": "Disconnected well and masked up and tested and got some benzene",
+   "psms": "Atmospheric Monitoring",
    "flag": false
   },
   {
@@ -671,6 +730,7 @@
    "crew": "",
    "cm": "",
    "note": "",
+   "psms": "",
    "flag": false
   },
   {
@@ -681,6 +741,7 @@
    "crew": "",
    "cm": "",
    "note": "Job scope was converting well into a pump jack",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -691,6 +752,7 @@
    "crew": "Hayden Haugh 1099 / Christian Lee 1099",
    "cm": "Tim Blackwell",
    "note": "Reconnect of wellhead",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -701,6 +763,7 @@
    "crew": "Michael Jobe / Justin Fontenot 1099",
    "cm": "Chad Farr",
    "note": "Safety meeting couldn't understand didn't know English",
+   "psms": "Operational Discipline",
    "flag": true
   },
   {
@@ -711,6 +774,7 @@
    "crew": "Nathan Contreras / Alejandro Najar",
    "cm": "Foreman_Central Ops 2",
    "note": "valve was installed on hanger rod",
+   "psms": "Mobile Equipment",
    "flag": false
   },
   {
@@ -721,6 +785,7 @@
    "crew": "",
    "cm": "",
    "note": "Same crew so everything went well",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -731,6 +796,7 @@
    "crew": "Larry Jaramillo / Gael \"Antonio\" Avila 1099",
    "cm": "Foreman_West Ops 7",
    "note": "Did the meeting pretty simple and essay",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -741,6 +807,7 @@
    "crew": "Alexander Clubb / Rolando Flores 1099",
    "cm": "Victor Cruz",
    "note": "Job scope was a reconnect and hang the horse head for well to go back into",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -751,6 +818,7 @@
    "crew": "Jordan Lemmons / Bryan Medlin",
    "cm": "Shelly Thiel",
    "note": "Disconnected the 109 well and the 108 for the work over",
+   "psms": "Atmospheric Monitoring",
    "flag": false
   },
   {
@@ -761,6 +829,7 @@
    "crew": "",
    "cm": "",
    "note": "no issues to report all went accordingly to the job scope",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -771,6 +840,7 @@
    "crew": "Larry Jaramillo / Gael \"Antonio\" Avila 1099",
    "cm": "Wade Russom",
    "note": "Getting the job done same crew as yesterday so pretty good communication",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -781,6 +851,7 @@
    "crew": "Caleb Smith / Jerry Gonzales",
    "cm": "Foreman_East Ops 3",
    "note": "Crews worked well together",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -791,6 +862,7 @@
    "crew": "Jacob Hernandez / Jose Campos",
    "cm": "Foreman_West Ops 8",
    "note": "Great communication from Co Rep during safety meeting",
+   "psms": "Stop Work Authority",
    "flag": true
   },
   {
@@ -801,6 +873,7 @@
    "crew": "Dawson Drake / Robbie Henigan 1099",
    "cm": "Foreman_West Ops 9",
    "note": "Well, head conversion",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -811,6 +884,7 @@
    "crew": "Jeremy Norris / Bobby Galindo 1099",
    "cm": "",
    "note": "All personal worked safely no issues to report at this point",
+   "psms": "Operational Discipline",
    "flag": false
   },
   {
@@ -821,6 +895,7 @@
    "crew": "",
    "cm": "",
    "note": "Reconnection of wellhead",
+   "psms": "Operational Discipline",
    "flag": false
   }
  ]
