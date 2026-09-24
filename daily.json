@@ -317,38 +317,38 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dawson Drake / Jerry Gonzales — Crew did a reconnect on well that was shut in",
-      "detail": "Crew was communicating well .",
+      "headline": "Jacob Hernandez / Jose Campos — Replaced valves , gaskets, New Kimrays",
+      "detail": "Good communication, proper ppe used , proper tools ,.",
       "psms": "Operational Discipline",
-      "level": "eagle"
+      "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Ruben Rojo — Verify conditions, brief all personnel, and leave the location better than you f",
-      "detail": "OWL form — Operational Discipline",
+      "headline": "Stefanie Kirschke / Rolando Flores 1099 — Good communication and proper safety controls were maintained throughout th",
+      "detail": "Continue improving communication and verifying all controls before starting work.",
+      "psms": "Atmospheric Monitoring",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons / Bryan Medlin — Had to bleed down the well into a open top and pump 95bbls of brine to kill",
+      "detail": "Got 0s so crew worked fast to get the valves and rubbers that needed replaced.",
       "psms": "Operational Discipline",
-      "level": "eagle"
+      "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Justin Fontenot 1099 — Safety meeting was conducted and crew began working on assembling the conve",
-      "detail": "Next job will be conducted with the same procedures and processes.",
+      "headline": "Nathan Contreras / Rolando Flores 1099 — The crew accessed and ensured proper safety measures were in place before s",
+      "detail": "Continue to improve communication and hazard awareness before working, and maintain atmospheric testing and safety controls throughout the job.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — New dis cussed exclusion zones",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
       "psms": "Operational Discipline",
-      "level": "eagle"
-    },
-    {
-      "type": "good",
-      "headline": "Jeremy Norris / Bobby Galindo 1099 — A lubricator job where we went in the get the \"dart\" back out from being st",
-      "detail": "Be more understanding of the fact that we are using new crews now and they may take a little longer to do jobs than other crews in the past.",
-      "psms": "Stop Work Authority",
-      "level": "eagle"
-    },
-    {
-      "type": "good",
-      "headline": "Jacob Hernandez / Jose Campos — Great communication from Co Rep during safety meeting",
-      "detail": "Stop work utilized reassessed job as scope changed.",
-      "psms": "Stop Work Authority",
-      "level": "eagle"
+      "level": null
     },
     {
       "type": "flag",
