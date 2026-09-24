@@ -5464,19 +5464,29 @@ function _jlPaint() {
     const nComplete = qj.filter(j => j.complete).length;
     const nJsa = qj.filter(j => j.checks && j.checks.jsa).length;
     const lateJobs = qj.filter(j => j.late_min !== null && j.late_min > 15);
-    // Lead leaderboard — JSA completeness %, leaderboard methodology:
-    // percentages not raw counts, ranked by rate then volume
+    // Per-person Form Scoreboard — running tally since 9/17 by FT lead
+    // (the export drops names, so the board's crew is the attribution; the
+    // lead answers for the team's packet). Ranked by completion rate then
+    // volume — percentages, never raw counts, so low-volume weeks don't hide.
+    const _qcShort = { 'OWL review written': 'OWL', 'Exxon JSA uploaded': 'JSA',
+                       '4-gas monitor photo': '4-Gas', 'Location sign photo': 'Sign',
+                       'Field ticket uploaded': 'Ticket' };
     const leads = {};
     qj.forEach(j => {
       const L = _jlLead(j.techs);
-      const rec = leads[L] = leads[L] || { name: L, run: 0, jsa: 0 };
+      const rec = leads[L] = leads[L] || { name: L, run: 0, forms: 0, done: 0, miss: {} };
       rec.run += 1;
-      if (j.checks && j.checks.jsa) rec.jsa += 1;
+      rec.forms += j.forms || 0;
+      if (j.complete) rec.done += 1;
+      (j.missing || []).forEach(m => { rec.miss[m] = (rec.miss[m] || 0) + 1; });
     });
     const board = Object.values(leads).filter(l => l.name !== '(unattributed)')
-      .map(l => ({ ...l, pct: Math.round(100 * l.jsa / l.run) }))
+      .map(l => ({ ...l, pct: Math.round(100 * l.done / l.run) }))
       .sort((a, b) => b.pct - a.pct || b.run - a.run);
     const unatt = leads['(unattributed)'];
+    const missChips = l => Object.entries(l.miss)
+      .sort((a, b) => b[1] - a[1])
+      .map(([m, n]) => `<span style="display:inline-block; background:#fff; border:1.5px solid #b45309; color:#b45309; border-radius:99px; padding:0 8px; font-size:9.5px; font-weight:800; margin:2px 4px 0 0;">${_qcShort[m] || m} &times;${n}</span>`).join('');
     const pctColor = p => p >= 80 ? '#166534' : p >= 50 ? '#b45309' : '#991b1b';
     const medal = i => i === 0 ? '&#129351;' : i === 1 ? '&#129352;' : i === 2 ? '&#129353;' : `<span style="color:var(--muted);font-size:11px;">${i + 1}</span>`;
     const qtile = (n, label, color) => `
@@ -5498,19 +5508,22 @@ function _jlPaint() {
       </div>
       <div style="background:#fff; border:2px solid #BF8F00; border-radius:12px; overflow:hidden; margin-bottom:14px;">
         <div style="background:var(--navy); color:#fff; padding:10px 14px;">
-          <div style="font-size:10px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#FFD966;">&#9733; JSA Board — by FT Lead</div>
-          <div style="font-size:13px; font-weight:800; margin-top:2px;">The lead's packet carries the team — ranked by completeness</div>
+          <div style="font-size:10px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#FFD966;">&#9733; Form Scoreboard — by FT Lead</div>
+          <div style="font-size:13px; font-weight:800; margin-top:2px;">Running tally since ${_jlFmtDay(_formqc.jobs.length ? _formqc.jobs[_formqc.jobs.length-1].date : '2026-09-17')} — jobs run, packets complete, and exactly what's missing</div>
         </div>
         <div style="padding:8px 12px;">
           ${board.map((l, i) => `
-            <div style="display:flex; align-items:center; gap:10px; padding:5px 4px; ${i < board.length - 1 ? 'border-bottom:1px solid #f0f0f0;' : ''}">
-              <span style="min-width:26px; text-align:center; font-size:15px;">${medal(i)}</span>
-              <span style="flex:1; font-size:13px; font-weight:${i < 3 ? 800 : 600};">${l.name}</span>
-              <span style="flex:2; height:10px; background:#eef1f8; border-radius:4px; overflow:hidden; max-width:38%;"><span style="display:block; height:100%; width:${l.pct}%; background:${i < 3 ? '#BF8F00' : 'var(--navy)'};"></span></span>
-              <span style="min-width:64px; text-align:right; font-size:11.5px; color:var(--muted);"><strong style="color:var(--navy); font-size:13px;">${l.jsa}</strong> of ${l.run}</span>
-              <span style="min-width:40px; text-align:right; font-size:12.5px; font-weight:800; color:${pctColor(l.pct)};">${l.pct}%</span>
+            <div style="padding:6px 4px; ${i < board.length - 1 ? 'border-bottom:1px solid #f0f0f0;' : ''}">
+              <div style="display:flex; align-items:center; gap:10px;">
+                <span style="min-width:26px; text-align:center; font-size:15px;">${medal(i)}</span>
+                <span style="flex:1; font-size:13px; font-weight:${i < 3 ? 800 : 600};">${l.name}</span>
+                <span style="flex:2; height:10px; background:#eef1f8; border-radius:4px; overflow:hidden; max-width:32%;"><span style="display:block; height:100%; width:${l.pct}%; background:${i < 3 ? '#BF8F00' : 'var(--navy)'};"></span></span>
+                <span style="min-width:96px; text-align:right; font-size:11.5px; color:var(--muted);"><strong style="color:var(--navy); font-size:13px;">${l.done}</strong> of ${l.run} jobs &middot; ${l.forms} forms</span>
+                <span style="min-width:40px; text-align:right; font-size:12.5px; font-weight:800; color:${pctColor(l.pct)};">${l.pct}%</span>
+              </div>
+              ${Object.keys(l.miss).length ? `<div style="padding-left:36px; margin-top:2px;"><span style="font-size:9.5px; font-weight:700; text-transform:uppercase; letter-spacing:.5px; color:var(--muted); margin-right:4px;">missing:</span>${missChips(l)}</div>` : `<div style="padding-left:36px; margin-top:2px; font-size:10px; font-weight:800; color:#166534;">&#10003; every packet complete</div>`}
             </div>`).join('')}
-          ${unatt ? `<div style="font-size:11px; color:var(--muted); padding:8px 4px 2px; border-top:2px solid #e5e7eb; margin-top:6px;">+ ${unatt.run} jobs not matched to a board crew (${unatt.jsa} with JSA) — not ranked</div>` : ''}
+          ${unatt ? `<div style="font-size:11px; color:var(--muted); padding:8px 4px 2px; border-top:2px solid #e5e7eb; margin-top:6px;">+ ${unatt.run} jobs (${unatt.forms} forms) not matched to a board crew — ${unatt.done} complete, not ranked</div>` : ''}
         </div>
       </div>
       ${incomplete.length ? `<div style="font-size:13px; font-weight:800; color:#b45309; margin:14px 0 8px;">Incomplete Jobs — what's missing, by job</div>` + incomplete.map(j => `
