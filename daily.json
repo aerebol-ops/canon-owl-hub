@@ -311,6 +311,29 @@
       }
     ]
   },
+  "formReview": {
+    "date": "2026-09-23",
+    "label": "Wednesday 9/23",
+    "verdict": "4 items I would treat as real safety concerns, 4 forms where a stop-work or unsafe-conditions selection needs the technician's confirmation, and a set of documentation problems grouped below. Every item flagged was re-read directly from the source PDF.",
+    "concerns": [
+      {
+        "title": "Stop work authority actually exercised — Ralph Forbes, XTO Energy, Mustang West 8-27H, OWL submitted 11:58 AM (job 34932_1, 7:15 AM–12:00 PM). This is the one form today ",
+        "quote": "Stop the job utilized because pipe was not secure with the tagline and moved around properly"
+      },
+      {
+        "title": "Benzene above zero, leaking casing valve, work performed off air — Jordan Lemmons, XTO Energy, Elkin Crawford 34CC 103H, job 6:58 AM–2:39 PM (34928_1). The Details field,",
+        "quote": "Disconnected well got some benzene of 0.65 from the flowline the casing valve was leaking and tried testing for benzene in the breathing area but the wind kept blowing it away so we were able to do the job without being under the air the whole time"
+      },
+      {
+        "title": "Benzene above zero, unquantified — Jordan Lemmons, XTO Energy, Javaid Central 40C #3H, job 3:18 PM–7:14 PM (34962_1). \"We tested 0's for all gases besides a little bit of",
+        "quote": "We tested 0's for all gases besides a little bit of benzene"
+      },
+      {
+        "title": "Technician not in issued FR uniform — Caleb Smith, Trailer 504, Stanton TX, form time 5:42 AM. \"Are you wearing you Canon Safety issued FR uniform?\" answered No, with \"If",
+        "quote": "Are you wearing you Canon Safety issued FR uniform?"
+      }
+    ]
+  },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -318,32 +341,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Alejandro Najar — crews reconnected flow lines",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "headline": "Michael Jobe / Bobby Galindo 1099 — Had meetings went great had to kill the well",
+      "detail": "Have a better meeting.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras / Christian Lee 1099 — We observed a disconnect on a wellhead",
-      "detail": "Crews verified safeguards were in place prior to work , crews also went over potential hazards and how to mitigate them , crews went over hold points and muster points of",
-      "psms": "Energy Isolation"
-    },
-    {
-      "type": "good",
-      "headline": "Larry Jaramillo / Rolando Flores 1099 — Initially, the kill truck did not successfully kill the well as expected",
-      "detail": "Continue to verify the well is fully killed and pressure is controlled before proceeding, and maintain clear communication between the crew and kill truck operator throug",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "good",
-      "headline": "Pablo Soto / Alexander Clubb — Job scope was hanging polished rod on pump jack",
-      "detail": "Job scope was completed successfully with no reworks.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Caleb Smith / Ruben Rojo — Job was completed yesterday",
+      "headline": "Jeremy Norris / Bobby Galindo 1099 — All personal worked safely no issues to report at this point",
       "detail": "L - Learn: One thing we'll do better next time.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Dawson Drake / Robbie Henigan 1099 — The communication was great between the crew and the Canon tech.",
+      "detail": "OWL form — Operational Discipline",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Caleb Smith / Jerry Gonzales — Crews worked well together",
+      "detail": "Crews worked well together.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Larry Jaramillo / Gael \"Antonio\" Avila 1099 — Getting the job done same crew as yesterday so pretty good communication",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
       "psms": "Operational Discipline"
     },
     {
