@@ -1695,6 +1695,7 @@
     <button data-page="safetycomp" onclick="showPage('safetycomp', this)">Safety Compliance</button>
     <button data-page="fieldvisits" onclick="showPage('fieldvisits', this)">Field Visits</button>
     <button data-page="rentals" onclick="showPage('rentals', this)">Rentals</button>
+    <button data-page="jobs" onclick="showPage('jobs', this)">Field Jobs</button>
     <button data-page="sops" onclick="showPage('sops', this)">SOPs</button>
     <button data-page="payroll" onclick="showPage('payroll', this)">Payroll &amp; Benefits</button>
     <button data-page="brochure" onclick="showPage('brochure', this)">Brochure</button>
@@ -2083,6 +2084,11 @@
 <!-- ── RENTALS ── -->
 <div id="page-rentals" class="page">
   <div id="rentals-content"><div style="padding:30px 0; text-align:center; color:var(--muted);">Loading rental board&hellip;</div></div>
+</div>
+
+<!-- ── FIELD JOBS ── -->
+<div id="page-jobs" class="page">
+  <div id="joblog-content"><div style="padding:30px 0; text-align:center; color:var(--muted);">Loading job log&hellip;</div></div>
 </div>
 
 <!-- ── SOPs ── -->
@@ -5252,6 +5258,128 @@ async function renderFieldVisits() {
   </div>`;
 }
 
+// ── FIELD JOBS TAB (added 9/24/2026) ──────────────────────────────────────
+// Trends the daily FieldForce job forms: volume by category, flag rate,
+// repeat-flag wells, and a 14-day job table. Fed by joblog.json (nightly).
+let _joblog = null;
+async function renderJobLog() {
+  const el = document.getElementById('joblog-content');
+  if (!el) return;
+  let jl;
+  try {
+    const r = await fetch('joblog.json?_=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) { el.innerHTML = ''; return; }
+    jl = await r.json();
+  } catch (e) { el.innerHTML = ''; return; }
+  _joblog = jl;
+  const t = jl.tiles || {};
+  const days = jl.days || [];
+  const maxJobs = Math.max(...days.map(d => d.jobs), 1);
+  const CAT_COLORS = { AGT: '#1F3864', Maintenance: '#C55A11', 'Well Testing': '#375623', Other: '#8a8f98' };
+  const fmtDay = s => { const d = new Date(s + 'T12:00:00'); return `${d.getMonth()+1}/${d.getDate()}`; };
+
+  const tile = (n, label, sub, color) => `
+    <div style="flex:1; min-width:130px; background:#fff; border:2px solid ${color || 'var(--navy)'}; border-radius:10px; padding:12px 10px; text-align:center;">
+      <div style="font-size:27px; font-weight:900; color:${color || 'var(--navy)'};">${n}</div>
+      <div style="font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.6px; color:var(--muted); margin-top:2px;">${label}</div>
+      ${sub ? `<div style="font-size:10.5px; color:var(--muted); margin-top:2px;">${sub}</div>` : ''}
+    </div>`;
+
+  const bars = days.map(d => {
+    const segs = ['AGT', 'Maintenance', 'Well Testing', 'Other'].map(c =>
+      d[c] ? `<div style="height:${Math.round(d[c] / maxJobs * 120)}px; background:${CAT_COLORS[c]};" title="${c}: ${d[c]}"></div>` : ''
+    ).join('');
+    const rate = d.jobs ? Math.round(100 * d.flags / d.jobs) : 0;
+    return `<div style="display:flex; flex-direction:column; align-items:center; gap:3px; min-width:34px;">
+      <div style="font-size:10px; font-weight:800; color:${d.flags ? '#C55A11' : '#16a34a'};">${d.jobs ? rate + '%' : ''}</div>
+      <div style="display:flex; flex-direction:column-reverse; width:22px; border-radius:3px 3px 0 0; overflow:hidden;">${segs || '<div style="height:2px;background:#e5e7eb;"></div>'}</div>
+      <div style="font-size:9.5px; color:var(--muted);">${fmtDay(d.date)}</div>
+      <div style="font-size:9.5px; font-weight:700; color:#444;">${d.jobs}</div>
+    </div>`;
+  }).join('');
+
+  const legend = Object.entries(CAT_COLORS).slice(0, 3).map(([c, col]) =>
+    `<span style="display:inline-flex;align-items:center;gap:4px;font-size:10.5px;color:var(--muted);"><span style="width:10px;height:10px;border-radius:2px;background:${col};display:inline-block;"></span>${c}</span>`).join(' ');
+
+  const repeat = (jl.repeatFlagWells || []).map(w => `
+    <div style="background:#fff5ec; border:2px solid #C55A11; border-radius:10px; padding:12px 14px; margin-bottom:10px;">
+      <div style="font-size:14px; font-weight:800; color:#C55A11;">&#9888; ${w.well} — flagged ${w.count}&times; in 21 days</div>
+      ${w.notes.map(n => `<div style="font-size:12.5px; margin-top:6px; padding-left:10px; border-left:3px solid #C55A11;"><strong>${fmtDay(n.date)}</strong> — ${n.note}<br><span style="font-size:11px;color:var(--muted);">${n.crew || 'crew unattributed'}</span></div>`).join('')}
+    </div>`).join('');
+
+  const rows = (jl.recent || []).map(j => `
+    <div style="padding:7px 9px; margin-bottom:5px; border-left:3px solid ${j.flag ? '#C55A11' : '#d5dbe6'}; background:${j.flag ? '#fff5ec' : '#f8f9fb'}; border-radius:0 6px 6px 0;">
+      <div style="font-size:13px;"><strong>${j.well}</strong> &middot; <span style="color:${CAT_COLORS[j.category] || '#444'}; font-weight:700;">${j.category}</span>${j.jobType ? ` &middot; ${j.jobType}` : ''} &middot; <span style="color:var(--muted);">${fmtDay(j.date)}</span>${j.flag ? ' <strong style="color:#C55A11;">&#9888;</strong>' : ''}</div>
+      ${j.note ? `<div style="font-size:12.5px; color:#333; margin-top:2px;">${j.note}</div>` : ''}
+      <div style="font-size:11px; color:var(--muted); margin-top:2px;">${j.crew || 'crew unattributed'}${j.cm ? ` &middot; CM: ${j.cm}` : ''}</div>
+    </div>`).join('');
+
+  el.innerHTML = `
+    <div class="section-label" style="margin-top:20px;">Field Jobs — Daily Form Log</div>
+    <div style="background:var(--navy); color:#fff; border-radius:var(--radius); padding:14px 16px; box-shadow:var(--shadow); margin-bottom:14px; display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;">
+      <div>
+        <div style="font-size:16px; font-weight:800;">&#128736; Every job, every day — in the crew's own words</div>
+        <div style="font-size:12px; opacity:.85; margin-top:3px;">${jl.source} &middot; trending since ${fmtDay(jl.since)}</div>
+      </div>
+      <button onclick="shareJobLogPDF()" style="flex-shrink:0; background:#fff; color:var(--navy); border:2px solid var(--gold); border-radius:8px; padding:9px 14px; font-size:12.5px; font-weight:800; cursor:pointer;">&#128196; Share PDF</button>
+    </div>
+    <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px;">
+      ${tile(t.weekJobs, 'Jobs — Last 7 Days', `${t.weekForms} forms filed`)}
+      ${tile(t.weekFlagRate + '%', 'Flag Rate', 'jobs with a raise-it note', t.weekFlagRate >= 20 ? '#C55A11' : '#375623')}
+      ${tile(t.weekWells, 'Wells Covered', '', '#C55A11')}
+      ${tile(t.weekCrews, 'Crews Active', '', '#375623')}
+    </div>
+    <div style="background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); padding:14px; margin-bottom:14px;">
+      <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
+        <div style="font-size:13px; font-weight:800; color:var(--navy);">Jobs per Day — flag rate on top</div>
+        <div style="display:flex; gap:10px;">${legend}</div>
+      </div>
+      <div style="display:flex; gap:4px; align-items:flex-end; overflow-x:auto; padding-bottom:4px;">${bars}</div>
+    </div>
+    ${repeat ? `<div style="font-size:13px; font-weight:800; color:#C55A11; margin:16px 0 8px;">Repeat-Flag Wells — one flag is a day, two is a pattern</div>${repeat}` : ''}
+    <div style="font-size:13px; font-weight:800; color:var(--navy); margin:16px 0 8px;">Job Log — Last 14 Days</div>
+    ${rows || '<div style="color:var(--muted); font-style:italic;">No jobs in the window yet.</div>'}
+    <div style="font-size:11px; color:var(--muted); text-align:center; margin:14px 0;">Jobs deduped by well + day &middot; form counts reconcile with the OWL leaderboard &middot; flags mined from the crew's own notes</div>`;
+}
+
+function shareJobLogPDF() {
+  const jl = _joblog;
+  if (!jl) return;
+  const t = jl.tiles || {};
+  const dateStr = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  const fmtDay = s => { const d = new Date(s + 'T12:00:00'); return `${d.getMonth()+1}/${d.getDate()}`; };
+  const rows = (jl.recent || []).map(j => `
+    <div class="card${j.flag ? ' flag' : ''}"><strong>${j.well}</strong> · ${j.category}${j.jobType ? ` · ${j.jobType}` : ''} · ${fmtDay(j.date)}${j.flag ? ' · <strong>&#9888; flagged</strong>' : ''}
+    ${j.note ? `<br>${j.note}` : ''}<br><span style="font-size:11px;color:#888;">${j.crew || 'crew unattributed'}${j.cm ? ` · CM: ${j.cm}` : ''}</span></div>`).join('');
+  const repeat = (jl.repeatFlagWells || []).map(w =>
+    `<div class="card flag"><strong>&#9888; ${w.well} — flagged ${w.count}&times; in 21 days</strong>${w.notes.map(n => `<br>${fmtDay(n.date)} — ${n.note} <span style="font-size:11px;color:#888;">(${n.crew || 'unattributed'})</span>`).join('')}</div>`).join('');
+  const html = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>Canon_Safety-Field_Jobs_Log</title><style>
+    body{font-family:'Segoe UI',Arial,sans-serif;margin:0;padding:24px;color:#1a2233;width:752px;}
+    .hdr{background:#1F3864;color:#fff;border-radius:10px;padding:16px 20px;margin-bottom:12px;border-bottom:4px solid #BF8F00;}
+    .hdr h1{margin:0;font-size:20px;} .hdr .sub{font-size:11px;opacity:.85;margin-top:4px;}
+    .stats{display:flex;gap:10px;margin-bottom:14px;}
+    .stat{flex:1;border:2px solid #1F3864;border-radius:8px;padding:10px;text-align:center;}
+    .stat .n{font-size:24px;font-weight:800;color:#1F3864;} .stat .l{font-size:9.5px;text-transform:uppercase;letter-spacing:.5px;color:#555;}
+    .sec{font-size:14px;font-weight:800;color:#1F3864;border-bottom:2px solid #BF8F00;padding-bottom:3px;margin:14px 0 8px;}
+    .card{background:#f7f7f7;border-left:3px solid #ccc;border-radius:0 5px 5px 0;padding:8px 10px;margin-bottom:6px;font-size:12px;line-height:1.5;page-break-inside:avoid;}
+    .card.flag{border-color:#C55A11;background:#fff5ec;}
+    .foot{margin-top:14px;font-size:10px;color:#777;text-align:center;}
+  </style></head><body>
+    <div class="hdr"><h1>Field Jobs Log &mdash; Canon Safety</h1>
+    <div class="sub">${dateStr} &middot; ${jl.source}</div></div>
+    <div class="stats">
+      <div class="stat"><div class="n">${t.weekJobs}</div><div class="l">Jobs — 7 Days</div></div>
+      <div class="stat"><div class="n">${t.weekForms}</div><div class="l">Forms Filed</div></div>
+      <div class="stat"><div class="n">${t.weekFlagRate}%</div><div class="l">Flag Rate</div></div>
+      <div class="stat"><div class="n">${t.weekWells}</div><div class="l">Wells Covered</div></div>
+    </div>
+    ${repeat ? `<div class="sec">Repeat-Flag Wells</div>${repeat}` : ''}
+    <div class="sec">Job Log — Last 14 Days</div>${rows}
+    <div class="foot">Canon Safety Owl Hub &middot; Field Jobs &middot; generated ${dateStr}</div>
+  </body></html>`;
+  sharePdfFromHtml(html);
+}
+
 async function renderRentals() {
   const el = document.getElementById('rentals-content');
   if (!el) return;
@@ -5914,6 +6042,7 @@ renderDriving();
 renderFormCompliance();
 renderFieldVisits();
 renderRentals();
+renderJobLog();
 renderOwlStats();
 </script>
 </body>

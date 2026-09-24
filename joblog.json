@@ -1,0 +1,827 @@
+{
+ "generated": "2026-09-24",
+ "since": "2026-09-17",
+ "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
+ "tiles": {
+  "weekJobs": 75,
+  "weekForms": 145,
+  "weekFlagRate": 12,
+  "weekWells": 72,
+  "weekCrews": 32
+ },
+ "days": [
+  {
+   "date": "2026-09-17",
+   "forms": 35,
+   "jobs": 18,
+   "flags": 2,
+   "AGT": 18,
+   "Maintenance": 0,
+   "Well Testing": 0,
+   "Other": 0
+  },
+  {
+   "date": "2026-09-18",
+   "forms": 36,
+   "jobs": 18,
+   "flags": 3,
+   "AGT": 18,
+   "Maintenance": 0,
+   "Well Testing": 0,
+   "Other": 0
+  },
+  {
+   "date": "2026-09-19",
+   "forms": 14,
+   "jobs": 7,
+   "flags": 1,
+   "AGT": 7,
+   "Maintenance": 0,
+   "Well Testing": 0,
+   "Other": 0
+  },
+  {
+   "date": "2026-09-20",
+   "forms": 5,
+   "jobs": 3,
+   "flags": 0,
+   "AGT": 3,
+   "Maintenance": 0,
+   "Well Testing": 0,
+   "Other": 0
+  },
+  {
+   "date": "2026-09-21",
+   "forms": 24,
+   "jobs": 12,
+   "flags": 1,
+   "AGT": 11,
+   "Maintenance": 1,
+   "Well Testing": 0,
+   "Other": 0
+  },
+  {
+   "date": "2026-09-22",
+   "forms": 31,
+   "jobs": 17,
+   "flags": 2,
+   "AGT": 16,
+   "Maintenance": 1,
+   "Well Testing": 0,
+   "Other": 0
+  }
+ ],
+ "repeatFlagWells": [],
+ "recent": [
+  {
+   "date": "2026-09-22",
+   "category": "Maintenance",
+   "jobType": "Air Job",
+   "well": "TB Nunn 5-44H South",
+   "crew": "Jose Hurtado / Dermont Morgan 1099",
+   "cm": "",
+   "note": "Good communication staying out of line of fire",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Sale Ranch 13K #11H",
+   "crew": "Larry Jaramillo / Christian Lee 1099",
+   "cm": "Foreman_East Ops 2",
+   "note": "New roustabout crew, all SSE's on crew",
+   "flag": true
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Preston Freeman 15I #109H",
+   "crew": "Ralph Forbes / William \"Jimmy\" Cooper 1099",
+   "cm": "Abe Espinoza",
+   "note": "Set up exclusion zone for Preston Freeman 15 I 109H and 15 H108H",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Preston Freeman 15H #108H",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Powell 1802",
+   "crew": "Caleb Smith / Bobby Galindo 1099",
+   "cm": "Chad Farr",
+   "note": "Crew completed the job according to plan",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Pembrook Unit 402H",
+   "crew": "Ralph Forbes / William \"Jimmy\" Cooper 1099",
+   "cm": "Clay Mateo",
+   "note": "Set up exclusion zone and conducted a reconnect job",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "PFU 2 2314",
+   "crew": "Pablo Soto / Bryan Medlin",
+   "cm": "Andrew Mcfadden",
+   "note": "Flow line connecting to well",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Owens L3",
+   "crew": "",
+   "cm": "",
+   "note": "All around great communication",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Owens Craves W31G 7H",
+   "crew": "",
+   "cm": "",
+   "note": "First break deemed well area safe, workers all used proper ppe and safe too",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "North Pembrook 706A",
+   "crew": "Pablo Soto / Bryan Medlin",
+   "cm": "James Glass",
+   "note": "Connecting flow line to well",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Midkiff Unit 3907A",
+   "crew": "Nathan Contreras / Rolando Flores 1099",
+   "cm": "Wade Russom",
+   "note": "The crew accessed the cellar and ensured proper safety measures were in pla",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Elliot 2 SWD",
+   "crew": "Nathan Contreras / Rolando Flores 1099",
+   "cm": "Wes Tankersley",
+   "note": "Crew maintained clear communication throughout the job, reviewed the LSRAs",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Donovan 2J #110H",
+   "crew": "Dawson Drake / Jerry Gonzales",
+   "cm": "Foreman_West Ops 9",
+   "note": "Disconnect but with a leak vaule and the csg had 800 psi after loto",
+   "flag": true
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Davis Fortune 44B #302H",
+   "crew": "Larry Jaramillo / Christian Lee 1099",
+   "cm": "Foreman_East Ops 3",
+   "note": "Good communication when crew supervisor arrived on the second location",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Bush Nunn 13C #3H",
+   "crew": "",
+   "cm": "",
+   "note": "Crew held safety meeting and went over everything",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Brook N-13EJ 210H",
+   "crew": "Michael Jobe / Justin Fontenot 1099",
+   "cm": "Jeff Jones",
+   "note": "Had a great meeting with the MT got the job done",
+   "flag": false
+  },
+  {
+   "date": "2026-09-22",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Atkins 23-14-B 2804",
+   "crew": "",
+   "cm": "",
+   "note": "Crew was well prepared and fast at getting work done in a safe and orderly",
+   "flag": false
+  },
+  {
+   "date": "2026-09-21",
+   "category": "Maintenance",
+   "jobType": "Air Job",
+   "well": "Rocker B 1-102H",
+   "crew": "Larry Jaramillo / Jerry Gonzales",
+   "cm": "Foreman_South Ops 3",
+   "note": "Disconnect and upgrade on heater treater",
+   "flag": false
+  },
+  {
+   "date": "2026-09-21",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Windham T 1",
+   "crew": "Caleb Smith / Alejandro Najar",
+   "cm": "Brian Murphree",
+   "note": "Crew performed their pre task briefing according psms standards",
+   "flag": false
+  },
+  {
+   "date": "2026-09-21",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Sprayberry Driver Unit 309H",
+   "crew": "",
+   "cm": "",
+   "note": "Disconnected flow line from well",
+   "flag": false
+  },
+  {
+   "date": "2026-09-21",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Skaggs 8 #2HB",
+   "crew": "",
+   "cm": "",
+   "note": "Job canceled due to work over rig still on",
+   "flag": false
+  },
+  {
+   "date": "2026-09-21",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Powell 1801",
+   "crew": "Nathan Contreras / Gael \"Antonio\" Avila 1099",
+   "cm": "Chad Farr",
+   "note": "Did a meeting in the morning just waiting on the crane pretty essay and sim",
+   "flag": false
+  },
+  {
+   "date": "2026-09-21",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Midkiff NW11C 3H",
+   "crew": "Jacob Hernandez / Jose Campos",
+   "cm": "",
+   "note": "Job completed productively to scope and safely",
+   "flag": false
+  },
+  {
+   "date": "2026-09-21",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Hoelscher 16 #3",
+   "crew": "Michael Jobe / Ruben Rojo",
+   "cm": "Tim Blackwell",
+   "note": "Everything went great MT did the meeting went good ver what needed to be do",
+   "flag": false
+  },
+  {
+   "date": "2026-09-21",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Franklin #1",
+   "crew": "Jose Hurtado / Baldemar Bracomontes 1099",
+   "cm": "Foreman_East Ops 9",
+   "note": "Crane crew and safety crew had good communication, all LSRAs pertaining to",
+   "flag": true
+  },
+  {
+   "date": "2026-09-21",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Clark B #2",
+   "crew": "Michael Jobe / Ruben Rojo",
+   "cm": "Tim Blackwell",
+   "note": "Had a meeting went over what needed to be done got right to work",
+   "flag": false
+  },
+  {
+   "date": "2026-09-21",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Brook A-E2C 3H",
+   "crew": "Jeremy Norris / Justin Fontenot 1099",
+   "cm": "Clay Mateo",
+   "note": "Observed safety meeting and went over triggers and hold points",
+   "flag": false
+  },
+  {
+   "date": "2026-09-21",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Brook A-E2A 1H",
+   "crew": "Jeremy Norris / Justin Fontenot 1099",
+   "cm": "Clay Mateo",
+   "note": "Crew held safety meeting",
+   "flag": false
+  },
+  {
+   "date": "2026-09-21",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Benedum 3E 5H",
+   "crew": "Jordan Lemmons / Bryan Medlin",
+   "cm": "Jeff Jones",
+   "note": "Reconnecting flow line to the well head",
+   "flag": false
+  },
+  {
+   "date": "2026-09-20",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Pratt Vaughn 21C#103H",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-20",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Jordan N 23-24 2814H",
+   "crew": "Michael Jobe / Rolando Flores 1099",
+   "cm": "Jeff Jones",
+   "note": "MT went over the meeting really well covered everything that needed to be",
+   "flag": false
+  },
+  {
+   "date": "2026-09-20",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Dusek 45-4 2807H",
+   "crew": "Michael Jobe / Rolando Flores 1099",
+   "cm": "Robert Murphree",
+   "note": "Flow lines were disconnected in a controlled manner during the initial firs",
+   "flag": false
+  },
+  {
+   "date": "2026-09-19",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Windham T 1",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-19",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Turner W2-1202D 4H",
+   "crew": "Jordan Lemmons / Pablo Soto",
+   "cm": "Wes Tankersley",
+   "note": "Had a leaking casing valve we tested and had high lel so we didn't use any",
+   "flag": true
+  },
+  {
+   "date": "2026-09-19",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "SDU 1672A",
+   "crew": "Stefanie Kirschke / Rolando Flores 1099",
+   "cm": "James Glass",
+   "note": "Crew followed proper procedures and maintained good communication throughou",
+   "flag": false
+  },
+  {
+   "date": "2026-09-19",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Riley 26E #105H",
+   "crew": "Jordan Lemmons / Pablo Soto",
+   "cm": "Tim Blackwell",
+   "note": "Job went well we did first break under air and got some benzene",
+   "flag": false
+  },
+  {
+   "date": "2026-09-19",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Riley 26D #104H",
+   "crew": "Jordan Lemmons / Pablo Soto",
+   "cm": "Tim Blackwell",
+   "note": "Went over Lsra before we used the forklift and when over what could happen",
+   "flag": false
+  },
+  {
+   "date": "2026-09-19",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Dickenson Jackson 19D #4H",
+   "crew": "Michael Jobe / Justin Fontenot 1099",
+   "cm": "Foreman_West Ops 8",
+   "note": "Had a good meeting told what needed to be done",
+   "flag": false
+  },
+  {
+   "date": "2026-09-19",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Bush Nunn 13D 4H",
+   "crew": "",
+   "cm": "",
+   "note": "Reconnecting flow line to the wellhead",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Wilson A #3",
+   "crew": "Jordan Lemmons / Bryan Medlin",
+   "cm": "Foreman_West Ops 6",
+   "note": "Pump trucks connected to well head using proper equipment and pumping fluid",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Welch Cox E39B #302H",
+   "crew": "Jeremy Norris / Justin Fontenot 1099",
+   "cm": "Foreman_East Ops 2",
+   "note": "Safety meeting was conducted and went over all LMRA's",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "University 3-19 701H",
+   "crew": "Michael Jobe / Bobby Galindo 1099",
+   "cm": "Bryan Hamilton",
+   "note": "Had meeting went great job had no issues they took there time in did everyt",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "University 3-12D 4H",
+   "crew": "Michael Jobe / Bobby Galindo 1099",
+   "cm": "Bryan Hamilton",
+   "note": "Had meetings went great had to kill the well",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "University 3-12A 1H",
+   "crew": "Caleb Smith / Ruben Rojo",
+   "cm": "",
+   "note": "Job was already completed before we got to location",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Stone Gist W45B #2H",
+   "crew": "Caleb Smith / Ruben Rojo",
+   "cm": "",
+   "note": "Job was completed yesterday",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Shull Crawford 15QQ #117H",
+   "crew": "Jose Hurtado / Baldemar Bracomontes 1099",
+   "cm": "Foreman_West Ops 4",
+   "note": "Had pretask meeting, all hazards and possible triggers were discussed and e",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Pratt Vaughn 15N #114H",
+   "crew": "Jose Hurtado / Baldemar Bracomontes 1099",
+   "cm": "Foreman_West Ops 6",
+   "note": "Job was completed safely, no incident or triggers occurred",
+   "flag": true
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Powell #1803A",
+   "crew": "Pablo Soto / Alexander Clubb",
+   "cm": "Foreman_Central Ops 2",
+   "note": "Job scope was hanging polished rod on pump jack",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Pembrook #402H",
+   "crew": "Nathan Contreras / Christian Lee 1099",
+   "cm": "Clay Mateo",
+   "note": "A disconnect on wh/fl/elec",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Pecan Acres 23 PSA 2 #09SH",
+   "crew": "Dawson Drake / Jerry Gonzales",
+   "cm": "Shelly Thiel",
+   "note": "Crew reconnect with tubing",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Nobles 3246SH",
+   "crew": "Dawson Drake / Jerry Gonzales",
+   "cm": "Shelly Thiel",
+   "note": "Crew worked at steady pase",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "McClintic A #1",
+   "crew": "Larry Jaramillo / Rolando Flores 1099",
+   "cm": "Foreman_East Ops 6",
+   "note": "Job got canceled due to well head leaking",
+   "flag": true
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Madison E #2",
+   "crew": "Larry Jaramillo / Rolando Flores 1099",
+   "cm": "Foreman_East Ops 3",
+   "note": "Initially, the kill truck did not successfully kill the well as expected",
+   "flag": true
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "LHS Ranch 27-21 2104 2104BH",
+   "crew": "Nathan Contreras / Christian Lee 1099",
+   "cm": "Keane Robinson",
+   "note": "We observed a disconnect on a wellhead",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Faye 26 #2",
+   "crew": "Jacob Hernandez / Alejandro Najar",
+   "cm": "Victor Cruz",
+   "note": "work was not performed due to work still being performed by workover crew",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Brunson 40D 4H",
+   "crew": "Jacob Hernandez / Alejandro Najar",
+   "cm": "",
+   "note": "crews reconnected flow lines",
+   "flag": false
+  },
+  {
+   "date": "2026-09-18",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Allar Callaway 27O #15H",
+   "crew": "Jeremy Norris / Justin Fontenot 1099",
+   "cm": "Foreman_East Ops 3",
+   "note": "Safety meeting was conducted and crew began working on assembling the conve",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "XBC Giddings Estate 1404H",
+   "crew": "",
+   "cm": "",
+   "note": "Successful disconnect",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Tredaway Elkin 21I #9H",
+   "crew": "Jordan Lemmons / Bryan Medlin",
+   "cm": "Foreman_West Ops 8",
+   "note": "Disconnected well and masked up and tested and got some benzene",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Tarzan Unit 1 2071JH",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Stone Gist W45B #2H",
+   "crew": "",
+   "cm": "",
+   "note": "Job scope was converting well into a pump jack",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Preston N31Q #17H",
+   "crew": "Hayden Haugh 1099 / Christian Lee 1099",
+   "cm": "Tim Blackwell",
+   "note": "Reconnect of wellhead",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Powell 1805",
+   "crew": "Michael Jobe / Justin Fontenot 1099",
+   "cm": "Chad Farr",
+   "note": "Safety meeting couldn't understand didn't know English",
+   "flag": true
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Powell #1806",
+   "crew": "Nathan Contreras / Alejandro Najar",
+   "cm": "Foreman_Central Ops 2",
+   "note": "valve was installed on hanger rod",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Morgan Owens 24E #5H",
+   "crew": "",
+   "cm": "",
+   "note": "Same crew so everything went well",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "McAlister 33A #1H",
+   "crew": "Larry Jaramillo / Gael \"Antonio\" Avila 1099",
+   "cm": "Foreman_West Ops 7",
+   "note": "Did the meeting pretty simple and essay",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Madison E #2",
+   "crew": "Alexander Clubb / Rolando Flores 1099",
+   "cm": "Victor Cruz",
+   "note": "Job scope was a reconnect and hang the horse head for well to go back into",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Locklar Holiman 28I #109H",
+   "crew": "Jordan Lemmons / Bryan Medlin",
+   "cm": "Shelly Thiel",
+   "note": "Disconnected the 109 well and the 108 for the work over",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Lille Midkiff 5 4404BH",
+   "crew": "",
+   "cm": "",
+   "note": "no issues to report all went accordingly to the job scope",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Leo 8D-5B-G #4413H",
+   "crew": "Larry Jaramillo / Gael \"Antonio\" Avila 1099",
+   "cm": "Wade Russom",
+   "note": "Getting the job done same crew as yesterday so pretty good communication",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Hernandez 20 #1",
+   "crew": "Caleb Smith / Jerry Gonzales",
+   "cm": "Foreman_East Ops 3",
+   "note": "Crews worked well together",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Elkin A #1A2",
+   "crew": "Jacob Hernandez / Jose Campos",
+   "cm": "Foreman_West Ops 8",
+   "note": "Great communication from Co Rep during safety meeting",
+   "flag": true
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Crawford Welchest 27C #3H",
+   "crew": "Dawson Drake / Robbie Henigan 1099",
+   "cm": "Foreman_West Ops 9",
+   "note": "Well, head conversion",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Charles Midkiff 38-47 4714 4714AH",
+   "crew": "Jeremy Norris / Bobby Galindo 1099",
+   "cm": "",
+   "note": "All personal worked safely no issues to report at this point",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Aldwell Bird 10C #203H",
+   "crew": "",
+   "cm": "",
+   "note": "Reconnection of wellhead",
+   "flag": false
+  }
+ ]
+}
