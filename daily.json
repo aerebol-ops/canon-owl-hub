@@ -165,6 +165,152 @@
     }
   ],
   "leadershipThought": "Your awareness has to be higher than your intent. Intent doesn't matter if the impact is wrong. Operate in a diverse environment — different backgrounds, different beliefs, different life experiences.",
+  "yesterdaysJobs": {
+    "date": "2026-09-22",
+    "label": "Tuesday, September 22",
+    "count": 16,
+    "flags": 1,
+    "groups": [
+      {
+        "category": "AGT",
+        "jobs": [
+          {
+            "well": "Atkins 23-14-B 2804",
+            "jobType": "Air Job",
+            "crew": "",
+            "cm": "",
+            "note": "All LSRAs associated with job scope were discussed at the pretask meeting",
+            "flag": false
+          },
+          {
+            "well": "Owens L3",
+            "jobType": "Air Job",
+            "crew": "",
+            "cm": "",
+            "note": "All around great communication",
+            "flag": false
+          },
+          {
+            "well": "Powell 1802",
+            "jobType": "Air Job",
+            "crew": "Caleb Smith / Bobby Galindo 1099",
+            "cm": "Chad Farr",
+            "note": "All safe measures were implemented no issues to report",
+            "flag": false
+          },
+          {
+            "well": "North Pembrook 706A",
+            "jobType": "Air Job",
+            "crew": "Pablo Soto / Bryan Medlin",
+            "cm": "James Glass",
+            "note": "Connecting flow line to well",
+            "flag": false
+          },
+          {
+            "well": "Donovan 2J #110H",
+            "jobType": "Air Job",
+            "crew": "Dawson Drake / Jerry Gonzales",
+            "cm": "Foreman_West Ops 9",
+            "note": "Crew did a reconnect on well that was shut in",
+            "flag": false
+          },
+          {
+            "well": "Brook N-13EJ 210H",
+            "jobType": "Air Job",
+            "crew": "Michael Jobe / Justin Fontenot 1099",
+            "cm": "Jeff Jones",
+            "note": "Crew held meeting and went over the job scope",
+            "flag": false
+          },
+          {
+            "well": "Bush Nunn 13C #3H",
+            "jobType": "Air Job",
+            "crew": "",
+            "cm": "",
+            "note": "Crew held safety meeting and went over everything",
+            "flag": false
+          },
+          {
+            "well": "Elliot 2 SWD",
+            "jobType": "Air Job",
+            "crew": "Nathan Contreras / Rolando Flores 1099",
+            "cm": "Wes Tankersley",
+            "note": "Crew maintained clear communication throughout the job, reviewed the LSRAs",
+            "flag": false
+          },
+          {
+            "well": "Owens Craves W31G 7H",
+            "jobType": "Air Job",
+            "crew": "",
+            "cm": "",
+            "note": "First break deemed well area safe, workers all used proper ppe and safe too",
+            "flag": false
+          },
+          {
+            "well": "PFU 2 2314",
+            "jobType": "Air Job",
+            "crew": "Pablo Soto / Bryan Medlin",
+            "cm": "Andrew Mcfadden",
+            "note": "Flow line connecting to well",
+            "flag": false
+          },
+          {
+            "well": "Davis Fortune 44B #302H",
+            "jobType": "Air Job",
+            "crew": "Larry Jaramillo / Christian Lee 1099",
+            "cm": "Foreman_East Ops 3",
+            "note": "Good communication when crew supervisor arrived on the second location",
+            "flag": false
+          },
+          {
+            "well": "Sale Ranch 13K #11H",
+            "jobType": "Air Job",
+            "crew": "Larry Jaramillo / Christian Lee 1099",
+            "cm": "Foreman_East Ops 2",
+            "note": "New roustabout crew, all SSE's on crew",
+            "flag": true
+          },
+          {
+            "well": "Pembrook Unit 402H",
+            "jobType": "Air Job",
+            "crew": "Ralph Forbes / William \"Jimmy\" Cooper 1099",
+            "cm": "Clay Mateo",
+            "note": "Set up exclusion zone and conducted a reconnect job",
+            "flag": false
+          },
+          {
+            "well": "Preston Freeman 15I #109H",
+            "jobType": "Air Job",
+            "crew": "Ralph Forbes / William \"Jimmy\" Cooper 1099",
+            "cm": "Abe Espinoza",
+            "note": "Set up exclusion zone for Preston Freeman 15 I 109H and 15 H108H",
+            "flag": false
+          },
+          {
+            "well": "Midkiff Unit 3907A",
+            "jobType": "Air Job",
+            "crew": "Nathan Contreras / Rolando Flores 1099",
+            "cm": "Wade Russom",
+            "note": "The crew accessed the cellar and ensured proper safety measures were in pla",
+            "flag": false
+          }
+        ]
+      },
+      {
+        "category": "Maintenance",
+        "jobs": [
+          {
+            "well": "TB Nunn 5-44H South",
+            "jobType": "Air Job",
+            "crew": "Jose Hurtado / Dermont Morgan 1099",
+            "cm": "",
+            "note": "Good communication staying out of line of fire",
+            "flag": false
+          }
+        ]
+      }
+    ]
+  },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -172,32 +318,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jose Hurtado / Dermont Morgan 1099 — Good communication staying out of line of fire",
-      "detail": "Crew and everyone one the same page with staying out of the line of fire and speaking up if someone is not following standards.",
+      "headline": "Caleb Smith / Alejandro Najar — Crew performed their pre task briefing according psms standards",
+      "detail": "All personal on location was active during the pre task meeting. The MT did a good job including all personal on location.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Justin Fontenot 1099 — Next job will be conducted and held to the same standard.",
-      "detail": "OWL form — Operational Discipline",
-      "psms": "Operational Discipline"
+      "headline": "Larry Jaramillo / Jerry Gonzales — Disconnect and upgrade on heater treater",
+      "detail": "Crew worked fast and smart / safely.",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Ruben Rojo — Had a meeting went over what needed to be done got right to work",
-      "detail": "Could have gone into more detail in meeting.",
-      "psms": "Operational Discipline"
+      "headline": "Michael Jobe / Rolando Flores 1099 — Flow lines were disconnected in a controlled manner during the initial firs",
+      "detail": "Continue communicating with the crew and verify all hazards and controls before every first break.",
+      "psms": "Atmospheric Monitoring"
     },
     {
       "type": "good",
-      "headline": "Jose Hurtado / Baldemar Bracomontes 1099 — Crane crew and safety crew had good communication, all LSRAs pertaining to",
-      "detail": "Job was completed safely, all personnel on location did their assigned roles and job was completed without incident.",
+      "headline": "Jordan Lemmons / Pablo Soto — Went over Lsra before we used the forklift and when over what could happen",
+      "detail": "Help the crews out especially with understanding the job scope.",
       "psms": "Mobile Equipment"
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Jose Campos — Job completed productively to scope and safely",
-      "detail": "Cleaned up muster area.",
+      "headline": "Stefanie Kirschke / Rolando Flores 1099 — Crew followed proper procedures and maintained good communication throughou",
+      "detail": "Continue to verify equipment and job requirements before starting work.",
       "psms": "Operational Discipline"
     },
     {
