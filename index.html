@@ -1686,7 +1686,7 @@
   <nav>
     <button class="active" data-page="home" onclick="showPage('home', this)">Home</button>
     <button data-page="loop" onclick="showPage('loop', this)">30-Min Loop</button>
-    <button data-page="news" onclick="showPage('news', this)">Field News</button>
+    <button data-page="news" onclick="showPage('news', this)">O.W.L Form Submissions</button>
     <button data-page="psms" onclick="showPage('psms', this)">PSMS Topics</button>
     <!-- Breakroom tab pulled 9/24/2026 (Mike): summaries dark since 7/22 and
          no live feed — restore when the nightly Breakroom PDF gets emailed to
@@ -1699,7 +1699,7 @@
     <button data-page="safetycomp" onclick="showPage('safetycomp', this)">Safety Compliance</button>
     <button data-page="fieldvisits" onclick="showPage('fieldvisits', this)">Field Visits</button>
     <button data-page="rentals" onclick="showPage('rentals', this)">Rentals</button>
-    <button data-page="jobs" onclick="showPage('jobs', this)">Field Jobs</button>
+    <button data-page="jobs" onclick="showPage('jobs', this)">Job Forms — Review &amp; Tracking</button>
     <button data-page="sops" onclick="showPage('sops', this)">SOPs</button>
     <button data-page="payroll" onclick="showPage('payroll', this)">Payroll &amp; Benefits</button>
     <button data-page="brochure" onclick="showPage('brochure', this)">Brochure</button>
@@ -1877,8 +1877,8 @@
 
   <button class="dl-btn" onclick="showPage('news', document.querySelector('nav button[data-page=news]'))" style="background:var(--orange);">
     <span class="dl-icon">📡</span>
-    Field News
-    <span class="dl-sub">Recent flags and good calls from the field — use these in your meeting</span>
+    O.W.L Form Submissions
+    <span class="dl-sub">Recent flags and good calls from the crews' forms — use these in your meeting</span>
   </button>
 
   <button class="dl-btn" onclick="showPage('psms', document.querySelector('nav button[data-page=psms]'))">
@@ -3528,7 +3528,7 @@ async function renderTemplate() {
                   <div style="font-size:12.5px; font-weight:700;">${c.title}</div>
                   ${c.quote ? `<div style="font-size:12px; color:#555; font-style:italic; margin-top:2px;">&ldquo;${c.quote}&rdquo;</div>` : ''}
                 </div>`).join('')}
-              <div style="font-size:11px; color:var(--muted);">Full review on the Field Jobs tab &rarr; FORM REVIEW. Name these out loud — catching them is the win.</div>
+              <div style="font-size:11px; color:var(--muted);">Full review on the Job Forms — Review &amp; Tracking tab &rarr; FORM REVIEW. Name these out loud — catching them is the win.</div>
             </div>
           </div>`;
         }
@@ -5558,7 +5558,7 @@ function _jlPaint() {
   }
 
   el.innerHTML = `
-    <div class="section-label" style="margin-top:20px;">Field Jobs — Daily Form Log</div>
+    <div class="section-label" style="margin-top:20px;">Field Job Forms — Review &amp; Tracking</div>
     <div style="background:var(--navy); color:#fff; border-radius:var(--radius); padding:14px 16px; box-shadow:var(--shadow); margin-bottom:14px; display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;">
       <div>
         <div style="font-size:16px; font-weight:800;">&#128736; Every job, every day — in the crew's own words</div>
@@ -5594,7 +5594,7 @@ function shareJobLogPDF() {
     .card.flag{border-color:#C55A11;background:#fff5ec;}
     .foot{margin-top:14px;font-size:10px;color:#777;text-align:center;}
   </style></head><body>
-    <div class="hdr"><h1>Field Jobs Log &mdash; Canon Safety</h1>
+    <div class="hdr"><h1>Field Job Forms &mdash; Review &amp; Tracking &mdash; Canon Safety</h1>
     <div class="sub">${dateStr} &middot; ${jl.source}</div></div>
     <div class="stats">
       <div class="stat"><div class="n">${t.weekJobs}</div><div class="l">Jobs — 7 Days</div></div>
