@@ -3564,21 +3564,40 @@ async function renderTemplate() {
     },
     {
       num: '4',
-      title: 'Recognition',
+      title: 'Recognition — Duck &amp; Eagle Board',
       color: 'var(--gold)',
       body: (() => {
+        // Duck & Eagle levels, classified from the tech's own written words:
+        // eagle = accelerated excellence (work stopped, hazard intercepted,
+        // near miss reported); duck = positive catch (saw it, said it, fixed
+        // it); plain = real writing worth reading; habit = consistency credit.
+        const LVL = {
+          eagle: { icon: '&#129413;', badge: 'EAGLE — ACCELERATED EXCELLENCE', border: '#b00020', bg: '#fdf2f2', tag: '#b00020' },
+          duck:  { icon: '&#129414;', badge: 'DUCK — POSITIVE CATCH',          border: 'var(--gold)', bg: '#fffbee', tag: '#8a6d00' },
+          plain: { icon: '&#128330;', badge: 'OWL WRITE-UP',                   border: '#c9d2e3', bg: '#f8f9fb', tag: '#5b6b8c' },
+          habit: { icon: '&#128203;', badge: 'ON THE BOARD — HABIT CREDIT',    border: '#dfe4ee', bg: '#fafbfd', tag: '#8a93a8' },
+        };
+        const legend = `<div style="display:flex; flex-wrap:wrap; gap:10px; font-size:11px; color:var(--muted); margin-bottom:10px; line-height:1.5;">
+          <span><strong style="color:#8a6d00;">&#129414; Duck</strong> — a positive catch: saw it, said it, fixed it.</span>
+          <span><strong style="color:#b00020;">&#129413; Eagle</strong> — accelerated excellence: work stopped, hazard intercepted, near miss reported.</span>
+        </div>`;
         if (daily && daily.fieldNews && daily.fieldNews.filter(n => n.type === 'good').length) {
-          const items = daily.fieldNews.filter(n => n.type === 'good').map(n =>
-            `<div style="padding:10px 12px; background:#fffbee; border-left:3px solid var(--gold); border-radius:0 6px 6px 0; margin-bottom:8px;">
-               <div style="font-weight:700; font-size:14px; color:var(--text);">${n.headline}</div>
-               ${n.detail ? `<div style="font-size:13px; color:#555; margin-top:4px; line-height:1.5;">${n.detail}</div>` : ''}
-               ${n.psms ? `<div style="font-size:11px; color:var(--muted); margin-top:4px;">PSMS: ${n.psms}</div>` : ''}
-             </div>`
-          ).join('');
-          return `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gold);margin-bottom:8px;">Today's Recognition — Name It Out Loud</div>${items}`;
+          const items = daily.fieldNews.filter(n => n.type === 'good').map(n => {
+            const L = LVL[n.level] || LVL.plain;
+            return `<div style="display:flex; gap:10px; align-items:flex-start; padding:10px 12px; background:${L.bg}; border-left:3px solid ${L.border}; border-radius:0 6px 6px 0; margin-bottom:8px;">
+               <span style="font-size:26px; line-height:1; flex-shrink:0;">${L.icon}</span>
+               <div style="flex:1; min-width:0;">
+                 <div style="font-size:9.5px; font-weight:800; letter-spacing:.08em; color:${L.tag}; margin-bottom:2px;">${L.badge}</div>
+                 <div style="font-weight:700; font-size:14px; color:var(--text);">${n.headline}</div>
+                 ${n.detail ? `<div style="font-size:13px; color:#555; margin-top:4px; line-height:1.5;">${n.detail}</div>` : ''}
+                 ${n.psms ? `<div style="font-size:11px; color:var(--muted); margin-top:4px;">PSMS: ${n.psms}</div>` : ''}
+               </div>
+             </div>`;
+          }).join('');
+          return `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gold);margin-bottom:6px;">Today's Recognition — Name It Out Loud</div>${legend}${items}`;
         }
-        return `<div class="runsheet-content">Name someone from the crew. Be specific — what did they do and why does it matter to everyone standing here. Recognition that names a behavior is recognition that repeats it.</div>
-                <div class="runsheet-scenario" style="border-color:var(--gold); background:#fffbee;">Check Field News and Mike's text from last night — names and reasons are there.</div>`;
+        return `${legend}<div class="runsheet-content">Name someone from the crew. Be specific — what did they do and why does it matter to everyone standing here. Recognition that names a behavior is recognition that repeats it.</div>
+                <div class="runsheet-scenario" style="border-color:var(--gold); background:#fffbee;">Check the O.W.L Form Submissions tab and Mike's text from last night — names and reasons are there.</div>`;
       })()
     },
     {
@@ -3885,7 +3904,7 @@ function shareMeetingSummary() {
   // Recognition: pull "good" cards from fieldNews that have real content (not just "check Field News")
   const recogItems = (d && d.fieldNews)
     ? d.fieldNews.filter(n => n.type === 'good').map(n =>
-        `<li><strong>${n.headline}</strong>${n.detail && n.detail !== 'Breakroom recognition' ? '<br><span style="color:#555;">' + n.detail + '</span>' : ''}</li>`
+        `<li>${n.level === 'eagle' ? '&#129413; <strong style="color:#b00020;">EAGLE</strong> — ' : n.level === 'duck' ? '&#129414; <strong style="color:#8a6d00;">DUCK</strong> — ' : ''}<strong>${n.headline}</strong>${n.detail && n.detail !== 'Breakroom recognition' ? '<br><span style="color:#555;">' + n.detail + '</span>' : ''}</li>`
       ).join('')
     : '';
 
@@ -4000,7 +4019,7 @@ ${d && d.specialFocus ? (() => { const sf = d.specialFocus; return `
 <div class="section">
   <div class="sec-header">
     <div class="num" style="background:#b8a000;">4</div>
-    <div class="sec-title" style="color:#b8a000;">Recognition</div>
+    <div class="sec-title" style="color:#b8a000;">Recognition — Duck &amp; Eagle Board</div>
   </div>
   ${recogItems ? `<ul>${recogItems}</ul>` : '<div class="box muted">Check Field News and Mike\'s text from last night.</div>'}
 </div>
@@ -4070,7 +4089,7 @@ function shareFieldNewsPDF() {
 
   const goodHtml = good.length ? good.map(n => `
     <div class="card good">
-      <div class="badge">&#9733; GOOD CALL</div>
+      <div class="badge">${n.level === 'eagle' ? '&#129413; EAGLE — ACCELERATED EXCELLENCE' : n.level === 'duck' ? '&#129414; DUCK — POSITIVE CATCH' : '&#9733; GOOD CALL'}</div>
       <div class="headline">${clean(n.headline)}</div>
       ${n.detail ? `<div class="detail">${clean(n.detail)}</div>` : ''}
       ${n.psms ? `<div class="psms">PSMS: ${n.psms}</div>` : ''}
@@ -4224,7 +4243,7 @@ function renderNews() {
   const items = seededShuffle(_items, dailySeed());
   container.innerHTML = items.length ? items.map(n => `
     <div class="news-card ${n.type}">
-      <div class="news-badge">${n.type === 'flag' ? '⚠ Flag' : '✓ Good Call'}</div>
+      <div class="news-badge">${n.type === 'flag' ? '⚠ Flag' : n.level === 'eagle' ? '&#129413; Eagle — Accelerated Excellence' : n.level === 'duck' ? '&#129414; Duck — Positive Catch' : '✓ Good Call'}</div>
       <div class="news-headline">${n.headline}</div>
       <div class="news-detail">${n.detail}</div>
       ${n.psms ? `<div class="news-psms">→ ${n.psms}</div>` : ''}
