@@ -2,7 +2,7 @@
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-09-24",
   "ytdPct": 82.9,
-  "ytdMissed": 1616,
+  "ytdMissed": 1617,
   "months": [
     {
       "month": "January 2026",
@@ -1928,19 +1928,19 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 83.9,
-      "missedTotal": 163,
-      "dailyNo": 95,
+      "compliancePct": 83.8,
+      "missedTotal": 164,
+      "dailyNo": 96,
       "trailerInspNo": 24,
       "trailerReadyNo": 32,
-      "problemRows": 155,
-      "blanks": 701,
+      "problemRows": 157,
+      "blanks": 774,
       "employees": 81,
       "cleanEmployees": 36,
-      "dailyYesTotal": 495,
-      "dailyNoTotal": 95,
-      "rawRows": 1389,
-      "daysCovered": 14,
+      "dailyYesTotal": 496,
+      "dailyNoTotal": 96,
+      "rawRows": 1460,
+      "daysCovered": 15,
       "sheetsInMonth": 25,
       "byDay": [
         {
@@ -2012,6 +2012,11 @@
           "date": "9/20",
           "missed": 5,
           "pct": 72
+        },
+        {
+          "date": "9/23",
+          "missed": 1,
+          "pct": 50
         }
       ],
       "watch": [
@@ -2034,21 +2039,21 @@
           "pct": 62
         },
         {
-          "name": "Michael Ellis",
-          "totalMissed": 5,
-          "dailyMissed": 5,
-          "trailerMissed": 0,
-          "dailyYes": 8,
-          "dailyNo": 5,
-          "pct": 62
-        },
-        {
           "name": "Dawson Drake",
           "totalMissed": 9,
           "dailyMissed": 4,
           "trailerMissed": 5,
           "dailyYes": 7,
           "dailyNo": 4,
+          "pct": 64
+        },
+        {
+          "name": "Michael Ellis",
+          "totalMissed": 5,
+          "dailyMissed": 5,
+          "trailerMissed": 0,
+          "dailyYes": 9,
+          "dailyNo": 5,
           "pct": 64
         },
         {
@@ -2107,7 +2112,7 @@
         }
       ],
       "live": true,
-      "throughDate": "9/20"
+      "throughDate": "9/23"
     }
   ]
 }

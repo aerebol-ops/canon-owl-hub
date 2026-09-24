@@ -317,32 +317,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Caleb Smith / Jose Campos — MT did a great job during the pre task briefing invoking personal with the",
-      "detail": "Crew and MT followed hold points and discuss job steps.",
+      "headline": "Nathan Contreras / Alejandro Najar — valve was installed on hanger rod",
+      "detail": "No one walked under crane while in use.",
+      "psms": "Mobile Equipment"
+    },
+    {
+      "type": "good",
+      "headline": "Hayden Haugh 1099 / Christian Lee 1099 — Crew worked efficiently and followed Exxons expectations to a tee.",
+      "detail": "OWL form — Operational Discipline",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Dawson Drake / Alejandro Najar — crews realligned polish rod on pumpjack",
-      "detail": "Everyone not needed in exclusion zone stayed out of it.",
+      "headline": "Jordan Lemmons / Bryan Medlin — Had a snake in the injection line tenhorn",
+      "detail": "Got the snakes moved and found out it wasn't a poison one.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Luis Zarate / Cindy Smith 1099 — Crew killed well and once it was on vacuum did they replace tubing rubber,",
-      "detail": "Continue grow my communication with crew and MT.",
+      "headline": "Caleb Smith / Jose Campos — First area test was deemed safe, first break under air was deemed safe , ev",
+      "detail": "Great communication between MT , roustabout crew, and canon workers, No hazardous readings off initial test , or first break, killed well without many issues , and were a",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Robbie Henigan 1099 — Job completed just as scope called for",
-      "detail": "Great communication with crew and MY.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "headline": "Alexander Clubb / Rolando Flores 1099 — Job scope was a reconnect and hang the horse head for well to go back into",
-      "detail": "Everything went smoothly.",
+      "headline": "Michael Jobe / Justin Fontenot 1099 — Had meeting went great went over everything",
+      "detail": "Job scope went very smoothly.",
       "psms": "Operational Discipline"
     },
     {
@@ -356,25 +356,25 @@
   "todaysChallenge": "Today's job is probably ordinary. Do the ordinary at a champion's level: the routine bleed-down, the routine cal, the routine form — better than anyone else in the Basin.",
   "todaysChallengeSubtext": "“Champions are champions not because they do anything extraordinary but because they do the ordinary things better than anyone else.” — Chuck Noll",
   "compliance": {
-    "weekOf": "Week of September 14, 2026",
+    "weekOf": "Week of September 21, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 131,
-        "total": 145
+        "done": 1,
+        "total": 2
       },
       {
         "label": "Trailer Inspections",
-        "done": 24,
-        "total": 34
+        "done": 0,
+        "total": 0
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 23,
-        "total": 32
+        "done": 0,
+        "total": 0
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 09/17"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 09/23"
   },
   "specialFocus": {
     "week": 15,
