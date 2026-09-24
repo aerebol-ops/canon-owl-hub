@@ -3533,6 +3533,11 @@ async function renderTemplate() {
           </div>`;
         }
 
+        // Form Scoreboard — per-lead running tally, injected async from
+        // formqc.json once the template DOM is in place
+        html += `<div id="tpl-qcboard"></div>`;
+        setTimeout(_tplQcBoard, 0);
+
         // OWL form findings — the crew's own submissions, matched to the weekly topic
         if (daily && daily.exxonMoments) {
           html += `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--orange);margin-bottom:6px;">From the Crew's OWL Forms — ${w.psms}</div>`;
@@ -3903,6 +3908,18 @@ function shareMeetingSummary() {
     const fr = d.formReview;
     sec3 += `<p class="label" style="margin-top:12px;">&#128203; Form Review — ${fr.label}: ${fr.concerns.length} real concern${fr.concerns.length === 1 ? '' : 's'} to coach</p>`;
     sec3 += fr.concerns.map(c => `<div class="box flag" style="margin-top:5px;"><strong>${c.title}</strong>${c.quote ? `<br><em>&ldquo;${c.quote}&rdquo;</em>` : ''}</div>`).join('');
+  }
+  if (_formqc) {
+    // Form Scoreboard (formqc.json is loaded by the template render itself,
+    // so it's here by the time anyone clicks Share)
+    const { board: _qb, since: _qsince } = _qcLeadRows();
+    if (_qb.length) {
+      const _perf = _qb.filter(l => l.pct === 100);
+      const _rest = _qb.filter(l => l.pct < 100);
+      sec3 += `<p class="label" style="margin-top:12px;">&#9733; Form Scoreboard — by FT Lead (running since ${_qsince ? _jlFmtDay(_qsince) : '9/17'})</p>`;
+      if (_perf.length) sec3 += `<div class="box" style="margin-top:5px;"><strong>&#10003; 100% club:</strong> ${_perf.map(l => `${l.name} (${l.done}/${l.run})`).join(' · ')}</div>`;
+      if (_rest.length) sec3 += `<div class="box flag" style="margin-top:5px;">${_rest.map(l => `<strong>${l.name}</strong> — ${l.done} of ${l.run} (${l.pct}%) · missing ${_qcMissLine(l)}`).join('<br>')}</div>`;
+    }
   }
   if (exxon)               sec3 += `<p class="label"${(d && d.yesterdaysJobs && d.yesterdaysJobs.count) ? ' style="margin-top:12px;"' : ''}>From the Crew's OWL Forms — ${w.psms}</p><div class="box">${clean(exxon).replace(/<br><br>/g,'</div><div class="box" style="margin-top:8px;">')}</div>`;
   const _flagItems = (d && d.fieldNews) ? d.fieldNews.filter(n => n.type === 'flag') : [];
@@ -5358,6 +5375,69 @@ function _jlLead(crew) {
   return (ft[0] || parts[0]).replace(/\s+/g, ' ');
 }
 
+// ── Form Scoreboard (shared by the QC view, the morning template, and the
+// printable summary): per-FT-lead running tally from formqc.json
+async function _ensureFormQc() {
+  if (_formqc) return _formqc;
+  try {
+    const r = await fetch('formqc.json?_=' + Date.now(), { cache: 'no-store' });
+    if (r.ok) _formqc = await r.json();
+  } catch (e) {}
+  return _formqc;
+}
+const _QC_SHORT = { 'OWL review written': 'OWL', 'Exxon JSA uploaded': 'JSA',
+                    '4-gas monitor photo': '4-Gas', 'Location sign photo': 'Sign',
+                    'Field ticket uploaded': 'Ticket' };
+function _qcLeadRows() {
+  const qj = (_formqc && _formqc.jobs) || [];
+  const leads = {};
+  qj.forEach(j => {
+    const L = _jlLead(j.techs);
+    const rec = leads[L] = leads[L] || { name: L, run: 0, forms: 0, done: 0, miss: {} };
+    rec.run += 1;
+    rec.forms += j.forms || 0;
+    if (j.complete) rec.done += 1;
+    (j.missing || []).forEach(m => { const s = _QC_SHORT[m] || m; rec.miss[s] = (rec.miss[s] || 0) + 1; });
+  });
+  const board = Object.values(leads).filter(l => l.name !== '(unattributed)')
+    .map(l => ({ ...l, pct: Math.round(100 * l.done / l.run) }))
+    .sort((a, b) => b.pct - a.pct || b.run - a.run);
+  return { board, unatt: leads['(unattributed)'] || null,
+           since: qj.length ? qj[qj.length - 1].date : null };
+}
+function _qcMissLine(l) {
+  return Object.entries(l.miss).sort((a, b) => b[1] - a[1]).map(([m, n]) => `${m} &times;${n}`).join(' &middot; ');
+}
+
+// Injects the compact scoreboard into the morning template's placeholder
+// (renderTemplate is sync; the fetch resolves after the DOM is in place)
+async function _tplQcBoard() {
+  const el = document.getElementById('tpl-qcboard');
+  if (!el) return;
+  await _ensureFormQc();
+  const { board, unatt, since } = _qcLeadRows();
+  if (!board.length) { el.innerHTML = ''; return; }
+  const pctColor = p => p >= 80 ? '#166534' : p >= 50 ? '#b45309' : '#991b1b';
+  const perfect = board.filter(l => l.pct === 100);
+  const rest = board.filter(l => l.pct < 100);
+  el.innerHTML = `<div style="border:2px solid #BF8F00; border-radius:10px; margin-bottom:16px; overflow:hidden;">
+    <div style="background:#BF8F00; color:#1F3864; padding:8px 12px;">
+      <span style="font-weight:800; font-size:13px;">&#9733; Form Scoreboard — by FT Lead</span>
+      <div style="font-size:11px; margin-top:2px;">Running tally since ${since ? _jlFmtDay(since) : '9/17'} — the lead's packet carries the team. One complete packet per job, no exceptions.</div>
+    </div>
+    <div style="padding:10px 12px;">
+      ${perfect.length ? `<div style="padding:6px 8px; margin-bottom:6px; border-left:3px solid #166534; background:#f0fdf4; border-radius:0 6px 6px 0; font-size:12.5px;"><strong style="color:#166534;">&#10003; 100% club:</strong> ${perfect.map(l => `${l.name} (${l.done}/${l.run})`).join(' &middot; ')}</div>` : ''}
+      ${rest.map((l, i) => `<div style="display:flex; align-items:baseline; gap:8px; padding:4px 4px; font-size:12.5px; flex-wrap:wrap; ${i < rest.length - 1 ? 'border-bottom:1px solid #f3f4f6;' : ''}">
+        <span style="font-weight:700; min-width:150px;">${l.name}</span>
+        <span style="color:var(--muted); font-size:11.5px;">${l.done} of ${l.run} jobs</span>
+        <span style="font-weight:800; color:${pctColor(l.pct)};">${l.pct}%</span>
+        <span style="font-size:11px; color:#b45309; font-weight:700;">missing ${_qcMissLine(l)}</span>
+      </div>`).join('')}
+      <div style="font-size:11px; color:var(--muted); margin-top:6px;">${unatt ? `+ ${unatt.run} jobs not matched to a board crew &middot; ` : ''}Full board with the per-item detail: Job Forms — Review &amp; Tracking &rarr; FORM QC.</div>
+    </div>
+  </div>`;
+}
+
 function _jlPaint() {
   const el = document.getElementById('joblog-content');
   const jl = _joblog;
@@ -5468,25 +5548,10 @@ function _jlPaint() {
     // (the export drops names, so the board's crew is the attribution; the
     // lead answers for the team's packet). Ranked by completion rate then
     // volume — percentages, never raw counts, so low-volume weeks don't hide.
-    const _qcShort = { 'OWL review written': 'OWL', 'Exxon JSA uploaded': 'JSA',
-                       '4-gas monitor photo': '4-Gas', 'Location sign photo': 'Sign',
-                       'Field ticket uploaded': 'Ticket' };
-    const leads = {};
-    qj.forEach(j => {
-      const L = _jlLead(j.techs);
-      const rec = leads[L] = leads[L] || { name: L, run: 0, forms: 0, done: 0, miss: {} };
-      rec.run += 1;
-      rec.forms += j.forms || 0;
-      if (j.complete) rec.done += 1;
-      (j.missing || []).forEach(m => { rec.miss[m] = (rec.miss[m] || 0) + 1; });
-    });
-    const board = Object.values(leads).filter(l => l.name !== '(unattributed)')
-      .map(l => ({ ...l, pct: Math.round(100 * l.done / l.run) }))
-      .sort((a, b) => b.pct - a.pct || b.run - a.run);
-    const unatt = leads['(unattributed)'];
+    const { board, unatt } = _qcLeadRows();
     const missChips = l => Object.entries(l.miss)
       .sort((a, b) => b[1] - a[1])
-      .map(([m, n]) => `<span style="display:inline-block; background:#fff; border:1.5px solid #b45309; color:#b45309; border-radius:99px; padding:0 8px; font-size:9.5px; font-weight:800; margin:2px 4px 0 0;">${_qcShort[m] || m} &times;${n}</span>`).join('');
+      .map(([m, n]) => `<span style="display:inline-block; background:#fff; border:1.5px solid #b45309; color:#b45309; border-radius:99px; padding:0 8px; font-size:9.5px; font-weight:800; margin:2px 4px 0 0;">${m} &times;${n}</span>`).join('');
     const pctColor = p => p >= 80 ? '#166534' : p >= 50 ? '#b45309' : '#991b1b';
     const medal = i => i === 0 ? '&#129351;' : i === 1 ? '&#129352;' : i === 2 ? '&#129353;' : `<span style="color:var(--muted);font-size:11px;">${i + 1}</span>`;
     const qtile = (n, label, color) => `
