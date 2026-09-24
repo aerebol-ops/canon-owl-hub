@@ -168,36 +168,36 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>[AGT · Air Job · Davis Fortune 44B #302H · CM: Foreman_East Ops 3] At 09/22</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Christian Lee 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>[AGT · Air Job · Pratt Vaughn 21C#103H · CM: Foreman_West Ops 6] W -Win: Wh</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons / Justin Fontenot 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>[AGT · Air Job · University 3-19 701H · CM: Bryan Hamilton] W -Win: What we</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>[AGT · Air Job · XBC Giddings Estate 1404H]</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[What happened: [AGT · Air Job · XBC Giddings Estate 1404H]]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>What did we observe?: Job scope completed safely and as planned,Safety control.</span><br><br><strong>There was no issues that we were challenged with</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>There was no issues that we were challenged with. All went according to plan.</span>",
+  "exxonMoments": "<strong>Crew was well prepared and fast at getting work done in a safe and orderly</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[What happened: [AGT · Air Job · Atkins 23-14-B 2804] Successful reconnect Crew was well prepared and fast at getting work done in a safe and orderly fashion]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew was well prepared and fast at getting work done in a safe and orderly fashion.</span><br><br><strong>Good communication when crew supervisor arrived on the second location</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Christian Lee 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Good communication when crew supervisor arrived on the second location...</span><br><br><strong>We observed maintenance done on injection line</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crews verified straps inspection dates and verified safeguards were in place prior to work , went over pretask briefing and LSRA with LAI.</span><br><br><strong>First break deemed well area safe, workers all used proper ppe and safe too</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[What happened: [AGT · Air Job · Owens Craves W31G 7H] First break deemed well area safe, workers all used proper ppe and safe tools Great communication between Us and MT, and Roustabout crew , No issues with completing job]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Great communication between Us and MT, and Roustabout crew , No issues with completing job.</span><br><br><strong>All safe measures were implemented no issues to report</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Caleb Smith / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>All safe measures were implemented no issues to report. good strong communication with MT and crew.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Pablo Soto / Bryan Medlin — [AGT · Air Job · North Pembrook 706A · CM: James Glass]",
-      "detail": "OWL After Action Review Duration: 4m.",
+      "headline": "Nathan Contreras / Rolando Flores 1099 — Crew maintained clear communication throughout the job, reviewed the LSRAs",
+      "detail": "Continue improving communication by maintaining the same level of coordination and reviewing potential hazards and controls before and throughout the job.",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "good",
+      "headline": "What Happened: [Agt · Air Job · Owens Craves W31G 7H] First Break Deemed Well Area Safe, Workers All Used Proper Ppe And Safe Tools Great Communication Between Us And Mt, And Roustabout Crew , No Issues With Completing Job — First break deemed well area safe, workers all used proper ppe and safe too",
+      "detail": "Great communication between Us and MT, and Roustabout crew , No issues with completing job.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Bryan Medlin — [AGT · Air Job · Benedum 3E 5H · CM: Jeff Jones]",
-      "detail": "L - Learn: One thing we'll do better next time:: Did we leave the location better than we found it?: At 09/21/2026 09:59 AM Rd 252 Midkiff, TX 79755 How did we leave this",
+      "headline": "What Happened: [Agt · Air Job · Owens L3] Change Stuff In Box All Around Great Communication — All around great communication",
+      "detail": "Remember that Exxon's a 5 mile radius for lightning.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras / Gael \"Antonio\" Avila 1099 — [AGT · Air Job · Powell 1801 · CM: Chad Farr]",
-      "detail": "L - Learn: One thing we'll do better Help them pick up there equipment to be more fast next time:: At 09/21/2026 03:40 PM Unnamed Road Midkiff, TX 79755 Did we leave the ",
-      "psms": "Confined Space Entry"
-    },
-    {
-      "type": "good",
-      "headline": "What Happened: [Agt · Air Job · Skaggs 8 #2Hb] W -Win: What Went Well?: At 09/21/2026 07:51 Am Unnamed Road Midland, Tx 79706 What Went Well? Continued: Location Sign Photo Duration: 0M L - Learn: 09/21/2026 08:39 Am Canon Safety/Rhi Group Unnamed Road, Midolanned T,H Tinxg 7 W9E7'0Ll6 Do Better 800-553-2964 Next Time:: Www.Csrhigroup.Com Location Sign Photo Submitted At 09/21/2026 08:39 Am Generated On 09/21/20 — [AGT · Air Job · Skaggs 8 #2HB] W -Win: What went well",
-      "detail": "Location Sign Photo Duration: 0m.",
+      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — Set up exclusion zone and conducted a reconnect job",
+      "detail": "Look for any place to improve.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Justin Fontenot 1099 — [AGT · Air Job · Pratt Vaughn 21C#103H · CM: Foreman_West Ops 6] W -Win: Wh",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "headline": "Caleb Smith / Bobby Galindo 1099 — Crew completed the job according to plan",
+      "detail": "The job scope was completed safely and successfully.",
       "psms": "Operational Discipline"
     },
     {
