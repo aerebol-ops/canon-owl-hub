@@ -5295,6 +5295,7 @@ function _jlLoopStrip() {
 
 function renderJobLogView(v) { _jlView = v; _jlPaint(); }
 
+let _formqc = null;
 async function renderJobLog() {
   const el = document.getElementById('joblog-content');
   if (!el) return;
@@ -5303,11 +5304,24 @@ async function renderJobLog() {
     if (!r.ok) { el.innerHTML = ''; return; }
     _joblog = await r.json();
   } catch (e) { el.innerHTML = ''; return; }
+  try {
+    const rq = await fetch('formqc.json?_=' + Date.now(), { cache: 'no-store' });
+    if (rq.ok) _formqc = await rq.json();
+  } catch (e) { _formqc = null; }
   const dayList = (_joblog.days || []).filter(d => d.jobs).map(d => d.date).sort().reverse();
-  if (!_jlView || (_jlView !== 'flags' && _jlView !== 'trends' && !dayList.includes(_jlView))) {
+  if (!_jlView || (_jlView !== 'flags' && _jlView !== 'trends' && _jlView !== 'qc' && !dayList.includes(_jlView))) {
     _jlView = dayList[0] || 'trends';
   }
   _jlPaint();
+}
+
+// FT lead = the name in the crew pair WITHOUT the 1099 tag (the trailer-puller
+// whose packet carries the JSA and gas log — one complete packet per team).
+function _jlLead(crew) {
+  if (!crew) return '(unattributed)';
+  const parts = crew.split('/').map(p => p.trim());
+  const ft = parts.filter(p => !/1099/.test(p));
+  return (ft[0] || parts[0]).replace(/\s+/g, ' ');
 }
 
 function _jlPaint() {
@@ -5327,6 +5341,7 @@ function _jlPaint() {
   const tabs =
     chip('flags', `&#9888; RED FLAGS${flagged.length ? ` (${flagged.length})` : ''}`, { color: '#b00020' }) +
     chip('trends', '&#128200; TRENDS', { color: '#375623' }) +
+    (_formqc ? chip('qc', '&#10003; FORM QC', { color: '#BF8F00' }) : '') +
     dayList.map(d => {
       const meta = (jl.days || []).find(x => x.date === d) || {};
       return chip(d, `${_jlDayName(d)} ${_jlFmtDay(d)} &middot; ${meta.jobs}${meta.flags ? ' <span style="color:#FFD966;">&#9679;</span>' : ''}`);
@@ -5408,6 +5423,67 @@ function _jlPaint() {
         ${psmsBars}
         <div style="font-size:10.5px; color:var(--muted); margin-top:6px;">Each written note is classified against the PSMS curriculum — the tall bars are next week's meeting material.</div>
       </div>` : ''}`;
+  } else if (_jlView === 'qc' && _formqc) {
+    const qj = _formqc.jobs || [];
+    const nQ = qj.length;
+    const nComplete = qj.filter(j => j.complete).length;
+    const nJsa = qj.filter(j => j.checks && j.checks.jsa).length;
+    const lateJobs = qj.filter(j => j.late_min !== null && j.late_min > 15);
+    // Lead leaderboard — JSA completeness %, leaderboard methodology:
+    // percentages not raw counts, ranked by rate then volume
+    const leads = {};
+    qj.forEach(j => {
+      const L = _jlLead(j.techs);
+      const rec = leads[L] = leads[L] || { name: L, run: 0, jsa: 0 };
+      rec.run += 1;
+      if (j.checks && j.checks.jsa) rec.jsa += 1;
+    });
+    const board = Object.values(leads).filter(l => l.name !== '(unattributed)')
+      .map(l => ({ ...l, pct: Math.round(100 * l.jsa / l.run) }))
+      .sort((a, b) => b.pct - a.pct || b.run - a.run);
+    const unatt = leads['(unattributed)'];
+    const pctColor = p => p >= 80 ? '#166534' : p >= 50 ? '#b45309' : '#991b1b';
+    const medal = i => i === 0 ? '&#129351;' : i === 1 ? '&#129352;' : i === 2 ? '&#129353;' : `<span style="color:var(--muted);font-size:11px;">${i + 1}</span>`;
+    const qtile = (n, label, color) => `
+      <div style="flex:1; min-width:120px; background:#fff; border:2px solid ${color}; border-radius:10px; padding:12px 10px; text-align:center;">
+        <div style="font-size:26px; font-weight:900; color:${color};">${n}</div>
+        <div style="font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.6px; color:var(--muted); margin-top:2px;">${label}</div>
+      </div>`;
+    const incomplete = qj.filter(j => !j.complete).slice(0, 30);
+    body = `
+      <div style="background:#BF8F00; color:#1F3864; border-radius:0 8px 8px 8px; padding:10px 14px; margin-bottom:12px;">
+        <div style="font-size:14px; font-weight:800;">&#10003; Form QC — one complete packet per team, every job</div>
+        <div style="font-size:11.5px; margin-top:2px;">The FT lead pulling the trailer carries the JSA and gas log — the team's job counts complete when either form shows it. Audited from the daily export; the full-packet feed will add benzene, atmospheric log, tubes, and names.</div>
+      </div>
+      <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px;">
+        ${qtile(Math.round(100 * nComplete / Math.max(nQ, 1)) + '%', 'Teams Complete', pctColor(Math.round(100 * nComplete / Math.max(nQ, 1))))}
+        ${qtile(Math.round(100 * nJsa / Math.max(nQ, 1)) + '%', 'JSA Uploaded', pctColor(Math.round(100 * nJsa / Math.max(nQ, 1))))}
+        ${qtile(nQ, 'Jobs Audited', 'var(--navy)')}
+        ${qtile(lateJobs.length, 'Late Starts >15 min', lateJobs.length ? '#C55A11' : '#166534')}
+      </div>
+      <div style="background:#fff; border:2px solid #BF8F00; border-radius:12px; overflow:hidden; margin-bottom:14px;">
+        <div style="background:var(--navy); color:#fff; padding:10px 14px;">
+          <div style="font-size:10px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#FFD966;">&#9733; JSA Board — by FT Lead</div>
+          <div style="font-size:13px; font-weight:800; margin-top:2px;">The lead's packet carries the team — ranked by completeness</div>
+        </div>
+        <div style="padding:8px 12px;">
+          ${board.map((l, i) => `
+            <div style="display:flex; align-items:center; gap:10px; padding:5px 4px; ${i < board.length - 1 ? 'border-bottom:1px solid #f0f0f0;' : ''}">
+              <span style="min-width:26px; text-align:center; font-size:15px;">${medal(i)}</span>
+              <span style="flex:1; font-size:13px; font-weight:${i < 3 ? 800 : 600};">${l.name}</span>
+              <span style="flex:2; height:10px; background:#eef1f8; border-radius:4px; overflow:hidden; max-width:38%;"><span style="display:block; height:100%; width:${l.pct}%; background:${i < 3 ? '#BF8F00' : 'var(--navy)'};"></span></span>
+              <span style="min-width:64px; text-align:right; font-size:11.5px; color:var(--muted);"><strong style="color:var(--navy); font-size:13px;">${l.jsa}</strong> of ${l.run}</span>
+              <span style="min-width:40px; text-align:right; font-size:12.5px; font-weight:800; color:${pctColor(l.pct)};">${l.pct}%</span>
+            </div>`).join('')}
+          ${unatt ? `<div style="font-size:11px; color:var(--muted); padding:8px 4px 2px; border-top:2px solid #e5e7eb; margin-top:6px;">+ ${unatt.run} jobs not matched to a board crew (${unatt.jsa} with JSA) — not ranked</div>` : ''}
+        </div>
+      </div>
+      ${incomplete.length ? `<div style="font-size:13px; font-weight:800; color:#b45309; margin:14px 0 8px;">Incomplete Jobs — what's missing, by job</div>` + incomplete.map(j => `
+        <div style="padding:7px 9px; margin-bottom:5px; border-left:3px solid #b45309; background:#fffbeb; border-radius:0 6px 6px 0;">
+          <div style="font-size:13px;"><strong>${j.well}</strong> &middot; ${_jlDayName(j.date)} ${_jlFmtDay(j.date)} &middot; <span style="color:var(--muted);">${j.techs || 'crew unattributed'}</span></div>
+          <div style="margin-top:3px;">${(j.missing || []).map(m => `<span style="display:inline-block; background:#b45309; color:#fff; border-radius:99px; padding:1px 9px; font-size:10px; font-weight:800; margin:0 4px 3px 0;">${m}</span>`).join('')}${j.late_min !== null && j.late_min > 15 ? `<span style="display:inline-block; background:#C55A11; color:#fff; border-radius:99px; padding:1px 9px; font-size:10px; font-weight:800;">first activity +${j.late_min} min vs sched</span>` : ''}</div>
+        </div>`).join('') : '<div style="color:#166534; font-weight:700; padding:10px 4px;">Every audited job complete — clean board.</div>'}
+      <div style="font-size:11px; color:var(--muted); margin-top:10px; line-height:1.5;">&#9878; Fair-play note: "missing" means not visible in the daily export — a strong signal, not yet proof. Clean-record leads (Jordan Lemmons, Jose Hurtado, Pablo Soto at pilot) show the habit fits inside the workday. Late-start times are first form activity vs the board's scheduled start — a conversation starter, not a verdict.</div>`;
   } else {
     // a single day's sheet, grouped by category like the job board
     const dayJobs = jobs.filter(j => j.date === _jlView);
@@ -5435,7 +5511,7 @@ function _jlPaint() {
       <button onclick="shareJobLogPDF()" style="flex-shrink:0; background:#fff; color:var(--navy); border:2px solid var(--gold); border-radius:8px; padding:9px 14px; font-size:12.5px; font-weight:800; cursor:pointer;">&#128196; Share PDF</button>
     </div>
     <div style="display:flex; gap:4px; overflow-x:auto; padding:0 0 0 2px; margin-bottom:0;">${tabs}</div>
-    <div style="border-top:2px solid ${_jlView === 'flags' ? '#b00020' : _jlView === 'trends' ? '#375623' : 'var(--navy)'}; padding-top:12px;">${body}</div>
+    <div style="border-top:2px solid ${_jlView === 'flags' ? '#b00020' : _jlView === 'trends' ? '#375623' : _jlView === 'qc' ? '#BF8F00' : 'var(--navy)'}; padding-top:12px;">${body}</div>
     <div style="font-size:11px; color:var(--muted); text-align:center; margin:14px 0;">Jobs deduped by well + day &middot; form counts reconcile with the OWL leaderboard &middot; flags and PSMS topics mined from the crews' own notes</div>`;
 }
 
