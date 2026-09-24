@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "week": 15,
-  "day": 3,
+  "day": 4,
   "topicWeek": 13,
   "displayWeek": 6,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Operational Discipline",
     "marker": "Second lap of the 12 begins — same standards, fresh scenarios, zero autopilot"
   },
-  "openingMessage": "I don't look at myself as a basketball coach. I look at myself as a leader who happens to coach basketball.",
+  "openingMessage": "If you can't communicate, you can't lead. Communicate everything.",
   "openingAttribution": "Mike Krzyzewski",
-  "openingWhy": "You're not an H2S tech who happens to be standing on a location — you're the safety leader that roustabout crew is watching. The newest worm out there is learning this trade off your habits, not your words. You're teaching either way. Teach on purpose.",
+  "openingWhy": "The day crew knew the line still had pressure on it. The night crew didn't. Everything that lives between those two sentences is a hospital visit. Say it early, say it plain, write it in the handover — information that doesn't move is how good crews hurt each other.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,7 +164,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "We protect lives on location. We represent our clients — Exxon, Civitas, and everyone we work for. We operate with professionalism, even when no one is watching. That is our standard at Canon.",
+  "leadershipThought": "Your awareness has to be higher than your intent. Intent doesn't matter if the impact is wrong. Operate in a diverse environment — different backgrounds, different beliefs, different life experiences.",
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -172,14 +172,32 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — Everything went well and the job was completed safely with no issues or inc",
-      "detail": "Everything went well and the job was completed safely with no issues or incidents.",
+      "headline": "Gage Gonzales — Job executed per job plan, with no unplanned stops",
+      "detail": "Job executed per job plan, with no unplanned stops",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes — Set up exclusion zone and commenced to cleaning out two oil tanks without i",
-      "detail": "Set up exclusion zone and commenced to cleaning out two oil tanks without incident",
+      "headline": "Raymundo Solis — We meet two safety reps at the entrance of the pad and explained to them th",
+      "detail": "We meet two safety reps at the entrance of the pad and explained to them the job scope",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Baldemar Bracamontes — All potential hazards were recognized and made aware to all personnel on lo",
+      "detail": "All potential hazards were recognized and made aware to all personnel on location",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Nathan Contreras — Crews showed excellent communication and coordination with one another",
+      "detail": "Crews showed excellent communication and coordination with one another . Crews went",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "headline": "Gael Antonio Avila — Everything good meeting and quick so they can get the job done quick die th",
+      "detail": "Everything good meeting and quick so they can get the job done quick die the heat being",
       "psms": "Operational Discipline"
     },
     {
@@ -190,8 +208,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Check your attitude at the gate today. The crew reads it before you say a word — bring the version of you that makes the location better.",
-  "todaysChallengeSubtext": "“Ability is what you're capable of doing. Motivation determines what you do. Attitude determines how well you do it.” — Lou Holtz",
+  "todaysChallenge": "Today's job is probably ordinary. Do the ordinary at a champion's level: the routine bleed-down, the routine cal, the routine form — better than anyone else in the Basin.",
+  "todaysChallengeSubtext": "“Champions are champions not because they do anything extraordinary but because they do the ordinary things better than anyone else.” — Chuck Noll",
   "compliance": {
     "weekOf": "Week of September 14, 2026",
     "metrics": [
