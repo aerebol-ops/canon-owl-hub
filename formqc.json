@@ -3,6 +3,414 @@
  "scope": "Dropbox '- OWL' exports \u2014 OWL, JSA, 4-gas, location sign, ticket auditable; benzene/atmospheric/permits/tubes/names need the full packet feed",
  "jobs": [
   {
+   "date": "2026-09-23",
+   "well": "University 10-11C 3H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101308",
+   "bnz": "4",
+   "at": "604",
+   "techs": "NATHAN CONTRERAS / Rolando Flores 1099",
+   "sched": "9/23/2026 8:00 AM",
+   "late_min": -1,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Turner W41D 4H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101321",
+   "bnz": "8",
+   "at": "608",
+   "techs": "JACOB HERNANDEZ / Robbie Henigan 1099",
+   "sched": "09/23/2026 07:00:00",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-23",
+   "well": "TB Bast 32-41H",
+   "category": "Maintenance",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": false,
+   "ticket": "",
+   "bnz": "",
+   "at": "",
+   "techs": "",
+   "sched": "",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Shackelford 40-12C 3H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101314",
+   "bnz": "7",
+   "at": "607",
+   "techs": "PABLO SOTO / Bobby Galindo 1099",
+   "sched": "9/23/2026 10:00 AM",
+   "late_min": -21,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Shackelford 40-12B 2H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101315",
+   "bnz": "7",
+   "at": "607",
+   "techs": "PABLO SOTO / Bobby Galindo 1099",
+   "sched": "9/23/2026 8:00 AM",
+   "late_min": -8,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Shackelford 3B 302H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101316",
+   "bnz": "7",
+   "at": "607",
+   "techs": "PABLO SOTO / Bobby Galindo 1099",
+   "sched": "9/23/2026 12:00 PM",
+   "late_min": 6,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Sale Ranch A #10",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": false,
+   "ticket": "",
+   "bnz": "",
+   "at": "",
+   "techs": "",
+   "sched": "",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Riley 26E 105H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101312",
+   "bnz": "4",
+   "at": "604",
+   "techs": "NATHAN CONTRERAS / Rolando Flores 1099",
+   "sched": "9/23/2026 12:00 PM",
+   "late_min": 161,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Riley 26D 104H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101313",
+   "bnz": "4",
+   "at": "604",
+   "techs": "NATHAN CONTRERAS / Rolando Flores 1099",
+   "sched": "9/23/2026 1:00 PM",
+   "late_min": 101,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Powell 1807",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101258",
+   "bnz": "2",
+   "at": "602",
+   "techs": "LUIS ZARATE / Cindy Smith 1099",
+   "sched": "9/23/2026 8:00AM",
+   "late_min": -39,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Owens Cravens W31D 4H",
+   "category": "AGT",
+   "forms": 1,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101325",
+   "bnz": "11",
+   "at": "501",
+   "techs": "LARRY JARAMILLO / Christian Lee 1099",
+   "sched": "9/23/26 8:00 AM",
+   "late_min": -34,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Nobles 3106BH",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101323",
+   "bnz": "1",
+   "at": "601",
+   "techs": "MICHAEL JOBE / Justin Fontenot 1099",
+   "sched": "09/23/2026 12:00:00",
+   "late_min": null,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Mustang West 8-27H",
+   "category": "Maintenance",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101302",
+   "bnz": "5",
+   "at": "605",
+   "techs": "RALPH FORBES / William \"Jimmy\" Cooper 1099",
+   "sched": "9/23/26 7:30 AM",
+   "late_min": -16,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Lane 11A 4",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101854",
+   "bnz": "3",
+   "at": "603",
+   "techs": "DAWSON DRAKE / ALEJANDRO NAJAR",
+   "sched": "9/23/2026 8:00AM",
+   "late_min": -21,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Javaid Central 40C #3H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101320",
+   "bnz": "6",
+   "at": "606",
+   "techs": "JORDAN LEMMONS / BRYAN MEDLIN",
+   "sched": "Sep 23, 2026 12:00:00 PM",
+   "late_min": 198,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Hull Cross 2N 14H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101322",
+   "bnz": "1",
+   "at": "601",
+   "techs": "",
+   "sched": "09/23/2026 07:00:00",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Glass Ranch A 204H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101848",
+   "bnz": "13",
+   "at": "504",
+   "techs": "CALEB SMITH / JOSE CAMPOS",
+   "sched": "09/23/2026 07:00:00 AM",
+   "late_min": 414,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-23",
+   "well": "Elkin Crawford 34CC 103H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101301",
+   "bnz": "6",
+   "at": "606",
+   "techs": "JORDAN LEMMONS / BRYAN MEDLIN",
+   "sched": "09/23/2026 07:00:00",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
+  {
    "date": "2026-09-22",
    "well": "TB Nunn 5-44H South",
    "category": "Maintenance",

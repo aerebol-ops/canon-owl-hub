@@ -3,11 +3,11 @@
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
-  "weekJobs": 75,
-  "weekForms": 145,
-  "weekFlagRate": 12,
-  "weekWells": 72,
-  "weekCrews": 32
+  "weekJobs": 93,
+  "weekForms": 180,
+  "weekFlagRate": 10,
+  "weekWells": 88,
+  "weekCrews": 36
  },
  "days": [
   {
@@ -69,10 +69,218 @@
    "Maintenance": 1,
    "Well Testing": 0,
    "Other": 0
+  },
+  {
+   "date": "2026-09-23",
+   "forms": 35,
+   "jobs": 18,
+   "flags": 0,
+   "AGT": 16,
+   "Maintenance": 2,
+   "Well Testing": 0,
+   "Other": 0
   }
  ],
  "repeatFlagWells": [],
  "recent": [
+  {
+   "date": "2026-09-23",
+   "category": "Maintenance",
+   "jobType": "Air Job",
+   "well": "TB Bast 32-41H",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "psms": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "Maintenance",
+   "jobType": "Air Job",
+   "well": "Mustang West 8-27H",
+   "crew": "Ralph Forbes / William \"Jimmy\" Cooper 1099",
+   "cm": "",
+   "note": "Set up exclusion zone to remove 4 inch pipe",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "University 10-11C 3H",
+   "crew": "Nathan Contreras / Rolando Flores 1099",
+   "cm": "Pete Bryant",
+   "note": "We observed a disconnect Done on a wellhead",
+   "psms": "Atmospheric Monitoring",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Turner W41D 4H",
+   "crew": "Jacob Hernandez / Robbie Henigan 1099",
+   "cm": "Foreman_West Ops 10",
+   "note": "Job completed just as scope called for",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Shackelford 40-12C 3H",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "psms": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Shackelford 40-12B 2H",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "psms": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Shackelford 3B 302H",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "psms": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Sale Ranch A #10",
+   "crew": "",
+   "cm": "",
+   "note": "Job was suspended reason not given by MT",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Riley 26E 105H",
+   "crew": "Nathan Contreras / Rolando Flores 1099",
+   "cm": "Tim Blackwell",
+   "note": "The crew accessed and ensured proper safety measures were in place before s",
+   "psms": "Atmospheric Monitoring",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Riley 26D 104H",
+   "crew": "Nathan Contreras / Rolando Flores 1099",
+   "cm": "Tim Blackwell",
+   "note": "We observed a reconnect done on a wellhead",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Powell 1807",
+   "crew": "Luis Zarate / Cindy Smith 1099",
+   "cm": "Chad Farr",
+   "note": "Crew killed well and once it was on vacuum did they replace tubing rubber,",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Owens Cravens W31D 4H",
+   "crew": "Larry Jaramillo / Christian Lee 1099",
+   "cm": "",
+   "note": "Tested under air, everything clear and good to go",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Nobles 3106BH",
+   "crew": "Michael Jobe / Justin Fontenot 1099",
+   "cm": "Foreman_West Ops 5",
+   "note": "Had meeting went great went over everything",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Lane 11A 4",
+   "crew": "Dawson Drake / Alejandro Najar",
+   "cm": "Bryan Hamilton",
+   "note": "crews realligned polish rod on pumpjack",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Javaid Central 40C #3H",
+   "crew": "Jordan Lemmons / Bryan Medlin",
+   "cm": "Shelly Thiel",
+   "note": "Disconnected the well",
+   "psms": "Atmospheric Monitoring",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Hull Cross 2N 14H",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "psms": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Airjob",
+   "well": "Glass Ranch A 204H",
+   "crew": "Caleb Smith / Jose Campos",
+   "cm": "Foreman_West Ops 11",
+   "note": "MT did a great job during the pre task briefing invoking personal with the",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-09-23",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Elkin Crawford 34CC 103H",
+   "crew": "Jordan Lemmons / Bryan Medlin",
+   "cm": "Foreman_West Ops 9",
+   "note": "Had a snake in the injection line tenhorn",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
   {
    "date": "2026-09-22",
    "category": "Maintenance",
