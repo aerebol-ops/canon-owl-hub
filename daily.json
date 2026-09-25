@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "week": 15,
-  "day": 4,
+  "day": 5,
   "topicWeek": 13,
   "displayWeek": 6,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Operational Discipline",
     "marker": "Second lap of the 12 begins — same standards, fresh scenarios, zero autopilot"
   },
-  "openingMessage": "If you can't communicate, you can't lead. Communicate everything.",
+  "openingMessage": "The most important thing a leader can do is create an environment where everyone feels they are part of the team and the team is part of them.",
   "openingAttribution": "Mike Krzyzewski",
-  "openingWhy": "The day crew knew the line still had pressure on it. The night crew didn't. Everything that lives between those two sentences is a hospital visit. Say it early, say it plain, write it in the handover — information that doesn't move is how good crews hurt each other.",
+  "openingWhy": "The hand who feels like an outsider won't call stop-work — he'll hope somebody senior does it first. The crew where the greenest worm will grab an operator's sleeve and say 'walk me through this' is the crew that catches what everybody else walks right past.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,7 +164,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Your awareness has to be higher than your intent. Intent doesn't matter if the impact is wrong. Operate in a diverse environment — different backgrounds, different beliefs, different life experiences.",
+  "leadershipThought": "Act like a professional at all times. Respect the environment. Be aware. Don't create distractions. Act like the person the client would want back tomorrow.",
   "yesterdaysJobs": {
     "date": "2026-09-23",
     "label": "Wednesday, September 23",
@@ -313,41 +313,41 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>First area test was deemed safe, first break under air was deemed safe , ev</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Caleb Smith / Jose Campos]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Great communication between MT , roustabout crew, and canon workers, No hazardous readings off initial test , or first break, killed well without many issues , and were able to change well head.</span><br><br><strong>Crew killed the well, hung polish rod, replaced rubber tubing and replaced</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate / Cindy Smith 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Morale was high despite taking over 2 hrs to break the union away from the well head.</span><br><br><strong>We observed a reconnect done on a wellhead</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crews communicated effectively with one another. Job scope went up to standards and crew went over triggers and hold points for the job .</span><br><br><strong>Job was suspended reason not given by MT</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>New dis cussed exclusion zones</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
+  "exxonMoments": "<strong>Crew was well prepared and fast at getting work done in a safe and orderly</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew was well prepared and fast at getting work done in a safe and orderly fashion.</span><br><br><strong>Good communication when crew supervisor arrived on the second location</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Christian Lee 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Good communication when crew supervisor arrived on the second location...</span><br><br><strong>We observed maintenance done on injection line</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crews verified straps inspection dates and verified safeguards were in place prior to work , went over pretask briefing and LSRA with LAI.</span><br><br><strong>First break deemed well area safe, workers all used proper ppe and safe too</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Great communication between Us and MT, and Roustabout crew , No issues with completing job.</span><br><br><strong>All safe measures were implemented no issues to report</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Caleb Smith / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>All safe measures were implemented no issues to report. good strong communication with MT and crew.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Nathan Contreras / Rolando Flores 1099 — We observed a disconnect Done on a wellhead",
-      "detail": "Crews verified safeguards and locks were in place prior to work , crews verified inspection dates on straps .",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Michael Jobe / Justin Fontenot 1099 — Had a great meeting with the MT got the job done",
-      "detail": "Job went great crew did the job in a safe manner.",
+      "headline": "Michael Jobe / Justin Fontenot 1099 — Crew held meeting and went over the job scope",
+      "detail": "Next job will be conducted the same.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo / Christian Lee 1099 — Good communication when crew supervisor arrived on the second location",
-      "detail": "Good communication when crew supervisor arrived on the second location...",
+      "headline": "Nathan Contreras / Rolando Flores 1099 — We observed maintenance done on injection line",
+      "detail": "Crews verified straps inspection dates and verified safeguards were in place prior to work , went over pretask briefing and LSRA with LAI.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Dawson Drake / Jerry Gonzales — Disconnect but with a leak vaule and the csg had 800 psi after loto",
-      "detail": "Always verify for yourself never trust somebody else else's verification.",
-      "psms": "Energy Isolation",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Pablo Soto / Bryan Medlin — Connecting flow line to well",
+      "headline": "Pablo Soto / Bryan Medlin — Flow line connecting to well",
       "detail": "Everyone left location safely.",
       "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Caleb Smith / Bobby Galindo 1099 — All safe measures were implemented no issues to report",
+      "detail": "All safe measures were implemented no issues to report. good strong communication with MT and crew.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — Set up exclusion zone for Preston Freeman 15 I 109H and 15 H108H",
+      "detail": "Always look for room to improve.",
+      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
@@ -358,8 +358,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Today's job is probably ordinary. Do the ordinary at a champion's level: the routine bleed-down, the routine cal, the routine form — better than anyone else in the Basin.",
-  "todaysChallengeSubtext": "“Champions are champions not because they do anything extraordinary but because they do the ordinary things better than anyone else.” — Chuck Noll",
+  "todaysChallenge": "Ask for the truth today: have a senior hand watch one thing you do and tell you straight what they'd do better. Then return the favor for someone newer.",
+  "todaysChallengeSubtext": "“Average players want to be left alone. Good players want to be coached. Great players want to be told the truth.” — Doc Rivers",
   "compliance": {
     "weekOf": "Week of September 21, 2026",
     "metrics": [
