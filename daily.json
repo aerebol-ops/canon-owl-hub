@@ -317,36 +317,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Jose Campos — Replaced valves , gaskets, New Kimrays",
-      "detail": "Good communication, proper ppe used , proper tools ,.",
-      "psms": "Operational Discipline",
-      "level": "duck"
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke / Rolando Flores 1099 — Good communication and proper safety controls were maintained throughout th",
-      "detail": "Continue improving communication and verifying all controls before starting work.",
-      "psms": "Atmospheric Monitoring",
-      "level": "duck"
-    },
-    {
-      "type": "good",
-      "headline": "Jordan Lemmons / Bryan Medlin — Had to bleed down the well into a open top and pump 95bbls of brine to kill",
-      "detail": "Got 0s so crew worked fast to get the valves and rubbers that needed replaced.",
-      "psms": "Operational Discipline",
-      "level": "duck"
-    },
-    {
-      "type": "good",
-      "headline": "Nathan Contreras / Rolando Flores 1099 — The crew accessed and ensured proper safety measures were in place before s",
-      "detail": "Continue to improve communication and hazard awareness before working, and maintain atmospheric testing and safety controls throughout the job.",
+      "headline": "Nathan Contreras / Rolando Flores 1099 — We observed a disconnect Done on a wellhead",
+      "detail": "Crews verified safeguards and locks were in place prior to work , crews verified inspection dates on straps .",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — New dis cussed exclusion zones",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "headline": "Michael Jobe / Justin Fontenot 1099 — Had a great meeting with the MT got the job done",
+      "detail": "Job went great crew did the job in a safe manner.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Larry Jaramillo / Christian Lee 1099 — Good communication when crew supervisor arrived on the second location",
+      "detail": "Good communication when crew supervisor arrived on the second location...",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Dawson Drake / Jerry Gonzales — Disconnect but with a leak vaule and the csg had 800 psi after loto",
+      "detail": "Always verify for yourself never trust somebody else else's verification.",
+      "psms": "Energy Isolation",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Pablo Soto / Bryan Medlin — Connecting flow line to well",
+      "detail": "Everyone left location safely.",
       "psms": "Operational Discipline",
       "level": null
     },
