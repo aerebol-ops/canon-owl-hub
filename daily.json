@@ -317,37 +317,37 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dawson Drake / Jerry Gonzales — Crew worked at steady pase",
-      "detail": "Crew worked at steady pase.",
+      "headline": "Caleb Smith / Jerry Gonzales — Completed job according to plan, plan was to kill the well and set rod hold",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Larry Jaramillo / Gael \"Antonio\" Avila 1099 — Great communication with everyone on location",
+      "detail": "Great communication with everyone on location.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Alexander Clubb / Rolando Flores 1099 — Conducted a pre-task safety meeting with the crew to review the job scope,",
+      "detail": "Continue to maintain strong communication, complete atmospheric testing before starting work, and keep continuous monitoring in place throughout the task.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jose Hurtado / Baldemar Bracomontes 1099 — Job was completed safely, no incident or triggers occurred",
-      "detail": "All necessary hold points were placed.",
-      "psms": "Operational Discipline",
+      "headline": "Nathan Contreras / Alejandro Najar — We observed a rod hanger installed on a pump jack",
+      "detail": "Crews went over nearest hospitals and access points , crews verified safeguards were in place , crews recognized mechanical lifting and breaking containment.",
+      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Caleb Smith / Ruben Rojo — Job was already completed before we got to location",
-      "detail": "L - Learn: One thing we'll do better next time.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Michael Jobe / Bobby Galindo 1099 — crew are somewhat new and worked at a slow pace, but all went well",
-      "detail": "Crew are somewhat new and worked at a slow pace, but all went well.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jacob Hernandez / Jose Campos — No pressure on initial break, no issues killing well",
-      "detail": "Good communication, crew used proper PPE and safely handled tools.",
-      "psms": "Operational Discipline",
+      "headline": "Nathan Contreras / Rolando Flores 1099 — The crew accessed the cellar and ensured proper safety measures were in pla",
+      "detail": "Continue to improve communication and hazard awareness before entering the cellar, and maintain atmospheric testing and safety controls throughout the job.",
+      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
