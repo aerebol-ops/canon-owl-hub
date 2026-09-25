@@ -288,25 +288,25 @@
     ]
   },
   "formReview": {
-    "date": "2026-09-23",
-    "label": "Wednesday 9/23",
-    "verdict": "4 items I would treat as real safety concerns, 4 forms where a stop-work or unsafe-conditions selection needs the technician's confirmation, and a set of documentation problems grouped below. Every item flagged was re-read directly from the source PDF.",
+    "date": "2026-09-24",
+    "label": "Thursday 9/24",
+    "verdict": "",
     "concerns": [
       {
-        "title": "Stop work authority actually exercised — Ralph Forbes, XTO Energy, Mustang West 8-27H, OWL submitted 11:58 AM (job 34932_1, 7:15 AM–12:00 PM). This is the one form today ",
-        "quote": "Stop the job utilized because pipe was not secure with the tagline and moved around properly"
+        "title": "Jimmy White — Machin & Associates, Elliot #1, alarm call closed 12:06 PM, job 35034. Gas sensor failure with a reading above zero. The form records the monitor triggering",
+        "quote": "Upon arrival, monitor was triggered on sensor 4. Sensor 4 was hung at 27ppm and wouldn't drop off. Bad sensor element. Swapped sensor head and everything is working properly."
       },
       {
-        "title": "Benzene above zero, leaking casing valve, work performed off air — Jordan Lemmons, XTO Energy, Elkin Crawford 34CC 103H, job 6:58 AM–2:39 PM (34928_1). The Details field,",
-        "quote": "Disconnected well got some benzene of 0.65 from the flowline the casing valve was leaking and tried testing for benzene in the breathing area but the wind kept blowing it away so we were able to do the job without being under the air the whole time"
+        "title": "Humberto Marquez-Salazar — SM Energy, Hutchinson Teele CTB, trailer 503, Trailer Inspection Form 11:28 AM. Technician not in Canon Safety issued FR uniform.",
+        "quote": "Are you wearing you Canon Safety issued FR uniform? — No. If not, why? — Not assigned"
       },
       {
-        "title": "Benzene above zero, unquantified — Jordan Lemmons, XTO Energy, Javaid Central 40C #3H, job 3:18 PM–7:14 PM (34962_1). \"We tested 0's for all gases besides a little bit of",
-        "quote": "We tested 0's for all gases besides a little bit of benzene"
+        "title": "Stefanie Kirschke — SM Energy, UL Hutton CTB, trailer 152, Trailer Inspection Form 1:44 PM. Technician not in Canon Safety issued FR uniform.",
+        "quote": "Are you wearing you Canon Safety issued FR uniform? — No"
       },
       {
-        "title": "Technician not in issued FR uniform — Caleb Smith, Trailer 504, Stanton TX, form time 5:42 AM. \"Are you wearing you Canon Safety issued FR uniform?\" answered No, with \"If",
-        "quote": "Are you wearing you Canon Safety issued FR uniform?"
+        "title": "Dennis Easley — TGNR, Hoyt 2HH, rig up closed 3:28 PM, job 35019. The rig up check records that the installed alarms and lights were not function-tested.",
+        "quote": "Loud Alarms and Lights Tested?: No"
       }
     ]
   },
@@ -317,37 +317,37 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Caleb Smith / Alejandro Najar — Verify conditions, brief all personnel, and leave the location better than you f",
-      "detail": "OWL form — Operational Discipline",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Michael Jobe / Rolando Flores 1099 — MT went over the meeting really well covered everything that needed to be",
-      "detail": "Set up in a better way.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jordan Lemmons / Pablo Soto — Job went well we did first break under air and got some benzene",
-      "detail": "After going under air and breaking we confit we are able to do the job without air.",
+      "headline": "Dawson Drake / Jerry Gonzales — Crew worked at steady pase",
+      "detail": "Crew worked at steady pase.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Alejandro Najar — Job was completed to scope and safety meeting",
-      "detail": "Description is correct.",
+      "headline": "Jose Hurtado / Baldemar Bracomontes 1099 — Job was completed safely, no incident or triggers occurred",
+      "detail": "All necessary hold points were placed.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras / Christian Lee 1099 — A disconnect in a wh/fl/and elec",
-      "detail": "Working with new people.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Caleb Smith / Ruben Rojo — Job was already completed before we got to location",
+      "detail": "L - Learn: One thing we'll do better next time.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Michael Jobe / Bobby Galindo 1099 — crew are somewhat new and worked at a slow pace, but all went well",
+      "detail": "Crew are somewhat new and worked at a slow pace, but all went well.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez / Jose Campos — No pressure on initial break, no issues killing well",
+      "detail": "Good communication, crew used proper PPE and safely handled tools.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
@@ -365,8 +365,8 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 1,
-        "total": 2
+        "done": 4,
+        "total": 5
       },
       {
         "label": "Trailer Inspections",
@@ -379,7 +379,7 @@
         "total": 0
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 09/23"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 09/24"
   },
   "specialFocus": {
     "week": 15,

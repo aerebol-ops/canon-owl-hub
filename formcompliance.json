@@ -1928,20 +1928,20 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 83.8,
+      "compliancePct": 83.9,
       "missedTotal": 164,
       "dailyNo": 96,
       "trailerInspNo": 24,
       "trailerReadyNo": 32,
       "problemRows": 157,
-      "blanks": 774,
+      "blanks": 837,
       "employees": 81,
       "cleanEmployees": 36,
-      "dailyYesTotal": 496,
+      "dailyYesTotal": 499,
       "dailyNoTotal": 96,
-      "rawRows": 1460,
-      "daysCovered": 15,
-      "sheetsInMonth": 25,
+      "rawRows": 1530,
+      "daysCovered": 16,
+      "sheetsInMonth": 26,
       "byDay": [
         {
           "date": "9/1",
@@ -2017,9 +2017,23 @@
           "date": "9/23",
           "missed": 1,
           "pct": 50
+        },
+        {
+          "date": "9/24",
+          "missed": 0,
+          "pct": 100
         }
       ],
       "watch": [
+        {
+          "name": "Alfredo Vaquera",
+          "totalMissed": 5,
+          "dailyMissed": 5,
+          "trailerMissed": 0,
+          "dailyYes": 5,
+          "dailyNo": 5,
+          "pct": 50
+        },
         {
           "name": "Baldemar Bracomontes",
           "totalMissed": 5,
@@ -2052,9 +2066,9 @@
           "totalMissed": 5,
           "dailyMissed": 5,
           "trailerMissed": 0,
-          "dailyYes": 9,
+          "dailyYes": 10,
           "dailyNo": 5,
-          "pct": 64
+          "pct": 67
         },
         {
           "name": "Larry Taylor",
@@ -2100,19 +2114,10 @@
           "dailyYes": 10,
           "dailyNo": 3,
           "pct": 77
-        },
-        {
-          "name": "Pablo Soto",
-          "totalMissed": 3,
-          "dailyMissed": 2,
-          "trailerMissed": 1,
-          "dailyYes": 10,
-          "dailyNo": 2,
-          "pct": 83
         }
       ],
       "live": true,
-      "throughDate": "9/23"
+      "throughDate": "9/24"
     }
   ]
 }
