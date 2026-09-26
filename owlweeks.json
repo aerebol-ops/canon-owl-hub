@@ -1,6 +1,24 @@
 {
   "weeks": [
     {
+      "week": 16,
+      "owl": "Auto-logged",
+      "theme": "Coaching Others",
+      "psms": "Confined Space",
+      "dateRange": "Sep 28&ndash;Oct 2, 2026",
+      "meetings": [
+        {
+          "date": "Mon, Sep 28",
+          "day": "Week 16 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;You coach because you remember when someone showed you. Pass that forward. The best coaches don't tell people what to do — they ask the right question at the right moment.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Nathan Contreras / Rolando Flores 1099</strong> — Safety meeting was held prior or work being started and went over hold points and triggers and possible scenarios that could happen if the j</li><li style='margin:3px 0;'><strong>Jordan Lemmons / Bryan Medlin</strong> — Crew took their time and got the job done.</li><li style='margin:3px 0;'><strong>Michael Jobe / Rolando Flores 1099</strong> — Continue to verify hazards and have proper respiratory protection ready before making the initial break.</li><li style='margin:3px 0;'><strong>Michael Jobe / Justin Fontenot 1099</strong> — Do more talking in meetings.</li><li style='margin:3px 0;'><strong>Jordan Lemmons / Pablo Soto</strong> — Crew understood what to do and we got the job done.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Disconnect but with a leak vaule and the csg had 800 psi after loto"
+          ],
+          "recognition": "Nathan Contreras / Rolando Flores 1099 — We observed wellhead maintenance done on a well"
+        }
+      ]
+    },
+    {
       "week": 15,
       "owl": "Auto-logged",
       "theme": "Operational Discipline",
