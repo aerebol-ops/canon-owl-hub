@@ -166,7 +166,29 @@
   ],
   "leadershipThought": "You coach because you remember when someone showed you. Pass that forward. The best coaches don't tell people what to do — they ask the right question at the right moment.",
   "yesterdaysJobs": null,
-  "formReview": null,
+  "formReview": {
+    "date": "2026-09-26",
+    "label": "Saturday 9/26",
+    "verdict": "",
+    "concerns": [
+      {
+        "title": "Rolando Flores — trailer 601, CSRHI Andrews Shop, 01:36 PM, Trailer Readiness Form. The form answers \"No\" to \"Does your trailer have a AV-3000 box?\" and the free-text fie",
+        "quote": "Does your trailer have a AV-3000 box?"
+      },
+      {
+        "title": "Stefanie Kirschke — trailer 601, CSRHI Andrews Shop, 05:31 AM, Trailer Inspection Form. The FR uniform question is answered \"No\" and the reason field is blank.",
+        "quote": "and the reason field is blank."
+      },
+      {
+        "title": "Jordan Lemmons — XTO, Driver C NE9J 10H, job 35072_1, ended 01:32 PM. The form reports two leaking valves found during the wellhead disconnect. The technician records tha",
+        "quote": "Job went well had 2 leaking valves and tested them"
+      },
+      {
+        "title": "Bryan Medlin — trailer 603, CSRHI Andrews Shop, 11:18 AM, Trailer Readiness Form. The form answers \"No\" to \"Does your trailer have a AV-3000 box?\", the AV-3000 mask photo",
+        "quote": "Does your trailer have a AV-3000 box?"
+      }
+    ]
+  },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -174,36 +196,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Nathan Contreras / Rolando Flores 1099 — We observed wellhead maintenance done on a well",
-      "detail": "Safety meeting was held prior or work being started and went over hold points and triggers and possible scenarios that could happen if the job went sideways . We discusse",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jordan Lemmons / Bryan Medlin — Reconnect completely successfully",
-      "detail": "Crew took their time and got the job done.",
+      "headline": "Jacob Hernandez / Alejandro Najar — work was not performed due to work still being performed by workover crew",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Rolando Flores 1099 — No unknown gases were encountered, and the initial break was completed safe",
-      "detail": "Continue to verify hazards and have proper respiratory protection ready before making the initial break.",
+      "headline": "Dawson Drake / Jerry Gonzales — Everything was well MT ended up having to translate",
+      "detail": "Everything was well MT ended up having to translate.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Justin Fontenot 1099 — Had a good meeting told what needed to be done",
-      "detail": "Do more talking in meetings.",
+      "headline": "Nathan Contreras / Christian Lee 1099 — A disconnect on wh/fl/elec",
+      "detail": "The job was completed safely and on time.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jose Hurtado / Baldemar Bracomontes 1099 — Good work knowledge from crew",
+      "detail": "Good communication with mt and crew.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Pablo Soto — Had a leaking casing valve we tested and had high lel so we didn't use any",
-      "detail": "Crew understood what to do and we got the job done.",
+      "headline": "Michael Jobe / Bobby Galindo 1099 — Had meeting went great job had no issues they took there time in did everyt",
+      "detail": "Ask more questions give better scope.",
       "psms": "Operational Discipline",
       "level": null
     },
