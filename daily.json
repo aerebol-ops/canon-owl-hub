@@ -196,36 +196,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Alejandro Najar — work was not performed due to work still being performed by workover crew",
+      "headline": "Jeremy Norris / Justin Fontenot 1099 — Safety meeting was conducted and went over all LMRA's",
+      "detail": "Next job will be held to the same standard.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Larry Jaramillo / Gael \"Antonio\" Avila 1099 — Did the meeting pretty simple and essay",
+      "detail": "L - Learn: One thing we'll do better next time.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Michael Jobe / Justin Fontenot 1099 — Safety meeting went well went over everything",
+      "detail": "Next job will be held to the same standard.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez / Alejandro Najar — Rig was still on location so job was cancelled",
+      "detail": "Communicated with MT verified job cancellation.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Dawson Drake / Jerry Gonzales — Crew reconnect with tubing",
       "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Dawson Drake / Jerry Gonzales — Everything was well MT ended up having to translate",
-      "detail": "Everything was well MT ended up having to translate.",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Nathan Contreras / Christian Lee 1099 — A disconnect on wh/fl/elec",
-      "detail": "The job was completed safely and on time.",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jose Hurtado / Baldemar Bracomontes 1099 — Good work knowledge from crew",
-      "detail": "Good communication with mt and crew.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Michael Jobe / Bobby Galindo 1099 — Had meeting went great job had no issues they took there time in did everyt",
-      "detail": "Ask more questions give better scope.",
       "psms": "Operational Discipline",
       "level": null
     },
