@@ -167,25 +167,25 @@
   "leadershipThought": "You coach because you remember when someone showed you. Pass that forward. The best coaches don't tell people what to do — they ask the right question at the right moment.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-09-26",
-    "label": "Saturday 9/26",
+    "date": "2026-09-27",
+    "label": "Sunday 9/27",
     "verdict": "",
     "concerns": [
       {
-        "title": "Rolando Flores — trailer 601, CSRHI Andrews Shop, 01:36 PM, Trailer Readiness Form. The form answers \"No\" to \"Does your trailer have a AV-3000 box?\" and the free-text fie",
-        "quote": "Does your trailer have a AV-3000 box?"
+        "title": "Alexander Clubb — SM Energy inspection route, Ensign 57, Midland, 09/27 06:32 PM. An H2S sensor read 200 ppm during the equipment check and put the location into full ala",
+        "quote": ""
       },
       {
-        "title": "Stefanie Kirschke — trailer 601, CSRHI Andrews Shop, 05:31 AM, Trailer Inspection Form. The FR uniform question is answered \"No\" and the reason field is blank.",
-        "quote": "and the reason field is blank."
+        "title": "Alexander Clubb — SM Energy inspection route, HP 628, Hobbs NM, 09/27 11:44 AM. A loud alarm was found unplugged on arrival. The technician's words",
+        "quote": ""
       },
       {
-        "title": "Jordan Lemmons — XTO, Driver C NE9J 10H, job 35072_1, ended 01:32 PM. The form reports two leaking valves found during the wellhead disconnect. The technician records tha",
-        "quote": "Job went well had 2 leaking valves and tested them"
+        "title": "Alexander Clubb — spare parts not available, Ensign 57, 09/27 06:32 PM. A note attached to the sensor photo set reads: \"I don't have any boards to replace this with even ",
+        "quote": "I don't have any boards to replace this with even at the shop."
       },
       {
-        "title": "Bryan Medlin — trailer 603, CSRHI Andrews Shop, 11:18 AM, Trailer Readiness Form. The form answers \"No\" to \"Does your trailer have a AV-3000 box?\", the AV-3000 mask photo",
-        "quote": "Does your trailer have a AV-3000 box?"
+        "title": "Jordan Lemmons — Ovintiv, H&P 395 Terlingua, 09/27 07:35 AM, job 35099. Damaged and missing equipment found during the rig check",
+        "quote": "Comments or Concerns: Was missing a radio card and half the sensor had battery acid on them"
       }
     ]
   },
@@ -196,36 +196,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jeremy Norris / Justin Fontenot 1099 — Safety meeting was conducted and went over all LMRA's",
-      "detail": "Next job will be held to the same standard.",
+      "headline": "Dawson Drake / Jerry Gonzales — A reconnect with new fabrication",
+      "detail": "The communication between the crew the CM and Canon teachs were great.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo / Gael \"Antonio\" Avila 1099 — Did the meeting pretty simple and essay",
-      "detail": "L - Learn: One thing we'll do better next time.",
+      "headline": "Nathan Contreras / Christian Lee 1099 — We observed a disconnect done on a wellhead",
+      "detail": "Crews went over nearest hospitals and muster areas without any help , crews verified tool and proper PPE . Crews went over triggers and hold points over the job .",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jose Hurtado / Baldemar Bracomontes 1099 — Had pretask meeting, all hazards and possible triggers were discussed and e",
+      "detail": "Although all tags were set, crew and PIC walked through all areas of the reconnect and made sure all locks were in place.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Justin Fontenot 1099 — Safety meeting went well went over everything",
-      "detail": "Next job will be held to the same standard.",
+      "headline": "Jordan Lemmons / Bryan Medlin — Pump trucks connected to well head using proper equipment and pumping fluid",
+      "detail": "No hazardous gas was detected everybody went home safely.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Alejandro Najar — Rig was still on location so job was cancelled",
-      "detail": "Communicated with MT verified job cancellation.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Dawson Drake / Jerry Gonzales — Crew reconnect with tubing",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "headline": "Larry Jaramillo / Gael \"Antonio\" Avila 1099 — Safety meeting discussed possible gases from the pulling unit, went over ex",
+      "detail": "Good discussion before and during job sequence.",
       "psms": "Operational Discipline",
       "level": null
     },
