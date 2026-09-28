@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "week": 16,
-  "day": 1,
+  "day": 2,
   "topicWeek": 5,
   "displayWeek": 7,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Confined Space · Atmospheric Monitoring",
     "marker": "Month-end: September card finalizes"
   },
-  "openingMessage": "I don't hire good coaches. I hire good people. If they turn out to be good coaches too, that's a plus.",
+  "openingMessage": "You win championships when you demand more of yourself than anyone else demands of you — and then you deliver it.",
   "openingAttribution": "Geno Auriemma",
-  "openingWhy": "You can teach a man to run a 4-gas in a week. You can't teach him to tell the truth about a reading that inconveniences the schedule. Character first — the skills follow. It's the same reason the best crews in this Basin aren't always the most experienced ones.",
+  "openingWhy": "The client requires a form — you can require the form to be true. The permit requires a test before entry — you can own testing during, too. Every crew that gets requested by name in this Basin set their own bar above the audit's and then held it.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,7 +164,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "You coach because you remember when someone showed you. Pass that forward. The best coaches don't tell people what to do — they ask the right question at the right moment.",
+  "leadershipThought": "Coaching a newer hand on confined space means they don't just follow the rule — they understand why it exists. That's the difference between compliance and ownership.",
   "yesterdaysJobs": {
     "date": "2026-09-26",
     "label": "Saturday, September 26",
@@ -260,42 +260,42 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Verified equipment conditions, checked for gas hazards, and followed discon</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Improve communication and verify isolation before breaking connections.</span><br><br><strong>The crew accessed the well and the area, after conducting a pre- task safet</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue to strengthen pre-task communication and hazard awareness, while maintaining atmospheric monitoring and established safety controls throughout the job.</span><br><br><strong>Atmospheric Monitoring — Jeremy Norris / Robbie Henigan 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Crew disconnected wellhead for workover prep</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate / Cindy Smith 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crew completed the job as panned with no incidents or near misses.</span><br><br><strong>Disconnected completed successfully</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons / Bryan Medlin]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crew understood the assignment and got the disconnect complete.</span>",
+  "exxonMoments": "<strong>Job went well we did first break under air and got some benzene</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons / Pablo Soto]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>After going under air and breaking we confit we are able to do the job without air.</span><br><br><strong>Good communication and proper safety controls were maintained throughout th</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue improving communication and verifying all controls before starting work.</span><br><br><strong>Initially, the kill truck did not successfully kill the well as expected</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue to verify the well is fully killed and pressure is controlled before proceeding, and maintain clear communication between the crew and kill truck operator throughout the process.</span><br><br><strong>We observed a disconnect done on a wellhead</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Christian Lee 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crews went over nearest hospitals and muster areas without any help , crews verified tool and proper PPE . Crews went over triggers and hold points over the job .</span><br><br><strong>Disconnected the 109 well and the 108 for the work over</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons / Bryan Medlin]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Had no issues except the permit having to get done so we could start.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jeremy Norris / Robbie Henigan 1099 — Verify conditions, brief all personnel, and leave the location better than you f",
-      "detail": "OWL form — Atmospheric Monitoring",
+      "headline": "Jacob Hernandez / Christian Lee 1099 — A very successful and quick reconnect",
+      "detail": "Everything from communication to work flow and safety.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Ruben Rojo / Dermont Morgan 1099 — Good communication with crew and crane operator",
+      "detail": "Everyone followed procedures and stay out of line of fire.",
+      "psms": "Mobile Equipment",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Rolando Flores — The crew communicated well throughout the job, reviewed the LMRA and job sc",
+      "detail": "The crew communicated well throughout the job, reviewed the LMRA and job scope prior",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Pablo Soto / Jerry Gonzales — Disconcerting line from welll",
-      "detail": "Crew moved with urgency.",
+      "headline": "Jordan Lemmons — Crew did the job as planned",
+      "detail": "Crew did the job as planned",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Dermont Morgan 1099 — Pumped on well and got it killed so we could replace the stuffing box",
-      "detail": "Made sure well was killed and tested got 0s for our test.",
+      "headline": "Jordan Lemmons / Justin Fontenot 1099 — Got the well on vacuum and replaced the rubber",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
       "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Hayden Haugh 1099 / Kedrick Mccarter 1099 — Reconnected the well with new parts",
-      "detail": "Crew worked great together with good communication.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Luis Zarate / Jerry Gonzales — Crew killed well and then they realigned polish rod",
-      "detail": "Continue to grow communication with crew and mt.",
-      "psms": "Operational Discipline",
-      "level": null
+      "level": "duck"
     },
     {
       "type": "flag",
@@ -305,8 +305,8 @@
       "psms": "Energy Isolation"
     }
   ],
-  "todaysChallenge": "If the reading looks off, test again. If the form's wrong, redo it. 'Close enough' isn't a Canon phrase — stay on it until it's right.",
-  "todaysChallengeSubtext": "“Champions keep playing until they get it right.” — Billie Jean King",
+  "todaysChallenge": "One percent better today: one cleaner form, one earlier callout, one sharper LMRA. Stack enough days like that and it stops being effort — it's just who we are.",
+  "todaysChallengeSubtext": "“Excellence is the gradual result of always striving to do better.” — Pat Riley",
   "compliance": {
     "weekOf": "Week of September 21, 2026",
     "metrics": [
