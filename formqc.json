@@ -118,6 +118,28 @@
   },
   {
    "date": "2026-09-26",
+   "well": "Hill Unit 1 2572JH",
+   "category": "AGT",
+   "forms": 3,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101963",
+   "bnz": "1",
+   "at": "601",
+   "techs": "STEFANIE KIRSCHKE / Rolando Flores 1099",
+   "sched": "09/26/2026 07:00:00",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-26",
    "well": "Frances 12-1-A #2801H",
    "category": "AGT",
    "forms": 2,
@@ -181,6 +203,28 @@
    "techs": "JORDAN LEMMONS / Justin Fontenot 1099",
    "sched": "9/26/2026 12:00 PM",
    "late_min": -68,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-26",
+   "well": "Benedum 3D 4H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101959",
+   "bnz": "2",
+   "at": "602",
+   "techs": "MICHAEL JOBE / Christian Lee 1099",
+   "sched": "9/26/2026 12:00 PM",
+   "late_min": 81,
    "missing": [],
    "complete": true
   },
@@ -2848,6 +2892,28 @@
   },
   {
    "date": "2026-09-17",
+   "well": "TXL 9 Unit 2 0430 0430SH",
+   "category": "Well Testing",
+   "forms": 1,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": false,
+   "ticket": "",
+   "bnz": "",
+   "at": "",
+   "techs": "",
+   "sched": "",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-17",
    "well": "Stone Gist W45B #2H",
    "category": "AGT",
    "forms": 2,
@@ -2947,6 +3013,28 @@
    "well": "Morgan Owens 24E #5H",
    "category": "AGT",
    "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": false,
+   "ticket": "",
+   "bnz": "",
+   "at": "",
+   "techs": "",
+   "sched": "",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-17",
+   "well": "Midkiff 320 CTB",
+   "category": "Well Testing",
+   "forms": 1,
    "checks": {
     "owl": true,
     "jsa": true,

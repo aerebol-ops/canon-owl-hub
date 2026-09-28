@@ -3,21 +3,21 @@
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
-  "weekJobs": 93,
-  "weekForms": 180,
+  "weekJobs": 95,
+  "weekForms": 185,
   "weekFlagRate": 3,
-  "weekWells": 90,
+  "weekWells": 92,
   "weekCrews": 35
  },
  "days": [
   {
    "date": "2026-09-17",
-   "forms": 35,
-   "jobs": 18,
+   "forms": 37,
+   "jobs": 20,
    "flags": 2,
    "AGT": 18,
    "Maintenance": 0,
-   "Well Testing": 0,
+   "Well Testing": 2,
    "Other": 0
   },
   {
@@ -102,10 +102,10 @@
   },
   {
    "date": "2026-09-26",
-   "forms": 16,
-   "jobs": 8,
+   "forms": 21,
+   "jobs": 10,
    "flags": 0,
-   "AGT": 8,
+   "AGT": 10,
    "Maintenance": 0,
    "Well Testing": 0,
    "Other": 0
@@ -172,6 +172,17 @@
    "date": "2026-09-26",
    "category": "AGT",
    "jobType": "Air Job",
+   "well": "Hill Unit 1 2572JH",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "psms": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-26",
+   "category": "AGT",
+   "jobType": "Air Job",
    "well": "Frances 12-1-A #2801H",
    "crew": "Stefanie Kirschke / Rolando Flores 1099",
    "cm": "",
@@ -199,6 +210,17 @@
    "cm": "Clay Mateo",
    "note": "Safety meeting was conducted and exclusion zones were set into place",
    "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-09-26",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Benedum 3D 4H",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "psms": "",
    "flag": false
   },
   {
@@ -1442,6 +1464,28 @@
    "cm": "Foreman_East Ops 3",
    "note": "Safety meeting was conducted and crew began working on assembling the conve",
    "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "Well Testing",
+   "jobType": "Well Testing",
+   "well": "TXL 9 Unit 2 0430 0430SH",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "psms": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-17",
+   "category": "Well Testing",
+   "jobType": "Well Testing",
+   "well": "Midkiff 320 CTB",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "psms": "",
    "flag": false
   },
   {

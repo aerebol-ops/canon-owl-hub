@@ -264,36 +264,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Alexander Clubb / Alejandro Najar — roustabout crew performed conversion on wellhead",
-      "detail": "Stopped the job when the need of an angle grinder was talked about to cut off some rusted bolts that wouldnt break loose.",
-      "psms": "Hot Work",
-      "level": "eagle"
-    },
-    {
-      "type": "good",
-      "headline": "Brianda Sandoval / Alejandro Najar — crew had to reconnect flow line to well head",
-      "detail": "Set up a wider exclusion zone if possible.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Michael Jobe / Christian Lee 1099 — Had a good meeting went over what needed to be done",
-      "detail": "Speak more in the meeting.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Hayden Haugh 1099 / Bryan Medlin — Flow line disconnected from the well",
-      "detail": "Everyone left location safely.",
+      "headline": "Jeremy Norris / Robbie Henigan 1099 — Verify conditions, brief all personnel, and leave the location better than you f",
+      "detail": "OWL form — Atmospheric Monitoring",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Dawson Drake / Kedrick Mccarter 1099 — Communication and job went well",
-      "detail": "Communication and job went well.",
+      "headline": "Pablo Soto / Jerry Gonzales — Disconcerting line from welll",
+      "detail": "Crew moved with urgency.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons / Dermont Morgan 1099 — Pumped on well and got it killed so we could replace the stuffing box",
+      "detail": "Made sure well was killed and tested got 0s for our test.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Hayden Haugh 1099 / Kedrick Mccarter 1099 — Reconnected the well with new parts",
+      "detail": "Crew worked great together with good communication.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Luis Zarate / Jerry Gonzales — Crew killed well and then they realigned polish rod",
+      "detail": "Continue to grow communication with crew and mt.",
       "psms": "Operational Discipline",
       "level": null
     },
