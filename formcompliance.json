@@ -2,7 +2,7 @@
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-09-28",
   "ytdPct": 82.9,
-  "ytdMissed": 1617,
+  "ytdMissed": 1618,
   "months": [
     {
       "month": "January 2026",
@@ -1928,20 +1928,20 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 83.9,
-      "missedTotal": 164,
-      "dailyNo": 96,
+      "compliancePct": 83.8,
+      "missedTotal": 165,
+      "dailyNo": 97,
       "trailerInspNo": 24,
       "trailerReadyNo": 32,
-      "problemRows": 157,
-      "blanks": 837,
+      "problemRows": 159,
+      "blanks": 957,
       "employees": 81,
       "cleanEmployees": 36,
-      "dailyYesTotal": 499,
-      "dailyNoTotal": 96,
-      "rawRows": 1530,
+      "dailyYesTotal": 500,
+      "dailyNoTotal": 97,
+      "rawRows": 1654,
       "daysCovered": 16,
-      "sheetsInMonth": 26,
+      "sheetsInMonth": 29,
       "byDay": [
         {
           "date": "9/1",
@@ -2020,11 +2020,20 @@
         },
         {
           "date": "9/24",
-          "missed": 0,
-          "pct": 100
+          "missed": 1,
+          "pct": 80
         }
       ],
       "watch": [
+        {
+          "name": "Trevor Mckenzie",
+          "totalMissed": 6,
+          "dailyMissed": 6,
+          "trailerMissed": 0,
+          "dailyYes": 4,
+          "dailyNo": 6,
+          "pct": 40
+        },
         {
           "name": "Alfredo Vaquera",
           "totalMissed": 5,
@@ -2033,15 +2042,6 @@
           "dailyYes": 5,
           "dailyNo": 5,
           "pct": 50
-        },
-        {
-          "name": "Baldemar Bracomontes",
-          "totalMissed": 5,
-          "dailyMissed": 4,
-          "trailerMissed": 1,
-          "dailyYes": 6,
-          "dailyNo": 4,
-          "pct": 60
         },
         {
           "name": "Larry Jaramillo",
@@ -2057,6 +2057,15 @@
           "totalMissed": 9,
           "dailyMissed": 4,
           "trailerMissed": 5,
+          "dailyYes": 7,
+          "dailyNo": 4,
+          "pct": 64
+        },
+        {
+          "name": "Baldemar Bracomontes",
+          "totalMissed": 5,
+          "dailyMissed": 4,
+          "trailerMissed": 1,
           "dailyYes": 7,
           "dailyNo": 4,
           "pct": 64
@@ -2102,15 +2111,6 @@
           "totalMissed": 5,
           "dailyMissed": 3,
           "trailerMissed": 2,
-          "dailyYes": 10,
-          "dailyNo": 3,
-          "pct": 77
-        },
-        {
-          "name": "William Cooper",
-          "totalMissed": 3,
-          "dailyMissed": 3,
-          "trailerMissed": 0,
           "dailyYes": 10,
           "dailyNo": 3,
           "pct": 77

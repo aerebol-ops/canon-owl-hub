@@ -165,67 +165,135 @@
     }
   ],
   "leadershipThought": "You coach because you remember when someone showed you. Pass that forward. The best coaches don't tell people what to do — they ask the right question at the right moment.",
-  "yesterdaysJobs": null,
+  "yesterdaysJobs": {
+    "date": "2026-09-26",
+    "label": "Saturday, September 26",
+    "count": 7,
+    "flags": 1,
+    "groups": [
+      {
+        "category": "AGT",
+        "jobs": [
+          {
+            "well": "XBC Giddings Estate 2401H",
+            "jobType": "Air Job",
+            "crew": "Dawson Drake / Robbie Henigan 1099",
+            "cm": "",
+            "note": "Conversion to a plunger, gas lift well",
+            "flag": false
+          },
+          {
+            "well": "SDU 2322A",
+            "jobType": "Air Job",
+            "crew": "Jordan Lemmons / Justin Fontenot 1099",
+            "cm": "James Glass",
+            "note": "Crew held safety meeting and all trucks staged and exclusion zones set into",
+            "flag": false
+          },
+          {
+            "well": "Louis 3142",
+            "jobType": "Air Job",
+            "crew": "Michael Jobe / Christian Lee 1099",
+            "cm": "Chad Farr",
+            "note": "Had a good meeting went over what needed to be done",
+            "flag": false
+          },
+          {
+            "well": "Driver C NE9J 10H",
+            "jobType": "Air Job",
+            "crew": "Jordan Lemmons / Justin Fontenot 1099",
+            "cm": "Clay Mateo",
+            "note": "Job went well had 2 leaking valves and tested them",
+            "flag": true
+          },
+          {
+            "well": "Welch Cox E39D 304H",
+            "jobType": "Air Job",
+            "crew": "Stefanie Kirschke / Rolando Flores 1099",
+            "cm": "",
+            "note": "Verified equipment conditions, checked for gas hazards, and followed discon",
+            "flag": false
+          },
+          {
+            "well": "Frances 12-1-A #2801H",
+            "jobType": "Air Job",
+            "crew": "Stefanie Kirschke / Rolando Flores 1099",
+            "cm": "",
+            "note": "Was told job was canceled while sitting on our first location",
+            "flag": false
+          },
+          {
+            "well": "Elkin Crawford 34CC 103H",
+            "jobType": "Air Job",
+            "crew": "Brianda Sandoval / Alejandro Najar",
+            "cm": "Foreman_West Ops 9",
+            "note": "crew had to reconnect flow line to well head",
+            "flag": false
+          }
+        ]
+      }
+    ]
+  },
   "formReview": {
     "date": "2026-09-27",
     "label": "Sunday 9/27",
     "verdict": "",
     "concerns": [
       {
-        "title": "Alexander Clubb — SM Energy inspection route, Ensign 57, Midland, 09/27 06:32 PM. An H2S sensor read 200 ppm during the equipment check and put the location into full ala",
-        "quote": ""
+        "title": "Alexander Clubb — SM Energy inspection route, Ensign 57, Midland, 06:32 PM, no job ID (standalone photos form). The form records a cellar sensor reading 200 ppm with alar",
+        "quote": "A separate Notes field on the same form reads:"
       },
       {
-        "title": "Alexander Clubb — SM Energy inspection route, HP 628, Hobbs NM, 09/27 11:44 AM. A loud alarm was found unplugged on arrival. The technician's words",
-        "quote": ""
+        "title": "Stefanie Kirschke — Trailer Inspection Form, trailer 601, CSRHI Andrews Shop, 09/27/2026 07:43 AM. The FR uniform question was answered \"No\" and the reason field was left",
+        "quote": "and the reason field was left empty. Extracted exactly as:"
       },
       {
-        "title": "Alexander Clubb — spare parts not available, Ensign 57, 09/27 06:32 PM. A note attached to the sensor photo set reads: \"I don't have any boards to replace this with even ",
-        "quote": "I don't have any boards to replace this with even at the shop."
+        "title": "Jordan Lemmons — Ovintiv, H&P 395, Terlingua, rig check, ended 07:35 AM, job 35099. Equipment found damaged and missing. The form's own words",
+        "quote": "Was missing a radio card and half the sensor had battery acid on them"
       },
       {
-        "title": "Jordan Lemmons — Ovintiv, H&P 395 Terlingua, 09/27 07:35 AM, job 35099. Damaged and missing equipment found during the rig check",
-        "quote": "Comments or Concerns: Was missing a radio card and half the sensor had battery acid on them"
+        "title": "Jordan Lemmons — Ovintiv, H&P 395, Terlingua, rig check, ended 07:35 AM, job 35099. \"Loud Alarms and Lights Tested?: No\". This is the rig check form, which sits outside t",
+        "quote": "Loud Alarms and Lights Tested?: No"
       }
     ]
   },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>The crew accessed and ensured proper safety measures were in place before s</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue to improve communication and hazard awareness before working, and maintain atmospheric testing and safety controls throughout the job.</span><br><br><strong>We observed a disconnect Done on a wellhead</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crews verified safeguards and locks were in place prior to work , crews verified inspection dates on straps .</span><br><br><strong>The crew accessed the cellar and ensured proper safety measures were in pla</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue to improve communication and hazard awareness before entering the cellar, and maintain atmospheric testing and safety controls throughout the job.</span><br><br><strong>Flow lines were disconnected in a controlled manner during the initial firs</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue communicating with the crew and verify all hazards and controls before every first break.</span><br><br><strong>No unknown gases were encountered, and the initial break was completed safe</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue to verify hazards and have proper respiratory protection ready before making the initial break.</span>",
+  "exxonMoments": "<strong>Verified equipment conditions, checked for gas hazards, and followed discon</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Improve communication and verify isolation before breaking connections.</span><br><br><strong>The crew accessed the well and the area, after conducting a pre- task safet</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue to strengthen pre-task communication and hazard awareness, while maintaining atmospheric monitoring and established safety controls throughout the job.</span><br><br><strong>Atmospheric Monitoring — Jeremy Norris / Robbie Henigan 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Crew disconnected wellhead for workover prep</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate / Cindy Smith 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crew completed the job as panned with no incidents or near misses.</span><br><br><strong>Disconnected completed successfully</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons / Bryan Medlin]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crew understood the assignment and got the disconnect complete.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dawson Drake / Jerry Gonzales — A reconnect with new fabrication",
-      "detail": "The communication between the crew the CM and Canon teachs were great.",
+      "headline": "Alexander Clubb / Alejandro Najar — roustabout crew performed conversion on wellhead",
+      "detail": "Stopped the job when the need of an angle grinder was talked about to cut off some rusted bolts that wouldnt break loose.",
+      "psms": "Hot Work",
+      "level": "eagle"
+    },
+    {
+      "type": "good",
+      "headline": "Brianda Sandoval / Alejandro Najar — crew had to reconnect flow line to well head",
+      "detail": "Set up a wider exclusion zone if possible.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras / Christian Lee 1099 — We observed a disconnect done on a wellhead",
-      "detail": "Crews went over nearest hospitals and muster areas without any help , crews verified tool and proper PPE . Crews went over triggers and hold points over the job .",
+      "headline": "Michael Jobe / Christian Lee 1099 — Had a good meeting went over what needed to be done",
+      "detail": "Speak more in the meeting.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Hayden Haugh 1099 / Bryan Medlin — Flow line disconnected from the well",
+      "detail": "Everyone left location safely.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jose Hurtado / Baldemar Bracomontes 1099 — Had pretask meeting, all hazards and possible triggers were discussed and e",
-      "detail": "Although all tags were set, crew and PIC walked through all areas of the reconnect and made sure all locks were in place.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jordan Lemmons / Bryan Medlin — Pump trucks connected to well head using proper equipment and pumping fluid",
-      "detail": "No hazardous gas was detected everybody went home safely.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Larry Jaramillo / Gael \"Antonio\" Avila 1099 — Safety meeting discussed possible gases from the pulling unit, went over ex",
-      "detail": "Good discussion before and during job sequence.",
+      "headline": "Dawson Drake / Kedrick Mccarter 1099 — Communication and job went well",
+      "detail": "Communication and job went well.",
       "psms": "Operational Discipline",
       "level": null
     },
