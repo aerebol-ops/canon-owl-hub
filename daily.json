@@ -235,25 +235,25 @@
     ]
   },
   "formReview": {
-    "date": "2026-09-27",
-    "label": "Sunday 9/27",
+    "date": "2026-09-28",
+    "label": "Monday 9/28",
     "verdict": "",
     "concerns": [
       {
-        "title": "Alexander Clubb — SM Energy inspection route, Ensign 57, Midland, 06:32 PM, no job ID (standalone photos form). The form records a cellar sensor reading 200 ppm with alar",
-        "quote": "A separate Notes field on the same form reads:"
+        "title": "Stefanie Kirschke — SM Energy, UL 35-19 CTB, Trailer Inspection Form 5:48 AM, trailer 152 (Andrews shop). She answered \"No\" to the FR uniform question and gave no reason.",
+        "quote": "to the FR uniform question and gave no reason."
       },
       {
-        "title": "Stefanie Kirschke — Trailer Inspection Form, trailer 601, CSRHI Andrews Shop, 09/27/2026 07:43 AM. The FR uniform question was answered \"No\" and the reason field was left",
-        "quote": "and the reason field was left empty. Extracted exactly as:"
+        "title": "Rolando Flores 1099 — XTO, Jack Mohr Unit 3 0124SH crew, Trailer Readiness Form 5:42 PM, trailer 601 (Andrews shop). He reported missing air equipment and named no one as",
+        "quote": "Is anything wrong or missing? If so what and who was notified?"
       },
       {
-        "title": "Jordan Lemmons — Ovintiv, H&P 395, Terlingua, rig check, ended 07:35 AM, job 35099. Equipment found damaged and missing. The form's own words",
-        "quote": "Was missing a radio card and half the sensor had battery acid on them"
+        "title": "Caleb Smith — XTO, Jordan N 23-24 2814H crew, Trailer Readiness Form 3:42 PM, trailer 501 (Andrews shop). He reported a missing low-pressure alarm in the Notes field but ",
+        "quote": "anything wrong or missing / who was notified"
       },
       {
-        "title": "Jordan Lemmons — Ovintiv, H&P 395, Terlingua, rig check, ended 07:35 AM, job 35099. \"Loud Alarms and Lights Tested?: No\". This is the rig check form, which sits outside t",
-        "quote": "Loud Alarms and Lights Tested?: No"
+        "title": "Alejandro Najar — XTO, Pratt Vaughn 21C 103H crew, Trailer Readiness Form 4:25 PM, trailer 600 (Andrews shop). Needs confirmation, not yet a confirmed defect. All four ch",
+        "quote": "on Cascade Bottle Pressure and Hydro date #1 through #4; #5 through #10 recorded"
       }
     ]
   },
@@ -264,36 +264,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Dermont Morgan 1099 — Good communication in the meeting and during the job operation",
-      "detail": "Good communication in the meeting and during the job operation.",
+      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — Entire job completed without incident",
+      "detail": "Entire job completed without incident.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Jose Campos — Well still had pressure when we arrived",
-      "detail": "Good communication between MT, canon and roustabout crew, first test under air was deemed safe.",
+      "headline": "Caleb Smith / Jose Campos — Crew followed their life saving rules and apps",
+      "detail": "MT verified lotto was not proper and adjusted the paperwork to match.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Bryan Medlin — Disconnected flow line from the well",
-      "detail": "Disconnect was successful no body was hurt.",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Hayden Haugh 1099 / Kedrick Mccarter 1099 — Reconnect well with new parts",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "headline": "Michael Jobe / Justin Fontenot 1099 — Went over everything in safety meeting and set up exclusion zones",
+      "detail": "Next job will be conducted the same.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Luis Zarate / Jerry Gonzales — We'll monitor while crew worked on moving back pump jack with rod",
-      "detail": "Crew moved with urgency.",
+      "headline": "Nathan Contreras / Rolando Flores 1099 — We observed a well realigned on a maintenance job",
+      "detail": "Crews verified safe guards were in work prior to starting work ,.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jose Hurtado / Baldemar Bracomontes 1099 — Good work skills from the crew",
+      "detail": "Nothing everything went great.",
       "psms": "Operational Discipline",
       "level": null
     },

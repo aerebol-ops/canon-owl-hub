@@ -2880,12 +2880,12 @@
     "sign": true,
     "ticket": true
    },
-   "board": true,
-   "ticket": "101234",
-   "bnz": "2",
-   "at": "602",
-   "techs": "PABLO SOTO / Baldemar Bracomontes 1099",
-   "sched": "09/17/2026 07:00:00",
+   "board": false,
+   "ticket": "",
+   "bnz": "",
+   "at": "",
+   "techs": "",
+   "sched": "",
    "late_min": null,
    "missing": [],
    "complete": true

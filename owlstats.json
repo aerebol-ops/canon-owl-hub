@@ -10,7 +10,7 @@
   "blankForms": 7,
   "excusedBlanks": 1,
   "totalForms": 590,
-  "techs": 87,
+  "techs": 86,
   "locations": 396,
   "firstDate": "09/08/2026",
   "lastDate": "09/26/2026",
@@ -797,14 +797,6 @@
     },
     {
       "name": "Pablo Soto / Alexander Clubb",
-      "submitted": 2,
-      "blank": 0,
-      "excused": 0,
-      "filled": 2,
-      "pct": 100
-    },
-    {
-      "name": "Pablo Soto / Baldemar Bracomontes 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
