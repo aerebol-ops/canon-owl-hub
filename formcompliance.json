@@ -2,7 +2,7 @@
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-09-29",
   "ytdPct": 83.0,
-  "ytdMissed": 1639,
+  "ytdMissed": 1641,
   "months": [
     {
       "month": "January 2026",
@@ -1928,17 +1928,17 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 84.6,
-      "missedTotal": 186,
-      "dailyNo": 111,
+      "compliancePct": 84.5,
+      "missedTotal": 188,
+      "dailyNo": 113,
       "trailerInspNo": 26,
       "trailerReadyNo": 37,
-      "problemRows": 182,
-      "blanks": 888,
+      "problemRows": 183,
+      "blanks": 866,
       "employees": 81,
       "cleanEmployees": 33,
-      "dailyYesTotal": 609,
-      "dailyNoTotal": 111,
+      "dailyYesTotal": 615,
+      "dailyNoTotal": 113,
       "rawRows": 1731,
       "daysCovered": 19,
       "sheetsInMonth": 30,
@@ -2005,8 +2005,8 @@
         },
         {
           "date": "9/14",
-          "missed": 0,
-          "pct": 100
+          "missed": 2,
+          "pct": 82
         },
         {
           "date": "9/15",
@@ -2068,13 +2068,22 @@
           "pct": 50
         },
         {
-          "name": "Alfredo Vaquera",
+          "name": "Dermont Morgan",
           "totalMissed": 5,
           "dailyMissed": 5,
           "trailerMissed": 0,
           "dailyYes": 6,
           "dailyNo": 5,
           "pct": 55
+        },
+        {
+          "name": "Alfredo Vaquera",
+          "totalMissed": 5,
+          "dailyMissed": 5,
+          "trailerMissed": 0,
+          "dailyYes": 7,
+          "dailyNo": 5,
+          "pct": 58
         },
         {
           "name": "Michael Ellis",
@@ -2087,12 +2096,21 @@
         },
         {
           "name": "Dawson Drake",
-          "totalMissed": 12,
-          "dailyMissed": 5,
+          "totalMissed": 13,
+          "dailyMissed": 6,
           "trailerMissed": 7,
           "dailyYes": 9,
-          "dailyNo": 5,
-          "pct": 64
+          "dailyNo": 6,
+          "pct": 60
+        },
+        {
+          "name": "Bobby Galindo",
+          "totalMissed": 9,
+          "dailyMissed": 6,
+          "trailerMissed": 3,
+          "dailyYes": 12,
+          "dailyNo": 6,
+          "pct": 67
         },
         {
           "name": "Larry Jaramillo",
@@ -2111,24 +2129,6 @@
           "dailyYes": 9,
           "dailyNo": 4,
           "pct": 69
-        },
-        {
-          "name": "Benjamin Boutte",
-          "totalMissed": 3,
-          "dailyMissed": 3,
-          "trailerMissed": 0,
-          "dailyYes": 7,
-          "dailyNo": 3,
-          "pct": 70
-        },
-        {
-          "name": "Bobby Galindo",
-          "totalMissed": 8,
-          "dailyMissed": 5,
-          "trailerMissed": 3,
-          "dailyYes": 12,
-          "dailyNo": 5,
-          "pct": 71
         }
       ],
       "live": true,
