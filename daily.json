@@ -264,37 +264,37 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Stefanie Kirschke / Rolando Flores 1099 — Verified equipment conditions, checked for gas hazards, and followed discon",
-      "detail": "Improve communication and verify isolation before breaking connections.",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Alexander Clubb / Alejandro Najar — reconnected flow lines to wellhead",
-      "detail": "Put back all cattle guards around well.",
+      "headline": "Jordan Lemmons / Dermont Morgan 1099 — Good communication in the meeting and during the job operation",
+      "detail": "Good communication in the meeting and during the job operation.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Hayden Haugh 1099 / Bryan Medlin — Disconnection of wellhead",
-      "detail": "Crew was cautious of taking off the piping on the wellhead.",
+      "headline": "Jacob Hernandez / Jose Campos — Well still had pressure when we arrived",
+      "detail": "Good communication between MT, canon and roustabout crew, first test under air was deemed safe.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons / Bryan Medlin — Disconnected flow line from the well",
+      "detail": "Disconnect was successful no body was hurt.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Luis Zarate / Cindy Smith 1099 — Crew disconnected wellhead for workover prep",
-      "detail": "Crew completed the job as panned with no incidents or near misses.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Hayden Haugh 1099 / Kedrick Mccarter 1099 — Reconnect well with new parts",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Pablo Soto / Jerry Gonzales — The crew disconnected and moved with urgent",
-      "detail": "The crew disconnected and moved with urgent.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Luis Zarate / Jerry Gonzales — We'll monitor while crew worked on moving back pump jack with rod",
+      "detail": "Crew moved with urgency.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
