@@ -516,14 +516,6 @@
       "pct": 100
     },
     {
-      "name": "Caleb Smith / Ruben Rojo",
-      "submitted": 4,
-      "blank": 0,
-      "excused": 0,
-      "filled": 4,
-      "pct": 100
-    },
-    {
       "name": "Dawson Drake / Robbie Henigan 1099",
       "submitted": 4,
       "blank": 0,
@@ -597,14 +589,6 @@
     },
     {
       "name": "Michael Jobe / Bobby Galindo 1099",
-      "submitted": 4,
-      "blank": 0,
-      "excused": 0,
-      "filled": 4,
-      "pct": 100
-    },
-    {
-      "name": "Michael Jobe / Christian Lee 1099",
       "submitted": 4,
       "blank": 0,
       "excused": 0,
@@ -716,6 +700,14 @@
       "pct": 100
     },
     {
+      "name": "Caleb Smith / Ruben Rojo",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
       "name": "Dawson Drake / Alejandro Najar",
       "submitted": 2,
       "blank": 0,
@@ -773,6 +765,14 @@
     },
     {
       "name": "Larry Jaramillo / Jerry Gonzales",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Michael Jobe / Christian Lee 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,

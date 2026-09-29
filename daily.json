@@ -264,38 +264,38 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Christian Lee 1099 — A very successful and quick reconnect",
-      "detail": "Everything from communication to work flow and safety.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Ruben Rojo / Dermont Morgan 1099 — Good communication with crew and crane operator",
-      "detail": "Everyone followed procedures and stay out of line of fire.",
-      "psms": "Mobile Equipment",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Rolando Flores — The crew communicated well throughout the job, reviewed the LMRA and job sc",
-      "detail": "The crew communicated well throughout the job, reviewed the LMRA and job scope prior",
+      "headline": "Stefanie Kirschke / Rolando Flores 1099 — Verified equipment conditions, checked for gas hazards, and followed discon",
+      "detail": "Improve communication and verify isolation before breaking connections.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons — Crew did the job as planned",
-      "detail": "Crew did the job as planned",
+      "headline": "Alexander Clubb / Alejandro Najar — reconnected flow lines to wellhead",
+      "detail": "Put back all cattle guards around well.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Justin Fontenot 1099 — Got the well on vacuum and replaced the rubber",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
-      "psms": "Operational Discipline",
-      "level": "duck"
+      "headline": "Hayden Haugh 1099 / Bryan Medlin — Disconnection of wellhead",
+      "detail": "Crew was cautious of taking off the piping on the wellhead.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Luis Zarate / Cindy Smith 1099 — Crew disconnected wellhead for workover prep",
+      "detail": "Crew completed the job as panned with no incidents or near misses.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Pablo Soto / Jerry Gonzales — The crew disconnected and moved with urgent",
+      "detail": "The crew disconnected and moved with urgent.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
     },
     {
       "type": "flag",
