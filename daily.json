@@ -264,37 +264,37 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jimmy White — Job completed safely and no accidents or injuries occurred while on locatio",
-      "detail": "Job completed safely and no accidents or injuries occurred while on location",
+      "headline": "Caleb Smith — Crew followed MT and verified Loto was in place",
+      "detail": "Crew followed MT and verified Loto was in place.",
+      "psms": "Energy Isolation",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez — Stop worked befor we broke containment and spoke on it",
+      "detail": "Stop worked befor we broke containment and spoke on it.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Alejandro Najar — in depth meeting before work started",
+      "detail": "In depth meeting before work started",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Andrew Bailey — Job was completed without any hiccups",
-      "detail": "Job was completed without any hiccups",
+      "headline": "Stefanie Kirschke — The job went smoothly with no issues",
+      "detail": "The job went smoothly with no issues. The crew maintained good communication, followed",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Christian Lee — Communication and safety work practices",
-      "detail": "Communication and safety work practices",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jeremy Norris — job went quickly and smoothly with no gases detected",
-      "detail": "Did we leave the location better.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jose Hurtado — Good communication with Mt and Crew",
-      "detail": "Good communication with Mt and Crew",
-      "psms": "Operational Discipline",
+      "headline": "Jordan Lemmons / Justin Fontenot 1099 — Job went well had 2 leaking valves and tested them",
+      "detail": "Job went well had 2 leaking valves and tested them.",
+      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
@@ -327,5 +327,37 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 09/24"
+  },
+  "specialFocus": {
+    "week": 16,
+    "title": "Driving in Wet & Rainy Conditions",
+    "why": "Fall rain is here, and driving is the most dangerous thing we do — more of us get hurt in trucks than by gas. Rain changes everything about the drive: pavement is slickest in the first 20 minutes when the oil film floats, caliche lease roads turn to grease, and a loaded trailer stretches every stopping distance you're used to. Speed matched to conditions is a lifesaving rule, not a suggestion — and it's ours to live even when the schedule is tight.",
+    "standardLabel": "Wet-Road Standard — Every Trip, No Exceptions",
+    "standard": [
+      "Check the radar before you roll. If weather sits between you and the location, plan the route and the timing around it — that's journey management, not caution.",
+      "Slow down and cut cruise control OFF the moment the road is wet. Hydroplaning starts around 45 mph on worn tread — and your trailer hydroplanes before your truck does.",
+      "Double your following distance — four seconds dry becomes eight in rain. A loaded trailer needs every foot of it.",
+      "Headlights ON with wipers (that's Texas law). Defrost and clear every window and mirror BEFORE you roll, not at 60 mph.",
+      "Brake early, downshift, and stay smooth — no sudden inputs. If the trailer starts to sway, ease off the gas; never stab the brakes.",
+      "Caliche and lease roads after rain: drop your speed hard, stay out of the ruts' pull, and NEVER cross moving water at a low-water crossing. Turn around — there is no job on the other side worth it.",
+      "If it's coming down too hard to see, get off the road somewhere solid — a pad, an approach, not a soft shoulder — and make the call."
+    ],
+    "scenarios": [
+      {
+        "title": "The 5 AM Downpour",
+        "body": "You're 40 minutes from location at 5 AM, trailer loaded, and the sky opens up. Visibility drops to two truck lengths and the schedule says the crew meeting starts without you. The pressure says push through — the standard says slow down, and if that makes you late, you already know the play: call it in so we can inform the company man. Late and safe is a phone call. The other outcome is a phone call nobody wants to make."
+      },
+      {
+        "title": "The Low-Water Crossing",
+        "body": "Overnight rain, and the lease road to your well has a low-water crossing running six inches deep and moving. It 'looks fine.' Six inches of moving water can float a car; a foot moves a truck — and you can't see whether the road under it is even still there. Turn around, find the long way in, and call dispatch and the company man with the delay. No one has ever regretted the long way around."
+      }
+    ],
+    "questions": [
+      "What's your personal speed rule when the road turns wet — and does your trailer change it?",
+      "Where on your regular routes are the low-water crossings and the caliche stretches that get greasy? Name them out loud so the newer hands hear it.",
+      "Have you ever felt the trailer start to swim behind you? What did you do — and what would you tell a new tech to do?",
+      "If slowing down makes you 20 minutes late, who do you call and what do you say?"
+    ],
+    "nonNegotiable": "Speed matched to conditions, seatbelt on, phone down — and if weather slows you down, you CALL so we can inform the company man. Late and safe beats on time in a ditch, every single day."
   }
 }
