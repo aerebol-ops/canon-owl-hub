@@ -2,7 +2,7 @@
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-09-30",
   "ytdPct": 83.3,
-  "ytdMissed": 1749,
+  "ytdMissed": 1752,
   "months": [
     {
       "month": "January 2026",
@@ -1928,17 +1928,17 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 85.6,
-      "missedTotal": 296,
-      "dailyNo": 161,
+      "compliancePct": 85.5,
+      "missedTotal": 299,
+      "dailyNo": 164,
       "trailerInspNo": 44,
       "trailerReadyNo": 68,
-      "problemRows": 270,
-      "blanks": 443,
+      "problemRows": 273,
+      "blanks": 431,
       "employees": 82,
       "cleanEmployees": 27,
-      "dailyYesTotal": 960,
-      "dailyNoTotal": 161,
+      "dailyYesTotal": 969,
+      "dailyNoTotal": 164,
       "rawRows": 1778,
       "daysCovered": 26,
       "sheetsInMonth": 30,
@@ -2030,8 +2030,8 @@
         },
         {
           "date": "9/21",
-          "missed": 1,
-          "pct": 75
+          "missed": 3,
+          "pct": 81
         },
         {
           "date": "9/22",
@@ -2070,19 +2070,19 @@
         },
         {
           "date": "9/29",
-          "missed": 12,
-          "pct": 89
+          "missed": 13,
+          "pct": 87
         }
       ],
       "watch": [
         {
           "name": "Marcos Morales",
-          "totalMissed": 16,
-          "dailyMissed": 16,
+          "totalMissed": 18,
+          "dailyMissed": 18,
           "trailerMissed": 0,
-          "dailyYes": 2,
-          "dailyNo": 16,
-          "pct": 11
+          "dailyYes": 1,
+          "dailyNo": 18,
+          "pct": 5
         },
         {
           "name": "Joseph Popillion",
@@ -2112,6 +2112,15 @@
           "pct": 54
         },
         {
+          "name": "Allen White",
+          "totalMissed": 9,
+          "dailyMissed": 8,
+          "trailerMissed": 1,
+          "dailyYes": 10,
+          "dailyNo": 8,
+          "pct": 56
+        },
+        {
           "name": "Trevor Mckenzie",
           "totalMissed": 8,
           "dailyMissed": 8,
@@ -2137,15 +2146,6 @@
           "dailyYes": 7,
           "dailyNo": 5,
           "pct": 58
-        },
-        {
-          "name": "Allen White",
-          "totalMissed": 8,
-          "dailyMissed": 7,
-          "trailerMissed": 1,
-          "dailyYes": 10,
-          "dailyNo": 7,
-          "pct": 59
         },
         {
           "name": "Baldemar Bracomontes",

@@ -312,36 +312,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Alexander Clubb / Gael \"Antonio\" Avila 1099 — Job scope was kill well, when pumping on well only got 4 barrels in before",
-      "detail": "Other than that everything went good.",
+      "headline": "Dawson Drake / Dermont Morgan 1099 — The communication was effective",
+      "detail": "The communication was effective.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Robbie Henigan 1099 — Had a meeting went over everything that needed to be done for job",
-      "detail": "Do better at talking in the meeting of what our safety protocols are.",
+      "headline": "Andrew Bailey / Gage Gonzales 1099 — We observed the well being converted to a gapl",
+      "detail": "We will complete the next job to the same standard.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Caleb Smith / Dermont Morgan 1099 — Everyone being on the same page working together as a team",
+      "detail": "Everyone being on the same page working together as a team.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Andrew Bailey / Bryan Medlin — Job called of due to permits",
-      "detail": "L - Learn: One thing we'll do better next time.",
+      "headline": "Jacob Hernandez / Gael \"Antonio\" Avila 1099 — Great communication by MT",
+      "detail": "Picked up trash at muster point.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Jerry Gonzales — A great safety meeting AND the proper use of a LMRA before continuing to wo",
-      "detail": "Make sure not just us but nobody is to be around or under suspended loads.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jordan Lemmons / Bobby Galindo 1099 — Job went well we had to change 2 things out from a conversion they did a co",
-      "detail": "Tested all 0s they never opened up the well so everything was still dead.",
+      "headline": "Michael Jobe / William \"Jimmy\" Cooper 1099 — Had a great meeting went over everything that needed to be done",
+      "detail": "Crew completed work in a safe manner all went great did our checks.",
       "psms": "Operational Discipline",
       "level": null
     },
@@ -360,7 +360,7 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 87,
+        "done": 86,
         "total": 99
       },
       {
