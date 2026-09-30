@@ -235,25 +235,25 @@
     ]
   },
   "formReview": {
-    "date": "2026-09-28",
-    "label": "Monday 9/28",
+    "date": "2026-09-29",
+    "label": "Tuesday 9/29",
     "verdict": "",
     "concerns": [
       {
-        "title": "Stefanie Kirschke — SM Energy, UL 35-19 CTB, Trailer Inspection Form 5:48 AM, trailer 152 (Andrews shop). She answered \"No\" to the FR uniform question and gave no reason.",
-        "quote": "to the FR uniform question and gave no reason."
+        "title": "Jacob Hernandez — SM Energy, Talco CTB — trailer 608 — 01:56 PM — job 35147. Damaged breathing-air equipment reported on his Trailer Inspection Form.",
+        "quote": "2 saba boxes lids are broken from hinge"
       },
       {
-        "title": "Rolando Flores 1099 — XTO, Jack Mohr Unit 3 0124SH crew, Trailer Readiness Form 5:42 PM, trailer 601 (Andrews shop). He reported missing air equipment and named no one as",
-        "quote": "Is anything wrong or missing? If so what and who was notified?"
+        "title": "Alexander Clubb — XTO, Bend A #1 — 03:56 PM — job 35148_1. Equipment failure and unplanned work stoppage during a well kill.",
+        "quote": "Job scope was kill well, when pumping on well only got 4 barrels in before 2 inch line bursted and work stopped for a duration of about an hour."
       },
       {
-        "title": "Caleb Smith — XTO, Jordan N 23-24 2814H crew, Trailer Readiness Form 3:42 PM, trailer 501 (Andrews shop). He reported a missing low-pressure alarm in the Notes field but ",
-        "quote": "anything wrong or missing / who was notified"
+        "title": "Alexander Clubb — XTO, Hooper 39 #1 — 12:47 PM — job 35149_1. Leaking wellhead recorded during a tubing rubber replacement.",
+        "quote": "Wellhead was leaking slowly."
       },
       {
-        "title": "Alejandro Najar — XTO, Pratt Vaughn 21C 103H crew, Trailer Readiness Form 4:25 PM, trailer 600 (Andrews shop). Needs confirmation, not yet a confirmed defect. All four ch",
-        "quote": "on Cascade Bottle Pressure and Hydro date #1 through #4; #5 through #10 recorded"
+        "title": "1099 Rolando Flores — XTO, Javaid Central 40H 8H / Crawford 27A #101H — trailer 501 — 05:19 PM. Missing escape-air equipment reported on the Trailer Readiness Form.",
+        "quote": ""
       }
     ]
   },
@@ -264,37 +264,37 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Caleb Smith — Crew followed MT and verified Loto was in place",
-      "detail": "Crew followed MT and verified Loto was in place.",
-      "psms": "Energy Isolation",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jacob Hernandez — Stop worked befor we broke containment and spoke on it",
-      "detail": "Stop worked befor we broke containment and spoke on it.",
+      "headline": "Alexander Clubb / Alejandro Najar — disconnected flow lines from wellhead",
+      "detail": "Picked up all tripping hazards.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Alejandro Najar — in depth meeting before work started",
-      "detail": "In depth meeting before work started",
+      "headline": "Luis Zarate / Jerry Gonzales — Crew reconnected wellhead",
+      "detail": "Continue to grow communication with crew and MT.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke — The job went smoothly with no issues",
-      "detail": "The job went smoothly with no issues. The crew maintained good communication, followed",
+      "headline": "Michael Jobe / Justin Fontenot 1099 — Had a good meeting went great went over what needed to be done in crew did",
+      "detail": "Go over job scope better.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Justin Fontenot 1099 — Job went well had 2 leaking valves and tested them",
-      "detail": "Job went well had 2 leaking valves and tested them.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Jacob Hernandez / Christian Lee 1099 — Great communication and job scope followed to a tee",
+      "detail": "Job was completed safely.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Ruben Rojo / Dermont Morgan 1099 — A exchange of parts on a horse jack",
+      "detail": "Team did a great job avoiding line of fire as well as keeping an eye up while the crane was moving.",
+      "psms": "Mobile Equipment",
       "level": null
     },
     {
