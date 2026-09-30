@@ -166,68 +166,116 @@
   ],
   "leadershipThought": "The attendant's job is the hardest job on a confined space entry. Make sure your people know exactly what it requires — before anyone goes in.",
   "yesterdaysJobs": {
-    "date": "2026-09-26",
-    "label": "Saturday, September 26",
-    "count": 7,
-    "flags": 1,
+    "date": "2026-09-29",
+    "label": "Tuesday, September 29",
+    "count": 13,
+    "flags": 2,
     "groups": [
       {
         "category": "AGT",
         "jobs": [
           {
-            "well": "XBC Giddings Estate 2401H",
-            "jobType": "Air Job",
-            "crew": "Dawson Drake / Robbie Henigan 1099",
-            "cm": "",
-            "note": "Conversion to a plunger, gas lift well",
-            "flag": false
-          },
-          {
-            "well": "SDU 2322A",
-            "jobType": "Air Job",
-            "crew": "Jordan Lemmons / Justin Fontenot 1099",
-            "cm": "James Glass",
-            "note": "Crew held safety meeting and all trucks staged and exclusion zones set into",
-            "flag": false
-          },
-          {
             "well": "Louis 3142",
             "jobType": "Air Job",
-            "crew": "Michael Jobe / Christian Lee 1099",
+            "crew": "Jeremy Norris / Jerry Gonzales",
             "cm": "Chad Farr",
-            "note": "Had a good meeting went over what needed to be done",
+            "note": "A great safety meeting AND the proper use of a LMRA before continuing to wo",
             "flag": false
           },
           {
-            "well": "Driver C NE9J 10H",
+            "well": "Elkin Crawford 34EE 105H",
             "jobType": "Air Job",
-            "crew": "Jordan Lemmons / Justin Fontenot 1099",
-            "cm": "Clay Mateo",
-            "note": "Job went well had 2 leaking valves and tested them",
+            "crew": "Michael Jobe / Robbie Henigan 1099",
+            "cm": "Foreman_West Ops 9",
+            "note": "Atmospheric Monitoring — Michael Jobe / Robbie Henigan 1099",
+            "flag": false
+          },
+          {
+            "well": "Poe Herzog 5C 3H",
+            "jobType": "Air Job",
+            "crew": "Luis Zarate / Cindy Smith 1099",
+            "cm": "Foreman_East Ops 8",
+            "note": "Crew disconnected well head and flow line",
             "flag": true
           },
           {
-            "well": "Welch Cox E39D 304H",
+            "well": "XBC Giddings Estate 1404H",
             "jobType": "Air Job",
-            "crew": "Stefanie Kirschke / Rolando Flores 1099",
+            "crew": "",
             "cm": "",
-            "note": "Verified equipment conditions, checked for gas hazards, and followed discon",
+            "note": "Crew preforming work as planned and discussed in PSMS meeting",
             "flag": false
           },
           {
             "well": "Frances 12-1-A #2801H",
             "jobType": "Air Job",
-            "crew": "Stefanie Kirschke / Rolando Flores 1099",
-            "cm": "",
-            "note": "Was told job was canceled while sitting on our first location",
+            "crew": "Andrew Bailey / Bryan Medlin",
+            "cm": "Foreman_East Ops 5",
+            "note": "Job called of due to permits",
             "flag": false
           },
           {
-            "well": "Elkin Crawford 34CC 103H",
+            "well": "Bend A #1",
             "jobType": "Air Job",
-            "crew": "Brianda Sandoval / Alejandro Najar",
-            "cm": "Foreman_West Ops 9",
-            "note": "crew had to reconnect flow line to well head",
+            "crew": "Alexander Clubb / Gael \"Antonio\" Avila 1099",
+            "cm": "Foreman_West Ops 7",
+            "note": "Job scope was kill well, when pumping on well only got 4 barrels in before",
+            "flag": false
+          },
+          {
+            "well": "Stone Gist 245B 2H",
+            "jobType": "Air Job",
+            "crew": "Luis Zarate / Cindy Smith 1099",
+            "cm": "Foreman_East Ops 9",
+            "note": "Job was cancelled for the day",
+            "flag": false
+          },
+          {
+            "well": "Nobles Unit 2805BH",
+            "jobType": "Air Job",
+            "crew": "Jordan Lemmons / Bobby Galindo 1099",
+            "cm": "Foreman_West Ops 5",
+            "note": "Job went well we had to change 2 things out from a conversion they did a co",
+            "flag": false
+          },
+          {
+            "well": "Dusek 45-4 #2807H",
+            "jobType": "Air Job",
+            "crew": "",
+            "cm": "Brian Murphree",
+            "note": "Nothing, was dispatch to this job but everything was all ready completed",
+            "flag": false
+          },
+          {
+            "well": "Northeast Scharbauer 1219H",
+            "jobType": "Air Job",
+            "crew": "Michael Jobe / Robbie Henigan 1099",
+            "cm": "Foreman_West Ops 1",
+            "note": "One of the crew didn't have Ppe on so I told him to get his stuff on",
+            "flag": true
+          },
+          {
+            "well": "Hooper 39 #1",
+            "jobType": "Air Job",
+            "crew": "Alexander Clubb / Gael \"Antonio\" Avila 1099",
+            "cm": "Foreman_West Ops 7",
+            "note": "Pretty essay and quick meeting but with all the info needed it to get the j",
+            "flag": false
+          },
+          {
+            "well": "University 10-11C 3H",
+            "jobType": "Air Job",
+            "crew": "Dawson Drake / Dermont Morgan 1099",
+            "cm": "",
+            "note": "The communication was effective",
+            "flag": false
+          },
+          {
+            "well": "Glaspie Havard 11Q 17H",
+            "jobType": "Air Job",
+            "crew": "",
+            "cm": "",
+            "note": "We observed the well being disconnected and atmospheric testing completed",
             "flag": false
           }
         ]
@@ -260,41 +308,41 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Conducted a pre-task safety meeting with the crew to review the job scope,</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue to maintain strong communication, complete atmospheric testing before starting work, and keep continuous monitoring in place throughout the task.</span><br><br><strong>We observed a rod hanger installed on a pump jack</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Alejandro Najar]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crews went over nearest hospitals and access points , crews verified safeguards were in place , crews recognized mechanical lifting and breaking containment.</span><br><br><strong>Disconnected well and masked up and tested and got some benzene</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons / Bryan Medlin]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Let them know to air it out and retested and got done to be able to work without air.</span><br><br><strong>The crew communicated well and took the time to review the job and potentia</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>The crew communicated well and took the time to review the job and potential hazards</span><br><br><strong>We observed the crew working below grade in the cellar with the proper safe</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>We observed the crew working below grade in the cellar with the proper safety controls in</span>",
+  "exxonMoments": "<strong>Atmospheric Monitoring — Michael Jobe / Robbie Henigan 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>A thorough job-scope review of the work area was completed before starting</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue to strengthen pre-task planning and crew communication by reviewing the job scope, LSRAs, and safety controls before each phase of the reconnect conversion, while maintaining atmospheric monitoring as required.</span><br><br><strong>Conducted a pre-task safety meeting with the crew to review the job scope,</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue to maintain strong communication, complete atmospheric testing before starting work, and keep continuous monitoring in place throughout the task.</span><br><br><strong>We observed a rod hanger installed on a pump jack</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Alejandro Najar]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crews went over nearest hospitals and access points , crews verified safeguards were in place , crews recognized mechanical lifting and breaking containment.</span><br><br><strong>Disconnected well and masked up and tested and got some benzene</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons / Bryan Medlin]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Let them know to air it out and retested and got done to be able to work without air.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Alexander Clubb / Alejandro Najar — disconnected flow lines from wellhead",
-      "detail": "Picked up all tripping hazards.",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Luis Zarate / Jerry Gonzales — Crew reconnected wellhead",
-      "detail": "Continue to grow communication with crew and MT.",
+      "headline": "Alexander Clubb / Gael \"Antonio\" Avila 1099 — Job scope was kill well, when pumping on well only got 4 barrels in before",
+      "detail": "Other than that everything went good.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Justin Fontenot 1099 — Had a good meeting went great went over what needed to be done in crew did",
-      "detail": "Go over job scope better.",
+      "headline": "Michael Jobe / Robbie Henigan 1099 — Had a meeting went over everything that needed to be done for job",
+      "detail": "Do better at talking in the meeting of what our safety protocols are.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Christian Lee 1099 — Great communication and job scope followed to a tee",
-      "detail": "Job was completed safely.",
+      "headline": "Andrew Bailey / Bryan Medlin — Job called of due to permits",
+      "detail": "L - Learn: One thing we'll do better next time.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Ruben Rojo / Dermont Morgan 1099 — A exchange of parts on a horse jack",
-      "detail": "Team did a great job avoiding line of fire as well as keeping an eye up while the crane was moving.",
-      "psms": "Mobile Equipment",
+      "headline": "Jeremy Norris / Jerry Gonzales — A great safety meeting AND the proper use of a LMRA before continuing to wo",
+      "detail": "Make sure not just us but nobody is to be around or under suspended loads.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons / Bobby Galindo 1099 — Job went well we had to change 2 things out from a conversion they did a co",
+      "detail": "Tested all 0s they never opened up the well so everything was still dead.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
@@ -308,25 +356,25 @@
   "todaysChallenge": "Busy isn't the same as safe. Before you leave a location today, ask: did I verify, or did I just move fast? Name one thing you verified out loud.",
   "todaysChallengeSubtext": "“Never mistake activity for achievement.” — John Wooden",
   "compliance": {
-    "weekOf": "Week of September 21, 2026",
+    "weekOf": "Week of September 28, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 4,
-        "total": 5
+        "done": 87,
+        "total": 99
       },
       {
         "label": "Trailer Inspections",
-        "done": 0,
-        "total": 0
+        "done": 21,
+        "total": 26
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 0,
-        "total": 0
+        "done": 17,
+        "total": 24
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 09/24"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 09/29"
   },
   "specialFocus": {
     "week": 16,
