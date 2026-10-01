@@ -3591,6 +3591,10 @@ async function renderTemplate() {
           <span><strong style="color:#8a6d00;">&#129414; Duck</strong> — a positive catch: saw it, said it, fixed it.</span>
           <span><strong style="color:#b00020;">&#129413; Eagle</strong> — accelerated excellence: work stopped, hazard intercepted, near miss reported.</span>
         </div>`;
+        // Monthly Awards — injected async from awards.json; renders only in
+        // the first 7 board days of a new month (see _tplAwards)
+        const awardsSlot = `<div id="tpl-awards"></div>`;
+        setTimeout(_tplAwards, 0);
         if (daily && daily.fieldNews && daily.fieldNews.filter(n => n.type === 'good').length) {
           const items = daily.fieldNews.filter(n => n.type === 'good').map(n => {
             const L = LVL[n.level] || LVL.plain;
@@ -3604,9 +3608,9 @@ async function renderTemplate() {
                </div>
              </div>`;
           }).join('');
-          return `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gold);margin-bottom:6px;">Today's Recognition — Name It Out Loud</div>${legend}${items}`;
+          return `${awardsSlot}<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gold);margin-bottom:6px;">Today's Recognition — Name It Out Loud</div>${legend}${items}`;
         }
-        return `${legend}<div class="runsheet-content">Name someone from the crew. Be specific — what did they do and why does it matter to everyone standing here. Recognition that names a behavior is recognition that repeats it.</div>
+        return `${awardsSlot}${legend}<div class="runsheet-content">Name someone from the crew. Be specific — what did they do and why does it matter to everyone standing here. Recognition that names a behavior is recognition that repeats it.</div>
                 <div class="runsheet-scenario" style="border-color:var(--gold); background:#fffbee;">Check the O.W.L Form Submissions tab and Mike's text from last night — names and reasons are there.</div>`;
       })()
     },
@@ -4031,6 +4035,7 @@ ${d && d.specialFocus ? (() => { const sf = d.specialFocus; return `
     <div class="num" style="background:#b8a000;">4</div>
     <div class="sec-title" style="color:#b8a000;">Recognition — Duck &amp; Eagle Board</div>
   </div>
+  ${_awardsShareHtml()}
   ${recogItems ? `<ul>${recogItems}</ul>` : '<div class="box muted">Check Field News and Mike\'s text from last night.</div>'}
 </div>
 
@@ -5078,7 +5083,10 @@ async function renderOwlStats() {
     <div style="font-size:11.5px;color:var(--muted);margin-bottom:6px;">&ldquo;One thing we&rsquo;ll do better next time&rdquo; &mdash; the sharpest calls from the field</div>
     ${quoteCards}
     <div style="font-size:12px;color:var(--muted);margin-top:10px;line-height:1.5;">${os.techs} techs, ${os.totalForms} reviews, zero prompting &mdash; this is the crew coaching itself. The forms aren&rsquo;t paperwork; they&rsquo;re the habit.</div>
-  </div>`;
+  </div>
+
+  <div id="owl-walloffame"></div>`;
+  _renderWallOfFame();
 }
 
 // ── OWL FORM INSIGHTS PDF — the analytics section as a shareable edition ──
@@ -5464,6 +5472,103 @@ async function _tplQcBoard() {
       </div>`).join('')}
       <div style="font-size:11px; color:var(--muted); margin-top:6px;">${unatt ? `+ ${unatt.run} jobs not matched to a board crew &middot; ` : ''}Full board with the per-item detail: Job Forms — Review &amp; Tracking &rarr; FORM QC.</div>
     </div>
+  </div>`;
+}
+
+// ── MONTHLY AWARDS (Mike 9/30/2026) — physical prizes at the first meeting of
+// the month: backpack (diligence, straight off the Form Scoreboard), duck
+// (most written catches, same classifier as the board cards), and Mike's own
+// Attitude Award. Selection is awards.json (built every sweep); Mike hands
+// over the hardware. Panel shows on the template for the first 7 board days
+// of the new month; the Wall of Fame on the O.W.L tab keeps every month.
+let _awards = null;
+async function _ensureAwards() {
+  if (_awards) return _awards;
+  try {
+    const r = await fetch('awards.json?_=' + Date.now(), { cache: 'no-store' });
+    if (r.ok) _awards = await r.json();
+  } catch (e) {}
+  return _awards;
+}
+// awards month to present right now (board date in the first 7 days of the
+// month AFTER the awarded one), else null
+function _awardsCurrent() {
+  if (!_awards || !_awards.months || !_awards.months.length) return null;
+  const now = new Date();
+  if (now.getDate() > 7) return null;
+  const prevYm = `${now.getMonth() === 0 ? now.getFullYear() - 1 : now.getFullYear()}-${String(now.getMonth() === 0 ? 12 : now.getMonth()).padStart(2, '0')}`;
+  return _awards.months.find(m => m.month === prevYm) || null;
+}
+const _AWARD_DEFS = {
+  diligence: { icon: '&#127890;', name: 'DILIGENCE AWARD — BACKPACK', color: '#166534', bg: '#f0fdf4' },
+  duck:      { icon: '&#129414;', name: 'DUCK AWARD — MOST CATCHES',  color: '#8a6d00', bg: '#fffbee' },
+  attitude:  { icon: '&#11088;',  name: 'ATTITUDE AWARD — MIKE’S PICK', color: '#1F3864', bg: '#eef2f9' },
+};
+function _awardCards(m, compact) {
+  const cards = [];
+  if (m.diligence && m.diligence.winner) {
+    const w = m.diligence.winner, ru = (m.diligence.board || [])[1];
+    cards.push({ k: 'diligence', who: w.who,
+      stat: `${w.complete} of ${w.jobs} complete packets — ${w.pct}% on the Form Scoreboard`,
+      sub: ru ? `Runner-up: ${ru.who} (${ru.complete}/${ru.jobs}, ${ru.pct}%)` : '' });
+  }
+  if (m.duck && m.duck.winner) {
+    const w = m.duck.winner, ru = (m.duck.board || [])[1];
+    cards.push({ k: 'duck', who: w.who,
+      stat: `${w.total} written catch${w.total === 1 ? '' : 'es'} — ${w.ducks} duck${w.ducks === 1 ? '' : 's'} &#129414;${w.eagles ? ` · ${w.eagles} eagle${w.eagles === 1 ? '' : 's'} &#129413;` : ''}`,
+      sub: ru ? `Runner-up: ${ru.who} (${ru.total} — ${ru.ducks}&#129414;${ru.eagles ? ` ${ru.eagles}&#129413;` : ''})` : '' });
+  }
+  if (m.attitude) {
+    cards.push({ k: 'attitude', who: m.attitude.who, stat: m.attitude.note || '', sub: '' });
+  }
+  return cards.map(c => {
+    const D = _AWARD_DEFS[c.k];
+    return `<div style="flex:1 1 220px; min-width:200px; background:${D.bg}; border:2px solid ${D.color}; border-radius:10px; padding:10px 12px;">
+      <div style="font-size:10px; font-weight:800; letter-spacing:.08em; color:${D.color};">${D.icon} ${D.name}</div>
+      <div style="font-size:${compact ? 15 : 17}px; font-weight:900; color:var(--text); margin-top:3px;">${c.who}</div>
+      <div style="font-size:12px; color:#444; margin-top:3px; line-height:1.45;">${c.stat}</div>
+      ${c.sub ? `<div style="font-size:11px; color:var(--muted); margin-top:4px;">${c.sub}</div>` : ''}
+    </div>`;
+  }).join('');
+}
+async function _tplAwards() {
+  const el = document.getElementById('tpl-awards');
+  if (!el) return;
+  await _ensureAwards();
+  const m = _awardsCurrent();
+  if (!m) { el.innerHTML = ''; return; }
+  el.innerHTML = `<div style="border:2px solid var(--gold); border-radius:10px; margin-bottom:14px; overflow:hidden;">
+    <div style="background:var(--gold); color:#1F3864; padding:8px 12px;">
+      <span style="font-weight:800; font-size:13.5px;">&#127942; ${m.label} Awards — handed out at this morning's meeting</span>
+      <div style="font-size:11px; margin-top:2px;">Earned on the boards all month (${m.scope}). Call them up, say why, hand it over.</div>
+    </div>
+    <div style="display:flex; flex-wrap:wrap; gap:8px; padding:10px 12px;">${_awardCards(m)}</div>
+    <div style="font-size:10.5px; color:var(--muted); padding:0 12px 8px;">Diligence = complete packets per the Form Scoreboard (min 5 jobs) &middot; Duck = most duck/eagle write-ups, eagles break ties &middot; Attitude = Mike's call. No back-to-back repeats on the computed awards. Full history: O.W.L Form Submissions &rarr; Wall of Fame.</div>
+  </div>`;
+}
+// print/share edition of the same panel — sync, rides the _awards cache the
+// template render already filled (same pattern as the scoreboard block)
+function _awardsShareHtml() {
+  const m = _awardsCurrent();
+  if (!m) return '';
+  return `<div style="border:2px solid #b8a000; border-radius:8px; padding:8px 10px; margin-bottom:10px; page-break-inside:avoid;">
+    <div style="font-size:13px; font-weight:800; color:#8a6d00;">&#127942; ${m.label} Awards — handed out this morning</div>
+    <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:6px;">${_awardCards(m, true)}</div>
+  </div>`;
+}
+// Wall of Fame — every awarded month, on the O.W.L Form Submissions tab
+async function _renderWallOfFame() {
+  const el = document.getElementById('owl-walloffame');
+  if (!el) return;
+  await _ensureAwards();
+  if (!_awards || !_awards.months || !_awards.months.length) { el.innerHTML = ''; return; }
+  el.innerHTML = `<div style="background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin-bottom:14px;">
+    <div style="font-size:13px;font-weight:800;color:var(--navy);margin-bottom:4px;">&#127942; Wall of Fame — Monthly Awards</div>
+    <div style="font-size:11.5px;color:var(--muted);margin-bottom:10px;">Backpack for diligence &middot; duck for the most written catches &middot; Attitude Award is Mike's pick. Handed out at the first meeting of every month.</div>
+    ${_awards.months.map(m => `<div style="margin-bottom:12px;">
+      <div style="font-size:12px; font-weight:800; color:var(--gold); text-transform:uppercase; letter-spacing:.05em; margin-bottom:6px;">${m.label}</div>
+      <div style="display:flex; flex-wrap:wrap; gap:8px;">${_awardCards(m, true)}</div>
+    </div>`).join('')}
   </div>`;
 }
 
