@@ -33,6 +33,15 @@
             "Disconnect but with a leak vaule and the csg had 800 psi after loto"
           ],
           "recognition": "Dawson Drake / Dermont Morgan 1099 — The communication was effective"
+        },
+        {
+          "date": "Thu, Oct 1",
+          "day": "Thursday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;You are not just doing a job. You are building the next generation of people who will do this safely. That is what it means to be an Owl.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Dawson Drake / Jose Campos</strong> — Showing up in the paperwork every time — latest form: Operational Discipline, 2026-09-28. That consistency is the habit.</li><li style='margin:3px 0;'><strong>Raymundo Solis / Bobby Galindo 1099</strong> — Showing up in the paperwork every time — latest form: Operational Discipline, 2026-09-28. That consistency is the habit.</li><li style='margin:3px 0;'><strong>Luis Zarate / Cindy Smith 1099</strong> — Continue to grow communication with crew and MT.</li><li style='margin:3px 0;'><strong>Nathan Contreras / Rolando Flores 1099</strong> — Crews rigged up accordingly , crews verified nearest hospitals and nearest access roads.</li><li style='margin:3px 0;'><strong>Pablo Soto / Jerry Gonzales</strong> — Crew was swift and on point with all the life saving rules.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Disconnect but with a leak vaule and the csg had 800 psi after loto"
+          ],
+          "recognition": "Dawson Drake / Jose Campos — on the OWL board"
         }
       ]
     },
