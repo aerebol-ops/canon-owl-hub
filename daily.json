@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "week": 16,
-  "day": 4,
+  "day": 5,
   "topicWeek": 5,
   "displayWeek": 7,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Confined Space · Atmospheric Monitoring",
     "marker": "Month-end: September card finalizes"
   },
-  "openingMessage": "Responsibility is the path to meaning.",
+  "openingMessage": "Set your house in perfect order before you criticize the world.",
   "openingAttribution": "Jordan Peterson",
-  "openingWhy": "Ask a twenty-year hand why he's still out here — it's never the per diem. It's being the man a crew bets their lives on, and having earned that bet every single day. That weight isn't the cost of this job. It's the pay.",
+  "openingWhy": "Before we critique the operator's plan at the pre-job, the honest question: is our own trailer inspected, our bottles full, our forms real? On location, the crew whose house is in order is the crew that gets listened to when it counts.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,7 +164,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "You are not just doing a job. You are building the next generation of people who will do this safely. That is what it means to be an Owl.",
+  "leadershipThought": "Nobody protects a location alone. The willingness to carry extra weight, communicate early, and check on the person next to you — that is coaching in action.",
   "yesterdaysJobs": {
     "date": "2026-09-29",
     "label": "Tuesday, September 29",
@@ -308,40 +308,33 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Conducted a confined space job in tank 551 and 552 with no issues cleaning</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Confined Space Entry)</span><br><span style='font-size:13px;'>Conducted a confined space job in tank 551 and 552 with no issues cleaning out water</span><br><br><strong>Job went very smoothly tested everything we needed to test they disconnecte</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Job went very smoothly tested everything we needed to test they disconnected it all job</span><br><br><strong>Disconnected with no issues, well ready to be worked over by workover rig</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jimmy White]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Disconnected with no issues, well ready to be worked over by workover rig.</span><br><br><strong>Crew was able to finish job safely with no issues, all atmospheric readings</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Baldemar Bracamontes]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crew was able to finish job safely with no issues, all atmospheric readings yielded a safe</span><br><br><strong>Atmospheric Monitoring — Stefanie Kirschke</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Everything went well. The disconnect was completed safely, efficiently, and without</span>",
+  "exxonMoments": "<strong>The flowline was disconnected, polish rod removed and atmospheric testing c</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>The flowline was disconnected, polish rod removed and atmospheric testing completed</span><br><br><strong>Flowline was connected and atmospheric testing was done without any injurie</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Flowline was connected and atmospheric testing was done without any injuries or hiccups</span><br><br><strong>The crew communicated well, followed the job plan, maintained atmospheric m</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>The crew communicated well, followed the job plan, maintained atmospheric monitoring,</span><br><br><strong>Flowline was disconnected without injury and atmospheric testing done accor</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Flowline was disconnected without injury and atmospheric testing done accordingly</span><br><br><strong>The crew communicated well throughout the job, reviewed the LMRA and job sc</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>The crew communicated well throughout the job, reviewed the LMRA and job scope prior</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Brian Medlin — on the OWL board",
-      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-09-12. That consistency is the habit.",
-      "psms": "Operational Discipline",
-      "level": "habit"
-    },
-    {
-      "type": "good",
-      "headline": "Luis Zarate / Jerry Gonzales — Watched crew re connect electrical and pipe to well",
-      "detail": "Communication is somthing we can always work on.",
+      "headline": "Luis Zarate / Cindy Smith 1099 — Everyone working safe , using their proper PPE",
+      "detail": "Continue to have better communication.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Justin Fontenot 1099 — Held safety meeting with crew and went over all LMRA's and exclusion zones",
-      "detail": "Next job will be conducted the same.",
+      "headline": "Nathan Contreras / Rolando Flores 1099 — A thorough job-scope review of the work area was completed before starting",
+      "detail": "Continue to strengthen pre-task planning and crew communication by reviewing the job scope, LSRAs, and safety controls before each phase of the reconnect conversion, whil",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons / Bryan Medlin — Reconnect went according to job scope and PSMS was out on pad",
+      "detail": "Psms went through our paperwork and liked what he saw.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Alexander Clubb / Gael \"Antonio\" Avila 1099 — Pretty essay and quick meeting but with all the info needed it to get the j",
-      "detail": "Talk to the crew a bit more.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Michael Jobe / Robbie Henigan 1099 — One of the crew didn't have Ppe on so I told him to get his stuff on",
-      "detail": "Had meetings went over what needed to be done all completed safe manner.",
+      "headline": "Michael Jobe / Justin Fontenot 1099 — Safety meeting couldn't understand didn't know English",
+      "detail": "Have a better meeting.",
       "psms": "Operational Discipline",
       "level": null
     },
@@ -353,8 +346,8 @@
       "psms": "Energy Isolation"
     }
   ],
-  "todaysChallenge": "Preparation is the job today: fuel before you need it, calibrate before you're asked, stage the rescue plan before the break. Win the job before it starts.",
-  "todaysChallengeSubtext": "“It's not the will to win that matters — everyone has that. It's the will to prepare to win that matters.” — Bear Bryant",
+  "todaysChallenge": "Heavy schedule today? Don't let the load rush your checks. Carry it in order: verify first, move second. The busiest day is the one that most needs the standard.",
+  "todaysChallengeSubtext": "“It's not the load that breaks you down, it's the way you carry it.” — Lou Holtz",
   "compliance": {
     "weekOf": "Week of September 28, 2026",
     "metrics": [

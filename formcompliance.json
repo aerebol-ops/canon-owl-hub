@@ -2,7 +2,7 @@
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-10-01",
   "ytdPct": 83.3,
-  "ytdMissed": 1752,
+  "ytdMissed": 1761,
   "months": [
     {
       "month": "January 2026",
@@ -1928,16 +1928,16 @@
       "month": "September 2026",
       "year": 2026,
       "monthNum": 9,
-      "compliancePct": 85.5,
-      "missedTotal": 299,
+      "compliancePct": 85.7,
+      "missedTotal": 308,
       "dailyNo": 164,
-      "trailerInspNo": 44,
-      "trailerReadyNo": 68,
-      "problemRows": 273,
-      "blanks": 431,
+      "trailerInspNo": 45,
+      "trailerReadyNo": 76,
+      "problemRows": 281,
+      "blanks": 415,
       "employees": 82,
       "cleanEmployees": 27,
-      "dailyYesTotal": 969,
+      "dailyYesTotal": 983,
       "dailyNoTotal": 164,
       "rawRows": 1778,
       "daysCovered": 26,
@@ -2030,8 +2030,8 @@
         },
         {
           "date": "9/21",
-          "missed": 3,
-          "pct": 81
+          "missed": 12,
+          "pct": 90
         },
         {
           "date": "9/22",
@@ -2148,15 +2148,6 @@
           "pct": 58
         },
         {
-          "name": "Baldemar Bracomontes",
-          "totalMissed": 6,
-          "dailyMissed": 5,
-          "trailerMissed": 1,
-          "dailyYes": 10,
-          "dailyNo": 5,
-          "pct": 67
-        },
-        {
           "name": "Benjamin Boutte",
           "totalMissed": 5,
           "dailyMissed": 5,
@@ -2164,6 +2155,15 @@
           "dailyYes": 10,
           "dailyNo": 5,
           "pct": 67
+        },
+        {
+          "name": "Baldemar Bracomontes",
+          "totalMissed": 7,
+          "dailyMissed": 5,
+          "trailerMissed": 2,
+          "dailyYes": 11,
+          "dailyNo": 5,
+          "pct": 69
         }
       ],
       "live": true,
