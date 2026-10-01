@@ -283,25 +283,25 @@
     ]
   },
   "formReview": {
-    "date": "2026-09-29",
-    "label": "Tuesday 9/29",
+    "date": "2026-09-30",
+    "label": "Wednesday 9/30",
     "verdict": "",
     "concerns": [
       {
-        "title": "Jacob Hernandez — SM Energy, Talco CTB — trailer 608 — 01:56 PM — job 35147. Damaged breathing-air equipment reported on his Trailer Inspection Form.",
-        "quote": "2 saba boxes lids are broken from hinge"
+        "title": "Dennis Easley — JERA Upstream, Evans 34-3, rig up, 5:52 PM, job 35184: loud alarms and lights recorded as not tested at rig up. The checklist question was answered No, an",
+        "quote": "Loud Alarms and Lights Tested?: No"
       },
       {
-        "title": "Alexander Clubb — XTO, Bend A #1 — 03:56 PM — job 35148_1. Equipment failure and unplanned work stoppage during a well kill.",
-        "quote": "Job scope was kill well, when pumping on well only got 4 barrels in before 2 inch line bursted and work stopped for a duration of about an hour."
+        "title": "Alexander Clubb — Ovintiv, H&P 616 Terlingua, alarm call, 7:36 PM to 9:49 PM, job 35238: LEL sensor element found out of position on the rig floor.",
+        "quote": "Colby the night shift cm said it was on lel sensor on the floor, after inspecting sensor found that the element was out of place, placed it back in and verified it was sitting at a steady 0 baseline, went through all of sensors and had to change batteries on 2."
       },
       {
-        "title": "Alexander Clubb — XTO, Hooper 39 #1 — 12:47 PM — job 35149_1. Leaking wellhead recorded during a tubing rubber replacement.",
-        "quote": "Wellhead was leaking slowly."
+        "title": "Jordan Lemmons and Luis Zarate — SM Energy, Roye #4, air job, 4:29 PM, jobs 35217_1 and 35217_2: elevated NORM readings found on tubing.",
+        "quote": "NORM testing with Jordan. Did norm readings on tubing on south side of location. Did read high levels of norm. The highest reading was 132 micro Roentgen per hour. Marked each high tubing with caution tape. Let Shane know."
       },
       {
-        "title": "1099 Rolando Flores — XTO, Javaid Central 40H 8H / Crawford 27A #101H — trailer 501 — 05:19 PM. Missing escape-air equipment reported on the Trailer Readiness Form.",
-        "quote": ""
+        "title": "Dennis Easley — JERA Upstream, CHK LA Mineral 34-11-13 H1, rig down, 4:42 PM, job 35183: sensors recorded as returned covered in mud, with no manager notified. The damage",
+        "quote": "Damaged or Missing Equipment: N/Asensors covered in mud"
       }
     ]
   },
@@ -312,36 +312,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Andrew Bailey / Gage Gonzales 1099 — Crew preforming conversion per job scope, utilizing the psms to best of the",
-      "detail": "Pre plan parking due to location terrain.",
+      "headline": "Brian Medlin — on the OWL board",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-09-12. That consistency is the habit.",
+      "psms": "Operational Discipline",
+      "level": "habit"
+    },
+    {
+      "type": "good",
+      "headline": "Luis Zarate / Jerry Gonzales — Watched crew re connect electrical and pipe to well",
+      "detail": "Communication is somthing we can always work on.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Caleb Smith / Dermont Morgan 1099 — MT went over exclusion zones with crew before work began",
-      "detail": "Crew reviewed lsras before starting work.",
+      "headline": "Michael Jobe / Justin Fontenot 1099 — Held safety meeting with crew and went over all LMRA's and exclusion zones",
+      "detail": "Next job will be conducted the same.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / William \"Jimmy\" Cooper 1099 — Started the job late but all went well crew was great",
-      "detail": "Had meetings did our test crew worked in a good safe manner.",
+      "headline": "Alexander Clubb / Gael \"Antonio\" Avila 1099 — Pretty essay and quick meeting but with all the info needed it to get the j",
+      "detail": "Talk to the crew a bit more.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Justin Fontenot 1099 — Crew held safety meeting and all trucks staged and exclusion zones set into",
-      "detail": "Next job will be conducted the same and held to the same standard.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Alexander Clubb / Alejandro Najar — Job scope was welll conversion",
-      "detail": "Nothing everything went smoothly.",
+      "headline": "Michael Jobe / Robbie Henigan 1099 — One of the crew didn't have Ppe on so I told him to get his stuff on",
+      "detail": "Had meetings went over what needed to be done all completed safe manner.",
       "psms": "Operational Discipline",
       "level": null
     },
