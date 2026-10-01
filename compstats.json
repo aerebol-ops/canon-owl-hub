@@ -1,0 +1,161 @@
+{
+ "generated": "2026-10-01",
+ "source": "Matt Croom's audit of the Daily Internal Compliance 2026 workbook — monthly review received 10/1/2026 (supersedes all earlier September versions), YTD reports received 9/30/2026",
+ "method": "Completion % = Yes ÷ (Yes + No). Day forms, trailer inspection and trailer readiness are credited to the day tech; night forms to the night tech.",
+ "month": {
+  "label": "September 2026",
+  "glance": [
+   {"m": "Job-days logged", "now": "1,778", "prev": "1,498", "chg": "+19%", "tone": "info"},
+   {"m": "Day forms completed", "now": "88.6% (944/1,065)", "prev": "88.1%", "chg": "flat", "tone": "ok"},
+   {"m": "Night forms completed", "now": "40.3% (29/72)", "prev": "55.4%", "chg": "down 15 pts", "tone": "bad"},
+   {"m": "Trailer inspection completed", "now": "81.4% (193/237)", "prev": "81.6%", "chg": "flat", "tone": "ok"},
+   {"m": "Trailer readiness completed", "now": "68.3% (155/227)", "prev": "70.3%", "chg": "down 2 pts", "tone": "warn"},
+   {"m": "Missed forms (all types)", "now": "280", "prev": "301", "chg": "improved", "tone": "ok"},
+   {"m": "Jobs flagged with problems", "now": "277", "prev": "235", "chg": "+18%", "tone": "bad"},
+   {"m": "Share of job-days audited", "now": "75.5%", "prev": "92.3%", "chg": "down 17 pts", "tone": "warn"}
+  ],
+  "concerns": [
+   {"t": "Night forms are the weakest area and getting worse", "d": "40.3% in September, down from 55.4% in August. ETX nights: 6 of 31 (19.4%). Mitsui nights: 2 of 26 (7.7%) — almost all on Marcos Morales's shifts (he completed 1 of 19)."},
+   {"t": "Trailer readiness is slipping — and it's almost entirely XTO", "d": "XTO was 149 of 219 (68.0%) and accounts for 70 of the 72 readiness misses, spread across many different techs. A crew-wide habit, not one or two names."},
+   {"t": "Supervision jobs are well behind air jobs", "d": "Supervision: day forms 68.2%, night forms 38.6%. Air jobs: day forms 96.0%."},
+   {"t": "Customer hot spots (day forms)", "d": "Ovintiv 28 of 48 (58.3%) · Diamondback 53 of 76 (69.7%) · Comstock 30 of 41 (73.2%) · SM Energy 81.9% with night forms at 62.5%."},
+   {"t": "Form quality and integrity (from the auditor notes)", "d": "~105 notes for daily inspection form not done · ~74 for reused, undated or missing JSAs · ~35 for old, reused or missing photos · ~12 for jobs not started or paused in StreetSmart."},
+   {"t": "Equipment flags", "d": "SCBA/SABA out of hydro (Ellis 9/1, Machin 9/22, Bracamontes 9/24) · low SABAs/SCBAs (Fleming 9/1, Norris 9/7, Blassingame 9/9) · all SCBAs out of date on Larry Taylor's job 9/17 · 2 dead sensors (Bracamontes 9/24) · possible LEL reading (Vaquera 9/9) and 9 ppm on a sensor (Rose City 9/10) · monitor mounted on a light plant (Diamondback 9/7, 9/9) · missing/illegible cal stickers (9/1, 9/16, 9/26, 9/29) · only 3 sensors on an SM location (9/8) · low ELSA counts (Ovintiv 9/27) · StreetSmart upload problems (Kedrick McCarter 9/5–9/13)."},
+   {"t": "Remaining audit gaps", "d": "Sep 18–19 (0%), Sep 3–4 (~12%), Sep 21 (43%), Sep 14 (46%). Sep 30 isn't entered yet."}
+  ],
+  "needsAttention": [
+   {"rank": 1, "tech": "Dawson Drake", "missed": 24, "pct": "47.8% (22/46)", "day": 6, "night": 1, "insp": 9, "ready": 8, "last": "9/29", "cust": "XTO"},
+   {"rank": 2, "tech": "Marcos Morales", "missed": 18, "pct": "5.3% (1/19)", "day": 0, "night": 18, "insp": 0, "ready": 0, "last": "9/29", "cust": "Mitsui"},
+   {"rank": 3, "tech": "Jeremy Norris", "missed": 12, "pct": "82.6% (57/69)", "day": 2, "night": 1, "insp": 6, "ready": 3, "last": "9/29", "cust": "XTO"},
+   {"rank": 4, "tech": "Jose Hurtado", "missed": 11, "pct": "47.6% (10/21)", "day": 2, "night": 0, "insp": 2, "ready": 7, "last": "9/22", "cust": "XTO"},
+   {"rank": 5, "tech": "Michael Ellis", "missed": 11, "pct": "57.7% (15/26)", "day": 5, "night": 6, "insp": 0, "ready": 0, "last": "9/29", "cust": "Diamondback"},
+   {"rank": 6, "tech": "Bobby Galindo", "missed": 10, "pct": "66.7% (20/30)", "day": 7, "night": 0, "insp": 0, "ready": 3, "last": "9/25", "cust": "XTO"},
+   {"rank": 7, "tech": "Alfredo Vaquera", "missed": 9, "pct": "50.0% (9/18)", "day": 9, "night": 0, "insp": 0, "ready": 0, "last": "9/29", "cust": "Diamondback"},
+   {"rank": 8, "tech": "Allen White", "missed": 9, "pct": "59.1% (13/22)", "day": 8, "night": 0, "insp": 1, "ready": 0, "last": "9/29", "cust": "Comstock"},
+   {"rank": 9, "tech": "Hayden Haugh", "missed": 9, "pct": "79.5% (35/44)", "day": 6, "night": 0, "insp": 1, "ready": 2, "last": "9/29", "cust": "XTO"},
+   {"rank": 10, "tech": "Joseph Popillion", "missed": 8, "pct": "20.0% (2/10)", "day": 7, "night": 1, "insp": 0, "ready": 0, "last": "9/28", "cust": "SM Energy"},
+   {"rank": 11, "tech": "Trevor McKenzie", "missed": 8, "pct": "55.6% (10/18)", "day": 4, "night": 4, "insp": 0, "ready": 0, "last": "9/29", "cust": "Ovintiv"},
+   {"rank": 12, "tech": "Dermont Morgan", "missed": 7, "pct": "65.0% (13/20)", "day": 3, "night": 2, "insp": 0, "ready": 2, "last": "9/23", "cust": "XTO"},
+   {"rank": 13, "tech": "Anthony Scott", "missed": 7, "pct": "80.0% (28/35)", "day": 1, "night": 0, "insp": 4, "ready": 2, "last": "9/15", "cust": "XTO"},
+   {"rank": 14, "tech": "Caleb Smith", "missed": 7, "pct": "81.6% (31/38)", "day": 0, "night": 0, "insp": 2, "ready": 5, "last": "9/22", "cust": "XTO"},
+   {"rank": 15, "tech": "Jacob Hernandez", "missed": 7, "pct": "85.1% (40/47)", "day": 3, "night": 0, "insp": 1, "ready": 3, "last": "9/28", "cust": "XTO"}
+  ],
+  "needsAttentionNote": "55 techs missed at least one form in September; 280 misses in total. These 15 carry the most.",
+  "coachingLog": [
+   {"tech": "Alfredo Vaquera", "recorded": "Old photos flagged 7 times (9/1–9/29). JSA dated 8-29 (9/2) and wrong JSA date (9/22). No daily inspection 9/2, 9/10, 9/25.", "action": "Reminder 9/1; called 9/2; escalated to Jimmy 9/23. Still happening 9/29."},
+   {"tech": "Larry Jaramillo", "recorded": "Old photos and reused/undated JSAs on six days 9/1–9/8; told 9/2 at 9:46 AM not to use old photos and did it again same day. Reused the 9/11 JSA on 9/12 and 9/13.", "action": "Team lead informed 9/6; documented discussion with Kyle 9/8. JSA reuse continued after."},
+   {"tech": "Marcos Morales", "recorded": "No daily inspection on ~17 nights (9/4–9/29, nearly every audited night). JSA undated, reused, or missing the location name five times.", "action": "No follow-up recorded. Escalate."},
+   {"tech": "Dawson Drake", "recorded": "Reused trailer photos (9/2), old JSA (9/16), no daily inspection six days, repeated trailer inspection/readiness misses on eight days, missing sensor photos (9/20), didn't start a job (9/24).", "action": "Texts 9/1 and 9/16. Needs a direct conversation."},
+   {"tech": "Joseph Popillion", "recorded": "No daily inspection form on nine days. Reused the previous day's JSA (9/24). No JSA uploaded (9/28).", "action": "Call attempted 9/1 — no answer or callback."},
+   {"tech": "Michael Ellis", "recorded": "No daily inspection on nine days. Undated JSAs on six days. SCBA out of hydro (9/1). 9/23: missing muster point and sensor faceplate photos, incomplete battery and hydro entries.", "action": "Called 9/1 about the SCBA; reminder 9/23 about JSA dates."},
+   {"tech": "Allen White", "recorded": "No daily inspection form on seven days. No JSA uploaded (9/2). No trailer inspection (9/16).", "action": "No follow-up recorded."},
+   {"tech": "Hayden Haugh", "recorded": "No daily inspection on six days. Trailer readiness and morning inspection misses (9/10, 9/24, 9/25). JSA dated the previous day (9/17).", "action": "Talked to him 9/13."},
+   {"tech": "Trevor McKenzie", "recorded": "JSA from 8/30 still in use on 9/6–9/7. No daily inspection five days. Didn't clock in, start or stop his job (9/20). Missing trailer photos; SCBA mask bag stickers out of date (9/24).", "action": "Texts and reminders 9/1, 9/6, 9/7."},
+   {"tech": "Bobby Galindo", "recorded": "No daily inspection on seven days. No JSA (9/6, 9/8, 9/9). Trailer readiness misses (9/7, 9/17, 9/22).", "action": "Called 9/9; he agreed to send his JSA."},
+   {"tech": "Baldemar Bracamontes", "recorded": "No daily inspection 9/2, 9/6, 9/25. Didn't start/stop his job and missing JSA (9/7). Wrong JSA (9/10). SABA and SCBA out of hydro plus 2 dead sensors (9/24).", "action": "Text 9/7; Caleb notified 9/24."},
+   {"tech": "Jeremy Norris", "recorded": "Missing photos, low SCBA, monitor on a light plant, job not paused and no JSA (9/7). On location 2 hours without a JSA (9/5). Reused JSA (9/9). Repeated trailer inspection/readiness misses on seven days.", "action": "Text sent 9/1."}
+  ],
+  "integrity": [
+   "Andrew Bailey (9/11): took his trailer inspection photos before leaving the shop, then completed the form on location.",
+   "Gage Gonzales (9/12): selected \"yes\" for wearing Canon safety coveralls, but the photos show him not wearing them.",
+   "Bobby Fleming (9/29): trailer photo doesn't match the trailer number on the job (Blake notified).",
+   "Ruben Rojo (9/12): ended his job the day before (Blake notified).",
+   "Same JSA used across multiple jobs on 9/8–9/9 by much of the XTO crew: Kirschke, Flores, Hernandez, Medlin, Norris, Lee, Lemmons, Hurtado, Soto, Morgan, Scott and Avila — a crew-wide practice to correct."
+  ],
+  "best": [
+   {"rank": 1, "tech": "Michael Jobe", "pct": "100%", "ratio": "0 / 61", "shifts": 31, "cust": "XTO"},
+   {"rank": 2, "tech": "Ralph Forbes", "pct": "100%", "ratio": "0 / 39", "shifts": 23, "cust": "XTO"},
+   {"rank": 3, "tech": "Keelan Hammer", "pct": "100%", "ratio": "0 / 10", "shifts": 10, "cust": "Comstock"},
+   {"rank": 4, "tech": "Cindy Smith", "pct": "100%", "ratio": "0 / 12", "shifts": 9, "cust": "XTO"},
+   {"rank": 5, "tech": "Shaun Shoquist", "pct": "100%", "ratio": "0 / 6", "shifts": 6, "cust": "Comstock"},
+   {"rank": 6, "tech": "Marylou Guerra", "pct": "100%", "ratio": "0 / 5", "shifts": 5, "cust": "SM Energy"},
+   {"rank": 7, "tech": "Rolando Flores", "pct": "96.7%", "ratio": "2 / 61", "shifts": 44, "cust": "XTO"},
+   {"rank": 8, "tech": "Bryan Medlin", "pct": "96.3%", "ratio": "1 / 27", "shifts": 23, "cust": "XTO"},
+   {"rank": 9, "tech": "Justin Pack", "pct": "96.0%", "ratio": "1 / 25", "shifts": 25, "cust": "Mitsui"},
+   {"rank": 10, "tech": "Justin Fontenot", "pct": "95.7%", "ratio": "1 / 23", "shifts": 21, "cust": "XTO"},
+   {"rank": 11, "tech": "Michael Hutt", "pct": "94.1%", "ratio": "1 / 17", "shifts": 17, "cust": "XTO"},
+   {"rank": 12, "tech": "Stefanie Kirschke", "pct": "93.9%", "ratio": "3 / 49", "shifts": 36, "cust": "XTO"}
+  ],
+  "bestAlso": "Also above 90%: Jose Campos 93.8% · Luis Zarate 93.5% · Raymundo Solis 93.1% · Gage Gonzales 92.9% · Jerry Gonzales 92.6% · Christian Lee 92.3% · Jordan Lemmons 92.0% · Pablo Soto 92.0% · Alexander Clubb 91.8% · Andrew Bailey 91.7% (ranked among 57 techs with 5+ audited shifts)",
+  "bestNotes": [
+   "Michael Jobe: a perfect month on 61 checks — only auditor note is one missing wellhead photo (9/28). Ralph Forbes was also perfect, with no auditor notes at all.",
+   "Most reliable under the heaviest load: Rolando Flores, Jordan Lemmons and Stefanie Kirschke.",
+   "Most improved: Andrew Bailey and Luis Zarate (note Bailey's 9/11 photo-timing flag).",
+   "Caution: techs with 5–10 audited shifts have small samples."
+  ],
+  "actions": [
+   "Escalate the photo and JSA integrity cases: Alfredo Vaquera (still happening after the escalation to Jimmy), Larry Jaramillo (continued after the documented discussion), plus Bailey, Gonzales and Fleming for their individual flags.",
+   "Hold one-on-ones with Dawson Drake, Marcos Morales and Joseph Popillion. No follow-up is recorded for Morales or Allen White.",
+   "Send XTO crews a reminder that a trailer readiness form is required on every trailer move, and that each job needs its own JSA.",
+   "Push night-form and supervision-job reminders, especially for ETX and the Mitsui, Ovintiv, Diamondback and Comstock crews.",
+   "Pull the out-of-hydro SCBA and SABA units and the dead sensors from service, and confirm the sensor calibration and sticker issues are fixed.",
+   "Backfill the Sep 18–19 audits (and Sep 3–4, 14, 21 and 30) if records allow.",
+   "Start tracking JSA and photo quality as its own matrix column."
+  ]
+ },
+ "ytd": {
+  "label": "2026 Year-to-Date (Jan 1 – Sep 30)",
+  "note": "273 daily tabs, 13,595 job-days. Only about half of job-days were audited YTD — and fewer than a third before June — so these are misses that were FOUND, not every miss.",
+  "measures": [
+   {"m": "Day forms", "v": "85.6%"},
+   {"m": "Night forms", "v": "75.7%"},
+   {"m": "Trailer inspections", "v": "75.8%"},
+   {"m": "Trailer readiness", "v": "86.7%"},
+   {"m": "Jobs flagged", "v": "1,053"},
+   {"m": "Day-form coverage", "v": "48%"}
+  ],
+  "byMonth": [
+   {"m": "Jan", "jd": "1,167", "day": "63.1%", "night": "89.3%", "insp": "69.9%", "ready": "100%", "chk": "21.7%"},
+   {"m": "Feb", "jd": "1,339", "day": "69.6%", "night": "79.2%", "insp": "72.5%", "ready": "99.1%", "chk": "16.1%"},
+   {"m": "Mar", "jd": "1,536", "day": "79.1%", "night": "79.1%", "insp": "78.2%", "ready": "99.6%", "chk": "13.7%"},
+   {"m": "Apr", "jd": "1,462", "day": "69.8%", "night": "86.8%", "insp": "69.1%", "ready": "100%", "chk": "15.9%"},
+   {"m": "May", "jd": "1,529", "day": "82.4%", "night": "76.2%", "insp": "75.5%", "ready": "92.3%", "chk": "31.1%"},
+   {"m": "Jun", "jd": "1,619", "day": "90.3%", "night": "68.1%", "insp": "75.4%", "ready": "78.2%", "chk": "77.4%"},
+   {"m": "Jul", "jd": "1,667", "day": "86.4%", "night": "69.2%", "insp": "75.8%", "ready": "62.8%", "chk": "91.8%"},
+   {"m": "Aug", "jd": "1,498", "day": "88.1%", "night": "55.4%", "insp": "81.6%", "ready": "70.3%", "chk": "92.3%"},
+   {"m": "Sep", "jd": "1,778", "day": "87.6%", "night": "44.1%", "insp": "81.8%", "ready": "72.8%", "chk": "55.3%"}
+  ],
+  "byDivision": [
+   {"d": "WTX", "jd": "10,191", "day": "87.8%", "night": "75.2%", "insp": "75.3%", "ready": "83.1%", "prob": "892"},
+   {"d": "ETX", "jd": "2,736", "day": "77.0%", "night": "76.1%", "insp": "88.6%", "ready": "99.6%", "prob": "154"},
+   {"d": "NM", "jd": "668", "day": "74.5%", "night": "82.0%", "insp": "74.6%", "ready": "99.4%", "prob": "7"}
+  ],
+  "standouts": [
+   "Night forms have fallen from ~89% in January to 44% in September. Trailer readiness has fallen too — from nearly 100% through May to ~70% since June.",
+   "By customer: XTO has the highest day-form rate at 95%. Ovintiv (66%) and Southwest Operating (55%) have the lowest.",
+   "Coverage rose above 90% in July and August, then dropped to 55% in September — early-month percentages rest on small samples."
+  ],
+  "followUp": "Techs with 40+ day shifts under 70% on day forms YTD: Benjamin Boutte (33%), Wesley Bertrand (36%), Michael Slaydon (40%), Allen White (55%), Josh Blassingame (57%), Marcos Morales (62%), BJ Caesar (62%).",
+  "top": [
+   {"rank": 1, "tech": "Rolando Flores", "pct": "98.2%", "ratio": "3 / 171"},
+   {"rank": 2, "tech": "Ralph Forbes", "pct": "95.7%", "ratio": "12 / 276"},
+   {"rank": 3, "tech": "Jacob Hernandez", "pct": "94.4%", "ratio": "13 / 234"},
+   {"rank": 4, "tech": "David Hammond", "pct": "92.4%", "ratio": "10 / 131"},
+   {"rank": 5, "tech": "Nathan Contreras", "pct": "92.1%", "ratio": "21 / 265"},
+   {"rank": 6, "tech": "Justin Fontenot", "pct": "92.0%", "ratio": "8 / 100"},
+   {"rank": 7, "tech": "Jordan Lemmons", "pct": "91.9%", "ratio": "27 / 335"},
+   {"rank": 8, "tech": "Michael Jobe", "pct": "91.3%", "ratio": "12 / 138"},
+   {"rank": 9, "tech": "Edward Carrillo", "pct": "91.3%", "ratio": "11 / 126"},
+   {"rank": 10, "tech": "Stefanie Kirschke", "pct": "90.3%", "ratio": "31 / 318"}
+  ],
+  "topNotes": [
+   "Rolando Flores: 3 misses in 171 audited checks (100-check minimum to rank; 40 techs qualify).",
+   "Most consistent at high volume: Jordan Lemmons (335 checks), Stefanie Kirschke (318), Ralph Forbes (276) — all above 90% on the heaviest audit loads.",
+   "No misses since August: Forbes, Hammond, Jobe, Carrillo, Cindy Smith, Marylou Guerra.",
+   "Smaller samples worth a mention: Christian Lee 93.5%, Pablo Soto 93.2% (50–99 checks); perfect under 30 checks: Dewayne Simpson, Alejandro Najar, Shaun Shoquist."
+  ],
+  "worstTop": [
+   {"rank": 1, "tech": "Andrew Bailey", "missed": 60, "pct": "75.6%", "gap": "trailer insp (37)", "sep": 2},
+   {"rank": 2, "tech": "Dawson Drake", "missed": 58, "pct": "72.8%", "gap": "trailer insp (28), readiness (20)", "sep": 11},
+   {"rank": 3, "tech": "Baldemar Bracamontes", "missed": 50, "pct": "74.2%", "gap": "day forms (28)", "sep": 5},
+   {"rank": 4, "tech": "Luis Zarate", "missed": 50, "pct": "76.7%", "gap": "trailer insp (29)", "sep": 2},
+   {"rank": 5, "tech": "BJ Caesar", "missed": 47, "pct": "39.7%", "gap": "night forms (36)", "sep": 0},
+   {"rank": 6, "tech": "Brianda Sandoval", "missed": 46, "pct": "76.6%", "gap": "trailer insp (20)", "sep": 1},
+   {"rank": 7, "tech": "Josh Blassingame", "missed": 45, "pct": "68.5%", "gap": "day forms (41)", "sep": 3},
+   {"rank": 8, "tech": "Allen White", "missed": 43, "pct": "63.9%", "gap": "day forms (33)", "sep": 5},
+   {"rank": 9, "tech": "Michael Ellis", "missed": 42, "pct": "69.3%", "gap": "day + night forms", "sep": 9},
+   {"rank": 10, "tech": "Raymundo Solis", "missed": 41, "pct": "86.3%", "gap": "trailer insp (21), readiness (15)", "sep": 2}
+  ],
+  "worstNote": "Across 83 techs: 1,576 missed forms YTD; the top 15 account for 671 of them (43%). Also in the top 15: Trevor McKenzie (40), Larry Taylor (39), Anthony Scott (38), Marcos Morales (37), Caleb Smith (37). Most urgent — repeat misses in September: Dawson Drake (11), Marcos Morales (10), Michael Ellis (9), Trevor McKenzie (7)."
+ }
+}
