@@ -264,23 +264,16 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Luis Zarate / Cindy Smith 1099 — The conversion has already been done",
-      "detail": "L - Learn: One thing we'll do better next time.",
+      "headline": "Luis Zarate / Cindy Smith 1099 — Crew did a conversion from esp to cgl",
+      "detail": "Continue to grow communication between crew and MT.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Bryan Medlin — Disconnected the 109 well and the 108 for the work over",
-      "detail": "Had no issues except the permit having to get done so we could start.",
+      "headline": "Jordan Lemmons / Bryan Medlin — Disconnected well and masked up and tested and got some benzene",
+      "detail": "Let them know to air it out and retested and got done to be able to work without air.",
       "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Michael Jobe / Justin Fontenot 1099 — Safety meeting was conducted along with exclusion zones and triggers",
-      "detail": "Next job will be conducted with the same techniques and procedures.",
-      "psms": "Operational Discipline",
       "level": null
     },
     {
@@ -316,33 +309,33 @@
   },
   "specialFocus": {
     "week": 16,
-    "title": "October 1 — New-Month Trailer Changeover",
-    "why": "It's the first of the month, and the first of the month means every trailer gets reset TODAY — not by Friday, not 'when I'm back out there.' Fresh inspection paperwork, current workpacks, mask bags gone through, SCBA inspections documented. This paperwork is what the company man, an auditor, or an incident investigator pulls first — and a trailer still showing September paperwork on October 5th says we check boxes instead of equipment. The inspection only protects you if it actually happened, so put your hands on the gear, then sign the sheet.",
-    "standardLabel": "Month-Start Changeover — Every Trailer, Day One",
+    "title": "Recognition for Excellence",
+    "why": "This week we handed out the first monthly awards — a backpack, a duck, and an attitude award — and every one of them was earned on paper anyone can check. That's the point of this morning: excellence at Canon isn't a feeling, it's visible. Michael Jobe just put up a perfect month — 61 audited checks, zero misses. Ralph Forbes went the whole month without a single auditor note. Pablo Soto ran 10 jobs and turned in 10 complete packets. None of them did it for a prize — but every one of them deserves to hear their name said out loud. Recognition is a leadership skill, not a mood: catch people doing it RIGHT, name the exact behavior, and do it in front of the crew. What gets recognized gets repeated — and what gets repeated becomes who we are.",
+    "standardLabel": "How We Recognize — Make It Specific, Make It Loud",
     "standard": [
-      "September inspection sheets come DOWN and come IN — completed, signed, and turned in with the trailer paperwork. Last month's records get filed, never tossed and never left riding in the trailer.",
-      "Post the fresh October trailer inspection sheet and do the first inspection today — walk the trailer and put your hands on the equipment before you sign. A signature on an untouched trailer is worse than a blank sheet.",
-      "Swap in the new workpacks — current month, current revision, every trailer. Pull the old packs out so nobody grabs stale paperwork on location.",
-      "Open every mask bag — don't just count bags. Check the facepiece, seal, straps, and lens, confirm sizes, and re-tag each bag with the October inspection.",
-      "SCBA paperwork current on every pack: October inspection documented, bottle pressures checked, hydro dates verified. A pack with out-of-date paperwork comes out of service until it's inspected — no exceptions.",
-      "Find something wrong during the changeover — a bad strap, a scratched lens, a low bottle — that's a WIN. Tag it out, swap it, and write it up. That's exactly what this day is for."
+      "Name the PERSON and the BEHAVIOR, not just 'good job.' 'Pablo turned in ten complete packets in ten jobs' teaches the whole circle what right looks like. 'Good job Pablo' teaches nothing.",
+      "Recognize the catch, not just the save. A duck — seeing a hazard and saying it out loud — is the everyday excellence that prevents the big day. Eagles get the headlines; ducks keep us alive.",
+      "Recognize in the moment, on location. If you see a tech do it right — a clean trailer flip, a sharp JSA, a stop-and-ask — say it there, then bring it to the morning meeting so everyone hears it.",
+      "Put it on paper. Write the OWL form about what went RIGHT — positive catches belong in the record just like hazards do. That's how names reach the Duck & Eagle board without a lead having to remember.",
+      "Spread it around. Excellence lives in the whole crew, not the same three names — if the same people get every mention, start looking harder at everyone else.",
+      "Leads: recognition is part of your job, not extra credit. One named, specific recognition from you this morning — pick someone whose work this week deserves the circle's attention."
     ],
     "scenarios": [
       {
-        "title": "The Trailer That 'Looked Fine'",
-        "body": "A trailer sat on a long-running location all of September. The sheets got signed every month — from the truck. On October 1 a tech actually opens the mask bags and finds a facepiece with a cracked strap keeper that's been riding there for who knows how long. Nobody got hurt, but play it forward: an H2S hit, a tech grabs that mask under pressure, and the strap lets go. The changeover isn't paperwork — it's the one day a month we guarantee somebody physically touched every piece of emergency equipment we'd bet a life on."
+        "title": "The Quiet Perfect Month",
+        "body": "Michael Jobe ran 31 shifts in September. Matt's audit checked his paperwork 61 times and found zero misses — the only note all month was one missing wellhead photo. Nobody saw him do anything dramatic. No stop-work, no save, no story. Just every form, every day, done right, when nobody was watching. Question for the circle: if we only recognize the dramatic saves, what are we telling the tech who's quietly perfect? Say his name this morning. That consistency IS the excellence."
       },
       {
-        "title": "The Audit Pull",
-        "body": "A customer safety rep walks a location mid-October and asks for the trailer book. If the October inspection is there, signed on the 1st, with mask bags tagged and SCBA logs current — the conversation is over in two minutes and we look like exactly who we say we are. If September's sheet is still on the clipboard, every other thing we do right on that location is now in question. Day-one paperwork is the cheapest credibility we ever buy."
+        "title": "The Catch That Didn't Make the News",
+        "body": "A tech walks a location, notices a monitor mounted on a light plant, and says so — it gets moved to a stand before nightfall. No alarm, no incident, no report beyond a line on a form. That's a duck: seen, said, fixed. Multiply that by a crew that knows catches get NAMED at the morning meeting, and you get a location where problems get said out loud while they're still small. Recognition isn't the reward for the catch — it's the fuel for the next one."
       }
     ],
     "questions": [
-      "Which trailers are you personally responsible for flipping today, and when will each one be done?",
-      "When you open a mask bag, what are the five things your hands and eyes actually check before you re-tag it?",
-      "What do you do — right then, on the spot — if you find a pack or mask that doesn't pass during the changeover?",
-      "Where do September's completed sheets go when they come out of the trailer?"
+      "Who on your crew did something this week that deserves their name said in this circle — and what exactly did they do?",
+      "When's the last time you wrote someone ELSE's good catch on your own OWL form? Why don't we do that more?",
+      "What's the difference between 'good job' and recognition that actually changes behavior?",
+      "Who's the quietly consistent tech on your crew that never gets mentioned because they never make noise?"
     ],
-    "nonNegotiable": "Every trailer flipped on day one: October inspection sheet posted and signed AFTER hands-on checks, new workpacks in, every mask bag opened and re-tagged, SCBA paperwork current. If it didn't get touched, it doesn't get signed."
+    "nonNegotiable": "Every lead names one person and one specific behavior this morning — out loud, in the circle. Recognition that names a behavior is recognition that repeats it."
   }
 }
