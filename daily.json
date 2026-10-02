@@ -166,116 +166,68 @@
   ],
   "leadershipThought": "Nobody protects a location alone. The willingness to carry extra weight, communicate early, and check on the person next to you — that is coaching in action.",
   "yesterdaysJobs": {
-    "date": "2026-09-29",
-    "label": "Tuesday, September 29",
-    "count": 13,
+    "date": "2026-09-30",
+    "label": "Wednesday, September 30",
+    "count": 7,
     "flags": 2,
     "groups": [
       {
         "category": "AGT",
         "jobs": [
           {
-            "well": "Louis 3142",
+            "well": "Arick Simms 26N 14H",
             "jobType": "Air Job",
             "crew": "Jeremy Norris / Jerry Gonzales",
+            "cm": "Shelly Thiel",
+            "note": "A reconnection of a Wellhead and Flowline for production purposes",
+            "flag": true
+          },
+          {
+            "well": "Robbie 17A-8 #4415H",
+            "jobType": "Air Job",
+            "crew": "Nathan Contreras / Rolando Flores 1099",
             "cm": "Chad Farr",
-            "note": "A great safety meeting AND the proper use of a LMRA before continuing to wo",
+            "note": "Crew maintained good communication, followed the LSRAs, and completed atmos",
             "flag": false
           },
           {
-            "well": "Elkin Crawford 34EE 105H",
+            "well": "John Braun A Unit 4 2527SH",
             "jobType": "Air Job",
-            "crew": "Michael Jobe / Robbie Henigan 1099",
-            "cm": "Foreman_West Ops 9",
-            "note": "Atmospheric Monitoring — Michael Jobe / Robbie Henigan 1099",
+            "crew": "Andrew Bailey / Gage Gonzales 1099",
+            "cm": "Bjorn Baal",
+            "note": "Crew preforming wellhead disconnect while utilizing PSMS",
             "flag": false
           },
           {
-            "well": "Poe Herzog 5C 3H",
+            "well": "Tarzan Unit 1 2071JH",
             "jobType": "Air Job",
-            "crew": "Luis Zarate / Cindy Smith 1099",
-            "cm": "Foreman_East Ops 8",
-            "note": "Crew disconnected well head and flow line",
+            "crew": "Jordan Lemmons / Cindy Smith 1099",
+            "cm": "Foreman_East Ops 7",
+            "note": "Crew reconnected well head and flow line",
             "flag": true
           },
           {
-            "well": "XBC Giddings Estate 1404H",
+            "well": "Preston 9L 211H",
+            "jobType": "Air Job",
+            "crew": "Luis Zarate / Tyrell Sanders",
+            "cm": "Abe Espinoza",
+            "note": "Crew reconnected wellhead and flow line",
+            "flag": false
+          },
+          {
+            "well": "Powell 34 3",
             "jobType": "Air Job",
             "crew": "",
-            "cm": "",
-            "note": "Crew preforming work as planned and discussed in PSMS meeting",
+            "cm": "Chad Farr",
+            "note": "Job was canceled due to poor road conditions",
             "flag": false
           },
           {
-            "well": "Frances 12-1-A #2801H",
+            "well": "Adams W E 23-26 4405H",
             "jobType": "Air Job",
-            "crew": "Andrew Bailey / Bryan Medlin",
-            "cm": "Foreman_East Ops 5",
-            "note": "Job called of due to permits",
-            "flag": false
-          },
-          {
-            "well": "Bend A #1",
-            "jobType": "Air Job",
-            "crew": "Alexander Clubb / Gael \"Antonio\" Avila 1099",
-            "cm": "Foreman_West Ops 7",
-            "note": "Job scope was kill well, when pumping on well only got 4 barrels in before",
-            "flag": false
-          },
-          {
-            "well": "Stone Gist 245B 2H",
-            "jobType": "Air Job",
-            "crew": "Luis Zarate / Cindy Smith 1099",
-            "cm": "Foreman_East Ops 9",
-            "note": "Job was cancelled for the day",
-            "flag": false
-          },
-          {
-            "well": "Nobles Unit 2805BH",
-            "jobType": "Air Job",
-            "crew": "Jordan Lemmons / Bobby Galindo 1099",
-            "cm": "Foreman_West Ops 5",
-            "note": "Job went well we had to change 2 things out from a conversion they did a co",
-            "flag": false
-          },
-          {
-            "well": "Dusek 45-4 #2807H",
-            "jobType": "Air Job",
-            "crew": "",
-            "cm": "Brian Murphree",
-            "note": "Nothing, was dispatch to this job but everything was all ready completed",
-            "flag": false
-          },
-          {
-            "well": "Northeast Scharbauer 1219H",
-            "jobType": "Air Job",
-            "crew": "Michael Jobe / Robbie Henigan 1099",
-            "cm": "Foreman_West Ops 1",
-            "note": "One of the crew didn't have Ppe on so I told him to get his stuff on",
-            "flag": true
-          },
-          {
-            "well": "Hooper 39 #1",
-            "jobType": "Air Job",
-            "crew": "Alexander Clubb / Gael \"Antonio\" Avila 1099",
-            "cm": "Foreman_West Ops 7",
-            "note": "Pretty essay and quick meeting but with all the info needed it to get the j",
-            "flag": false
-          },
-          {
-            "well": "University 10-11C 3H",
-            "jobType": "Air Job",
-            "crew": "Dawson Drake / Dermont Morgan 1099",
-            "cm": "",
-            "note": "The communication was effective",
-            "flag": false
-          },
-          {
-            "well": "Glaspie Havard 11Q 17H",
-            "jobType": "Air Job",
-            "crew": "",
-            "cm": "",
-            "note": "We observed the well being disconnected and atmospheric testing completed",
+            "crew": "Ruben Rojo / Joseph Popillion 1099",
+            "cm": "Colt Williams",
+            "note": "Job was canceled, reason not given",
             "flag": false
           }
         ]
@@ -312,29 +264,22 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Luis Zarate / Cindy Smith 1099 — Everyone working safe , using their proper PPE",
-      "detail": "Continue to have better communication.",
+      "headline": "Luis Zarate / Cindy Smith 1099 — The conversion has already been done",
+      "detail": "L - Learn: One thing we'll do better next time.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras / Rolando Flores 1099 — A thorough job-scope review of the work area was completed before starting",
-      "detail": "Continue to strengthen pre-task planning and crew communication by reviewing the job scope, LSRAs, and safety controls before each phase of the reconnect conversion, whil",
+      "headline": "Jordan Lemmons / Bryan Medlin — Disconnected the 109 well and the 108 for the work over",
+      "detail": "Had no issues except the permit having to get done so we could start.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Bryan Medlin — Reconnect went according to job scope and PSMS was out on pad",
-      "detail": "Psms went through our paperwork and liked what he saw.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Michael Jobe / Justin Fontenot 1099 — Safety meeting couldn't understand didn't know English",
-      "detail": "Have a better meeting.",
+      "headline": "Michael Jobe / Justin Fontenot 1099 — Safety meeting was conducted along with exclusion zones and triggers",
+      "detail": "Next job will be conducted with the same techniques and procedures.",
       "psms": "Operational Discipline",
       "level": null
     },
@@ -353,21 +298,21 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 86,
-        "total": 99
+        "done": 127,
+        "total": 146
       },
       {
         "label": "Trailer Inspections",
-        "done": 21,
-        "total": 26
+        "done": 27,
+        "total": 33
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 17,
-        "total": 24
+        "done": 24,
+        "total": 31
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 09/29"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 09/30"
   },
   "specialFocus": {
     "week": 16,

@@ -3,11 +3,11 @@
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
-  "weekJobs": 84,
-  "weekForms": 169,
-  "weekFlagRate": 2,
-  "weekWells": 80,
-  "weekCrews": 34
+  "weekJobs": 94,
+  "weekForms": 185,
+  "weekFlagRate": 4,
+  "weekWells": 89,
+  "weekCrews": 37
  },
  "days": [
   {
@@ -139,10 +139,130 @@
    "Maintenance": 0,
    "Well Testing": 0,
    "Other": 0
+  },
+  {
+   "date": "2026-09-30",
+   "forms": 16,
+   "jobs": 10,
+   "flags": 2,
+   "AGT": 10,
+   "Maintenance": 0,
+   "Well Testing": 0,
+   "Other": 0
   }
  ],
  "repeatFlagWells": [],
  "recent": [
+  {
+   "date": "2026-09-30",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Wilde Garner 14WE 5H",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "psms": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-30",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Wilde Garner 14WD 4H",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "psms": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-30",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Tarzan Unit 1 2071JH",
+   "crew": "Jordan Lemmons / Cindy Smith 1099",
+   "cm": "Foreman_East Ops 7",
+   "note": "Crew reconnected well head and flow line",
+   "psms": "Operational Discipline",
+   "flag": true
+  },
+  {
+   "date": "2026-09-30",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Robbie 17A-8 #4415H",
+   "crew": "Nathan Contreras / Rolando Flores 1099",
+   "cm": "Chad Farr",
+   "note": "Crew maintained good communication, followed the LSRAs, and completed atmos",
+   "psms": "Atmospheric Monitoring",
+   "flag": false
+  },
+  {
+   "date": "2026-09-30",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Preston 9L 211H",
+   "crew": "Luis Zarate / Tyrell Sanders",
+   "cm": "Abe Espinoza",
+   "note": "Crew reconnected wellhead and flowline",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-09-30",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Powell 34 3",
+   "crew": "",
+   "cm": "Chad Farr",
+   "note": "Job was canceled due to poor road conditions",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-09-30",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "North Brook 38-37EH 108H",
+   "crew": "",
+   "cm": "",
+   "note": "",
+   "psms": "",
+   "flag": false
+  },
+  {
+   "date": "2026-09-30",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "John Braun A Unit 4 2527SH",
+   "crew": "Andrew Bailey / Gage Gonzales 1099",
+   "cm": "Bjorn Baal",
+   "note": "Crew preforming wellhead disconnect while utilizing PSMS",
+   "psms": "Atmospheric Monitoring",
+   "flag": false
+  },
+  {
+   "date": "2026-09-30",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Arick Simms 26N 14H",
+   "crew": "Jeremy Norris / Jerry Gonzales",
+   "cm": "Shelly Thiel",
+   "note": "A reconnection of a Wellhead and Flowline for production purposes",
+   "psms": "Operational Discipline",
+   "flag": true
+  },
+  {
+   "date": "2026-09-30",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Adams W E 23-26 4405H",
+   "crew": "Ruben Rojo / Joseph Popillion 1099",
+   "cm": "Colt Williams",
+   "note": "Job was canceled, reason not given",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
   {
    "date": "2026-09-29",
    "category": "AGT",

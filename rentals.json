@@ -158,10 +158,10 @@
     {
       "rig": "H&P 395",
       "company": "OVINTIV",
-      "location": "TERILINGUA 255S 111HF",
+      "location": "TERILINGUA 255T 114HF",
       "status": "RUNNING",
       "active": true,
-      "equipment": "",
+      "equipment": "REDLINE",
       "ticket": "101207",
       "at": "",
       "onRentSince": "2024-08-30",

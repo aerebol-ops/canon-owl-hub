@@ -3,6 +3,238 @@
  "scope": "Dropbox '- OWL' exports \u2014 OWL, JSA, 4-gas, location sign, ticket auditable; benzene/atmospheric/permits/tubes/names need the full packet feed",
  "jobs": [
   {
+   "date": "2026-09-30",
+   "well": "Wilde Garner 14WE 5H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102006",
+   "bnz": "8",
+   "at": "608",
+   "techs": "NATHAN CONTRERAS / Rolando Flores 1099",
+   "sched": "9/30/2026 8:00 AM",
+   "late_min": -6,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-09-30",
+   "well": "Wilde Garner 14WD 4H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102007",
+   "bnz": "8",
+   "at": "608",
+   "techs": "NATHAN CONTRERAS / Rolando Flores 1099",
+   "sched": "9/30/2026 10:00 AM",
+   "late_min": -123,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-09-30",
+   "well": "Tarzan Unit 1 2071JH",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102010",
+   "bnz": "6",
+   "at": "606",
+   "techs": "JORDAN LEMMONS / Cindy Smith 1099",
+   "sched": "09/30/2026 07:00:00",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-30",
+   "well": "Robbie 17A-8 #4415H",
+   "category": "AGT",
+   "forms": 1,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101767",
+   "bnz": "8",
+   "at": "608",
+   "techs": "NATHAN CONTRERAS / Rolando Flores 1099",
+   "sched": "9/30/2026 8:00 AM",
+   "late_min": 152,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-09-30",
+   "well": "Preston 9L 211H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102001",
+   "bnz": "3",
+   "at": "603",
+   "techs": "LUIS ZARATE / TYRELL SANDERS",
+   "sched": "9/30/2026 12:00 PM",
+   "late_min": -268,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-09-30",
+   "well": "Powell 34 3",
+   "category": "AGT",
+   "forms": 1,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101333",
+   "bnz": "5",
+   "at": "605",
+   "techs": "",
+   "sched": "9/30/2026 8AM",
+   "late_min": -17215,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-30",
+   "well": "North Brook 38-37EH 108H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101991",
+   "bnz": "4",
+   "at": "604",
+   "techs": "ANDREW BAILEY / Gage Gonzales 1099",
+   "sched": "9/30/2026 8:00 AM",
+   "late_min": -11,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-09-30",
+   "well": "John Braun A Unit 4 2527SH",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101981",
+   "bnz": "4",
+   "at": "604",
+   "techs": "ANDREW BAILEY / Gage Gonzales 1099",
+   "sched": "9/30/2026 12:00 PM",
+   "late_min": -113,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-09-30",
+   "well": "Arick Simms 26N 14H",
+   "category": "AGT",
+   "forms": 1,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102015",
+   "bnz": "10",
+   "at": "600",
+   "techs": "JEREMY NORRIS / JERRY GONZALES",
+   "sched": "Sep 30, 2026 7:00:00 AM",
+   "late_min": 429,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-09-30",
+   "well": "Adams W E 23-26 4405H",
+   "category": "AGT",
+   "forms": 1,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101941",
+   "bnz": "5",
+   "at": "605",
+   "techs": "RUBEN ROJO / Joseph Popillion 1099",
+   "sched": "9/30/2026 12:00 PM",
+   "late_min": -202,
+   "missing": [],
+   "complete": true
+  },
+  {
    "date": "2026-09-29",
    "well": "XBC Giddings Estate 4201H",
    "category": "AGT",
