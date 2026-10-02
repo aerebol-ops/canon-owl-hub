@@ -235,25 +235,25 @@
     ]
   },
   "formReview": {
-    "date": "2026-09-30",
-    "label": "Wednesday 9/30",
+    "date": "2026-10-01",
+    "label": "Thursday 10/01",
     "verdict": "",
     "concerns": [
       {
-        "title": "Dennis Easley — JERA Upstream, Evans 34-3, rig up, 5:52 PM, job 35184: loud alarms and lights recorded as not tested at rig up. The checklist question was answered No, an",
-        "quote": "Loud Alarms and Lights Tested?: No"
+        "title": "Humberto Marquez-Salazar — XTO Energy, Oliver 704, trailer 606, 2:15 PM, Trailer Inspection Form. Answered No to the FR uniform question.",
+        "quote": "No Are you wearing you Canon Safety issued FR uniform?"
       },
       {
-        "title": "Alexander Clubb — Ovintiv, H&P 616 Terlingua, alarm call, 7:36 PM to 9:49 PM, job 35238: LEL sensor element found out of position on the rig floor.",
-        "quote": "Colby the night shift cm said it was on lel sensor on the floor, after inspecting sensor found that the element was out of place, placed it back in and verified it was sitting at a steady 0 baseline, went through all of sensors and had to change batteries on 2."
+        "title": "Hayden Haugh — XTO Energy, Brook N-13EK 211H and Morgan Owens 24A 1H, trailer 602, 5:54 AM, Trailer Inspection Form. Answered No to the FR uniform question, then Yes on a",
+        "quote": "No Are you wearing you Canon Safety issued FR uniform?"
       },
       {
-        "title": "Jordan Lemmons and Luis Zarate — SM Energy, Roye #4, air job, 4:29 PM, jobs 35217_1 and 35217_2: elevated NORM readings found on tubing.",
-        "quote": "NORM testing with Jordan. Did norm readings on tubing on south side of location. Did read high levels of norm. The highest reading was 132 micro Roentgen per hour. Marked each high tubing with caution tape. Let Shane know."
+        "title": "1099 Alfredo Vaquera — Diamondback, Tyler 3707, supervision job 35089_2, closed out 8:48 AM. This multi-day job carries four embedded H2S daily inspection forms, and all ",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
       },
       {
-        "title": "Dennis Easley — JERA Upstream, CHK LA Mineral 34-11-13 H1, rig down, 4:42 PM, job 35183: sensors recorded as returned covered in mud, with no manager notified. The damage",
-        "quote": "Damaged or Missing Equipment: N/Asensors covered in mud"
+        "title": "1099 Rolando Flores — trailer 601, 8:23 PM, Trailer Readiness Form. An AV-3000 kit is recorded as missing, and the AV-3000 box question is answered No.",
+        "quote": "Is anything wrong or missing? If so what and who was notified?"
       }
     ]
   },
@@ -264,16 +264,9 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Luis Zarate / Cindy Smith 1099 — Crew did a conversion from esp to cgl",
-      "detail": "Continue to grow communication between crew and MT.",
+      "headline": "Luis Zarate / Cindy Smith 1099 — Crew did a conversion and reconnected all the lines",
+      "detail": "Crew remained upbeat dispite the parts being the wrong size.",
       "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jordan Lemmons / Bryan Medlin — Disconnected well and masked up and tested and got some benzene",
-      "detail": "Let them know to air it out and retested and got done to be able to work without air.",
-      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
