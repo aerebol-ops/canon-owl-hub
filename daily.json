@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-05",
-  "week": 17,
-  "day": 1,
-  "topicWeek": 6,
-  "displayWeek": 8,
+  "date": "2026-10-03",
+  "week": 16,
+  "day": 5,
+  "topicWeek": 5,
+  "displayWeek": 7,
   "cycle": 2,
   "rotation": {
-    "week": 8,
-    "host": "ALEX",
-    "topic": "Driving · Journey Management",
-    "marker": ""
+    "week": 7,
+    "host": "CALEB",
+    "topic": "Confined Space · Atmospheric Monitoring",
+    "marker": "Month-end: September card finalizes"
   },
-  "openingMessage": "You're going to pay a price for everything you do and everything you don't do.",
+  "openingMessage": "Set your house in perfect order before you criticize the world.",
   "openingAttribution": "Jordan Peterson",
-  "openingWhy": "The bleed-down check costs ten minutes. Skipping it costs whatever the well decides to charge — and the field sets brutal prices. In Odessa it was two lives for one monitor left in the truck. There's no free option. Just the small bill now, or the one nobody can pay.",
+  "openingWhy": "Before we critique the operator's plan at the pre-job, the honest question: is our own trailer inspected, our bottles full, our forms real? On location, the crew whose house is in order is the crew that gets listened to when it counts.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,13 +164,103 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Situational awareness is not a skill. It's a habit. You build it before you need it. The drive to location is the first job of the day — and the most dangerous thing most of us will do all week.",
-  "yesterdaysJobs": null,
-  "formReview": null,
+  "leadershipThought": "Nobody protects a location alone. The willingness to carry extra weight, communicate early, and check on the person next to you — that is coaching in action.",
+  "yesterdaysJobs": {
+    "date": "2026-09-30",
+    "label": "Wednesday, September 30",
+    "count": 7,
+    "flags": 2,
+    "groups": [
+      {
+        "category": "AGT",
+        "jobs": [
+          {
+            "well": "Arick Simms 26N 14H",
+            "jobType": "Air Job",
+            "crew": "Jeremy Norris / Jerry Gonzales",
+            "cm": "Shelly Thiel",
+            "note": "A reconnection of a Wellhead and Flowline for production purposes",
+            "flag": true
+          },
+          {
+            "well": "Robbie 17A-8 #4415H",
+            "jobType": "Air Job",
+            "crew": "Nathan Contreras / Rolando Flores 1099",
+            "cm": "Chad Farr",
+            "note": "Crew maintained good communication, followed the LSRAs, and completed atmos",
+            "flag": false
+          },
+          {
+            "well": "John Braun A Unit 4 2527SH",
+            "jobType": "Air Job",
+            "crew": "Andrew Bailey / Gage Gonzales 1099",
+            "cm": "Bjorn Baal",
+            "note": "Crew preforming wellhead disconnect while utilizing PSMS",
+            "flag": false
+          },
+          {
+            "well": "Tarzan Unit 1 2071JH",
+            "jobType": "Air Job",
+            "crew": "Jordan Lemmons / Cindy Smith 1099",
+            "cm": "Foreman_East Ops 7",
+            "note": "Crew reconnected well head and flow line",
+            "flag": true
+          },
+          {
+            "well": "Preston 9L 211H",
+            "jobType": "Air Job",
+            "crew": "Luis Zarate / Tyrell Sanders",
+            "cm": "Abe Espinoza",
+            "note": "Crew reconnected wellhead and flow line",
+            "flag": false
+          },
+          {
+            "well": "Powell 34 3",
+            "jobType": "Air Job",
+            "crew": "",
+            "cm": "Chad Farr",
+            "note": "Job was canceled due to poor road conditions",
+            "flag": false
+          },
+          {
+            "well": "Adams W E 23-26 4405H",
+            "jobType": "Air Job",
+            "crew": "Ruben Rojo / Joseph Popillion 1099",
+            "cm": "Colt Williams",
+            "note": "Job was canceled, reason not given",
+            "flag": false
+          }
+        ]
+      }
+    ]
+  },
+  "formReview": {
+    "date": "2026-10-01",
+    "label": "Thursday 10/01",
+    "verdict": "",
+    "concerns": [
+      {
+        "title": "Humberto Marquez-Salazar — XTO Energy, Oliver 704, trailer 606, 2:15 PM, Trailer Inspection Form. Answered No to the FR uniform question.",
+        "quote": "No Are you wearing you Canon Safety issued FR uniform?"
+      },
+      {
+        "title": "Hayden Haugh — XTO Energy, Brook N-13EK 211H and Morgan Owens 24A 1H, trailer 602, 5:54 AM, Trailer Inspection Form. Answered No to the FR uniform question, then Yes on a",
+        "quote": "No Are you wearing you Canon Safety issued FR uniform?"
+      },
+      {
+        "title": "1099 Alfredo Vaquera — Diamondback, Tyler 3707, supervision job 35089_2, closed out 8:48 AM. This multi-day job carries four embedded H2S daily inspection forms, and all ",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
+      },
+      {
+        "title": "1099 Rolando Flores — trailer 601, 8:23 PM, Trailer Readiness Form. An AV-3000 kit is recorded as missing, and the AV-3000 box question is answered No.",
+        "quote": "Is anything wrong or missing? If so what and who was notified?"
+      }
+    ]
+  },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Set up for vehicle placement went well with spotters backing them in</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Driving)</span><br><span style='font-size:13px;'>Set up for vehicle placement went well with spotters backing them in</span><br><br><strong>We observed a conversion done on a well</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crews rigged up accordingly , crews verified nearest hospitals and nearest access roads.</span><br><br><strong>Good communication and awareness of nearby operations</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Good communication and awareness of nearby operations. The horsehead was not</span><br><br><strong>The crew communicated effectively, followed the LSRAs, and maintained good</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The crew communicated effectively, followed the LSRAs, and maintained good awareness</span><br><br><strong>Crew member realizes truck driver did not have swamper and was backing into</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Crew member realizes truck driver did not have swamper and was backing into location</span>",
+  "exxonMoments": "<strong>Did our testing and found out only one was leaking but it was a minor leak</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Did our testing and found out only one was leaking but it was a minor leak but no gases</span><br><br><strong>Roustabout crew and safety crew masked up for first break, after verifying</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Baldemar Bracamontes]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Roustabout crew and safety crew masked up for first break, after verifying a safe working</span><br><br><strong>Area was monitored for H2S and benzene during the disconnect</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Area was monitored for H2S and benzene during the disconnect. No leaks or unexpected</span><br><br><strong>initially told we'd be doing confined space, that part of job scope was pus</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alejandro Najar]</span> <span style='font-size:12px;color:#666;'>(Confined Space Entry)</span><br><span style='font-size:13px;'>Initially told we'd be doing confined space, that part of job scope was pushed to following</span><br><br><strong>Crew worked together to troubleshoot the issue and successfully stopped the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Crew worked together to troubleshoot the issue and successfully stopped the leak. HS</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -229,8 +319,8 @@
       "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "Something will not go to plan today. Decide now what your response looks like: calm, by the numbers, communicated early. Control the controllables.",
-  "todaysChallengeSubtext": "“You can't always control circumstances. However, you can always control your attitude, approach, and response.” — Tony Dungy",
+  "todaysChallenge": "Don't wait on perfect conditions or the gear you wish you had. Verify what's in front of you, escalate what's missing, and do today's job right with today's tools.",
+  "todaysChallengeSubtext": "“Start where you are. Use what you have. Do what you can.” — Arthur Ashe",
   "compliance": {
     "weekOf": "Week of September 28, 2026",
     "metrics": [
