@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-02",
-  "week": 16,
-  "day": 5,
-  "topicWeek": 5,
-  "displayWeek": 7,
+  "date": "2026-10-05",
+  "week": 17,
+  "day": 1,
+  "topicWeek": 6,
+  "displayWeek": 8,
   "cycle": 2,
   "rotation": {
-    "week": 7,
-    "host": "CALEB",
-    "topic": "Confined Space · Atmospheric Monitoring",
-    "marker": "Month-end: September card finalizes"
+    "week": 8,
+    "host": "ALEX",
+    "topic": "Driving · Journey Management",
+    "marker": ""
   },
-  "openingMessage": "Set your house in perfect order before you criticize the world.",
+  "openingMessage": "You're going to pay a price for everything you do and everything you don't do.",
   "openingAttribution": "Jordan Peterson",
-  "openingWhy": "Before we critique the operator's plan at the pre-job, the honest question: is our own trailer inspected, our bottles full, our forms real? On location, the crew whose house is in order is the crew that gets listened to when it counts.",
+  "openingWhy": "The bleed-down check costs ten minutes. Skipping it costs whatever the well decides to charge — and the field sets brutal prices. In Odessa it was two lives for one monitor left in the truck. There's no free option. Just the small bill now, or the one nobody can pay.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,121 +164,73 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Nobody protects a location alone. The willingness to carry extra weight, communicate early, and check on the person next to you — that is coaching in action.",
-  "yesterdaysJobs": {
-    "date": "2026-09-30",
-    "label": "Wednesday, September 30",
-    "count": 7,
-    "flags": 2,
-    "groups": [
-      {
-        "category": "AGT",
-        "jobs": [
-          {
-            "well": "Arick Simms 26N 14H",
-            "jobType": "Air Job",
-            "crew": "Jeremy Norris / Jerry Gonzales",
-            "cm": "Shelly Thiel",
-            "note": "A reconnection of a Wellhead and Flowline for production purposes",
-            "flag": true
-          },
-          {
-            "well": "Robbie 17A-8 #4415H",
-            "jobType": "Air Job",
-            "crew": "Nathan Contreras / Rolando Flores 1099",
-            "cm": "Chad Farr",
-            "note": "Crew maintained good communication, followed the LSRAs, and completed atmos",
-            "flag": false
-          },
-          {
-            "well": "John Braun A Unit 4 2527SH",
-            "jobType": "Air Job",
-            "crew": "Andrew Bailey / Gage Gonzales 1099",
-            "cm": "Bjorn Baal",
-            "note": "Crew preforming wellhead disconnect while utilizing PSMS",
-            "flag": false
-          },
-          {
-            "well": "Tarzan Unit 1 2071JH",
-            "jobType": "Air Job",
-            "crew": "Jordan Lemmons / Cindy Smith 1099",
-            "cm": "Foreman_East Ops 7",
-            "note": "Crew reconnected well head and flow line",
-            "flag": true
-          },
-          {
-            "well": "Preston 9L 211H",
-            "jobType": "Air Job",
-            "crew": "Luis Zarate / Tyrell Sanders",
-            "cm": "Abe Espinoza",
-            "note": "Crew reconnected wellhead and flow line",
-            "flag": false
-          },
-          {
-            "well": "Powell 34 3",
-            "jobType": "Air Job",
-            "crew": "",
-            "cm": "Chad Farr",
-            "note": "Job was canceled due to poor road conditions",
-            "flag": false
-          },
-          {
-            "well": "Adams W E 23-26 4405H",
-            "jobType": "Air Job",
-            "crew": "Ruben Rojo / Joseph Popillion 1099",
-            "cm": "Colt Williams",
-            "note": "Job was canceled, reason not given",
-            "flag": false
-          }
-        ]
-      }
-    ]
-  },
-  "formReview": {
-    "date": "2026-10-01",
-    "label": "Thursday 10/01",
-    "verdict": "",
-    "concerns": [
-      {
-        "title": "Humberto Marquez-Salazar — XTO Energy, Oliver 704, trailer 606, 2:15 PM, Trailer Inspection Form. Answered No to the FR uniform question.",
-        "quote": "No Are you wearing you Canon Safety issued FR uniform?"
-      },
-      {
-        "title": "Hayden Haugh — XTO Energy, Brook N-13EK 211H and Morgan Owens 24A 1H, trailer 602, 5:54 AM, Trailer Inspection Form. Answered No to the FR uniform question, then Yes on a",
-        "quote": "No Are you wearing you Canon Safety issued FR uniform?"
-      },
-      {
-        "title": "1099 Alfredo Vaquera — Diamondback, Tyler 3707, supervision job 35089_2, closed out 8:48 AM. This multi-day job carries four embedded H2S daily inspection forms, and all ",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
-      },
-      {
-        "title": "1099 Rolando Flores — trailer 601, 8:23 PM, Trailer Readiness Form. An AV-3000 kit is recorded as missing, and the AV-3000 box question is answered No.",
-        "quote": "Is anything wrong or missing? If so what and who was notified?"
-      }
-    ]
-  },
+  "leadershipThought": "Situational awareness is not a skill. It's a habit. You build it before you need it. The drive to location is the first job of the day — and the most dangerous thing most of us will do all week.",
+  "yesterdaysJobs": null,
+  "formReview": null,
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>The flowline was disconnected, polish rod removed and atmospheric testing c</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>The flowline was disconnected, polish rod removed and atmospheric testing completed</span><br><br><strong>Flowline was connected and atmospheric testing was done without any injurie</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Flowline was connected and atmospheric testing was done without any injuries or hiccups</span><br><br><strong>The crew communicated well, followed the job plan, maintained atmospheric m</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>The crew communicated well, followed the job plan, maintained atmospheric monitoring,</span><br><br><strong>Flowline was disconnected without injury and atmospheric testing done accor</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Flowline was disconnected without injury and atmospheric testing done accordingly</span><br><br><strong>The crew communicated well throughout the job, reviewed the LMRA and job sc</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>The crew communicated well throughout the job, reviewed the LMRA and job scope prior</span>",
+  "exxonMoments": "<strong>Set up for vehicle placement went well with spotters backing them in</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes]</span> <span style='font-size:12px;color:#666;'>(Driving)</span><br><span style='font-size:13px;'>Set up for vehicle placement went well with spotters backing them in</span><br><br><strong>We observed a conversion done on a well</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crews rigged up accordingly , crews verified nearest hospitals and nearest access roads.</span><br><br><strong>Good communication and awareness of nearby operations</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Good communication and awareness of nearby operations. The horsehead was not</span><br><br><strong>The crew communicated effectively, followed the LSRAs, and maintained good</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The crew communicated effectively, followed the LSRAs, and maintained good awareness</span><br><br><strong>Crew member realizes truck driver did not have swamper and was backing into</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Crew member realizes truck driver did not have swamper and was backing into location</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Luis Zarate / Cindy Smith 1099 — Crew did a conversion and reconnected all the lines",
-      "detail": "Crew remained upbeat dispite the parts being the wrong size.",
+      "headline": "Dawson Drake — The communication with the new crew",
+      "detail": "The communication with the new crew",
       "psms": "Operational Discipline",
       "level": null
     },
     {
+      "type": "good",
+      "headline": "Ruben Rojo — No body passed out or died from gas",
+      "detail": "Did we leave the location better.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Dermont Morgan — Staying out of line of fire and everyone working together",
+      "detail": "Did we leave the location better.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Michael Jobe — Did our test job went smoothly",
+      "detail": "Did our test job went smoothly",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Justin Fontenot — Job went well safely with zero issues",
+      "detail": "Job went well safely with zero issues",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
       "type": "flag",
-      "week": 16,
-      "headline": "Disconnect but with a leak vaule and the csg had 800 psi after loto",
-      "detail": "Always verify for yourself never trust somebody else else's verification.",
-      "psms": "Energy Isolation"
+      "week": 17,
+      "headline": "A reconnection of a Wellhead and Flowline for production purposes",
+      "detail": "Be better at mitigating spills before they happen.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "flag",
+      "week": 17,
+      "headline": "Crew reconnected well head and flow line",
+      "detail": "Job was completed according to plan without any incidents or near misses.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "flag",
+      "week": 17,
+      "headline": "Crew disconnected well head and flow line",
+      "detail": "Job was completed according to plan with no incidents or near misses.",
+      "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "Heavy schedule today? Don't let the load rush your checks. Carry it in order: verify first, move second. The busiest day is the one that most needs the standard.",
-  "todaysChallengeSubtext": "“It's not the load that breaks you down, it's the way you carry it.” — Lou Holtz",
+  "todaysChallenge": "Something will not go to plan today. Decide now what your response looks like: calm, by the numbers, communicated early. Control the controllables.",
+  "todaysChallengeSubtext": "“You can't always control circumstances. However, you can always control your attitude, approach, and response.” — Tony Dungy",
   "compliance": {
     "weekOf": "Week of September 28, 2026",
     "metrics": [
@@ -299,36 +251,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/01"
-  },
-  "specialFocus": {
-    "week": 16,
-    "title": "Recognition for Excellence",
-    "why": "This week we handed out the first monthly awards — a backpack, a duck, and an attitude award — and every one of them was earned on paper anyone can check. That's the point of this morning: excellence at Canon isn't a feeling, it's visible. Michael Jobe just put up a perfect month — 61 audited checks, zero misses. Ralph Forbes went the whole month without a single auditor note. Pablo Soto ran 10 jobs and turned in 10 complete packets. None of them did it for a prize — but every one of them deserves to hear their name said out loud. Recognition is a leadership skill, not a mood: catch people doing it RIGHT, name the exact behavior, and do it in front of the crew. What gets recognized gets repeated — and what gets repeated becomes who we are.",
-    "standardLabel": "How We Recognize — Make It Specific, Make It Loud",
-    "standard": [
-      "Name the PERSON and the BEHAVIOR, not just 'good job.' 'Pablo turned in ten complete packets in ten jobs' teaches the whole circle what right looks like. 'Good job Pablo' teaches nothing.",
-      "Recognize the catch, not just the save. A duck — seeing a hazard and saying it out loud — is the everyday excellence that prevents the big day. Eagles get the headlines; ducks keep us alive.",
-      "Recognize in the moment, on location. If you see a tech do it right — a clean trailer flip, a sharp JSA, a stop-and-ask — say it there, then bring it to the morning meeting so everyone hears it.",
-      "Put it on paper. Write the OWL form about what went RIGHT — positive catches belong in the record just like hazards do. That's how names reach the Duck & Eagle board without a lead having to remember.",
-      "Spread it around. Excellence lives in the whole crew, not the same three names — if the same people get every mention, start looking harder at everyone else.",
-      "Leads: recognition is part of your job, not extra credit. One named, specific recognition from you this morning — pick someone whose work this week deserves the circle's attention."
-    ],
-    "scenarios": [
-      {
-        "title": "The Quiet Perfect Month",
-        "body": "Michael Jobe ran 31 shifts in September. Matt's audit checked his paperwork 61 times and found zero misses — the only note all month was one missing wellhead photo. Nobody saw him do anything dramatic. No stop-work, no save, no story. Just every form, every day, done right, when nobody was watching. Question for the circle: if we only recognize the dramatic saves, what are we telling the tech who's quietly perfect? Say his name this morning. That consistency IS the excellence."
-      },
-      {
-        "title": "The Catch That Didn't Make the News",
-        "body": "A tech walks a location, notices a monitor mounted on a light plant, and says so — it gets moved to a stand before nightfall. No alarm, no incident, no report beyond a line on a form. That's a duck: seen, said, fixed. Multiply that by a crew that knows catches get NAMED at the morning meeting, and you get a location where problems get said out loud while they're still small. Recognition isn't the reward for the catch — it's the fuel for the next one."
-      }
-    ],
-    "questions": [
-      "Who on your crew did something this week that deserves their name said in this circle — and what exactly did they do?",
-      "When's the last time you wrote someone ELSE's good catch on your own OWL form? Why don't we do that more?",
-      "What's the difference between 'good job' and recognition that actually changes behavior?",
-      "Who's the quietly consistent tech on your crew that never gets mentioned because they never make noise?"
-    ],
-    "nonNegotiable": "Every lead names one person and one specific behavior this morning — out loud, in the circle. Recognition that names a behavior is recognition that repeats it."
   }
 }
