@@ -341,5 +341,30 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/01"
+  },
+  "specialFocus": {
+    "week": 16,
+    "title": "Saturday Huddle — Smooth & Slick Transitions",
+    "why": "Quick huddle today — three or four crews out, ten minutes, no full week review. One subject: transitions. Weekends are where handoffs get sloppy — relief techs walking in cold, trailers changing hands without a word, paperwork left for Monday. Every incident report has a seam in it, and the seam is almost always a transition: shift to shift, tech to tech, location to location. A smooth, slick transition means the next person walks in with zero surprises. That's the whole meeting.",
+    "standardLabel": "The Handoff Standard — Say It, Don't Assume It",
+    "standard": [
+      "Every relief is a SPOKEN handoff — face-to-face at the wellhead or phone-to-phone, never a wave from the truck. Job status, gas history, known hazards, company man's name. Two minutes, out loud.",
+      "Paperwork current BEFORE the truck moves: today's JSA dated today, gas log up to the hour, job started or paused in StreetSmart. Saturday forms get audited exactly like Tuesday forms.",
+      "Hand the trailer over inspection-ready — bottles up, batteries charged, cal current, mask bags tagged. The October changeover standard doesn't take weekends off.",
+      "Something changes or you're not sure — CALL. Dispatch and your lead answer on Saturdays too. A question sat on until Monday is a hazard with a 48-hour head start.",
+      "Keep today sharp and short everywhere: say the plan, name the hazards, confirm the relief, roll. Ten minutes of clarity beats an hour of assumption."
+    ],
+    "scenarios": [
+      {
+        "title": "The Cold Handoff",
+        "body": "Relief shows up Saturday noon. The day tech is already loaded, gives a wave through the windshield, and pulls out. The relief walks in blind — doesn't know the monitor got a hit yesterday evening, doesn't know the company man moved the exclusion zone, doesn't know bottle pressures are riding low. Nothing on this location is different from an hour ago except one thing: now nobody on it knows its history. Two minutes at the wellhead would have transferred all of it. That's the whole difference between a handoff and an abandonment."
+      }
+    ],
+    "questions": [
+      "Who relieves you this weekend, and what are the three things they need to hear from your mouth?",
+      "What's on your location right now that would surprise someone walking in cold?",
+      "What has to be DONE before you leave today — not left for Monday?"
+    ],
+    "nonNegotiable": "Nobody walks onto a location cold. Every transition is a spoken handoff — status, gas history, hazards, contacts — and the paperwork is current before the truck moves."
   }
 }
