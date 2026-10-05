@@ -3,11 +3,11 @@
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
-  "weekJobs": 44,
-  "weekForms": 86,
-  "weekFlagRate": 9,
-  "weekWells": 44,
-  "weekCrews": 19
+  "weekJobs": 49,
+  "weekForms": 95,
+  "weekFlagRate": 8,
+  "weekWells": 49,
+  "weekCrews": 23
  },
  "days": [
   {
@@ -149,10 +149,75 @@
    "Maintenance": 0,
    "Well Testing": 0,
    "Other": 0
+  },
+  {
+   "date": "2026-10-01",
+   "forms": 9,
+   "jobs": 5,
+   "flags": 0,
+   "AGT": 5,
+   "Maintenance": 0,
+   "Well Testing": 0,
+   "Other": 0
   }
  ],
  "repeatFlagWells": [],
  "recent": [
+  {
+   "date": "2026-10-01",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Windham T-1",
+   "crew": "",
+   "cm": "",
+   "note": "Hammering of two WH unions that were bubbling to the MTs satisfaction",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-01",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Texas Ten Miles 37A 1H",
+   "crew": "Luis Zarate / Jerry Gonzales",
+   "cm": "Foreman_West Ops 4",
+   "note": "Crew dissconect to well",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-01",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Pratt Vaughn 15H 108H",
+   "crew": "Stefanie Kirschke / Tyrell Sanders",
+   "cm": "Foreman_West Ops 6",
+   "note": "Observed the autochoke needed to be replaced to ensure proper operation and",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-01",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Howard #9",
+   "crew": "Larry Jaramillo / Robbie Henigan 1099",
+   "cm": "Foreman_East Ops 1",
+   "note": "Atmospheric Monitoring \u2014 Larry Jaramillo / Robbie Henigan 1099",
+   "psms": "Atmospheric Monitoring",
+   "flag": false
+  },
+  {
+   "date": "2026-10-01",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Atkins 23-23A-H 4415H",
+   "crew": "Jeremy Norris / William \"Jimmy\" Cooper 1099",
+   "cm": "Brian Murphree",
+   "note": "Great meeting and communication throughout the process with no Gases detect",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
   {
    "date": "2026-09-30",
    "category": "AGT",

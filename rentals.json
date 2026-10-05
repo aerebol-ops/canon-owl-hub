@@ -31,9 +31,9 @@
   ],
   "warnDays": 15,
   "overdueDays": 30,
-  "activeRentals": 12,
+  "activeRentals": 11,
   "neverChecked": 0,
-  "overdueChecks": 11,
+  "overdueChecks": 10,
   "rigs": [
     {
       "rig": "AIR TRAILER",
@@ -54,7 +54,7 @@
       "rig": "ENSIGN 57",
       "company": "SM ENERGY",
       "location": "JW H 484WD",
-      "status": "RUNNING",
+      "status": "PENDING CODING",
       "active": true,
       "equipment": "OTIS",
       "ticket": "101212",
@@ -111,27 +111,12 @@
       "checkState": "overdue"
     },
     {
-      "rig": "H&P 438",
+      "rig": "H&P 376",
       "company": "SM ENERGY",
-      "location": "WACO KID MARION RAVENWOOD 1821",
+      "location": "WACO KID",
       "status": "RUNNING",
       "active": true,
       "equipment": "REDLINE",
-      "ticket": "101281C",
-      "at": "",
-      "onRentSince": "2026-05-01",
-      "currentStart": "2026-09-29",
-      "lastCheck": "2026-06-10",
-      "daysSinceCheck": 117,
-      "checkState": "overdue"
-    },
-    {
-      "rig": "H&P 376",
-      "company": "SM ENERGY",
-      "location": "??",
-      "status": "RUNNING",
-      "active": true,
-      "equipment": "",
       "ticket": "101211",
       "at": "",
       "onRentSince": "2026-05-01",
@@ -214,6 +199,21 @@
       "lastCheck": "2026-09-19",
       "daysSinceCheck": 16,
       "checkState": "due"
+    },
+    {
+      "rig": "H&P 438",
+      "company": "SM ENERGY",
+      "location": "ROHL 311H",
+      "status": "RIGGED DOWN",
+      "active": false,
+      "equipment": "",
+      "ticket": "101281D",
+      "at": "",
+      "onRentSince": "2026-05-01",
+      "currentStart": "2026-10-03",
+      "lastCheck": "2026-06-10",
+      "daysSinceCheck": 117,
+      "checkState": "overdue"
     }
   ]
 }

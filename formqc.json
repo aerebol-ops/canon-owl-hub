@@ -3,6 +3,124 @@
  "scope": "Dropbox '- OWL' exports \u2014 OWL, JSA, 4-gas, location sign, ticket auditable; benzene/atmospheric/permits/tubes/names need the full packet feed",
  "jobs": [
   {
+   "date": "2026-10-01",
+   "well": "Windham T-1",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": false,
+   "ticket": "",
+   "bnz": "",
+   "at": "",
+   "techs": "",
+   "sched": "",
+   "late_min": null,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-01",
+   "well": "Texas Ten Miles 37A 1H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102039",
+   "bnz": "3",
+   "at": "603",
+   "techs": "LUIS ZARATE / JERRY GONZALES",
+   "sched": "10/01/2026 07:00:00",
+   "late_min": null,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-01",
+   "well": "Pratt Vaughn 15H 108H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102046",
+   "bnz": "4",
+   "at": "604",
+   "techs": "STEFANIE KIRSCHKE / TYRELL SANDERS",
+   "sched": "10/01/2026 07:00:00",
+   "late_min": null,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-01",
+   "well": "Howard #9",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102047",
+   "bnz": "5",
+   "at": "605",
+   "techs": "LARRY JARAMILLO / Robbie Henigan 1099",
+   "sched": "10/01/2026 07:00:00",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-01",
+   "well": "Atkins 23-23A-H 4415H",
+   "category": "AGT",
+   "forms": 1,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102022",
+   "bnz": "11",
+   "at": "501",
+   "techs": "JEREMY NORRIS / William \"Jimmy\" Cooper 1099",
+   "sched": "10/1/2026 12:00 PM",
+   "late_min": -200,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
    "date": "2026-09-30",
    "well": "Wilde Garner 14WE 5H",
    "category": "AGT",

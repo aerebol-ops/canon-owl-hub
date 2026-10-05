@@ -165,7 +165,59 @@
     }
   ],
   "leadershipThought": "Situational awareness is not a skill. It's a habit. You build it before you need it. The drive to location is the first job of the day — and the most dangerous thing most of us will do all week.",
-  "yesterdaysJobs": null,
+  "yesterdaysJobs": {
+    "date": "2026-10-01",
+    "label": "Thursday, October 1",
+    "count": 5,
+    "flags": 0,
+    "groups": [
+      {
+        "category": "AGT",
+        "jobs": [
+          {
+            "well": "Howard #9",
+            "jobType": "Air Job",
+            "crew": "Larry Jaramillo / Robbie Henigan 1099",
+            "cm": "Foreman_East Ops 1",
+            "note": "Atmospheric Monitoring — Larry Jaramillo / Robbie Henigan 1099",
+            "flag": false
+          },
+          {
+            "well": "Texas Ten Miles 37A 1H",
+            "jobType": "Air Job",
+            "crew": "Luis Zarate / Jerry Gonzales",
+            "cm": "Foreman_West Ops 4",
+            "note": "Crew dissconect to well",
+            "flag": false
+          },
+          {
+            "well": "Atkins 23-23A-H 4415H",
+            "jobType": "Air Job",
+            "crew": "Jeremy Norris / William \"Jimmy\" Cooper 1099",
+            "cm": "Brian Murphree",
+            "note": "Great meeting and communication throughout the process with no Gases detect",
+            "flag": false
+          },
+          {
+            "well": "Windham T-1",
+            "jobType": "Air Job",
+            "crew": "",
+            "cm": "",
+            "note": "Hammering of two WH unions that were bubbling to the MTs satisfaction",
+            "flag": false
+          },
+          {
+            "well": "Pratt Vaughn 15H 108H",
+            "jobType": "Air Job",
+            "crew": "Stefanie Kirschke / Tyrell Sanders",
+            "cm": "Foreman_West Ops 6",
+            "note": "Observe auto choke needed",
+            "flag": false
+          }
+        ]
+      }
+    ]
+  },
   "formReview": {
     "date": "2026-10-04",
     "label": "Sunday 10/04",
@@ -196,36 +248,22 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dawson Drake — The communication with the new crew",
-      "detail": "The communication with the new crew",
+      "headline": "Stefanie Kirschke / Tyrell Sanders — Observed the autochoke needed to be replaced to ensure proper operation and",
+      "detail": "Verify all connections, controls, and proper operation before returning the equipment to service.",
+      "psms": "Operational Discipline",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris / William \"Jimmy\" Cooper 1099 — Great meeting and communication throughout the process with no Gases detect",
+      "detail": "Check for a bettwr route if the road looks to wet.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Ruben Rojo — No body passed out or died from gas",
-      "detail": "Did we leave the location better.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Dermont Morgan — Staying out of line of fire and everyone working together",
-      "detail": "Did we leave the location better.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Michael Jobe — Did our test job went smoothly",
-      "detail": "Did our test job went smoothly",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Justin Fontenot — Job went well safely with zero issues",
-      "detail": "Job went well safely with zero issues",
+      "headline": "Larry Jaramillo / Robbie Henigan 1099 — Verify conditions, brief all personnel, and leave the location better than you f",
+      "detail": "OWL form — Atmospheric Monitoring",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
