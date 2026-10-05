@@ -248,23 +248,16 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Stefanie Kirschke / Tyrell Sanders — Observed the autochoke needed to be replaced to ensure proper operation and",
-      "detail": "Verify all connections, controls, and proper operation before returning the equipment to service.",
-      "psms": "Operational Discipline",
-      "level": "duck"
-    },
-    {
-      "type": "good",
-      "headline": "Jeremy Norris / William \"Jimmy\" Cooper 1099 — Great meeting and communication throughout the process with no Gases detect",
-      "detail": "Check for a bettwr route if the road looks to wet.",
+      "headline": "Larry Jaramillo / Robbie Henigan 1099 — Discussed fit testing due to the crew members all bit being shaven",
+      "detail": "Ask crew members who will mask up prior to the job beginning and making sure they are prepared.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo / Robbie Henigan 1099 — Verify conditions, brief all personnel, and leave the location better than you f",
-      "detail": "OWL form — Atmospheric Monitoring",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Stefanie Kirschke / Tyrell Sanders — Observe auto choke needed",
+      "detail": "Check all connections, made sure it was isolated.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {

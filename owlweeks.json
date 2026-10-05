@@ -10,13 +10,13 @@
         {
           "date": "Mon, Oct 5",
           "day": "Week 17 Kickoff",
-          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Situational awareness is not a skill. It's a habit. You build it before you need it. The drive to location is the first job of the day — and the most dangerous thing most of us will do all week.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Stefanie Kirschke / Tyrell Sanders</strong> — Verify all connections, controls, and proper operation before returning the equipment to service.</li><li style='margin:3px 0;'><strong>Jeremy Norris / William \"Jimmy\" Cooper 1099</strong> — Check for a bettwr route if the road looks to wet.</li><li style='margin:3px 0;'><strong>Larry Jaramillo / Robbie Henigan 1099</strong> — OWL form — Atmospheric Monitoring</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Situational awareness is not a skill. It's a habit. You build it before you need it. The drive to location is the first job of the day — and the most dangerous thing most of us will do all week.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Larry Jaramillo / Robbie Henigan 1099</strong> — Ask crew members who will mask up prior to the job beginning and making sure they are prepared.</li><li style='margin:3px 0;'><strong>Stefanie Kirschke / Tyrell Sanders</strong> — Check all connections, made sure it was isolated.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
           "flags": [
             "A reconnection of a Wellhead and Flowline for production purposes",
             "Crew reconnected well head and flow line",
             "Crew disconnected well head and flow line"
           ],
-          "recognition": "Stefanie Kirschke / Tyrell Sanders — Observed the autochoke needed to be replaced to ensure proper operation and"
+          "recognition": "Larry Jaramillo / Robbie Henigan 1099 — Discussed fit testing due to the crew members all bit being shaven"
         }
       ]
     },
