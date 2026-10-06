@@ -167,25 +167,25 @@
   "leadershipThought": "The most dangerous driver on the road is the one who has driven that route fifty times. Familiarity turns your eyes off. Awareness means driving mile 50 like it's mile 1 — because the deer, the hotshot truck, and the washout don't care how well you know the road.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-10-04",
-    "label": "Sunday 10/04",
+    "date": "2026-10-05",
+    "label": "Monday 10/05",
     "verdict": "",
     "concerns": [
       {
-        "title": "Jordan Lemmons and 1099 Cindy Smith — XTO — TXL 27 4 BTA 1077 1077JH — 01:52 PM to 04:04 PM — job IDs 35350 and 35351. Both technicians recorded 21 ppm H2S on the pre-tes",
-        "quote": "Work area and bleeder valves tested prior to crew beginning work. 21 ppm H2S on pre test. A ball valve was leaking. MT made some phone calls and determined that the job cannot be completed at this time. Reconnected what they could and will be completed at a later date."
+        "title": "Pablo Soto — XTO, Preston-Freeman 15I 109H / 15H 108H, trailer 608, 7:57 AM and 3:00 PM. Answered \"No\" to the FR uniform question on both Trailer Inspection Forms he file",
+        "quote": "to the FR uniform question on both Trailer Inspection Forms he filed that day. He gave a reason each time, and the two reasons say the same thing:"
       },
       {
-        "title": "1099 Cindy Smith — XTO — DRIVER E5A 101H — 09:14 AM to 01:39 PM — job ID 35375. A near miss was recorded, along with an LEL overload on the pre-test and benzene detected ",
-        "quote": "Follow-up: this reads as a reportable near miss and should be confirmed with Smith and entered into the near-miss log if it has not been. Jordan Lemmons worked the same job (35374) and his form records"
+        "title": "1099 Benjamin Boutte — SM Energy, Junior Mint flowback, H2S daily filed 3:09 PM. Reported a failed H2S sensor in \"Comments or Concerns for Management\"",
+        "quote": "Comments or Concerns for Management"
       },
       {
-        "title": "Jordan Lemmons — trailer 606 — Trailer Readiness Form — 05:20 PM — CSRHI Andrews Shop. An equipment defect was reported on the trailer jack, with no notified party named.",
-        "quote": "Jack could be replaced it doesn't want to corporate"
+        "title": "1099 Hayden Haugh — XTO, Friulano Huckaby 31A 1H, 4:44 PM, job 35438_2. Recorded a benzene detection after containment was broken",
+        "quote": "Crew took off the choke and installed a BPV on the wellhead. 0.05 benzene was detected after the broke containment. Crew proceeded to work after I deemed it clear."
       },
       {
-        "title": "1099 Rolando Flores — trailer 602 — Trailer Readiness Form — 10:58 AM — CSRHI Andrews Shop. \"Does your trailer have a AV- 3000 box?\" was answered \"No\", while a photo was ",
-        "quote": "Does your trailer have a AV- 3000 box?"
+        "title": "1099 Cindy Smith — XTO, Shackelford 40-12D 4H, 11:47 AM, job 35383. Recorded a second benzene detection on the same day, no numeric value given",
+        "quote": "Work area and bleeder valves tested prior to crew beginning work. No gases detected. A small amount of benzene was detected on the first break but dissipated quickly. Crew was able to work without supplied air. The job was completed according to plan without any incidents or near misses."
       }
     ]
   },
@@ -233,24 +233,24 @@
   "todaysChallenge": "Beat the callout today. Do your inspection, your cal check, and your paperwork before anyone has to ask for it. Self-discipline means nobody has to chase you.",
   "todaysChallengeSubtext": "“Discipline yourself, and others won't need to.” — John Wooden",
   "compliance": {
-    "weekOf": "Week of September 28, 2026",
+    "weekOf": "Week of October 5, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 175,
-        "total": 197
+        "done": 47,
+        "total": 48
       },
       {
         "label": "Trailer Inspections",
-        "done": 39,
-        "total": 47
+        "done": 9,
+        "total": 9
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 33,
-        "total": 44
+        "done": 6,
+        "total": 8
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/01"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 10/05"
   }
 }
