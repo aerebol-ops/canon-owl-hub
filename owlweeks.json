@@ -17,6 +17,17 @@
             "Crew disconnected well head and flow line"
           ],
           "recognition": "Larry Jaramillo / Robbie Henigan 1099 — Discussed fit testing due to the crew members all bit being shaven"
+        },
+        {
+          "date": "Tue, Oct 6",
+          "day": "Tuesday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;The most dangerous driver on the road is the one who has driven that route fifty times. Familiarity turns your eyes off. Awareness means driving mile 50 like it's mile 1 — because the deer, the hotshot truck, and the was&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Larry Jaramillo / Robbie Henigan 1099</strong> — Ask crew members who will mask up prior to the job beginning and making sure they are prepared.</li><li style='margin:3px 0;'><strong>Stefanie Kirschke / Tyrell Sanders</strong> — Check all connections, made sure it was isolated.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "A reconnection of a Wellhead and Flowline for production purposes",
+            "Crew reconnected well head and flow line",
+            "Crew disconnected well head and flow line"
+          ],
+          "recognition": "Larry Jaramillo / Robbie Henigan 1099 — Discussed fit testing due to the crew members all bit being shaven"
         }
       ]
     },
