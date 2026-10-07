@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "week": 17,
-  "day": 2,
+  "day": 3,
   "topicWeek": 6,
   "displayWeek": 8,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Driving · Journey Management",
     "marker": ""
   },
-  "openingMessage": "Can you imagine yourself in ten years if, instead of avoiding the things you know you should do, you actually did them every single day?",
-  "openingAttribution": "Jordan Peterson",
-  "openingWhy": "Ten years of honest LMRAs is a few thousand reps — that hand doesn't get lucky, he gets accurate. The operator you'll be in ten years is being poured out of nothing but todays. Pour today's checks like foundation, because that's what they are.",
+  "openingMessage": "Perfection is not attainable, but if we chase perfection we can catch excellence.",
+  "openingAttribution": "Vince Lombardi",
+  "openingWhy": "We'll never run a flawless location. But chasing it is how our checks caught an empty SABA and an out-of-hydro bottle this week — before anybody's lungs needed them. Chasing perfect means the flaw gets found in the inspection instead of the emergency.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,7 +164,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "The most dangerous driver on the road is the one who has driven that route fifty times. Familiarity turns your eyes off. Awareness means driving mile 50 like it's mile 1 — because the deer, the hotshot truck, and the washout don't care how well you know the road.",
+  "leadershipThought": "Distraction, fatigue, and rushing are the three passengers that never announce themselves. Any one of them alone is a stop condition. Check for all three before the truck moves — not after the first close call.",
   "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-10-05",
@@ -192,7 +192,7 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>The crew accessed the well and the area, after conducting a pre- task safet</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue to strengthen pre-task communication and hazard awareness, while maintaining atmospheric monitoring and established safety controls throughout the job.</span><br><br><strong>The crew accessed and ensured proper safety measures were in place before s</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue to improve communication and hazard awareness before working, and maintain atmospheric testing and safety controls throughout the job.</span><br><br><strong>The crew accessed the cellar and ensured proper safety measures were in pla</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue to improve communication and hazard awareness before entering the cellar, and maintain atmospheric testing and safety controls throughout the job.</span><br><br><strong>Forklift driver wasn't paying attention spotter stopped the job and talked</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Dermont Morgan]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Forklift driver wasn't paying attention spotter stopped the job and talked with the driver.</span><br><br><strong>Spotter was spotting the forklift driver and tag liner was making sure the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Spotter was spotting the forklift driver and tag liner was making sure the pieces didn't go</span>",
+  "exxonMoments": "<strong>Crew was communicating, spotter was there to spot the forklift driver</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Crew was communicating, spotter was there to spot the forklift driver</span><br><br><strong>Forklift driver didn't move the forklift until he saw his spotter in place</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Hayden Haugh]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Forklift driver didn't move the forklift until he saw his spotter in place ready to go.</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span><br><br><strong>Atmospheric Monitoring — Larry Jaramillo / Robbie Henigan 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Discussed fit testing due to the crew members all bit being shaven</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Ask crew members who will mask up prior to the job beginning and making sure they are prepared.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -230,8 +230,8 @@
       "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "Beat the callout today. Do your inspection, your cal check, and your paperwork before anyone has to ask for it. Self-discipline means nobody has to chase you.",
-  "todaysChallengeSubtext": "“Discipline yourself, and others won't need to.” — John Wooden",
+  "todaysChallenge": "Finish today — all the way. The last form, the last photo, the location left better than you found it. Ninety percent done is not done.",
+  "todaysChallengeSubtext": "“Discipline helps you finish a job, and finishing is what separates excellence from mediocrity.” — Pat Summitt",
   "compliance": {
     "weekOf": "Week of October 5, 2026",
     "metrics": [
