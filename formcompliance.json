@@ -2,7 +2,7 @@
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-10-07",
   "ytdPct": 83.8,
-  "ytdMissed": 1857,
+  "ytdMissed": 1859,
   "months": [
     {
       "month": "January 2026",
@@ -2193,20 +2193,20 @@
       "month": "October 2026",
       "year": 2026,
       "monthNum": 10,
-      "compliancePct": 91.6,
-      "missedTotal": 30,
-      "dailyNo": 16,
+      "compliancePct": 91.9,
+      "missedTotal": 32,
+      "dailyNo": 18,
       "trailerInspNo": 4,
       "trailerReadyNo": 8,
-      "problemRows": 28,
-      "blanks": 53,
-      "employees": 53,
-      "cleanEmployees": 35,
-      "dailyYesTotal": 175,
-      "dailyNoTotal": 16,
-      "rawRows": 270,
-      "daysCovered": 5,
-      "sheetsInMonth": 7,
+      "problemRows": 34,
+      "blanks": 114,
+      "employees": 57,
+      "cleanEmployees": 39,
+      "dailyYesTotal": 203,
+      "dailyNoTotal": 18,
+      "rawRows": 360,
+      "daysCovered": 6,
+      "sheetsInMonth": 8,
       "byDay": [
         {
           "date": "10/1",
@@ -2232,11 +2232,26 @@
           "date": "10/5",
           "missed": 3,
           "pct": 98
+        },
+        {
+          "date": "10/6",
+          "missed": 2,
+          "pct": 93
         }
       ],
-      "watch": [],
+      "watch": [
+        {
+          "name": "Cindy Smith",
+          "totalMissed": 0,
+          "dailyMissed": 0,
+          "trailerMissed": 0,
+          "dailyYes": 10,
+          "dailyNo": 0,
+          "pct": 100
+        }
+      ],
       "live": true,
-      "throughDate": "10/5"
+      "throughDate": "10/6"
     }
   ]
 }
