@@ -3651,6 +3651,9 @@ async function renderTemplate() {
     }
   ];
 
+  // Prize-wheel draw (wheel.json) — renders only on its drawDate
+  setTimeout(_tplWheel, 0);
+
   // SPECIAL FOCUS — standing high-visibility block above the numbered sections.
   // Driven by daily.specialFocus (carried forward by every sweep until removed).
   const sfHtml = (daily && daily.specialFocus) ? (() => {
@@ -3683,6 +3686,8 @@ async function renderTemplate() {
     </div>
 
     ${sfHtml}
+
+    <div id="tpl-wheel"></div>
 
     ${sections.map(s => `
       <div class="runsheet-section">
@@ -5578,6 +5583,141 @@ function _awardsShareHtml() {
     <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:6px;">${_awardCards(m, true)}</div>
   </div>`;
 }
+// ── PRIZE WHEEL (Mike 10/6/2026) — a visible random draw at the morning
+// meeting (first prize: Turtlebox radio for forms excellence). Entrants and
+// the eligibility rule live in wheel.json so the pool is checkable data, not
+// vibes; the wheel renders on the template only on its drawDate. Names can be
+// tapped out before the spin (absent / already won / lead's call). The spin
+// uses crypto.getRandomValues with equal slots and a long visible
+// deceleration — the crew watches the randomness happen.
+let _wheel = null, _wheelOn = [], _wheelAngle = 0, _wheelSpinning = false;
+const _WHEEL_COLORS = ['#1F3864', '#BF8F00', '#0f766e', '#7f1d1d', '#375623', '#C05000'];
+async function _tplWheel() {
+  const el = document.getElementById('tpl-wheel');
+  if (!el) return;
+  if (!_wheel) {
+    try {
+      const r = await fetch('wheel.json?_=' + Date.now(), { cache: 'no-store' });
+      if (r.ok) _wheel = await r.json();
+    } catch (e) {}
+  }
+  const n = new Date();
+  const todayStr = `${n.getFullYear()}-${String(n.getMonth() + 1).padStart(2, '0')}-${String(n.getDate()).padStart(2, '0')}`;
+  if (!_wheel || !_wheel.entrants || _wheel.drawDate !== todayStr) { el.innerHTML = ''; return; }
+  if (!_wheelOn.length) _wheelOn = _wheel.entrants.map(name => ({ name, on: true }));
+  el.innerHTML = `<div style="border:3px solid #BF8F00; border-radius:12px; margin-bottom:18px; overflow:hidden; background:#fff;">
+    <div style="background:linear-gradient(90deg, #1F3864, #2a4a80); color:#fff; padding:12px 16px;">
+      <div style="font-size:16px; font-weight:900;">&#127922; The ${_wheel.prize} Draw — Forms Excellence</div>
+      <div style="font-size:12px; opacity:.9; margin-top:3px;">${_wheel.rule}</div>
+    </div>
+    <div style="display:flex; flex-wrap:wrap; gap:14px; padding:14px 16px; align-items:center; justify-content:center;">
+      <div style="position:relative; flex-shrink:0;">
+        <canvas id="wheel-canvas" width="440" height="440" style="max-width:100%;"></canvas>
+        <div style="position:absolute; top:-4px; left:50%; transform:translateX(-50%); width:0; height:0; border-left:16px solid transparent; border-right:16px solid transparent; border-top:26px solid #b00020; filter:drop-shadow(0 2px 2px rgba(0,0,0,.3));"></div>
+      </div>
+      <div style="flex:1; min-width:240px; max-width:420px;">
+        <div id="wheel-result" style="min-height:86px; display:flex; align-items:center; justify-content:center; border:2px dashed #c9d2e3; border-radius:10px; padding:10px; font-size:15px; color:var(--muted); text-align:center;">Spin to draw the winner</div>
+        <button id="wheel-spin" onclick="_wheelSpin()" style="width:100%; margin-top:10px; background:#b00020; color:#fff; border:none; border-radius:10px; padding:14px; font-size:18px; font-weight:900; letter-spacing:.06em; cursor:pointer; box-shadow:0 3px 8px rgba(0,0,0,.2);">&#127920; SPIN THE WHEEL</button>
+        <div style="font-size:11px; color:var(--muted); margin-top:8px; line-height:1.5;">${_wheel.note || ''} Every active name has an identical slot; the result comes from the browser's cryptographic random source.</div>
+        <div id="wheel-chips" style="display:flex; flex-wrap:wrap; gap:4px; margin-top:8px;"></div>
+      </div>
+    </div>
+  </div>`;
+  _wheelChips();
+  _wheelDraw();
+}
+function _wheelChips() {
+  const c = document.getElementById('wheel-chips');
+  if (!c) return;
+  c.innerHTML = _wheelOn.map((e, i) =>
+    `<span onclick="_wheelToggle(${i})" style="cursor:pointer; border-radius:99px; padding:2px 9px; font-size:10.5px; font-weight:700; border:1px solid ${e.on ? '#1F3864' : '#ccc'}; background:${e.on ? '#eef2f9' : '#f5f5f5'}; color:${e.on ? '#1F3864' : '#aaa'}; ${e.on ? '' : 'text-decoration:line-through;'}">${e.name}</span>`).join('');
+}
+function _wheelToggle(i) {
+  if (_wheelSpinning) return;
+  _wheelOn[i].on = !_wheelOn[i].on;
+  _wheelChips();
+  _wheelDraw();
+}
+function _wheelDraw(highlightIdx) {
+  const cv = document.getElementById('wheel-canvas');
+  if (!cv) return;
+  const ctx = cv.getContext('2d');
+  const names = _wheelOn.filter(e => e.on).map(e => e.name);
+  const cx = 220, cy = 220, R = 208;
+  ctx.clearRect(0, 0, 440, 440);
+  if (!names.length) return;
+  const arc = 2 * Math.PI / names.length;
+  names.forEach((name, i) => {
+    const a0 = _wheelAngle + i * arc - Math.PI / 2;
+    ctx.beginPath();
+    ctx.moveTo(cx, cy);
+    ctx.arc(cx, cy, R, a0, a0 + arc);
+    ctx.closePath();
+    ctx.fillStyle = i === highlightIdx ? '#FFD966' : _WHEEL_COLORS[i % _WHEEL_COLORS.length];
+    if (names.length % _WHEEL_COLORS.length === 1 && i === names.length - 1 && highlightIdx === undefined) ctx.fillStyle = _WHEEL_COLORS[1];
+    ctx.fill();
+    ctx.strokeStyle = '#fff';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+    ctx.save();
+    ctx.translate(cx, cy);
+    ctx.rotate(a0 + arc / 2);
+    ctx.textAlign = 'right';
+    ctx.fillStyle = i === highlightIdx ? '#1F3864' : '#fff';
+    ctx.font = `700 ${names.length > 18 ? 11.5 : 13}px 'Segoe UI', Arial`;
+    ctx.fillText(name, R - 12, 4.5);
+    ctx.restore();
+  });
+  ctx.beginPath();
+  ctx.arc(cx, cy, 34, 0, 2 * Math.PI);
+  ctx.fillStyle = '#fff';
+  ctx.fill();
+  ctx.strokeStyle = '#BF8F00';
+  ctx.lineWidth = 4;
+  ctx.stroke();
+  ctx.fillStyle = '#1F3864';
+  ctx.font = '900 13px Segoe UI, Arial';
+  ctx.textAlign = 'center';
+  ctx.fillText('CANON', cx, cy + 5);
+}
+function _wheelSpin() {
+  if (_wheelSpinning) return;
+  const names = _wheelOn.filter(e => e.on).map(e => e.name);
+  if (names.length < 2) { alert('Need at least two active names on the wheel.'); return; }
+  _wheelSpinning = true;
+  const btn = document.getElementById('wheel-spin');
+  const res = document.getElementById('wheel-result');
+  btn.disabled = true; btn.style.opacity = .5;
+  res.innerHTML = '<span style="font-size:22px;">&#127920;</span>';
+  // crypto-random winner + a random landing point inside their segment
+  const buf = new Uint32Array(2);
+  crypto.getRandomValues(buf);
+  const winIdx = buf[0] % names.length;
+  const arc = 2 * Math.PI / names.length;
+  const jitter = (buf[1] / 0xFFFFFFFF * .76 + .12) * arc;   // land inside, away from edges
+  // pointer sits at -90° (top). Segment i spans angle+i*arc-90° .. +arc.
+  // Target: rotate so (winIdx*arc + jitter) sits at the top.
+  const current = ((_wheelAngle % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
+  const targetMod = ((2 * Math.PI - (winIdx * arc + jitter)) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI);
+  const delta = ((targetMod - current) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI) + 2 * Math.PI * 7; // 7 extra full turns
+  const start = _wheelAngle, t0 = performance.now(), DUR = 6200;
+  const easeOut = t => 1 - Math.pow(1 - t, 3.2);
+  const frame = now => {
+    const t = Math.min(1, (now - t0) / DUR);
+    _wheelAngle = start + delta * easeOut(t);
+    _wheelDraw();
+    if (t < 1) { requestAnimationFrame(frame); return; }
+    _wheelSpinning = false;
+    btn.disabled = false; btn.style.opacity = 1;
+    btn.innerHTML = '&#128257; SPIN AGAIN';
+    _wheelDraw(winIdx);
+    res.innerHTML = `<div><div style="font-size:11px; font-weight:800; letter-spacing:.1em; color:#BF8F00;">&#127942; WINNER — ${_wheel.prize.toUpperCase()}</div>
+      <div style="font-size:30px; font-weight:900; color:#1F3864; line-height:1.15;">${names[winIdx]}</div>
+      <div style="font-size:11px; color:var(--muted); margin-top:3px;">Drawn from ${names.length} qualifying techs &middot; equal odds</div></div>`;
+  };
+  requestAnimationFrame(frame);
+}
+
 // Wall of Fame — every awarded month, on the O.W.L Form Submissions tab
 async function _renderWallOfFame() {
   const el = document.getElementById('owl-walloffame');
