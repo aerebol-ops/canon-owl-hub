@@ -167,25 +167,25 @@
   "leadershipThought": "Distraction, fatigue, and rushing are the three passengers that never announce themselves. Any one of them alone is a stop condition. Check for all three before the truck moves — not after the first close call.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-10-05",
-    "label": "Monday 10/05",
+    "date": "2026-10-06",
+    "label": "Tuesday 10/06",
     "verdict": "",
     "concerns": [
       {
-        "title": "Pablo Soto — XTO, Preston-Freeman 15I 109H / 15H 108H, trailer 608, 7:57 AM and 3:00 PM. Answered \"No\" to the FR uniform question on both Trailer Inspection Forms he file",
-        "quote": "to the FR uniform question on both Trailer Inspection Forms he filed that day. He gave a reason each time, and the two reasons say the same thing:"
+        "title": "Pablo Soto — Trailer Inspection Forms, trailer 600, 4:48 AM (Andrews shop), 12:06 PM and 12:21 PM. All three forms record \"No\" to \"Are you wearing you Canon Safety issued",
+        "quote": "Are you wearing you Canon Safety issued FR uniform?"
       },
       {
-        "title": "1099 Benjamin Boutte — SM Energy, Junior Mint flowback, H2S daily filed 3:09 PM. Reported a failed H2S sensor in \"Comments or Concerns for Management\"",
-        "quote": "Comments or Concerns for Management"
+        "title": "Nathan Contreras — XTO, SHAQ B 38-14 4202H, 9:15 AM, job 35417. The OWL \"Learn\" section records a monitor-calibration gap.",
+        "quote": "section records a monitor-calibration gap."
       },
       {
-        "title": "1099 Hayden Haugh — XTO, Friulano Huckaby 31A 1H, 4:44 PM, job 35438_2. Recorded a benzene detection after containment was broken",
-        "quote": "Crew took off the choke and installed a BPV on the wellhead. 0.05 benzene was detected after the broke containment. Crew proceeded to work after I deemed it clear."
+        "title": "Pablo Soto — XTO, Walnut Barron 11C 3H, 12:17 PM, job 35488_1. A leaking valve was found and corrected on location.",
+        "quote": "Walnut Barron11C 3H Just a leaking valve no gas or Benzine valve was tightened solved the problem on location"
       },
       {
-        "title": "1099 Cindy Smith — XTO, Shackelford 40-12D 4H, 11:47 AM, job 35383. Recorded a second benzene detection on the same day, no numeric value given",
-        "quote": "Work area and bleeder valves tested prior to crew beginning work. No gases detected. A small amount of benzene was detected on the first break but dissipated quickly. Crew was able to work without supplied air. The job was completed according to plan without any incidents or near misses."
+        "title": "Benzene detected above zero on three XTO air jobs — 1099 Cindy Smith (Preston 9B 102H, 3:23 PM, job 35397 and Tom Glavine 31-32 01HB, 9:57 AM, job 35462) and Jeremy Norri",
+        "quote": "A small amount of benzene was detected on the first break but dissipated quickly. Crew was able to work without supplied air."
       }
     ]
   },
