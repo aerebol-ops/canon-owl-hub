@@ -2,7 +2,7 @@
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-10-07",
   "ytdPct": 83.8,
-  "ytdMissed": 1859,
+  "ytdMissed": 1860,
   "months": [
     {
       "month": "January 2026",
@@ -2193,18 +2193,18 @@
       "month": "October 2026",
       "year": 2026,
       "monthNum": 10,
-      "compliancePct": 91.9,
-      "missedTotal": 32,
+      "compliancePct": 92.2,
+      "missedTotal": 33,
       "dailyNo": 18,
       "trailerInspNo": 4,
-      "trailerReadyNo": 8,
-      "problemRows": 34,
-      "blanks": 114,
+      "trailerReadyNo": 9,
+      "problemRows": 35,
+      "blanks": 103,
       "employees": 57,
-      "cleanEmployees": 39,
-      "dailyYesTotal": 203,
+      "cleanEmployees": 38,
+      "dailyYesTotal": 212,
       "dailyNoTotal": 18,
-      "rawRows": 360,
+      "rawRows": 362,
       "daysCovered": 6,
       "sheetsInMonth": 8,
       "byDay": [
@@ -2235,11 +2235,20 @@
         },
         {
           "date": "10/6",
-          "missed": 2,
-          "pct": 93
+          "missed": 3,
+          "pct": 95
         }
       ],
       "watch": [
+        {
+          "name": "Andrew Bailey",
+          "totalMissed": 1,
+          "dailyMissed": 0,
+          "trailerMissed": 1,
+          "dailyYes": 10,
+          "dailyNo": 0,
+          "pct": 100
+        },
         {
           "name": "Cindy Smith",
           "totalMissed": 0,
