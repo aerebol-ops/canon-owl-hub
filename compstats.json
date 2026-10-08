@@ -1,7 +1,72 @@
 {
  "generated": "2026-10-01",
- "source": "Matt Croom's audit of the Daily Internal Compliance 2026 workbook — monthly review received 10/1/2026 (supersedes all earlier September versions), YTD reports received 9/30/2026",
+ "source": "Audits of the Daily Internal Compliance 2026 workbook — weekly review from Kyle Williams received 10/7/2026; Matt Croom's September monthly review received 10/1/2026 and YTD reports 9/30/2026",
  "method": "Completion % = Yes ÷ (Yes + No). Day forms, trailer inspection and trailer readiness are credited to the day tech; night forms to the night tech.",
+ "week": {
+  "label": "Week of Sep 30 – Oct 6, 2026",
+  "source": "Kyle Williams' weekly audit (received 10/7) — fully audited window: 97% of 332 job-days checked. The 10/7 tab wasn't audited yet. Top performers ranked among techs with 3+ audited shifts.",
+  "bottomLine": "Clearly better than September on every form type — XTO trailer readiness rose from 68% to 84% and total misses ran at less than half the September pace. But the notes surfaced a new and serious pattern: techs falsely marking PPE entries.",
+  "glance": [
+   {"m": "Job-days audited", "now": "332 (97.0%)", "prev": "96.8% share", "chg": "flat", "tone": "info"},
+   {"m": "Day forms completed", "now": "93.3% (235/252)", "prev": "89.4%", "chg": "up 4 pts", "tone": "ok"},
+   {"m": "Night forms completed", "now": "72.0% (18/25)", "prev": "42.3%", "chg": "up 30 pts (small sample)", "tone": "ok"},
+   {"m": "Trailer inspection completed", "now": "91.8% (56/61)", "prev": "82.0%", "chg": "up 10 pts", "tone": "ok"},
+   {"m": "Trailer readiness completed", "now": "82.4% (42/51)", "prev": "68.5%", "chg": "up 14 pts", "tone": "ok"},
+   {"m": "Missed forms (all types)", "now": "38", "prev": "~81/week Sept pace", "chg": "less than half", "tone": "ok"},
+   {"m": "Jobs flagged with problems", "now": "41", "prev": "339 (month)", "chg": "", "tone": "warn"}
+  ],
+  "falsePpe": {
+   "title": "FALSE PPE ENTRIES — falsified, not missed",
+   "detail": "Techs marked \"yes\" for Canon safety coveralls while the photos show they aren't wearing them. These are falsified entries, not missed forms — address crew-wide right away; it undermines trust in every other \"yes\" on the forms.",
+   "cases": ["Larry Jaramillo — 10/5 and 10/6", "Nathan Contreras — 10/5 and 10/6", "Jeremy Norris — 10/6", "Benjamin Boutte — 10/5", "Gage Gonzales — 9/12 (started in September; confirm he's been addressed)"]
+  },
+  "concerns": [
+   {"t": "Old photos still coming in", "d": "Trevor McKenzie: \"all photos are old\" 9/30 AND 10/1, plus only 2 of 6 night forms. Alfredo Vaquera: old SCBA photos 9/30 — continues after the September escalation to Jimmy, though he was clean Oct 1–6."},
+   {"t": "Repeat daily-inspection misses, same names", "d": "Benjamin Boutte 10/1, 10/3, 10/4 · Joseph Popillion 10/2, 10/3 · Marcos Morales 9/30, 10/5, 10/6 (cites a phone/StreetSmart problem — his JSA photos ARE coming through) · Hayden Haugh 9/30 · Jose Campos 9/30 (Hayden is training him)."},
+   {"t": "Exxon paperwork at XTO", "d": "Stefanie Kirschke missing the Exxon JSA on 3 jobs (10/2); Bryan Medlin missing the atmospheric testing log — repeats the September flags for Kirschke and Rolando Flores."},
+   {"t": "Supervision jobs still the weak spot", "d": "Day forms 79.2%, night forms 65.0%, vs 97.5% on air jobs. Ovintiv: day 9 of 13, night 5 of 9. Mitsui: night 4 of 7."},
+   {"t": "Equipment flags (6)", "d": "SCBA out of hydro + floating sensor on Bailey's SM job (10/1) · Allen White's SCBAs out of inspection (10/3) · Michael Ellis's SCBAs out of inspection (10/4, called) · H&P 379 (Ovintiv): 1 dead sensor, 1 out of cal (10/5) · calibration out of date on Boutte's job (10/5) · an EMPTY SCBA on Boutte's job (10/6, Caleb notified)."},
+   {"t": "Other", "d": "Ruben Rojo ran a field service on the Junior Mint with no photos, no JSA, no readiness form (10/5) · two SM jobs not started in StreetSmart (Clubb, Jerry Gonzales — 10/6) · battery levels missing on Gage Gonzales's night job (9/30) · the auditor couldn't tell what Michael Jobe's 9/30 Ovintiv field service was for."}
+  ],
+  "needsAttention": [
+   {"rank": 1, "tech": "Trevor McKenzie", "missed": 4, "pct": "33% (2/6)", "day": 0, "night": 4, "insp": 0, "ready": 0, "last": "10/6", "cust": "Ovintiv — all photos old 9/30 & 10/1"},
+   {"rank": 2, "tech": "Marcos Morales", "missed": 3, "pct": "25% (1/4)", "day": 0, "night": 3, "insp": 0, "ready": 0, "last": "10/6", "cust": "Mitsui — cites phone/StreetSmart issue"},
+   {"rank": 3, "tech": "Joseph Popillion", "missed": 3, "pct": "50% (3/6)", "day": 2, "night": 0, "insp": 0, "ready": 1, "last": "10/5", "cust": "XTO / SM"},
+   {"rank": 4, "tech": "Benjamin Boutte", "missed": 3, "pct": "57% (4/7)", "day": 3, "night": 0, "insp": 0, "ready": 0, "last": "10/4", "cust": "SM — false PPE 10/5, cal out 10/5, empty SCBA 10/6"},
+   {"rank": 5, "tech": "Stefanie Kirschke", "missed": 3, "pct": "77% (10/13)", "day": 3, "night": 0, "insp": 0, "ready": 0, "last": "10/2", "cust": "XTO — Exxon JSA missing on 3 jobs"},
+   {"rank": 6, "tech": "Allen White", "missed": 2, "pct": "75% (6/8)", "day": 2, "night": 0, "insp": 0, "ready": 0, "last": "10/4", "cust": "Comstock — SCBAs out of inspection"},
+   {"rank": 7, "tech": "Ruben Rojo", "missed": 2, "pct": "82% (9/11)", "day": 0, "night": 0, "insp": 1, "ready": 1, "last": "10/5", "cust": "XTO — no-photo field service 10/5"},
+   {"rank": 8, "tech": "Jeremy Norris", "missed": 2, "pct": "82% (9/11)", "day": 0, "night": 0, "insp": 1, "ready": 1, "last": "10/1", "cust": "XTO — false PPE 10/6"}
+  ],
+  "needsAttentionNote": "24 techs missed at least one form; 38 misses total. Small samples — read with the notes. Also flagged with few/no misses: Larry Jaramillo (100% completion) and Nathan Contreras (94.4%) each logged false PPE entries 10/5–10/6.",
+  "progress": "From September's attention list: Michael Ellis (11 misses then, 0 now), Baldemar Bracamontes, Dermont Morgan, Bobby Galindo (1 miss) and Jose Hurtado ran clean or nearly so; Kedrick McCarter had no misses recorded; Andrew Bailey went 18/19 (94.7%) with no photo flags; Dawson Drake had no audited checks this week.",
+  "best": [
+   {"rank": 1, "tech": "Alexander Clubb", "pct": "100%", "ratio": "0 / 14", "shifts": 13, "cust": "SM Energy"},
+   {"rank": 2, "tech": "Cindy Smith", "pct": "100%", "ratio": "0 / 14", "shifts": 11, "cust": "XTO"},
+   {"rank": 3, "tech": "Rolando Flores", "pct": "100%", "ratio": "0 / 18", "shifts": 10, "cust": "XTO"},
+   {"rank": 4, "tech": "Luis Zarate", "pct": "100%", "ratio": "0 / 14", "shifts": 9, "cust": "XTO"},
+   {"rank": 5, "tech": "Gage Gonzales", "pct": "100%", "ratio": "0 / 9", "shifts": 9, "cust": "XTO"},
+   {"rank": 6, "tech": "Larry Taylor", "pct": "100%", "ratio": "0 / 8", "shifts": 8, "cust": "Comstock"},
+   {"rank": 7, "tech": "Pablo Soto", "pct": "100%", "ratio": "0 / 17", "shifts": 7, "cust": "XTO"},
+   {"rank": 8, "tech": "Dennis Easley", "pct": "100%", "ratio": "0 / 7", "shifts": 7, "cust": "Comstock"},
+   {"rank": 9, "tech": "Justin Pack", "pct": "100%", "ratio": "0 / 7", "shifts": 7, "cust": "Mitsui"},
+   {"rank": 10, "tech": "Christian Lee", "pct": "100%", "ratio": "0 / 8", "shifts": 6, "cust": "XTO"}
+  ],
+  "bestAlso": "Also clean: Robbie Henigan, Michael Hutt, Michael Ellis, Justin Fontenot, Brianda Sandoval, Raymundo Solis, Jerry Gonzales, Ralph Forbes, Baldemar Bracamontes, Dermont Morgan — 21 of 43 qualifying techs had NO misses at all. Near-perfect: Andrew Bailey 94.7% (1/19), Michael Jobe 93.3% (1/15).",
+  "bestNotes": [
+   "Standouts on the heaviest loads: Alexander Clubb, Cindy Smith and Rolando Flores — perfect; Pablo Soto perfect on 17 checks.",
+   "September turnarounds worth naming out loud: Michael Ellis, Baldemar Bracamontes, Dermont Morgan.",
+   "Excluded from recognition despite clean completion: Larry Jaramillo and Nathan Contreras (false PPE entries 10/5–10/6)."
+  ],
+  "actions": [
+   "Address the false PPE entries NOW: Jaramillo, Contreras, Norris and Boutte this week, plus Gonzales from September. Crew-wide message: falsifying a form entry is a serious violation.",
+   "Follow up on Trevor McKenzie's old photos (9/30, 10/1) and Alfredo Vaquera's old SCBA photos (9/30). Confirm whether Marcos Morales's phone/StreetSmart problem is real.",
+   "Talk to Benjamin Boutte and Joseph Popillion about repeated missed daily inspections.",
+   "Remind Exxon/XTO crews: every job needs the Exxon JSA and the atmospheric testing log.",
+   "Confirm the six equipment issues are closed out — the empty SCBA and the out-of-hydro units first.",
+   "Recognize Clubb, Cindy Smith, Flores and Soto, and the September turnarounds: Ellis, Bracamontes and Morgan."
+  ]
+ },
  "month": {
   "label": "September 2026",
   "glance": [
