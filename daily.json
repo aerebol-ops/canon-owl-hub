@@ -167,25 +167,17 @@
   "leadershipThought": "Journey management is not paperwork for long hauls. It's somebody knowing where you are, what route you're on, and when to worry. On a lease road at 2 AM, that call-in is your attendant.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-10-06",
-    "label": "Tuesday 10/06",
+    "date": "2026-10-07",
+    "label": "Wednesday 10/07",
     "verdict": "",
     "concerns": [
       {
-        "title": "Pablo Soto — Trailer Inspection Forms, trailer 600, 4:48 AM (Andrews shop), 12:06 PM and 12:21 PM. All three forms record \"No\" to \"Are you wearing you Canon Safety issued",
-        "quote": "Are you wearing you Canon Safety issued FR uniform?"
+        "title": "Pablo Soto — XTO, Glass Y #1 and University 7-20D 4H, trailer 600, 4:41 AM / 9:39 AM / 12:57 PM, jobs 35519 and 35521. Three Trailer Inspection Forms, all for trailer 600",
+        "quote": ", all leaving the reason field blank."
       },
       {
-        "title": "Nathan Contreras — XTO, SHAQ B 38-14 4202H, 9:15 AM, job 35417. The OWL \"Learn\" section records a monitor-calibration gap.",
-        "quote": "section records a monitor-calibration gap."
-      },
-      {
-        "title": "Pablo Soto — XTO, Walnut Barron 11C 3H, 12:17 PM, job 35488_1. A leaking valve was found and corrected on location.",
-        "quote": "Walnut Barron11C 3H Just a leaking valve no gas or Benzine valve was tightened solved the problem on location"
-      },
-      {
-        "title": "Benzene detected above zero on three XTO air jobs — 1099 Cindy Smith (Preston 9B 102H, 3:23 PM, job 35397 and Tom Glavine 31-32 01HB, 9:57 AM, job 35462) and Jeremy Norri",
-        "quote": "A small amount of benzene was detected on the first break but dissipated quickly. Crew was able to work without supplied air."
+        "title": "Michael Jobe — XTO, WATKINS-BURKITT 1204G 10H, 8:04–8:59 AM, job 35394, ticket 102115. Stop-work authority was actually exercised. The narrative names the condition direc",
+        "quote": "Did a stop work because they didn't have a zone set up or a spotter"
       }
     ]
   },
