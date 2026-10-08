@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "week": 17,
-  "day": 3,
+  "day": 4,
   "topicWeek": 6,
   "displayWeek": 8,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Driving · Journey Management",
     "marker": ""
   },
-  "openingMessage": "Perfection is not attainable, but if we chase perfection we can catch excellence.",
+  "openingMessage": "The price of success is hard work, dedication to the job at hand, and the determination that whether we win or lose, we have applied the best of ourselves to the task.",
   "openingAttribution": "Vince Lombardi",
-  "openingWhy": "We'll never run a flawless location. But chasing it is how our checks caught an empty SABA and an out-of-hydro bottle this week — before anybody's lungs needed them. Chasing perfect means the flaw gets found in the inspection instead of the emergency.",
+  "openingWhy": "Some days the well wins anyway — weather, downhole, plain luck. What can't ever happen is the well winning because we showed up loose. Rained out and rescheduled with the standard intact is a good day. Finished early with steps skipped is a loss, whatever the ticket says.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,7 +164,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Distraction, fatigue, and rushing are the three passengers that never announce themselves. Any one of them alone is a stop condition. Check for all three before the truck moves — not after the first close call.",
+  "leadershipThought": "Journey management is not paperwork for long hauls. It's somebody knowing where you are, what route you're on, and when to worry. On a lease road at 2 AM, that call-in is your attendant.",
   "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-10-06",
@@ -192,19 +192,40 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Crew was communicating, spotter was there to spot the forklift driver</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Rolando Flores]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Crew was communicating, spotter was there to spot the forklift driver</span><br><br><strong>Forklift driver didn't move the forklift until he saw his spotter in place</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Hayden Haugh]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Forklift driver didn't move the forklift until he saw his spotter in place ready to go.</span><br><br><strong>Exclusion Zone Breach — Third-Party Personnel (Near Miss)</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>When SimOps create unplanned traffic near your exclusion zone, proactive interception by all crew members — not just the safety tech — is what prevents a line-of-fire exposure.</span><br><br><strong>Atmospheric Monitoring — Larry Jaramillo / Robbie Henigan 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Discussed fit testing due to the crew members all bit being shaven</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Ask crew members who will mask up prior to the job beginning and making sure they are prepared.</span>",
+  "exxonMoments": "<strong>Observed the autochoke needed to be replaced to ensure proper operation and</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify all connections, controls, and proper operation before returning the equipment to service.</span><br><br><strong>Job was canceled, reason not given</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Crew reconnected wellhead and flow line</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Nothing, was dispatch to this job but everything was all ready completed</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Had a meeting went over everything that needed to be done for job</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Do better at talking in the meeting of what our safety protocols are.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Larry Jaramillo / Robbie Henigan 1099 — Discussed fit testing due to the crew members all bit being shaven",
-      "detail": "Ask crew members who will mask up prior to the job beginning and making sure they are prepared.",
+      "headline": "Larry Jaramillo — I stopped the job and informed the MT of the situation and the correction w",
+      "detail": "I stopped the job and informed the MT of the situation and the correction was made...",
+      "psms": "Operational Discipline",
+      "level": "eagle"
+    },
+    {
+      "type": "good",
+      "headline": "Jose Campos — Good communication, no injuries, Proper PPE was utilized",
+      "detail": "Good communication, no injuries, Proper PPE was utilized",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke / Tyrell Sanders — Observe auto choke needed",
-      "detail": "Check all connections, made sure it was isolated.",
+      "headline": "Luis Zarate — There was no issues that we were challenged with",
+      "detail": "There was no issues that we were challenged with. All went according to plan.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Nathan Contreras — Crews verified LOTO , crews did great in pre task briefing",
+      "detail": "Crews verified LOTO , crews did great in pre task briefing. Crane crew had amazing",
+      "psms": "Energy Isolation",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Raymundo Solis — Everyone was alert and used a hold point to avoid any injuries or possibly",
+      "detail": "Everyone was alert and used a hold point to avoid any injuries or possibly death",
       "psms": "Operational Discipline",
       "level": null
     },
@@ -230,8 +251,8 @@
       "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "Finish today — all the way. The last form, the last photo, the location left better than you found it. Ninety percent done is not done.",
-  "todaysChallengeSubtext": "“Discipline helps you finish a job, and finishing is what separates excellence from mediocrity.” — Pat Summitt",
+  "todaysChallenge": "When the job goes sideways today — weather, delays, a hot line — nobody needs your frustration, they need your next right call. Lead the response, not the complaint.",
+  "todaysChallengeSubtext": "“During critical periods, a leader is not allowed to feel sorry for himself.” — Mike Krzyzewski",
   "compliance": {
     "weekOf": "Week of October 5, 2026",
     "metrics": [
@@ -252,22 +273,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/06"
-  },
-  "specialFocus": {
-    "week": 17,
-    "until": "2026-10-07",
-    "title": "Turtlebox Draw — Excellence Pays Off",
-    "why": "This morning's highlight: we're giving away a Turtlebox radio, and the only way onto that wheel was the paperwork. Every tech who finished September at 90%+ form compliance — 5 or more audited shifts, straight off Matt's monthly audit — has an equal slot. Twenty-two names made it. Nobody picked favorites and nobody could have: excellence got you on the wheel, and the spin picks the winner where everyone can watch. This is the deal going forward — the scoreboard isn't just accountability, it's a ticket. October's wheel is already filling.",
-    "standardLabel": "How the Draw Works — Watch It Happen",
-    "standard": [
-      "The pool is data, not opinion: 90%+ September compliance with 5+ audited shifts, per the monthly audit on the Job Forms tab. Every qualifying name is on the wheel below — check it yourself.",
-      "Equal slots, visible spin. One tap, seven turns, and the wheel decides in front of the whole circle.",
-      "Didn't make the wheel this month? The October pool opened on the 1st — every complete packet, every dated JSA, every trailer form is a step onto next month's wheel.",
-      "After the spin: Driving & Journey Management is still the week — run the scenario and get the crews rolling safe."
-    ],
-    "questions": [
-      "Twenty-two techs qualified at 90%+. What would it take to make it forty?"
-    ],
-    "nonNegotiable": "Excellence gets you in the drawing — luck only ever picks among the people who did the work. October's wheel is filling right now."
   }
 }
