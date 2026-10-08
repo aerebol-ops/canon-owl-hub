@@ -43,13 +43,13 @@
         {
           "date": "Thu, Oct 8",
           "day": "Thursday",
-          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Journey management is not paperwork for long hauls. It's somebody knowing where you are, what route you're on, and when to worry. On a lease road at 2 AM, that call-in is your attendant.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Larry Jaramillo</strong> — I stopped the job and informed the MT of the situation and the correction was made...</li><li style='margin:3px 0;'><strong>Jose Campos</strong> — Good communication, no injuries, Proper PPE was utilized</li><li style='margin:3px 0;'><strong>Luis Zarate</strong> — There was no issues that we were challenged with. All went according to plan.</li><li style='margin:3px 0;'><strong>Nathan Contreras</strong> — Crews verified LOTO , crews did great in pre task briefing. Crane crew had amazing</li><li style='margin:3px 0;'><strong>Raymundo Solis</strong> — Everyone was alert and used a hold point to avoid any injuries or possibly death</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Journey management is not paperwork for long hauls. It's somebody knowing where you are, what route you're on, and when to worry. On a lease road at 2 AM, that call-in is your attendant.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Caleb Smith</strong> — Crew performed well on the reconnect with no issues.</li><li style='margin:3px 0;'><strong>Jose Hurtado</strong> — Strong communication with crew</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
           "flags": [
             "A reconnection of a Wellhead and Flowline for production purposes",
             "Crew reconnected well head and flow line",
             "Crew disconnected well head and flow line"
           ],
-          "recognition": "Larry Jaramillo — I stopped the job and informed the MT of the situation and the correction w"
+          "recognition": "Caleb Smith — Crew performed well on the reconnect with no issues"
         }
       ]
     },

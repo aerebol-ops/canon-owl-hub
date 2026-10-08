@@ -196,36 +196,15 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Larry Jaramillo — I stopped the job and informed the MT of the situation and the correction w",
-      "detail": "I stopped the job and informed the MT of the situation and the correction was made...",
-      "psms": "Operational Discipline",
-      "level": "eagle"
-    },
-    {
-      "type": "good",
-      "headline": "Jose Campos — Good communication, no injuries, Proper PPE was utilized",
-      "detail": "Good communication, no injuries, Proper PPE was utilized",
+      "headline": "Caleb Smith — Crew performed well on the reconnect with no issues",
+      "detail": "Crew performed well on the reconnect with no issues.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Luis Zarate — There was no issues that we were challenged with",
-      "detail": "There was no issues that we were challenged with. All went according to plan.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Nathan Contreras — Crews verified LOTO , crews did great in pre task briefing",
-      "detail": "Crews verified LOTO , crews did great in pre task briefing. Crane crew had amazing",
-      "psms": "Energy Isolation",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Raymundo Solis — Everyone was alert and used a hold point to avoid any injuries or possibly",
-      "detail": "Everyone was alert and used a hold point to avoid any injuries or possibly death",
+      "headline": "Jose Hurtado — Strong communication with crew",
+      "detail": "Strong communication with crew",
       "psms": "Operational Discipline",
       "level": null
     },
