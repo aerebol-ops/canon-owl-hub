@@ -1,13 +1,13 @@
 {
- "generated": "2026-10-08",
+ "generated": "2026-10-09",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
-  "weekJobs": 5,
-  "weekForms": 9,
+  "weekJobs": 0,
+  "weekForms": 0,
   "weekFlagRate": 0,
-  "weekWells": 5,
-  "weekCrews": 4
+  "weekWells": 0,
+  "weekCrews": 0
  },
  "days": [
   {

@@ -50,6 +50,17 @@
             "Crew disconnected well head and flow line"
           ],
           "recognition": "Caleb Smith — Crew performed well on the reconnect with no issues"
+        },
+        {
+          "date": "Fri, Oct 9",
+          "day": "Friday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Awareness means you notice things before they become incidents — the crossing traffic at the gate, the eyes drooping in the driver's seat, the speed creeping up. That is not luck. That is discipline built over time.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Caleb Smith</strong> — Crew performed well on the reconnect with no issues.</li><li style='margin:3px 0;'><strong>Jose Hurtado</strong> — Strong communication with crew</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "A reconnection of a Wellhead and Flowline for production purposes",
+            "Crew reconnected well head and flow line",
+            "Crew disconnected well head and flow line"
+          ],
+          "recognition": "Caleb Smith — Crew performed well on the reconnect with no issues"
         }
       ]
     },

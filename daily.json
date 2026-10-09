@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "week": 17,
-  "day": 4,
+  "day": 5,
   "topicWeek": 6,
   "displayWeek": 8,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Driving · Journey Management",
     "marker": ""
   },
-  "openingMessage": "The price of success is hard work, dedication to the job at hand, and the determination that whether we win or lose, we have applied the best of ourselves to the task.",
+  "openingMessage": "The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack of will.",
   "openingAttribution": "Vince Lombardi",
-  "openingWhy": "Some days the well wins anyway — weather, downhole, plain luck. What can't ever happen is the well winning because we showed up loose. Rained out and rescheduled with the standard intact is a good day. Finished early with steps skipped is a loss, whatever the ticket says.",
+  "openingWhy": "Every hand on this crew can recite the five-point check in his sleep. Knowledge was never the gap. The gap shows up at hour eleven on job four, when knowing and doing start to separate — and will is the only thing that holds them together.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,27 +164,35 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Journey management is not paperwork for long hauls. It's somebody knowing where you are, what route you're on, and when to worry. On a lease road at 2 AM, that call-in is your attendant.",
+  "leadershipThought": "Awareness means you notice things before they become incidents — the crossing traffic at the gate, the eyes drooping in the driver's seat, the speed creeping up. That is not luck. That is discipline built over time.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-10-07",
-    "label": "Wednesday 10/07",
+    "date": "2026-10-08",
+    "label": "Thursday 10/08",
     "verdict": "",
     "concerns": [
       {
-        "title": "Pablo Soto — XTO, Glass Y #1 and University 7-20D 4H, trailer 600, 4:41 AM / 9:39 AM / 12:57 PM, jobs 35519 and 35521. Three Trailer Inspection Forms, all for trailer 600",
-        "quote": ", all leaving the reason field blank."
+        "title": "Nathan Contreras and 1099 Rolando Flores — XTO, Weyman 26 5, job ended 07:25 PM and 07:15 PM, jobs 35398 and 35399. Both technicians recorded an H2S release during an OFP",
+        "quote": "Flores recorded the same event and named an equipment cause:"
       },
       {
-        "title": "Michael Jobe — XTO, WATKINS-BURKITT 1204G 10H, 8:04–8:59 AM, job 35394, ticket 102115. Stop-work authority was actually exercised. The narrative names the condition direc",
-        "quote": "Did a stop work because they didn't have a zone set up or a spotter"
+        "title": "Pablo Soto — Trailer Inspection Forms, trailer 606, 04:46 AM and 09:51 AM. The FR uniform question reads \"No Are you wearing you Canon Safety issued FR uniform?\" on both ",
+        "quote": "No Are you wearing you Canon Safety issued FR uniform?"
+      },
+      {
+        "title": "Raymundo Solis — Trailer Inspection Form, trailer 504, 01:46 PM. Against the Fire Extinguisher Inspection Tag Photo the Notes field reads",
+        "quote": "Follow-up: this is an equipment defect recorded on the form, but"
+      },
+      {
+        "title": "Larry Jaramillo — XTO, Morgan-Carleton 24B 102H, job ended 11:53 AM, job 35507. Two third-party crew gas monitors were found inoperable at the tailgate meeting. Jaramillo",
+        "quote": "During our tailgate safety meeting, I noticed that 2 members of the roustabout crew, their h2s monitors were dead. They had backup monitors to use"
       }
     ]
   },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Observed the autochoke needed to be replaced to ensure proper operation and</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify all connections, controls, and proper operation before returning the equipment to service.</span><br><br><strong>Job was canceled, reason not given</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Crew reconnected wellhead and flow line</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Nothing, was dispatch to this job but everything was all ready completed</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Had a meeting went over everything that needed to be done for job</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Do better at talking in the meeting of what our safety protocols are.</span>",
+  "exxonMoments": "<strong>Crew preforming wellhead disconnect while utilizing PSMS</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey / Gage Gonzales 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Crew maintained good communication, followed the LSRAs, and completed atmos</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue maintaining continuous atmospheric monitoring and communication throughout the job.</span><br><br><strong>Atmospheric Monitoring — Michael Jobe / Robbie Henigan 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>A great safety meeting AND the proper use of a LMRA before continuing to wo</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Make sure not just us but nobody is to be around or under suspended loads.</span><br><br><strong>Job went well we had to change 2 things out from a conversion they did a co</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Tested all 0s they never opened up the well so everything was still dead.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -222,8 +230,8 @@
       "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "When the job goes sideways today — weather, delays, a hot line — nobody needs your frustration, they need your next right call. Lead the response, not the complaint.",
-  "todaysChallengeSubtext": "“During critical periods, a leader is not allowed to feel sorry for himself.” — Mike Krzyzewski",
+  "todaysChallenge": "Don't just get through today — put your fingerprint on it. One hazard closed out, one hand coached up, one location left better. Make it count.",
+  "todaysChallengeSubtext": "“Don't count the days; make the days count.” — Muhammad Ali",
   "compliance": {
     "weekOf": "Week of October 5, 2026",
     "metrics": [
@@ -244,5 +252,31 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/06"
+  },
+  "specialFocus": {
+    "week": 17,
+    "until": "2026-10-09",
+    "title": "Driver's License — On You, Every Drive. It's the Law.",
+    "why": "Driving week closes on the simplest requirement of all — the one in your wallet. Texas law (Transportation Code 521.025) requires you to have your driver's license IN YOUR POSSESSION any time you operate a vehicle and to show it when a peace officer asks. No license on you at a stop means a citation and a roadside identity check that can hold up you, the truck, and the job — and in a company vehicle it's not just your problem. Every one of us drives for a living before we do anything else for a living: a legal, licensed, carried-on-you driver is step zero of journey management. The gear gets inspected every month — this morning, the wallet does too.",
+    "standardLabel": "The License Standard — Thirty Seconds, Right Now",
+    "standard": [
+      "License ON YOU every single drive — wallet or clip, not the console of your other truck, not at the house. Texas Transportation Code 521.025: in your possession while operating, shown on demand. Pull it out right now and physically check it this morning.",
+      "Check the EXPIRATION date while it's in your hand. An expired license means you are not a legal driver — in a company truck that exposes you, the company, and our insurance. If it's expired or inside 30 days of expiring, tell your lead TODAY and get it renewed.",
+      "Address current? Texas gives you 30 days after a move to update it (521.054). Takes five minutes online — do it this weekend if you've moved.",
+      "Anything that threatens your license — a suspension, an unpaid ticket, a court date, a DWI charge — your lead hears it from YOU before you drive, not from a DOT stop after. No judgment call at the wheel: not legal, not driving, we work it out.",
+      "Carry the full packet: license, current insurance card for the truck, and your medical card if your position requires one. A clean traffic stop takes two minutes; a scramble takes an hour and an incident report."
+    ],
+    "scenarios": [
+      {
+        "title": "The Routine Stop That Wasn't",
+        "body": "A tech gets stopped for a plate light on the way to location at 5 AM. License is in his other jacket. What should have been a two-minute warning becomes forty-five minutes on the shoulder while the officer verifies identity, a citation under 521.025, and a late arrival the company man notices. Nothing unsafe happened — and it still cost the job, the schedule, and a mark on our name with the customer. The fix costs nothing: it's a wallet check before the key turns."
+      }
+    ],
+    "questions": [
+      "Everyone take out your license right now — who found an expiration date inside the next 60 days?",
+      "Where does your license physically ride on a workday — and is that with you on every vehicle swap, truck to truck?",
+      "If something put your license at risk tomorrow — a ticket, a court date — who do you call first and when?"
+    ],
+    "nonNegotiable": "License on your person, valid and current, every time you turn a key — Texas law and Canon's. If your license is at risk, your lead knows before the truck moves."
   }
 }
