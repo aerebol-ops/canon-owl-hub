@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-10-09",
-  "ytdPct": 83.8,
-  "ytdMissed": 1860,
+  "ytdPct": 83.9,
+  "ytdMissed": 1873,
   "months": [
     {
       "month": "January 2026",
@@ -2193,20 +2193,20 @@
       "month": "October 2026",
       "year": 2026,
       "monthNum": 10,
-      "compliancePct": 92.2,
-      "missedTotal": 33,
-      "dailyNo": 18,
-      "trailerInspNo": 4,
-      "trailerReadyNo": 9,
-      "problemRows": 35,
-      "blanks": 103,
-      "employees": 57,
-      "cleanEmployees": 38,
-      "dailyYesTotal": 212,
-      "dailyNoTotal": 18,
-      "rawRows": 362,
-      "daysCovered": 6,
-      "sheetsInMonth": 8,
+      "compliancePct": 92.4,
+      "missedTotal": 46,
+      "dailyNo": 24,
+      "trailerInspNo": 5,
+      "trailerReadyNo": 13,
+      "problemRows": 48,
+      "blanks": 67,
+      "employees": 58,
+      "cleanEmployees": 33,
+      "dailyYesTotal": 291,
+      "dailyNoTotal": 24,
+      "rawRows": 429,
+      "daysCovered": 8,
+      "sheetsInMonth": 11,
       "byDay": [
         {
           "date": "10/1",
@@ -2237,14 +2237,60 @@
           "date": "10/6",
           "missed": 3,
           "pct": 95
+        },
+        {
+          "date": "10/7",
+          "missed": 7,
+          "pct": 91
+        },
+        {
+          "date": "10/8",
+          "missed": 4,
+          "pct": 95
         }
       ],
       "watch": [
+        {
+          "name": "Stefanie Kirschke",
+          "totalMissed": 3,
+          "dailyMissed": 3,
+          "trailerMissed": 0,
+          "dailyYes": 7,
+          "dailyNo": 3,
+          "pct": 70
+        },
+        {
+          "name": "Alexander Clubb",
+          "totalMissed": 2,
+          "dailyMissed": 0,
+          "trailerMissed": 2,
+          "dailyYes": 13,
+          "dailyNo": 0,
+          "pct": 100
+        },
         {
           "name": "Andrew Bailey",
           "totalMissed": 1,
           "dailyMissed": 0,
           "trailerMissed": 1,
+          "dailyYes": 11,
+          "dailyNo": 0,
+          "pct": 100
+        },
+        {
+          "name": "Larry Jaramillo",
+          "totalMissed": 0,
+          "dailyMissed": 0,
+          "trailerMissed": 0,
+          "dailyYes": 10,
+          "dailyNo": 0,
+          "pct": 100
+        },
+        {
+          "name": "Pablo Soto",
+          "totalMissed": 0,
+          "dailyMissed": 0,
+          "trailerMissed": 0,
           "dailyYes": 10,
           "dailyNo": 0,
           "pct": 100
@@ -2254,13 +2300,22 @@
           "totalMissed": 0,
           "dailyMissed": 0,
           "trailerMissed": 0,
+          "dailyYes": 13,
+          "dailyNo": 0,
+          "pct": 100
+        },
+        {
+          "name": "Michael Jobe",
+          "totalMissed": 0,
+          "dailyMissed": 0,
+          "trailerMissed": 0,
           "dailyYes": 10,
           "dailyNo": 0,
           "pct": 100
         }
       ],
       "live": true,
-      "throughDate": "10/6"
+      "throughDate": "10/8"
     }
   ]
 }
