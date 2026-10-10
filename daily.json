@@ -238,5 +238,31 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/08"
+  },
+  "specialFocus": {
+    "week": 17,
+    "until": "2026-10-10",
+    "title": "Saturday Huddle — Weekend Journey Management",
+    "why": "Quick huddle — small crew, ten minutes, one subject: the weekend drive. Driving & Journey Management week doesn't end because it's Saturday; the weekend is when it matters most. Dispatch runs thinner, routes run longer, and the techs rolling today are often covering unfamiliar locations solo. Journey management on a weekend means somebody always knows where you are, when you're due, and what road you took to get there. Plan the trip, make the calls, carry the license — then go run a clean Saturday.",
+    "standardLabel": "The Weekend Drive — Short List, No Exceptions",
+    "standard": [
+      "Before you roll: route, weather radar, and fuel checked, and your ETA communicated — dispatch or your lead knows where you're headed and when you should be there. If plans change mid-day, the update takes thirty seconds. Make it.",
+      "Unfamiliar location? Pull the directions BEFORE you leave cell coverage, and know your low-water crossings and lease-road turns in daylight terms, not headlight terms.",
+      "Weekend fatigue is real fatigue — if you worked late Friday and feel it, say the words to your lead before the key turns. Nobody in this company will ever punish that call.",
+      "License, insurance card, medical card — yesterday's wallet check rides every weekend drive too (Texas 521.025 doesn't take Saturdays off).",
+      "Handoffs stay SPOKEN: anyone relieving or being relieved this weekend gives the two-minute wellhead brief — status, gas history, hazards, contacts — and leaves the paperwork current before the truck moves."
+    ],
+    "scenarios": [
+      {
+        "title": "The Saturday Solo Run",
+        "body": "A tech draws a Saturday callout to a lease he's never seen, ninety minutes out, half of it past cell coverage. He leaves without telling anyone his route or ETA — because it's Saturday and the office is quiet. A flat tire in a dead zone later, nobody knows to miss him for four hours. Same flat tire with a thirty-second journey call made first: dispatch notices at the missed ETA, knows the route, and help is rolling inside the hour. The difference was never the tire."
+      }
+    ],
+    "questions": [
+      "Who knows your route and ETA for today's jobs — and would they actually notice if you missed it?",
+      "What's the farthest dead-zone stretch on today's routes, and what's your check-in plan around it?",
+      "Anybody relieving or being relieved this weekend — when and where is the spoken handoff happening?"
+    ],
+    "nonNegotiable": "No silent departures on a weekend: route and ETA called in before you roll, license on you, handoffs spoken. Somebody always knows where you are."
   }
 }
