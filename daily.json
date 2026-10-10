@@ -241,28 +241,35 @@
   },
   "specialFocus": {
     "week": 17,
-    "until": "2026-10-10",
-    "title": "Saturday Huddle — Weekend Journey Management",
-    "why": "Quick huddle — small crew, ten minutes, one subject: the weekend drive. Driving & Journey Management week doesn't end because it's Saturday; the weekend is when it matters most. Dispatch runs thinner, routes run longer, and the techs rolling today are often covering unfamiliar locations solo. Journey management on a weekend means somebody always knows where you are, when you're due, and what road you took to get there. Plan the trip, make the calls, carry the license — then go run a clean Saturday.",
-    "standardLabel": "The Weekend Drive — Short List, No Exceptions",
+    "until": "2026-10-11",
+    "title": "Gas to Surface — Your Location, Your Authority",
+    "why": "This week it stopped being theory: on a Friday workover job, gas reached surface and a man was exposed. This morning we walk through exactly that moment — because it is THE moment Canon exists for. When gas comes up, the dynamic on location flips: the Canon tech IS the authority. Not the company man, not the toolpusher, not the operator — you. Everything we drill, calibrate, and sign all month is practice for the sixty seconds when the monitor goes off for real. So today we say it plainly, in front of everybody, so there's no doubt on any location we protect: you take charge, everyone comes out, and NOBODY goes back in who isn't under air.",
+    "standardLabel": "When Gas Hits Surface — Who's in Charge and What Happens",
     "standard": [
-      "Before you roll: route, weather radar, and fuel checked, and your ETA communicated — dispatch or your lead knows where you're headed and when you should be there. If plans change mid-day, the update takes thirty seconds. Make it.",
-      "Unfamiliar location? Pull the directions BEFORE you leave cell coverage, and know your low-water crossings and lease-road turns in daylight terms, not headlight terms.",
-      "Weekend fatigue is real fatigue — if you worked late Friday and feel it, say the words to your lead before the key turns. Nobody in this company will ever punish that call.",
-      "License, insurance card, medical card — yesterday's wallet check rides every weekend drive too (Texas 521.025 doesn't take Saturdays off).",
-      "Handoffs stay SPOKEN: anyone relieving or being relieved this weekend gives the two-minute wellhead brief — status, gas history, hazards, contacts — and leaves the paperwork current before the truck moves."
+      "The alarm sounds — YOU take charge. Sound it loud, evacuate everyone upwind or crosswind to the muster point, and account for every person on location. In that moment your authority is total, and every person on that pad — company man included — follows the Canon tech. That is not arrogance; it is exactly what the operator hired us to do.",
+      "NOBODY enters the hazard area not under air. Not to take a quick look, not to close one valve, not for ten seconds. Supplied air or SCBA, with an attendant and a plan — or they don't go. Period.",
+      "A man goes down — the rescue is UNDER AIR ONLY. The hardest discipline in this business is stopping the second man from running in bare-faced after the first. Most H2S multiple-fatality events are failed rescues: the gas that dropped him will drop you. Mask up, or you are not a rescuer — you are the next victim.",
+      "Exposure response, in order: get him out (under-air rescuers only) → fresh air, upwind → assess and call — symptomatic or unresponsive means 911 and medical evaluation, not a truck nap. An exposed man NEVER shakes it off and returns to work; knockdown effects can come back hours later. Medical eval, documented, every time.",
+      "Even if the well is OUT OF CONTROL — no hero moments. We do not fight the well; we control people, air, and distance from a safe position. Well control is the operator's problem to solve with the right equipment and the right plan. A well can be killed tomorrow. A man cannot.",
+      "Nobody re-enters until YOU clear it — with the monitor, with zeros at the right points, with the wind considered. Not when the readings 'look better,' not when the schedule is hurting, not when somebody senior gets impatient. Your gas readings end the event, nothing else.",
+      "Then the calls and the paper, same day: company man, Canon dispatch and your lead, and the write-up — OWL and incident report. Gas-to-surface with an exposure is never a 'handled it' story told Monday. It's reported the day it happens."
     ],
     "scenarios": [
       {
-        "title": "The Saturday Solo Run",
-        "body": "A tech draws a Saturday callout to a lease he's never seen, ninety minutes out, half of it past cell coverage. He leaves without telling anyone his route or ETA — because it's Saturday and the office is quiet. A flat tire in a dead zone later, nobody knows to miss him for four hours. Same flat tire with a thirty-second journey call made first: dispatch notices at the missed ETA, knows the route, and help is rolling inside the hour. The difference was never the tire."
+        "title": "Friday's Workover — Walk It Through",
+        "body": "This week, on a workover, gas made it to surface and a man took an exposure. Whoever was there or heard it firsthand: walk the circle through it — what did the first sixty seconds look like, who took charge, how did the exposed man get out, what happened after. Then the only question that matters: if that exact moment replays on YOUR location today, what do you do identically and what do you do differently? No blame in this circle — the event already paid for the lesson; we're here to collect it."
+      },
+      {
+        "title": "The Well That Won't Stop",
+        "body": "A workover well starts unloading and won't die. The company man is on the phone, the rig crew is agitated, and somebody says a man under air could 'probably get to the valve.' Here is the standard: unless YOUR plan says it's survivable and controlled — right air, right attendant, right readings, right escape path — the answer is no, and your no stands even with the well roaring. There is no valve on a location worth a man. The well gets killed by a well-control plan, not by a hero. Our job when it's out of control is everyone OUT, air ON, perimeter HELD, and the phone working."
       }
     ],
     "questions": [
-      "Who knows your route and ETA for today's jobs — and would they actually notice if you missed it?",
-      "What's the farthest dead-zone stretch on today's routes, and what's your check-in plan around it?",
-      "Anybody relieving or being relieved this weekend — when and where is the spoken handoff happening?"
+      "Gas hits surface on your location in the next hour: say your first sixty seconds out loud, step by step.",
+      "What exactly is your authority when the monitor alarms — and are you ready to use it on a company man who wants to keep working? Say the words you'd use.",
+      "A man is down in the cellar and your gut is screaming to run to him. What is the ONLY way anyone goes to get him?",
+      "Where are the muster points, the wind socks, and the cascade or SCBA on today's location — right now, without looking?"
     ],
-    "nonNegotiable": "No silent departures on a weekend: route and ETA called in before you roll, license on you, handoffs spoken. Somebody always knows where you are."
+    "nonNegotiable": "When gas comes to surface, the Canon tech runs the location: everyone out, accounted for, and NOBODY in without supplied air — no exceptions, no hero moments, even with the well out of control. A well can be killed tomorrow. A man cannot."
   }
 }
