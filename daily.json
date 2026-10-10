@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-12",
-  "week": 18,
-  "day": 1,
-  "topicWeek": 7,
-  "displayWeek": 9,
+  "date": "2026-10-10",
+  "week": 17,
+  "day": 5,
+  "topicWeek": 6,
+  "displayWeek": 8,
   "cycle": 2,
   "rotation": {
-    "week": 9,
-    "host": "RAY",
-    "topic": "Hot Work",
-    "marker": "Thu Oct 16 — 60-day check at the roundtable"
+    "week": 8,
+    "host": "ALEX",
+    "topic": "Driving · Journey Management",
+    "marker": ""
   },
-  "openingMessage": "Individual commitment to a group effort — that is what makes a team work, a company work, a society work, a civilization work.",
+  "openingMessage": "The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack of will.",
   "openingAttribution": "Vince Lombardi",
-  "openingWhy": "An attendant at a tank entry does 'nothing' for four hours — and his staying put is the entire system. Most of safety is hands keeping boring promises so the whole crew inherits a boring, incident-free day. Be boring on purpose today.",
+  "openingWhy": "Every hand on this crew can recite the five-point check in his sleep. Knowledge was never the gap. The gap shows up at hour eleven on job four, when knowing and doing start to separate — and will is the only thing that holds them together.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -164,13 +164,35 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Problem solving under pressure works when you've already decided what you'll do before the pressure arrives. Know your muster point before the alarm. Know your role before the emergency.",
+  "leadershipThought": "Awareness means you notice things before they become incidents — the crossing traffic at the gate, the eyes drooping in the driver's seat, the speed creeping up. That is not luck. That is discipline built over time.",
   "yesterdaysJobs": null,
-  "formReview": null,
+  "formReview": {
+    "date": "2026-10-08",
+    "label": "Thursday 10/08",
+    "verdict": "",
+    "concerns": [
+      {
+        "title": "Nathan Contreras and 1099 Rolando Flores — XTO, Weyman 26 5, job ended 07:25 PM and 07:15 PM, jobs 35398 and 35399. Both technicians recorded an H2S release during an OFP",
+        "quote": "Flores recorded the same event and named an equipment cause:"
+      },
+      {
+        "title": "Pablo Soto — Trailer Inspection Forms, trailer 606, 04:46 AM and 09:51 AM. The FR uniform question reads \"No Are you wearing you Canon Safety issued FR uniform?\" on both ",
+        "quote": "No Are you wearing you Canon Safety issued FR uniform?"
+      },
+      {
+        "title": "Raymundo Solis — Trailer Inspection Form, trailer 504, 01:46 PM. Against the Fire Extinguisher Inspection Tag Photo the Notes field reads",
+        "quote": "Follow-up: this is an equipment defect recorded on the form, but"
+      },
+      {
+        "title": "Larry Jaramillo — XTO, Morgan-Carleton 24B 102H, job ended 11:53 AM, job 35507. Two third-party crew gas monitors were found inoperable at the tailgate meeting. Jaramillo",
+        "quote": "During our tailgate safety meeting, I noticed that 2 members of the roustabout crew, their h2s monitors were dead. They had backup monitors to use"
+      }
+    ]
+  },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>roustabout crew performed conversion on wellhead</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Alejandro Najar]</span> <span style='font-size:12px;color:#666;'>(Hot Work)</span><br><span style='font-size:13px;'>Stopped the job when the need of an angle grinder was talked about to cut off some rusted bolts that wouldnt break loose.</span><br><br><strong>Crew followed the JSA, communicated effectively, maintained continuous gas</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Hot Work)</span><br><span style='font-size:13px;'>Crew followed the JSA, communicated effectively, maintained continuous gas monitoring,</span><br><br><strong>One of the crew didn't have Ppe on so I told him to get his stuff on</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Had meetings went over what needed to be done all completed safe manner.</span><br><br><strong>Crew preforming work as planned and discussed in PSMS meeting</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew utilized tools outlined in PSMS such as identifying triggers, hold points and LMRA.</span><br><br><strong>A thorough job-scope review of the work area was completed before starting</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue to strengthen pre-task planning and crew communication by reviewing the job scope, LSRAs, and safety controls before each phase of the reconnect conversion, while maintaining atmospheric monitoring as required.</span>",
+  "exxonMoments": "<strong>Had a great meeting went over everything that needed to be done</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew completed work in a safe manner all went great did our checks.</span><br><br><strong>Reconnected equipment after the workover crew moved off site</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Continue verifying work area conditions and communicating with crews before reconnecting equipment.</span><br><br><strong>Safety meeting was conducted and exclusion zones were set into place</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons / Justin Fontenot 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Next job will be conducted the same and held to the same standard.</span><br><br><strong>Was told the job was canceled while sitting on our first location</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Was told the job was canceled while sitting on our first location.</span><br><br><strong>Was told job was canceled while sitting on our first location</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Was told job was canceled while sitting on our first location.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -194,8 +216,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "If something goes sideways today, call it in straight — no polish, no blame. Admit it, log the lesson on your OWL form, and make sure the next crew hears it.",
-  "todaysChallengeSubtext": "“When you make a mistake, there are only three things you should ever do about it: admit it, learn from it, and don't repeat it.” — Bear Bryant",
+  "todaysChallenge": "Act like the crew every operator asks for by name — today, on this job, before anyone's handed you the credit. That's how you become it.",
+  "todaysChallengeSubtext": "“Champions behave like champions before they're champions.” — Bill Walsh",
   "compliance": {
     "weekOf": "Week of October 5, 2026",
     "metrics": [
