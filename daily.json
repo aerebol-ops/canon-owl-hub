@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-10",
-  "week": 17,
-  "day": 5,
-  "topicWeek": 6,
-  "displayWeek": 8,
+  "date": "2026-10-12",
+  "week": 18,
+  "day": 1,
+  "topicWeek": 7,
+  "displayWeek": 9,
   "cycle": 2,
   "rotation": {
-    "week": 8,
-    "host": "ALEX",
-    "topic": "Driving · Journey Management",
-    "marker": ""
+    "week": 9,
+    "host": "RAY",
+    "topic": "Hot Work",
+    "marker": "Thu Oct 16 — 60-day check at the roundtable"
   },
-  "openingMessage": "The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack of will.",
+  "openingMessage": "Individual commitment to a group effort — that is what makes a team work, a company work, a society work, a civilization work.",
   "openingAttribution": "Vince Lombardi",
-  "openingWhy": "Every hand on this crew can recite the five-point check in his sleep. Knowledge was never the gap. The gap shows up at hour eleven on job four, when knowing and doing start to separate — and will is the only thing that holds them together.",
+  "openingWhy": "An attendant at a tank entry does 'nothing' for four hours — and his staying put is the entire system. Most of safety is hands keeping boring promises so the whole crew inherits a boring, incident-free day. Be boring on purpose today.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -148,6 +148,10 @@
       "count": 2
     },
     {
+      "name": "Humberto Marquez-Salazar",
+      "count": 1
+    },
+    {
       "name": "Joseph Popillion",
       "count": 1
     },
@@ -164,49 +168,122 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Awareness means you notice things before they become incidents — the crossing traffic at the gate, the eyes drooping in the driver's seat, the speed creeping up. That is not luck. That is discipline built over time.",
-  "yesterdaysJobs": null,
+  "leadershipThought": "Problem solving under pressure works when you've already decided what you'll do before the pressure arrives. Know your muster point before the alarm. Know your role before the emergency.",
+  "yesterdaysJobs": {
+    "date": "2026-10-09",
+    "label": "Friday, October 9",
+    "count": 5,
+    "flags": 1,
+    "groups": [
+      {
+        "category": "AGT",
+        "jobs": [
+          {
+            "well": "GUITAR SOUTH 4-7 4213H",
+            "jobType": "Air Job",
+            "crew": "Jeremy Norris / Trevor Mckenzie 1099",
+            "cm": "Foreman_East Ops 5",
+            "note": "A disconnection of a stack and flow from the WH to set it up to be turned i",
+            "flag": false
+          },
+          {
+            "well": "Weyman 23A #7",
+            "jobType": "Air Job",
+            "crew": "Caleb Smith / Baldemar Bracomontes 1099",
+            "cm": "Foreman_East Ops 6",
+            "note": "Crane and roustabout crew made their exclusion zones clear and all necessar",
+            "flag": false
+          },
+          {
+            "well": "Weyman 23A #2",
+            "jobType": "Air Job",
+            "crew": "Raymundo Solis / Gael \"Antonio\" Avila 1099",
+            "cm": "Foreman_East Ops 6",
+            "note": "Discussion of exclusion zones around the crane and when the crane is in ope",
+            "flag": false
+          },
+          {
+            "well": "Powell 34 3",
+            "jobType": "Air Job",
+            "crew": "Nathan Contreras / Rolando Flores 1099",
+            "cm": "",
+            "note": "The crew conducted a safety meeting before starting work to review the LSRA",
+            "flag": false
+          },
+          {
+            "well": "Weyman 23A #1",
+            "jobType": "Air Job",
+            "crew": "Raymundo Solis / Gael \"Antonio\" Avila 1099",
+            "cm": "Foreman_East Ops 6",
+            "note": "Unsafe conditions was a big topic for this job, cellar was full of water so",
+            "flag": true
+          }
+        ]
+      }
+    ]
+  },
   "formReview": {
-    "date": "2026-10-08",
-    "label": "Thursday 10/08",
+    "date": "2026-10-10",
+    "label": "Saturday 10/10",
     "verdict": "",
     "concerns": [
       {
-        "title": "Nathan Contreras and 1099 Rolando Flores — XTO, Weyman 26 5, job ended 07:25 PM and 07:15 PM, jobs 35398 and 35399. Both technicians recorded an H2S release during an OFP",
-        "quote": "Flores recorded the same event and named an equipment cause:"
+        "title": "Pablo Soto — Trailer 604 — 10/10/2026 04:52 AM (Andrews shop) and 10:59 AM (6639 Texas 137) — two Trailer Inspection Forms. Both forms record a No to the FR uniform quest",
+        "quote": "No Are you wearing you Canon Safety issued FR uniform? If not, why? 604 Trailer Number"
       },
       {
-        "title": "Pablo Soto — Trailer Inspection Forms, trailer 606, 04:46 AM and 09:51 AM. The FR uniform question reads \"No Are you wearing you Canon Safety issued FR uniform?\" on both ",
-        "quote": "No Are you wearing you Canon Safety issued FR uniform?"
+        "title": "Dennis Easley — Comstock, Kern, 10/10/2026 05:58 PM — H2S Safety Supervision Daily Inspection Form. The FR coveralls question was answered No and the reason field was lef",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls If not, why?"
       },
       {
-        "title": "Raymundo Solis — Trailer Inspection Form, trailer 504, 01:46 PM. Against the Fire Extinguisher Inspection Tag Photo the Notes field reads",
-        "quote": "Follow-up: this is an equipment defect recorded on the form, but"
+        "title": "Justin Pack — Trailer 609 — 10/10/2026 05:38 PM, CSRHI Kilgore, 1020 Cox Dr — Trailer Inspection Form. Answered No, but unlike the two above he completed the follow-up",
+        "quote": "Because I am just picking up a trailer so I don't have to do it tomorrow"
       },
       {
-        "title": "Larry Jaramillo — XTO, Morgan-Carleton 24B 102H, job ended 11:53 AM, job 35507. Two third-party crew gas monitors were found inoperable at the tailgate meeting. Jaramillo",
-        "quote": "During our tailgate safety meeting, I noticed that 2 members of the roustabout crew, their h2s monitors were dead. They had backup monitors to use"
+        "title": "Michael Hutt — XTO Energy, Crimson Tide 1H, job 35719 — 10/10/2026 01:18 PM — rig check. The form records",
+        "quote": "Loud Alarms and Lights Tested?: No"
       }
     ]
   },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Had a great meeting went over everything that needed to be done</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew completed work in a safe manner all went great did our checks.</span><br><br><strong>Reconnected equipment after the workover crew moved off site</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Continue verifying work area conditions and communicating with crews before reconnecting equipment.</span><br><br><strong>Safety meeting was conducted and exclusion zones were set into place</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons / Justin Fontenot 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Next job will be conducted the same and held to the same standard.</span><br><br><strong>Was told the job was canceled while sitting on our first location</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Was told the job was canceled while sitting on our first location.</span><br><br><strong>Was told job was canceled while sitting on our first location</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Was told job was canceled while sitting on our first location.</span>",
+  "exxonMoments": "<strong>roustabout crew performed conversion on wellhead</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Alejandro Najar]</span> <span style='font-size:12px;color:#666;'>(Hot Work)</span><br><span style='font-size:13px;'>Stopped the job when the need of an angle grinder was talked about to cut off some rusted bolts that wouldnt break loose.</span><br><br><strong>Crew followed the JSA, communicated effectively, maintained continuous gas</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Hot Work)</span><br><span style='font-size:13px;'>Crew followed the JSA, communicated effectively, maintained continuous gas monitoring,</span><br><br><strong>A disconnection of a stack and flow from the WH to set it up to be turned i</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Trevor Mckenzie 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Be open to criticism if it could potentially teach you something new or how to possibly do your job even just a little bit better than before.</span><br><br><strong>The crew conducted a safety meeting before starting work to review the LSRA</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue reviewing LSRAs, verifying atmospheric conditions before work begins, and maintaining clear communication throughout the job to ensure hazards are identified and controlled.</span><br><br><strong>Unsafe conditions was a big topic for this job, cellar was full of water so</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Identify other factors that may affect the job (weather,& wild life).</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Caleb Smith — Crew performed well on the reconnect with no issues",
-      "detail": "Crew performed well on the reconnect with no issues.",
+      "headline": "Raymundo Solis / Gael \"Antonio\" Avila 1099 — Unsafe conditions was a big topic for this job, cellar was full of water so",
+      "detail": "Identify other factors that may affect the job (weather,& wild life).",
       "psms": "Operational Discipline",
-      "level": null
+      "level": "eagle"
     },
     {
       "type": "good",
-      "headline": "Jose Hurtado — Strong communication with crew",
-      "detail": "Strong communication with crew",
+      "headline": "Raymundo Solis / Cindy Smith 1099 — A leak was found on one of the valves stopped work to be able to shut it do",
+      "detail": "Knowing the other possible dangers on job site.",
       "psms": "Operational Discipline",
-      "level": null
+      "level": "eagle"
+    },
+    {
+      "type": "good",
+      "headline": "Caleb Smith / Baldemar Bracomontes 1099 — Crane and roustabout crew made their exclusion zones clear and all necessar",
+      "detail": "Job was completed safely, all potential triggers were identified.",
+      "psms": "Mobile Equipment",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Hayden Haugh 1099 / Tyrell Sanders — Atmospheric hazard testing was performed prior to the first break, and Lock",
+      "detail": "Ensuring all replacement flange gaskets, ring joints, studs, and exact torque specs are double-checked and staged at the wellhead before cracking the first break.",
+      "psms": "Energy Isolation",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Pablo Soto / Cindy Smith 1099 — Crew replaced parts for frac protection",
+      "detail": "Job was completed as planned with no incidents or near misses.",
+      "psms": "Operational Discipline",
+      "level": "duck"
     },
     {
       "type": "flag",
@@ -216,8 +293,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Act like the crew every operator asks for by name — today, on this job, before anyone's handed you the credit. That's how you become it.",
-  "todaysChallengeSubtext": "“Champions behave like champions before they're champions.” — Bill Walsh",
+  "todaysChallenge": "If something goes sideways today, call it in straight — no polish, no blame. Admit it, log the lesson on your OWL form, and make sure the next crew hears it.",
+  "todaysChallengeSubtext": "“When you make a mistake, there are only three things you should ever do about it: admit it, learn from it, and don't repeat it.” — Bear Bryant",
   "compliance": {
     "weekOf": "Week of October 5, 2026",
     "metrics": [
@@ -238,38 +315,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/08"
-  },
-  "specialFocus": {
-    "week": 17,
-    "until": "2026-10-11",
-    "title": "Gas to Surface — Your Location, Your Authority",
-    "why": "This week it stopped being theory: on a Friday workover job, gas reached surface and a man was exposed. This morning we walk through exactly that moment — because it is THE moment Canon exists for. When gas comes up, the dynamic on location flips: the Canon tech IS the authority. Not the company man, not the toolpusher, not the operator — you. Everything we drill, calibrate, and sign all month is practice for the sixty seconds when the monitor goes off for real. So today we say it plainly, in front of everybody, so there's no doubt on any location we protect: you take charge, everyone comes out, and NOBODY goes back in who isn't under air.",
-    "standardLabel": "When Gas Hits Surface — Who's in Charge and What Happens",
-    "standard": [
-      "The alarm sounds — YOU take charge. Sound it loud, evacuate everyone upwind or crosswind to the muster point, and account for every person on location. In that moment your authority is total, and every person on that pad — company man included — follows the Canon tech. That is not arrogance; it is exactly what the operator hired us to do.",
-      "NOBODY enters the hazard area not under air. Not to take a quick look, not to close one valve, not for ten seconds. Supplied air or SCBA, with an attendant and a plan — or they don't go. Period.",
-      "A man goes down — the rescue is UNDER AIR ONLY. The hardest discipline in this business is stopping the second man from running in bare-faced after the first. Most H2S multiple-fatality events are failed rescues: the gas that dropped him will drop you. Mask up, or you are not a rescuer — you are the next victim.",
-      "Exposure response, in order: get him out (under-air rescuers only) → fresh air, upwind → assess and call — symptomatic or unresponsive means 911 and medical evaluation, not a truck nap. An exposed man NEVER shakes it off and returns to work; knockdown effects can come back hours later. Medical eval, documented, every time.",
-      "Even if the well is OUT OF CONTROL — no hero moments. We do not fight the well; we control people, air, and distance from a safe position. Well control is the operator's problem to solve with the right equipment and the right plan. A well can be killed tomorrow. A man cannot.",
-      "Nobody re-enters until YOU clear it — with the monitor, with zeros at the right points, with the wind considered. Not when the readings 'look better,' not when the schedule is hurting, not when somebody senior gets impatient. Your gas readings end the event, nothing else.",
-      "Then the calls and the paper, same day: company man, Canon dispatch and your lead, and the write-up — OWL and incident report. Gas-to-surface with an exposure is never a 'handled it' story told Monday. It's reported the day it happens."
-    ],
-    "scenarios": [
-      {
-        "title": "Friday's Workover — Walk It Through",
-        "body": "This week, on a workover, gas made it to surface and a man took an exposure. Whoever was there or heard it firsthand: walk the circle through it — what did the first sixty seconds look like, who took charge, how did the exposed man get out, what happened after. Then the only question that matters: if that exact moment replays on YOUR location today, what do you do identically and what do you do differently? No blame in this circle — the event already paid for the lesson; we're here to collect it."
-      },
-      {
-        "title": "The Well That Won't Stop",
-        "body": "A workover well starts unloading and won't die. The company man is on the phone, the rig crew is agitated, and somebody says a man under air could 'probably get to the valve.' Here is the standard: unless YOUR plan says it's survivable and controlled — right air, right attendant, right readings, right escape path — the answer is no, and your no stands even with the well roaring. There is no valve on a location worth a man. The well gets killed by a well-control plan, not by a hero. Our job when it's out of control is everyone OUT, air ON, perimeter HELD, and the phone working."
-      }
-    ],
-    "questions": [
-      "Gas hits surface on your location in the next hour: say your first sixty seconds out loud, step by step.",
-      "What exactly is your authority when the monitor alarms — and are you ready to use it on a company man who wants to keep working? Say the words you'd use.",
-      "A man is down in the cellar and your gut is screaming to run to him. What is the ONLY way anyone goes to get him?",
-      "Where are the muster points, the wind socks, and the cascade or SCBA on today's location — right now, without looking?"
-    ],
-    "nonNegotiable": "When gas comes to surface, the Canon tech runs the location: everyone out, accounted for, and NOBODY in without supplied air — no exceptions, no hero moments, even with the well out of control. A well can be killed tomorrow. A man cannot."
   }
 }
