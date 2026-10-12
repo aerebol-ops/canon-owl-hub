@@ -259,31 +259,31 @@
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis / Cindy Smith 1099 — A leak was found on one of the valves stopped work to be able to shut it do",
-      "detail": "Knowing the other possible dangers on job site.",
-      "psms": "Operational Discipline",
-      "level": "eagle"
-    },
-    {
-      "type": "good",
-      "headline": "Caleb Smith / Baldemar Bracomontes 1099 — Crane and roustabout crew made their exclusion zones clear and all necessar",
-      "detail": "Job was completed safely, all potential triggers were identified.",
-      "psms": "Mobile Equipment",
+      "headline": "Stefanie Kirschke / Bryan Medlin — During the disconnect, a small leak was observed at the casing valve",
+      "detail": "Inspect the casing valve and connections more closely before beginning the disconnect.",
+      "psms": "Atmospheric Monitoring",
       "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Hayden Haugh 1099 / Tyrell Sanders — Atmospheric hazard testing was performed prior to the first break, and Lock",
-      "detail": "Ensuring all replacement flange gaskets, ring joints, studs, and exact torque specs are double-checked and staged at the wellhead before cracking the first break.",
+      "headline": "Nathan Contreras / Tyrell Sanders — We observed a rod hanger install on a pumpjack",
+      "detail": "Safety meeting went well , crews all identified their jobs and what they will be doing and the risk and hazards that could happen . MT verified LOTO before any work was d",
       "psms": "Energy Isolation",
       "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Pablo Soto / Cindy Smith 1099 — Crew replaced parts for frac protection",
-      "detail": "Job was completed as planned with no incidents or near misses.",
+      "headline": "Jeremy Norris / Trevor Mckenzie 1099 — A disconnection of a stack and flow from the WH to set it up to be turned i",
+      "detail": "Be open to criticism if it could potentially teach you something new or how to possibly do your job even just a little bit better than before.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Alexander Clubb / Trevor Mckenzie 1099 — Job scope was reconnect pump jack to go back into production",
+      "detail": "Job went smoothly with no errors.",
       "psms": "Operational Discipline",
-      "level": "duck"
+      "level": null
     },
     {
       "type": "flag",
@@ -315,5 +315,37 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/08"
+  },
+  "specialFocus": {
+    "week": 18,
+    "until": "2026-10-12",
+    "title": "Active Gas Well? The Plan Gets Signed Before the Job Starts",
+    "why": "Last week gas reached surface on a workover and a man took an exposure. Saturday we drilled the response — taking charge, nobody in without air, no hero moments. This morning we move the line EARLIER, to the only place exposure actually gets prevented: the pre-job. On a known active gas well, the what-if-it-surfaces plan is agreed OUT LOUD, on location, before the first tool moves — crew and company man together, signatures on the JSA, muster points walked. If the first conversation about who does what happens while the gas is already in the air, the planning step already failed. Everyone on the same page before the job is the whole game.",
+    "standardLabel": "Pre-Job on a Live Well — Signed, Said, and Walked",
+    "standard": [
+      "Know the well before you rig up. Active or suspected live gas changes the pre-job: expected gas, H2S history, job scope that could bring it to surface. If the dispatch, the board, or the company man says 'live well,' the JSA conversation gets longer, not shorter.",
+      "The JSA is signed ON LOCATION, PRE-JOB, by EVERY crew member AND the company man. Not in the doghouse after rig-up, not one hand signing for three. A signature means: I know the gas plan, I know my role, I know my muster point. No signatures, no job start — and if the CM won't sign, your lead gets a call before work begins, not after.",
+      "The JSA on a live well names the OUTCOME OWNERS, by name: the Canon tech sounds the alarm, takes charge, and owns air and evacuation · the operator's crew owns shutting in their equipment · the company man owns making sure his people follow the plan. Said out loud at the tailgate so there is zero confusion about responsibility when it's real.",
+      "Muster areas are WALKED, not pointed at: primary upwind, alternate for when the wind shifts — every person physically stands at both before the job. Everyone states their muster role: get there, stay there, BE COUNTED.",
+      "One person is named the counter, pre-job, against the sign-in sheet. At muster the counter runs the headcount and reports it; nobody leaves muster to 'go help' — a missing man is answered by the under-air plan from Saturday, never by a bare-faced run back in.",
+      "Pre-exposure is the win condition. When the plan is signed, the owners are named, and the muster is walked, gas-to-surface becomes a 90-second controlled evacuation with a clean headcount — a story for the morning meeting instead of an incident report. That is what all of this paper buys."
+    ],
+    "scenarios": [
+      {
+        "title": "The Signature That Wasn't",
+        "body": "Workover on a known gas well. The JSA gets passed around the doghouse at rig-up — the company man is 'on a call,' one hand signs for three, nobody mentions muster because everybody's 'been out here before.' At 10 AM the well burps gas to surface. Two men go downwind because nobody walked the points. The headcount is a guess because nobody was named counter. The company man is asking the Canon tech what the plan is — DURING the event. Nothing about that morning was bad luck. Every gap was visible at 7 AM, on a piece of paper nobody honored."
+      },
+      {
+        "title": "The Two-Minute Walk",
+        "body": "Same well, different crew. At rig-up the tech runs the JSA out loud: expected gas, who sounds the alarm, who shuts in, who counts. The company man signs and reads his role back. The crew physically walks primary and alternate muster — ninety extra seconds. That afternoon the well unloads to surface. Alarm, evacuation upwind, every person counted at primary muster inside two minutes, zero exposures, well shut in by the operator per the plan. Same gas as Friday. Different morning. The whole difference was signed before the gas got a vote."
+      }
+    ],
+    "questions": [
+      "Who signed your last JSA on a live well — did the company man sign it, and what exactly do you do if he won't?",
+      "Your current location, right now, no looking: where is primary muster, where is the alternate, and who is the counter?",
+      "Say the pre-job sentence you'd use to put a whole crew and a CM on the same page about gas to surface. Practice it here, out loud.",
+      "Once gas is at surface: what outcome is YOURS to own — and just as important, what belongs to the operator, not you?"
+    ],
+    "nonNegotiable": "On an active gas well, no work starts until the JSA is signed on location by every crew member AND the company man, the outcome owners are named out loud, and both muster points are walked. Exposure is prevented at the tailgate — the plan gets signed before the gas gets a vote."
   }
 }
