@@ -7,29 +7,17 @@
    "scope": "since 9/17 — job-packet data starts there",
    "diligence": {
     "winner": {
-     "who": "Pablo Soto",
-     "jobs": 10,
-     "complete": 10,
+     "who": "Jordan Lemmons",
+     "jobs": 6,
+     "complete": 6,
      "pct": 100
     },
     "board": [
      {
-      "who": "Pablo Soto",
-      "jobs": 10,
-      "complete": 10,
-      "pct": 100
-     },
-     {
       "who": "Jordan Lemmons",
-      "jobs": 20,
-      "complete": 19,
-      "pct": 95
-     },
-     {
-      "who": "Caleb Smith",
-      "jobs": 7,
+      "jobs": 6,
       "complete": 6,
-      "pct": 86
+      "pct": 100
      }
     ]
    },
