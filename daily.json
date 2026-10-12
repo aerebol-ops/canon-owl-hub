@@ -223,25 +223,21 @@
     ]
   },
   "formReview": {
-    "date": "2026-10-10",
-    "label": "Saturday 10/10",
+    "date": "2026-10-11",
+    "label": "Sunday 10/11",
     "verdict": "",
     "concerns": [
       {
-        "title": "Pablo Soto — Trailer 604 — 10/10/2026 04:52 AM (Andrews shop) and 10:59 AM (6639 Texas 137) — two Trailer Inspection Forms. Both forms record a No to the FR uniform quest",
-        "quote": "No Are you wearing you Canon Safety issued FR uniform? If not, why? 604 Trailer Number"
+        "title": "Dennis Easley — Comstock, kern (FM 39, Jewett, TX) — form time 06:32 PM, submitted 08:18 PM — H2S Safety Supervision Daily Inspection Form. Not in Canon Safety issued FR ",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
       },
       {
-        "title": "Dennis Easley — Comstock, Kern, 10/10/2026 05:58 PM — H2S Safety Supervision Daily Inspection Form. The FR coveralls question was answered No and the reason field was lef",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls If not, why?"
+        "title": "Dawson Drake — Ovintiv, H&P 551, FASKEN MD 9 U 103HJ — Job ID 35726, on site 03:54 PM to 05:47 PM — H2S Equipment Alarm Call Form. Responded to an LEL alarm on the rig fl",
+        "quote": "rather than yes or no.\n\nJob notes:"
       },
       {
-        "title": "Justin Pack — Trailer 609 — 10/10/2026 05:38 PM, CSRHI Kilgore, 1020 Cox Dr — Trailer Inspection Form. Answered No, but unlike the two above he completed the follow-up",
-        "quote": "Because I am just picking up a trailer so I don't have to do it tomorrow"
-      },
-      {
-        "title": "Michael Hutt — XTO Energy, Crimson Tide 1H, job 35719 — 10/10/2026 01:18 PM — rig check. The form records",
-        "quote": "Loud Alarms and Lights Tested?: No"
+        "title": "Trailer 602 — flat spot on the passenger front tire, reported 07:57 AM by Dawson Drake at the Andrews shop. Recorded in the \"Comments or Concerns for Management\" field of",
+        "quote": "Comments or Concerns for Management"
       }
     ]
   },
@@ -259,29 +255,29 @@
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke / Bryan Medlin — During the disconnect, a small leak was observed at the casing valve",
-      "detail": "Inspect the casing valve and connections more closely before beginning the disconnect.",
-      "psms": "Atmospheric Monitoring",
-      "level": "duck"
+      "headline": "Raymundo Solis / Justin Fontenot 1099 — Hold point was done for every task, closed off entrance with cones for our",
+      "detail": "Better communication about other hazards outside the job scope.",
+      "psms": "Operational Discipline",
+      "level": null
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras / Tyrell Sanders — We observed a rod hanger install on a pumpjack",
-      "detail": "Safety meeting went well , crews all identified their jobs and what they will be doing and the risk and hazards that could happen . MT verified LOTO before any work was d",
-      "psms": "Energy Isolation",
-      "level": "duck"
+      "headline": "Jacob Hernandez / Humberto Salazar — Everyone working safely to complete task",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "psms": "Operational Discipline",
+      "level": null
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Trevor Mckenzie 1099 — A disconnection of a stack and flow from the WH to set it up to be turned i",
-      "detail": "Be open to criticism if it could potentially teach you something new or how to possibly do your job even just a little bit better than before.",
+      "headline": "Andrew Bailey / Justin Fontenot 1099 — Atmospheric testing completed and well reconnected",
+      "detail": "We will complete the next job to the same standard.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Alexander Clubb / Trevor Mckenzie 1099 — Job scope was reconnect pump jack to go back into production",
-      "detail": "Job went smoothly with no errors.",
+      "headline": "Pablo Soto / Joseph Popillion 1099 — Gods team work and communication",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
       "psms": "Operational Discipline",
       "level": null
     },
