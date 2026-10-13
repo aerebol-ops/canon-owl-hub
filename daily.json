@@ -252,36 +252,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Hayden Haugh 1099 / Tyrell Sanders — Prior to removal, dual-barrier isolation (plugs, slickline bridge plugs, or",
-      "detail": "Upwind Positioning & Breathing Air Staging: Re-evaluate breathing air cascade line routing and muster points based on real-time wind direction changes before breaking the",
+      "headline": "Hayden Haugh 1099 / Tyrell Sanders — Installation of the BPV on the wellhead",
+      "detail": "Crew did a great job of communicating and not rushing.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Andrew Bailey / Justin Fontenot 1099 — Crew held safety meeting and discussed all exclusion zones and LSRA's",
-      "detail": "Next job will be conducted the same and held to the same standard.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jordan Lemmons / Cindy Smith 1099 — We had a leaking valve and tested and got 21 ppm of h2s",
-      "detail": "Let rusty know and stopped what we were doing to make calls to find out what's next.",
+      "headline": "Andrew Bailey / Justin Fontenot 1099 — We observed the well being put back into production after atmospheric testi",
+      "detail": "We will complete the next job to the same standard.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Andrew Bailey / Rolando Flores 1099 — The crew performed a bleed-down operation on the well using the frac tank",
-      "detail": "Continue verifying pressure conditions, monitoring the operation, and maintaining clear communication to ensure the safety of all personnel during future bleed-down opera",
+      "headline": "Andrew Bailey / Rolando Flores 1099 — Frac tank connected to well so they could bleed well down to safe pressures",
+      "detail": "We will complete the next job to the same standard.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Stefanie Kirschke / Bryan Medlin — Reconnect flow line to well",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Ruben Rojo / Dermont Morgan 1099 — Many moving parts, crew was waiting for crew to leave",
-      "detail": "All went well, no one was hurt or injured in work.",
+      "headline": "Pablo Soto / Baldemar Bracomontes 1099 — Had pretask safety meeting, one of the flanges didn't have a bleeder so it",
+      "detail": "All lSRAs pertaining to job scope were discussed, job was completed and crew utilized their LMRAs before every job step.",
       "psms": "Operational Discipline",
       "level": null
     },
