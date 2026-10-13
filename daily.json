@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "week": 18,
-  "day": 1,
+  "day": 2,
   "topicWeek": 7,
   "displayWeek": 9,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Hot Work",
     "marker": "Thu Oct 16 — 60-day check at the roundtable"
   },
-  "openingMessage": "Individual commitment to a group effort — that is what makes a team work, a company work, a society work, a civilization work.",
-  "openingAttribution": "Vince Lombardi",
-  "openingWhy": "An attendant at a tank entry does 'nothing' for four hours — and his staying put is the entire system. Most of safety is hands keeping boring promises so the whole crew inherits a boring, incident-free day. Be boring on purpose today.",
+  "openingMessage": "No one's ever drowned in sweat.",
+  "openingAttribution": "Bear Bryant",
+  "openingWhy": "Nobody in this field ever got hurt by the second gas test, the extra walk-around, or the re-check that turned out to be unnecessary. That side of the ledger has no casualties. Every name on the other side of it saved himself a little effort.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Problem solving under pressure works when you've already decided what you'll do before the pressure arrives. Know your muster point before the alarm. Know your role before the emergency.",
+  "leadershipThought": "Breaking containment is where small mistakes turn into big consequences. Preparation, awareness, and discipline to stop work keep people safe.",
   "yesterdaysJobs": {
     "date": "2026-10-09",
     "label": "Friday, October 9",
@@ -244,42 +244,42 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>roustabout crew performed conversion on wellhead</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Alejandro Najar]</span> <span style='font-size:12px;color:#666;'>(Hot Work)</span><br><span style='font-size:13px;'>Stopped the job when the need of an angle grinder was talked about to cut off some rusted bolts that wouldnt break loose.</span><br><br><strong>Crew followed the JSA, communicated effectively, maintained continuous gas</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Hot Work)</span><br><span style='font-size:13px;'>Crew followed the JSA, communicated effectively, maintained continuous gas monitoring,</span><br><br><strong>A disconnection of a stack and flow from the WH to set it up to be turned i</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Trevor Mckenzie 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Be open to criticism if it could potentially teach you something new or how to possibly do your job even just a little bit better than before.</span><br><br><strong>The crew conducted a safety meeting before starting work to review the LSRA</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue reviewing LSRAs, verifying atmospheric conditions before work begins, and maintaining clear communication throughout the job to ensure hazards are identified and controlled.</span><br><br><strong>Unsafe conditions was a big topic for this job, cellar was full of water so</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Identify other factors that may affect the job (weather,& wild life).</span>",
+  "exxonMoments": "<strong>Pretty essay and quick meeting with all the info needed it to get the job d</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything and great communication with all the people in location.</span><br><br><strong>We had pipeline workers near us on the same pad, company rep asked us to se</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Caleb Smith / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>All crew members were active and attentive on location while work was being performed.</span><br><br><strong>Hold point was done for every task, closed off entrance with cones for our</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Justin Fontenot 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Better communication about other hazards outside the job scope.</span><br><br><strong>Everyone working safely to complete task</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jacob Hernandez / Humberto Salazar]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Good communication by everyone involved</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis / Gael \"Antonio\" Avila 1099 — Unsafe conditions was a big topic for this job, cellar was full of water so",
-      "detail": "Identify other factors that may affect the job (weather,& wild life).",
-      "psms": "Operational Discipline",
-      "level": "eagle"
-    },
-    {
-      "type": "good",
-      "headline": "Luis Zarate / Humberto Salazar — Job planned, no near misses",
-      "detail": "Job planned, no near misses.",
+      "headline": "Larry Jaramillo / Jerry Gonzales — We tested and first break under air",
+      "detail": "Communication was strong.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Rolando Flores 1099 — Had to utilize a hold point to ensure a break was not hazardous gas",
-      "detail": "Good communication between crew and Canon safety.",
+      "headline": "Michael Jobe / Christian Lee 1099 — Went over safety measures with the new crew",
+      "detail": "Speak more in meetings.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Alexander Clubb / Robbie Henigan 1099 — Job scope was pulling tubes on wellhead",
-      "detail": "Call me Randal to verify where to pull tubes from, come to find out the well wasn't running and Randall was able to verify.",
+      "headline": "Ruben Rojo / Dermont Morgan 1099 — Good communication with crew and mt",
+      "detail": "Work over rig was in the process of rigging down, but everyone stayed on the same page and worked together as a team.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo / Rolando Flores 1099 — Communication between crew, us, crane crew and truck drivers was strong",
-      "detail": "Communication between crew, us, crane crew and truck drivers was strong.",
-      "psms": "Mobile Equipment",
-      "level": null
+      "headline": "Nathan Contreras / Rolando Flores 1099 — We observed as a valve replaced on a wellhead",
+      "detail": "Crews set up exclusion zones and were very professional in the pre task briefing. Crews recognized nearest hospitals and muster areas .",
+      "psms": "Operational Discipline",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons / Cindy Smith 1099 — Crew connected as much as they could but there was a leaking valve, ao it w",
+      "detail": "Strong communication between the crew, MT and Camon.",
+      "psms": "Operational Discipline",
+      "level": "duck"
     },
     {
       "type": "flag",
@@ -289,8 +289,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "If something goes sideways today, call it in straight — no polish, no blame. Admit it, log the lesson on your OWL form, and make sure the next crew hears it.",
-  "todaysChallengeSubtext": "“When you make a mistake, there are only three things you should ever do about it: admit it, learn from it, and don't repeat it.” — Bear Bryant",
+  "todaysChallenge": "No shortcuts on the pre-job today. The meeting, the walk-down, the gas test — the work comes first, every time, and that's why we go home.",
+  "todaysChallengeSubtext": "“The only place success comes before work is in the dictionary.” — Vince Lombardi",
   "compliance": {
     "weekOf": "Week of October 5, 2026",
     "metrics": [
@@ -311,37 +311,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/08"
-  },
-  "specialFocus": {
-    "week": 18,
-    "until": "2026-10-12",
-    "title": "Active Gas Well? The Plan Gets Signed Before the Job Starts",
-    "why": "Last week gas reached surface on a workover and a man took an exposure. Saturday we drilled the response — taking charge, nobody in without air, no hero moments. This morning we move the line EARLIER, to the only place exposure actually gets prevented: the pre-job. On a known active gas well, the what-if-it-surfaces plan is agreed OUT LOUD, on location, before the first tool moves — crew and company man together, signatures on the JSA, muster points walked. If the first conversation about who does what happens while the gas is already in the air, the planning step already failed. Everyone on the same page before the job is the whole game.",
-    "standardLabel": "Pre-Job on a Live Well — Signed, Said, and Walked",
-    "standard": [
-      "Know the well before you rig up. Active or suspected live gas changes the pre-job: expected gas, H2S history, job scope that could bring it to surface. If the dispatch, the board, or the company man says 'live well,' the JSA conversation gets longer, not shorter.",
-      "The JSA is signed ON LOCATION, PRE-JOB, by EVERY crew member AND the company man. Not in the doghouse after rig-up, not one hand signing for three. A signature means: I know the gas plan, I know my role, I know my muster point. No signatures, no job start — and if the CM won't sign, your lead gets a call before work begins, not after.",
-      "The JSA on a live well names the OUTCOME OWNERS, by name: the Canon tech sounds the alarm, takes charge, and owns air and evacuation · the operator's crew owns shutting in their equipment · the company man owns making sure his people follow the plan. Said out loud at the tailgate so there is zero confusion about responsibility when it's real.",
-      "Muster areas are WALKED, not pointed at: primary upwind, alternate for when the wind shifts — every person physically stands at both before the job. Everyone states their muster role: get there, stay there, BE COUNTED.",
-      "One person is named the counter, pre-job, against the sign-in sheet. At muster the counter runs the headcount and reports it; nobody leaves muster to 'go help' — a missing man is answered by the under-air plan from Saturday, never by a bare-faced run back in.",
-      "Pre-exposure is the win condition. When the plan is signed, the owners are named, and the muster is walked, gas-to-surface becomes a 90-second controlled evacuation with a clean headcount — a story for the morning meeting instead of an incident report. That is what all of this paper buys."
-    ],
-    "scenarios": [
-      {
-        "title": "The Signature That Wasn't",
-        "body": "Workover on a known gas well. The JSA gets passed around the doghouse at rig-up — the company man is 'on a call,' one hand signs for three, nobody mentions muster because everybody's 'been out here before.' At 10 AM the well burps gas to surface. Two men go downwind because nobody walked the points. The headcount is a guess because nobody was named counter. The company man is asking the Canon tech what the plan is — DURING the event. Nothing about that morning was bad luck. Every gap was visible at 7 AM, on a piece of paper nobody honored."
-      },
-      {
-        "title": "The Two-Minute Walk",
-        "body": "Same well, different crew. At rig-up the tech runs the JSA out loud: expected gas, who sounds the alarm, who shuts in, who counts. The company man signs and reads his role back. The crew physically walks primary and alternate muster — ninety extra seconds. That afternoon the well unloads to surface. Alarm, evacuation upwind, every person counted at primary muster inside two minutes, zero exposures, well shut in by the operator per the plan. Same gas as Friday. Different morning. The whole difference was signed before the gas got a vote."
-      }
-    ],
-    "questions": [
-      "Who signed your last JSA on a live well — did the company man sign it, and what exactly do you do if he won't?",
-      "Your current location, right now, no looking: where is primary muster, where is the alternate, and who is the counter?",
-      "Say the pre-job sentence you'd use to put a whole crew and a CM on the same page about gas to surface. Practice it here, out loud.",
-      "Once gas is at surface: what outcome is YOURS to own — and just as important, what belongs to the operator, not you?"
-    ],
-    "nonNegotiable": "On an active gas well, no work starts until the JSA is signed on location by every crew member AND the company man, the outcome owners are named out loud, and both muster points are walked. Exposure is prevented at the tailgate — the plan gets signed before the gas gets a vote."
   }
 }
