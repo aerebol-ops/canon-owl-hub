@@ -223,21 +223,25 @@
     ]
   },
   "formReview": {
-    "date": "2026-10-11",
-    "label": "Sunday 10/11",
+    "date": "2026-10-12",
+    "label": "Monday 10/12",
     "verdict": "",
     "concerns": [
       {
-        "title": "Dennis Easley — Comstock, kern (FM 39, Jewett, TX) — form time 06:32 PM, submitted 08:18 PM — H2S Safety Supervision Daily Inspection Form. Not in Canon Safety issued FR ",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
+        "title": "1099 Alfredo Vaquera — Diamondback, Kimberly 809H, H2S daily filed 10/12 1:39 PM (form time 9:44 AM), trailer 125. Two compliance answers came back No on the same form.",
+        "quote": "No — Do you have sufficient mask bags?"
       },
       {
-        "title": "Dawson Drake — Ovintiv, H&P 551, FASKEN MD 9 U 103HJ — Job ID 35726, on site 03:54 PM to 05:47 PM — H2S Equipment Alarm Call Form. Responded to an LEL alarm on the rig fl",
-        "quote": "rather than yes or no.\n\nJob notes:"
+        "title": "Brey Rasco — Capture Point, MPSU 7S, H2S Equipment Rig Up, job 35733, ended 10/12 11:40 AM. The rig check records the alarm test as not performed.",
+        "quote": "Loud Alarms and Lights Tested?: No"
       },
       {
-        "title": "Trailer 602 — flat spot on the passenger front tire, reported 07:57 AM by Dawson Drake at the Andrews shop. Recorded in the \"Comments or Concerns for Management\" field of",
-        "quote": "Comments or Concerns for Management"
+        "title": "Humberto Marquez-Salazar — trailer 152, Trailer Readiness Form filed 10/12 2:26 PM at Tarzan (XTO Stimson W17M 13H / Dove Scharbauer W9F 6H). Two pieces of required trail",
+        "quote": "No safety cones on this trailer"
+      },
+      {
+        "title": "Pablo Soto — trailer 602, Trailer Inspection Forms filed 10/12 5:01 AM (Andrews shop) and 1:32 PM (Andrews). Both forms answer the FR uniform question \"No\" and both leave",
+        "quote": ""
       }
     ]
   },
@@ -248,36 +252,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Andrew Bailey / Rolando Flores 1099 — Atmospheric testing was conducted around the battery tanks prior to work",
-      "detail": "Continue maintaining awareness of changing conditions and perform continuous atmospheric monitoring as required.",
+      "headline": "Nathan Contreras / Tyrell Sanders — Verify conditions, brief all personnel, and leave the location better than you f",
+      "detail": "OWL form — Operational Discipline",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez / Rolando Flores 1099 — The crew maintained communication, followed PPE requirements, and continued",
+      "detail": "Continue reinforcing LSRA reviews, proper PPE use, and continuous atmospheric monitoring to maintain a safe work environment throughout all phases of the job.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Pablo Soto / Cindy Smith 1099 — Team work good communication",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
-      "psms": "Operational Discipline",
+      "headline": "Nathan Contreras / Rolando Flores 1099 — The crew conducted a safety meeting before starting work to review the LSRA",
+      "detail": "Continue reviewing LSRAs, verifying atmospheric conditions before work begins, and maintaining clear communication throughout the job to ensure hazards are identified and",
+      "psms": "Atmospheric Monitoring",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Raymundo Solis / Gael \"Antonio\" Avila 1099 — Discussion of exclusion zones around the crane and when the crane is in ope",
+      "detail": "Check for any potential hazards outside the working zone.",
+      "psms": "Mobile Equipment",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Andrew Bailey / William \"Jimmy\" Cooper 1099 — Crews obeying safety rules",
-      "detail": "Excellent interaction.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke / Bryan Medlin — Upon arrival the casing valve was leaking, after it was greased it stopped",
-      "detail": "No gases were detected.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Pablo Soto / Baldemar Bracomontes 1099 — Good team work and communication",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "headline": "Hayden Haugh 1099 / Tyrell Sanders — Verify conditions, brief all personnel, and leave the location better than you f",
+      "detail": "OWL form — Operational Discipline",
       "psms": "Operational Discipline",
       "level": null
     },
