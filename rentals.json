@@ -31,9 +31,9 @@
   ],
   "warnDays": 15,
   "overdueDays": 30,
-  "activeRentals": 10,
+  "activeRentals": 12,
   "neverChecked": 0,
-  "overdueChecks": 9,
+  "overdueChecks": 11,
   "rigs": [
     {
       "rig": "AIR TRAILER",
@@ -63,6 +63,36 @@
       "currentStart": "2026-10-01",
       "lastCheck": "2026-06-04",
       "daysSinceCheck": 131,
+      "checkState": "overdue"
+    },
+    {
+      "rig": "H&P 628",
+      "company": "SM ENERGY",
+      "location": "DOUBLE STAMP FED 134H",
+      "status": "PENDING CODING",
+      "active": true,
+      "equipment": "REDLINE",
+      "ticket": "101130F",
+      "at": "",
+      "onRentSince": "2026-05-02",
+      "currentStart": "2026-10-08",
+      "lastCheck": "2026-06-06",
+      "daysSinceCheck": 129,
+      "checkState": "overdue"
+    },
+    {
+      "rig": "H&P 632",
+      "company": "SM ENERGY",
+      "location": "SEINFELD FED UNIT 523H",
+      "status": "PENDING CODING",
+      "active": true,
+      "equipment": "REDLINE",
+      "ticket": "101077H",
+      "at": "",
+      "onRentSince": "2026-05-01",
+      "currentStart": "2026-10-04",
+      "lastCheck": "2026-06-06",
+      "daysSinceCheck": 129,
       "checkState": "overdue"
     },
     {
@@ -184,36 +214,6 @@
       "lastCheck": "2026-09-19",
       "daysSinceCheck": 24,
       "checkState": "due"
-    },
-    {
-      "rig": "H&P 628",
-      "company": "SM ENERGY",
-      "location": "DOUBLE STAMP FED 134H",
-      "status": "(blank)",
-      "active": false,
-      "equipment": "REDLINE",
-      "ticket": "101130D",
-      "at": "",
-      "onRentSince": "2026-05-02",
-      "currentStart": "2026-10-08",
-      "lastCheck": "2026-06-06",
-      "daysSinceCheck": 129,
-      "checkState": "overdue"
-    },
-    {
-      "rig": "H&P 632",
-      "company": "SM ENERGY",
-      "location": "SEINFELD FED UNIT 523H",
-      "status": "(blank)",
-      "active": false,
-      "equipment": "REDLINE",
-      "ticket": "101077H",
-      "at": "",
-      "onRentSince": "2026-05-01",
-      "currentStart": "2026-10-04",
-      "lastCheck": "2026-06-06",
-      "daysSinceCheck": 129,
-      "checkState": "overdue"
     }
   ]
 }
