@@ -248,38 +248,38 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Larry Jaramillo / Jerry Gonzales — We tested and first break under air",
-      "detail": "Communication was strong.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Michael Jobe / Christian Lee 1099 — Went over safety measures with the new crew",
-      "detail": "Speak more in meetings.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Ruben Rojo / Dermont Morgan 1099 — Good communication with crew and mt",
-      "detail": "Work over rig was in the process of rigging down, but everyone stayed on the same page and worked together as a team.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Nathan Contreras / Rolando Flores 1099 — We observed as a valve replaced on a wellhead",
-      "detail": "Crews set up exclusion zones and were very professional in the pre task briefing. Crews recognized nearest hospitals and muster areas .",
-      "psms": "Operational Discipline",
+      "headline": "Hayden Haugh 1099 / Tyrell Sanders — A noticeable drop or stabilization in annulus/tubing pressure once the old",
+      "detail": "The job was completed on schedule with zero rework required, and the site was thoroughly cleaned up before departure.",
+      "psms": "Atmospheric Monitoring",
       "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Cindy Smith 1099 — Crew connected as much as they could but there was a leaking valve, ao it w",
-      "detail": "Strong communication between the crew, MT and Camon.",
+      "headline": "Raymundo Solis / Gael \"Antonio\" Avila 1099 — Pretty essay and quick meeting with all the info needed it to get the job d",
+      "detail": "Everything and great communication with all the people in location.",
       "psms": "Operational Discipline",
-      "level": "duck"
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Caleb Smith / Baldemar Bracomontes 1099 — We had pipeline workers near us on the same pad, company rep asked us to se",
+      "detail": "All crew members were active and attentive on location while work was being performed.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez / Humberto Salazar — Great meeting discussed job scope came back to hold points when needed",
+      "detail": "Job was done safely and no issues.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Andrew Bailey / Justin Fontenot 1099 — Safety meeting was held and all crew trucks set into place and set exclusio",
+      "detail": "Next job will be conducted the same and held to the same standard.",
+      "psms": "Operational Discipline",
+      "level": null
     },
     {
       "type": "flag",
