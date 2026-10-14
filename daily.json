@@ -235,5 +235,38 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/08"
+  },
+  "specialFocus": {
+    "week": 18,
+    "until": "2026-10-14",
+    "title": "360 Before You Roll — Tires, Trailers, and the Walk-Around",
+    "why": "Half this job is driving, and the most dangerous thing most of us do all day is pull a trailer down a highway at 70. The moment you hook on, you take on responsibility that is bigger than the truck: the trailer, the load, the hitch, and every family in every vehicle around you. None of that is managed from the driver's seat — it is managed on foot, before the key turns. The 360 walk-around is a two-minute habit that catches the bulged tire, the unlatched coupler, the loose strap, and the kid's bike behind the bumper. Tires are the number-one roadside failure we have, and trailer tires are the worst offenders — they sit, they dry-rot, they run hot and nobody checks them. This morning we make the 360 a team sport: every departure, to the job AND from it.",
+    "standardLabel": "The 360 Walk-Around — Every Departure, Both Directions",
+    "standard": [
+      "No truck or trailer moves without a full 360 — a complete lap around truck AND trailer, every departure. Eyes on all four truck tires and every trailer tire, lights, leaks under the rig, the load, and what is BEHIND and UNDER you before you back: people, equipment, ruts, low lines.",
+      "Tires get looked at, not kicked: tread, pressure (a gauge, not a boot), sidewall cuts and dry-rot cracks, bulges, lug nuts, and valve caps. Pulling a trailer? Check its tires like your life rides on them — it does, and so does everyone in the oncoming lane. Know where the spare is and that the jack actually fits the trailer.",
+      "The hitch gets a hand on it, not a glance: right ball for the coupler, coupler latched and PINNED, safety chains CROSSED under the tongue (they cradle it if it drops), breakaway cable to the frame — never to the chains — and the plug seated. Then prove the lights: brakes, both turns, running. That takes two people — which is the point.",
+      "The load is YOUR load the second you pull out: strapped, within the trailer's rating, tongue weight right (10–15% — too light is how trailers start to wag), nothing loose that can shift, slide, or blow out on the highway. A ratchet strap costs $15; what it holds down costs a career.",
+      "A good team splits the 360: driver walks one side, second man walks the other, and they CALL OUT what they see — 'left rear trailer tire good, chains crossed, pin in.' Cross at the hitch, both put eyes on it, one works the light check. Ninety seconds, two sets of eyes, zero assumptions. Solo? Walk the whole lap yourself and do the light check against a window, a building, or your phone propped on the bed rail.",
+      "FROM location counts double. The end-of-job 360 is the one that gets skipped — you're tired, it's dark, you just want the house. That's exactly when the strap has loosened, the tires are mud-packed and cut, gear is sitting on the deck unstrapped, and a spike or tool is behind a tire. Same full lap, same call-outs, a spotter on the backout — before every departure OFF location too."
+    ],
+    "scenarios": [
+      {
+        "title": "The Tire That Told You",
+        "body": "A crew hooks up at the yard before daylight. The trailer's passenger-side tire has a sidewall bulge the size of an egg — visible to anyone who walks that side. Nobody does; the driver checks his mirror, sees 'trailer,' and rolls. At 70 on the highway the tire lets go, the trailer whips, and it takes both lanes to wrestle it straight — with a loaded ATV on the deck and a family in the SUV behind them. Rewind the same morning with a two-minute 360: the bulge gets spotted at the yard under a flashlight, the spare goes on, and the crew is on location twenty minutes late instead of in a ditch. The tire told them either way. The only question was whether anyone walked over to listen."
+      },
+      {
+        "title": "Two Men, Two Directions",
+        "body": "Watch a good crew leave location at the end of a long day. Driver takes the driver's side, partner takes the passenger side, and they talk: 'tires good this side' — 'strap on the back has slack, re-racking it' — 'chains crossed, pin's in.' They meet at the hitch and BOTH put a hand on the coupler. Partner stands behind for the light check: brakes, left, right. Then he spots the backout past the tank battery. Ninety seconds, start to finish. That lap is where they catch the coupler that bounced loose on the lease road in, the mud-packed tire hiding a cut, and the hand tool sitting behind the duals. Nothing about it is luck — it's two sets of eyes refusing to assume the other one looked."
+      }
+    ],
+    "questions": [
+      "Say your 360 route out loud, right now — where do you start, what do you touch, and where do you finish?",
+      "When did you last put an actual gauge on your trailer tires — and what should they carry? If you don't know the number, who does?",
+      "Why do the safety chains cross under the tongue? If you can't answer it, you haven't thought about the day the coupler lets go.",
+      "You're solo and need a brake-light check with a trailer on. How do you do it — for real, not 'I'd just go'?",
+      "It's 7 PM, you're beat, and you're hooking up to leave location. What does YOUR walk-around look like at that moment — and is it the same one you did at 6 AM?"
+    ],
+    "nonNegotiable": "Nothing with wheels leaves the yard or the location without a full 360 walk-around — tires gauged and eyeballed, coupler latched and pinned, chains crossed, breakaway on the frame, lights proven, load strapped. Two people when you have them, called out loud. The two minutes you skip are the two minutes that bite."
   }
 }
