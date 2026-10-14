@@ -200,30 +200,9 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Andrew Bailey / Justin Fontenot 1099 — Observed well being reconnected and atmospheric testing being completed",
-      "detail": "We will complete the next job to the same standard.",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke / Bryan Medlin — Equipment was inspected and connections were prepared for safe reconnection",
-      "detail": "Continue verifying equipment and connections before starting work.",
+      "headline": "Andrew Bailey / Justin Fontenot 1099 — Held safety meeting and went over job steps and set up exclusion zones",
+      "detail": "Next job will be held to the same standard.",
       "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Pablo Soto / Baldemar Bracomontes 1099 — Good team and communication",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Larry Jaramillo / Jerry Gonzales — Crew disconnect from well",
-      "detail": "Crew was very Mobile and were all on the same page.",
-      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {

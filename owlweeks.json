@@ -28,11 +28,11 @@
         {
           "date": "Wed, Oct 14",
           "day": "Wednesday",
-          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;When the plan breaks down, the people who trained hardest perform best. That is not an accident. Every emergency response — real or drill — is a data point. Debrief it. Get better.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Andrew Bailey / Justin Fontenot 1099</strong> — We will complete the next job to the same standard.</li><li style='margin:3px 0;'><strong>Stefanie Kirschke / Bryan Medlin</strong> — Continue verifying equipment and connections before starting work.</li><li style='margin:3px 0;'><strong>Pablo Soto / Baldemar Bracomontes 1099</strong> — Verify conditions, brief all personnel, and leave the location better than you found it.</li><li style='margin:3px 0;'><strong>Larry Jaramillo / Jerry Gonzales</strong> — Crew was very Mobile and were all on the same page.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;When the plan breaks down, the people who trained hardest perform best. That is not an accident. Every emergency response — real or drill — is a data point. Debrief it. Get better.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Andrew Bailey / Justin Fontenot 1099</strong> — Next job will be held to the same standard.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
           "flags": [
             "Clean board — no open watch items this week"
           ],
-          "recognition": "Andrew Bailey / Justin Fontenot 1099 — Observed well being reconnected and atmospheric testing being completed"
+          "recognition": "Andrew Bailey / Justin Fontenot 1099 — Held safety meeting and went over job steps and set up exclusion zones"
         }
       ]
     },
