@@ -169,39 +169,132 @@
     }
   ],
   "leadershipThought": "When the plan breaks down, the people who trained hardest perform best. That is not an accident. Every emergency response — real or drill — is a data point. Debrief it. Get better.",
-  "yesterdaysJobs": null,
-  "formReview": {
+  "yesterdaysJobs": {
     "date": "2026-10-12",
-    "label": "Monday 10/12",
+    "label": "Monday, October 12",
+    "count": 6,
+    "flags": 1,
+    "groups": [
+      {
+        "category": "AGT",
+        "jobs": [
+          {
+            "well": "CRAWFORD 27O 115H",
+            "jobType": "Air Job",
+            "crew": "Ruben Rojo / Baldemar Bracomontes 1099",
+            "cm": "Foreman_West Ops 9",
+            "note": "Atmospheric Monitoring — Ruben Rojo / Baldemar Bracomontes 1099",
+            "flag": false
+          },
+          {
+            "well": "SDU 1984A",
+            "jobType": "Air Job",
+            "crew": "Jeremy Norris / Jerry Gonzales",
+            "cm": "",
+            "note": "Crew take part well and upgrade rubber",
+            "flag": false
+          },
+          {
+            "well": "GLASS Y #1",
+            "jobType": "Air Job",
+            "crew": "Ruben Rojo / Baldemar Bracomontes 1099",
+            "cm": "Foreman_West Ops 11",
+            "note": "Had pre task meeting, recognized all hazards associated with job and comple",
+            "flag": true
+          },
+          {
+            "well": "XBC Giddings Estate 4097H",
+            "jobType": "Air Job",
+            "crew": "Alexander Clubb / Raymundo Solis",
+            "cm": "Rick Parks",
+            "note": "Hold point was utilized when they started moving parts with the forklift",
+            "flag": false
+          },
+          {
+            "well": "SDU 1476A",
+            "jobType": "Air Job",
+            "crew": "Jeremy Norris / Jerry Gonzales",
+            "cm": "",
+            "note": "Replacement of a packing on a wellhead stuffing box",
+            "flag": false
+          }
+        ]
+      },
+      {
+        "category": "Maintenance",
+        "jobs": [
+          {
+            "well": "STOKES 13 1 SWD-P706",
+            "jobType": "Air Job",
+            "crew": "",
+            "cm": "",
+            "note": "Changing the seal pump",
+            "flag": false
+          }
+        ]
+      }
+    ]
+  },
+  "formReview": {
+    "date": "2026-10-13",
+    "label": "Tuesday 10/13",
     "verdict": "",
     "concerns": [
       {
-        "title": "1099 Alfredo Vaquera — Diamondback, Kimberly 809H, H2S daily filed 10/12 1:39 PM (form time 9:44 AM), trailer 125. Two compliance answers came back No on the same form.",
-        "quote": "No — Do you have sufficient mask bags?"
+        "title": "Pablo Soto — XTO, Donald L Hutt C 3672H / Andrews shop, 4:37 AM and 10:26 AM, Trailer Inspection Forms for trailer 604. Answered No to the FR uniform question on both for",
+        "quote": "No Are you wearing you Canon Safety issued FR uniform? If not, why?"
       },
       {
-        "title": "Brey Rasco — Capture Point, MPSU 7S, H2S Equipment Rig Up, job 35733, ended 10/12 11:40 AM. The rig check records the alarm test as not performed.",
-        "quote": "Loud Alarms and Lights Tested?: No"
+        "title": "Alfredo Vaquera — Diamondback, Kimberly 809H, 8:35 AM, H2S Safety Supervision Daily Inspection Form. Two No answers on the same form: not in Canon Safety issued FR covera",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls None assigned If not, why?"
       },
       {
-        "title": "Humberto Marquez-Salazar — trailer 152, Trailer Readiness Form filed 10/12 2:26 PM at Tarzan (XTO Stimson W17M 13H / Dove Scharbauer W9F 6H). Two pieces of required trail",
-        "quote": "No safety cones on this trailer"
+        "title": "Dawson Drake — XTO, K Bird 12H-V301, 1:09 PM, Trailer Inspection Form for trailer 600. Answered No to the FR uniform question, reason given.",
+        "quote": "No Are you wearing you Canon Safety issued FR uniform? Driving to the shop If not, why?"
       },
       {
-        "title": "Pablo Soto — trailer 602, Trailer Inspection Forms filed 10/12 5:01 AM (Andrews shop) and 1:32 PM (Andrews). Both forms answer the FR uniform question \"No\" and both leave",
-        "quote": ""
+        "title": "Bobby Galindo — SM Energy / Ovintiv, H&P 264, 8:35 AM, H2S Safety Supervision Daily Inspection Form. Answered No to sufficient mask bags, and reported two dead sensors an",
+        "quote": "No Do you have sufficient mask bags?"
       }
     ]
   },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Gods team work and communication</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Pablo Soto / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Safety meeting was held and all crew trucks set into place and set exclusio</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey / Justin Fontenot 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Next job will be conducted the same and held to the same standard.</span><br><br><strong>Communication between crew, us, crane crew and truck drivers was strong</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Communication between crew, us, crane crew and truck drivers was strong.</span><br><br><strong>Atmospheric Monitoring — Nathan Contreras / Robbie Henigan 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Atmospheric hazard testing was performed prior to the first break, and Lock</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Hayden Haugh 1099 / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Ensuring all replacement flange gaskets, ring joints, studs, and exact torque specs are double-checked and staged at the wellhead before cracking the first break.</span>",
+  "exxonMoments": "<strong>Atmospheric Monitoring — Ruben Rojo / Baldemar Bracomontes 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Had pre task briefing discussion potential hazards associated with the job</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew was made aware of all lSRAs and how to utilize their LMRAs.</span><br><br><strong>The crew killed the well then began taking apart the top of the well swivel</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Communication is somthing we can always work on getting better at .</span><br><br><strong>Replacement of a packing on a wellhead stuffing box</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The job went safely and quuckly once we were able to get the well on a vacuum.</span><br><br><strong>Good communication between all associates on the lease during the job compe</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything went well and this job and there was no real room foe improvement.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Andrew Bailey / Justin Fontenot 1099 — Held safety meeting and went over job steps and set up exclusion zones",
-      "detail": "Next job will be held to the same standard.",
+      "headline": "Ruben Rojo / Baldemar Bracomontes 1099 — Verify conditions, brief all personnel, and leave the location better than you f",
+      "detail": "OWL form — Atmospheric Monitoring",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Alexander Clubb / Raymundo Solis — Job scope was reconnect wellhead from production",
+      "detail": "No issues arose on site.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Larry Jaramillo / Gage Gonzales 1099 — Crew completed job per scope without unplanned stops",
+      "detail": "Communicate with MT before job on location conditions.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Dawson Drake / Jerry Gonzales — Communication between text and crew",
+      "detail": "Communication between text and crew.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris / Jerry Gonzales — The crew killed the well then began taking apart the top of the well swivel",
+      "detail": "Communication is somthing we can always work on getting better at .",
       "psms": "Operational Discipline",
       "level": null
     },

@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-13",
+ "generated": "2026-10-14",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
-  "weekJobs": 14,
-  "weekForms": 27,
-  "weekFlagRate": 7,
-  "weekWells": 14,
+  "weekJobs": 12,
+  "weekForms": 23,
+  "weekFlagRate": 8,
+  "weekWells": 12,
   "weekCrews": 9
  },
  "days": [
@@ -239,10 +239,42 @@
    "Maintenance": 0,
    "Well Testing": 0,
    "Other": 0
+  },
+  {
+   "date": "2026-10-10",
+   "forms": 4,
+   "jobs": 2,
+   "flags": 0,
+   "AGT": 2,
+   "Maintenance": 0,
+   "Well Testing": 0,
+   "Other": 0
   }
  ],
  "repeatFlagWells": [],
  "recent": [
+  {
+   "date": "2026-10-10",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "UNIVERSITY 2-20 56H",
+   "crew": "Dawson Drake / Jerry Gonzales",
+   "cm": "",
+   "note": "Communication between text and crew",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-10",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "NPSU 610A",
+   "crew": "Larry Jaramillo / Gage Gonzales 1099",
+   "cm": "",
+   "note": "Crew completed job per scope without unplanned stops",
+   "psms": "Atmospheric Monitoring",
+   "flag": false
+  },
   {
    "date": "2026-10-09",
    "category": "AGT",

@@ -1,7 +1,51 @@
 {
- "generated": "2026-10-13",
+ "generated": "2026-10-14",
  "scope": "Dropbox '- OWL' exports \u2014 OWL, JSA, 4-gas, location sign, ticket auditable; benzene/atmospheric/permits/tubes/names need the full packet feed",
  "jobs": [
+  {
+   "date": "2026-10-10",
+   "well": "UNIVERSITY 2-20 56H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102170",
+   "bnz": "7",
+   "at": "607",
+   "techs": "DAWSON DRAKE / JERRY GONZALES",
+   "sched": "10/10/26 8:00",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-10",
+   "well": "NPSU 610A",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102165",
+   "bnz": "6",
+   "at": "606",
+   "techs": "LARRY JARAMILLO / Gage Gonzales 1099",
+   "sched": "10/10/26 9:00",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
   {
    "date": "2026-10-09",
    "well": "Weyman 23A #7",
