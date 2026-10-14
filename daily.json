@@ -265,36 +265,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Ruben Rojo / Baldemar Bracomontes 1099 — Verify conditions, brief all personnel, and leave the location better than you f",
-      "detail": "OWL form — Atmospheric Monitoring",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Alexander Clubb / Raymundo Solis — Job scope was reconnect wellhead from production",
-      "detail": "No issues arose on site.",
+      "headline": "Ruben Rojo / Baldemar Bracomontes 1099 — Had pre task briefing discussion potential hazards associated with the job",
+      "detail": "Crew was made aware of all lSRAs and how to utilize their LMRAs.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo / Gage Gonzales 1099 — Crew completed job per scope without unplanned stops",
-      "detail": "Communicate with MT before job on location conditions.",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Dawson Drake / Jerry Gonzales — Communication between text and crew",
-      "detail": "Communication between text and crew.",
+      "headline": "Jeremy Norris / Jerry Gonzales — Replacement of a packing on a wellhead stuffing box",
+      "detail": "The job went safely and quuckly once we were able to get the well on a vacuum.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Jerry Gonzales — The crew killed the well then began taking apart the top of the well swivel",
-      "detail": "Communication is somthing we can always work on getting better at .",
+      "headline": "Alexander Clubb / Raymundo Solis — Hold point was utilized when they started moving parts with the forklift",
+      "detail": "Try to understand the history of the location if any issues has occurred before.",
+      "psms": "Mobile Equipment",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Larry Jaramillo / Gage Gonzales 1099 — Everyone worked together in a safe and timely manner",
+      "detail": "Communication was on point.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Dawson Drake / Jerry Gonzales — Crew we connect to well after having meeting",
+      "detail": "Communication is something we can always get better at.",
       "psms": "Operational Discipline",
       "level": null
     },
