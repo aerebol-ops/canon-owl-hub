@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "week": 18,
-  "day": 2,
+  "day": 3,
   "topicWeek": 7,
   "displayWeek": 9,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Hot Work",
     "marker": "Thu Oct 16 — 60-day check at the roundtable"
   },
-  "openingMessage": "No one's ever drowned in sweat.",
+  "openingMessage": "In a crisis, don't hide behind anything or anybody. They're going to find you anyway.",
   "openingAttribution": "Bear Bryant",
-  "openingWhy": "Nobody in this field ever got hurt by the second gas test, the extra walk-around, or the re-check that turned out to be unnecessary. That side of the ledger has no casualties. Every name on the other side of it saved himself a little effort.",
+  "openingWhy": "Every incident out here gets rebuilt hour by hour — who read what, who said what, who signed what. The truth comes out on location or it comes out in the investigation. Only one of those versions is yours to be proud of. Call it in straight, the minute it happens.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,60 +168,8 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Breaking containment is where small mistakes turn into big consequences. Preparation, awareness, and discipline to stop work keep people safe.",
-  "yesterdaysJobs": {
-    "date": "2026-10-09",
-    "label": "Friday, October 9",
-    "count": 5,
-    "flags": 1,
-    "groups": [
-      {
-        "category": "AGT",
-        "jobs": [
-          {
-            "well": "GUITAR SOUTH 4-7 4213H",
-            "jobType": "Air Job",
-            "crew": "Jeremy Norris / Trevor Mckenzie 1099",
-            "cm": "Foreman_East Ops 5",
-            "note": "A disconnection of a stack and flow from the WH to set it up to be turned i",
-            "flag": false
-          },
-          {
-            "well": "Weyman 23A #7",
-            "jobType": "Air Job",
-            "crew": "Caleb Smith / Baldemar Bracomontes 1099",
-            "cm": "Foreman_East Ops 6",
-            "note": "Crane and roustabout crew made their exclusion zones clear and all necessar",
-            "flag": false
-          },
-          {
-            "well": "Weyman 23A #2",
-            "jobType": "Air Job",
-            "crew": "Raymundo Solis / Gael \"Antonio\" Avila 1099",
-            "cm": "Foreman_East Ops 6",
-            "note": "Discussion of exclusion zones around the crane and when the crane is in ope",
-            "flag": false
-          },
-          {
-            "well": "Powell 34 3",
-            "jobType": "Air Job",
-            "crew": "Nathan Contreras / Rolando Flores 1099",
-            "cm": "",
-            "note": "The crew conducted a safety meeting before starting work to review the LSRA",
-            "flag": false
-          },
-          {
-            "well": "Weyman 23A #1",
-            "jobType": "Air Job",
-            "crew": "Raymundo Solis / Gael \"Antonio\" Avila 1099",
-            "cm": "Foreman_East Ops 6",
-            "note": "Unsafe conditions was a big topic for this job, cellar was full of water so",
-            "flag": true
-          }
-        ]
-      }
-    ]
-  },
+  "leadershipThought": "When the plan breaks down, the people who trained hardest perform best. That is not an accident. Every emergency response — real or drill — is a data point. Debrief it. Get better.",
+  "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-10-12",
     "label": "Monday 10/12",
@@ -248,41 +196,34 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Pretty essay and quick meeting with all the info needed it to get the job d</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything and great communication with all the people in location.</span><br><br><strong>We had pipeline workers near us on the same pad, company rep asked us to se</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Caleb Smith / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>All crew members were active and attentive on location while work was being performed.</span><br><br><strong>Hold point was done for every task, closed off entrance with cones for our</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Justin Fontenot 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Better communication about other hazards outside the job scope.</span><br><br><strong>Everyone working safely to complete task</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jacob Hernandez / Humberto Salazar]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Good communication by everyone involved</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
+  "exxonMoments": "<strong>Gods team work and communication</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Pablo Soto / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Safety meeting was held and all crew trucks set into place and set exclusio</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey / Justin Fontenot 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Next job will be conducted the same and held to the same standard.</span><br><br><strong>Communication between crew, us, crane crew and truck drivers was strong</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Communication between crew, us, crane crew and truck drivers was strong.</span><br><br><strong>Atmospheric Monitoring — Nathan Contreras / Robbie Henigan 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Atmospheric hazard testing was performed prior to the first break, and Lock</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Hayden Haugh 1099 / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Ensuring all replacement flange gaskets, ring joints, studs, and exact torque specs are double-checked and staged at the wellhead before cracking the first break.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Hayden Haugh 1099 / Tyrell Sanders — Installation of the BPV on the wellhead",
-      "detail": "Crew did a great job of communicating and not rushing.",
+      "headline": "Andrew Bailey / Justin Fontenot 1099 — Observed well being reconnected and atmospheric testing being completed",
+      "detail": "We will complete the next job to the same standard.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Stefanie Kirschke / Bryan Medlin — Equipment was inspected and connections were prepared for safe reconnection",
+      "detail": "Continue verifying equipment and connections before starting work.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Andrew Bailey / Justin Fontenot 1099 — We observed the well being put back into production after atmospheric testi",
-      "detail": "We will complete the next job to the same standard.",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Andrew Bailey / Rolando Flores 1099 — Frac tank connected to well so they could bleed well down to safe pressures",
-      "detail": "We will complete the next job to the same standard.",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke / Bryan Medlin — Reconnect flow line to well",
+      "headline": "Pablo Soto / Baldemar Bracomontes 1099 — Good team and communication",
       "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Pablo Soto / Baldemar Bracomontes 1099 — Had pretask safety meeting, one of the flanges didn't have a bleeder so it",
-      "detail": "All lSRAs pertaining to job scope were discussed, job was completed and crew utilized their LMRAs before every job step.",
-      "psms": "Operational Discipline",
+      "headline": "Larry Jaramillo / Jerry Gonzales — Crew disconnect from well",
+      "detail": "Crew was very Mobile and were all on the same page.",
+      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
@@ -293,8 +234,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "No shortcuts on the pre-job today. The meeting, the walk-down, the gas test — the work comes first, every time, and that's why we go home.",
-  "todaysChallengeSubtext": "“The only place success comes before work is in the dictionary.” — Vince Lombardi",
+  "todaysChallenge": "Near-misses are the reps that make us good — but only if they're reported. If you see one today, write it up. An unreported near-miss is a wasted lesson.",
+  "todaysChallengeSubtext": "“I've failed over and over and over again in my life. And that is why I succeed.” — Michael Jordan",
   "compliance": {
     "weekOf": "Week of October 5, 2026",
     "metrics": [
