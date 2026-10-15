@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "week": 18,
-  "day": 3,
+  "day": 4,
   "topicWeek": 7,
   "displayWeek": 9,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Hot Work",
     "marker": "Thu Oct 16 — 60-day check at the roundtable"
   },
-  "openingMessage": "In a crisis, don't hide behind anything or anybody. They're going to find you anyway.",
+  "openingMessage": "Show class, have pride, and display character. If you do, winning takes care of itself.",
   "openingAttribution": "Bear Bryant",
-  "openingWhy": "Every incident out here gets rebuilt hour by hour — who read what, who said what, who signed what. The truth comes out on location or it comes out in the investigation. Only one of those versions is yours to be proud of. Call it in straight, the minute it happens.",
+  "openingWhy": "We don't chase the operator's scorecard — we run our standard and let the scorecard follow. The crew that leaves the pad cleaner than they found it never needs a sales pitch. Their locations are the pitch.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "When the plan breaks down, the people who trained hardest perform best. That is not an accident. Every emergency response — real or drill — is a data point. Debrief it. Get better.",
+  "leadershipThought": "Do you continue the task or stop? What readings are acceptable versus stop work? Who is responsible for calling it? Know those answers before you crack the hatch.",
   "yesterdaysJobs": {
     "date": "2026-10-12",
     "label": "Monday, October 12",
@@ -261,40 +261,40 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Atmospheric Monitoring — Ruben Rojo / Baldemar Bracomontes 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Had pre task briefing discussion potential hazards associated with the job</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew was made aware of all lSRAs and how to utilize their LMRAs.</span><br><br><strong>The crew killed the well then began taking apart the top of the well swivel</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Communication is somthing we can always work on getting better at .</span><br><br><strong>Replacement of a packing on a wellhead stuffing box</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The job went safely and quuckly once we were able to get the well on a vacuum.</span><br><br><strong>Good communication between all associates on the lease during the job compe</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything went well and this job and there was no real room foe improvement.</span>",
+  "exxonMoments": "<strong>Hold point was utilized when they started moving parts with the forklift</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Try to understand the history of the location if any issues has occurred before.</span><br><br><strong>Changing the seal pump</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Next job will be held to the same standards and executed the same way.</span><br><br><strong>Operational Discipline — Hayden Haugh 1099 / Tyrell Sanders</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Hayden Haugh 1099 / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Prior to removal, dual-barrier isolation (plugs, slickline bridge plugs, or</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Hayden Haugh 1099 / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Upwind Positioning & Breathing Air Staging: Re-evaluate breathing air cascade line routing and muster points based on real-time wind direction changes before breaking the seal.</span><br><br><strong>Crew preforming wellhead reconnect, WAME, Breaking containment</strong> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Communication between forklift operator and spotter was flawless.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Ruben Rojo / Baldemar Bracomontes 1099 — Had pre task briefing discussion potential hazards associated with the job",
-      "detail": "Crew was made aware of all lSRAs and how to utilize their LMRAs.",
+      "headline": "Dawson Drake / Alejandro Najar — crews realligned polish rod on pumpjack",
+      "detail": "Everyone not needed in exclusion zone stayed out of it.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Jerry Gonzales — Replacement of a packing on a wellhead stuffing box",
-      "detail": "The job went safely and quuckly once we were able to get the well on a vacuum.",
+      "headline": "Jacob Hernandez / Robbie Henigan 1099 — Job completed just as scope called for",
+      "detail": "Great communication with crew and MY.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Alexander Clubb / Raymundo Solis — Hold point was utilized when they started moving parts with the forklift",
-      "detail": "Try to understand the history of the location if any issues has occurred before.",
-      "psms": "Mobile Equipment",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Larry Jaramillo / Gage Gonzales 1099 — Everyone worked together in a safe and timely manner",
-      "detail": "Communication was on point.",
+      "headline": "Larry Jaramillo / Christian Lee 1099 — Tested under air, everything clear and good to go",
+      "detail": "Discussion prior to first break.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Dawson Drake / Jerry Gonzales — Crew we connect to well after having meeting",
-      "detail": "Communication is something we can always get better at.",
+      "headline": "Caleb Smith / Jose Campos — MT did a great job during the pre task briefing invoking personal with the",
+      "detail": "Crew and MT followed hold points and discuss job steps.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — Set up exclusion zone to remove 4 inch pipe",
+      "detail": "Look for any of all improvements.",
       "psms": "Operational Discipline",
       "level": null
     },
@@ -306,60 +306,27 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Near-misses are the reps that make us good — but only if they're reported. If you see one today, write it up. An unreported near-miss is a wasted lesson.",
-  "todaysChallengeSubtext": "“I've failed over and over and over again in my life. And that is why I succeed.” — Michael Jordan",
+  "todaysChallenge": "Good week so far? Don't coast on it. Find one thing on today's job you can do a notch better than yesterday, and do it.",
+  "todaysChallengeSubtext": "“Handle success like you handle failure — with grace and a hunger to improve.” — Pat Summitt",
   "compliance": {
-    "weekOf": "Week of October 5, 2026",
+    "weekOf": "Week of October 12, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 163,
-        "total": 172
+        "done": 60,
+        "total": 62
       },
       {
         "label": "Trailer Inspections",
-        "done": 39,
-        "total": 40
+        "done": 13,
+        "total": 14
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 30,
-        "total": 37
+        "done": 10,
+        "total": 16
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/08"
-  },
-  "specialFocus": {
-    "week": 18,
-    "until": "2026-10-14",
-    "title": "360 Before You Roll — Tires, Trailers, and the Walk-Around",
-    "why": "Half this job is driving, and the most dangerous thing most of us do all day is pull a trailer down a highway at 70. The moment you hook on, you take on responsibility that is bigger than the truck: the trailer, the load, the hitch, and every family in every vehicle around you. None of that is managed from the driver's seat — it is managed on foot, before the key turns. The 360 walk-around is a two-minute habit that catches the bulged tire, the unlatched coupler, the loose strap, and the kid's bike behind the bumper. Tires are the number-one roadside failure we have, and trailer tires are the worst offenders — they sit, they dry-rot, they run hot and nobody checks them. This morning we make the 360 a team sport: every departure, to the job AND from it.",
-    "standardLabel": "The 360 Walk-Around — Every Departure, Both Directions",
-    "standard": [
-      "No truck or trailer moves without a full 360 — a complete lap around truck AND trailer, every departure. Eyes on all four truck tires and every trailer tire, lights, leaks under the rig, the load, and what is BEHIND and UNDER you before you back: people, equipment, ruts, low lines.",
-      "Tires get looked at, not kicked: tread, pressure (a gauge, not a boot), sidewall cuts and dry-rot cracks, bulges, lug nuts, and valve caps. Pulling a trailer? Check its tires like your life rides on them — it does, and so does everyone in the oncoming lane. Know where the spare is and that the jack actually fits the trailer.",
-      "The hitch gets a hand on it, not a glance: right ball for the coupler, coupler latched and PINNED, safety chains CROSSED under the tongue (they cradle it if it drops), breakaway cable to the frame — never to the chains — and the plug seated. Then prove the lights: brakes, both turns, running. That takes two people — which is the point.",
-      "The load is YOUR load the second you pull out: strapped, within the trailer's rating, tongue weight right (10–15% — too light is how trailers start to wag), nothing loose that can shift, slide, or blow out on the highway. A ratchet strap costs $15; what it holds down costs a career.",
-      "A good team splits the 360: driver walks one side, second man walks the other, and they CALL OUT what they see — 'left rear trailer tire good, chains crossed, pin in.' Cross at the hitch, both put eyes on it, one works the light check. Ninety seconds, two sets of eyes, zero assumptions. Solo? Walk the whole lap yourself and do the light check against a window, a building, or your phone propped on the bed rail.",
-      "FROM location counts double. The end-of-job 360 is the one that gets skipped — you're tired, it's dark, you just want the house. That's exactly when the strap has loosened, the tires are mud-packed and cut, gear is sitting on the deck unstrapped, and a spike or tool is behind a tire. Same full lap, same call-outs, a spotter on the backout — before every departure OFF location too."
-    ],
-    "scenarios": [
-      {
-        "title": "The Tire That Told You",
-        "body": "A crew hooks up at the yard before daylight. The trailer's passenger-side tire has a sidewall bulge the size of an egg — visible to anyone who walks that side. Nobody does; the driver checks his mirror, sees 'trailer,' and rolls. At 70 on the highway the tire lets go, the trailer whips, and it takes both lanes to wrestle it straight — with a loaded ATV on the deck and a family in the SUV behind them. Rewind the same morning with a two-minute 360: the bulge gets spotted at the yard under a flashlight, the spare goes on, and the crew is on location twenty minutes late instead of in a ditch. The tire told them either way. The only question was whether anyone walked over to listen."
-      },
-      {
-        "title": "Two Men, Two Directions",
-        "body": "Watch a good crew leave location at the end of a long day. Driver takes the driver's side, partner takes the passenger side, and they talk: 'tires good this side' — 'strap on the back has slack, re-racking it' — 'chains crossed, pin's in.' They meet at the hitch and BOTH put a hand on the coupler. Partner stands behind for the light check: brakes, left, right. Then he spots the backout past the tank battery. Ninety seconds, start to finish. That lap is where they catch the coupler that bounced loose on the lease road in, the mud-packed tire hiding a cut, and the hand tool sitting behind the duals. Nothing about it is luck — it's two sets of eyes refusing to assume the other one looked."
-      }
-    ],
-    "questions": [
-      "Say your 360 route out loud, right now — where do you start, what do you touch, and where do you finish?",
-      "When did you last put an actual gauge on your trailer tires — and what should they carry? If you don't know the number, who does?",
-      "Why do the safety chains cross under the tongue? If you can't answer it, you haven't thought about the day the coupler lets go.",
-      "You're solo and need a brake-light check with a trailer on. How do you do it — for real, not 'I'd just go'?",
-      "It's 7 PM, you're beat, and you're hooking up to leave location. What does YOUR walk-around look like at that moment — and is it the same one you did at 6 AM?"
-    ],
-    "nonNegotiable": "Nothing with wheels leaves the yard or the location without a full 360 walk-around — tires gauged and eyeballed, coupler latched and pinned, chains crossed, breakaway on the frame, lights proven, load strapped. Two people when you have them, called out loud. The two minutes you skip are the two minutes that bite."
+    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/13"
   }
 }
