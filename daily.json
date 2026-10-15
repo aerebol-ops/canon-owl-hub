@@ -265,36 +265,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dawson Drake / Alejandro Najar — crews realligned polish rod on pumpjack",
-      "detail": "Everyone not needed in exclusion zone stayed out of it.",
+      "headline": "Luis Zarate / Cindy Smith 1099 — Crew killed well and once it was on vacuum did they replace tubing rubber,",
+      "detail": "Continue grow my communication with crew and MT.",
+      "psms": "Operational Discipline",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons / Bryan Medlin — Had a snake in the injection line tenhorn",
+      "detail": "Got the snakes moved and found out it wasn't a poison one.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Robbie Henigan 1099 — Job completed just as scope called for",
-      "detail": "Great communication with crew and MY.",
+      "headline": "Michael Jobe / Justin Fontenot 1099 — Had meeting went great went over everything",
+      "detail": "Job scope went very smoothly.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo / Christian Lee 1099 — Tested under air, everything clear and good to go",
-      "detail": "Discussion prior to first break.",
+      "headline": "Nathan Contreras / Rolando Flores 1099 — We observed a reconnect done on a wellhead",
+      "detail": "Crews communicated effectively with one another. Job scope went up to standards and crew went over triggers and hold points for the job .",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Caleb Smith / Jose Campos — MT did a great job during the pre task briefing invoking personal with the",
-      "detail": "Crew and MT followed hold points and discuss job steps.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — Set up exclusion zone to remove 4 inch pipe",
-      "detail": "Look for any of all improvements.",
+      "headline": "Ruben Rojo / Baldemar Bracomontes 1099 — Had pre task meeting, recognized all hazards associated with job and comple",
+      "detail": "Job was completed without incident.",
       "psms": "Operational Discipline",
       "level": null
     },
@@ -313,18 +313,18 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 60,
-        "total": 62
+        "done": 118,
+        "total": 122
       },
       {
         "label": "Trailer Inspections",
-        "done": 13,
-        "total": 14
+        "done": 22,
+        "total": 27
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 10,
-        "total": 16
+        "done": 20,
+        "total": 30
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/13"
