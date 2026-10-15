@@ -328,5 +328,37 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/13"
+  },
+  "specialFocus": {
+    "week": 18,
+    "until": "2026-10-15",
+    "title": "Job Communications — Name the Location, Close the Loop",
+    "why": "Jobs move fast out here — pivots mid-day, crews requested back, locations changing under your feet. The standard is simple and personal: the tech reaches out to management DIRECTLY, by call or text, for every job, every pivot, and every next-day return. Not through a middleman, not assumed, not 'they probably know.' And every location goes by its exact NAME, confirmed both directions — because logistics routes trucks and billing invoices the operator off that name. We just lived the lesson: a request came in wanting Mike Ellis and Cindy back. Everyone assumed 'back' meant back to the Brooke — that's where they'd been. The actual job was a DIFFERENT location. Nobody lacked effort; the assumption did the damage. One ten-second readback would have caught it. This morning we make that readback the habit.",
+    "standardLabel": "Jobs, Pivots, and Returns — Said by You, Named, and Confirmed",
+    "standard": [
+      "YOU own the communication on your job. Every new job, every pivot, every 'come back tomorrow' goes from the tech to management PERSONALLY — a direct call or text from your phone. Not relayed through the company man, not passed through another tech, not left to 'somebody will tell them.'",
+      "Pivots get called in BEFORE the truck moves. The moment your day changes — different pad, different scope, held over, cut loose — that's a 30-second text or call to management first. Dispatch, logistics, and billing can only work off what they know; what they don't know, they can't plan, stage, or invoice.",
+      "'They want us back' is HALF a message. A next-day return isn't communicated until management has back WHERE (exact location name), back WHEN, and WHO — sent by you and acknowledged before you leave location.",
+      "Locations go by their exact NAME — the lease or pad name that's on the board and the paperwork. Never 'the same place,' never 'where we were Tuesday,' never just 'back.' Say the name, spell it if it's an odd one, and get the name said back to you.",
+      "A message that isn't acknowledged doesn't exist. Text with no reply? Call. And when a request comes TO you — 'bring two techs back out' — READ IT BACK with the location name until both sides are saying the same words. Ten seconds of readback beats a day of scramble.",
+      "This is money and trust, not office trivia. Accurate location names and confirmations are what logistics stages off and what billing invoices the operator from. Wrong name = trucks to the wrong pad, the wrong lease on an invoice, and a customer double-checking our paperwork. Clean communication from the field is why the bill is right and why we get paid without a fight."
+    ],
+    "scenarios": [
+      {
+        "title": "Back to the Brooke — Except It Wasn't",
+        "body": "This one is ours, from this week. The request came in: they want Mike Ellis and Cindy back. Everyone heard 'back' and filled in the rest — back to the Brooke, obviously, that's where they'd been. Except the job was at a different location entirely, and the assumption rode along until it turned into scramble. Walk it back: at no point did anyone say a location NAME out loud. One readback — 'confirming: Mike Ellis and Cindy, back to the Brooke tomorrow?' — and the answer 'no, not the Brooke' surfaces in ten seconds, while it's still free to fix. The lesson isn't that somebody messed up. It's that 'back' is not a location. A NAME is a location."
+      },
+      {
+        "title": "The Pivot Nobody Called In",
+        "body": "Mid-afternoon, the company man redirects a tech to a different pad — 'finish out the day over there.' The tech goes, does good work, heads home. But management still has him at the original location: the next morning's plan is staged wrong, the paperwork carries the wrong lease, and billing writes an invoice the operator kicks back. Now run it again with one text sent from the cattle guard before the truck moved: 'Pivoting off [location] to [exact location name] per CM, back tomorrow — confirm?' Thirty seconds. Everything downstream — dispatch, logistics, the invoice — lands right because the man on the ground closed the loop."
+      }
+    ],
+    "questions": [
+      "The company man says 'we want y'all back tomorrow.' Say the exact text you'd send to management — word for word, with what three pieces of information in it?",
+      "Your last pivot: did management hear it from YOU — and was it before or after the truck moved?",
+      "Why does billing care what the location is called? Walk the chain — what happens downstream when the name is wrong?",
+      "Readback drill: your partner gives you a vague request — 'bring two guys back out here Thursday.' Turn it into a confirmed message with the location name, the date, and the names."
+    ],
+    "nonNegotiable": "Every job, pivot, and next-day return goes from the tech to management personally — call or text — with the exact location name, and the loop isn't closed until it's acknowledged. 'Back' is not a location. Nobody rolls on an assumption."
   }
 }
