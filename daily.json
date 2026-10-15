@@ -236,24 +236,20 @@
     ]
   },
   "formReview": {
-    "date": "2026-10-13",
-    "label": "Tuesday 10/13",
+    "date": "2026-10-14",
+    "label": "Wednesday 10/14",
     "verdict": "",
     "concerns": [
       {
-        "title": "Pablo Soto — XTO, Donald L Hutt C 3672H / Andrews shop, 4:37 AM and 10:26 AM, Trailer Inspection Forms for trailer 604. Answered No to the FR uniform question on both for",
-        "quote": "No Are you wearing you Canon Safety issued FR uniform? If not, why?"
+        "title": "Bryan Medlin — XTO, NUNN 14 1 SWD-TK554, 07:25–07:33 AM, job 35642. The OWL narrative records a benzene release during containment break and a move to supplied air.",
+        "quote": "High benzene levels were at 10 ppm when they broke containment the wind was blowing out of the south we went under SCBA to continue to work"
       },
       {
-        "title": "Alfredo Vaquera — Diamondback, Kimberly 809H, 8:35 AM, H2S Safety Supervision Daily Inspection Form. Two No answers on the same form: not in Canon Safety issued FR covera",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls None assigned If not, why?"
+        "title": "Alfredo Vaquera (1099) — Diamondback, KIMBERLY 809H, 01:02 PM, H2S daily. FR compliance question answered No, with a reason given.",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls / None assigned If not, why?"
       },
       {
-        "title": "Dawson Drake — XTO, K Bird 12H-V301, 1:09 PM, Trailer Inspection Form for trailer 600. Answered No to the FR uniform question, reason given.",
-        "quote": "No Are you wearing you Canon Safety issued FR uniform? Driving to the shop If not, why?"
-      },
-      {
-        "title": "Bobby Galindo — SM Energy / Ovintiv, H&P 264, 8:35 AM, H2S Safety Supervision Daily Inspection Form. Answered No to sufficient mask bags, and reported two dead sensors an",
+        "title": "Alfredo Vaquera (1099) — Diamondback, KIMBERLY 809H, 01:02 PM, H2S daily. The same form answers No to a respiratory-supply question.",
         "quote": "No Do you have sufficient mask bags?"
       }
     ]
@@ -265,36 +261,15 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Luis Zarate / Cindy Smith 1099 — Crew killed well and once it was on vacuum did they replace tubing rubber,",
-      "detail": "Continue grow my communication with crew and MT.",
-      "psms": "Operational Discipline",
-      "level": "duck"
-    },
-    {
-      "type": "good",
-      "headline": "Jordan Lemmons / Bryan Medlin — Had a snake in the injection line tenhorn",
-      "detail": "Got the snakes moved and found out it wasn't a poison one.",
+      "headline": "Jeremy Norris / Jerry Gonzales — Crew take part well and upgrade rubber",
+      "detail": "Crew urgency to get the job done.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Justin Fontenot 1099 — Had meeting went great went over everything",
-      "detail": "Job scope went very smoothly.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Nathan Contreras / Rolando Flores 1099 — We observed a reconnect done on a wellhead",
-      "detail": "Crews communicated effectively with one another. Job scope went up to standards and crew went over triggers and hold points for the job .",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Ruben Rojo / Baldemar Bracomontes 1099 — Had pre task meeting, recognized all hazards associated with job and comple",
-      "detail": "Job was completed without incident.",
+      "headline": "Ruben Rojo / Baldemar Bracomontes 1099 — Reconnect was successful, SCBA were put on but not needed for the job",
+      "detail": "No gas or leakage of hazardous materials.",
       "psms": "Operational Discipline",
       "level": null
     },

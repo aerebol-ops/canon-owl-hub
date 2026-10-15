@@ -1,64 +1,270 @@
 {
- "generated": "2026-10-14",
+ "generated": "2026-10-15",
  "source": "StreetSmart Form Review \u2014 Matt Croom's daily audit of every submitted form (full packet corpus)",
  "latest": {
-  "date": "2026-10-13",
-  "received": "2026-10-14T05:03:03Z",
-  "summary": "99 submissions reviewed for the Central calendar day of Tuesday 10/13/2026: 45 air job / OWL After Action Review forms, 22 Trailer Inspection Forms, 12 H2S Safety Supervision Daily Inspection Forms, 9 Trailer Readiness Forms, 4 supervision job forms, 2 ETX supervision job forms with no OWL section, 2 equipment rig-down",
+  "date": "2026-10-14",
+  "received": "2026-10-15T04:55:47Z",
+  "summary": "91 submissions reviewed for the Central calendar day of Wednesday 10/14/2026: 36 air job / OWL forms, 23 Trailer Inspection Forms, 13 H2S Safety Supervision Daily Inspection Forms, 12 Trailer Readiness Forms, 2 supervision job close-outs, 2 training class forms, 2 field service / inspection job forms, and 1 ETX Cascade",
   "verdict": "",
   "concerns": [
    {
-    "title": "Pablo Soto \u2014 XTO, Donald L Hutt C 3672H / Andrews shop, 4:37 AM and 10:26 AM, Trailer Inspection Forms for trailer 604. Answered No to the FR uniform question on both for",
-    "text": "\"No Are you wearing you Canon Safety issued FR uniform? If not, why?\" \u2014 reason blank, both submissions. Follow-up: confirm with Soto why he was not in issued FR on either filing, and whether he has serviceable FR assigned to him.",
-    "quote": "No Are you wearing you Canon Safety issued FR uniform? If not, why?"
+    "title": "Bryan Medlin \u2014 XTO, NUNN 14 1 SWD-TK554, 07:25\u201307:33 AM, job 35642. The OWL narrative records a benzene release during containment break and a move to supplied air.",
+    "text": "\"High benzene levels were at 10 ppm when they broke containment the wind was blowing out of the south we went under SCBA to continue to work\" This is the only gas reading above zero recorded anywhere in the day. Neither \"Stop work authority was discussed\" nor \"Stop work authority utilized\" was selected on the form, the entire L \u2013 Learn section was left blank, and \"Details if Any\" is blank. Follow-up: confirm with Medlin whether exposure monitoring and the customer's reporting process were completed, and have the Learn section filled in retrospectively \u2014 a 10 ppm event with no learning entry is the part most likely to be questioned by an auditor.",
+    "quote": "High benzene levels were at 10 ppm when they broke containment the wind was blowing out of the south we went under SCBA to continue to work"
    },
    {
-    "title": "Alfredo Vaquera \u2014 Diamondback, Kimberly 809H, 8:35 AM, H2S Safety Supervision Daily Inspection Form. Two No answers on the same form: not in Canon Safety issued FR covera",
-    "text": "\"No Are you wearing your Canon Safety issued FR coveralls None assigned If not, why?\" and \"No Do you have sufficient mask bags?\" Follow-up: \"None assigned\" suggests an issue-and-stock problem rather than a wear decision. Confirm whether FR has been issued to Vaquera and get mask bags to Kimberly 809H.",
-    "quote": "No Are you wearing your Canon Safety issued FR coveralls None assigned If not, why?"
+    "title": "Alfredo Vaquera (1099) \u2014 Diamondback, KIMBERLY 809H, 01:02 PM, H2S daily. FR compliance question answered No, with a reason given.",
+    "text": "\"No Are you wearing your Canon Safety issued FR coveralls / None assigned If not, why?\" The reason points at an issuance gap rather than a technician choice. Follow-up: confirm whether Vaquera has ever been issued Canon Safety FR coveralls, and issue them if not.",
+    "quote": "No Are you wearing your Canon Safety issued FR coveralls / None assigned If not, why?"
    },
    {
-    "title": "Dawson Drake \u2014 XTO, K Bird 12H-V301, 1:09 PM, Trailer Inspection Form for trailer 600. Answered No to the FR uniform question, reason given.",
-    "text": "\"No Are you wearing you Canon Safety issued FR uniform? Driving to the shop If not, why?\" Follow-up: confirm the expectation for FR while in transit between location and shop.",
-    "quote": "No Are you wearing you Canon Safety issued FR uniform? Driving to the shop If not, why?"
-   },
-   {
-    "title": "Bobby Galindo \u2014 SM Energy / Ovintiv, H&P 264, 8:35 AM, H2S Safety Supervision Daily Inspection Form. Answered No to sufficient mask bags, and reported two dead sensors an",
-    "text": "\"No Do you have sufficient mask bags?\" and, in Comments or Concerns for Management: \"The sensors on the floor and gumbo are completely dead and the sensor in the cellar is running on low battery. i notified Alex on the issue\" Follow-up: dead sensors on the rig floor and gumbo are a coverage loss, not a battery-level question. Confirm with Alex Clubb that they have been replaced and get mask bags to the rig.",
+    "title": "Alfredo Vaquera (1099) \u2014 Diamondback, KIMBERLY 809H, 01:02 PM, H2S daily. The same form answers No to a respiratory-supply question.",
+    "text": "\"No Do you have sufficient mask bags?\"",
     "quote": "No Do you have sufficient mask bags?"
-   },
-   {
-    "title": "Rolando Flores \u2014 Ovintiv, H&P 395 Terlingua, 7:00 PM, H2S Safety Supervision Daily Inspection Form. Reported a missing cellar sensor and two sensors he could not open to ",
-    "text": "\"Sensor on the cellar missing couldn't find it contacted MR. Alex Clubb about the situation, one of the sensor on the gomble pot needs new battery couldn't take the faceplate off also one of the sensors on the rig floor is also needing new batteries can't take the faceplate off, talked with Mr. Alex about it.\" Follow-up: a missing cellar sensor is an unmonitored point. Confirm whether it was recovered or replaced, and whether the faceplates that would not open are a tooling or an equipment-condition problem.",
-    "quote": ""
-   },
-   {
-    "title": "Humberto Marquez-Salazar \u2014 trailer 603, 3:26 PM, Trailer Readiness Form, Stanton. One 30-minute SCBA recorded as empty.",
-    "text": "\"One SCBA 30 min is empty I will let the tech know\" \u2014 and against the SCBA pressure gauge photo, \"This SCBA is empty\" Follow-up: trailer 603 was serving the Weyman 23 jobs. Confirm the bottle was filled or the SCBA pulled from service, and note that the form names no specific person notified.",
-    "quote": "One SCBA 30 min is empty I will let the tech know"
-   },
-   {
-    "title": "Michael Ellis \u2014 trailer 606, 5:11 PM, Trailer Readiness Form, Andrews shop. Air system component reported missing, with no notified party named.",
-    "text": "\"Missing air pressure regulator adjuster on tanks.\" Follow-up: confirm who was told and whether 606 is serviceable for tomorrow's assignment.",
-    "quote": "Missing air pressure regulator adjuster on tanks."
-   },
-   {
-    "title": "Ruben Rojo \u2014 trailer 152, 12:15 PM, Trailer Readiness Form, Andrews shop. Safety equipment and first aid reported missing from the truck.",
-    "text": "\"Truck needs cones, spotter flags and a medkit\" Follow-up: a missing medkit is a standing first aid gap. Note also that the Safety Cones and Spotter Flags photos on this same form are dated 10/05/2026 \u2014 they show equipment the form says is not there.",
-    "quote": "Truck needs cones, spotter flags and a medkit"
-   },
-   {
-    "title": "Jimmy White \u2014 trailer 138, 9:07 AM, Trailer Inspection Form, Co Rd 222 Buffalo. Two notes recording lapsed documentation on the trailer itself.",
-    "text": "Against the back-of-trailer photo: \"Tag is out, will get updated tag from Robyn.\" Against the fire extinguisher inspection tag photo: \"Will punch out Sept and Oct on tag when back at the shop.\" Follow-up: the registration tag is expired and the extinguisher inspection tag is two months un-punched. Both are items an auditor would pick up. Confirm both were closed out.",
-    "quote": "Tag is out, will get updated tag from Robyn."
-   },
-   {
-    "title": "Jimmy White \u2014 Mitsui E&P, JBC Ranch 1H, 9:56 AM, equipment rig-down. Equipment returned needing calibration.",
-    "text": "\"Equipment Issues Need Attention: Needs to be cleaned and calibrated\" Follow-up: confirm the returned monitors and sensors are calibrated before they go back out. Dawson Drake's Seinfeld Fed Unit rig-down the same day recorded \"All needs to be cleaned\", which reads as housekeeping rather than a calibration item. Stop work / unsafe conditions \u2014 needs confirmation, not action No form filed on 10/13/2026 selected \"Stop work authority utilized\". Every stop-work selection on the day was \"Stop work authority was discussed\", which is the routine pre-job item and is not a stop-work event. Separately, ten forms selected \"Unsafe conditions\" from the \"What did we observe?\" list. These are listed as ite",
-    "quote": "Equipment Issues Need Attention: Needs to be cleaned and calibrated"
    }
   ],
-  "confirm": [],
+  "confirm": [
+   {
+    "t": "p",
+    "text": "The form carries no follow-up field for this item and nothing further was recorded; \"Comments or Concerns for Management\" reads \"N/A\". Follow-up: confirm how many mask bags are on location at KIMBERLY 809H and resupply. Lights and sirens and 4-gas calibration were both answered Yes on this form."
+   },
+   {
+    "t": "p",
+    "text": "4. Pablo Soto \u2014 trailer 607, three Trailer Inspection Forms at 04:44 AM (Andrews shop), 08:35 AM (Unnamed Road, Midland) and 02:17 PM (Road 252, Midkiff). All three answer the FR question the same way."
+   },
+   {
+    "t": "p",
+    "text": "\"No Are you wearing you Canon Safety issued FR uniform? If not, why?\" \u2014 the reason field is blank on all three."
+   },
+   {
+    "t": "p",
+    "text": "Follow-up: this needs a direct conversation rather than a form correction. Confirm whether Soto has serviceable Canon Safety FR available to him; three unexplained No answers in one day is a different problem from a one-off."
+   },
+   {
+    "t": "p",
+    "text": "5. Rolando Flores (1099) \u2014 Ovintiv, H&P 395, 08:30 PM, H2S daily. Equipment faults reported to management on the form."
+   },
+   {
+    "t": "p",
+    "text": "\"Cellar Sensor missing, one sensor on gomble pot needs battery can't take off the faceplate, one sensor on rig floor needs battery can't take faceplate off\""
+   },
+   {
+    "t": "p",
+    "text": "A missing cellar sensor is a detection gap at the lowest point on the rig. The two faceplates that will not open are a separate maintenance item. Follow-up: confirm the cellar sensor was replaced on the following shift and arrange service for the two units whose faceplates are seized."
+   },
+   {
+    "t": "p",
+    "text": "6. Larry Taylor \u2014 Hilcorp Energy, Teague plant, ETX Cascade Inspection Form, inspection date 10/14. Two inspection items were not performed."
+   },
+   {
+    "t": "p",
+    "text": "\"No Low Alarm Inspected / NA Low Alarm Comments\" and \"No SCBAs Inspected / SCBA Hydro Date [blank] / SCBA's Checklist [blank] / NA SCBA Comments if any\""
+   },
+   {
+    "t": "p",
+    "text": "Both carry \"NA\" in their comment fields, so the form does not say why. Note the separate field service job for the same plants records \"Air pack inspections Brought back 1 for refill from Teague. EOL: Teague plant- 1 Farrar Plant- 2 Brought them back for service. Will update inspection forms shortly\" \u2014 it is possible the SCBA entry is No because the packs had been pulled for service, which would make this a records-sequencing issue rather than a skipped inspection. That needs Taylor's confirmation before it is treated either way. The low alarm answer is not explained by that."
+   },
+   {
+    "t": "p",
+    "text": "Stop work / unsafe conditions \u2014 needs confirmation, not action"
+   },
+   {
+    "t": "p",
+    "text": "Kelby Hammer confirmed on 09/23/2026 that flagging these is correct and that it is a training issue: technicians should select stop-work authority only when it was actually used, and may be selecting \"Unsafe conditions\" because they regard wellhead work as inherently unsafe rather than because a specific condition arose. These are listed for the technician to confirm, not as confirmed events. \"Stop work authority utilized\" was not selected on a single form today. Where the item appears at all it is the routine pre-job \"Stop work authority was discussed\"."
+   },
+   {
+    "t": "p",
+    "text": "\"Stop work authority was discussed\" selected \u2014 19 forms, no accompanying narrative of an actual stop:"
+   },
+   {
+    "t": "li",
+    "text": "Ralph Forbes \u2014 University 10-11H/12H TK552 (35620), TK556 (35622), PIP (35618)"
+   },
+   {
+    "t": "li",
+    "text": "William \"Jimmy\" Cooper 1099 \u2014 University 10-11H/12H TK552 (35621), TK556 (35623), PIP (35619)"
+   },
+   {
+    "t": "li",
+    "text": "Jacob Hernandez \u2014 Mindy Lynn 42 2 (35686); Justin Fontenot 1099 \u2014 Mindy Lynn 42 2 (35687)"
+   },
+   {
+    "t": "li",
+    "text": "Tyrell Sanders \u2014 Kyle 2600 Unit 2 2625SH (35802_2), Mary 18 1HB (35807_2)"
+   },
+   {
+    "t": "li",
+    "text": "Raymundo Solis \u2014 Kyle 2600 Unit 2 2625SH (35802_1), Mary 18 1HB (35807_1)"
+   },
+   {
+    "t": "li",
+    "text": "Jerry Gonzales \u2014 Nobles 3226SH (35781), and Turner W41K 11H (35772_2, a 10/13 job)"
+   },
+   {
+    "t": "li",
+    "text": "Luis Zarate \u2014 University 7-43 74H (35782); Jeremy Norris \u2014 Guitar 5 #2 (35786)"
+   },
+   {
+    "t": "li",
+    "text": "Ruben Rojo \u2014 Preston Freeman 15A 101H (35806_2); Baldemar Bracamontes 1099 \u2014 Frank 11E 105H (35804_2)"
+   },
+   {
+    "t": "p",
+    "text": "\"Unsafe conditions\" also selected \u2014 10 forms, mostly with no narrative naming a condition:"
+   },
+   {
+    "t": "li",
+    "text": "Tyrell Sanders \u2014 Kyle 2600 (35802_2), continuation text reads only \"Crew Being late\"; Mary 18 1HB (35807_2), continuation \"Lockout tagout\""
+   },
+   {
+    "t": "li",
+    "text": "Raymundo Solis \u2014 Kyle 2600 (35802_1), continuation describes a muster-point discussion; Mary 18 1HB (35807_1), continuation \"Hold point - had to stop the job because they had to go get parts for the reconnect\" (a parts delay, not a safety stop)"
+   },
+   {
+    "t": "li",
+    "text": "William \"Jimmy\" Cooper 1099 \u2014 University PIP (35619), TK552 (35621), TK556 (35623); continuations read \"Good communication\", \"Team work good communication\", \"Good communication\" and name no condition"
+   },
+   {
+    "t": "li",
+    "text": "Ruben Rojo \u2014 Preston Freeman 15A 101H (35806_2), continuation \"Reconnect of wellhead parts\", no condition named"
+   },
+   {
+    "t": "p",
+    "text": "Four forms are not the mis-selection pattern and should be read differently."
+   },
+   {
+    "t": "li",
+    "text": "Humberto Marquez-Salazar \u2014 XTO, McClintic A 8H, 07:25\u201310:52 AM, job 35785. The narrative names an actual stop: \"Stop the job since pipe was not rigged up the right way .\" Only \"Stop work authority was discussed\" was selected. This is the same pattern as Ralph Forbes on 09/23/2026 \u2014 a real exercise of authority recorded under the wrong checkbox. Treat it as a genuine stop-work event and credit the technician for it."
+   },
+   {
+    "t": "li",
+    "text": "Jeremy Norris \u2014 XTO, McClintic A 8H, 07:30\u201310:30 AM, job 35784. Same well, same morning, the partner's form: \"A disconnect with great communication and a great use of stop work authority by my partner.\" This corroborates Salazar's stop independently. Norris also selected only \"discussed\"."
+   },
+   {
+    "t": "li",
+    "text": "Baldemar Bracamontes 1099 \u2014 XTO, Frank 11E 105H, 07:18\u201308:42 AM, job 35804_2. \"Unsafe conditions\" was selected and the narrative does name a condition: \"Had pre task meeting, when we started our pretest on bleeders we noticed a valve was leaking by, stopped and got together to discuss next steps, after valves were fixed continued without further incidents\". This is a correctly flagged, correctly handled find."
+   },
+   {
+    "t": "li",
+    "text": "Luis Zarate \u2014 XTO, Nobles 3226SH, 06:38\u201309:47 AM, job 35780. \"Unsafe conditions\" selected with a real hazard described: \"We all discussed how unsafe our conditions will be with the lightning. We kept close monitoring watching how far it was.\" Neither stop-work item was selected. Separately, Zarate's later job the same day at University 7-43 74H (35782) was cancelled outright for the same reason: \"Job was cancelled due to weather. Lightning was striking too close to job and wasn't going to let up anytime soon.\" The lightning calls look sound; worth confirming the crew had a defined distance thr"
+   },
+   {
+    "t": "p",
+    "text": "Technicians appearing on this list who have appeared on previous days: Nathan Contreras and Ruben Rojo were both on the 09/23 and 09/26 stop-work confirmation lists. Pablo Soto's forms are discussed under empty multi-selects below rather than here, because three of his four air jobs today carry no selections at all."
+   },
+   {
+    "t": "p",
+    "text": "Missing required documentation"
+   },
+   {
+    "t": "p",
+    "text": "Checked against the 10/14/2026 sheets of the ArkLaTex and Permian Basin job boards emailed by Blake Walton at 10:07 AM Central."
+   },
+   {
+    "t": "p",
+    "text": "Air jobs \u2014 trailer forms. The daily requirement is two Trailer Inspection Forms and one Trailer Readiness Form per trailer, counted across the whole crew assigned to that trailer."
+   },
+   {
+    "t": "li",
+    "text": "Trailer 605 (XTO University 10-11H/12H, Ralph Forbes and William \"Jimmy\" Cooper 1099): one Trailer Inspection Form received (Forbes, 01:26 PM, Unnamed Road, Best); second not received. Trailer Readiness Form received (Forbes, 01:06 PM)."
+   },
+   {
+    "t": "li",
+    "text": "Trailer 601 (XTO NUNN 14 1 SWD TK553/TK554, Bryan Medlin and Joseph Popillion 1099): one Trailer Inspection Form received (Medlin, 03:50 PM); second not received. Trailer Readiness Form received (Medlin, 03:40 PM)."
+   },
+   {
+    "t": "li",
+    "text": "Trailer 602 (XTO Nobles 3226SH and University 7-43 74H, Luis Zarate and Jerry Gonzales): both Trailer Inspection Forms received (Zarate, 05:50 AM and 05:28 PM). No Trailer Readiness Form was received for 602. This is the only readiness form missing today."
+   },
+   {
+    "t": "li",
+    "text": "Trailer 600 (XTO Preston Freeman 15A 101H, Dawson Drake and Ruben Rojo): one Trailer Inspection Form received (Rojo, 05:52 AM); second not received. Trailer Readiness Form received (Drake, 03:49 PM)."
+   },
+   {
+    "t": "li",
+    "text": "Trailer 128 (SM Energy Camille TB, Brianda Sandoval, sole assigned tech): one Trailer Inspection Form received (04:13 PM, Texon); second not received. Trailer Readiness Form received (04:01 PM)."
+   },
+   {
+    "t": "li",
+    "text": "Trailer 175 (SM Energy Litterbox CTB, Stefanie Kirschke and Robbie Henigan 1099): one Trailer Inspection Form received (Kirschke, 02:35 PM, Williams Rd, Big Lake); second not received. Trailer Readiness Form received (Henigan, 02:31 PM)."
+   },
+   {
+    "t": "p",
+    "text": "Trailers that met the full requirement \u2014 do not chase these. 603 (Jeremy Norris filed all three himself: inspections 05:52 AM and 02:00 PM, readiness 03:39 PM), 604 (Nathan Contreras 05:36 AM inspection and 03:49 PM readiness, Gael Avila 1099 02:25 PM inspection), 139 (Jacob Hernandez filed all three: 05:14 AM, 03:04 PM, readiness 04:56 PM), 501 (Raymundo Solis three inspections at 05:52 AM, 09:55 AM and 01:34 PM, Tyrell Sanders readiness 03:03 PM), 607 (Pablo Soto filed all four: inspections 04:44 AM, 08:35 AM, 02:17 PM, readiness 04:50 PM). All three forms arriving from one technician satisfies the requirement, and there is no required time or place for any of them."
+   },
+   {
+    "t": "p",
+    "text": "Trailers on cancelled rows. 608 (Powell 34 10, marked CANCELLED on the board) nonetheless has two Trailer Inspection Forms from Larry Jaramillo and a Trailer Readiness Form \u2014 complete, nothing to chase. 606 (Brook A-E7C 3H, CANCELLED, no techs assigned) has one Trailer Inspection Form from Michael Ellis at 06:30 AM; no trailer forms were required for that row."
+   },
+   {
+    "t": "p",
+    "text": "Air jobs \u2014 individual job submissions. Every named technician needs their own job submission."
+   },
+   {
+    "t": "li",
+    "text": "XTO, NUNN 14 1 SWD-TK553 and TK554, AT# 601 \u2014 Joseph Popillion 1099 is named on both board rows; no job submission was received from him for either. Bryan Medlin filed both and entered \"Bryan Medlin/ Joseph Popillian\" and \"Bryan Medlin Joseph\" in the Employee Name(s) fields, so Popillion was on location."
+   },
+   {
+    "t": "li",
+    "text": "XTO, University 7-43 74H, AT# 602 \u2014 Jerry Gonzales is named on the board; no submission received for that well. Luis Zarate's submission for the same row records the job cancelled for lightning, which may explain it."
+   },
+   {
+    "t": "li",
+    "text": "XTO, Preston Freeman 15A 101H, AT# 600 \u2014 Dawson Drake is named alongside Ruben Rojo; no job submission received from Drake. He did file the Trailer Readiness Form for 600 at 03:49 PM, so he was working."
+   },
+   {
+    "t": "li",
+    "text": "SM Energy, Camille TB, AT# 128 \u2014 Brianda Sandoval is the assigned tech on an AIR JOB row; no air job submission received. She filed both trailer forms for 128."
+   },
+   {
+    "t": "li",
+    "text": "SM Energy, Litterbox CTB, AT# 175 \u2014 Stefanie Kirschke and Robbie Henigan 1099 are both named on AIR JOB rows; no air job submission received from either. Kirschke's only job submission today was the close-out of a 10/13 supervision job at Roye #4TM."
+   },
+   {
+    "t": "p",
+    "text": "Confined space. No confined space rows appear on either board for 10/14, so the paused-job relief does not apply anywhere today."
+   },
+   {
+    "t": "p",
+    "text": "Supervision \u2014 no daily inspection form received for the shift. Full-time employees first."
+   },
+   {
+    "t": "li",
+    "text": "Allen White \u2014 Comstock, KERN NWS 1H, snubbing unit, days, ticket 101728, AT# 103. No H2S daily received. The night tech on the same row, Dennis Easley, did file at 06:28 PM. Easley's form names the location as \"Rattlesnake\" rather than KERN NWS 1H, which is worth a quick check that he was where the board places him."
+   },
+   {
+    "t": "li",
+    "text": "Steve Henson 1099 (days) and Cleveland Broughton 1099 (nights) \u2014 Comstock, KRETZSCHMAR PBH 1H, flowback, ticket 102346, AT# 130. Neither filed."
+   },
+   {
+    "t": "li",
+    "text": "Don Quisenberry 1099 \u2014 Hilcorp Energy, CURRY #15, workover, days, ticket 97512, AT# 140. Not filed."
+   },
+   {
+    "t": "li",
+    "text": "Bobby Galindo 1099 (days) and Kedrick McCarter 1099 (nights) \u2014 Ovintiv, H&P 264, FASKEN MD 09 09A, ticket 102190, AT# N/A. Neither filed."
+   },
+   {
+    "t": "li",
+    "text": "Benjamin Boutte 1099 (days) and Brynn Taylor 1099 (nights) \u2014 SM Energy, JUNIOR MINT, flowback, ticket 102044, AT# 127. Neither filed."
+   },
+   {
+    "t": "li",
+    "text": "Brey Rasco \u2014 Comstock, drilling EIR, MULTIPLE LOCATIONS, inspections, AT# N/A. No submission of any kind received."
+   },
+   {
+    "t": "p",
+    "text": "It is still not established whether every 1099 contractor is set up to file in StreetSmart at all, so for the eight contractor shifts above a form that was never expected is not a form that is missing. Allen White and Brey Rasco are full-time employees and are the two worth asking about directly."
+   },
+   {
+    "t": "p",
+    "text": "Supervision shifts that were covered. Blue Marlin 211H had both shifts (Andrew Bailey 05:29 PM days, Gage Gonzales 1099 05:29 AM and 06:26 PM). Blue Marlin Fed Com 212H (Bobby Fleming), LILLY #1 days and nights (Justin Pack 08:54 AM, Michael Hutt 07:20 PM), BRANTLEY JACKSON 3-5 (Joshua Blassingame 06:43 AM), KIMBERLY 809H (Alfredo Vaquera), H&P 616 (Hayden Haugh 10:03 AM) and H&P 395 (Rolando Flores 08:30 PM) were all filed. Rolando Flores also filed a second daily for H&P 616 at 09:57 PM even though the board shows no night tech on that rig \u2014 extra coverage, not a gap."
+   },
+   {
+    "t": "p",
+    "text": "Field service. Michael Ellis, Ovintiv H&P 264 at FASKEN MD 09 09A, job 35832, board AT# N/A. \"Details if Any\" is completed: \"Fixed sensor. Stayed on location to make sure it was working. Job completed.\" No trailer was moved, so no Trailer Inspection Form was required. Nothing missing. Larry Taylor's Hilcorp quarterly inspections job (35800) also has its details section completed."
+   }
+  ],
   "doc": [
    {
     "t": "p",
@@ -66,27 +272,27 @@
    },
    {
     "t": "li",
-    "text": "Michael Hutt, H2S daily, XTO Lilly #1, board AT# 609: Bottle Hydro Dates entered as \"N\", cascade pressure \"4400\". \"N\" is not a date. This is the same defect he filed on 09/26/2026 \u2014 a repeat."
+    "text": "Trailer 609 \u2014 Michael Hutt, LILLY #1 H2S daily, 07:20 PM. \"N Bottle Hydro Dates\" \u2014 a single character where a date belongs. Pressure on Cascade System is complete at \"4@4400\". The board gives AT# 609 for this row, so the field is required. This is the same defect Hutt filed on 09/26/2026 and it is now a repeat."
    },
    {
     "t": "li",
-    "text": "Benjamin Boutte, H2S daily, SM Energy Junior Mint flowback, board AT# 127: Bottle Hydro Dates blank, cascade pressure \"1700\". A trailer is on location, so the blank is a finding. Boutte left these fields blank on 09/26/2026 as well \u2014 a repeat."
+    "text": "Trailer 501 \u2014 Tyrell Sanders, Trailer Readiness Form, 03:03 PM. Entries #1 through #6 read exactly \"2400\" with no hydro date on any of them; #7\u2013#10 read \"N/a\". A pressure with no date is an incomplete entry under the combined-field format. The board gives AT# 501 for the Mary 18 1HB and Kyle 2600 rows."
    },
    {
     "t": "li",
-    "text": "Michael Ellis, Trailer Readiness Form, trailer 606: the four charged bottle positions read \"4500\", \"4500\", \"4500\", \"4500\" with no hydro date in any of them; positions 5 through 10 read \"0\" and are empty positions, which is not a finding. Pressure without a date is a finding."
+    "text": "Trailer 175 \u2014 Robbie Henigan 1099, Trailer Readiness Form, 02:31 PM. Entry #6 reads \"4/18\" \u2014 a hydro date with no pressure. Entries #1\u2013#5 (\"1/22 2400\", \"1/22 2400\", \"1/22 2400\", \"12/16 2400\", \"9/20 2400\") are complete. Separately, the 12/16, 4/18 and 9/20 dates would be worth checking against the retest interval."
    },
    {
     "t": "li",
-    "text": "Exempt because the board AT# is exactly \"N/A\": Rolando Flores (Ovintiv H&P 395) and Bobby Galindo (Ovintiv H&P 264) both left hydro dates and cascade pressure blank, and both are missing the air-trailer photo sections. Neither location has an air trailer, so none of that is a finding."
+    "text": "Trailer 128 \u2014 Brianda Sandoval, Trailer Readiness Form, 04:01 PM. All ten entries are well formed, but bottle #1 reads \"1000 02/23\" against 2200 on the other four charged bottles. Not a format problem; flagged because the pressure is less than half the rest of the bank."
    },
    {
     "t": "li",
-    "text": "Clean on this field: Dennis Easley \"4@3/23\" / \"4@2200 psi\"; Andrew Bailey \"04/23+*\" / \"2500\"; Bobby Fleming \"3/18x1 7/28x1 8/28x4\" / \"6@3300\"; Joshua Blassingame \"(4-23)\" / \"All 6 - 2400lb bottles full\"; Justin Pack \"4@1/26\" / \"4@4500\"; Alfredo Vaquera \"4/23-----------\" / \"2400-----------\"; Allen White \"4@3-23\" / \"4@2300\"; Gage Gonzales \"4/23 x6\" / \"2200 x3, 2100 x3\". On the readiness forms, trailer 608 \"1-26/4500\", trailer 501 \"3/23 1500\" through \"3/23 2100\", trailer 604 \"4000 7/25\", trailer 603 \"4500- 07/25\", trailer 148 \"2400 5/23\", trailer 152 \"1023 4500\", trailer 602 \"4500 psi 7/25\" and t"
+    "text": "Clean and complete: trailer 601 (Bryan Medlin, \"524/4500\", \"223/4500\", \"125/4500\", \"125/4500\" \u2014 all four carry both a hydro date and a pressure), 139 (Jacob Hernandez, \"2400/12-18\" through \"2400/7-22\"), 607 (Pablo Soto, \"4000 7/25\" \u00d72, \"4500 7/25\" \u00d72), 600 (Dawson Drake, \"4/25 4500\" \u00d74), 604 (Nathan Contreras, \"7/25 4000\" through \"7/25 4300\"), 603 (Jeremy Norris, \"07/25 4500\" \u00d74), 605 (Ralph Forbes, \"3400psi 7/25\" and \"4500psi 7/25\" \u00d73), 608 (Larry Jaramillo, \"4500, 07/25\" \u00d74). On the H2S dailies: Dennis Easley (\"4@3/23\" / \"4@2200psi\"), Gage Gonzales (\"4/23\" / \"2200 x6, 2100 x6\" and \"4/23 x6\" "
    },
    {
     "t": "li",
-    "text": "One to confirm rather than a finding: trailer 607's readiness form (Gael Antonio Avila) carries the identical entry \"4500/725\" in all ten positions, including the six that are normally empty. Complete as written, but worth a look."
+    "text": "Exempt because the board AT# is exactly \"N/A\": Ovintiv H&P 616 and H&P 395 (Rolando Flores's two dailies and Hayden Haugh's daily all leave Bottle Hydro Dates and Pressure on Cascade System blank, and Flores's two forms carry no air-trailer photo sections \u2014 all expected, no air trailer on those locations); Ovintiv H&P 264 FASKEN MD 09 09A; EXCO BROWN WEEKS B 2HB; Hilcorp TEAGUE / FARRAH PLANTS; Southwest Operating HUGHES #1; Comstock drilling EIR."
    },
    {
     "t": "p",
@@ -94,43 +300,71 @@
    },
    {
     "t": "li",
-    "text": "Michael Hutt \u2014 Loud Alarm Position photo dated 07/15/2025 on his H2S daily, and the Fire Extinguisher Inspection Tag photo dated 07/15/2025 on his Trailer Inspection Form for trailer 319. The 07/15/2025 Loud Alarm Position photo is a known repeat."
+    "text": "Dawson Drake, Trailer Readiness Form, trailer 600. Not one photo on the form is from 10/14. The cascade low pressure alarm photo is dated 05/02/2020; the SCBA and workpack gauges, inspection sheets, mask bag stickers, AV-3000 masks and manifold are all 10/12/2026; the cones, spotter flags and trailer interior are 10/13/2026. This is the single worst photo set in the day."
    },
    {
     "t": "li",
-    "text": "Bobby Fleming \u2014 ELSA photo and single-gas photo both dated 03/11/2025, and two 4-gas-with-pump photos dated 09/06/2026. The 03/11/2025 set is a known repeat."
+    "text": "Joshua Blassingame, H2S daily, BRANTLEY JACKSON 3-5. ELSA Photos and Loud Alarm Position Photos both dated 08/12/2021 \u2014 over five years old."
    },
    {
     "t": "li",
-    "text": "Caleb Smith \u2014 Truck Ball Size photo dated 02/26/2025 on his 12:12 PM Trailer Inspection Form. Known repeat."
+    "text": "Andrew Bailey, H2S daily, Blue Marlin 211H. \"Picture of Front and Back of Single Gas/4 Gas Without Pump\" dated 03/09/2024. This photo is the record of a live gas detection instrument."
    },
    {
     "t": "li",
-    "text": "Pablo Soto \u2014 Truck Ball Size photo dated 10/05/2026 and Trailer Hitch Size photo dated 10/07/2026, on both of his trailer 604 inspections."
+    "text": "Ralph Forbes, Trailer Readiness Form, trailer 605. Cascade low pressure alarm photo dated 03/12/2023."
    },
    {
     "t": "li",
-    "text": "Gage Gonzales \u2014 every photo on his H2S daily is dated 10/12/2026, the whole set from the previous evening. The form itself is dated 10/13."
+    "text": "Caleb Smith, Powell 34 10 air job 35509. Canon Safety JSA, Exxon JSA and Exxon Atmospheric Testing Log all dated 02/26/2025. Recurrence \u2014 Smith reused a 02/26/2025 photo set on 09/26/2026 as well."
    },
    {
     "t": "li",
-    "text": "Dennis Easley \u2014 ELSA and Loud Alarm Position photos dated 12/28/2025. Joshua Blassingame \u2014 ELSA and Loud Alarm Position photos dated 08/12/2021. Allen White \u2014 ELSA photo dated 08/12/2021. Justin Pack \u2014 Loud Alarm Position photo dated 12/21/2024. Andrew Bailey \u2014 single gas photo dated 03/09/2024."
+    "text": "Michael Hutt, H2S daily, LILLY #1. Loud Alarm Position Photos dated 07/15/2025. Recurrence \u2014 same photo, same date, as 09/26/2026."
    },
    {
     "t": "li",
-    "text": "Michael Ellis \u2014 Cascade Low Pressure Alarm photo dated 08/02/2021 on the trailer 606 readiness form. Ruben Rojo \u2014 Safety Cones and Spotter Flags photos dated 10/05/2026 on the trailer 152 readiness form, for equipment the same form says is missing. Ruben Rojo \u2014 four JSA and atmospheric log uploads dated 10/05/2026 on the cancelled Currie-Neal 2811H job."
+    "text": "Justin Pack, H2S daily, LILLY #1. Loud Alarm Position Photos dated 12/21/2024."
    },
    {
     "t": "li",
-    "text": "Jimmy White \u2014 four photos dated 08/12/2021 on the Mitsui rig-down. Daniel Medrano \u2014 five photos dated 09/30/2026 on the Rose City rig-up. Dawson Drake \u2014 Skid Date photo dated 05/02/2020 on the Seinfeld rig-down and an atmospheric testing log dated 05/02/2020 on the K Bird job. Dermont Morgan \u2014 atmospheric testing log dated 09/29/2026. Justin Fontenot \u2014 six uploads dated 04/16/2026. Ralph Forbes \u2014 JSA and atmospheric log uploads dated 03/12/2023 on all three of his 10/12 close-outs."
+    "text": "Bobby Fleming, H2S daily, Blue Marlin Fed Com 212H. \"Picture of Front and Back of Single Gas/4 Gas Without Pump\" dated 03/11/2025, and two 4-gas-with-pump photos dated 09/06/2026. Recurrence \u2014 the 03/11/2025 set is the one he reused on 09/26/2026."
    },
    {
     "t": "li",
-    "text": "Bobby Galindo's daily has no photo at all under Loud Alarm Position Photos or Condition Sign & Flags. Those are location equipment and stay in scope even though his air-trailer sections are exempt."
+    "text": "Dennis Easley, H2S daily. ELSA Photos and Loud Alarm Position Photos both dated 12/28/2025."
    },
    {
     "t": "li",
-    "text": "Trevor McKenzie's Ovintiv Terlingua close-out reuses the same JSA photo, timestamped 10/10/2026 05:50 AM, for both the 10/10 and the 10/12 pause entries."
+    "text": "Jacob Hernandez, Trailer Readiness Form, trailer 139. \"Pictures of AV-3000 Maks\" dated 04/22/2020 \u2014 on a form that answers No to whether the trailer has an AV-3000 box."
+   },
+   {
+    "t": "li",
+    "text": "Stefanie Kirschke, Trailer Inspection Form, trailer 175. Jack in the up position, back of trailer and spare tire all dated 10/21/2025."
+   },
+   {
+    "t": "li",
+    "text": "Pablo Soto, all three Trailer Inspection Forms, trailer 607. The same truck ball photo (10/05/2026) and trailer hitch photo (10/07/2026) are carried on all three."
+   },
+   {
+    "t": "li",
+    "text": "Larry Jaramillo \u2014 Powell 34 10 air job 35510: JSA and atmospheric log uploads dated 09/09/2026. Trailer Readiness Form 608: cascade low pressure alarm and AV-3000 photos dated 09/09/2026."
+   },
+   {
+    "t": "li",
+    "text": "Larry Taylor, ETX Cascade Inspection Form. Location sign and \"cascade hose connected to Scott air pack\" both dated 02/10/2026."
+   },
+   {
+    "t": "li",
+    "text": "Ruben Rojo, Preston Freeman air job 35806_2. Both Exxon JSA images dated 10/13/2026."
+   },
+   {
+    "t": "li",
+    "text": "Luis Zarate, University 7-43 74H air job 35782. Exxon Atmospheric Testing Log upload dated 04/28/2026."
+   },
+   {
+    "t": "li",
+    "text": "Bryan Medlin, Trailer Readiness Form, trailer 601. Cascade low pressure alarm photo dated 09/21/2026."
    },
    {
     "t": "p",
@@ -138,19 +372,15 @@
    },
    {
     "t": "li",
-    "text": "Jeremy Norris filed three air jobs and left the Learn section entirely blank on two of them (Meek Lindsay 6M 13H job 35749, and Turner W41K 11H job 35772_1), and left two of three Learn fields blank on the third (Turner W41L 12H job 35747). All three also have \"Details if Any\" blank."
+    "text": "The entire L \u2013 Learn section was left blank on: Bryan Medlin (NUNN TK553 35640 and NUNN TK554 35642), Gael Avila 1099 (Weyman 23 #5 34995_2), Jeremy Norris (Guitar 5 #2 35786), Humberto Marquez-Salazar (Guitar 5 #2 35787 and McClintic A 8H 35785), Ruben Rojo (Preston Freeman 35806_2), Larry Jaramillo (Powell 34 10 35510), Jeremy Norris (McClintic A 8H 35784, Learn line only), and Luis Zarate (University 7-43 74H 35782, Learn line only)."
    },
    {
     "t": "li",
-    "text": "Dermont Morgan, K Bird 12H-V301 job 35611 \u2014 all three Learn fields blank."
+    "text": "\"Did we leave the location better than we found it?\" left blank on Tyrell Sanders (Mary 18 1HB 35807_2), William \"Jimmy\" Cooper 1099 (TK552 35621, TK556 35623), Pablo Soto (Brook B-3G 35778, Brook B-3I 35776, Frank 11E 35804_1), Gael Avila 1099 (Weyman 23 #4 34994_2), Caleb Smith (Powell 34 10 35509), Larry Jaramillo (35510) and Tyrell Sanders (Kyle 2600 35802_2)."
    },
    {
     "t": "li",
-    "text": "Humberto Marquez-Salazar, Weyman 23 #2 job 34991_2 \u2014 Learn blank; Weyman 23 #3 job 34990_2 \u2014 Learn, \"how did we leave it\" and Location Name all blank."
-   },
-   {
-    "t": "li",
-    "text": "Michael Ellis, Driver Wilde job 35745 \u2014 Learn blank. Ralph Forbes, TK509 job 35614 \u2014 \"did we leave the location better\" blank. Ruben Rojo, 4401H job 35688 \u2014 Learn and \"how\" blank. Gael Antonio Avila, University 4-7E job 35764_2 \u2014 two Learn fields blank. Pablo Soto, Donald L Hutt job 35743 \u2014 \"did we leave the location better\" blank. Baldemar Bracamontes, job 35744 \u2014 \"how\" blank."
+    "text": "Answered \"No\" to \"Did we leave the location better than we found it?\" while the follow-up text contradicts it: Raymundo Solis (Kyle 2600 35802_1, \"It was clean and clear when we got here\") and William \"Jimmy\" Cooper 1099 (University PIP 35619, \"In good condition clean\"). Likely a mis-tap rather than a real answer."
    },
    {
     "t": "p",
@@ -158,43 +388,39 @@
    },
    {
     "t": "li",
-    "text": "Pablo Soto, Donald L Hutt C 3672H job 35743 \u2014 both \"What did we observe?\" and \"What went well?\" submitted with no items chosen, with narratives reduced to \"Good team work and communication\" and \"The job\". This is the same pattern he filed on 09/26/2026 \u2014 a repeat."
+    "text": "Pablo Soto submitted three air jobs with both \"What did we observe?\" and \"What went well?\" entirely empty: Brook B-3G 7H (35778), Brook B-3I 9H (35776) and Frank 11E 105H (35804_1). The continuation narratives on all three are near-identical and a few words long \u2014 \"Good team work and communication\" / \"The job\" / \"Just keep striving to be better\" appear verbatim on more than one. This is a recurrence of the exact pattern recorded against Soto on 09/26/2026."
    },
    {
     "t": "li",
-    "text": "Dermont Morgan, K Bird job 35611 \u2014 both multi-selects empty."
+    "text": "Larry Jaramillo (Powell 34 10, 35510) and Caleb Smith (Powell 34 10, 35509) both submitted empty observe and win multi-selects, but both jobs were cancelled for road conditions and the narratives say so \u2014 a defensible blank."
    },
    {
     "t": "li",
-    "text": "Ruben Rojo, Currie-Neal 2811H job 35684 \u2014 both empty; the job was cancelled."
-   },
-   {
-    "t": "li",
-    "text": "Justin Fontenot, Currie-Neal 2811H job 35685 \u2014 both empty; the job was cancelled."
+    "text": "Where the same long multi-select string recurs across several forms from one technician \u2014 Ralph Forbes across his three University jobs, William \"Jimmy\" Cooper 1099 across his three, Baldemar Bracamontes 1099 across Brook B-3I and B-3G \u2014 the identical wording suggests a selection carried forward rather than made fresh each time. That is the training point Kelby raised."
    },
    {
     "t": "p",
-    "text": "Data in the wrong field"
+    "text": "Data entered in the wrong field"
    },
    {
     "t": "li",
-    "text": "Tyrell Sanders entered his own name, \"Tyrell Sanders\", in the OWL Location Name field on both of his air jobs (University 9 WCU 2101H and Nobles A 2810). Twice in one day."
+    "text": "Tyrell Sanders entered his own name in the OWL \"Location Name\" field on both of his air jobs: \"Tyrell Sanders\" on Kyle 2600 (35802_2) and \"Tyrell sanders\" on Mary 18 1HB (35807_2)."
    },
    {
     "t": "li",
-    "text": "Literal placeholder \"Enter Notes...\" stored as a field value on three forms: Jacob Hernandez's trailer 608 readiness form (mask bag stickers) and his trailer 608 inspection (jack in the up position), and Dawson Drake's K Bird job (4-gas monitor)."
+    "text": "Jerry Gonzales entered \"1\" in \"Details if Any\" on Nobles 3226SH (35781) \u2014 the tube count in a narrative field."
    },
    {
     "t": "li",
-    "text": "Pablo Soto entered the well name and coordinates in \"Details if Any\" and recorded the Location Name as \"Donald L HuttC 4972H\" when the well is 3672H."
+    "text": "Gael Avila 1099 entered \"Gael Avila / Nathan C\" in the single-name \"H2S Safety Technician Name\" field on his Trailer Inspection Form for 604."
    },
    {
     "t": "li",
-    "text": "Well names mistyped in the OWL Location Name field: Caleb Smith \"Xbox giddings est 1054\" for XBC Giddings; Jacob Hernandez \"Sigh 46 2\" for Sugg 46 2; Nathan Contreras \"France's 12-1-E 2708VH\" for 2709VH; Jimmy Cooper \"University 10- 11H/ 23H-TK510\" for 12H; Michael Ellis \"Brooks A-E7C\" for Brook A-E7C 3H. Ralph Forbes left Location Name blank on job 35608."
+    "text": "Location names mistyped in the OWL block: \"Mostly 42 2\" for Mindy Lynn 42 2 (Jacob Hernandez), \"Brook B-31 9H\" for Brook B-3I 9H (Baldemar Bracamontes and Pablo Soto), \"Tuner W41k 11h\" for Turner W41K 11H (Jerry Gonzales). Pablo Soto's Frank 11E details line gives the longitude as \"-191.9774\" where the job header reads \"-101.97748060\"."
    },
    {
     "t": "li",
-    "text": "Daniel Medrano's rig-up has the single character \"I\" stored in the SCBA pressure gauge Notes field. Jimmy White's rig-down has \"..\" in \"Ticket Number if Available\"."
+    "text": "The app placeholder \"Enter Notes...\" was stored as a field value on: Luis Zarate (Trailer Inspection 602, inside-of-trailer notes), Bryan Medlin (NUNN TK553 35640, two fields), Gael Avila 1099 (Trailer Inspection 604, two fields), Jerry Gonzales (Turner W41L 35748, 4-gas monitor notes) and Raymundo Solis (Trailer Inspection 501 at 05:52 AM, trailer hitch notes)."
    },
    {
     "t": "p",
@@ -202,23 +428,31 @@
    },
    {
     "t": "li",
-    "text": "Billing company inconsistent between two technicians on the same job, five times: Nobles A 2810 (Zarate \"XTO\" / Sanders \"Exxon\"); Meek Lindsay 6M 13H (Norris \"Exxon\" / Gonzales \"XTO\"); University 9 WCU 2101H (Sanders \"Exxon\" / Zarate \"XTO\"); XBC Giddings 1054 (Henigan \"Exxon\" / Smith \"XTO\"); University 4-7E 5H (Avila \"Exxon\" / Solis \"XTO\"). Also Donald L Hutt (Bracamontes \"Exxonmobil\" / Soto \"Exxon\")."
+    "text": "Billing company inconsistent between two technicians on the same job. Frank 11E 105H, ticket 102239: Pablo Soto billed \"Exxon\", Baldemar Bracamontes 1099 billed \"Exxonmobil\". Kyle 2600 Unit 2, ticket 102238: Tyrell Sanders billed \"Exxon\", Raymundo Solis billed \"XTO\". Nobles 3226SH, ticket 102231: both billed \"XTO\", while the paired University 7-43 74H row and the Brook wells were billed \"Exxon\" and \"Exxonmobil\". Worth one pass by accounting before invoicing."
    },
    {
     "t": "li",
-    "text": "Ruben Rojo logged 4 hours 40 minutes on job time against Currie-Neal 47 2811H, a job the board marks CANCELLED and whose own Details field reads \"Job was canceled\". Justin Fontenot's form for the same row shows 2 hours 22 minutes suspended and a daily work summary of \"Canceled\". Both forms are appropriate records of the cancellation; the hours are the part worth checking."
+    "text": "Forms filed against a cancelled board row. Powell 34 10 (ticket 102236, AT# 608) is marked CANCELLED in the board's notes column, and Larry Jaramillo and Caleb Smith both filed air job submissions at 08:10 and 08:09 AM. Both record \"Job was canceled due to road conditions\", so the board note and the forms agree \u2014 this reconciles rather than conflicts, and no action is needed beyond confirming the ticket is not billed. Both techs also filed a full set of trailer forms for 608."
    },
    {
     "t": "li",
-    "text": "Jacob Hernandez's Sugg 46 2 notes read \"Job was rescheduled showed at 8:20am left at 11:44 pm\" while the job actually ended at 11:21 AM."
+    "text": "Open clock / timekeeping. Patrick Venson's Kenergy training job (35570) shows Time On Job of 5d:23h:48m, started 10/08 and not ended until 10/14 08:11 AM, with a form date of 09-Oct. Stefanie Kirschke's Roye #4TM supervision job (35774) ran 2h:18m on job against 20h:27m suspended across the 10/13\u201310/14 boundary. Bobby Fleming's Blue Marlin 212H close-out (35677) ended 10/14 06:17 PM against a scheduled end of 10/22. None of these is wrong on its face; they are the three records most likely to look odd on a timesheet."
    },
    {
     "t": "li",
-    "text": "Larry Taylor's Adamas job records the same street address as Huxley on the start entry and Shelbyville on the end entry."
+    "text": "Payment method mismatch. Venson's job description says \"Customer will pay by cc\"; the uploaded ticket note reads \"Paid check\"."
    },
    {
     "t": "li",
-    "text": "Six jobs carrying a 10/13 form date are close-outs of 10/12 or earlier work and are counted against those earlier days, not against 10/13: Ralph Forbes jobs 35604, 35606 and 35608 and Jimmy Cooper jobs 35605, 35607 and 35609, all University 10-11H/12H work from 10/12 that was paused overnight and ended between 5:28 AM and 7:22 AM. Forbes wrote on one of them, \"Everything was turned in yesterday as a pause. Was told to end job\". Trevor McKenzie's Ovintiv Terlingua nights job (35715_1, started 10/09) and Keelan Hammer's Nico Energy training class (35529, started 10/07) are the same situation."
+    "text": "Two images failed to upload. Jerry Gonzales's Turner W41K 11H (35772_2) and Turner W41L 12H (35748) each carry \"Image not available:Picture capture file empty\" against JSA and atmospheric testing log uploads. Both are 10/13 jobs that landed today; the JSAs for those two jobs are effectively not on file."
+   },
+   {
+    "t": "li",
+    "text": "Kelby Hammer's EOG Hobbs fit test (35830) records a one-minute job duration and one employee name against a description requesting fit tests for two employees."
+   },
+   {
+    "t": "li",
+    "text": "Jacob Hernandez's Trailer Readiness Form for 139 answers \"No\" to whether the trailer has an AV-3000 box while attaching an AV-3000 mask photo. Tyrell Sanders (501) and Larry Jaramillo (608) also answered No; Pablo Soto (607), Nathan Contreras (604), Jeremy Norris (603) and Robbie Henigan (175) left the question unanswered."
    },
    {
     "t": "p",
@@ -226,21 +460,33 @@
    },
    {
     "t": "li",
-    "text": "Rolando Flores, Bobby Galindo, Michael Ellis, Humberto Marquez-Salazar, Ruben Rojo and Jimmy White \u2014 all quoted in full in the safety concerns section above."
+    "text": "Rolando Flores 1099, H&P 395: \"Cellar Sensor missing, one sensor on gomble pot needs battery can't take off the faceplate, one sensor on rig floor needs battery can't take faceplate off\" \u2014 carried above as a real safety concern."
    },
    {
     "t": "li",
-    "text": "Justin Pack, H2S daily, Xto/Fesco Lili #1: \"Already fixed the non communicating sensor issue and sign will be put out when rig is gone right now the said leave seacorps sign at the gate\""
+    "text": "Hayden Haugh 1099, H&P 616: \"Battery levels are dropping every couple of days.\" A degradation trend reported by the technician. Sensor battery thresholds are not yet flagged pending Kelby's guidance, but a stated trend is a maintenance signal worth acting on independently of any threshold."
    },
    {
     "t": "li",
-    "text": "Daniel Medrano, Rose City rig-up, in the Comments or Concerns field: \"All equipment rigged up and working satisfactory\""
+    "text": "Brianda Sandoval, trailer 128 Trailer Readiness Form, \"Is anything wrong or missing?\": \"just the flags, cones, horn, etc.\" A problem is named but no notified party is. Follow-up: confirm who was told and that 128 has been restocked."
+   },
+   {
+    "t": "li",
+    "text": "Brianda Sandoval, trailer 128 Trailer Inspection Form, Comments or Concerns: \"no.\" The jack photo note reads \"trailer jack is on the floor.\" on a field named \"Jack in the Up Position Photo\" \u2014 likely just describing a trailer sitting on a block, but it reads as a contradiction in the record."
+   },
+   {
+    "t": "li",
+    "text": "Larry Taylor, Hilcorp field service: \"Air pack inspections Brought back 1 for refill from Teague. EOL: Teague plant- 1 Farrar Plant- 2 Brought them back for service. Will update inspection forms shortly.\" Three end-of-life items pulled for service and inspection forms stated as not yet updated \u2014 worth tracking to closure."
+   },
+   {
+    "t": "li",
+    "text": "Jeremy Norris, trailer 507 Trailer Readiness Form (form dated 10/13, arrived this morning): caution tape noted as \"none available\" and safety cones as \"no cones available\", while \"Is anything wrong or missing?\" was left blank. Trailer 507 is not on the 10/14 board, so this does not count toward today's coverage, but the restock still needs doing."
    }
   ],
   "clean": [
    {
     "t": "p",
-    "text": "Nothing requiring attention from: Larry Jaramillo (two Weyman air jobs and the trailer 603 inspection), Nathan Contreras (Erwin Murray and Frances air jobs, trailer 501 inspection and trailer 501 readiness form), Luis Zarate (Nobles A and University 9 WCU air jobs and two trailer 602 inspections), Jacob Hernandez (Sugg 46 2 air job and all three trailer 608 forms, apart from the placeholder text noted above), Raymundo Solis (University 4-7E air job and two trailer 607 inspections), Gael Antonio Avila (University 4-7E air job and the trailer 607 readiness form), Cindy Smith (Brook A-E7C and Driver Wilde air jobs and two trailer 606 inspections), Jerry Gonzales (Meek Lindsay air job), Bryan Medlin (trailer 601 inspection), Andrew Bailey (Blue Marlin 201H supervision job and H2S daily), Gage Gonzales (Blue Marlin 201H nights supervision job and H2S daily, photo dates aside), Allen White (Ke"
+    "text": "Nothing requiring attention from: Michael Ellis (Trailer Inspection Form for 606 and the Ovintiv field service job at FASKEN MD 09 09A, details section properly completed); Nathan Contreras (Trailer Inspection Form 604, Trailer Readiness Form 604 and both Weyman 23 air jobs, with the fullest observe and win narratives of the day); Jeremy Norris (Trailer Inspection Forms 603 \u00d72, Trailer Readiness Form 603 and both McClintic and Guitar air jobs, apart from a blank Learn line); Ruben Rojo (Trailer Inspection Form 600); Jacob Hernandez (Trailer Inspection Forms 139 \u00d72, Trailer Readiness Form 139 and the Mindy Lynn air job); Justin Fontenot 1099 (Mindy Lynn air job, complete Learn section); Raymundo Solis (three Trailer Inspection Forms for 501 and both Mary 18 and Kyle 2600 air jobs); Gage Gonzales 1099 (two H2S dailies at Blue Marlin 211H); Andrew Bailey (H2S daily, apart from the stale mon"
    },
    {
     "t": "p",
@@ -248,19 +494,24 @@
    },
    {
     "t": "p",
-    "text": "Trailer forms of both kinds, and the equipment sections of the H2S daily, are photo-based. A defect visible only in a photograph would not surface in this review. Fire extinguisher inspection and expiration dates, first aid kit dates and 4-gas calibration dates exist only inside the images, not as text \u2014 the only reason the trailer 138 extinguisher tag appears above is that Jimmy White typed a note about it."
+    "text": "Trailer forms of both kinds and the equipment sections of the H2S daily are photo-based. A defect visible only in a photograph would not surface in this review. Fire extinguisher inspection and expiration dates, first aid kit dates and 4-gas calibration dates exist only inside images, not as text, so this review can confirm that a photo was taken and when, but not what it shows."
    },
    {
     "t": "p",
-    "text": "A second limitation specific to tonight: this review ran at 11:00 PM Central on 10/13, so the usual sweep of the following morning for late-arriving submissions could not be run. Any form for 10/13 that lands after midnight is not in these counts, and a few of the absences above may turn out to be late rather than missing."
+    "text": "A second limitation specific to today: this review ran at 11:00 PM Central on 10/14, so the following-morning sweep for late arrivals could not be performed. Any 10/14 form submitted after that hour will not appear here. Five submissions that arrived inside today's window carry a form date of 10/13 \u2014 two Jerry Gonzales air jobs at Turner W41K 11H and Turner W41L 12H, Jeremy Norris's Trailer Readiness Form for trailer 507, Larry Jaramillo's Trailer Inspection Form for trailer 603, and Rolando Flores's H2S daily for H&P 616. They were read but belong to 10/13 and are not counted toward today's coverage."
    },
    {
     "t": "p",
-    "text": "99 of 99 submissions read. The job board was available \u2014 Blake Walton's 10/13/2026 ArkLaTex & Permian Basin boards, received 10:00 AM Central \u2014 and the 10-13 sheet of each workbook was used. 63 manned board rows were checked for coverage, 51 on the Permian board and 12 on the ArkLaTex board, after excluding cancelled, rescheduled, standby, WTX-support and days-off rows."
+    "text": "91 of 91 submissions read. The job board was available: the 10/14/2026 ArkLaTex and Permian Basin boards emailed by Blake Walton at 10:07 AM Central were used, and 56 manned board rows were checked for coverage after excluding cancelled, on-standby, days-off, WTX support and shop rows."
    }
   ]
  },
  "history": [
+  {
+   "date": "2026-10-14",
+   "concerns": 3,
+   "docBlocks": 54
+  },
   {
    "date": "2026-10-13",
    "concerns": 10,
