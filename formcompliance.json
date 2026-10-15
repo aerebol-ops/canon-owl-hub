@@ -2194,6 +2194,11 @@
       "year": 2026,
       "monthNum": 10,
       "compliancePct": 93.2,
+      "overallPct": 90.3,
+      "overallYesTotal": 716,
+      "overallNoTotal": 77,
+      "trailerInspYes": 118,
+      "trailerReadyYes": 90,
       "missedTotal": 87,
       "dailyNo": 37,
       "trailerInspNo": 10,
@@ -2276,31 +2281,32 @@
       ],
       "watch": [
         {
+          "name": "Trevor Mckenzie",
+          "totalMissed": 6,
+          "dailyMissed": 4,
+          "trailerMissed": 2,
+          "dailyYes": 5,
+          "dailyNo": 4,
+          "pct": 56,
+          "overallYes": 5,
+          "overallNo": 5,
+          "overallPct": 50.0,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 1
+        },
+        {
           "name": "Allen White",
           "totalMissed": 5,
           "dailyMissed": 5,
           "trailerMissed": 0,
           "dailyYes": 8,
           "dailyNo": 5,
-          "pct": 62
-        },
-        {
-          "name": "Benjamin Boutte",
-          "totalMissed": 3,
-          "dailyMissed": 3,
-          "trailerMissed": 0,
-          "dailyYes": 11,
-          "dailyNo": 3,
-          "pct": 79
-        },
-        {
-          "name": "Josh Blassingame",
-          "totalMissed": 3,
-          "dailyMissed": 2,
-          "trailerMissed": 1,
-          "dailyYes": 8,
-          "dailyNo": 2,
-          "pct": 80
+          "pct": 62,
+          "overallYes": 8,
+          "overallNo": 5,
+          "overallPct": 61.5,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 0
         },
         {
           "name": "Joseph Popillion",
@@ -2309,16 +2315,68 @@
           "trailerMissed": 3,
           "dailyYes": 9,
           "dailyNo": 2,
-          "pct": 82
+          "pct": 82,
+          "overallYes": 9,
+          "overallNo": 4,
+          "overallPct": 69.2,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 2
         },
         {
-          "name": "Stefanie Kirschke",
+          "name": "Josh Blassingame",
+          "totalMissed": 3,
+          "dailyMissed": 2,
+          "trailerMissed": 1,
+          "dailyYes": 8,
+          "dailyNo": 2,
+          "pct": 80,
+          "overallYes": 8,
+          "overallNo": 3,
+          "overallPct": 72.7,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 1
+        },
+        {
+          "name": "Benjamin Boutte",
           "totalMissed": 3,
           "dailyMissed": 3,
           "trailerMissed": 0,
-          "dailyYes": 14,
+          "dailyYes": 11,
           "dailyNo": 3,
-          "pct": 82
+          "pct": 79,
+          "overallYes": 11,
+          "overallNo": 3,
+          "overallPct": 78.6,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 0
+        },
+        {
+          "name": "Ruben Rojo",
+          "totalMissed": 7,
+          "dailyMissed": 0,
+          "trailerMissed": 7,
+          "dailyYes": 13,
+          "dailyNo": 0,
+          "pct": 100,
+          "overallYes": 20,
+          "overallNo": 5,
+          "overallPct": 80.0,
+          "trailerInspMissed": 2,
+          "trailerReadyMissed": 3
+        },
+        {
+          "name": "Dawson Drake",
+          "totalMissed": 4,
+          "dailyMissed": 0,
+          "trailerMissed": 4,
+          "dailyYes": 9,
+          "dailyNo": 0,
+          "pct": 100,
+          "overallYes": 18,
+          "overallNo": 4,
+          "overallPct": 81.8,
+          "trailerInspMissed": 1,
+          "trailerReadyMissed": 3
         },
         {
           "name": "Gage Gonzales",
@@ -2327,7 +2385,26 @@
           "trailerMissed": 0,
           "dailyYes": 9,
           "dailyNo": 2,
-          "pct": 82
+          "pct": 82,
+          "overallYes": 9,
+          "overallNo": 2,
+          "overallPct": 81.8,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 0
+        },
+        {
+          "name": "William Cooper",
+          "totalMissed": 3,
+          "dailyMissed": 0,
+          "trailerMissed": 3,
+          "dailyYes": 17,
+          "dailyNo": 0,
+          "pct": 100,
+          "overallYes": 18,
+          "overallNo": 3,
+          "overallPct": 85.7,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 3
         },
         {
           "name": "Bobby Fleming",
@@ -2336,34 +2413,12 @@
           "trailerMissed": 0,
           "dailyYes": 12,
           "dailyNo": 2,
-          "pct": 86
-        },
-        {
-          "name": "Hayden Haugh",
-          "totalMissed": 2,
-          "dailyMissed": 2,
-          "trailerMissed": 0,
-          "dailyYes": 13,
-          "dailyNo": 2,
-          "pct": 87
-        },
-        {
-          "name": "Michael Ellis",
-          "totalMissed": 1,
-          "dailyMissed": 1,
-          "trailerMissed": 0,
-          "dailyYes": 10,
-          "dailyNo": 1,
-          "pct": 91
-        },
-        {
-          "name": "Larry Taylor",
-          "totalMissed": 1,
-          "dailyMissed": 1,
-          "trailerMissed": 0,
-          "dailyYes": 15,
-          "dailyNo": 1,
-          "pct": 94
+          "pct": 86,
+          "overallYes": 12,
+          "overallNo": 2,
+          "overallPct": 85.7,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 0
         }
       ],
       "live": true,

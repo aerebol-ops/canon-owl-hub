@@ -6531,17 +6531,34 @@ async function renderFormCompliance() {
     }
     const maxMissed = Math.max(1, ...m.byDay.map(d => d.missed));
     const maxWatch = Math.max(1, ...m.watch.map(w => w.totalMissed));
+    // All-forms view (day + night + trailer inspection + trailer readiness) —
+    // the weekly paperwork review's definition. Present only on live months.
+    const hasOverall = m.overallPct != null;
+    let overallDelta = '';
+    if (hasOverall && prev && prev.overallPct != null) {
+      const od = Math.round((m.overallPct - prev.overallPct) * 10) / 10;
+      overallDelta = od >= 0
+        ? `<div style="font-size:12px;font-weight:800;color:#166534;margin-top:6px;">&#9650; up ${Math.abs(od)} pts from ${prev.month.split(' ')[0]} (${prev.overallPct}%)</div>`
+        : `<div style="font-size:12px;font-weight:800;color:#991b1b;margin-top:6px;">&#9660; down ${Math.abs(od)} pts from ${prev.month.split(' ')[0]} (${prev.overallPct}%)</div>`;
+    }
+    const overallTile = hasOverall ? `
+    <div style="background:${m.overallPct >= 95 ? '#dcfce7' : m.overallPct >= 85 ? '#fef3c7' : '#fee2e2'};border-radius:10px;padding:12px;">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:${pctColor(m.overallPct)};margin-bottom:6px;">All Forms Compliance</div>
+      <div style="font-size:30px;font-weight:900;color:${pctColor(m.overallPct)};line-height:1;">${m.overallPct}%</div>
+      <div style="font-size:11px;color:${pctColor(m.overallPct)};margin-top:4px;opacity:.8;">daily + trailer insp + readiness &middot; ${m.overallYesTotal}/${m.overallYesTotal + m.overallNoTotal} checks</div>
+      ${overallDelta}
+    </div>` : '';
     return `
   <div style="padding:16px 0 4px;">
     <div style="font-size:15px;font-weight:900;color:var(--navy);border-bottom:2px solid var(--navy);padding-bottom:4px;margin-bottom:12px;">${m.month}${m.live ? ` <span style="font-size:11px;font-weight:700;color:#b45309;">&mdash; in progress, scored through ${m.throughDate}</span>` : ''}</div>
   </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:14px;">
+  <div style="display:grid;grid-template-columns:${hasOverall ? 'repeat(4, 1fr)' : '1fr 1fr 1fr'};gap:10px;margin-bottom:14px;">
     <div style="background:${m.compliancePct >= 95 ? '#dcfce7' : m.compliancePct >= 85 ? '#fef3c7' : '#fee2e2'};border-radius:10px;padding:12px;">
       <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:${pctColor(m.compliancePct)};margin-bottom:6px;">Daily Form Compliance</div>
       <div style="font-size:30px;font-weight:900;color:${pctColor(m.compliancePct)};line-height:1;">${m.compliancePct}%</div>
       <div style="font-size:11px;color:${pctColor(m.compliancePct)};margin-top:4px;opacity:.8;">${m.employees} techs &middot; ${m.byDay.length} days</div>
       ${delta}
-    </div>
+    </div>${overallTile}
     <div style="background:#fee2e2;border-radius:10px;padding:12px;">
       <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#991b1b;margin-bottom:6px;">Missed Forms</div>
       <div style="font-size:30px;font-weight:900;color:#991b1b;line-height:1;">${m.missedTotal}</div>
@@ -6572,15 +6589,20 @@ async function renderFormCompliance() {
   </div>
 
   <div style="background:var(--card);border-radius:12px;padding:14px;margin-bottom:14px;">
-    <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:10px;border-bottom:2px solid var(--navy);padding-bottom:4px;">&#127937; Ranked &mdash; Lowest Daily Form Compliance</div>
+    <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--navy);margin-bottom:10px;border-bottom:2px solid var(--navy);padding-bottom:4px;">&#127937; Ranked &mdash; Lowest ${hasOverall ? 'All-Forms' : 'Daily Form'} Compliance</div>
     ${m.watch.map((w, i) => {
       const barW = Math.round(w.totalMissed / maxWatch * 100);
       const c = rankColor(i);
+      const rowOverall = w.overallPct != null;
+      const rowPct = rowOverall ? w.overallPct : w.pct;
+      const rowDetail = rowOverall
+        ? `${w.dailyMissed} daily &middot; ${w.trailerInspMissed} trailer insp &middot; ${w.trailerReadyMissed} readiness &middot; ${w.overallYes}/${w.overallYes + w.overallNo} checks`
+        : `${w.dailyMissed} daily &middot; ${w.trailerMissed} trailer &middot; ${w.dailyYes}/${w.dailyYes + w.dailyNo} filed`;
       return `<div style="margin-bottom:9px;">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:3px;">
           <div style="font-size:11.5px;color:var(--text);flex:1;padding-right:8px;"><strong style="color:${c};">#${i + 1}</strong> &nbsp;${w.name}</div>
-          <div style="font-size:10px;color:var(--muted);flex-shrink:0;margin-right:8px;">${w.dailyMissed} daily &middot; ${w.trailerMissed} trailer &middot; ${w.dailyYes}/${w.dailyYes + w.dailyNo} filed</div>
-          <div style="font-size:12px;font-weight:800;color:${pctColor(w.pct)};flex-shrink:0;min-width:38px;text-align:right;">${w.pct}%</div>
+          <div style="font-size:10px;color:var(--muted);flex-shrink:0;margin-right:8px;">${rowDetail}</div>
+          <div style="font-size:12px;font-weight:800;color:${pctColor(rowPct)};flex-shrink:0;min-width:38px;text-align:right;">${rowPct}%</div>
         </div>
         <div style="height:5px;background:var(--border);border-radius:3px;">
           <div style="height:5px;background:${c};border-radius:3px;width:${barW}%;"></div>
@@ -6588,7 +6610,9 @@ async function renderFormCompliance() {
       </div>`;
     }).join('')}
     <div style="margin-top:10px;font-size:11.5px;color:var(--muted);line-height:1.5;">
-      Ranked by daily-form compliance percentage (minimum 10 shift records), not raw missed counts &mdash; raw counts punish whoever works the most shifts. Trailer items are job-level and shared across the crew on location.
+      ${hasOverall
+        ? 'Ranked by completion across all four forms &mdash; day form, night form, trailer inspection and trailer readiness (minimum 10 audited checks) &mdash; the same definition as the weekly paperwork review. Trailer forms are charged to the day tech on the job, night forms to the night tech. Not raw missed counts: raw counts punish whoever works the most shifts.'
+        : 'Ranked by daily-form compliance percentage (minimum 10 shift records), not raw missed counts &mdash; raw counts punish whoever works the most shifts. Trailer items are job-level and shared across the crew on location.'}
     </div>
   </div>`;
   }).join('');
