@@ -2824,14 +2824,14 @@
       "trailerInspNo": 10,
       "trailerReadyNo": 30,
       "problemRows": 85,
-      "blanks": 71,
+      "blanks": 207,
       "employees": 62,
       "cleanEmployees": 28,
       "dailyYesTotal": 508,
       "dailyNoTotal": 37,
-      "rawRows": 706,
+      "rawRows": 836,
       "daysCovered": 13,
-      "sheetsInMonth": 15,
+      "sheetsInMonth": 17,
       "byDay": [
         {
           "date": "10/1",
