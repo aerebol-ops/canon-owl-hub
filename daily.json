@@ -236,21 +236,25 @@
     ]
   },
   "formReview": {
-    "date": "2026-10-14",
-    "label": "Wednesday 10/14",
+    "date": "2026-10-15",
+    "label": "Thursday 10/15",
     "verdict": "",
     "concerns": [
       {
-        "title": "Bryan Medlin — XTO, NUNN 14 1 SWD-TK554, 07:25–07:33 AM, job 35642. The OWL narrative records a benzene release during containment break and a move to supplied air.",
-        "quote": "High benzene levels were at 10 ppm when they broke containment the wind was blowing out of the south we went under SCBA to continue to work"
+        "title": "Hayden Haugh — BPX, State Blake 57-T3-46 W102H, 5:13 PM, job 35833. A 1300 ppm H2S reading is recorded on this job, but only inside the free-text accounting field. There ",
+        "quote": "Provided supervision for the rig. Rigged up all H2s equipment on location. And pulled two tubes to see where the well was at. It read 1300ppm H2s."
       },
       {
-        "title": "Alfredo Vaquera (1099) — Diamondback, KIMBERLY 809H, 01:02 PM, H2S daily. FR compliance question answered No, with a reason given.",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls / None assigned If not, why?"
+        "title": "Pablo Soto — XTO, Brook B-3A 1H and Turner E2-1202C 103H, trailer 606, forms at 4:46 AM, 10:13 AM and 3:02 PM. Not in Canon Safety issued FR uniform, recorded three times",
+        "quote": "No — Are you wearing you Canon Safety issued FR uniform?"
       },
       {
-        "title": "Alfredo Vaquera (1099) — Diamondback, KIMBERLY 809H, 01:02 PM, H2S daily. The same form answers No to a respiratory-supply question.",
-        "quote": "No Do you have sufficient mask bags?"
+        "title": "Alfredo Vaquera — Diamondback, Kimberly 809H, 12:43 PM. Two No answers on one form: FR coveralls, and mask bags.",
+        "quote": "No — Are you wearing your Canon Safety issued FR coveralls"
+      },
+      {
+        "title": "Bryan Medlin — XTO, Nunn 14 1 SWD, trailer 601, 4:26 PM. An equipment defect reported in the management comments field.",
+        "quote": "Driver's side rear axle the lug nuts are on backwards"
       }
     ]
   },
@@ -261,10 +265,10 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jeremy Norris / Jerry Gonzales — Good communication between all associates on the lease during the job compe",
-      "detail": "Everything went well and this job and there was no real room foe improvement.",
+      "headline": "Luis Zarate / Jerry Gonzales — on the OWL board",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-10-01. That consistency is the habit.",
       "psms": "Operational Discipline",
-      "level": null
+      "level": "habit"
     },
     {
       "type": "flag",
