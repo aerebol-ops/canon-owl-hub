@@ -328,5 +328,37 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/13"
+  },
+  "specialFocus": {
+    "week": 18,
+    "until": "2026-10-17",
+    "title": "Cool Heads Win — Talking Through Conflict on Location",
+    "why": "Easy Saturday morning — no big topic today, just a conversation worth having. Conflict is part of this work: a company man pushing on the schedule, a rig crew that doesn't want the monitor where you need it, two techs rubbing each other wrong on a relief handoff. None of that is a failure — it's people under pressure. What matters is how we handle it, because out here your reputation is built in exactly those moments. The goal this morning isn't rules; it's swapping stories and sharpening how we keep our cool, hold our standard, and walk away with the relationship intact. Grab your coffee — this one is a round-table.",
+    "standardLabel": "How We Handle It — Short List, Big Payoff",
+    "standard": [
+      "Lower the temperature first. When someone comes in hot, your job is to be the calmest person on the pad: let them finish, hear the actual complaint under the heat, and answer the problem — not the tone. Two raised voices never solved anything on a location.",
+      "Go at the problem, not the person. 'This handoff left me blind on the gas history' lands. 'You always leave me hanging' starts a feud. Name the thing, skip the character verdict.",
+      "A safety disagreement is not a negotiation — but delivery matters. The standard stands even when a CM or rig crew pushes. Be FIRM on the standard and EASY on the person: 'I can't start without that signed, help me get it done fast' beats squaring up, every time.",
+      "Talk direct, never around. Got a problem with a teammate? He hears it from YOU first — not the group chat, not the grapevine, not three weeks of silence. Most crew conflict is just a conversation somebody kept postponing.",
+      "Know when to hand it up. If it's getting personal, going in circles, or it's above your pay grade — a CM who won't budge, a billing or schedule fight — step back and call your lead. Escalating cleanly isn't weakness; a shouting match you 'won' on location is a loss everywhere else.",
+      "Keep it off the radio and out of the group text. Conflict handled in public writes a story that outlives the moment — for you, for him, and for Canon's name on that lease. Handle it face to face, then let it be over. When it's resolved, it's RESOLVED — no reheating it next hitch."
+    ],
+    "scenarios": [
+      {
+        "title": "The Hot Company Man",
+        "body": "Mid-morning, the schedule is bleeding, and the company man wants the crew working before your checks are done. He's loud about it. Walk the two roads: match his heat and you get a standoff, a phone call about 'that Canon guy,' and the same checks still waiting. Or — calm voice, standard intact: 'I hear you, we're ten minutes out. Fastest way through this is X, Y, and I need one signature. Help me knock it out.' Same standard held, zero bruises, and that CM asks for your crew by name next time. Who in the circle has lived this one? Tell it."
+      },
+      {
+        "title": "The Handoff That Got Personal",
+        "body": "Two good techs, one scratchy relief handoff — missing paperwork, a vague gas brief, and by week two they're not talking, just documenting each other's misses. Nobody ever said the first sentence: 'Hey, that handoff left me set up to fail — can we fix how we do this?' That one sentence, week one, and it's a process fix between teammates. Three weeks of silence later, it's a feud the whole crew can feel. Discussion: why is that first sentence so hard to say, and what makes it easier to hear?"
+      }
+    ],
+    "questions": [
+      "Think of the best-handled disagreement you've seen out here — what exactly did that person do that kept it from blowing up?",
+      "What's your personal tell that you're about to stop solving the problem and start winning the argument — and what's your reset move?",
+      "Where's your line between 'I handle this myself' and 'I call my lead'? Give a real example of each.",
+      "You've got a slow-burn issue with a teammate right now or you've had one — what would the direct, face-to-face version of that conversation sound like? Say the opening line."
+    ],
+    "nonNegotiable": "Hold the standard with a cool head: go at the problem, never the person; say it direct and face to face, never on the radio or in the group text; and when it's bigger than you, hand it up clean. We can disagree hard and still have each other's six."
   }
 }
