@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-16",
-  "week": 18,
-  "day": 5,
-  "topicWeek": 7,
-  "displayWeek": 9,
+  "date": "2026-10-19",
+  "week": 19,
+  "day": 1,
+  "topicWeek": 8,
+  "displayWeek": 10,
   "cycle": 2,
   "rotation": {
-    "week": 9,
-    "host": "RAY",
-    "topic": "Hot Work",
-    "marker": "Thu Oct 16 — 60-day check at the roundtable"
+    "week": 10,
+    "host": "JACOB",
+    "topic": "Bypassing Safety Controls · Stop Work Authority",
+    "marker": ""
   },
-  "openingMessage": "Don't think about the scoreboard. Think about what you need to do right now on this play. Do it well.",
+  "openingMessage": "The process is about what you need to do today, in practice, in the film room, in the weight room, so that you can be the best player you can be.",
   "openingAttribution": "Nick Saban",
-  "openingWhy": "Halfway through a bleed-down is no time to be mentally in the truck heading home. The step in front of you — this valve, this reading, this line — is the only one that can hurt you and the only one you control. String enough right-now steps together and the shift takes care of itself.",
+  "openingWhy": "Our film room is seven hundred OWL forms of what the field actually did. Our weight room is the morning cal, the LMRA, the trailer check. Champions in this trade are built in the same boring rooms as champions anywhere — daily, unglamorous, non-negotiable.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,118 +168,59 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Do not allow pressure to override PSMS standards. The company man saying 'we do this all the time' is not authorization. You are responsible for the call you make.",
-  "yesterdaysJobs": {
-    "date": "2026-10-12",
-    "label": "Monday, October 12",
-    "count": 6,
-    "flags": 1,
-    "groups": [
-      {
-        "category": "AGT",
-        "jobs": [
-          {
-            "well": "CRAWFORD 27O 115H",
-            "jobType": "Air Job",
-            "crew": "Ruben Rojo / Baldemar Bracomontes 1099",
-            "cm": "Foreman_West Ops 9",
-            "note": "Atmospheric Monitoring — Ruben Rojo / Baldemar Bracomontes 1099",
-            "flag": false
-          },
-          {
-            "well": "SDU 1984A",
-            "jobType": "Air Job",
-            "crew": "Jeremy Norris / Jerry Gonzales",
-            "cm": "",
-            "note": "Crew take part well and upgrade rubber",
-            "flag": false
-          },
-          {
-            "well": "GLASS Y #1",
-            "jobType": "Air Job",
-            "crew": "Ruben Rojo / Baldemar Bracomontes 1099",
-            "cm": "Foreman_West Ops 11",
-            "note": "Had pre task meeting, recognized all hazards associated with job and comple",
-            "flag": true
-          },
-          {
-            "well": "XBC Giddings Estate 4097H",
-            "jobType": "Air Job",
-            "crew": "Alexander Clubb / Raymundo Solis",
-            "cm": "Rick Parks",
-            "note": "Hold point was utilized when they started moving parts with the forklift",
-            "flag": false
-          },
-          {
-            "well": "SDU 1476A",
-            "jobType": "Air Job",
-            "crew": "Jeremy Norris / Jerry Gonzales",
-            "cm": "",
-            "note": "Replacement of a packing on a wellhead stuffing box",
-            "flag": false
-          }
-        ]
-      },
-      {
-        "category": "Maintenance",
-        "jobs": [
-          {
-            "well": "STOKES 13 1 SWD-P706",
-            "jobType": "Air Job",
-            "crew": "",
-            "cm": "",
-            "note": "Changing the seal pump",
-            "flag": false
-          }
-        ]
-      }
-    ]
-  },
-  "formReview": {
-    "date": "2026-10-15",
-    "label": "Thursday 10/15",
-    "verdict": "",
-    "concerns": [
-      {
-        "title": "Hayden Haugh — BPX, State Blake 57-T3-46 W102H, 5:13 PM, job 35833. A 1300 ppm H2S reading is recorded on this job, but only inside the free-text accounting field. There ",
-        "quote": "Provided supervision for the rig. Rigged up all H2s equipment on location. And pulled two tubes to see where the well was at. It read 1300ppm H2s."
-      },
-      {
-        "title": "Pablo Soto — XTO, Brook B-3A 1H and Turner E2-1202C 103H, trailer 606, forms at 4:46 AM, 10:13 AM and 3:02 PM. Not in Canon Safety issued FR uniform, recorded three times",
-        "quote": "No — Are you wearing you Canon Safety issued FR uniform?"
-      },
-      {
-        "title": "Alfredo Vaquera — Diamondback, Kimberly 809H, 12:43 PM. Two No answers on one form: FR coveralls, and mask bags.",
-        "quote": "No — Are you wearing your Canon Safety issued FR coveralls"
-      },
-      {
-        "title": "Bryan Medlin — XTO, Nunn 14 1 SWD, trailer 601, 4:26 PM. An equipment defect reported in the management comments field.",
-        "quote": "Driver's side rear axle the lug nuts are on backwards"
-      }
-    ]
-  },
+  "leadershipThought": "Character is built when nobody is watching. Small deviations don't stay small. Correct them now, when the cost is low.",
+  "yesterdaysJobs": null,
+  "formReview": null,
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Crew held safety meeting and discussed all exclusion zones and LSRA's</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey / Justin Fontenot 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Next job will be conducted the same and held to the same standard.</span><br><br><strong>Generated On 10/05/2026 10:40 AM 2 of 4 Canon Safety/RHI Group 800-553-2964</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Generated On 10/05/2026 10:40 AM 2 of 4 Canon Safety/RHI Group 800-553-2964 www.csrhigroup.com.</span><br><br><strong>We had a leaking valve and tested and got 21 ppm of h2s</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons / Cindy Smith 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Let rusty know and stopped what we were doing to make calls to find out what's next.</span><br><br><strong>Atmospheric testing was conducted around the battery tanks prior to work</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue maintaining awareness of changing conditions and perform continuous atmospheric monitoring as required.</span><br><br><strong>Team work good communication</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Pablo Soto / Cindy Smith 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
+  "exxonMoments": "<strong>Stop Work Authority —</strong> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>A lubricator job where we went in the get the \"dart\" back out from being st</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Be more understanding of the fact that we are using new crews now and they may take a little longer to do jobs than other crews in the past.</span><br><br><strong>Even though it wasn't a complete job they still swapped out the gasket for</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Even though it wasn't a complete job they still swapped out the gasket for the stuffing box</span><br><br><strong>Stop work authority utilize one of the crew members stepped underneath the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Stop work authority utilize one of the crew members stepped underneath the boom to try</span><br><br><strong>Crew would stop work every time they would smell gas and we'd masked up and</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Crew would stop work every time they would smell gas and we'd masked up and test</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Luis Zarate / Jerry Gonzales — on the OWL board",
-      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-10-01. That consistency is the habit.",
+      "headline": "Brianda Sandoval / Alejandro Najar — crew had to reconnect flow line to well head",
+      "detail": "Set up a wider exclusion zone if possible.",
       "psms": "Operational Discipline",
-      "level": "habit"
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Dawson Drake / Robbie Henigan 1099 — Conversion to a plunger, gas lift well",
+      "detail": "The efficiency of how the recruit worked with the communication with all parties involved.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Dawson Drake / Kedrick Mccarter 1099 — Communication and job went well",
+      "detail": "Communication and job went well.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris / Robbie Henigan 1099 — Verify conditions, brief all personnel, and leave the location better than you f",
+      "detail": "OWL form — Atmospheric Monitoring",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Hayden Haugh 1099 / Bryan Medlin — Flow line disconnected from the well",
+      "detail": "Everyone left location safely.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
     },
     {
       "type": "flag",
-      "week": 18,
-      "headline": "Clean board — no open watch items this week",
-      "detail": "Nothing carried in from last week. See a hazard? Flag it on your OWL form and it lands here the same evening.",
-      "psms": "OWL Program"
+      "week": 19,
+      "headline": "Reconnect was successful, SCBA were put on but not needed for the job",
+      "detail": "No gas or leakage of hazardous materials.",
+      "psms": "Operational Discipline"
     }
   ],
-  "todaysChallenge": "You can't control the weather, the schedule, or the company man. You can control your readings, your checks, and your callout. Own the part that's yours today.",
-  "todaysChallengeSubtext": "“Do not let what you cannot do interfere with what you can do.” — John Wooden",
+  "todaysChallenge": "Pick one thing today you'd only do if someone was checking — the monitor calibration, the trailer form, the tube count — and do it like the client was standing there. Nobody watching is the test.",
+  "todaysChallengeSubtext": "“The true test of a man's character is what he does when no one is watching.” — John Wooden",
   "compliance": {
     "weekOf": "Week of October 12, 2026",
     "metrics": [
