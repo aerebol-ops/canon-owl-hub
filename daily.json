@@ -251,5 +251,37 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/13"
+  },
+  "specialFocus": {
+    "week": 19,
+    "until": "2026-10-19",
+    "title": "Week in Review — We Made the Stops. Now Write the Scene.",
+    "why": "Two jobs this morning, and they turn out to be the same job. First we close out last week — Hot Work, Ray hosting. Then Jacob's week starts: Bypassing Safety Controls · Stop Work Authority, kicked off TODAY, one day early, because last week's review leads straight into it. Here's the number: this crew filed 533 forms last week. 'Stop work authority was discussed' was ticked on nearly every one. 'Stop work authority UTILIZED' was ticked ZERO times. Yet buried in the notes are at least 13 real stops — a pipe rigged wrong, a valve leaking by, a casing leak, lightning call-offs, a mask-up on benzene, a sensor shut off. We ARE making the calls. We are NOT writing them so anybody else can see them. Six weeks from now a client asks 'why did your guy stop my job?' — and 'I think it was the wind' is not an answer. Your note has to recreate the location in words: what you saw, what you decided, and the moves you made. That paper protects you, protects the crew, and protects Canon. Documenting the decision is part of being a safety professional — the same as making it. When this topic ran in cycle one (Meeting Log, week 8) the lesson was: a bypass nobody writes down is a bypass the next hand never knew existed. This week's version: a stop nobody writes down never happened — not to the client, not to the office, not to the next crew.",
+    "standardLabel": "Last Week in One Look — and the Write-Up Standard Starting Today",
+    "standard": [
+      "Last week's board, closed out: Hot Work week with Ray hosting, and every morning carried a spotlight that doesn't expire with the week — an active gas well means the JSA gets signed by the crew AND the company man before the job starts; a full 360 and gauged tires before every roll; every job, pivot, and return called in by name ('back' is not a location); cool heads when it gets hot; and spoken handoffs on every relief. Those are how we operate now.",
+      "The calls we made — and they were good ones: Humberto Marquez-Salazar stopped the job at McClintic A 8H because the pipe wasn't rigged up right, and his partner Jeremy Norris wrote it up as 'a great use of stop work authority.' Baldemar Bracamontes caught a valve leaking by on the bleeder pretest at Frank 11E 105H — stopped, huddled, fixed, then went. Luis Zarate watched the lightning on Nobles, then called University 7-43 74H off when it struck too close. Bryan Medlin put the crew under SCBA at 10 ppm benzene on NUNN 14 TK554. Ralph Forbes held the manlift work for wind. Larry Jaramillo got a broken-handle hammer out of a crew's hands. That's Stop Work Authority working.",
+      "The gap: not one of those stops was logged as 'Stop work authority utilized,' and most of them live in a single line. 'Stop the job since pipe was not rigged up the right way' is the right call — but nobody reading it later can say what was wrong with the rig-up, what time it was, who fixed it, who was told, or how long we were down. The best note of the week — Medlin's, with a reading, a wind direction, and the action taken — still left out the time and who was notified.",
+      "The write-up standard, starting today. When you stop, tick 'Stop work authority utilized' and write the scene in six parts: WHERE — exact location name and job number. WHEN — time stopped, time resumed. WHAT YOU SAW — readings with numbers, wind direction, weather, what changed. WHO — who called it and who you told (company man, MT, your lead) and when. WHAT YOU DID — the moves: crew pulled back, masked up, mustered, trucks moved, parts called. HOW IT ENDED — what fixed it and who cleared the restart, or why it was called off.",
+      "Add color to your decisions. Don't just say what happened — say WHY you chose it: why you masked up instead of pulling back, why you staged upwind on the north side, why ten minutes of lightning watching turned into a call-off. The decision is the part a client will question; the reasoning is the part that answers them.",
+      "The test: could someone who was never there read your note and draw the location — the wellhead, the wind, where the crew stood, the moment you said stop? If not, add detail. Your note is your witness statement, written while it's fresh. When somebody asks 'why did you stop work?', your note answers — not your memory."
+    ],
+    "scenarios": [
+      {
+        "title": "The Stop That Disappeared",
+        "body": "This one is ours, from Wednesday. The pipe wasn't rigged up right, Humberto stopped the job, the crew fixed it, and the disconnect finished clean — textbook. Now jump six weeks. The operator's office calls: why did the crew lose time on McClintic A 8H on 10/14? The form says one line. Nobody remembers the time, what exactly was wrong, or who on location was told. A great call just became a he-said-she-said. Rebuild it as a circle, out loud: '07:40, McClintic A 8H, disconnect. Line was rigged ___. I called stop because ___. Told the company man, ___, at ___. Rig crew re-rigged with ___. Restart cleared at ___ by ___.' Same stop — but now it ends the conversation in one email instead of starting an argument."
+      },
+      {
+        "title": "Lightning Was Too Close — How Close?",
+        "body": "Luis did it right on Wednesday: watched the storm on one job, then called the next one off when the strikes came in too close and weren't letting up. Now read it like a client would. 'Too close' — how close? What time did it start, who made the call, did the company man agree, when did the crew leave, was it rescheduled? Every one of those answers existed on location for about ten minutes. Write it while it's real: 'Strikes inside ___ miles at ___, crew to the trucks at ___, called off at ___ with ___ agreeing, rescheduled for ___.' Weather calls are the stops most likely to be second-guessed later — because by then the sky is clear."
+      }
+    ],
+    "questions": [
+      "Last week you made a call that changed the job — a pause, a mask-up, a reschedule. Say your write-up out loud right now: where, when, what you saw, who you told, what you did, how it ended.",
+      "We stopped at least 13 times last week and ticked 'Stop work authority utilized' zero times. Why don't we count our own stops?",
+      "Six weeks from now a client asks why we stopped their job. What in your note answers them — and what would you be guessing at?",
+      "Jacob's question for the week: what did the field teach us last week that the breakroom should know?"
+    ],
+    "nonNegotiable": "Every stop gets the box ticked and the scene written: where, when, what you saw with numbers, who you told, what you did, and how it ended. The stop protects the crew today; the write-up protects the crew when somebody asks why. If it isn't written down, it didn't happen."
   }
 }
