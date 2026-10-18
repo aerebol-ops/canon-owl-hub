@@ -328,5 +328,33 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/13"
+  },
+  "specialFocus": {
+    "week": 18,
+    "until": "2026-10-18",
+    "title": "Sunday Huddle — Smooth & Slick Transitions",
+    "why": "Short and easy this morning — small crew, one subject: the transition. Sunday is swap day. Crews rotating out, relief rolling in, locations changing hands — and every one of those handoffs is a seam where information can fall through. A smooth transition isn't luck; it's a habit done the same way every time: the spoken brief at the wellhead, the paperwork current before the truck moves, the location left better than you found it, and management told who's where. Do the seams right and Monday starts clean for everybody — including the guy relieving you who's never seen that location before. Ten minutes, then go run a slick Sunday.",
+    "standardLabel": "The Handoff — Same Way, Every Time",
+    "standard": [
+      "Every relief gets the SPOKEN two-minute wellhead brief, face to face: well status, gas history and last readings, active hazards, muster points and wind, who's who on location (CM, rig crew contacts). No drive-by handoffs — if the brief didn't happen out loud, the handoff didn't happen.",
+      "Paperwork is CURRENT before the truck moves: logs up to the minute, forms signed, monitor cal and bump status noted. The man taking over should be able to defend the location's record from minute one without calling you.",
+      "Walk the location together where you can: equipment staged and labeled, bottles chained, trailer squared away, anything borrowed or rigged odd pointed out in person. Leave it the way you'd want to receive it — better than you found it.",
+      "Coming or going, management hears it from YOU: who's relieving whom, at which location (exact name), and when the swap happened. Thirty seconds by text — dispatch, logistics, and billing all run off knowing who is where.",
+      "Don't rush the seam. The swap is the most error-prone ten minutes of the rotation — the outgoing man is tired and halfway home in his head, the incoming man is cold on the details. Slow down right there: questions answered before the outgoing truck rolls, not over the phone from forty miles out.",
+      "And the drive home counts too — long hitch behind you, route and ETA called in, license on you, no silent departures. The transition isn't done until everybody's where they're supposed to be."
+    ],
+    "scenarios": [
+      {
+        "title": "The Forty-Mile Phone Call",
+        "body": "Outgoing tech is beat and wants the house. He waves at his relief, says 'it's all in the log,' and rolls. An hour later the incoming man is on the phone — forty miles behind the outgoing truck — asking where the cascade is staged, what that overnight spike in the readings was, and whether the CM knows about the valve they're watching. Every answer was a two-minute conversation at the wellhead. Now it's a distracted phone call, a cold log, and a tech starting his hitch guessing. Rewind it: the brief happens face to face, the walk happens together, the questions die on location — and both men's days are easier. What's YOUR non-skippable list for a relief brief? Build it as a circle."
+      }
+    ],
+    "questions": [
+      "You're being relieved at noon today: say your two-minute wellhead brief out loud, right now — what's in it, in what order?",
+      "You're the one rolling IN cold: what three questions do you ask before the outgoing truck leaves, no matter what?",
+      "Who does management hear the swap from, and what exactly does that text say — location name, names, time?",
+      "What's one handoff you've received that was done RIGHT — what made it feel that way?"
+    ],
+    "nonNegotiable": "No silent swaps: every relief gets the spoken wellhead brief, current paperwork, and a walked location before the outgoing truck moves — and management knows who's where, by exact location name. Smooth seams make safe weeks."
   }
 }
