@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-18",
-  "week": 18,
-  "day": 5,
-  "topicWeek": 7,
-  "displayWeek": 9,
+  "date": "2026-10-19",
+  "week": 19,
+  "day": 1,
+  "topicWeek": 8,
+  "displayWeek": 10,
   "cycle": 2,
   "rotation": {
-    "week": 9,
-    "host": "RAY",
-    "topic": "Hot Work",
-    "marker": "Thu Oct 16 — 60-day check at the roundtable"
+    "week": 10,
+    "host": "JACOB",
+    "topic": "Bypassing Safety Controls · Stop Work Authority",
+    "marker": ""
   },
-  "openingMessage": "Don't think about the scoreboard. Think about what you need to do right now on this play. Do it well.",
+  "openingMessage": "The process is about what you need to do today, in practice, in the film room, in the weight room, so that you can be the best player you can be.",
   "openingAttribution": "Nick Saban",
-  "openingWhy": "Halfway through a bleed-down is no time to be mentally in the truck heading home. The step in front of you — this valve, this reading, this line — is the only one that can hurt you and the only one you control. String enough right-now steps together and the shift takes care of itself.",
+  "openingWhy": "Our film room is seven hundred OWL forms of what the field actually did. Our weight room is the morning cal, the LMRA, the trailer check. Champions in this trade are built in the same boring rooms as champions anywhere — daily, unglamorous, non-negotiable.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,100 +168,23 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Do not allow pressure to override PSMS standards. The company man saying 'we do this all the time' is not authorization. You are responsible for the call you make.",
-  "yesterdaysJobs": {
-    "date": "2026-10-12",
-    "label": "Monday, October 12",
-    "count": 6,
-    "flags": 1,
-    "groups": [
-      {
-        "category": "AGT",
-        "jobs": [
-          {
-            "well": "CRAWFORD 27O 115H",
-            "jobType": "Air Job",
-            "crew": "Ruben Rojo / Baldemar Bracomontes 1099",
-            "cm": "Foreman_West Ops 9",
-            "note": "Atmospheric Monitoring — Ruben Rojo / Baldemar Bracomontes 1099",
-            "flag": false
-          },
-          {
-            "well": "SDU 1984A",
-            "jobType": "Air Job",
-            "crew": "Jeremy Norris / Jerry Gonzales",
-            "cm": "",
-            "note": "Crew take part well and upgrade rubber",
-            "flag": false
-          },
-          {
-            "well": "GLASS Y #1",
-            "jobType": "Air Job",
-            "crew": "Ruben Rojo / Baldemar Bracomontes 1099",
-            "cm": "Foreman_West Ops 11",
-            "note": "Had pre task meeting, recognized all hazards associated with job and comple",
-            "flag": true
-          },
-          {
-            "well": "XBC Giddings Estate 4097H",
-            "jobType": "Air Job",
-            "crew": "Alexander Clubb / Raymundo Solis",
-            "cm": "Rick Parks",
-            "note": "Hold point was utilized when they started moving parts with the forklift",
-            "flag": false
-          },
-          {
-            "well": "SDU 1476A",
-            "jobType": "Air Job",
-            "crew": "Jeremy Norris / Jerry Gonzales",
-            "cm": "",
-            "note": "Replacement of a packing on a wellhead stuffing box",
-            "flag": false
-          }
-        ]
-      },
-      {
-        "category": "Maintenance",
-        "jobs": [
-          {
-            "well": "STOKES 13 1 SWD-P706",
-            "jobType": "Air Job",
-            "crew": "",
-            "cm": "",
-            "note": "Changing the seal pump",
-            "flag": false
-          }
-        ]
-      }
-    ]
-  },
+  "leadershipThought": "Character is built when nobody is watching. Small deviations don't stay small. Correct them now, when the cost is low.",
+  "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-10-16",
-    "label": "Friday 10/16",
+    "date": "2026-10-17",
+    "label": "Saturday 10/17",
     "verdict": "",
     "concerns": [
       {
-        "title": "Alfredo Vaquera (1099) — Diamondback, Kimberly 809H — H2S daily, form time 09:56 AM, submitted 12:08 PM",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
-      },
-      {
-        "title": "Alfredo Vaquera (1099) — Diamondback, Kimberly 809H — same H2S daily, 12:08 PM",
-        "quote": "No Do you have sufficient mask bags?"
-      },
-      {
-        "title": "Larry Taylor — Hilcorp Energy, Gail King 19H (Donie, TX) — Trailer Inspection Form, trailer 138, 01:15 PM",
-        "quote": "Just noticed registration tag went out 6-26 Comments or Concerns for Management"
-      },
-      {
-        "title": "Brey Rasco — Comstock Resources, Alford CHR 1H, rig Cactus 147 — H2S Equipment Rig Down, job 35908, 11:18 AM",
-        "quote": "Damaged or Missing Equipment: Muster stand missing sign"
+        "title": "Rolando Flores — Ovintiv, H&P 616, 12:19 AM, H2S Safety Supervision Daily Inspection Form. A gas sensor was taken out of service during the shift. The note sits under the",
+        "quote": "Element might be damaged on LEL sensor on shakers, had to turn it off."
       }
     ]
   },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Good team work and communication</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Pablo Soto / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Everyone working safely</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Good team and communication</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Pablo Soto / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Completed LDAR inspection and checked equipment for potential leaks</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Continue to inspect each component carefully and document any findings.</span><br><br><strong>Replaced seal in wellhead</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
+  "exxonMoments": "<strong>Stop Work Authority —</strong> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>A lubricator job where we went in the get the \"dart\" back out from being st</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Be more understanding of the fact that we are using new crews now and they may take a little longer to do jobs than other crews in the past.</span><br><br><strong>Even though it wasn't a complete job they still swapped out the gasket for</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Even though it wasn't a complete job they still swapped out the gasket for the stuffing box</span><br><br><strong>Stop work authority utilize one of the crew members stepped underneath the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Stop work authority utilize one of the crew members stepped underneath the boom to try</span><br><br><strong>Crew would stop work every time they would smell gas and we'd masked up and</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Crew would stop work every time they would smell gas and we'd masked up and test</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -306,8 +229,8 @@
       "psms": "Operational Discipline"
     }
   ],
-  "todaysChallenge": "Whatever crew, whatever equipment, whatever location you drew today — run it at the Canon standard. The measure isn't the hand you're dealt, it's how you play it.",
-  "todaysChallengeSubtext": "“The measure of who we are is what we do with what we have.” — Vince Lombardi",
+  "todaysChallenge": "Pick one thing today you'd only do if someone was checking — the monitor calibration, the trailer form, the tube count — and do it like the client was standing there. Nobody watching is the test.",
+  "todaysChallengeSubtext": "“The true test of a man's character is what he does when no one is watching.” — John Wooden",
   "compliance": {
     "weekOf": "Week of October 12, 2026",
     "metrics": [
@@ -328,33 +251,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/13"
-  },
-  "specialFocus": {
-    "week": 18,
-    "until": "2026-10-18",
-    "title": "Sunday Huddle — Smooth & Slick Transitions",
-    "why": "Short and easy this morning — small crew, one subject: the transition. Sunday is swap day. Crews rotating out, relief rolling in, locations changing hands — and every one of those handoffs is a seam where information can fall through. A smooth transition isn't luck; it's a habit done the same way every time: the spoken brief at the wellhead, the paperwork current before the truck moves, the location left better than you found it, and management told who's where. Do the seams right and Monday starts clean for everybody — including the guy relieving you who's never seen that location before. Ten minutes, then go run a slick Sunday.",
-    "standardLabel": "The Handoff — Same Way, Every Time",
-    "standard": [
-      "Every relief gets the SPOKEN two-minute wellhead brief, face to face: well status, gas history and last readings, active hazards, muster points and wind, who's who on location (CM, rig crew contacts). No drive-by handoffs — if the brief didn't happen out loud, the handoff didn't happen.",
-      "Paperwork is CURRENT before the truck moves: logs up to the minute, forms signed, monitor cal and bump status noted. The man taking over should be able to defend the location's record from minute one without calling you.",
-      "Walk the location together where you can: equipment staged and labeled, bottles chained, trailer squared away, anything borrowed or rigged odd pointed out in person. Leave it the way you'd want to receive it — better than you found it.",
-      "Coming or going, management hears it from YOU: who's relieving whom, at which location (exact name), and when the swap happened. Thirty seconds by text — dispatch, logistics, and billing all run off knowing who is where.",
-      "Don't rush the seam. The swap is the most error-prone ten minutes of the rotation — the outgoing man is tired and halfway home in his head, the incoming man is cold on the details. Slow down right there: questions answered before the outgoing truck rolls, not over the phone from forty miles out.",
-      "And the drive home counts too — long hitch behind you, route and ETA called in, license on you, no silent departures. The transition isn't done until everybody's where they're supposed to be."
-    ],
-    "scenarios": [
-      {
-        "title": "The Forty-Mile Phone Call",
-        "body": "Outgoing tech is beat and wants the house. He waves at his relief, says 'it's all in the log,' and rolls. An hour later the incoming man is on the phone — forty miles behind the outgoing truck — asking where the cascade is staged, what that overnight spike in the readings was, and whether the CM knows about the valve they're watching. Every answer was a two-minute conversation at the wellhead. Now it's a distracted phone call, a cold log, and a tech starting his hitch guessing. Rewind it: the brief happens face to face, the walk happens together, the questions die on location — and both men's days are easier. What's YOUR non-skippable list for a relief brief? Build it as a circle."
-      }
-    ],
-    "questions": [
-      "You're being relieved at noon today: say your two-minute wellhead brief out loud, right now — what's in it, in what order?",
-      "You're the one rolling IN cold: what three questions do you ask before the outgoing truck leaves, no matter what?",
-      "Who does management hear the swap from, and what exactly does that text say — location name, names, time?",
-      "What's one handoff you've received that was done RIGHT — what made it feel that way?"
-    ],
-    "nonNegotiable": "No silent swaps: every relief gets the spoken wellhead brief, current paperwork, and a walked location before the outgoing truck moves — and management knows who's where, by exact location name. Smooth seams make safe weeks."
   }
 }
