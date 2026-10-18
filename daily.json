@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "week": 18,
   "day": 5,
   "topicWeek": 7,
@@ -236,32 +236,32 @@
     ]
   },
   "formReview": {
-    "date": "2026-10-15",
-    "label": "Thursday 10/15",
+    "date": "2026-10-16",
+    "label": "Friday 10/16",
     "verdict": "",
     "concerns": [
       {
-        "title": "Hayden Haugh — BPX, State Blake 57-T3-46 W102H, 5:13 PM, job 35833. A 1300 ppm H2S reading is recorded on this job, but only inside the free-text accounting field. There ",
-        "quote": "Provided supervision for the rig. Rigged up all H2s equipment on location. And pulled two tubes to see where the well was at. It read 1300ppm H2s."
+        "title": "Alfredo Vaquera (1099) — Diamondback, Kimberly 809H — H2S daily, form time 09:56 AM, submitted 12:08 PM",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
       },
       {
-        "title": "Pablo Soto — XTO, Brook B-3A 1H and Turner E2-1202C 103H, trailer 606, forms at 4:46 AM, 10:13 AM and 3:02 PM. Not in Canon Safety issued FR uniform, recorded three times",
-        "quote": "No — Are you wearing you Canon Safety issued FR uniform?"
+        "title": "Alfredo Vaquera (1099) — Diamondback, Kimberly 809H — same H2S daily, 12:08 PM",
+        "quote": "No Do you have sufficient mask bags?"
       },
       {
-        "title": "Alfredo Vaquera — Diamondback, Kimberly 809H, 12:43 PM. Two No answers on one form: FR coveralls, and mask bags.",
-        "quote": "No — Are you wearing your Canon Safety issued FR coveralls"
+        "title": "Larry Taylor — Hilcorp Energy, Gail King 19H (Donie, TX) — Trailer Inspection Form, trailer 138, 01:15 PM",
+        "quote": "Just noticed registration tag went out 6-26 Comments or Concerns for Management"
       },
       {
-        "title": "Bryan Medlin — XTO, Nunn 14 1 SWD, trailer 601, 4:26 PM. An equipment defect reported in the management comments field.",
-        "quote": "Driver's side rear axle the lug nuts are on backwards"
+        "title": "Brey Rasco — Comstock Resources, Alford CHR 1H, rig Cactus 147 — H2S Equipment Rig Down, job 35908, 11:18 AM",
+        "quote": "Damaged or Missing Equipment: Muster stand missing sign"
       }
     ]
   },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>The crew performed a bleed-down operation on the well using the frac tank</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Continue verifying pressure conditions, monitoring the operation, and maintaining clear communication to ensure the safety of all personnel during future bleed-down operations.</span><br><br><strong>During the disconnect, a small leak was observed at the casing valve</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Bryan Medlin]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Inspect the casing valve and connections more closely before beginning the disconnect.</span><br><br><strong>Good communication with crew and mt</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Dermont Morgan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Work over rig was in the process of rigging down, but everyone stayed on the same page and worked together as a team.</span><br><br><strong>Reconnect flow line to well</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Bryan Medlin]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Equipment was inspected and connections were prepared for safe reconnection</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Bryan Medlin]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Continue verifying equipment and connections before starting work.</span>",
+  "exxonMoments": "<strong>Good team work and communication</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Pablo Soto / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Everyone working safely</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Good team and communication</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Pablo Soto / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Completed LDAR inspection and checked equipment for potential leaks</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Continue to inspect each component carefully and document any findings.</span><br><br><strong>Replaced seal in wellhead</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -306,8 +306,8 @@
       "psms": "Operational Discipline"
     }
   ],
-  "todaysChallenge": "Somebody on your location today is one coaching conversation away from being twice as good. Find them. That conversation is the opportunity — take it.",
-  "todaysChallengeSubtext": "“Great moments are born from great opportunity.” — Herb Brooks",
+  "todaysChallenge": "Whatever crew, whatever equipment, whatever location you drew today — run it at the Canon standard. The measure isn't the hand you're dealt, it's how you play it.",
+  "todaysChallengeSubtext": "“The measure of who we are is what we do with what we have.” — Vince Lombardi",
   "compliance": {
     "weekOf": "Week of October 12, 2026",
     "metrics": [
@@ -328,37 +328,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/13"
-  },
-  "specialFocus": {
-    "week": 18,
-    "until": "2026-10-17",
-    "title": "Cool Heads Win — Talking Through Conflict on Location",
-    "why": "Easy Saturday morning — no big topic today, just a conversation worth having. Conflict is part of this work: a company man pushing on the schedule, a rig crew that doesn't want the monitor where you need it, two techs rubbing each other wrong on a relief handoff. None of that is a failure — it's people under pressure. What matters is how we handle it, because out here your reputation is built in exactly those moments. The goal this morning isn't rules; it's swapping stories and sharpening how we keep our cool, hold our standard, and walk away with the relationship intact. Grab your coffee — this one is a round-table.",
-    "standardLabel": "How We Handle It — Short List, Big Payoff",
-    "standard": [
-      "Lower the temperature first. When someone comes in hot, your job is to be the calmest person on the pad: let them finish, hear the actual complaint under the heat, and answer the problem — not the tone. Two raised voices never solved anything on a location.",
-      "Go at the problem, not the person. 'This handoff left me blind on the gas history' lands. 'You always leave me hanging' starts a feud. Name the thing, skip the character verdict.",
-      "A safety disagreement is not a negotiation — but delivery matters. The standard stands even when a CM or rig crew pushes. Be FIRM on the standard and EASY on the person: 'I can't start without that signed, help me get it done fast' beats squaring up, every time.",
-      "Talk direct, never around. Got a problem with a teammate? He hears it from YOU first — not the group chat, not the grapevine, not three weeks of silence. Most crew conflict is just a conversation somebody kept postponing.",
-      "Know when to hand it up. If it's getting personal, going in circles, or it's above your pay grade — a CM who won't budge, a billing or schedule fight — step back and call your lead. Escalating cleanly isn't weakness; a shouting match you 'won' on location is a loss everywhere else.",
-      "Keep it off the radio and out of the group text. Conflict handled in public writes a story that outlives the moment — for you, for him, and for Canon's name on that lease. Handle it face to face, then let it be over. When it's resolved, it's RESOLVED — no reheating it next hitch."
-    ],
-    "scenarios": [
-      {
-        "title": "The Hot Company Man",
-        "body": "Mid-morning, the schedule is bleeding, and the company man wants the crew working before your checks are done. He's loud about it. Walk the two roads: match his heat and you get a standoff, a phone call about 'that Canon guy,' and the same checks still waiting. Or — calm voice, standard intact: 'I hear you, we're ten minutes out. Fastest way through this is X, Y, and I need one signature. Help me knock it out.' Same standard held, zero bruises, and that CM asks for your crew by name next time. Who in the circle has lived this one? Tell it."
-      },
-      {
-        "title": "The Handoff That Got Personal",
-        "body": "Two good techs, one scratchy relief handoff — missing paperwork, a vague gas brief, and by week two they're not talking, just documenting each other's misses. Nobody ever said the first sentence: 'Hey, that handoff left me set up to fail — can we fix how we do this?' That one sentence, week one, and it's a process fix between teammates. Three weeks of silence later, it's a feud the whole crew can feel. Discussion: why is that first sentence so hard to say, and what makes it easier to hear?"
-      }
-    ],
-    "questions": [
-      "Think of the best-handled disagreement you've seen out here — what exactly did that person do that kept it from blowing up?",
-      "What's your personal tell that you're about to stop solving the problem and start winning the argument — and what's your reset move?",
-      "Where's your line between 'I handle this myself' and 'I call my lead'? Give a real example of each.",
-      "You've got a slow-burn issue with a teammate right now or you've had one — what would the direct, face-to-face version of that conversation sound like? Say the opening line."
-    ],
-    "nonNegotiable": "Hold the standard with a cool head: go at the problem, never the person; say it direct and face to face, never on the radio or in the group text; and when it's bigger than you, hand it up clean. We can disagree hard and still have each other's six."
   }
 }
