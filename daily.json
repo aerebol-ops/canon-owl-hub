@@ -228,37 +228,37 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Brianda Sandoval / Tyrell Sanders — a pressure valve had to be replaced on top of the well head",
-      "detail": "More communication with the crew.",
+      "headline": "Pablo Soto / Baldemar Bracomontes 1099 — Had pre task meeting, when we started our pretest on bleeders we noticed a",
+      "detail": "Job was completed safely, strong communication all around.",
       "psms": "Operational Discipline",
       "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis / Tyrell Sanders — The crew verified real-time field and atmospheric conditions on- site rathe",
-      "detail": "Not working in the rain .",
+      "headline": "Jeremy Norris / Jerry Gonzales — A standard disconnect that went smoothly and safely according to the SOW wi",
+      "detail": "All crews and MT communicated well throughout the process and left safely together to the next location.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo / Humberto Salazar — No near misses , good communication",
-      "detail": "Inspect your tools before use.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Nathan Contreras / Gael \"Antonio\" Avila 1099 — We observe a rod hanger installed and valves replaced on pumpjack",
-      "detail": "Crews went over their job scope and what hazards and mistakes could happen on the job , crews went over nearest hospitals and access points with no help , crews identifie",
-      "psms": "Operational Discipline",
+      "headline": "Nathan Contreras / Gael \"Antonio\" Avila 1099 — We observed a rod hanger install and valve replacement done on a pumpjack",
+      "detail": "Crews verified LOTO before beginning work , crews identified nearest hospitals and access roads . Crews pointed out LSRA and muster points without help .",
+      "psms": "Energy Isolation",
       "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis / Gael \"Antonio\" Avila 1099 — Pretty essay and good communication with all the personal in location",
-      "detail": "Same thing make sure everyone leaves the same way they got here.",
-      "psms": "Operational Discipline",
+      "headline": "Brianda Sandoval / Tyrell Sanders — Atmospheric monitoring (including H2S level checks) was conducted, along wi",
+      "detail": "Don't get complement.",
+      "psms": "Energy Isolation",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Raymundo Solis / Tyrell Sanders — Stop work was a big conversation due to weather",
+      "detail": "Good communication and understanding the rules and regulations.",
+      "psms": "Stop Work Authority",
       "level": null
     },
     {
