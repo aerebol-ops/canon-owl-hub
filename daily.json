@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "week": 19,
-  "day": 1,
+  "day": 2,
   "topicWeek": 8,
   "displayWeek": 10,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Bypassing Safety Controls · Stop Work Authority",
     "marker": ""
   },
-  "openingMessage": "The process is about what you need to do today, in practice, in the film room, in the weight room, so that you can be the best player you can be.",
-  "openingAttribution": "Nick Saban",
-  "openingWhy": "Our film room is seven hundred OWL forms of what the field actually did. Our weight room is the morning cal, the LMRA, the trailer check. Champions in this trade are built in the same boring rooms as champions anywhere — daily, unglamorous, non-negotiable.",
+  "openingMessage": "Winning is fun, but winning is not the point. Wanting to win is the point. Not giving up is the point. Never letting up is the point.",
+  "openingAttribution": "Pat Summitt",
+  "openingWhy": "A long clean streak is exactly when crews get bit — because a good record starts feeling like PPE. It isn't. Last quarter's zero doesn't test today's atmosphere. Never letting up IS the safety program.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Character is built when nobody is watching. Small deviations don't stay small. Correct them now, when the cost is low.",
+  "leadershipThought": "Recognition is culture in action. When you name what someone did right, you tell the whole crew what right looks like. Kudos to the ones doing it right every day.",
   "yesterdaysJobs": {
     "date": "2026-10-17",
     "label": "Saturday, October 17",
@@ -224,41 +224,41 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Stop work was a big conversation due to weather</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Good communication and understanding the rules and regulations.</span><br><br><strong>Stop Work Authority —</strong> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>A lubricator job where we went in the get the \"dart\" back out from being st</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Be more understanding of the fact that we are using new crews now and they may take a little longer to do jobs than other crews in the past.</span><br><br><strong>Even though it wasn't a complete job they still swapped out the gasket for</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Even though it wasn't a complete job they still swapped out the gasket for the stuffing box</span><br><br><strong>Stop work authority utilize one of the crew members stepped underneath the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Stop work authority utilize one of the crew members stepped underneath the boom to try</span>",
+  "exxonMoments": "<strong>All crews on site worked together quickly and efficiently, but also SAFELY</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>All crews on site worked together quickly and efficiently, but also SAFELY to get the job</span><br><br><strong>Good communication and teamwork between crews</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Good communication and teamwork between crews. The valve issue was identified quickly,</span><br><br><strong>Crew member realizes truck driver did not have swamper and was backing into</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Crew member realizes truck driver did not have swamper and was backing into location</span><br><br><strong>During the bleed-down of the well, MT exercised its stop work authority due</strong> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>During the bleed-down of the well, MT exercised its stop work authority due to a change in</span><br><br><strong>New roustabout crew, all SSE's on crew</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Christian Lee 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Went step by step with roustabout crew members due to the language barrier, and MT's as we completed the entire job process.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Brianda Sandoval / Tyrell Sanders — They had to do a reconnect",
+      "headline": "Brianda Sandoval / Tyrell Sanders — one well had to be reconnected, the other well had to be converted",
+      "detail": "Communicate more if we're thirsty.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Dawson Drake / Robbie Henigan 1099 — Disconnect the flow line and injection",
+      "detail": "Every jobs held at the same standard.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Raymundo Solis / Tyrell Sanders — Hold point - had to stop the job because they had to go get parts for the r",
+      "detail": "Make sure they have all the parts.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Nathan Contreras / Gael \"Antonio\" Avila 1099 — Same crew and everything pretty essay",
       "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Dawson Drake / Robbie Henigan 1099 — Verify conditions, brief all personnel, and leave the location better than you f",
-      "detail": "OWL form — Atmospheric Monitoring",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Larry Jaramillo / Humberto Salazar — Crew was using a hammer with a broken handle on it, I brought it up to thei",
-      "detail": "Inspect tools prior to job beginning.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Raymundo Solis / Tyrell Sanders — Life saving rules- talked about the location of the muster area and the eme",
-      "detail": "Nothing really to report because everything went well.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Nathan Contreras / Gael \"Antonio\" Avila 1099 — Essay and quick meeting, great communication and good team",
-      "detail": "Help them passing a tool or something that they might need.",
-      "psms": "Operational Discipline",
+      "headline": "Raymundo Solis / Gael \"Antonio\" Avila 1099 — Stop work authority was discussed about the possibility of rain and lightni",
+      "detail": "Everything went as expected.",
+      "psms": "Stop Work Authority",
       "level": null
     },
     {
@@ -269,8 +269,8 @@
       "psms": "Operational Discipline"
     }
   ],
-  "todaysChallenge": "Pick one thing today you'd only do if someone was checking — the monitor calibration, the trailer form, the tube count — and do it like the client was standing there. Nobody watching is the test.",
-  "todaysChallengeSubtext": "“The true test of a man's character is what he does when no one is watching.” — John Wooden",
+  "todaysChallenge": "If yesterday had a miss — a form skipped, a reading you should have questioned — square it today. Get up, fix it, and tell the next crew what you learned.",
+  "todaysChallengeSubtext": "“It's not whether you get knocked down, it's whether you get up.” — Vince Lombardi",
   "compliance": {
     "weekOf": "Week of October 12, 2026",
     "metrics": [
