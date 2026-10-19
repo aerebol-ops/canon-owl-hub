@@ -1,7 +1,513 @@
 {
- "generated": "2026-10-18",
+ "generated": "2026-10-19",
  "scope": "Dropbox '- OWL' exports \u2014 OWL, JSA, 4-gas, location sign, ticket auditable; benzene/atmospheric/permits/tubes/names need the full packet feed",
  "jobs": [
+  {
+   "date": "2026-10-17",
+   "well": "Shackelford 40-12D 4H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102298",
+   "bnz": "6",
+   "at": "606",
+   "techs": "BRIANDA SANDOVAL / TYRELL SANDERS",
+   "sched": "10/17/26 8:00 AM",
+   "late_min": 4,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-17",
+   "well": "Preston-Freeman 15A 101H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102299",
+   "bnz": "6",
+   "at": "606",
+   "techs": "BRIANDA SANDOVAL / TYRELL SANDERS",
+   "sched": "10/17/26 10:00 AM",
+   "late_min": -21,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-15",
+   "well": "Weyman 23 #6",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101911",
+   "bnz": "2",
+   "at": "602",
+   "techs": "LARRY JARAMILLO / HUMBERTO SALAZAR",
+   "sched": "10/15/26 7:00",
+   "late_min": null,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-15",
+   "well": "MARSH 36K 111H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102211",
+   "bnz": "4",
+   "at": "604",
+   "techs": "DAWSON DRAKE / Robbie Henigan 1099",
+   "sched": "10/15/26 8:00 AM",
+   "late_min": -6,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-15",
+   "well": "MARSH 36J 110H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102212",
+   "bnz": "4",
+   "at": "604",
+   "techs": "DAWSON DRAKE / Robbie Henigan 1099",
+   "sched": "10/15/26 10:00 AM",
+   "late_min": -122,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-15",
+   "well": "COMANCHEROS 19-31 3113 3113AH",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102256",
+   "bnz": "7",
+   "at": "607",
+   "techs": "RAYMUNDO SOLIS / TYRELL SANDERS",
+   "sched": "10/15/2026 8:00 AM",
+   "late_min": 19,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-14",
+   "well": "Weyman 23 #5",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101344",
+   "bnz": "4",
+   "at": "604",
+   "techs": "NATHAN CONTRERAS / Gael \"Antonio\" Avila 1099",
+   "sched": "10/14/2026 01:00:00 PM",
+   "late_min": -81,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-14",
+   "well": "Weyman 23 #4",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101343",
+   "bnz": "4",
+   "at": "604",
+   "techs": "NATHAN CONTRERAS / Gael \"Antonio\" Avila 1099",
+   "sched": "10/14/2026 07:00:00 AM",
+   "late_min": 416,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-14",
+   "well": "Preston Freeman 15A 101H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": false,
+   "ticket": "",
+   "bnz": "",
+   "at": "",
+   "techs": "",
+   "sched": "",
+   "late_min": null,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-14",
+   "well": "MARY 18 1HB",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102237",
+   "bnz": "11",
+   "at": "501",
+   "techs": "RAYMUNDO SOLIS / TYRELL SANDERS",
+   "sched": "10/14/2026 8:00 AM",
+   "late_min": -19,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-14",
+   "well": "KYLE 2600 UNIT 2 2625SH",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102238",
+   "bnz": "11",
+   "at": "501",
+   "techs": "RAYMUNDO SOLIS / TYRELL SANDERS",
+   "sched": "10/14/2026 12:00 PM",
+   "late_min": -43,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-14",
+   "well": "FRANK 11E 105H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102239",
+   "bnz": "7",
+   "at": "607",
+   "techs": "PABLO SOTO / Baldemar Bracomontes 1099",
+   "sched": "10/14/2026 8:00 AM",
+   "late_min": -43,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-13",
+   "well": "Weyman 23 #3",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101339",
+   "bnz": "3",
+   "at": "603",
+   "techs": "LARRY JARAMILLO / HUMBERTO SALAZAR",
+   "sched": "10/13/2026 07:00:00 AM",
+   "late_min": 447,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-13",
+   "well": "Weyman 23 #2",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101340",
+   "bnz": "3",
+   "at": "603",
+   "techs": "LARRY JARAMILLO / HUMBERTO SALAZAR",
+   "sched": "10/13/2026 01:00:00 PM",
+   "late_min": -268,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-13",
+   "well": "UNIVERSITY 4-7E 5H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102220",
+   "bnz": "7",
+   "at": "607",
+   "techs": "RAYMUNDO SOLIS / Gael \"Antonio\" Avila 1099",
+   "sched": "10/13/26 7:30",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-13",
+   "well": "Turner W41K 11H",
+   "category": "AGT",
+   "forms": 1,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102222",
+   "bnz": "12",
+   "at": "507",
+   "techs": "JEREMY NORRIS / JERRY GONZALES",
+   "sched": "10/13/26 11:00",
+   "late_min": null,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-12",
+   "well": "XBC Giddings Estate 4097H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102195",
+   "bnz": "11",
+   "at": "139",
+   "techs": "ALEXANDER CLUBB / RAYMUNDO SOLIS",
+   "sched": "10/12/2026 12:00 PM",
+   "late_min": -95,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-12",
+   "well": "STOKES 13 1 SWD-P706",
+   "category": "Maintenance",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": false,
+   "ticket": "",
+   "bnz": "",
+   "at": "",
+   "techs": "",
+   "sched": "",
+   "late_min": null,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-12",
+   "well": "SDU 1984A",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101950",
+   "bnz": "6",
+   "at": "606",
+   "techs": "JEREMY NORRIS / JERRY GONZALES",
+   "sched": "10/12/26 8:00",
+   "late_min": null,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-12",
+   "well": "SDU 1476A",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101951",
+   "bnz": "6",
+   "at": "606",
+   "techs": "JEREMY NORRIS / JERRY GONZALES",
+   "sched": "10/12/26 12:00",
+   "late_min": null,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-12",
+   "well": "GLASS Y #1",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102198",
+   "bnz": "4",
+   "at": "604",
+   "techs": "RUBEN ROJO / Baldemar Bracomontes 1099",
+   "sched": "10/12/26 2:00 PM",
+   "late_min": -368,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-12",
+   "well": "CRAWFORD 27O 115H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102197",
+   "bnz": "4",
+   "at": "604",
+   "techs": "RUBEN ROJO / Baldemar Bracomontes 1099",
+   "sched": "10/12/26 12:00 PM",
+   "late_min": -248,
+   "missing": [],
+   "complete": true
+  },
   {
    "date": "2026-10-10",
    "well": "UNIVERSITY 2-20 56H",

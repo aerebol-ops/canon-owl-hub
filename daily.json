@@ -169,56 +169,96 @@
     }
   ],
   "leadershipThought": "Character is built when nobody is watching. Small deviations don't stay small. Correct them now, when the cost is low.",
-  "yesterdaysJobs": null,
-  "formReview": {
+  "yesterdaysJobs": {
     "date": "2026-10-17",
-    "label": "Saturday 10/17",
+    "label": "Saturday, October 17",
+    "count": 2,
+    "flags": 0,
+    "groups": [
+      {
+        "category": "AGT",
+        "jobs": [
+          {
+            "well": "Preston-Freeman 15A 101H",
+            "jobType": "Air Job",
+            "crew": "Brianda Sandoval / Tyrell Sanders",
+            "cm": "",
+            "note": "Atmospheric monitoring (including H2S level checks) was conducted, along wi",
+            "flag": false
+          },
+          {
+            "well": "Shackelford 40-12D 4H",
+            "jobType": "Air Job",
+            "crew": "Brianda Sandoval / Tyrell Sanders",
+            "cm": "",
+            "note": "They had to do a reconnect",
+            "flag": false
+          }
+        ]
+      }
+    ]
+  },
+  "formReview": {
+    "date": "2026-10-18",
+    "label": "Sunday 10/18",
     "verdict": "",
     "concerns": [
       {
-        "title": "Rolando Flores — Ovintiv, H&P 616, 12:19 AM, H2S Safety Supervision Daily Inspection Form. A gas sensor was taken out of service during the shift. The note sits under the",
-        "quote": "Element might be damaged on LEL sensor on shakers, had to turn it off."
+        "title": "Stefanie Kirschke — XTO, SHAQ B 38-14 4202H, 6:32 AM and 11:01 AM, job 35928",
+        "quote": "No / Are you wearing you Canon Safety issued FR uniform? / Need to wash after tank clean out / If not, why?"
+      },
+      {
+        "title": "Dawson Drake — Ovintiv, H&P 616, Terlingua, 4:27 PM, job 35861_2",
+        "quote": "No / Are you wearing your Canon Safety issued FR coveralls / They where still soaking wet when I pulled them out of the dryer this morning / If not, why?"
+      },
+      {
+        "title": "Jordan Lemmons — Commuting Journey Management Plan, 9:30 AM, Red Oak OK to Andrews TX",
+        "quote": "No / Pre-Operational Inspection of Vehicle Performed?"
+      },
+      {
+        "title": "Jimmy White — Commuting Journey Management Plan, 4:05 PM, Ben Wheeler TX to Andrews TX",
+        "quote": "Yes / Is the vehicle equipped with additional equipment? (H2S or Confined Space Rescue Trailer, Flare Stack) / No / Pre-Operational Inspection of Trailer or Flare Stack Performed?"
       }
     ]
   },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Stop Work Authority —</strong> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>A lubricator job where we went in the get the \"dart\" back out from being st</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Be more understanding of the fact that we are using new crews now and they may take a little longer to do jobs than other crews in the past.</span><br><br><strong>Even though it wasn't a complete job they still swapped out the gasket for</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Even though it wasn't a complete job they still swapped out the gasket for the stuffing box</span><br><br><strong>Stop work authority utilize one of the crew members stepped underneath the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Stop work authority utilize one of the crew members stepped underneath the boom to try</span><br><br><strong>Crew would stop work every time they would smell gas and we'd masked up and</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Crew would stop work every time they would smell gas and we'd masked up and test</span>",
+  "exxonMoments": "<strong>Stop work was a big conversation due to weather</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Good communication and understanding the rules and regulations.</span><br><br><strong>Stop Work Authority —</strong> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>A lubricator job where we went in the get the \"dart\" back out from being st</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Be more understanding of the fact that we are using new crews now and they may take a little longer to do jobs than other crews in the past.</span><br><br><strong>Even though it wasn't a complete job they still swapped out the gasket for</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Even though it wasn't a complete job they still swapped out the gasket for the stuffing box</span><br><br><strong>Stop work authority utilize one of the crew members stepped underneath the</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Stop work authority utilize one of the crew members stepped underneath the boom to try</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Brianda Sandoval / Alejandro Najar — crew had to reconnect flow line to well head",
-      "detail": "Set up a wider exclusion zone if possible.",
+      "headline": "Brianda Sandoval / Tyrell Sanders — a pressure valve had to be replaced on top of the well head",
+      "detail": "More communication with the crew.",
       "psms": "Operational Discipline",
-      "level": null
+      "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Dawson Drake / Robbie Henigan 1099 — Conversion to a plunger, gas lift well",
-      "detail": "The efficiency of how the recruit worked with the communication with all parties involved.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Dawson Drake / Kedrick Mccarter 1099 — Communication and job went well",
-      "detail": "Communication and job went well.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jeremy Norris / Robbie Henigan 1099 — Verify conditions, brief all personnel, and leave the location better than you f",
-      "detail": "OWL form — Atmospheric Monitoring",
+      "headline": "Raymundo Solis / Tyrell Sanders — The crew verified real-time field and atmospheric conditions on- site rathe",
+      "detail": "Not working in the rain .",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Hayden Haugh 1099 / Bryan Medlin — Flow line disconnected from the well",
-      "detail": "Everyone left location safely.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Larry Jaramillo / Humberto Salazar — No near misses , good communication",
+      "detail": "Inspect your tools before use.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Nathan Contreras / Gael \"Antonio\" Avila 1099 — We observe a rod hanger installed and valves replaced on pumpjack",
+      "detail": "Crews went over their job scope and what hazards and mistakes could happen on the job , crews went over nearest hospitals and access points with no help , crews identifie",
+      "psms": "Operational Discipline",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Raymundo Solis / Gael \"Antonio\" Avila 1099 — Pretty essay and good communication with all the personal in location",
+      "detail": "Same thing make sure everyone leaves the same way they got here.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {

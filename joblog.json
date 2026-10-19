@@ -1,13 +1,13 @@
 {
- "generated": "2026-10-18",
+ "generated": "2026-10-19",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
-  "weekJobs": 0,
-  "weekForms": 0,
-  "weekFlagRate": 0,
-  "weekWells": 0,
-  "weekCrews": 0
+  "weekJobs": 22,
+  "weekForms": 43,
+  "weekFlagRate": 9,
+  "weekWells": 22,
+  "weekCrews": 10
  },
  "days": [
   {
@@ -249,10 +249,302 @@
    "Maintenance": 0,
    "Well Testing": 0,
    "Other": 0
+  },
+  {
+   "date": "2026-10-12",
+   "forms": 12,
+   "jobs": 6,
+   "flags": 1,
+   "AGT": 5,
+   "Maintenance": 1,
+   "Well Testing": 0,
+   "Other": 0
+  },
+  {
+   "date": "2026-10-13",
+   "forms": 7,
+   "jobs": 4,
+   "flags": 0,
+   "AGT": 4,
+   "Maintenance": 0,
+   "Well Testing": 0,
+   "Other": 0
+  },
+  {
+   "date": "2026-10-14",
+   "forms": 12,
+   "jobs": 6,
+   "flags": 0,
+   "AGT": 6,
+   "Maintenance": 0,
+   "Well Testing": 0,
+   "Other": 0
+  },
+  {
+   "date": "2026-10-15",
+   "forms": 8,
+   "jobs": 4,
+   "flags": 1,
+   "AGT": 4,
+   "Maintenance": 0,
+   "Well Testing": 0,
+   "Other": 0
+  },
+  {
+   "date": "2026-10-17",
+   "forms": 4,
+   "jobs": 2,
+   "flags": 0,
+   "AGT": 2,
+   "Maintenance": 0,
+   "Well Testing": 0,
+   "Other": 0
   }
  ],
  "repeatFlagWells": [],
  "recent": [
+  {
+   "date": "2026-10-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Shackelford 40-12D 4H",
+   "crew": "Brianda Sandoval / Tyrell Sanders",
+   "cm": "",
+   "note": "They had to do a reconnect",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-17",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Preston-Freeman 15A 101H",
+   "crew": "Brianda Sandoval / Tyrell Sanders",
+   "cm": "",
+   "note": "Atmospheric monitoring (including H2S level checks) was conducted, along wi",
+   "psms": "Energy Isolation",
+   "flag": false
+  },
+  {
+   "date": "2026-10-15",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Weyman 23 #6",
+   "crew": "Larry Jaramillo / Humberto Salazar",
+   "cm": "",
+   "note": "No near misses , good communication",
+   "psms": "Operational Discipline",
+   "flag": true
+  },
+  {
+   "date": "2026-10-15",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "MARSH 36K 111H",
+   "crew": "Dawson Drake / Robbie Henigan 1099",
+   "cm": "",
+   "note": "Disconnect the flow line and injection",
+   "psms": "Atmospheric Monitoring",
+   "flag": false
+  },
+  {
+   "date": "2026-10-15",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "MARSH 36J 110H",
+   "crew": "Dawson Drake / Robbie Henigan 1099",
+   "cm": "",
+   "note": "Atmospheric Monitoring \u2014 Dawson Drake / Robbie Henigan 1099",
+   "psms": "Atmospheric Monitoring",
+   "flag": false
+  },
+  {
+   "date": "2026-10-15",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "COMANCHEROS 19-31 3113 3113AH",
+   "crew": "Raymundo Solis / Tyrell Sanders",
+   "cm": "Joshua Hrabovsky",
+   "note": "The crew verified real-time field and atmospheric conditions on- site rathe",
+   "psms": "Atmospheric Monitoring",
+   "flag": false
+  },
+  {
+   "date": "2026-10-14",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Weyman 23 #5",
+   "crew": "Nathan Contreras / Gael \"Antonio\" Avila 1099",
+   "cm": "Foreman_East Ops 6",
+   "note": "Same crew and everything pretty essay",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-14",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Weyman 23 #4",
+   "crew": "Nathan Contreras / Gael \"Antonio\" Avila 1099",
+   "cm": "Foreman_East Ops 6",
+   "note": "We observe a rod hanger installed and valves replaced on pumpjack",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-14",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Preston Freeman 15A 101H",
+   "crew": "",
+   "cm": "",
+   "note": "Reconnect of wellhead parts",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-14",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "MARY 18 1HB",
+   "crew": "Raymundo Solis / Tyrell Sanders",
+   "cm": "Chad Farr",
+   "note": "Hold point - had to stop the job because they had to go get parts for the r",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-14",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "KYLE 2600 UNIT 2 2625SH",
+   "crew": "Raymundo Solis / Tyrell Sanders",
+   "cm": "Andrew Mcfadden",
+   "note": "No H2s or any pressure",
+   "psms": "Atmospheric Monitoring",
+   "flag": false
+  },
+  {
+   "date": "2026-10-14",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "FRANK 11E 105H",
+   "crew": "Pablo Soto / Baldemar Bracomontes 1099",
+   "cm": "Joshua Hrabovsky",
+   "note": "Had pre task meeting, when we started our pretest on bleeders we noticed a",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-13",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Weyman 23 #3",
+   "crew": "Larry Jaramillo / Humberto Salazar",
+   "cm": "Foreman_East Ops 8",
+   "note": "Job went good, tested air quality prior to first break",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-13",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Weyman 23 #2",
+   "crew": "Larry Jaramillo / Humberto Salazar",
+   "cm": "Foreman_East Ops 6",
+   "note": "Crane operator communicated well with everyone on location",
+   "psms": "Mobile Equipment",
+   "flag": false
+  },
+  {
+   "date": "2026-10-13",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "UNIVERSITY 4-7E 5H",
+   "crew": "Raymundo Solis / Gael \"Antonio\" Avila 1099",
+   "cm": "",
+   "note": "Pretty essay and good communication with all the personal in location",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-13",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "Turner W41K 11H",
+   "crew": "Jeremy Norris / Jerry Gonzales",
+   "cm": "",
+   "note": "A standard disconnect that went smoothly and safely according to the SOW wi",
+   "psms": "Atmospheric Monitoring",
+   "flag": false
+  },
+  {
+   "date": "2026-10-12",
+   "category": "Maintenance",
+   "jobType": "Air Job",
+   "well": "STOKES 13 1 SWD-P706",
+   "crew": "",
+   "cm": "",
+   "note": "Changing the seal pump",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-12",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "XBC Giddings Estate 4097H",
+   "crew": "Alexander Clubb / Raymundo Solis",
+   "cm": "Rick Parks",
+   "note": "Job scope was reconnect wellhead from production",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-12",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "SDU 1984A",
+   "crew": "Jeremy Norris / Jerry Gonzales",
+   "cm": "",
+   "note": "Crew take part well and upgrade rubber",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-12",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "SDU 1476A",
+   "crew": "Jeremy Norris / Jerry Gonzales",
+   "cm": "",
+   "note": "The crew killed the well then began taking apart the top of the well swivel",
+   "psms": "Operational Discipline",
+   "flag": false
+  },
+  {
+   "date": "2026-10-12",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "GLASS Y #1",
+   "crew": "Ruben Rojo / Baldemar Bracomontes 1099",
+   "cm": "Foreman_West Ops 11",
+   "note": "Had pre task meeting, recognized all hazards associated with job and comple",
+   "psms": "Operational Discipline",
+   "flag": true
+  },
+  {
+   "date": "2026-10-12",
+   "category": "AGT",
+   "jobType": "Air Job",
+   "well": "CRAWFORD 27O 115H",
+   "crew": "Ruben Rojo / Baldemar Bracomontes 1099",
+   "cm": "Foreman_West Ops 9",
+   "note": "Atmospheric Monitoring \u2014 Ruben Rojo / Baldemar Bracomontes 1099",
+   "psms": "Atmospheric Monitoring",
+   "flag": false
+  },
   {
    "date": "2026-10-10",
    "category": "AGT",
