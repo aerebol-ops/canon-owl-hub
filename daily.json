@@ -267,29 +267,33 @@
   "specialFocus": {
     "week": 19,
     "until": "2026-10-20",
-    "title": "Open the Box Before You Roll — Benzene Monitor In, Shown, Then Go",
-    "why": "Simple one this morning, and it's thirty seconds well spent. Every air job runs with a benzene monitor — it's the control standing between our crew and an exposure you can't always smell coming. The bad day goes like this: sixty miles out, rigged up, you open the benzene box and it's empty. The monitor is on the charger back at the yard, or riding in somebody else's truck. Now the job waits on us — or worse, somebody gets tempted to start without it. And that is Jacob's topic this week exactly: showing up without the control is bypassing it before the job even begins. The fix is small and it happens in the yard, not on location: open the box, eyes on the monitor, turn it on, show your lead, then roll. Simple steps, every morning, so we get to the job site with the tools we need.",
-    "standardLabel": "The Yard Check — Thirty Seconds Before the Truck Moves",
+    "title": "Run It Back — Stop Work, Written Down · Help Each Other Out the Door",
+    "why": "Running it back. Yesterday's meeting landed, so this morning we carry the same message forward: make the call, then paint the scene. One small twist today — helping each other, starting on the way out the door. And just a quick word on the benzene box: this crew has been doing extremely well on not forgetting it, so no drill this morning — keep it automatic and keep it going. The twist is about how we leave the yard. The morning sets the whole day, and there's a difference between quick and hurried. Quick is a crew that knows its routine and moves smooth. Hurried is a crew skipping steps to make up time. Be quick, but don't hurry — and look out for the man next to you while you do it. Same thing at the end of the job: when there's a stop to write up, help your partner get the scene down while it's fresh.",
+    "standardLabel": "Same Message, One Twist — We Do It Together",
     "standard": [
-      "Open the benzene box every morning — don't trust the weight of it or yesterday's memory. Lid up, eyes on the monitor, inside the box, before it goes in the truck. 'It was in there yesterday' is not a check.",
-      "Turn it on in the yard: charged, no faults, bump and calibration current. A monitor that won't power up at the wellhead is the same as no monitor at all — find that out at the yard, where it's a two-minute fix.",
-      "Show your lead before you leave. Lid open, monitor on, a quick nod — that's the whole thing. Two sets of eyes on purpose. Leads: be at the line when the trucks pull out and make it easy — a ten-second look, not a ceremony.",
-      "Work together. Partners check each other's boxes and the rest of the kit with it: 4-gas, SCBA and work packs, mask bags, JSA paperwork, location sign. One man reads it off, the other man touches each item. Missing anything? The truck doesn't roll — call your lead and we find it before we drive, not after.",
-      "Coming home counts too. Monitor back in the box and on the charger, any fault tagged and told to your lead that night — so tomorrow's crew never opens an empty box. Leave the box ready for the next man the way you'd want to find it.",
-      "The photo proves TODAY. The monitor picture on your form gets taken fresh — on that location, that day. Last week's reviews caught monitor photos stamped from other days, one from years back. A recycled picture tells a client we were somewhere else; a fresh one is proof the control was really there."
+      "Same message as yesterday: when you stop, tick 'Stop work authority utilized' and write the scene. Where, when, what you saw (with numbers and wind), who you told, what you did, and how it ended.",
+      "Add color to the decision. Say WHY you chose what you did, so someone who was never there could draw the location from your note. The decision is the part a client questions, and the reasoning is the part that answers them.",
+      "Quick, but don't hurry. Quick is practiced and smooth: everybody knows his part and the routine stays whole. Hurry is skipping the hitch check, the strap, or the look in the box to buy back five minutes. You pay for hurry later; quick saves time now.",
+      "Help each other out the door. Before your truck rolls, look left and right. Does your partner, the crew next to you, or the new hand have what they need? Grab a strap, hold the light, take a second look at a hitch, ask 'you good?' and mean it. Nobody leaves the yard struggling alone.",
+      "Benzene box, just a light touch, because you've earned it. You've been doing extremely well on not forgetting. Keep it automatic: lid up, monitor on, lead sees it, roll. Thirty seconds, no drama.",
+      "Help each other write it down. After a stop, the partner who saw it helps fill in the scene: the time, the reading, who was told. Two memories make one strong note. Last week at McClintic, Humberto made the stop and his partner Jeremy wrote it up. That's the habit."
     ],
     "scenarios": [
       {
-        "title": "Sixty Miles and an Empty Box",
-        "body": "Early start, long drive, the crew's rigged up and the company man is ready. The tech pops the benzene box — empty. The monitor's on the charger at the yard where it got left last night. Now there's a phone call, a two-hour round trip or a borrowed monitor nobody's checked, a customer waiting on Canon, and a job that can't start. And the quiet temptation: 'it's a short job, readings have been zero all week.' That's the bypass — and it's never the answer. Rewind to 5:45 AM at the yard: lid up, monitor in, power on, the lead sees it. Thirty seconds and the whole bad morning never happens. Who in the circle has opened an empty box on location — what did it cost?"
+        "title": "Run It Back — Yesterday in One Minute",
+        "body": "Jacob, give it the sixty-second version. Last week we filed 533 forms, ticked 'utilized' zero times, and made at least 13 real stops that mostly lived in one line. The fix is the six-part scene, written so a client could picture the location. Then go around the circle: did anybody make a call yesterday? A pause, a mask-up, a 'hold on, let's look at that.' Say the note out loud in six parts. If nobody stopped yesterday, pick last week's and say it the way it SHOULD have been written."
+      },
+      {
+        "title": "Quick, Not Hurried — The Yard at 5:45",
+        "body": "Two crews pull out at the same time. Crew one is hurried. One man loads alone while his partner's on the phone, nobody looks at the hitch, a strap stays on the ground, and the truck leaves ten minutes behind and drives fast to make it up. Crew two is quick. Each man knows his part: one reads the kit, the other touches it. They glance at the truck beside them, help the new hand finish loading, and roll out together, on time and calm. Same clock, same yard. Crew two gets to location with everything, and crew one gets there with a story. Which crew are you on most mornings, and what would it take to be the other one?"
       }
     ],
     "questions": [
-      "Walk us through your yard check out loud — what do you open, what do you turn on, and who sees it before you leave?",
-      "What else in your truck are you trusting is there without looking? Name one item you'll start touching every morning.",
-      "Leads: what makes the 'show me before you go' easy for your crew instead of a hassle?",
-      "Today's send-off: no truck leaves this yard until its benzene box has been opened in front of a lead. Who's first?"
+      "Run-back: say the stop note for the last call you made. Six parts, thirty seconds. What did you have to guess at?",
+      "What does 'hurried' look like in our yard when you see it, and what's the quick version of the same thing?",
+      "Who helped you get out the door this week, and who did you help?",
+      "Jacob's question: what did the field teach us yesterday that the breakroom should know?"
     ],
-    "nonNegotiable": "No truck leaves the yard until the benzene box is open, the monitor is in it and on, and a lead has seen it. Simple steps, every morning — we get to the job with the tools we need, and the control is on location before the job starts."
+    "nonNegotiable": "Make the call, then paint the scene, and help each other do both. Be quick but never hurried out the door: the routine stays whole, the benzene box stays automatic, and nobody leaves the yard on their own."
   }
 }
