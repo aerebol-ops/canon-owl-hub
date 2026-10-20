@@ -199,25 +199,21 @@
     ]
   },
   "formReview": {
-    "date": "2026-10-18",
-    "label": "Sunday 10/18",
+    "date": "2026-10-19",
+    "label": "Monday 10/19",
     "verdict": "",
     "concerns": [
       {
-        "title": "Stefanie Kirschke — XTO, SHAQ B 38-14 4202H, 6:32 AM and 11:01 AM, job 35928",
-        "quote": "No / Are you wearing you Canon Safety issued FR uniform? / Need to wash after tank clean out / If not, why?"
+        "title": "1099 Gage Gonzales — SM Energy / XTO crew, trailer 600, Stanton, 2:59 PM, Trailer Readiness Form. The readiness form reports two pieces of trailer equipment absent. No no",
+        "quote": "No spotter flags, no cascade system low pressure alarm"
       },
       {
-        "title": "Dawson Drake — Ovintiv, H&P 616, Terlingua, 4:27 PM, job 35861_2",
-        "quote": "No / Are you wearing your Canon Safety issued FR coveralls / They where still soaking wet when I pulled them out of the dryer this morning / If not, why?"
+        "title": "1099 Alfredo Vaquera — Ovintiv, Terlingua, 12:54 PM form time, H2S Safety Supervision Daily Inspection Form. Answered No to the FR question and gave a reason.",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
       },
       {
-        "title": "Jordan Lemmons — Commuting Journey Management Plan, 9:30 AM, Red Oak OK to Andrews TX",
-        "quote": "No / Pre-Operational Inspection of Vehicle Performed?"
-      },
-      {
-        "title": "Jimmy White — Commuting Journey Management Plan, 4:05 PM, Ben Wheeler TX to Andrews TX",
-        "quote": "Yes / Is the vehicle equipped with additional equipment? (H2S or Confined Space Rescue Trailer, Flare Stack) / No / Pre-Operational Inspection of Trailer or Flare Stack Performed?"
+        "title": "DAWSON DRAKE — BPX, State Blake 57-T3-46 W102H, 6:22 AM to 5:26 PM, job 35902_2. The close-out records a benzene tube reading above zero.",
+        "quote": "Pulled 2 - 0.1-2.0 no burn Job completed for the day"
       }
     ]
   },
@@ -228,9 +224,9 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Larry Jaramillo / Humberto Salazar — Crane operator communicated well with everyone on location",
-      "detail": "Crane operator communicated well with everyone on location.",
-      "psms": "Mobile Equipment",
+      "headline": "Larry Jaramillo / Humberto Salazar — Job went good, tested air quality prior to first break",
+      "detail": "Crew must verify correct sizes of nipples needed for the job.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
@@ -244,25 +240,25 @@
   "todaysChallenge": "If yesterday had a miss — a form skipped, a reading you should have questioned — square it today. Get up, fix it, and tell the next crew what you learned.",
   "todaysChallengeSubtext": "“It's not whether you get knocked down, it's whether you get up.” — Vince Lombardi",
   "compliance": {
-    "weekOf": "Week of October 12, 2026",
+    "weekOf": "Week of October 19, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 118,
-        "total": 122
+        "done": 38,
+        "total": 42
       },
       {
         "label": "Trailer Inspections",
-        "done": 22,
-        "total": 27
+        "done": 10,
+        "total": 11
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 20,
-        "total": 30
+        "done": 7,
+        "total": 7
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/13"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 10/19"
   },
   "specialFocus": {
     "week": 19,
