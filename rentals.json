@@ -203,14 +203,14 @@
     {
       "rig": "H&P 264",
       "company": "OVINTIV",
-      "location": "FASKEN MD 9-U 109HL",
+      "location": "FASKEN MD 9-U 108HF",
       "status": "RUNNING",
       "active": true,
       "equipment": "REDLINE",
-      "ticket": "101206",
+      "ticket": "101206C",
       "at": "",
       "onRentSince": "2025-10-31",
-      "currentStart": "2026-10-01",
+      "currentStart": "2026-10-18",
       "lastCheck": "2026-09-19",
       "daysSinceCheck": 32,
       "checkState": "overdue"
