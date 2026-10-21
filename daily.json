@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "week": 19,
-  "day": 2,
+  "day": 3,
   "topicWeek": 8,
   "displayWeek": 10,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Bypassing Safety Controls · Stop Work Authority",
     "marker": ""
   },
-  "openingMessage": "Winning is fun, but winning is not the point. Wanting to win is the point. Not giving up is the point. Never letting up is the point.",
+  "openingMessage": "Left foot, right foot, breathe — just put one foot in front of the other and keep moving.",
   "openingAttribution": "Pat Summitt",
-  "openingWhy": "A long clean streak is exactly when crews get bit — because a good record starts feeling like PPE. It isn't. Last quarter's zero doesn't test today's atmosphere. Never letting up IS the safety program.",
+  "openingWhy": "Fourth location, triple-digit heat, everybody's smoked — don't negotiate with the whole day at once. Next reading. Next valve. Next form. Done right, in order. That's how hard weeks end with every truck in its own driveway.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Recognition is culture in action. When you name what someone did right, you tell the whole crew what right looks like. Kudos to the ones doing it right every day.",
+  "leadershipThought": "The person who does it right every time — even alone, even when it's tedious — is the person who builds the culture. That's not compliance. That's ownership.",
   "yesterdaysJobs": {
     "date": "2026-10-17",
     "label": "Saturday, October 17",
@@ -220,12 +220,40 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>All crews on site worked together quickly and efficiently, but also SAFELY</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>All crews on site worked together quickly and efficiently, but also SAFELY to get the job</span><br><br><strong>Good communication and teamwork between crews</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Good communication and teamwork between crews. The valve issue was identified quickly,</span><br><br><strong>Crew member realizes truck driver did not have swamper and was backing into</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Crew member realizes truck driver did not have swamper and was backing into location</span><br><br><strong>During the bleed-down of the well, MT exercised its stop work authority due</strong> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>During the bleed-down of the well, MT exercised its stop work authority due to a change in</span><br><br><strong>New roustabout crew, all SSE's on crew</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Christian Lee 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Went step by step with roustabout crew members due to the language barrier, and MT's as we completed the entire job process.</span>",
+  "exxonMoments": "<strong>The work around on issues that occurred in the jop we stop and found safe w</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The work around on issues that occurred in the jop we stop and found safe work around</span><br><br><strong>Stop Work Authority Exercised — Unsafe Man Basket Operations</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>Man basket work is one of the highest-risk lift operations on an oil and gas site — Stop Work Authority before elevation is always the right call when anything about the setup looks wrong.</span><br><br><strong>Positive Observation — LOTO Disconnect Completed Efficiently</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>LOTO, atmospheric testing, and hold points together form a complete energy control system — don't shortcut any one of them, even on a quick job.</span><br><br><strong>Stop Work by Equipment Operator — Spotter Lost Visual</strong> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Equipment operators own Stop Work Authority too — stop the moment you lose your spotter; regaining visual contact is the only acceptable restart condition.</span><br><br><strong>Crane Work — Horse Head Installation and Flowline Connection</strong> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Crane work demands real-time stop work authority — if anything changes during the lift, the person on the ground is empowered to call the stop immediately.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Larry Jaramillo / Humberto Salazar — Job went good, tested air quality prior to first break",
-      "detail": "Crew must verify correct sizes of nipples needed for the job.",
+      "headline": "Jordan Lemmons / Bobby Galindo 1099 — Job went well we had to change 2 things out from a conversion they did a co",
+      "detail": "Tested all 0s they never opened up the well so everything was still dead.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Dawson Drake / Dermont Morgan 1099 — The communication was effective",
+      "detail": "The communication was effective.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Alexander Clubb / Gael \"Antonio\" Avila 1099 — Job scope was kill well, when pumping on well only got 4 barrels in before",
+      "detail": "Other than that everything went good.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Michael Jobe / Robbie Henigan 1099 — Had a meeting went over everything that needed to be done for job",
+      "detail": "Do better at talking in the meeting of what our safety protocols are.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Andrew Bailey / Bryan Medlin — Job called of due to permits",
+      "detail": "L - Learn: One thing we'll do better next time.",
       "psms": "Operational Discipline",
       "level": null
     },
@@ -237,8 +265,8 @@
       "psms": "Operational Discipline"
     }
   ],
-  "todaysChallenge": "If yesterday had a miss — a form skipped, a reading you should have questioned — square it today. Get up, fix it, and tell the next crew what you learned.",
-  "todaysChallengeSubtext": "“It's not whether you get knocked down, it's whether you get up.” — Vince Lombardi",
+  "todaysChallenge": "Every decision on location today is about all the days after it. One skipped test is never worth the rest. Protect your 100%.",
+  "todaysChallengeSubtext": "“Today, you have 100% of your life left.” — Tom Landry",
   "compliance": {
     "weekOf": "Week of October 19, 2026",
     "metrics": [
@@ -259,37 +287,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Mon 10/19"
-  },
-  "specialFocus": {
-    "week": 19,
-    "until": "2026-10-20",
-    "title": "Run It Back — Stop Work, Written Down · Help Each Other Out the Door",
-    "why": "Running it back. Yesterday's meeting landed, so this morning we carry the same message forward: make the call, then paint the scene. One small twist today — helping each other, starting on the way out the door. And just a quick word on the benzene box: this crew has been doing extremely well on not forgetting it, so no drill this morning — keep it automatic and keep it going. The twist is about how we leave the yard. The morning sets the whole day, and there's a difference between quick and hurried. Quick is a crew that knows its routine and moves smooth. Hurried is a crew skipping steps to make up time. Be quick, but don't hurry — and look out for the man next to you while you do it. Same thing at the end of the job: when there's a stop to write up, help your partner get the scene down while it's fresh.",
-    "standardLabel": "Same Message, One Twist — We Do It Together",
-    "standard": [
-      "Same message as yesterday: when you stop, tick 'Stop work authority utilized' and write the scene. Where, when, what you saw (with numbers and wind), who you told, what you did, and how it ended.",
-      "Add color to the decision. Say WHY you chose what you did, so someone who was never there could draw the location from your note. The decision is the part a client questions, and the reasoning is the part that answers them.",
-      "Quick, but don't hurry. Quick is practiced and smooth: everybody knows his part and the routine stays whole. Hurry is skipping the hitch check, the strap, or the look in the box to buy back five minutes. You pay for hurry later; quick saves time now.",
-      "Help each other out the door. Before your truck rolls, look left and right. Does your partner, the crew next to you, or the new hand have what they need? Grab a strap, hold the light, take a second look at a hitch, ask 'you good?' and mean it. Nobody leaves the yard struggling alone.",
-      "Benzene box, just a light touch, because you've earned it. You've been doing extremely well on not forgetting. Keep it automatic: lid up, monitor on, lead sees it, roll. Thirty seconds, no drama.",
-      "Help each other write it down. After a stop, the partner who saw it helps fill in the scene: the time, the reading, who was told. Two memories make one strong note. Last week at McClintic, Humberto made the stop and his partner Jeremy wrote it up. That's the habit."
-    ],
-    "scenarios": [
-      {
-        "title": "Run It Back — Yesterday in One Minute",
-        "body": "Jacob, give it the sixty-second version. Last week we filed 533 forms, ticked 'utilized' zero times, and made at least 13 real stops that mostly lived in one line. The fix is the six-part scene, written so a client could picture the location. Then go around the circle: did anybody make a call yesterday? A pause, a mask-up, a 'hold on, let's look at that.' Say the note out loud in six parts. If nobody stopped yesterday, pick last week's and say it the way it SHOULD have been written."
-      },
-      {
-        "title": "Quick, Not Hurried — The Yard at 5:45",
-        "body": "Two crews pull out at the same time. Crew one is hurried. One man loads alone while his partner's on the phone, nobody looks at the hitch, a strap stays on the ground, and the truck leaves ten minutes behind and drives fast to make it up. Crew two is quick. Each man knows his part: one reads the kit, the other touches it. They glance at the truck beside them, help the new hand finish loading, and roll out together, on time and calm. Same clock, same yard. Crew two gets to location with everything, and crew one gets there with a story. Which crew are you on most mornings, and what would it take to be the other one?"
-      }
-    ],
-    "questions": [
-      "Run-back: say the stop note for the last call you made. Six parts, thirty seconds. What did you have to guess at?",
-      "What does 'hurried' look like in our yard when you see it, and what's the quick version of the same thing?",
-      "Who helped you get out the door this week, and who did you help?",
-      "Jacob's question: what did the field teach us yesterday that the breakroom should know?"
-    ],
-    "nonNegotiable": "Make the call, then paint the scene, and help each other do both. Be quick but never hurried out the door: the routine stays whole, the benzene box stays automatic, and nobody leaves the yard on their own."
   }
 }

@@ -24,6 +24,15 @@
             "Reconnect was successful, SCBA were put on but not needed for the job"
           ],
           "recognition": "Larry Jaramillo / Humberto Salazar — Job went good, tested air quality prior to first break"
+        },
+        {
+          "date": "Wed, Oct 21",
+          "day": "Wednesday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;The person who does it right every time — even alone, even when it's tedious — is the person who builds the culture. That's not compliance. That's ownership.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Jordan Lemmons / Bobby Galindo 1099</strong> — Tested all 0s they never opened up the well so everything was still dead.</li><li style='margin:3px 0;'><strong>Dawson Drake / Dermont Morgan 1099</strong> — The communication was effective.</li><li style='margin:3px 0;'><strong>Alexander Clubb / Gael \"Antonio\" Avila 1099</strong> — Other than that everything went good.</li><li style='margin:3px 0;'><strong>Michael Jobe / Robbie Henigan 1099</strong> — Do better at talking in the meeting of what our safety protocols are.</li><li style='margin:3px 0;'><strong>Andrew Bailey / Bryan Medlin</strong> — L - Learn: One thing we'll do better next time.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Reconnect was successful, SCBA were put on but not needed for the job"
+          ],
+          "recognition": "Jordan Lemmons / Bobby Galindo 1099 — Job went well we had to change 2 things out from a conversion they did a co"
         }
       ]
     },
