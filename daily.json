@@ -259,5 +259,33 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Mon 10/19"
+  },
+  "specialFocus": {
+    "week": 19,
+    "until": "2026-10-21",
+    "title": "Catch It, Say It, Write It — The Crew We Already Are",
+    "why": "The meetings this week have landed, so this morning is all good news, and it's real. It comes straight out of the office's own reviews of our forms. Matt's weekly review ended with a list of people worth naming, and his own read on it: most of the names on that list are there for catching something and writing it down. That's Stop Work Authority in work clothes. A stop doesn't start with a big speech. It starts with noticing a valve leaking by, a crane crew without credentials, or a dead sensor, and saying so out loud. Then the write-up makes it count. Kyle's audit says the paperwork is getting there too: day forms at their best of the year. So this morning, hear your names, hear the numbers, and keep doing exactly this, plus one last step. When your catch stops the job, tick 'Stop work authority utilized' so the record shows the crew we already are.",
+    "standardLabel": "What Good Looked Like This Week",
+    "standard": [
+      "The numbers, from Kyle's audit for Oct 8–14: day forms at 95%, the best of the year, and every single day form on XTO air jobs completed (173 of 173). Night forms at 85%, up from 20–50% in September. Missed forms running at half the September pace. JSA flags down from about 30 a week to 2. Sixteen techs went the whole week without missing a form.",
+      "Calls that stopped the job, the right way. Luis Zarate made three sound calls in two days: he stood the Nobles job down for lightning, cancelled University 7-43 when it struck too close, and stopped Halff 10 #2 because the crane crew didn't hold confined space credentials. Jacob Hernandez stopped work on a leaking valve at Driver B37 and wrote it up in his own words. Humberto Marquez-Salazar stopped McClintic A 8H when the pipe wasn't rigged right, and his partner backed it up in writing.",
+      "Catches written down clean. Baldemar Bracamontes caught a leaking service casing and called in the crew, then a valve leaking by on pretest. Matt called his write-up the week's cleanest example of an unsafe condition both selected AND described. Raymundo Solis got the crew stable footing in a cellar full of water. On Monday, the first day of the new write-up standard, he logged a hold point for a wrong-type conversion and a leak found and fixed on the injection, each with the condition named.",
+      "Never letting it drop. Rolando Flores reported a missing cellar sensor on his rig three days running, named who he told every time, and kept reporting it when nothing came back. Bobby Galindo called out dead floor and gumbo sensors and told his lead the same day. That's the heart of stop work: you speak up until it's fixed. Rolando also went perfect on his forms again, three weeks running.",
+      "Notes a client could picture. Cindy Smith wrote the fullest atmospheric-testing notes of the day. Nathan Contreras wrote the fullest observe-and-win narratives, and he came off the stop-work confirmation list and stayed off it. Turnarounds worth naming out loud: Benjamin Boutte, Alfredo Vaquera and Stefanie Kirschke, each with a clean week after a rough one.",
+      "The one step left. We're already a crew that catches it and says it, so now make the record match. When your catch stops the job, tick 'Stop work authority utilized' and write the six-part scene. Matt's review counted zero ticks across 475 forms. That's not because we don't stop; it's because we don't count it. Let's make the box tell the truth about this crew."
+    ],
+    "scenarios": [
+      {
+        "title": "Pass It Around — The Catch You're Proudest Of",
+        "body": "Quick round, no wrong answers. Everybody's made a catch this month, or watched a partner make one: a leak spotted, a sensor that wouldn't read, a crew walking into the wrong spot, a job that shouldn't have started yet. Go around the circle. Name the catch, and say it the way it SHOULD be written: where, when, what you saw, who you told, what you did, how it ended. Then the circle gets one line on what made it a good catch. Jacob closes it out: which one of these should the breakroom hear about?"
+      }
+    ],
+    "questions": [
+      "Which catch on this list would you have made, and which one might you have walked past?",
+      "What makes it easier to speak up, and to keep speaking up the way Rolando did when nothing came back?",
+      "Who on your crew made a catch this week that didn't make any list? Name them right now.",
+      "Jacob's question: what did the field teach us yesterday that the breakroom should know?"
+    ],
+    "nonNegotiable": "Catch it, say it, write it, and when it stops the job, tick the box. This crew already does the hard part. Let the record show it."
   }
 }
