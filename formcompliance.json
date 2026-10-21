@@ -1,6 +1,6 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
-  "generated": "2026-10-20",
+  "generated": "2026-10-21",
   "ytdPct": 84.3,
   "ytdMissed": 1940,
   "months": [
@@ -2824,14 +2824,14 @@
       "trailerInspNo": 14,
       "trailerReadyNo": 32,
       "problemRows": 108,
-      "blanks": 132,
-      "employees": 66,
-      "cleanEmployees": 27,
+      "blanks": 243,
+      "employees": 68,
+      "cleanEmployees": 29,
       "dailyYesTotal": 643,
       "dailyNoTotal": 57,
-      "rawRows": 993,
+      "rawRows": 1111,
       "daysCovered": 17,
-      "sheetsInMonth": 20,
+      "sheetsInMonth": 21,
       "byDay": [
         {
           "date": "10/1",

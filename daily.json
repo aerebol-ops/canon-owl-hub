@@ -199,21 +199,25 @@
     ]
   },
   "formReview": {
-    "date": "2026-10-19",
-    "label": "Monday 10/19",
+    "date": "2026-10-20",
+    "label": "Tuesday 10/20",
     "verdict": "",
     "concerns": [
       {
-        "title": "1099 Gage Gonzales — SM Energy / XTO crew, trailer 600, Stanton, 2:59 PM, Trailer Readiness Form. The readiness form reports two pieces of trailer equipment absent. No no",
-        "quote": "No spotter flags, no cascade system low pressure alarm"
+        "title": "Alfredo Vaquera (1099) — Ovintiv, H&P 616 / Terlingua — 09:18 AM — H2S daily",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls — None assigned If not, why?"
       },
       {
-        "title": "1099 Alfredo Vaquera — Ovintiv, Terlingua, 12:54 PM form time, H2S Safety Supervision Daily Inspection Form. Answered No to the FR question and gave a reason.",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
+        "title": "Alfredo Vaquera (1099) — Ovintiv, H&P 616 / Terlingua — 09:18 AM — H2S daily",
+        "quote": "No Do you have sufficient mask bags?"
       },
       {
-        "title": "DAWSON DRAKE — BPX, State Blake 57-T3-46 W102H, 6:22 AM to 5:26 PM, job 35902_2. The close-out records a benzene tube reading above zero.",
-        "quote": "Pulled 2 - 0.1-2.0 no burn Job completed for the day"
+        "title": "Dennis Easley — XTO Energy, Penguins DU #B1 (coil tubing) — 01:25 PM — H2S Equipment Rig Up Rig Check Photos Form",
+        "quote": "At 10/20/2026 01:25 PM — No Loud Alarms and Lights Tested?"
+      },
+      {
+        "title": "Bryan Medlin — XTO, BROOK N-13D 100H — 09:38 AM, job 35976",
+        "quote": "While discounting flow line at 9:38 we encountered LEL's at 4 ppm. Stopped the job shut all machines off till the air cleared, at 9:43 went to check air quality and found nothing leaking or contaminants in the air. Proceeded with disconnecting flow line. End of report"
       }
     ]
   },
