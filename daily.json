@@ -171,25 +171,25 @@
   "leadershipThought": "A bypass that everyone knows about is still a bypass. Document it, restore it, or escalate it. Never normalize it. The next crew won't know what you left behind.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-10-20",
-    "label": "Tuesday 10/20",
+    "date": "2026-10-21",
+    "label": "Wednesday 10/21",
     "verdict": "",
     "concerns": [
       {
-        "title": "Alfredo Vaquera (1099) — Ovintiv, H&P 616 / Terlingua — 09:18 AM — H2S daily",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls — None assigned If not, why?"
+        "title": "Alfredo Vaquera (1099) — Ovintiv, Terlingua / H&P 616 — H2S daily, form time 11:00 AM. Answered No to the FR coveralls question and completed the reason field.",
+        "quote": ""
       },
       {
-        "title": "Alfredo Vaquera (1099) — Ovintiv, H&P 616 / Terlingua — 09:18 AM — H2S daily",
-        "quote": "No Do you have sufficient mask bags?"
+        "title": "Alfredo Vaquera (1099) — Ovintiv, Terlingua / H&P 616 — H2S daily, form time 11:00 AM. Answered No to the mask bag question on the same form.",
+        "quote": "Do you have sufficient mask bags?"
       },
       {
-        "title": "Dennis Easley — XTO Energy, Penguins DU #B1 (coil tubing) — 01:25 PM — H2S Equipment Rig Up Rig Check Photos Form",
-        "quote": "At 10/20/2026 01:25 PM — No Loud Alarms and Lights Tested?"
+        "title": "Dawson Drake — Trailer Inspection Form, trailer 607, 12:59 PM, Unnamed Road, TX. Answered No to the FR uniform question and completed the reason field.",
+        "quote": ""
       },
       {
-        "title": "Bryan Medlin — XTO, BROOK N-13D 100H — 09:38 AM, job 35976",
-        "quote": "While discounting flow line at 9:38 we encountered LEL's at 4 ppm. Stopped the job shut all machines off till the air cleared, at 9:43 went to check air quality and found nothing leaking or contaminants in the air. Proceeded with disconnecting flow line. End of report"
+        "title": "Trailer 145 — no first aid kit, reported independently by two technicians on the same day. Raymundo Solis at the Andrews shop, 9:46 AM, wrote in the First Aid Kit notes",
+        "quote": "We don't have any in stock"
       }
     ]
   },
@@ -248,20 +248,20 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 81,
-        "total": 89
+        "done": 130,
+        "total": 139
       },
       {
         "label": "Trailer Inspections",
-        "done": 21,
-        "total": 23
+        "done": 33,
+        "total": 36
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 17,
-        "total": 17
+        "done": 25,
+        "total": 29
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/20"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 10/21"
   }
 }
