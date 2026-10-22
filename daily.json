@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "week": 19,
-  "day": 3,
+  "day": 4,
   "topicWeek": 8,
   "displayWeek": 10,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Bypassing Safety Controls · Stop Work Authority",
     "marker": ""
   },
-  "openingMessage": "Left foot, right foot, breathe — just put one foot in front of the other and keep moving.",
+  "openingMessage": "Attitude is a choice. What you think you can do, whether positive or negative, confidence or scared, will most likely happen.",
   "openingAttribution": "Pat Summitt",
-  "openingWhy": "Fourth location, triple-digit heat, everybody's smoked — don't negotiate with the whole day at once. Next reading. Next valve. Next form. Done right, in order. That's how hard weeks end with every truck in its own driveway.",
+  "openingWhy": "The crew that rolls out of this meeting believing the standard is doable holds it all day. The crew that decides at 5:30 AM that today's a goat rope builds themselves exactly that. You're not predicting your day in here — you're choosing it.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,36 +168,8 @@
       "count": 1
     }
   ],
-  "leadershipThought": "The person who does it right every time — even alone, even when it's tedious — is the person who builds the culture. That's not compliance. That's ownership.",
-  "yesterdaysJobs": {
-    "date": "2026-10-17",
-    "label": "Saturday, October 17",
-    "count": 2,
-    "flags": 0,
-    "groups": [
-      {
-        "category": "AGT",
-        "jobs": [
-          {
-            "well": "Preston-Freeman 15A 101H",
-            "jobType": "Air Job",
-            "crew": "Brianda Sandoval / Tyrell Sanders",
-            "cm": "",
-            "note": "Atmospheric monitoring (including H2S level checks) was conducted, along wi",
-            "flag": false
-          },
-          {
-            "well": "Shackelford 40-12D 4H",
-            "jobType": "Air Job",
-            "crew": "Brianda Sandoval / Tyrell Sanders",
-            "cm": "",
-            "note": "They had to do a reconnect",
-            "flag": false
-          }
-        ]
-      }
-    ]
-  },
+  "leadershipThought": "A bypass that everyone knows about is still a bypass. Document it, restore it, or escalate it. Never normalize it. The next crew won't know what you left behind.",
+  "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-10-20",
     "label": "Tuesday 10/20",
@@ -224,13 +196,41 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>The work around on issues that occurred in the jop we stop and found safe w</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The work around on issues that occurred in the jop we stop and found safe work around</span><br><br><strong>Stop Work Authority Exercised — Unsafe Man Basket Operations</strong> <span style='font-size:12px;color:#666;'>(Line of Fire)</span><br><span style='font-size:13px;'>Man basket work is one of the highest-risk lift operations on an oil and gas site — Stop Work Authority before elevation is always the right call when anything about the setup looks wrong.</span><br><br><strong>Positive Observation — LOTO Disconnect Completed Efficiently</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>LOTO, atmospheric testing, and hold points together form a complete energy control system — don't shortcut any one of them, even on a quick job.</span><br><br><strong>Stop Work by Equipment Operator — Spotter Lost Visual</strong> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Equipment operators own Stop Work Authority too — stop the moment you lose your spotter; regaining visual contact is the only acceptable restart condition.</span><br><br><strong>Crane Work — Horse Head Installation and Flowline Connection</strong> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Crane work demands real-time stop work authority — if anything changes during the lift, the person on the ground is empowered to call the stop immediately.</span>",
+  "exxonMoments": "<strong>Stop Work Authority Exercised — Equipment Not Secured</strong> <span style='font-size:12px;color:#666;'>(Breaking Containment)</span><br><span style='font-size:13px;'>Before a wellhead reconnect, physically verify that all nearby equipment — including chemical totes — is secured and in position; don't assume the previous crew left the site ready.</span><br><br><strong>Stop Work Authority Exercised — Unsafe Conditions</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Stop Work Authority is not a last resort — exercising it early when you identify an unsafe condition, and communicating it to the PIC for correction, is exactly how it is meant to be used.</span><br><br><strong>They had to do a reconnect</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Brianda Sandoval / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>At 10/17/2026 11:35 AM Unnamed Road Stanton, TX 79782</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Atmospheric Monitoring — Dawson Drake / Robbie Henigan 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jeremy Norris / Jerry Gonzales — A great safety meeting AND the proper use of a LMRA before continuing to wo",
-      "detail": "Make sure not just us but nobody is to be around or under suspended loads.",
+      "headline": "Andrew Bailey / Gage Gonzales 1099 — Crew preforming wellhead disconnect while utilizing PSMS",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Luis Zarate / Tyrell Sanders — Crew reconnected wellhead and flowline",
+      "detail": "Continue to grow communication with MT and crew.",
       "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Ruben Rojo / Joseph Popillion 1099 — on the OWL board",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-09-30. That consistency is the habit.",
+      "psms": "Operational Discipline",
+      "level": "habit"
+    },
+    {
+      "type": "good",
+      "headline": "Jordan Lemmons / Cindy Smith 1099 — Crew reconnected well head and flow line",
+      "detail": "Job was completed according to plan without any incidents or near misses.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Nathan Contreras / Rolando Flores 1099 — Crew maintained good communication, followed the LSRAs, and completed atmos",
+      "detail": "Continue maintaining continuous atmospheric monitoring and communication throughout the job.",
+      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
@@ -241,8 +241,8 @@
       "psms": "Operational Discipline"
     }
   ],
-  "todaysChallenge": "Every decision on location today is about all the days after it. One skipped test is never worth the rest. Protect your 100%.",
-  "todaysChallengeSubtext": "“Today, you have 100% of your life left.” — Tom Landry",
+  "todaysChallenge": "The job is won in the first thirty minutes: the brief, the walk-down, the atmosphere test, the muster point. Prepare like it matters, because it does.",
+  "todaysChallengeSubtext": "“The will to succeed is important, but what's more important is the will to prepare.” — Bobby Knight",
   "compliance": {
     "weekOf": "Week of October 19, 2026",
     "metrics": [
@@ -263,33 +263,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/20"
-  },
-  "specialFocus": {
-    "week": 19,
-    "until": "2026-10-21",
-    "title": "Catch It, Say It, Write It — The Crew We Already Are",
-    "why": "The meetings this week have landed, so this morning is all good news, and it's real. It comes straight out of the office's own reviews of our forms. Matt's weekly review ended with a list of people worth naming, and his own read on it: most of the names on that list are there for catching something and writing it down. That's Stop Work Authority in work clothes. A stop doesn't start with a big speech. It starts with noticing a valve leaking by, a crane crew without credentials, or a dead sensor, and saying so out loud. Then the write-up makes it count. Kyle's audit says the paperwork is getting there too: day forms at their best of the year. So this morning, hear your names, hear the numbers, and keep doing exactly this, plus one last step. When your catch stops the job, tick 'Stop work authority utilized' so the record shows the crew we already are.",
-    "standardLabel": "What Good Looked Like This Week",
-    "standard": [
-      "The numbers, from Kyle's audit for Oct 8–14: day forms at 95%, the best of the year, and every single day form on XTO air jobs completed (173 of 173). Night forms at 85%, up from 20–50% in September. Missed forms running at half the September pace. JSA flags down from about 30 a week to 2. Sixteen techs went the whole week without missing a form.",
-      "Calls that stopped the job, the right way. Luis Zarate made three sound calls in two days: he stood the Nobles job down for lightning, cancelled University 7-43 when it struck too close, and stopped Halff 10 #2 because the crane crew didn't hold confined space credentials. Jacob Hernandez stopped work on a leaking valve at Driver B37 and wrote it up in his own words. Humberto Marquez-Salazar stopped McClintic A 8H when the pipe wasn't rigged right, and his partner backed it up in writing.",
-      "Catches written down clean. Baldemar Bracamontes caught a leaking service casing and called in the crew, then a valve leaking by on pretest. Matt called his write-up the week's cleanest example of an unsafe condition both selected AND described. Raymundo Solis got the crew stable footing in a cellar full of water. On Monday, the first day of the new write-up standard, he logged a hold point for a wrong-type conversion and a leak found and fixed on the injection, each with the condition named.",
-      "Never letting it drop. Rolando Flores reported a missing cellar sensor on his rig three days running, named who he told every time, and kept reporting it when nothing came back. Bobby Galindo called out dead floor and gumbo sensors and told his lead the same day. That's the heart of stop work: you speak up until it's fixed. Rolando also went perfect on his forms again, three weeks running.",
-      "Notes a client could picture. Cindy Smith wrote the fullest atmospheric-testing notes of the day. Nathan Contreras wrote the fullest observe-and-win narratives, and he came off the stop-work confirmation list and stayed off it. Turnarounds worth naming out loud: Benjamin Boutte, Alfredo Vaquera and Stefanie Kirschke, each with a clean week after a rough one.",
-      "The one step left. We're already a crew that catches it and says it, so now make the record match. When your catch stops the job, tick 'Stop work authority utilized' and write the six-part scene. Matt's review counted zero ticks across 475 forms. That's not because we don't stop; it's because we don't count it. Let's make the box tell the truth about this crew."
-    ],
-    "scenarios": [
-      {
-        "title": "Pass It Around — The Catch You're Proudest Of",
-        "body": "Quick round, no wrong answers. Everybody's made a catch this month, or watched a partner make one: a leak spotted, a sensor that wouldn't read, a crew walking into the wrong spot, a job that shouldn't have started yet. Go around the circle. Name the catch, and say it the way it SHOULD be written: where, when, what you saw, who you told, what you did, how it ended. Then the circle gets one line on what made it a good catch. Jacob closes it out: which one of these should the breakroom hear about?"
-      }
-    ],
-    "questions": [
-      "Which catch on this list would you have made, and which one might you have walked past?",
-      "What makes it easier to speak up, and to keep speaking up the way Rolando did when nothing came back?",
-      "Who on your crew made a catch this week that didn't make any list? Name them right now.",
-      "Jacob's question: what did the field teach us yesterday that the breakroom should know?"
-    ],
-    "nonNegotiable": "Catch it, say it, write it, and when it stops the job, tick the box. This crew already does the hard part. Let the record show it."
   }
 }

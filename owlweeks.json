@@ -33,6 +33,15 @@
             "Reconnect was successful, SCBA were put on but not needed for the job"
           ],
           "recognition": "Jeremy Norris / Jerry Gonzales — A great safety meeting AND the proper use of a LMRA before continuing to wo"
+        },
+        {
+          "date": "Thu, Oct 22",
+          "day": "Thursday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;A bypass that everyone knows about is still a bypass. Document it, restore it, or escalate it. Never normalize it. The next crew won't know what you left behind.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Andrew Bailey / Gage Gonzales 1099</strong> — Verify conditions, brief all personnel, and leave the location better than you found it.</li><li style='margin:3px 0;'><strong>Luis Zarate / Tyrell Sanders</strong> — Continue to grow communication with MT and crew.</li><li style='margin:3px 0;'><strong>Ruben Rojo / Joseph Popillion 1099</strong> — Showing up in the paperwork every time — latest form: Operational Discipline, 2026-09-30. That consistency is the habit.</li><li style='margin:3px 0;'><strong>Jordan Lemmons / Cindy Smith 1099</strong> — Job was completed according to plan without any incidents or near misses.</li><li style='margin:3px 0;'><strong>Nathan Contreras / Rolando Flores 1099</strong> — Continue maintaining continuous atmospheric monitoring and communication throughout the job.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Reconnect was successful, SCBA were put on but not needed for the job"
+          ],
+          "recognition": "Andrew Bailey / Gage Gonzales 1099 — Crew preforming wellhead disconnect while utilizing PSMS"
         }
       ]
     },
