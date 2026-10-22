@@ -2815,7 +2815,7 @@
       "monthNum": 10,
       "compliancePct": 91.8,
       "overallPct": 89.8,
-      "overallYesTotal": 1181,
+      "overallYesTotal": 1184,
       "overallNoTotal": 134,
       "trailerInspYes": 191,
       "trailerReadyYes": 152,
@@ -2824,13 +2824,13 @@
       "trailerInspNo": 19,
       "trailerReadyNo": 40,
       "problemRows": 132,
-      "blanks": 77,
+      "blanks": 74,
       "employees": 68,
       "cleanEmployees": 28,
-      "dailyYesTotal": 838,
+      "dailyYesTotal": 841,
       "dailyNoTotal": 75,
       "rawRows": 1183,
-      "daysCovered": 21,
+      "daysCovered": 22,
       "sheetsInMonth": 22,
       "byDay": [
         {
@@ -2937,6 +2937,11 @@
           "date": "10/21",
           "missed": 6,
           "pct": 98
+        },
+        {
+          "date": "10/22",
+          "missed": 0,
+          "pct": 100
         }
       ],
       "watch": [
@@ -3053,20 +3058,6 @@
           "trailerReadyMissed": 1
         },
         {
-          "name": "Hayden Haugh",
-          "totalMissed": 5,
-          "dailyMissed": 5,
-          "trailerMissed": 0,
-          "dailyYes": 14,
-          "dailyNo": 5,
-          "pct": 74,
-          "overallYes": 18,
-          "overallNo": 5,
-          "overallPct": 78.3,
-          "trailerInspMissed": 0,
-          "trailerReadyMissed": 0
-        },
-        {
           "name": "Gage Gonzales",
           "totalMissed": 4,
           "dailyMissed": 4,
@@ -3079,10 +3070,24 @@
           "overallPct": 78.9,
           "trailerInspMissed": 0,
           "trailerReadyMissed": 0
+        },
+        {
+          "name": "Hayden Haugh",
+          "totalMissed": 5,
+          "dailyMissed": 5,
+          "trailerMissed": 0,
+          "dailyYes": 15,
+          "dailyNo": 5,
+          "pct": 75,
+          "overallYes": 19,
+          "overallNo": 5,
+          "overallPct": 79.2,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 0
         }
       ],
       "live": true,
-      "throughDate": "10/21"
+      "throughDate": "10/22"
     }
   ]
 }

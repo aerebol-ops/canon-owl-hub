@@ -248,8 +248,8 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 130,
-        "total": 139
+        "done": 133,
+        "total": 142
       },
       {
         "label": "Trailer Inspections",
@@ -262,7 +262,7 @@
         "total": 29
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 10/21"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/22"
   },
   "specialFocus": {
     "week": 19,

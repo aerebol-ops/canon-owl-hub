@@ -98,14 +98,14 @@
     {
       "rig": "H&P 551",
       "company": "OVINTIV",
-      "location": "FASKEN MD 9 U 103HJ",
+      "location": "UNIVERSITY",
       "status": "RUNNING",
       "active": true,
       "equipment": "REDLINE",
-      "ticket": "101208",
+      "ticket": "102512",
       "at": "",
       "onRentSince": "2024-09-01",
-      "currentStart": "2026-10-01",
+      "currentStart": "2026-10-22",
       "lastCheck": "2026-06-10",
       "daysSinceCheck": 134,
       "checkState": "overdue"
