@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "week": 19,
-  "day": 4,
+  "day": 5,
   "topicWeek": 8,
   "displayWeek": 10,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Bypassing Safety Controls · Stop Work Authority",
     "marker": ""
   },
-  "openingMessage": "Attitude is a choice. What you think you can do, whether positive or negative, confidence or scared, will most likely happen.",
-  "openingAttribution": "Pat Summitt",
-  "openingWhy": "The crew that rolls out of this meeting believing the standard is doable holds it all day. The crew that decides at 5:30 AM that today's a goat rope builds themselves exactly that. You're not predicting your day in here — you're choosing it.",
+  "openingMessage": "Today we own our day before it owns us. Every crew out there is counting on the person next to them. Let's make sure we're worth counting on.",
+  "openingAttribution": null,
+  "openingWhy": "Odessa, 2019. A pumper answered a routine pump alarm at a waterflood station without his H2S monitor on. The gas dropped him at the site — and when he didn't come home, his wife drove out looking for him. It got her too. The people counting on your discipline today aren't all on location. Some of them are at home.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "A bypass that everyone knows about is still a bypass. Document it, restore it, or escalate it. Never normalize it. The next crew won't know what you left behind.",
+  "leadershipThought": "Before you leave today: What is one thing I can improve before I drive away? Not because someone is watching. Because excellence is a habit. And habits become character.",
   "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-10-21",
@@ -196,7 +196,7 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Stop Work Authority Exercised — Equipment Not Secured</strong> <span style='font-size:12px;color:#666;'>(Breaking Containment)</span><br><span style='font-size:13px;'>Before a wellhead reconnect, physically verify that all nearby equipment — including chemical totes — is secured and in position; don't assume the previous crew left the site ready.</span><br><br><strong>Stop Work Authority Exercised — Unsafe Conditions</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Stop Work Authority is not a last resort — exercising it early when you identify an unsafe condition, and communicating it to the PIC for correction, is exactly how it is meant to be used.</span><br><br><strong>They had to do a reconnect</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Brianda Sandoval / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>At 10/17/2026 11:35 AM Unnamed Road Stanton, TX 79782</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Atmospheric Monitoring — Dawson Drake / Robbie Henigan 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
+  "exxonMoments": "<strong>Prior to removal, dual-barrier isolation (plugs, slickline bridge plugs, or</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Hayden Haugh 1099 / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Upwind Positioning & Breathing Air Staging: Re-evaluate breathing air cascade line routing and muster points based on real-time wind direction changes before breaking the seal.</span><br><br><strong>Reconnect of wellhead parts</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>We observe a rod hanger installed and valves replaced on pumpjack</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crews went over their job scope and what hazards and mistakes could happen on the job , crews went over nearest hospitals and access points with no help , crews identified muster points and verified all strap inspection dates and equipment.</span><br><br><strong>Same crew and everything pretty essay</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>We observed a rod hanger install and valve replacement done on a pumpjack</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews verified LOTO before beginning work , crews identified nearest hospitals and access roads . Crews pointed out LSRA and muster points without help .</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -241,8 +241,8 @@
       "psms": "Operational Discipline"
     }
   ],
-  "todaysChallenge": "The job is won in the first thirty minutes: the brief, the walk-down, the atmosphere test, the muster point. Prepare like it matters, because it does.",
-  "todaysChallengeSubtext": "“The will to succeed is important, but what's more important is the will to prepare.” — Bobby Knight",
+  "todaysChallenge": "The best hand on location can't watch every line. Today, make one deliberate hand-off: tell the next person exactly what you checked and what you're not sure of.",
+  "todaysChallengeSubtext": "“Talent wins games, but teamwork and intelligence win championships.” — Michael Jordan",
   "compliance": {
     "weekOf": "Week of October 19, 2026",
     "metrics": [
