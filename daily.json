@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-23",
-  "week": 19,
-  "day": 5,
-  "topicWeek": 8,
-  "displayWeek": 10,
+  "date": "2026-10-26",
+  "week": 20,
+  "day": 1,
+  "topicWeek": 9,
+  "displayWeek": 11,
   "cycle": 2,
   "rotation": {
-    "week": 10,
-    "host": "JACOB",
-    "topic": "Bypassing Safety Controls · Stop Work Authority",
-    "marker": ""
+    "week": 11,
+    "host": "CALEB",
+    "topic": "Excavation",
+    "marker": "Month-end: October card finalizes"
   },
-  "openingMessage": "Today we own our day before it owns us. Every crew out there is counting on the person next to them. Let's make sure we're worth counting on.",
+  "openingMessage": "Yesterday happened. Today is what we do about it. We're not here to talk about safety — we're here to execute it. Ten minutes, then let's go to work.",
   "openingAttribution": null,
-  "openingWhy": "Odessa, 2019. A pumper answered a routine pump alarm at a waterflood station without his H2S monitor on. The gas dropped him at the site — and when he didn't come home, his wife drove out looking for him. It got her too. The people counting on your discipline today aren't all on location. Some of them are at home.",
+  "openingWhy": "Every hand here has seen a job where the safety meeting was perfect and the job wasn't. The meeting doesn't bleed the line, verify the zero, or clip the monitor to your collar — you do. These ten minutes only count if they ride out the gate with you.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,35 +168,13 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Before you leave today: What is one thing I can improve before I drive away? Not because someone is watching. Because excellence is a habit. And habits become character.",
+  "leadershipThought": "Precision is not perfectionism. It's doing the right thing in the right order before the ground opens up. The locate flag tells you where to look — your eyes and hands tell you what's actually there.",
   "yesterdaysJobs": null,
-  "formReview": {
-    "date": "2026-10-22",
-    "label": "Thursday 10/22",
-    "verdict": "",
-    "concerns": [
-      {
-        "title": "1099 Alfredo Vaquera — Ovintiv, H&P 616 Terlingua — H2S daily, form time 10:03 AM, submitted 10:50 AM — no job ID on this form type. He recorded that he is not in Canon S",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
-      },
-      {
-        "title": "1099 Alfredo Vaquera — Ovintiv, H&P 616 Terlingua — same form, 10:50 AM. He also answered No to having sufficient mask bags.",
-        "quote": "No Do you have sufficient mask bags?"
-      },
-      {
-        "title": "1099 Hayden Haugh — BPX, State Blake 57-T3-46 W103H — H2S daily, form time 06:47 AM, submitted 07:08 AM. He photographed the inside of the trailer and recorded breathing ",
-        "quote": "SCBA and workpack on the floor is out of commission"
-      },
-      {
-        "title": "Caleb Smith — SM Energy, Harris Cook CTB, Garden City — Trailer Inspection Forms for trailer 145 at 05:27 AM and again at 02:23 PM. Both forms record that the trailer has",
-        "quote": "There is no first aid kit."
-      }
-    ]
-  },
+  "formReview": null,
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Prior to removal, dual-barrier isolation (plugs, slickline bridge plugs, or</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Hayden Haugh 1099 / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Upwind Positioning & Breathing Air Staging: Re-evaluate breathing air cascade line routing and muster points based on real-time wind direction changes before breaking the seal.</span><br><br><strong>Reconnect of wellhead parts</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>We observe a rod hanger installed and valves replaced on pumpjack</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crews went over their job scope and what hazards and mistakes could happen on the job , crews went over nearest hospitals and access points with no help , crews identified muster points and verified all strap inspection dates and equipment.</span><br><br><strong>Same crew and everything pretty essay</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>We observed a rod hanger install and valve replacement done on a pumpjack</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews verified LOTO before beginning work , crews identified nearest hospitals and access roads . Crews pointed out LSRA and muster points without help .</span>",
+  "exxonMoments": "<strong>A standard disconnect that went smoothly and safely according to the SOW wi</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>All crews and MT communicated well throughout the process and left safely together to the next location.</span><br><br><strong>Pretty essay and good communication with all the personal in location</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Same thing make sure everyone leaves the same way they got here.</span><br><br><strong>Job went good, tested air quality prior to first break</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Humberto Salazar]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew must verify correct sizes of nipples needed for the job.</span><br><br><strong>Atmospheric Monitoring — Ruben Rojo / Baldemar Bracomontes 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Had pre task briefing discussion potential hazards associated with the job</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew was made aware of all lSRAs and how to utilize their LMRAs.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -235,14 +213,14 @@
     },
     {
       "type": "flag",
-      "week": 19,
-      "headline": "Reconnect was successful, SCBA were put on but not needed for the job",
-      "detail": "No gas or leakage of hazardous materials.",
-      "psms": "Operational Discipline"
+      "week": 20,
+      "headline": "Clean board — no open watch items this week",
+      "detail": "Nothing carried in from last week. See a hazard? Flag it on your OWL form and it lands here the same evening.",
+      "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "The best hand on location can't watch every line. Today, make one deliberate hand-off: tell the next person exactly what you checked and what you're not sure of.",
-  "todaysChallengeSubtext": "“Talent wins games, but teamwork and intelligence win championships.” — Michael Jordan",
+  "todaysChallenge": "The standard gets heavy on day four of a long week. Hold it anyway — today's the day it's most tempting to skip a step, which makes today the day it counts most.",
+  "todaysChallengeSubtext": "“Don't give up. Don't ever give up.” — Jim Valvano",
   "compliance": {
     "weekOf": "Week of October 19, 2026",
     "metrics": [
@@ -263,33 +241,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Fri 10/23"
-  },
-  "specialFocus": {
-    "week": 19,
-    "until": "2026-10-25",
-    "title": "Finish Strong — The Week Stop Work Got Written Down",
-    "why": "Last day of the work week, so we finish it the way we started it: with excellence. Jacob's week on Bypassing Safety Controls and Stop Work Authority opened Monday with a hard number. Last week we made at least 13 real stops and wrote almost none of them down well enough for anyone to picture them. So Monday we set the standard: make the call, then paint the scene. Tuesday we ran it back and helped each other out the door. Wednesday we heard the names behind the catches. And this week the field answered. The notes that came in look different. They have times, readings and the moves the crew made, written down while the scene was fresh. That's the standard showing up on location, not just on the board. This morning we name it, lock it in, and go finish the week clean.",
-    "standardLabel": "What Excellence Looked Like This Week",
-    "standard": [
-      "The note we were looking for. Tuesday at Brook N-13D 100H, Bryan Medlin wrote: 'While disconnecting flow line at 9:38 we encountered LEL's at 4 ppm. Stopped the job, shut all machines off till the air cleared, at 9:43 went to check air quality and found nothing leaking or contaminants in the air. Proceeded with disconnecting flow line.' The time, the reading, the stop, what he did, the recheck and how it ended are all there. Anyone could picture that location from his words. The office review wants to use it as the example for the whole crew.",
-      "A safety control held, not bypassed. Wednesday at Pintail O 31-30 2815H, the crew was about to grab the impact wrench. Bobby Galindo stopped them, because LEL was reading around 17 in that spot, and had them finish with hand tools and a brass hammer. That is this week's topic in one move. When the condition says the normal way isn't safe, you don't push through it. You change the method and keep the control in place.",
-      "Paperwork that tells the truth. Luis Zarate's XBC Giddings air job carried the most complete OWL close-out of Wednesday. Raymundo Solis filed a filled-in Learn section, and Baldemar Bracamontes a full observe list with a real narrative. Joseph Popillion paused and closed his flowback job correctly over four days, with the suspended time recorded right. Nathan Contreras, Jerry Gonzales, Jordan Lemmons and Bryan Medlin turned in complete trailer paperwork. Larry Taylor and Rolando Flores filed clean dailies.",
-      "Help each other, all week long. Remember Tuesday's twist: quick but never hurried, and nobody leaves the yard alone. It applies at the end of the week too. Before the long weekend drive, check that your partner's paperwork is closed out, his trailer is squared away, and you both know where you're headed Monday.",
-      "One box left to win. Every stop this week still got logged as 'discussed', never 'utilized'. The stops are real and the notes are getting good; the box just hasn't caught up. Today's challenge: if you stop a job, tick 'Stop work authority utilized' and write the scene. Be the first name on the board for it.",
-      "Finish clean before you go home: forms closed, readings written with numbers, who-was-told never blank, the trailer ready for the next crew. The week isn't over at the last job. It's over when the paperwork is done and everybody's home safe."
-    ],
-    "scenarios": [
-      {
-        "title": "Read It Out Loud — Then Match It",
-        "body": "Jacob, read Bryan's 9:38 note to the circle, slow. Then ask: what did it tell you? You know where he was, what time it was, what the reading was, what he did, how long he waited and how it ended. Nobody has to call him to understand that job. Now go around: everyone picks the job they're most likely to stop today and says the note they'd write. Match Bryan's. Time, reading, the stop, what you did, the recheck, how it ended. If you can say it out loud this morning, you'll write it right this afternoon."
-      }
-    ],
-    "questions": [
-      "What's one thing you did differently this week because of the Stop Work talks?",
-      "Bobby changed the tool instead of skipping the control. Where else on our jobs is there a 'brass hammer' answer, a safer way to finish without bypassing anything?",
-      "What's the one item you'll double-check before you leave location today so the week ends clean?",
-      "Jacob's closing question for the week: what did the field teach us this week that the breakroom should know?"
-    ],
-    "nonNegotiable": "Finish the way we started: make the call, paint the scene, tick the box, and close every form before the truck heads home. Excellence isn't one big moment. It's this week's notes, done right, every job."
   }
 }

@@ -1,6 +1,24 @@
 {
   "weeks": [
     {
+      "week": 20,
+      "owl": "Auto-logged",
+      "theme": "Precision",
+      "psms": "Excavation",
+      "dateRange": "Oct 26&ndash;Oct 30, 2026",
+      "meetings": [
+        {
+          "date": "Mon, Oct 26",
+          "day": "Week 20 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Precision is not perfectionism. It's doing the right thing in the right order before the ground opens up. The locate flag tells you where to look — your eyes and hands tell you what's actually there.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Andrew Bailey / Gage Gonzales 1099</strong> — Verify conditions, brief all personnel, and leave the location better than you found it.</li><li style='margin:3px 0;'><strong>Luis Zarate / Tyrell Sanders</strong> — Continue to grow communication with MT and crew.</li><li style='margin:3px 0;'><strong>Ruben Rojo / Joseph Popillion 1099</strong> — Showing up in the paperwork every time — latest form: Operational Discipline, 2026-09-30. That consistency is the habit.</li><li style='margin:3px 0;'><strong>Jordan Lemmons / Cindy Smith 1099</strong> — Job was completed according to plan without any incidents or near misses.</li><li style='margin:3px 0;'><strong>Nathan Contreras / Rolando Flores 1099</strong> — Continue maintaining continuous atmospheric monitoring and communication throughout the job.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Clean board — no open watch items this week"
+          ],
+          "recognition": "Andrew Bailey / Gage Gonzales 1099 — Crew preforming wellhead disconnect while utilizing PSMS"
+        }
+      ]
+    },
+    {
       "week": 19,
       "owl": "Auto-logged",
       "theme": "Building Culture",
