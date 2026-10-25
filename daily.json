@@ -263,5 +263,37 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Fri 10/23"
+  },
+  "specialFocus": {
+    "week": 20,
+    "until": "2026-10-26",
+    "title": "Eyes Up on 349 — The Turn, the Trailer, and the Forms That Prove It",
+    "why": "New week, Caleb hosting. Before we dig into Excavation, we start where every job starts: on the road and at the trailer. Last week a Canon truck pulling trailer 600, with Pablo and Baldi aboard, was involved in a traffic incident turning into location off Highway 349. This morning they walk us through it. This isn't about blame. It's so every crew that turns off a highway this week has that picture in their head first. We'll tell it the way we learned last week: recreate the scene in words. Then we tie it to the paperwork, because the trailer inspection and readiness forms are the proof that the truck and trailer were right before they ever hit the highway. If something does happen out there, those forms are the first thing anyone asks for, and ours should already say we did it right.",
+    "standardLabel": "The Turn, the Trailer, and the Paper",
+    "standard": [
+      "Turning off a highway with a trailer is the most exposed minute of the drive. On a road like 349, with fast traffic, heavy trucks and lease entrances that come up quick, plan the turn a mile out. Know the entrance before you get there (the GPS pin and the location name on the board), signal early, and bleed off speed gradually so the traffic behind you sees it coming.",
+      "Mirrors before, during and after the turn. Turning left across traffic, watch for the vehicle trying to pass you on the left while you slow down, and check that mirror one more time right before you commit. Turning right, don't swing wide into the next lane; the trailer tracks inside, so watch the shoulder, the ditch and the cattle guard.",
+      "The second man works too. The passenger calls the traffic: 'clear left', 'car coming up fast', 'entrance in a quarter mile'. Phones down and radio off for the turn. Two sets of eyes is why we ride two.",
+      "If you miss the entrance, you miss it. Never brake hard, stop in the lane or back up on the highway to make it. Go to the next safe turnaround and come back. Losing five minutes beats losing the trailer, or worse.",
+      "The trailer inspection happens BEFORE you leave the shop, not on location. Turn signals and brake lights working (they're how the traffic behind you knows you're turning), hitch pinned, chains crossed, breakaway set, tires gauged. Kyle's Oct 8–14 audit had trailer readiness at XTO at 69.8%, with misses spread across about a dozen techs. That's a crew habit to fix, not one person. Last week finished at 53 of 56 trailer inspections and 39 of 45 readiness forms: close, not there yet. Six readiness forms is six trailer moves nobody can prove were ready.",
+      "The forms prove it. Inspection photos taken that day, on that trailer (a first-aid kit photo from August proves nothing about this morning). A readiness form on every trailer move. And the 'Is anything wrong or missing, and who was notified?' field never left blank. If a trailer is ever in an incident, those forms are what management, the customer and the insurance company will ask for first."
+    ],
+    "scenarios": [
+      {
+        "title": "The Turn on 349 — Tell It Like a Witness Statement",
+        "body": "Pablo and Baldi, walk us through it using last week's six parts. WHERE: the exact spot on 349 and the location entrance you were turning into. WHEN: the time, the light and the weather. WHAT YOU SAW: the traffic, speeds, signals and mirrors, and what the other vehicle did. WHO was told and when: police, your lead, Canon management. WHAT YOU DID right after: the scene made safe, the trailer checked, photos taken, the report started. HOW IT ENDED: the damage, the trailer's status and how the day finished. Then the circle gets one question: what is the one thing that could have changed how that turn went? Write it down. The next crew turning into that entrance needs to hear it before they get there."
+      },
+      {
+        "title": "If It Ever Happens to You — The First Ten Minutes",
+        "body": "Nobody plans to be in a wreck, so plan it now. Get the truck and trailer out of the travel lane if you safely can, flashers on, and triangles or cones out if there's room. Check your partner and the other driver. Call 911 if anyone's hurt or the road is blocked, then call your lead right away. Don't argue fault on the shoulder. Take photos: positions, damage, the other plate, the entrance, skid marks, the trailer lights. Then write the six-part note that same day while it's fresh. Go around the circle: who's your first call, and where are the triangles in your truck right now?"
+      }
+    ],
+    "questions": [
+      "Which lease entrances on your routes are the worst turns, with high speed, a blind crest or no turn lane? Name them so the whole crew knows.",
+      "Passengers: what do you call out during a highway turn? Say it out loud the way you'd say it in the truck.",
+      "On your trailer inspection, which check matters most if you get clipped or rear-ended turning in?",
+      "Caleb's question to open the week: what did the field teach us last week that the breakroom should know?"
+    ],
+    "nonNegotiable": "Plan every highway turn, own the mirrors, and run two sets of eyes on every entrance. If you miss it, go around. The trailer gets inspected, photographed and documented before it leaves the shop, every move. The forms are our proof that we were right before anything happened."
   }
 }
