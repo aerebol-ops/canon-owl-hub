@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23",
+ "generated": "2026-10-25",
  "months": [
   {
    "month": "2026-09",
@@ -8,28 +8,28 @@
    "diligence": {
     "winner": {
      "who": "Pablo Soto",
-     "jobs": 10,
-     "complete": 10,
+     "jobs": 9,
+     "complete": 9,
      "pct": 100
     },
     "board": [
      {
       "who": "Pablo Soto",
-      "jobs": 10,
-      "complete": 10,
+      "jobs": 9,
+      "complete": 9,
       "pct": 100
      },
      {
       "who": "Caleb Smith",
-      "jobs": 6,
-      "complete": 6,
+      "jobs": 5,
+      "complete": 5,
       "pct": 100
      },
      {
-      "who": "Larry Jaramillo",
-      "jobs": 6,
-      "complete": 6,
-      "pct": 100
+      "who": "Jordan Lemmons",
+      "jobs": 14,
+      "complete": 13,
+      "pct": 93
      }
     ]
    },
