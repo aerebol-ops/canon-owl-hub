@@ -3732,12 +3732,17 @@ async function renderTemplate() {
 // to the device share sheet (text message / Breakroom app) on mobile, or
 // downloads the .pdf on desktop. Falls back to the old print window only if
 // the PDF engine failed to load (e.g. no internet).
-function _printFallback(html) {
+// Shown on the PDF prompts so a phone can confirm it is running the latest code.
+const PDF_BUILD = '10/26b';
+
+// Opens the print-formatted page in a new tab. Must run inside a tap: iPhones
+// block any pop-up opened after an await.
+function _openPrintable(html) {
   const fbBlob = new Blob([html], { type: 'text/html' });
   const fbUrl  = URL.createObjectURL(fbBlob);
   const fbWin  = window.open(fbUrl, '_blank');
   if (fbWin) {
-    fbWin.onload = () => { URL.revokeObjectURL(fbUrl); fbWin.focus(); fbWin.print(); };
+    fbWin.onload = () => { URL.revokeObjectURL(fbUrl); fbWin.focus(); try { fbWin.print(); } catch (e) {} };
   } else {
     URL.revokeObjectURL(fbUrl);
     alert('Pop-ups are blocked. Allow pop-ups for this site, then try again.');
@@ -3752,44 +3757,93 @@ function _pdfDownload(blob, filename) {
   setTimeout(() => URL.revokeObjectURL(url), 10000);
 }
 
-function _pdfReadyPrompt(file, blob, filename) {
-  const old = document.getElementById('pdf-ready-prompt');
-  if (old) old.remove();
+function _pdfCard(id, inner) {
+  ['pdf-building', 'pdf-ready-prompt'].forEach(x => { const o = document.getElementById(x); if (o) o.remove(); });
   const ov = document.createElement('div');
-  ov.id = 'pdf-ready-prompt';
+  ov.id = id;
   ov.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.55);z-index:99999;display:flex;align-items:center;justify-content:center;padding:16px;';
   ov.innerHTML = `
     <div style="background:#fff;border-radius:14px;max-width:360px;width:100%;padding:22px 20px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,0.3);font-family:inherit;">
-      <div style="font-size:34px;line-height:1;">&#128196;</div>
-      <div style="font-size:18px;font-weight:800;color:#1F3864;margin:8px 0 4px;">Your PDF is ready</div>
-      <div style="font-size:12px;color:#666;margin-bottom:16px;word-break:break-word;">${filename}</div>
-      <button data-act="share" style="display:block;width:100%;background:#1F3864;color:#fff;border:2px solid #BF8F00;border-radius:10px;padding:14px;font-size:16px;font-weight:800;cursor:pointer;">&#128228; Share PDF</button>
-      <button data-act="download" style="display:block;width:100%;background:#fff;color:#1F3864;border:1px solid #c8cfdc;border-radius:10px;padding:11px;font-size:14px;font-weight:700;cursor:pointer;margin-top:10px;">Download instead</button>
-      <button data-act="close" style="background:none;border:0;color:#888;font-size:13px;margin-top:12px;cursor:pointer;">Close</button>
+      ${inner}
+      <div style="font-size:10px;color:#bbb;margin-top:10px;">PDF build ${PDF_BUILD}</div>
     </div>`;
-  const close = () => ov.remove();
+  document.body.appendChild(ov);
+  return ov;
+}
+
+const _pdfBtn = 'display:block;width:100%;border-radius:10px;cursor:pointer;';
+const _pdfBtnMain = _pdfBtn + 'background:#1F3864;color:#fff;border:2px solid #BF8F00;padding:14px;font-size:16px;font-weight:800;';
+const _pdfBtnAlt  = _pdfBtn + 'background:#fff;color:#1F3864;border:1px solid #c8cfdc;padding:11px;font-size:14px;font-weight:700;margin-top:10px;';
+const _pdfBtnClose = 'background:none;border:0;color:#888;font-size:13px;margin-top:12px;cursor:pointer;';
+
+function _pdfBuilding() {
+  _pdfCard('pdf-building', `
+    <div style="font-size:34px;line-height:1;">&#9203;</div>
+    <div style="font-size:18px;font-weight:800;color:#1F3864;margin:8px 0 4px;">Building your PDF&hellip;</div>
+    <div style="font-size:13px;color:#666;">This takes a few seconds on a phone. A Share button will appear here when it's ready.</div>`);
+}
+
+function _pdfReadyPrompt(file, blob, filename, html) {
+  const ov = _pdfCard('pdf-ready-prompt', `
+    <div style="font-size:34px;line-height:1;">&#128196;</div>
+    <div style="font-size:18px;font-weight:800;color:#1F3864;margin:8px 0 4px;">Your PDF is ready</div>
+    <div style="font-size:12px;color:#666;margin-bottom:16px;word-break:break-word;">${filename}</div>
+    <button data-act="share" style="${_pdfBtnMain}">&#128228; Share PDF</button>
+    <button data-act="download" style="${_pdfBtnAlt}">Download instead</button>
+    <button data-act="print" style="${_pdfBtnAlt}">Open printable version</button>
+    <div data-msg style="font-size:12px;color:#b00020;margin-top:10px;display:none;"></div>
+    <button data-act="close" style="${_pdfBtnClose}">Close</button>`);
+  const msg = ov.querySelector('[data-msg]');
   ov.addEventListener('click', async (ev) => {
-    const act = ev.target.closest('button') && ev.target.closest('button').dataset.act;
-    if (ev.target === ov || act === 'close') { close(); return; }
-    if (act === 'download') { _pdfDownload(blob, filename); close(); return; }
+    const b = ev.target.closest('button');
+    const act = b && b.dataset.act;
+    if (ev.target === ov || act === 'close') { ov.remove(); return; }
+    if (act === 'download') { _pdfDownload(blob, filename); ov.remove(); return; }
+    if (act === 'print') { _openPrintable(html); ov.remove(); return; }
     if (act === 'share') {
+      if (!navigator.share) { msg.textContent = 'Sharing is not available in this browser. Use Download or the printable version.'; msg.style.display = 'block'; return; }
       try {
         await navigator.share({ files: [file], title: filename.replace('.pdf', '') });
-        close();
+        ov.remove();
       } catch (e) {
-        if (e && e.name === 'AbortError') { close(); return; }
-        _pdfDownload(blob, filename); close();
+        if (e && e.name === 'AbortError') { ov.remove(); return; }
+        // Stay open and say why, instead of a silent download that iPhones ignore.
+        msg.textContent = "Share didn't open (" + ((e && (e.name + ': ' + e.message)) || e) + '). Try "Open printable version", then Share from there.';
+        msg.style.display = 'block';
       }
     }
   });
-  document.body.appendChild(ov);
+}
+
+function _pdfFailedPrompt(html, why) {
+  const ov = _pdfCard('pdf-ready-prompt', `
+    <div style="font-size:34px;line-height:1;">&#9888;&#65039;</div>
+    <div style="font-size:18px;font-weight:800;color:#1F3864;margin:8px 0 4px;">Couldn't build the PDF here</div>
+    <div style="font-size:12px;color:#666;margin-bottom:16px;word-break:break-word;">${String(why || 'unknown error').replace(/</g, '&lt;')}</div>
+    <button data-act="print" style="${_pdfBtnMain}">Open printable version</button>
+    <div style="font-size:12px;color:#666;margin-top:8px;">Then tap Share &rarr; Print, or Save to Files, to send it as a PDF.</div>
+    <button data-act="close" style="${_pdfBtnClose}">Close</button>`);
+  ov.addEventListener('click', (ev) => {
+    const b = ev.target.closest('button');
+    const act = b && b.dataset.act;
+    if (ev.target === ov || act === 'close') { ov.remove(); return; }
+    if (act === 'print') { _openPrintable(html); ov.remove(); }
+  });
+}
+
+function _withTimeout(p, ms, label) {
+  return Promise.race([p, new Promise((_, rej) => setTimeout(() => rej(new Error(label + ' took too long')), ms))]);
 }
 
 let _pdfBusy = false;
 async function sharePdfFromHtml(html) {
-  if (typeof html2canvas === 'undefined' || typeof window.jspdf === 'undefined') { _printFallback(html); return; }
-  if (_pdfBusy) return;  // ignore double-taps while a PDF is building
+  if (typeof html2canvas === 'undefined' || typeof window.jspdf === 'undefined') {
+    _pdfFailedPrompt(html, 'The PDF engine did not load (check the connection).');
+    return;
+  }
+  if (_pdfBusy) { _pdfBuilding(); return; }  // a second tap just re-shows the progress card
   _pdfBusy = true;
+  _pdfBuilding();
   // Filename from the document title, e.g. "Canon_Safety-Morning_Meeting.pdf"
   const titleM = html.match(/<title>([^<]*)<\/title>/);
   const filename = ((titleM ? titleM[1] : 'Canon_OWL')
@@ -3804,6 +3858,7 @@ async function sharePdfFromHtml(html) {
   const iframe = document.createElement('iframe');
   iframe.style.cssText = 'position:fixed;top:0;left:0;width:800px;height:1100px;border:0;opacity:0;pointer-events:none;z-index:-1;';
   document.body.appendChild(iframe);
+  let handedOff = false;
   try {
     const loaded = new Promise(res => { iframe.onload = res; setTimeout(res, 3000); });
     iframe.srcdoc = html;
@@ -3821,13 +3876,17 @@ async function sharePdfFromHtml(html) {
     const fullH = Math.max(idoc.body.scrollHeight, idoc.documentElement.scrollHeight);
     iframe.style.height = (fullH + 40) + 'px';
     await new Promise(r => setTimeout(r, 120));
-    const canvas = await html2canvas(idoc.body, {
-      scale: 2, useCORS: true, backgroundColor: '#ffffff',
+    // Keep the bitmap under ~10 megapixels: iPhone Safari silently fails on
+    // very large canvases, and long boards (photos, full focus) get there at 2x.
+    const scale = Math.max(1, Math.min(2, Math.sqrt(10e6 / (800 * fullH))));
+    const canvas = await _withTimeout(html2canvas(idoc.body, {
+      scale, useCORS: true, backgroundColor: '#ffffff',
       windowWidth: 800, width: 800, height: fullH
-    });
+    }), 30000, 'Capturing the page');
     // Blank-page guard: sample pixels — if the capture came out white, don't
-    // ship an empty PDF; drop to the print window instead.
+    // ship an empty PDF.
     const sctx = canvas.getContext('2d');
+    if (!sctx) throw new Error('This device could not create the page image.');
     let nonWhite = 0, samples = 0;
     for (let y = 0; y < canvas.height; y += 40) {
       const row = sctx.getImageData(0, y, canvas.width, 1).data;
@@ -3836,7 +3895,7 @@ async function sharePdfFromHtml(html) {
         if (row[x] < 245 || row[x+1] < 245 || row[x+2] < 245) nonWhite++;
       }
     }
-    if (!samples || nonWhite / samples < 0.002) throw new Error('blank capture');
+    if (!samples || nonWhite / samples < 0.002) throw new Error('The page image came out blank.');
     // Paginate the tall canvas into US-letter pages
     const { jsPDF } = window.jspdf;
     const pdf = new jsPDF({ unit: 'mm', format: 'letter', orientation: 'portrait' });
@@ -3856,33 +3915,35 @@ async function sharePdfFromHtml(html) {
       y += sliceH; pageNum++;
     }
     const blob = pdf.output('blob');
-    window.__lastPdfDebug = { pages: pageNum, canvasH: canvas.height, inkRatio: +(nonWhite / samples).toFixed(4) };
+    window.__lastPdfDebug = { pages: pageNum, canvasH: canvas.height, scale: +scale.toFixed(2), inkRatio: +(nonWhite / samples).toFixed(4) };
     const file = new File([blob], filename, { type: 'application/pdf' });
     // Mobile: native share sheet → text message, Breakroom, email, etc.
     if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      handedOff = true;
       try {
         await navigator.share({ files: [file], title: filename.replace('.pdf', '') });
+        const b = document.getElementById('pdf-building'); if (b) b.remove();
         return;
       } catch (e) {
-        if (e && e.name === 'AbortError') return;  // user closed the share sheet
+        if (e && e.name === 'AbortError') { const b = document.getElementById('pdf-building'); if (b) b.remove(); return; }
         // Phones only open the share sheet within a few seconds of a tap, and a
-        // long board can take longer than that to build — so the share is
-        // refused (NotAllowedError). Ask for one more tap, which always works.
-        _pdfReadyPrompt(file, blob, filename);
+        // long board takes longer than that to build — so the share is refused.
+        // One more tap on the ready card always works.
+        _pdfReadyPrompt(file, blob, filename, html);
         return;
       }
     }
     // Desktop (or share unavailable): download the .pdf file
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url; a.download = filename;
-    document.body.appendChild(a); a.click(); a.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 10000);
+    handedOff = true;
+    const b = document.getElementById('pdf-building'); if (b) b.remove();
+    _pdfDownload(blob, filename);
   } catch (e) {
-    _printFallback(html);
+    handedOff = true;
+    _pdfFailedPrompt(html, (e && e.message) || String(e));
   } finally {
     iframe.remove();
     _pdfBusy = false;
+    if (!handedOff) { const b = document.getElementById('pdf-building'); if (b) b.remove(); }
   }
 }
 
