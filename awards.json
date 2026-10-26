@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25",
+ "generated": "2026-10-26",
  "months": [
   {
    "month": "2026-09",
@@ -27,9 +27,9 @@
      },
      {
       "who": "Jordan Lemmons",
-      "jobs": 14,
-      "complete": 13,
-      "pct": 93
+      "jobs": 13,
+      "complete": 12,
+      "pct": 92
      }
     ]
    },

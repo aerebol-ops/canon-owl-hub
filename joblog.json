@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25",
+ "generated": "2026-10-26",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
@@ -10,16 +10,6 @@
   "weekCrews": 0
  },
  "days": [
-  {
-   "date": "2026-09-20",
-   "forms": 5,
-   "jobs": 3,
-   "flags": 0,
-   "AGT": 3,
-   "Maintenance": 0,
-   "Well Testing": 0,
-   "Other": 0
-  },
   {
    "date": "2026-09-21",
    "forms": 24,
@@ -2702,39 +2692,6 @@
    "cm": "Jeff Jones",
    "note": "Reconnecting flow line to the well head",
    "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Pratt Vaughn 21C#103H",
-   "crew": "",
-   "cm": "",
-   "note": "",
-   "psms": "",
-   "flag": false
-  },
-  {
-   "date": "2026-09-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Jordan N 23-24 2814H",
-   "crew": "Michael Jobe / Rolando Flores 1099",
-   "cm": "Jeff Jones",
-   "note": "MT went over the meeting really well covered everything that needed to be",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Dusek 45-4 2807H",
-   "crew": "Michael Jobe / Rolando Flores 1099",
-   "cm": "Robert Murphree",
-   "note": "Flow lines were disconnected in a controlled manner during the initial firs",
-   "psms": "Atmospheric Monitoring",
    "flag": false
   }
  ]

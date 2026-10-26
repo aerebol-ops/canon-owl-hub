@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25",
+ "generated": "2026-10-26",
  "scope": "Dropbox '- OWL' exports \u2014 OWL, JSA, 4-gas, location sign, ticket auditable; benzene/atmospheric/permits/tubes/names need the full packet feed",
  "jobs": [
   {
@@ -5044,76 +5044,6 @@
    "late_min": -122,
    "missing": [],
    "complete": true
-  },
-  {
-   "date": "2026-09-20",
-   "well": "Pratt Vaughn 21C#103H",
-   "category": "AGT",
-   "forms": 2,
-   "checks": {
-    "owl": true,
-    "jsa": true,
-    "gas4": true,
-    "sign": true,
-    "ticket": true
-   },
-   "board": true,
-   "ticket": "101271",
-   "bnz": "6",
-   "at": "606",
-   "techs": "JORDAN LEMMONS / Justin Fontenot 1099",
-   "sched": "09/20/2026 07:00:00",
-   "late_min": null,
-   "missing": [],
-   "complete": true
-  },
-  {
-   "date": "2026-09-20",
-   "well": "Jordan N 23-24 2814H",
-   "category": "AGT",
-   "forms": 2,
-   "checks": {
-    "owl": true,
-    "jsa": false,
-    "gas4": true,
-    "sign": true,
-    "ticket": true
-   },
-   "board": true,
-   "ticket": "101276",
-   "bnz": "",
-   "at": "",
-   "techs": "MICHAEL JOBE / Rolando Flores 1099",
-   "sched": "9/20/2026 12:00 PM",
-   "late_min": -228,
-   "missing": [
-    "Exxon JSA uploaded"
-   ],
-   "complete": false
-  },
-  {
-   "date": "2026-09-20",
-   "well": "Dusek 45-4 2807H",
-   "category": "AGT",
-   "forms": 1,
-   "checks": {
-    "owl": true,
-    "jsa": false,
-    "gas4": true,
-    "sign": true,
-    "ticket": true
-   },
-   "board": true,
-   "ticket": "101123",
-   "bnz": "",
-   "at": "",
-   "techs": "MICHAEL JOBE / Rolando Flores 1099",
-   "sched": "9/20/2026 12:00 PM",
-   "late_min": -45,
-   "missing": [
-    "Exxon JSA uploaded"
-   ],
-   "complete": false
   }
  ]
 }
