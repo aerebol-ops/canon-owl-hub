@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "week": 20,
-  "day": 1,
+  "day": 2,
   "topicWeek": 9,
   "displayWeek": 11,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Excavation",
     "marker": "Month-end: October card finalizes"
   },
-  "openingMessage": "Yesterday happened. Today is what we do about it. We're not here to talk about safety — we're here to execute it. Ten minutes, then let's go to work.",
+  "openingMessage": "Every crew in the field comes home today. That's not a goal — that's the standard. Here's how we hold it.",
   "openingAttribution": null,
-  "openingWhy": "Every hand here has seen a job where the safety meeting was perfect and the job wasn't. The meeting doesn't bleed the line, verify the zero, or clip the monitor to your collar — you do. These ten minutes only count if they ride out the gate with you.",
+  "openingWhy": "A man goes down at a thief hatch and every good hand's first instinct is to run to him. That instinct — no air, no test — is how one man down becomes three. The standard exists so that nobody's best instinct becomes the worst decision of his life.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Precision is not perfectionism. It's doing the right thing in the right order before the ground opens up. The locate flag tells you where to look — your eyes and hands tell you what's actually there.",
+  "leadershipThought": "Slow down at the dig. Authorization before excavation is not bureaucracy. It's the step that has protected every crew that didn't lose someone.",
   "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-10-25",
@@ -188,7 +188,7 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>A standard disconnect that went smoothly and safely according to the SOW wi</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>All crews and MT communicated well throughout the process and left safely together to the next location.</span><br><br><strong>Pretty essay and good communication with all the personal in location</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Same thing make sure everyone leaves the same way they got here.</span><br><br><strong>Job went good, tested air quality prior to first break</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / Humberto Salazar]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew must verify correct sizes of nipples needed for the job.</span><br><br><strong>Atmospheric Monitoring — Ruben Rojo / Baldemar Bracomontes 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Had pre task briefing discussion potential hazards associated with the job</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew was made aware of all lSRAs and how to utilize their LMRAs.</span>",
+  "exxonMoments": "<strong>Stop work was a big conversation due to weather</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Good communication and understanding the rules and regulations.</span><br><br><strong>The crew killed the well then began taking apart the top of the well swivel</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Communication is somthing we can always work on getting better at .</span><br><br><strong>Replacement of a packing on a wellhead stuffing box</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The job went safely and quuckly once we were able to get the well on a vacuum.</span><br><br><strong>Good communication between all associates on the lease during the job compe</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything went well and this job and there was no real room foe improvement.</span><br><br><strong>Hold point was utilized when they started moving parts with the forklift</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Try to understand the history of the location if any issues has occurred before.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -233,8 +233,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "The standard gets heavy on day four of a long week. Hold it anyway — today's the day it's most tempting to skip a step, which makes today the day it counts most.",
-  "todaysChallengeSubtext": "“Don't give up. Don't ever give up.” — Jim Valvano",
+  "todaysChallenge": "Three rules, one day. Do right when the readings say stop. Do your best on the job nobody sees. And coach the newest hand the way you wish someone had coached you.",
+  "todaysChallengeSubtext": "“Do right. Do your best. Treat others as you want to be treated.” — Lou Holtz",
   "compliance": {
     "weekOf": "Week of October 19, 2026",
     "metrics": [
@@ -255,37 +255,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Fri 10/23"
-  },
-  "specialFocus": {
-    "week": 20,
-    "until": "2026-10-26",
-    "title": "Why We Do What We Do — Trailer 600 on Highway 349",
-    "why": "New week, Caleb hosting. Before we dig into Excavation, we start with the most important example this crew has ever had of why the forms, the inspections and the lights matter. Last week Pablo and Baldi were southbound on Highway 349 north of Midland, on the divided four-lane, sitting in the turn lane to go east onto the lease road into location. They did everything right. Pablo's trailer inspection was done, every light on that trailer was working, and they were exactly where they were supposed to be. A bobtailed semi coming at about 80 miles an hour, driving distracted, ran straight through trailer 600, ripped it off the truck and pushed the wreckage hundreds of feet down the road. We were the victims of distracted driving. Look at these photos. This is what happens even when you do everything right, and it's why we never stop doing everything right.<div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:12px 0 4px;\"><a href=\"incidents/2026-10-trailer600/1-skid-marks-hwy349.jpg\" target=\"_blank\" style=\"text-decoration:none;color:inherit;\"><img src=\"incidents/2026-10-trailer600/1-skid-marks-hwy349.jpg\" alt=\"Skid marks across the rumble strip on Highway 349\" loading=\"lazy\" style=\"width:100%;border-radius:8px;display:block;\"><div style=\"font-size:11px;color:#555;margin-top:3px;\">Highway 349: the skid marks through the rumble strip</div></a><a href=\"incidents/2026-10-trailer600/2-trailer-in-semi-front.jpg\" target=\"_blank\" style=\"text-decoration:none;color:inherit;\"><img src=\"incidents/2026-10-trailer600/2-trailer-in-semi-front.jpg\" alt=\"Trailer 600 crushed into the front of the semi\" loading=\"lazy\" style=\"width:100%;border-radius:8px;display:block;\"><div style=\"font-size:11px;color:#555;margin-top:3px;\">Trailer 600, carried off on the front of the semi</div></a><a href=\"incidents/2026-10-trailer600/3-trailer-closeup.jpg\" target=\"_blank\" style=\"text-decoration:none;color:inherit;\"><img src=\"incidents/2026-10-trailer600/3-trailer-closeup.jpg\" alt=\"Close-up of the destroyed Canon trailer\" loading=\"lazy\" style=\"width:100%;border-radius:8px;display:block;\"><div style=\"font-size:11px;color:#555;margin-top:3px;\">What's left of trailer 600</div></a><a href=\"incidents/2026-10-trailer600/4-canon-truck-on-tow.jpg\" target=\"_blank\" style=\"text-decoration:none;color:inherit;\"><img src=\"incidents/2026-10-trailer600/4-canon-truck-on-tow.jpg\" alt=\"The Canon truck on a tow truck with its rear torn out\" loading=\"lazy\" style=\"width:100%;border-radius:8px;display:block;\"><div style=\"font-size:11px;color:#555;margin-top:3px;\">Our truck: the rear torn out where the trailer was hitched</div></a></div>",
-    "standardLabel": "Why We Do What We Do — The Standard Stands",
-    "standard": [
-      "Pablo did it right, and the record proves it. The trailer inspection was done and every light on trailer 600 was working. When anyone asks what our crew did, the forms already answer: inspected, lit, in the turn lane, signaling. This is exactly why we fill out the forms. They aren't paperwork for the office; they're the proof that we did the right thing.",
-      "NEW STANDARD: no Canon trailer moves unless every light works. Turn signals, brake lights, running lights, all of them. If one is out, the trailer doesn't leave the shop or the location until it's fixed. No 'it's only a short run.' Lights are how the traffic behind us knows we're slowing and turning.",
-      "Canon is installing a secondary set of lights on every trailer. That gives us a backup, so one burned-out bulb or a bad plug never leaves a trailer dark. When the new lights go on your trailer, they're part of the inspection like everything else.",
-      "Highway turns with a trailer are the most exposed minute of the drive. On 349 and every road like it, plan the turn a mile out, signal early, and bleed off speed gradually so the traffic behind sees it coming. Once you're stopped in the turn lane, keep watching your mirrors. You can't control the driver behind you, but you can see him coming. If you miss the entrance, go around; never brake hard or back up on the highway.",
-      "Two sets of eyes, every turn. The passenger watches the mirror on his side and calls out anything coming up fast. Phones down and radio off for the turn. That's why we ride two.",
-      "Trailer inspection BEFORE you leave the shop, every move, with photos taken that day and a readiness form on every trailer move. Last week finished at 53 of 56 trailer inspections and 39 of 45 readiness forms. Six missing readiness forms is six trailer moves nobody can prove were right. Pablo's trailer could be proven right. Every trailer should be."
-    ],
-    "scenarios": [
-      {
-        "title": "Highway 349 — Tell It Like a Witness Statement",
-        "body": "Pablo and Baldi, walk us through it in last week's six parts. WHERE: southbound 349 north of Midland, in the turn lane, turning east onto the lease road. WHEN: the time, the light and the weather. WHAT YOU SAW: the traffic, your signal, your mirrors, and when you first saw the semi. WHO was told and when: police, your lead, Canon management. WHAT YOU DID right after: the scene, each other, the photos. HOW IT ENDED. Then the circle gets one question, not about blame but about defense: when you're stopped in a turn lane with a trailer behind you, what can you watch for, and what's your way out if something's coming too fast?"
-      },
-      {
-        "title": "If It Ever Happens to You — The First Ten Minutes",
-        "body": "Nobody plans to be in a wreck, so plan it now. Check your partner and yourself first. Get out of the travel lane only if it's safe. Flashers on, and triangles or cones out if there's room. Call 911 if anyone's hurt or the road is blocked, then call your lead right away. Don't argue fault on the shoulder. Take photos: positions, damage, the other vehicle, the lights on your trailer, the skid marks. Then write it down that same day while it's fresh. Your inspection form from that morning plus your note from that afternoon is the whole story, told by you. Go around the circle: who's your first call, and where are the triangles in your truck right now?"
-      }
-    ],
-    "questions": [
-      "Look at the photos again. What does that tell you about why the trailer inspection and the lights matter, even on the days nothing happens?",
-      "Which lease entrances on your routes have you stopped in a turn lane on a fast highway? Name them so the whole crew knows.",
-      "What will you check on the new secondary lights once they're on your trailer?",
-      "Caleb's question to open the week: what did the field teach us last week that the breakroom should know?"
-    ],
-    "nonNegotiable": "No Canon trailer moves unless every light works. We inspect before we roll, we document it every time, and we watch our mirrors even when we're stopped. Pablo did everything right, and the forms prove it. That is why we do what we do."
   }
 }
