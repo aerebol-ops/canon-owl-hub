@@ -171,17 +171,25 @@
   "leadershipThought": "Slow down at the dig. Authorization before excavation is not bureaucracy. It's the step that has protected every crew that didn't lose someone.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-10-25",
-    "label": "Sunday 10/25",
+    "date": "2026-10-26",
+    "label": "Monday 10/26",
     "verdict": "",
     "concerns": [
       {
-        "title": "Ralph Forbes — SM Energy, Junior Mint Fed 223H, form time 04:40 AM (submitted 08:24 AM), H2S Safety Supervision Daily Inspection Form. Two breathing-air cylinders were re",
-        "quote": ". Photo at 05:46 AM — Notes:"
+        "title": "Allen White — Capture Point LLC, MPSU 7A, 09:54 AM, H2S Equipment Rig Up Rig Check Photos Form. The one pass/fail question on the form was answered No.",
+        "quote": "No Loud Alarms and Lights Tested?"
       },
       {
-        "title": "Michael Jobe — XTO, Scarlet Unit 2 2988NH, 10:22 AM, job 36242. A real unsafe condition was found and corrected on location, but it was not recorded as one.",
-        "quote": "What Did We Observe? Continued: Crew didn't have a tag line or spotter told them they had to have one"
+        "title": "Allen White — Capture Point LLC, SWD Well #6M, 11:32 AM, Rig Up, job 36290. The same question was answered No on the rig-up checklist for a second location the same morni",
+        "quote": "Loud Alarms and Lights Tested?: No"
+      },
+      {
+        "title": "Jordan Lemmons — SM Energy, Queen Keely CTB, trailer 152, 03:31 PM, Trailer Readiness Form. Equipment reported missing from the trailer, with no notified party recorded.",
+        "quote": "Is anything wrong or missing? If so what and who was notified?"
+      },
+      {
+        "title": "Jeremy Norris — trailer 606, 04:56 PM, Trailer Readiness Form, submitted from Andrews with photos captured at County Rd 118 E, Midkiff. Missing equipment recorded, but in",
+        "quote": "no caution tape in the trailer"
       }
     ]
   },
@@ -236,25 +244,25 @@
   "todaysChallenge": "Three rules, one day. Do right when the readings say stop. Do your best on the job nobody sees. And coach the newest hand the way you wish someone had coached you.",
   "todaysChallengeSubtext": "“Do right. Do your best. Treat others as you want to be treated.” — Lou Holtz",
   "compliance": {
-    "weekOf": "Week of October 19, 2026",
+    "weekOf": "Week of October 26, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 201,
-        "total": 212
+        "done": 36,
+        "total": 38
       },
       {
         "label": "Trailer Inspections",
-        "done": 53,
-        "total": 56
+        "done": 12,
+        "total": 12
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 39,
-        "total": 45
+        "done": 10,
+        "total": 12
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Fri 10/23"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 10/26"
   },
   "specialFocus": {
     "week": 20,

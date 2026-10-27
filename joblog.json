@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26",
+ "generated": "2026-10-27",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
@@ -10,16 +10,6 @@
   "weekCrews": 0
  },
  "days": [
-  {
-   "date": "2026-09-21",
-   "forms": 24,
-   "jobs": 12,
-   "flags": 1,
-   "AGT": 11,
-   "Maintenance": 1,
-   "Well Testing": 0,
-   "Other": 0
-  },
   {
    "date": "2026-09-22",
    "forms": 31,
@@ -2559,138 +2549,6 @@
    "crew": "",
    "cm": "",
    "note": "Crew was well prepared and fast at getting work done in a safe and orderly",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-21",
-   "category": "Maintenance",
-   "jobType": "Air Job",
-   "well": "Rocker B 1-102H",
-   "crew": "Larry Jaramillo / Jerry Gonzales",
-   "cm": "Foreman_South Ops 3",
-   "note": "Disconnect and upgrade on heater treater",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-09-21",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Windham T 1",
-   "crew": "Caleb Smith / Alejandro Najar",
-   "cm": "Brian Murphree",
-   "note": "Crew performed their pre task briefing according psms standards",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-21",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Sprayberry Driver Unit 309H",
-   "crew": "",
-   "cm": "",
-   "note": "Disconnected flow line from well",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-09-21",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Skaggs 8 #2HB",
-   "crew": "",
-   "cm": "",
-   "note": "Job canceled due to work over rig still on",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-21",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Powell 1801",
-   "crew": "Nathan Contreras / Gael \"Antonio\" Avila 1099",
-   "cm": "Chad Farr",
-   "note": "Did a meeting in the morning just waiting on the crane pretty essay and sim",
-   "psms": "Mobile Equipment",
-   "flag": false
-  },
-  {
-   "date": "2026-09-21",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Midkiff NW11C 3H",
-   "crew": "Jacob Hernandez / Jose Campos",
-   "cm": "",
-   "note": "Job completed productively to scope and safely",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-21",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Hoelscher 16 #3",
-   "crew": "Michael Jobe / Ruben Rojo",
-   "cm": "Tim Blackwell",
-   "note": "Everything went great MT did the meeting went good ver what needed to be do",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-21",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Franklin #1",
-   "crew": "Jose Hurtado / Baldemar Bracomontes 1099",
-   "cm": "Foreman_East Ops 9",
-   "note": "Crane crew and safety crew had good communication, all LSRAs pertaining to",
-   "psms": "Mobile Equipment",
-   "flag": true
-  },
-  {
-   "date": "2026-09-21",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Clark B #2",
-   "crew": "Michael Jobe / Ruben Rojo",
-   "cm": "Tim Blackwell",
-   "note": "Had a meeting went over what needed to be done got right to work",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-21",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Brook A-E2C 3H",
-   "crew": "Jeremy Norris / Justin Fontenot 1099",
-   "cm": "Clay Mateo",
-   "note": "Observed safety meeting and went over triggers and hold points",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-21",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Brook A-E2A 1H",
-   "crew": "Jeremy Norris / Justin Fontenot 1099",
-   "cm": "Clay Mateo",
-   "note": "Crew held safety meeting",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-21",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Benedum 3E 5H",
-   "crew": "Jordan Lemmons / Bryan Medlin",
-   "cm": "Jeff Jones",
-   "note": "Reconnecting flow line to the well head",
    "psms": "Operational Discipline",
    "flag": false
   }

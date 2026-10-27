@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26",
+ "generated": "2026-10-27",
  "months": [
   {
    "month": "2026-09",
@@ -20,16 +20,16 @@
       "pct": 100
      },
      {
-      "who": "Caleb Smith",
-      "jobs": 5,
-      "complete": 5,
-      "pct": 100
+      "who": "Jordan Lemmons",
+      "jobs": 12,
+      "complete": 11,
+      "pct": 92
      },
      {
-      "who": "Jordan Lemmons",
-      "jobs": 13,
-      "complete": 12,
-      "pct": 92
+      "who": "Dawson Drake",
+      "jobs": 6,
+      "complete": 4,
+      "pct": 67
      }
     ]
    },
