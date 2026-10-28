@@ -3,130 +3,130 @@
   "generated": "2026-10-28",
   "windowLabel": "Sep 8, 2026",
   "ytdYear": 2026,
-  "ytdSubmitted": 2989,
-  "ytdFilled": 2465,
-  "pdfsScanned": 3061,
-  "totalSubmitted": 1110,
-  "blankForms": 8,
+  "ytdSubmitted": 3218,
+  "ytdFilled": 2693,
+  "pdfsScanned": 3290,
+  "totalSubmitted": 1339,
+  "blankForms": 9,
   "excusedBlanks": 1,
-  "totalForms": 1102,
-  "techs": 131,
-  "locations": 711,
+  "totalForms": 1330,
+  "techs": 140,
+  "locations": 846,
   "firstDate": "09/08/2026",
-  "lastDate": "10/17/2026",
-  "leftBetterYes": 750,
-  "leftBetterTotal": 755,
+  "lastDate": "10/27/2026",
+  "leftBetterYes": 877,
+  "leftBetterTotal": 885,
   "observe": [
     {
       "label": "Job scope completed safely and as planned",
-      "n": 873
-    },
-    {
-      "label": "Safety control measures were utilized(ex. Hot work/LOTO/Confined Space)",
-      "n": 752
+      "n": 1053
     },
     {
       "label": "Evaluation and discussion of life saving rules",
-      "n": 742
+      "n": 904
+    },
+    {
+      "label": "Safety control measures were utilized(ex. Hot work/LOTO/Confined Space)",
+      "n": 901
     },
     {
       "label": "Atmospheric hazards tested prior to first break",
-      "n": 738
+      "n": 891
     },
     {
       "label": "Discussed and outlined exclusion zones",
-      "n": 737
+      "n": 888
     },
     {
       "label": "Repiratory protection utilized",
-      "n": 585
+      "n": 715
     },
     {
       "label": "Communicated issues with PIC and corrected before work began",
-      "n": 512
+      "n": 629
     },
     {
       "label": "Hold points utilized",
-      "n": 466
+      "n": 568
     },
     {
       "label": "Stop work authority was discussed",
-      "n": 221
+      "n": 327
     },
     {
       "label": "Unsafe conditions",
-      "n": 195
+      "n": 220
     }
   ],
   "win": [
     {
       "label": "Strong communication between Canon technician and PIC",
-      "n": 866
+      "n": 1040
     },
     {
       "label": "Strong communication between Canon technician and crews",
-      "n": 863
+      "n": 1035
     },
     {
       "label": "Crew verified conditions in the field instead of relying on paperwork",
-      "n": 795
+      "n": 961
     },
     {
       "label": "All personnel on location work together effectively to mitigate any hazards",
-      "n": 760
+      "n": 920
     },
     {
       "label": "Life saving rules understood and discussed with all personnel on site",
-      "n": 746
+      "n": 898
     },
     {
       "label": "Standard rig up completed correctly with no rework required",
-      "n": 604
+      "n": 745
     },
     {
       "label": "Last Minute Risk Assessment utilized",
-      "n": 569
+      "n": 681
     },
     {
       "label": "Midland",
-      "n": 15
+      "n": 21
     },
     {
       "label": "Midkiff",
-      "n": 10
+      "n": 13
     },
     {
-      "label": "TX 79755",
-      "n": 7
+      "label": "TX 79706",
+      "n": 9
     }
   ],
   "improvePct": 62,
-  "improveCount": 684,
+  "improveCount": 826,
   "improveQuotes": [
     {
-      "who": "Raymundo Solis / Tyrell Sanders",
-      "date": "10/15/2026",
-      "text": "Good communication and understanding the rules and regulations"
+      "who": "Luis Zarate / Cindy Smith 1099",
+      "date": "10/27/2026",
+      "text": "Continue to grow communication with MT and crew"
     },
     {
-      "who": "Dawson Drake / Robbie Henigan 1099",
-      "date": "10/15/2026",
-      "text": "Every jobs held to the same standard"
+      "who": "Jeremy Norris / Gael \"Antonio\" Avila 1099",
+      "date": "10/26/2026",
+      "text": "Strive to be better tomorrow than we were today because true perfection can never be accomplished, but you can always learn more day to day."
     },
     {
-      "who": "Larry Jaramillo / Humberto Salazar",
-      "date": "10/15/2026",
-      "text": "Inspect tools prior to job beginning"
+      "who": "Dawson Drake / Kedrick Mccarter 1099",
+      "date": "10/24/2026",
+      "text": "All jobs are held to the same standard and the highest standard"
     },
     {
-      "who": "Nathan Contreras / Gael \"Antonio\" Avila 1099",
-      "date": "10/14/2026",
-      "text": "Help them passing a tool or something that they might need"
+      "who": "Luis Zarate / Kedrick Mccarter 1099",
+      "date": "10/23/2026",
+      "text": "Job was cancelled as the job was done on Wednesday"
     },
     {
-      "who": "Raymundo Solis / Gael \"Antonio\" Avila 1099",
-      "date": "10/13/2026",
-      "text": "Same thing make sure everyone leaves the same way they got here"
+      "who": "Jeremy Norris / Bobby Galindo 1099",
+      "date": "10/23/2026",
+      "text": "Strive to be better on the next job better than we are today"
     }
   ],
   "people": [
@@ -219,6 +219,14 @@
       "pct": 100
     },
     {
+      "name": "Luis Zarate / Cindy Smith 1099",
+      "submitted": 14,
+      "blank": 0,
+      "excused": 0,
+      "filled": 14,
+      "pct": 100
+    },
+    {
       "name": "Nathan Contreras",
       "submitted": 13,
       "blank": 0,
@@ -228,14 +236,6 @@
     },
     {
       "name": "Hayden Haugh",
-      "submitted": 12,
-      "blank": 0,
-      "excused": 0,
-      "filled": 12,
-      "pct": 100
-    },
-    {
-      "name": "Luis Zarate / Cindy Smith 1099",
       "submitted": 12,
       "blank": 0,
       "excused": 0,
@@ -300,6 +300,14 @@
     },
     {
       "name": "Luis Zarate",
+      "submitted": 10,
+      "blank": 0,
+      "excused": 0,
+      "filled": 10,
+      "pct": 100
+    },
+    {
+      "name": "Michael Jobe / Robbie Henigan 1099",
       "submitted": 10,
       "blank": 0,
       "excused": 0,
@@ -388,6 +396,14 @@
     },
     {
       "name": "Pablo Soto / Jerry Gonzales",
+      "submitted": 8,
+      "blank": 0,
+      "excused": 0,
+      "filled": 8,
+      "pct": 100
+    },
+    {
+      "name": "Raymundo Solis / Tyrell Sanders",
       "submitted": 8,
       "blank": 0,
       "excused": 0,
@@ -555,14 +571,6 @@
       "pct": 100
     },
     {
-      "name": "Raymundo Solis / Tyrell Sanders",
-      "submitted": 6,
-      "blank": 0,
-      "excused": 0,
-      "filled": 6,
-      "pct": 100
-    },
-    {
       "name": "Bryan Medlin",
       "submitted": 5,
       "blank": 1,
@@ -643,7 +651,23 @@
       "pct": 75
     },
     {
+      "name": "Caleb Smith / Jerry Gonzales",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
       "name": "Caleb Smith / Jose Campos",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Dawson Drake / Kedrick Mccarter 1099",
       "submitted": 4,
       "blank": 0,
       "excused": 0,
@@ -660,6 +684,30 @@
     },
     {
       "name": "Jacob Hernandez / Alejandro Najar",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Jacob Hernandez / Humberto Salazar",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Jeremy Norris / Bobby Galindo 1099",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Jeremy Norris / Gael \"Antonio\" Avila 1099",
       "submitted": 4,
       "blank": 0,
       "excused": 0,
@@ -716,14 +764,6 @@
     },
     {
       "name": "Michael Jobe / Christian Lee 1099",
-      "submitted": 4,
-      "blank": 0,
-      "excused": 0,
-      "filled": 4,
-      "pct": 100
-    },
-    {
-      "name": "Michael Jobe / Robbie Henigan 1099",
       "submitted": 4,
       "blank": 0,
       "excused": 0,
@@ -843,6 +883,22 @@
       "pct": 100
     },
     {
+      "name": "Alexander Clubb / Tyrell Sanders",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Andrew Bailey / Humberto Salazar",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
       "name": "Andrew Bailey / William \"Jimmy\" Cooper 1099",
       "submitted": 2,
       "blank": 0,
@@ -891,7 +947,7 @@
       "pct": 100
     },
     {
-      "name": "Caleb Smith / Jerry Gonzales",
+      "name": "Caleb Smith / Joseph Popillion 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -923,7 +979,7 @@
       "pct": 100
     },
     {
-      "name": "Dawson Drake / Kedrick Mccarter 1099",
+      "name": "Dawson Drake / William \"Jimmy\" Cooper 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -947,7 +1003,7 @@
       "pct": 100
     },
     {
-      "name": "Jacob Hernandez / Christian Lee 1099",
+      "name": "Jacob Hernandez / Baldemar Bracomontes 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -955,7 +1011,7 @@
       "pct": 100
     },
     {
-      "name": "Jacob Hernandez / Humberto Salazar",
+      "name": "Jacob Hernandez / Christian Lee 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -987,14 +1043,6 @@
       "pct": 100
     },
     {
-      "name": "Jeremy Norris / Bobby Galindo 1099",
-      "submitted": 2,
-      "blank": 0,
-      "excused": 0,
-      "filled": 2,
-      "pct": 100
-    },
-    {
       "name": "Jeremy Norris / Trevor Mckenzie 1099",
       "submitted": 2,
       "blank": 0,
@@ -1019,7 +1067,23 @@
       "pct": 100
     },
     {
+      "name": "Luis Zarate / Gael \"Antonio\" Avila 1099",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
       "name": "Luis Zarate / Humberto Salazar",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Luis Zarate / Kedrick Mccarter 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -1092,6 +1156,14 @@
     },
     {
       "name": "Raymundo Solis / Justin Fontenot 1099",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Raymundo Solis / Robbie Henigan 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,

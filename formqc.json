@@ -3,6 +3,448 @@
  "scope": "Dropbox '- OWL' exports \u2014 OWL, JSA, 4-gas, location sign, ticket auditable; benzene/atmospheric/permits/tubes/names need the full packet feed",
  "jobs": [
   {
+   "date": "2026-10-27",
+   "well": "Robbie 17A-8 2815",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102586",
+   "bnz": "13",
+   "at": "139",
+   "techs": "LUIS ZARATE / Cindy Smith 1099",
+   "sched": "10/27/26 8:00 AM",
+   "late_min": -24,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-27",
+   "well": "Parks 2526SH",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102587",
+   "bnz": "12",
+   "at": "272",
+   "techs": "ANDREW BAILEY / HUMBERTO SALAZAR",
+   "sched": "10/27/2026 8:00AM",
+   "late_min": -23,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-26",
+   "well": "STIMSON NAIL W17M 13H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102568",
+   "bnz": "8",
+   "at": "608",
+   "techs": "JACOB HERNANDEZ / HUMBERTO SALAZAR",
+   "sched": "10/26/26 10:00 AM",
+   "late_min": 87,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-26",
+   "well": "JRS FARMS 13EB 102H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102558",
+   "bnz": "6",
+   "at": "606",
+   "techs": "JEREMY NORRIS / Gael \"Antonio\" Avila 1099",
+   "sched": "10/26/26 12:00 PM",
+   "late_min": 28,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-26",
+   "well": "JRS FARMS 13EA 101H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102569",
+   "bnz": "6",
+   "at": "606",
+   "techs": "JEREMY NORRIS / Gael \"Antonio\" Avila 1099",
+   "sched": "10/26/2026 1:00 PM",
+   "late_min": -32,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-24",
+   "well": "SCARLET UNIT 2 2927SH",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102546",
+   "bnz": "1",
+   "at": "601",
+   "techs": "DAWSON DRAKE / Kedrick McCarter 1099",
+   "sched": "10/24/2026 01:00:00 PM",
+   "late_min": -269,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-23",
+   "well": "TROPICANA EAST M 14-26 2813H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102531",
+   "bnz": "4",
+   "at": "604",
+   "techs": "CALEB SMITH / Joseph Popillion 1099",
+   "sched": "10/23/2026 8:00 AM",
+   "late_min": -15,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-23",
+   "well": "Driver E5A 101H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102517",
+   "bnz": "8",
+   "at": "608",
+   "techs": "JEREMY NORRIS / Bobby Galindo 1099",
+   "sched": "10/23/26 8:00 AM",
+   "late_min": -14,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-23",
+   "well": "DRIVER PROCTOR 33-40H 8H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102518",
+   "bnz": "7",
+   "at": "607",
+   "techs": "MICHAEL JOBE / Robbie Henigan 1099",
+   "sched": "10/23/26 8:00 AM",
+   "late_min": -24,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-23",
+   "well": "BROOK A-E7C 3H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102534",
+   "bnz": "3",
+   "at": "603",
+   "techs": "LUIS ZARATE / Kedrick McCarter 1099",
+   "sched": "10/23/26 12:00 PM",
+   "late_min": -3419903,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-22",
+   "well": "DRIVER PROCTOR 33-40C 3H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102509",
+   "bnz": "12",
+   "at": "148",
+   "techs": "ALEXANDER CLUBB / TYRELL SANDERS",
+   "sched": "10/22/26 8:00 AM",
+   "late_min": 53,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-21",
+   "well": "XBC Giddings Estate C 21H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102480",
+   "bnz": "8",
+   "at": "608",
+   "techs": "LUIS ZARATE / Gael \"Antonio\" Avila 1099",
+   "sched": "10/21/26 8:00 AM",
+   "late_min": -18,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-21",
+   "well": "LILLE MIDKIFF 3 1 AH",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102477",
+   "bnz": "4",
+   "at": "604",
+   "techs": "MICHAEL JOBE / Robbie Henigan 1099",
+   "sched": "10/21/2026 8:00 AM",
+   "late_min": -19,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-21",
+   "well": "FRANK 11E 105H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": true,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "102486",
+   "bnz": "4",
+   "at": "604",
+   "techs": "MICHAEL JOBE / Robbie Henigan 1099",
+   "sched": "10/21/26 12:00 PM",
+   "late_min": -119,
+   "missing": [],
+   "complete": true
+  },
+  {
+   "date": "2026-10-20",
+   "well": "XBC Giddings Estate 4097H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": false,
+    "sign": false,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101368",
+   "bnz": "3",
+   "at": "603",
+   "techs": "JACOB HERNANDEZ / Baldemar Bracomontes 1099",
+   "sched": "10/20/26 8:00 AM",
+   "late_min": 276,
+   "missing": [
+    "Exxon JSA uploaded",
+    "4-gas monitor photo",
+    "Location sign photo"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-20",
+   "well": "UNIVERSITY 10-16 2D HWD",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101376",
+   "bnz": "4",
+   "at": "605",
+   "techs": "DAWSON DRAKE / William \"Jimmy\" Cooper 1099",
+   "sched": "10/20/26 8:00 AM",
+   "late_min": -28,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-20",
+   "well": "Tom Glavine 31-32 4415H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101367",
+   "bnz": "6",
+   "at": "606",
+   "techs": "CALEB SMITH / JERRY GONZALES",
+   "sched": "10/20/26 8:00 AM",
+   "late_min": 0,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-20",
+   "well": "Dameron #1",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101381",
+   "bnz": "8",
+   "at": "608",
+   "techs": "RAYMUNDO SOLIS / Robbie Henigan 1099",
+   "sched": "10/20/2026 01:00:00 PM",
+   "late_min": -63,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
+   "date": "2026-10-19",
+   "well": "Fasken Evans 11B 2H",
+   "category": "AGT",
+   "forms": 2,
+   "checks": {
+    "owl": true,
+    "jsa": false,
+    "gas4": true,
+    "sign": true,
+    "ticket": true
+   },
+   "board": true,
+   "ticket": "101359",
+   "bnz": "7",
+   "at": "607",
+   "techs": "RAYMUNDO SOLIS / TYRELL SANDERS",
+   "sched": "10/19/26 9:00 AM",
+   "late_min": 70,
+   "missing": [
+    "Exxon JSA uploaded"
+   ],
+   "complete": false
+  },
+  {
    "date": "2026-10-17",
    "well": "Shackelford 40-12D 4H",
    "category": "AGT",

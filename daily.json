@@ -169,7 +169,35 @@
     }
   ],
   "leadershipThought": "If conditions change underground, you don't push through. You get out. You reassess. You re-authorize. That is not weakness — that is discipline.",
-  "yesterdaysJobs": null,
+  "yesterdaysJobs": {
+    "date": "2026-10-27",
+    "label": "Tuesday, October 27",
+    "count": 2,
+    "flags": 0,
+    "groups": [
+      {
+        "category": "AGT",
+        "jobs": [
+          {
+            "well": "Robbie 17A-8 2815",
+            "jobType": "Air Job",
+            "crew": "Luis Zarate / Cindy Smith 1099",
+            "cm": "",
+            "note": "Crew replaced spools on wellhead but they were the wrong ones and had to wa",
+            "flag": false
+          },
+          {
+            "well": "Parks 2526SH",
+            "jobType": "Air Job",
+            "crew": "Andrew Bailey / Humberto Salazar",
+            "cm": "Bryan Hamilton",
+            "note": "Job planned , crew working safely to complete task",
+            "flag": false
+          }
+        ]
+      }
+    ]
+  },
   "formReview": {
     "date": "2026-10-27",
     "label": "Tuesday 10/27",
@@ -184,41 +212,41 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Changing the seal pump</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Next job will be held to the same standards and executed the same way.</span><br><br><strong>A disconnection of a stack and flow from the WH to set it up to be turned i</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Trevor Mckenzie 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Be open to criticism if it could potentially teach you something new or how to possibly do your job even just a little bit better than before.</span><br><br><strong>The crew conducted a safety meeting before starting work to review the LSRA</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue reviewing LSRAs, verifying atmospheric conditions before work begins, and maintaining clear communication throughout the job to ensure hazards are identified and controlled.</span><br><br><strong>Unsafe conditions was a big topic for this job, cellar was full of water so</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Identify other factors that may affect the job (weather,& wild life).</span><br><br><strong>Pretty essay and quick meeting with all the info needed it to get the job d</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything and great communication with all the people in location.</span>",
+  "exxonMoments": "<strong>Job planned , crew working safely to complete task</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey / Humberto Salazar]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Same crew understood everything and the job went good and safely</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>A great meeting between all to discuss the LMRAs and LSRAs as they pertain</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Strive to be better tomorrow than we were today because true perfection can never be accomplished, but you can always learn more day to day.</span><br><br><strong>A disconnect on a old well</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake / Kedrick Mccarter 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>All jobs are held to the same standard and the highest standard.</span><br><br><strong>A great usage of the LMRAs before each step of the task as they had a new w</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Strive to be better on the next job better than we are today.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Andrew Bailey / Gage Gonzales 1099 — Crew preforming wellhead disconnect while utilizing PSMS",
+      "headline": "Andrew Bailey / Humberto Salazar — Observed crew hydro vac and replace rod bop",
+      "detail": "We will complete the next job to the same standard.",
+      "psms": "Operational Discipline",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris / Gael \"Antonio\" Avila 1099 — Same crew understood everything and the job went good and safely",
       "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Luis Zarate / Tyrell Sanders — Crew reconnected wellhead and flowline",
-      "detail": "Continue to grow communication with MT and crew.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Ruben Rojo / Joseph Popillion 1099 — on the OWL board",
-      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-09-30. That consistency is the habit.",
-      "psms": "Operational Discipline",
-      "level": "habit"
-    },
-    {
-      "type": "good",
-      "headline": "Jordan Lemmons / Cindy Smith 1099 — Crew reconnected well head and flow line",
-      "detail": "Job was completed according to plan without any incidents or near misses.",
+      "headline": "Alexander Clubb / Tyrell Sanders — Job scope was convert wellhead to gas lift",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras / Rolando Flores 1099 — Crew maintained good communication, followed the LSRAs, and completed atmos",
-      "detail": "Continue maintaining continuous atmospheric monitoring and communication throughout the job.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Luis Zarate / Gael \"Antonio\" Avila 1099 — Crew did a conversion to well",
+      "detail": "Continue to grow communication with crew and MT.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Raymundo Solis / Robbie Henigan 1099 — Tube inspection replace rubber on stuffing box",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
@@ -236,21 +264,21 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 36,
-        "total": 38
+        "done": 82,
+        "total": 85
       },
       {
         "label": "Trailer Inspections",
-        "done": 12,
-        "total": 12
+        "done": 21,
+        "total": 21
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 10,
-        "total": 12
+        "done": 18,
+        "total": 23
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 10/26"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/27"
   },
   "specialFocus": {
     "week": 20,
