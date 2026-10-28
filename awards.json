@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27",
+ "generated": "2026-10-28",
  "months": [
   {
    "month": "2026-09",
@@ -8,15 +8,15 @@
    "diligence": {
     "winner": {
      "who": "Pablo Soto",
-     "jobs": 9,
-     "complete": 9,
+     "jobs": 7,
+     "complete": 7,
      "pct": 100
     },
     "board": [
      {
       "who": "Pablo Soto",
-      "jobs": 9,
-      "complete": 9,
+      "jobs": 7,
+      "complete": 7,
       "pct": 100
      },
      {
@@ -27,9 +27,9 @@
      },
      {
       "who": "Dawson Drake",
-      "jobs": 6,
+      "jobs": 5,
       "complete": 4,
-      "pct": 67
+      "pct": 80
      }
     ]
    },
