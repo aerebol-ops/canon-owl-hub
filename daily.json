@@ -263,5 +263,37 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Mon 10/26"
+  },
+  "specialFocus": {
+    "week": 20,
+    "until": "2026-10-28",
+    "title": "Right Mask, Right Label — Bag It, Mark It, Check It",
+    "why": "Short and hands-on this morning: Caleb has real examples to pass around. Several masks this past week were found bagged with the wrong label: an AV-2000 marked as an AV-3000, the wrong size written on the bag. That sounds like a paperwork slip. It isn't. Every one of us is fit-tested to a specific mask model AND size, and the label on that bag is how the next man grabs the mask he can trust. If the bag says AV-3000 Large and there's an AV-2000 inside, or a Medium, someone could pull it on in an emergency and not get the seal he was fit-tested for, in H2S. The fix is simple: slow down, look at the mask itself, write the model and size clearly, and ask if you're not sure.",
+    "standardLabel": "The Mask Bag Standard — Every Bag, Every Time",
+    "standard": [
+      "Every bagged mask is labeled with BOTH the model and the size, written clearly: for example 'AV-2000 — Large' or 'AV-3000 — Large'. No model with no size, no size with no model, no shorthand anyone could misread.",
+      "Label from the mask, not from memory and not from the old bag. Pick up the mask, look at it, confirm the model and size, THEN write the label. A label copied from the bag it came out of just passes the last guy's mistake down the line.",
+      "AV-2000 and AV-3000 are different masks. They are not interchangeable, and neither are sizes. Your fit test covers the exact model and size on your card, so a mislabeled bag is a mask nobody can trust in a hurry.",
+      "Not sure how to tell them apart, or how to read the size? Stop and ask. Caleb will show the group the differences this morning, and any lead will show you again on location. Thirty seconds of asking beats a mask that doesn't seal.",
+      "Find a wrong label? Fix it on the spot: check the mask, rebag or relabel it correctly, and tell your lead so the rest of that trailer gets checked. Torn bag? Replace it. Dawson Drake reported torn mask bags on his readiness form last week. That's exactly the right move, and naming who you told makes it complete.",
+      "The readiness form backs it up. Answer 'Does your trailer have a AV-3000 box?' every time; it was left blank on several forms last week. Take the mask photos fresh that day, and if you're short on mask bags, say so on the form and in your comments to management so it gets resupplied."
+    ],
+    "scenarios": [
+      {
+        "title": "Caleb's Table — Name That Mask",
+        "body": "Caleb lays out examples: AV-2000s and AV-3000s in different sizes, some bagged right and some bagged wrong. Pass them around. For each one: what model is it, what size, and does the label match? Who can show the group where to look on the mask to tell? Then say the label out loud the way you'd write it. If the whole circle can't call it in a few seconds, that's exactly why we slow down and look."
+      },
+      {
+        "title": "The Bag You Grab at 2 AM",
+        "body": "Night shift, an alarm, and you reach for the bag that says your model and your size. You don't have time to check: you trust the label, pull it on, and go. Now picture that bag was filled three days ago by someone in a hurry who wrote the label from memory. That's the whole reason this matters. The person labeling the bag is making a promise to the next man who reaches for it, maybe at 2 AM, maybe in gas. Make it a promise you'd bet your own seal on."
+      }
+    ],
+    "questions": [
+      "What's your mask model and size from your fit test? Say it out loud.",
+      "Where on the mask do you look to confirm the model and the size? Show the group on one of Caleb's examples.",
+      "You open a trailer and find a bag labeled 'AV-3000 Large' with something else inside. What are your next three moves?",
+      "Caleb's question: what did the field teach us yesterday that the breakroom should know?"
+    ],
+    "nonNegotiable": "Every mask bag carries the right model and the right size, written from the mask itself, not from memory. Slow down, look, and ask if you're not sure. Fix a wrong label the moment you find it, and tell your lead. Someone's seal depends on that label."
   }
 }
