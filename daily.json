@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "week": 20,
-  "day": 2,
+  "day": 3,
   "topicWeek": 9,
   "displayWeek": 11,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Excavation",
     "marker": "Month-end: October card finalizes"
   },
-  "openingMessage": "Every crew in the field comes home today. That's not a goal — that's the standard. Here's how we hold it.",
+  "openingMessage": "The field doesn't care how your morning started. It cares whether you're ready. Let's make sure we are.",
   "openingAttribution": null,
-  "openingWhy": "A man goes down at a thief hatch and every good hand's first instinct is to run to him. That instinct — no air, no test — is how one man down becomes three. The standard exists so that nobody's best instinct becomes the worst decision of his life.",
+  "openingWhy": "H2S doesn't know you slept bad, fought with the house, or that the truck's AC quit. A hundred ppm at the hatch is a hundred ppm. The gas shows up ready every single day. The only question on the table is whether you do.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Slow down at the dig. Authorization before excavation is not bureaucracy. It's the step that has protected every crew that didn't lose someone.",
+  "leadershipThought": "If conditions change underground, you don't push through. You get out. You reassess. You re-authorize. That is not weakness — that is discipline.",
   "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-10-26",
@@ -196,7 +196,7 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Stop work was a big conversation due to weather</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Stop Work Authority)</span><br><span style='font-size:13px;'>Good communication and understanding the rules and regulations.</span><br><br><strong>The crew killed the well then began taking apart the top of the well swivel</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Communication is somthing we can always work on getting better at .</span><br><br><strong>Replacement of a packing on a wellhead stuffing box</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The job went safely and quuckly once we were able to get the well on a vacuum.</span><br><br><strong>Good communication between all associates on the lease during the job compe</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything went well and this job and there was no real room foe improvement.</span><br><br><strong>Hold point was utilized when they started moving parts with the forklift</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Raymundo Solis]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Try to understand the history of the location if any issues has occurred before.</span>",
+  "exxonMoments": "<strong>Changing the seal pump</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Next job will be held to the same standards and executed the same way.</span><br><br><strong>A disconnection of a stack and flow from the WH to set it up to be turned i</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Trevor Mckenzie 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Be open to criticism if it could potentially teach you something new or how to possibly do your job even just a little bit better than before.</span><br><br><strong>The crew conducted a safety meeting before starting work to review the LSRA</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue reviewing LSRAs, verifying atmospheric conditions before work begins, and maintaining clear communication throughout the job to ensure hazards are identified and controlled.</span><br><br><strong>Unsafe conditions was a big topic for this job, cellar was full of water so</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Identify other factors that may affect the job (weather,& wild life).</span><br><br><strong>Pretty essay and quick meeting with all the info needed it to get the job d</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything and great communication with all the people in location.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -241,8 +241,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Three rules, one day. Do right when the readings say stop. Do your best on the job nobody sees. And coach the newest hand the way you wish someone had coached you.",
-  "todaysChallengeSubtext": "“Do right. Do your best. Treat others as you want to be treated.” — Lou Holtz",
+  "todaysChallenge": "'Everyone goes home safe' is the goal. The plan is the five: tested, monitored, attended, rescue staged, permit signed. Stay with the plan today — especially when it's inconvenient.",
+  "todaysChallengeSubtext": "“Setting a goal is not the main thing. It is deciding how you will go about achieving it and staying with that plan.” — Tom Landry",
   "compliance": {
     "weekOf": "Week of October 26, 2026",
     "metrics": [
@@ -263,37 +263,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Mon 10/26"
-  },
-  "specialFocus": {
-    "week": 20,
-    "until": "2026-10-27",
-    "title": "Caleb's Week Starts Strong — The Wins Worth Naming, Then Excavation",
-    "why": "Caleb's hosting this week, and we start it on the front foot. Yesterday we told the trailer 600 story. This morning is about what this crew did right last week, straight from the office's own reviews of our forms, then the topic for the week: Excavation. Caleb runs the most spread-out team we have (workover, flowback and SM maintenance, days and nights), and that's the team most likely to be standing next to a hole in the ground. So: hear the names, hear the numbers, then talk about how we work around open ground.",
-    "standardLabel": "Wins Worth Naming — Straight From Last Week's Reviews",
-    "standard": [
-      "The scoreboard for last week: 201 of 212 daily H2S forms (95%) and 53 of 56 trailer inspections (95%). Readiness forms finished at 39 of 45, which is the one to push this week. Every trailer move gets its readiness form.",
-      "Turnarounds that deserve a hand. Caleb Smith on Friday: three trailer inspections for 604 and two air jobs, every photo taken that day, which finally clears the old truck-ball photo that had been flagged since September. Dawson Drake ran clean on Thursday and Friday after topping the office's attention list for Oct 8–14. Ralph Forbes was back to complete trailer paperwork on Saturday, every bottle's pressure and hydro date on trailer 503. Tyrell Sanders filed complete Learn sections with every photo taken that day on Friday.",
-      "Catches that kept people safe. Sunday at Scarlet Unit 2, Michael Jobe saw a crane crew with no tag line or spotter and told them they had to have one before the lift. Last Thursday at Hernandez 20 #1, Kedrick McCarter used a hold point when they stopped pumping down the well to bring in the crane, and wrote the most thorough narrative of the day. Ralph Forbes and Raymundo Solis set their exclusion zones before the work started.",
-      "Paperwork done right. Sunday's most complete set of forms came from Rolando Flores, and the cleanest trailer form of the day came from Robert Henigan: every bottle recorded, every photo taken that day, and 'anything wrong or missing' answered. Larry Taylor's Cactus 139 rig-up had every photo from that day and the alarms recorded as tested. Jacob Hernandez ran clean and flagged a form problem so it can get fixed. Clean days also from Alexander Clubb, Jordan Lemmons, Stefanie Kirschke, Humberto Marquez-Salazar and Nathan Contreras.",
-      "Excavation, part one: the hole is a hazard before anyone gets in it. H2S and other heavy gases settle in low spots: bell holes, trenches and cellars. Test the air at the bottom of the hole BEFORE anyone steps in, and keep monitoring while they're down there, because the air changes as the digging goes. Verify the locate and the authorization before the first shovel, and hand-dig near any flag.",
-      "Excavation, part two: ground conditions change, so keep checking. Rain, a full cellar, a spoil pile at the edge or a truck parked too close all change the hole. Keep spoil and equipment at least 2 feet back from the edge. A trench 4 feet or deeper needs a ladder or ramp within 25 feet, and 5 feet or deeper needs a protective system (sloping, shoring or a trench box). If the walls, the water or the air change, everybody out, then reassess."
-    ],
-    "scenarios": [
-      {
-        "title": "The Bell Hole on the Flowline",
-        "body": "A crew digs a bell hole to get at a leaking flowline. It's about four and a half feet deep and the monitor reads clean at the top, so a hand starts down to look at the leak. Stop right there. The top of the hole tells you about the top of the hole. The leak is at the bottom, and H2S is heavier than air. Run it again: probe or hose the bottom first, a top man watching, monitor on the man in the hole, a ladder in the hole, and spoil and trucks back from the edge. Caleb, ask the circle: who has worked a dig like this, and what did the bottom reading show that the top didn't?"
-      },
-      {
-        "title": "The Tag Line Nobody Brought",
-        "body": "This one is ours, from Sunday. The crane crew was set to make a lift with no tag line and no spotter. Michael Jobe saw it and told them they had to have one, and the lift waited until they did. Nobody got hurt, and that's the point. The catch happened before anything swung. Around a dig it's the same habit: the backhoe swing radius, the edge of the hole, the load over the trench. Speak up before it moves, not after. Then write it down: Michael's note is how we know this happened at all."
-      }
-    ],
-    "questions": [
-      "Caleb's team runs workover, flowback and maintenance. Where this month have you been near open ground, a bell hole or a cellar? What did you check first?",
-      "How do you test a hole before anyone climbs in? Walk us through top, middle and bottom.",
-      "Michael wouldn't let the lift go without a tag line and spotter. What's the one thing you won't let start without?",
-      "Caleb's question: what did the field teach us last week that the breakroom should know?"
-    ],
-    "nonNegotiable": "Name the wins and keep the standard: test the bottom of the hole before anyone steps in, verify the locate, keep spoil and trucks back from the edge, and get everyone out to reassess when the ground, the water or the air changes. Great start, Caleb. Let's run the whole week like this."
   }
 }
