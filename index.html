@@ -5509,6 +5509,65 @@ function renderJobLogView(v) { _jlView = v; _jlPaint(); }
 let _formqc = null;
 let _ssreview = null;
 let _compstats = null;
+
+// Compliance Stats leaderboard — every ranked tech, best → worst, with tier,
+// trend and biggest gap; sort + search re-render only the list so the search
+// box keeps focus.
+const _CS_TIERS = [
+  { k: 'Top', range: '95%+', min: 95, c: '#166534', bg: '#f0fdf4' },
+  { k: 'Solid', range: '90–95%', min: 90, c: '#1d4ed8', bg: '#eff6ff' },
+  { k: 'Watch', range: '80–90%', min: 80, c: '#b45309', bg: '#fffbeb' },
+  { k: 'Needs work', range: 'under 80%', min: -1, c: '#b00020', bg: '#fdf2f2' },
+];
+let _csRankMode = 'best', _csRankQ = '';
+function _csTier(p) { return _CS_TIERS.find(t => p >= t.min); }
+function _csRankRows() {
+  const rk = _compstats && _compstats.rankings;
+  if (!rk) return '';
+  // Matt ranks worst → best; the shown # is the best-first position
+  const all = rk.rows.slice().reverse().map((r, i) => ({ ...r, pos: i + 1 }));
+  let list = all;
+  if (_csRankMode === 'worst') list = all.slice().reverse();
+  if (_csRankMode === 'improved') list = all.filter(r => r.sep != null && r.oct != null).sort((a, b) => (b.oct - b.sep) - (a.oct - a.sep));
+  const q = _csRankQ.trim().toLowerCase();
+  if (q) list = list.filter(r => (r.tech + ' ' + r.cust + ' ' + r.div).toLowerCase().includes(q));
+  if (!list.length) return '<div style="padding:10px 12px; font-size:12px; color:var(--muted); font-style:italic;">No tech matches that search.</div>';
+  const gapLbl = r => {
+    const g = [['daily forms', r.day], ['night forms', r.night], ['trailer inspection', r.insp], ['trailer readiness', r.ready]].sort((a, b) => b[1] - a[1])[0];
+    return r.missed ? `most missed: ${g[0]} (${g[1]})` : 'no misses';
+  };
+  return list.map((r, i) => {
+    const t = _csTier(r.pct);
+    const d = r.sep != null && r.oct != null ? Math.round(r.oct - r.sep) : null;
+    const arrow = d == null ? '' : d > 0 ? `<strong style="color:#166534;">&#9650; ${d}</strong>` : d < 0 ? `<strong style="color:#b00020;">&#9660; ${-d}</strong>` : '<strong style="color:var(--muted);">=</strong>';
+    const trend = r.sep != null ? `Sept ${Math.round(r.sep)}% &rarr; Oct ${r.oct != null ? Math.round(r.oct) + '%' : 'not audited'} ${arrow}` : `Oct ${r.oct != null ? Math.round(r.oct) + '%' : '—'} (new)`;
+    return `<div style="padding:6px 12px; border-top:1px solid #eef2f9; ${i % 2 ? 'background:#fafbfc;' : ''}">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span style="flex-shrink:0; width:30px; text-align:right; font-size:12px; font-weight:900; color:${t.c};">#${r.pos}</span>
+        <span style="flex:1; min-width:0; font-size:13.5px; font-weight:800;">${r.tech}</span>
+        <span style="flex-shrink:0; text-align:right; font-size:15px; font-weight:900; color:${t.c};">${r.pct}%</span>
+      </div>
+      <div style="margin:3px 0 0 38px; height:7px; background:#eef2f9; border-radius:99px; overflow:hidden;"><div style="height:100%; width:${Math.max(2, r.pct)}%; background:${t.c};"></div></div>
+      <div style="margin:3px 0 0 38px; font-size:11px; color:var(--muted); line-height:1.45;">
+        <span style="background:${t.bg}; color:${t.c}; border-radius:99px; padding:0 7px; font-weight:800;">${t.k}</span>
+        ${r.missed} missed of ${r.checks} &middot; ${trend} &middot; ${gapLbl(r)} &middot; ${r.cust}
+        ${r.flags ? `<span style="color:#b00020; font-weight:700;"> &middot; &#9873; ${r.flags}</span>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+}
+function _csRankSet(mode, q) {
+  if (mode != null) _csRankMode = mode;
+  if (q != null) _csRankQ = q;
+  const el = document.getElementById('cs-rank-list');
+  if (el) el.innerHTML = _csRankRows();
+  document.querySelectorAll('[data-csmode]').forEach(b => {
+    const on = b.dataset.csmode === _csRankMode;
+    b.style.background = on ? '#0f766e' : '#fff';
+    b.style.color = on ? '#fff' : '#0f766e';
+  });
+}
+
 async function renderJobLog() {
   const el = document.getElementById('joblog-content');
   if (!el) return;
@@ -6129,7 +6188,46 @@ function _jlPaint() {
         ${sp.takeaways.map(s => `<div style="display:flex; gap:7px; padding:3px 0; font-size:12px; line-height:1.5;"><span style="color:#0f766e; font-weight:800;">&#8226;</span><span>${s}</span></div>`).join('')}
         <div style="font-size:10.5px; color:var(--muted); margin-top:5px;">${sp.sheet}</div>
       </div>`;
-    const wkHtml = !wk ? '' : `
+    // quick reference: four-number scoreboard + one-line hits + the every-tech leaderboard
+    const qk = cs.quick, rk = cs.rankings;
+    const qTone = { ok: '#166534', bad: '#b00020', warn: '#b45309' };
+    const qKey = { 'Win': '#166534', 'Gap': '#b00020', 'Talk to': '#b45309', 'Close out': '#1F3864' };
+    const quickHtml = !qk ? '' : `
+      <div style="border:2px solid #0f766e; border-radius:12px; overflow:hidden; margin-bottom:12px; background:#fff;">
+        <div style="background:#0f766e; color:#fff; padding:8px 12px; display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:4px;">
+          <span style="font-size:14px; font-weight:900;">&#9889; Quick Reference — ${qk.label}</span>
+          <span style="font-size:12px; font-weight:800; color:#FFD966;">${qk.headline}</span>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(88px, 1fr)); gap:6px; padding:10px 10px 4px;">
+          ${qk.tiles.map(t => `<div style="text-align:center; border-radius:10px; padding:8px 6px; background:${t.tone === 'bad' ? '#fdf2f2' : '#f0fdf4'}; border:1px solid ${qTone[t.tone]}33;">
+            <div style="font-size:28px; font-weight:900; line-height:1.05; color:${qTone[t.tone]};">${t.v}</div>
+            <div style="font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.04em; color:var(--text); margin-top:2px;">${t.m}</div>
+            <div style="font-size:11.5px; font-weight:800; color:${qTone[t.tone]};">${t.chg}</div>
+          </div>`).join('')}
+        </div>
+        <div style="padding:6px 12px 10px;">
+          ${qk.hits.map(h => `<div style="display:flex; gap:8px; align-items:baseline; padding:3px 0; font-size:12.5px; line-height:1.45;">
+            <span style="flex-shrink:0; min-width:66px; text-align:center; background:${qKey[h.k] || '#1F3864'}; color:#fff; border-radius:99px; padding:1px 8px; font-size:10.5px; font-weight:800; text-transform:uppercase;">${h.k}</span><span>${h.t}</span></div>`).join('')}
+        </div>
+      </div>`;
+    const rankHtml = !rk ? '' : `
+      <div style="border:2px solid #1F3864; border-radius:12px; overflow:hidden; margin-bottom:14px; background:#fff;">
+        <div style="background:#1F3864; color:#fff; padding:8px 12px;">
+          <div style="font-size:14px; font-weight:900;">&#127942; ${rk.label}</div>
+          <div style="font-size:10.5px; opacity:.85; margin-top:2px;">${rk.note}</div>
+        </div>
+        <div style="padding:8px 12px 4px; display:flex; gap:6px; flex-wrap:wrap; align-items:center;">
+          ${[['best', 'Best first'], ['worst', 'Needs work first'], ['improved', 'Most improved']].map(([m, l]) => `<button data-csmode="${m}" onclick="_csRankSet('${m}')" style="border:2px solid #0f766e; border-radius:99px; padding:3px 10px; font-size:11.5px; font-weight:800; cursor:pointer; background:${_csRankMode === m ? '#0f766e' : '#fff'}; color:${_csRankMode === m ? '#fff' : '#0f766e'};">${l}</button>`).join('')}
+          <input type="search" placeholder="Find a tech or customer…" value="${_csRankQ.replace(/"/g, '&quot;')}" oninput="_csRankSet(null, this.value)" style="flex:1; min-width:160px; border:1px solid #c9d2e3; border-radius:99px; padding:5px 12px; font-size:12.5px;">
+        </div>
+        <div style="padding:2px 12px 6px; display:flex; gap:6px; flex-wrap:wrap; font-size:11px;">
+          ${_CS_TIERS.map(t => `<span style="background:${t.bg}; color:${t.c}; border:1px solid ${t.c}55; border-radius:99px; padding:1px 9px; font-weight:800;">${t.k} ${t.range} &middot; ${rk.rows.filter(r => _csTier(r.pct) === t).length}</span>`).join('')}
+        </div>
+        <div id="cs-rank-list">${_csRankRows()}</div>
+        ${rk.small && rk.small.length ? `<div style="padding:6px 12px 10px; font-size:11px; color:var(--muted); line-height:1.5; border-top:1px solid #eef2f9;"><strong>Not ranked (under 15 checks):</strong> ${rk.small.map(s => `${s.tech} ${s.pct}% (${s.checks - s.missed}/${s.checks})`).join(' &middot; ')}</div>` : ''}
+      </div>`;
+    const detOpen = (icon, txt) => `<details style="border:1px solid #c9d2e3; border-radius:10px; margin-bottom:10px; background:#fff;"><summary style="cursor:pointer; padding:10px 12px; font-size:13px; font-weight:800; color:var(--navy);">${icon} ${txt} <span style="font-weight:400; font-size:11px; color:var(--muted);">— tap to open</span></summary><div style="padding:0 12px 10px;">`;
+    const wkHtml = !wk ? '' : `${detOpen('&#128197;', `Full weekly report — ${wk.label}: concerns, attention list, best techs, actions`)}
       <div style="background:#1F3864; color:#fff; border-radius:8px; padding:9px 12px; margin-bottom:8px;">
         <div style="font-size:13.5px; font-weight:800;">&#128197; ${wk.label} — latest weekly audit</div>
         <div style="font-size:11px; opacity:.9; margin-top:2px;">${wk.source}</div>
@@ -6166,18 +6264,19 @@ function _jlPaint() {
       ${secHdr('Recommended Actions — this week', '#0f766e')}
       <div style="background:#f0fdfa; border:1px solid #99e6dd; border-radius:10px; padding:8px 12px; margin-bottom:14px;">
         ${wk.actions.map((s, i) => `<div style="display:flex; gap:8px; padding:3px 0; font-size:12px; line-height:1.5;"><span style="color:#0f766e; font-weight:800;">${i + 1}.</span><span>${s}</span></div>`).join('')}
-      </div>
-      ${spHtml}
-      <div style="border-top:3px double #c9d2e3; margin:10px 0 14px;"></div>
-      <div style="font-size:13.5px; font-weight:900; color:var(--navy); margin-bottom:8px;">${mo.label} — Monthly Review (archived)</div>`;
+      </div></div></details>
+      ${sp ? `${detOpen('&#128200;', `${sp.label}: missed areas, best, most improved, focus list`)}${spHtml}</div></details>` : ''}`;
     body = `
       <div style="background:#0f766e; color:#fff; border-radius:0 8px 8px 8px; padding:10px 14px; margin-bottom:12px;">
-        <div style="font-size:14px; font-weight:800;">&#128202; Internal Compliance Stats — ${wk ? wk.label + ' + ' : ''}${sp ? sp.label.split(' — ')[0] + ' rankings + ' : ''}${mo.label} + ${yt.label}</div>
+        <div style="font-size:14px; font-weight:800;">&#128202; Internal Compliance Stats</div>
         <div style="font-size:11.5px; opacity:.9; margin-top:3px;">${cs.source}</div>
         <div style="font-size:10.5px; opacity:.75; margin-top:3px;">${cs.method}</div>
       </div>
 
+      ${quickHtml}
+      ${rankHtml}
       ${wkHtml}
+      ${detOpen('&#128193;', `${mo.label} monthly review + ${yt.label} (archive)`)}
 
       ${glanceTiles(mo.glance, 'Aug')}
 
@@ -6267,7 +6366,8 @@ function _jlPaint() {
           <div style="font-size:10.5px; color:#92400e; margin-top:3px; line-height:1.45;">${yt.followUp}</div>
         </div>
       </div>
-      <div style="font-size:11px; color:var(--muted); margin-top:10px; line-height:1.5;">&#9878; ${yt.note} Live open-month scoring stays on the Safety Compliance tab; this view is the auditor's scored look-back and refreshes when Matt's next monthly review lands.</div>`;
+      <div style="font-size:11px; color:var(--muted); margin-top:10px; line-height:1.5;">&#9878; ${yt.note} Live open-month scoring stays on the Safety Compliance tab; this view is the auditor's scored look-back and refreshes when Matt's next monthly review lands.</div>
+      </div></details>`;
   } else {
     // a single day's sheet, grouped by category like the job board
     const dayJobs = jobs.filter(j => j.date === _jlView);
