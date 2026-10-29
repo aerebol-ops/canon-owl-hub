@@ -228,37 +228,37 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Andrew Bailey / Humberto Salazar — Job planned , crew working safely to complete task",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "headline": "Caleb Smith / Jerry Gonzales — Job scope was to add flowline and plumbing to wellhead",
+      "detail": "No lessons learned today.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Gael \"Antonio\" Avila 1099 — A great meeting between all to discuss the LMRAs and LSRAs as they pertain",
-      "detail": "Strive to be better tomorrow than we were today because true perfection can never be accomplished, but you can always learn more day to day.",
+      "headline": "Jacob Hernandez / Baldemar Bracomontes 1099 — Had pre task meeting, made sure everyone knew the job scope and hazards ass",
+      "detail": "Crew went over the wellhead and verified zero energy, strong communication between safety crew and roustabout crew ensured job was completed without incident.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Bobby Galindo 1099 — All crew worked safely and effectively throughout the day",
-      "detail": "When working safe equals eliminating potential hazards.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Luis Zarate / Gael \"Antonio\" Avila 1099 — Good communication and good understanding about every aspect of the job and",
-      "detail": "The job was done the safest way possible and the correct way.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Raymundo Solis / Robbie Henigan 1099 — Atmospheric testing- both test were done under air there was no gas detecte",
-      "detail": "Nothing really because everything went well.",
+      "headline": "Dawson Drake / Kedrick Mccarter 1099 — A disconnect on a old well",
+      "detail": "All jobs are held to the same standard and the highest standard.",
       "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Michael Jobe / Robbie Henigan 1099 — Crew worked in a safe manner got the job completed safely",
+      "detail": "Be better in the meetings.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Raymundo Solis / Tyrell Sanders — Job scope completed - a leak was detected on the injection had roustabout c",
+      "detail": "Everything went well all on location communicated with each other.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
@@ -276,21 +276,21 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 82,
-        "total": 85
+        "done": 124,
+        "total": 127
       },
       {
         "label": "Trailer Inspections",
-        "done": 21,
-        "total": 21
+        "done": 31,
+        "total": 32
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 18,
-        "total": 23
+        "done": 31,
+        "total": 36
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/27"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 10/28"
   },
   "specialFocus": {
     "week": 20,
