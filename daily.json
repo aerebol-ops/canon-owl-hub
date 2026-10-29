@@ -199,13 +199,25 @@
     ]
   },
   "formReview": {
-    "date": "2026-10-27",
-    "label": "Tuesday 10/27",
+    "date": "2026-10-28",
+    "label": "Wednesday 10/28",
     "verdict": "",
     "concerns": [
       {
-        "title": "Dawson Drake — SM Energy, Junior Mint, Jal NM — air job, ended 4:41 PM, job 36358. The technician records in writing that no atmospheric testing was performed on an air j",
-        "quote": "There was no atmosphere testing due to where they were working out was high up in the air, and I couldn't reach it with the wond , but they worked under air"
+        "title": "Benjamin Boutte (1099) — SM Energy, Junior Mint Fed Com, H2S daily, form time 4:20 PM, submitted 7:52 PM. A sensor was taken out of service in the field and the form repo",
+        "quote": "I have 3 censors working the one by the well was showing 1 so I disconnect it and put it in trailer all other 3 is working and that enuff scencor to cover rig but a complete rig check is due on this rig the alarm done went off several times/false alarm"
+      },
+      {
+        "title": "Michael Ellis — Comstock Resources, Patterson 904, Circle M Alloc B 3H, rig down, job 36295, ended 4:10 PM. Equipment came off location short one sensor and no manager is",
+        "quote": "Damaged or Missing Equipment: Missing one sensor"
+      },
+      {
+        "title": "Jordan Lemmons — SM Energy, Queen Keely CTB, Trailer Readiness Form, trailer 152, form time 3:24 PM. Six charged cascade bottles, all well below a full charge, and nothin",
+        "quote": "— positions 7 through 10 read"
+      },
+      {
+        "title": "Stefanie Kirschke — SM Energy, McDaniel B Chriesman, Trailer Readiness Form, trailer 175, form time 2:00 PM. Low cascade pressures and one hydro date that needs checking.",
+        "quote": "— positions 7 through 10 read"
       }
     ]
   },
@@ -216,37 +228,37 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Humberto Salazar — Good communication between my and all crew",
-      "detail": "Everything in job scope went well.",
+      "headline": "Andrew Bailey / Humberto Salazar — Job planned , crew working safely to complete task",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Luis Zarate / Cindy Smith 1099 — Crew replaced spools on wellhead but they were the wrong ones and had to wa",
-      "detail": "Continue to grow communication with MT and crew.",
-      "psms": "Hot Work",
-      "level": "duck"
-    },
-    {
-      "type": "good",
-      "headline": "Dawson Drake / Kedrick Mccarter 1099 — Crew disconnected the well after we checked for any hazardous gas",
-      "detail": "Communication in the safety meeting.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Jeremy Norris / Gael \"Antonio\" Avila 1099 — A great meeting between all to discuss the LMRAs and LSRAs as they pertain",
+      "detail": "Strive to be better tomorrow than we were today because true perfection can never be accomplished, but you can always learn more day to day.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis / Tyrell Sanders — Established and verified safety control measures, including atmospheric haz",
-      "detail": "Ensuring all connections and pressure isolations across all annuli are thoroughly checked prior to line breaks, while ensuring location cleanup and housekeeping are handl",
-      "psms": "Atmospheric Monitoring",
-      "level": "duck"
+      "headline": "Jeremy Norris / Bobby Galindo 1099 — All crew worked safely and effectively throughout the day",
+      "detail": "When working safe equals eliminating potential hazards.",
+      "psms": "Operational Discipline",
+      "level": null
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Robbie Henigan 1099 — Had a great meeting crew did job in a safe manner",
-      "detail": "Show more on the testing.",
+      "headline": "Luis Zarate / Gael \"Antonio\" Avila 1099 — Good communication and good understanding about every aspect of the job and",
+      "detail": "The job was done the safest way possible and the correct way.",
       "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Raymundo Solis / Robbie Henigan 1099 — Atmospheric testing- both test were done under air there was no gas detecte",
+      "detail": "Nothing really because everything went well.",
+      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {

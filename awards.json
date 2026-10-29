@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28",
+ "generated": "2026-10-29",
  "months": [
   {
    "month": "2026-09",
@@ -7,29 +7,29 @@
    "scope": "since 9/17 — job-packet data starts there",
    "diligence": {
     "winner": {
-     "who": "Pablo Soto",
-     "jobs": 7,
-     "complete": 7,
-     "pct": 100
+     "who": "Jordan Lemmons",
+     "jobs": 10,
+     "complete": 9,
+     "pct": 90
     },
     "board": [
      {
-      "who": "Pablo Soto",
-      "jobs": 7,
-      "complete": 7,
-      "pct": 100
-     },
-     {
       "who": "Jordan Lemmons",
-      "jobs": 12,
-      "complete": 11,
-      "pct": 92
+      "jobs": 10,
+      "complete": 9,
+      "pct": 90
      },
      {
-      "who": "Dawson Drake",
-      "jobs": 5,
+      "who": "Jeremy Norris",
+      "jobs": 8,
+      "complete": 5,
+      "pct": 62
+     },
+     {
+      "who": "Michael Jobe",
+      "jobs": 7,
       "complete": 4,
-      "pct": 80
+      "pct": 57
      }
     ]
    },
