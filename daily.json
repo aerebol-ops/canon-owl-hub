@@ -279,5 +279,37 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 10/27"
+  },
+  "specialFocus": {
+    "week": 20,
+    "until": "2026-10-29",
+    "title": "Excellence Lives in the Details — The Davit Arm, Done Right",
+    "why": "All week the message has been the same: excellence lives in the small details. Monday, the trailer 600 forms proved our crew did everything right. Tuesday, we named the wins. Yesterday, it was the label on a mask bag. This morning it's the davit arm. As of this week, when an XTO work order says BELOW GRADE, the crew takes the davit arm rescue system. Our crews didn't just bring it, they rigged it right. Look at this photo: the davit set over the vertical entry, the winch and lifeline rigged, lights up on the work, and the tech working the hatch in his harness. Nobody in that picture is cutting a corner. That's what excellence looks like when nobody is filming.<div style=\"max-width:340px;margin:12px auto 4px;\"><a href=\"highlights/2026-10-davit-arm/davit-arm-vertical-entry.jpg\" target=\"_blank\" style=\"text-decoration:none;color:inherit;\"><img src=\"highlights/2026-10-davit-arm/davit-arm-vertical-entry.jpg\" alt=\"Davit arm rigged over a vertical entry hatch at night, lights up, tech in harness at the hatch\" loading=\"lazy\" style=\"width:100%;border-radius:8px;display:block;\"><div style=\"font-size:11px;color:#555;margin-top:3px;text-align:center;\">Davit arm vertical entry: rigged, lit and staged right</div></a></div>",
+    "standardLabel": "The Details That Make It Excellent",
+    "standard": [
+      "The rule: BELOW GRADE on the work order means the davit arm goes. It's flagged on the job board and on the breakroom page now, so check for it the night before. Finding out on location means the crew waits on us, or worse, works without it.",
+      "Rigged right, every piece, every time: base set and secure over the opening, mast and arm locked in, winch and lifeline checked before anyone hooks on, harness inspected and connected before entry, the opening kept clear, and light on the work at night. A rescue system that's 'mostly' set up isn't a rescue system.",
+      "The air first, and the whole time. Tuesday at Pratt Vaughn 21F 106H, the first job under the new below-grade rule, the crew tested the atmosphere before starting the cellar work and kept monitoring throughout, with every reading at zero. And it's written down in their notes, which is how anyone can prove it.",
+      "The rescue plan said out loud. Rolando Flores and Nathan Contreras's crew held the safety meeting on the hazards and the triggers that would stop the job, and confirmed the nearest hospitals and muster areas before the first step. A davit arm is only as good as the plan behind it. Both of their forms came in complete, with full close-outs. That's excellence on paper too.",
+      "Small details done right this week, straight from the office's form reviews. Complete bottle pressures and hydro dates on every trailer from Bobby Galindo, Cindy Smith, Humberto Marquez-Salazar, Jordan Lemmons and Alexander Clubb (Monday). Andrew Bailey filed three trailer inspections for 272, Tyrell Sanders a complete OWL on Massey Unit, Jerry Gonzales both trailer 606 inspections, Raymundo Solis full details on his field service forms, and Chris Cochren a complete H2S awareness class (Tuesday).",
+      "Connect the week: the light on the trailer, the label on the mask bag, the pin in the davit base, the reading in the notes. None of them is big on its own. Together, they're the difference between a crew that hopes it's safe and a crew that knows it."
+    ],
+    "scenarios": [
+      {
+        "title": "Read the Photo Like an Inspector",
+        "body": "Caleb, put the davit photo up and go around the circle. Each person names one detail they can see that's done right: the base over the opening, the arm, the winch and lifeline, the lighting, the tech in his harness, the deck clear around the hatch. Then flip it: what's the one thing you'd check in person that a photo can't show? The pins, the lifeline condition, the anchor, who the attendant is, what the air reads at the bottom. That's the habit: see what's right, then verify what you can't see."
+      },
+      {
+        "title": "BELOW GRADE — The Night Before",
+        "body": "It's 8 PM and tomorrow's board is out. Your job says BELOW GRADE. What happens next decides how the morning goes. Is the davit arm on your trailer, or do you need to pick one up? Is the lifeline in date? Do you know who's attending and who's the rescue? Pull it together tonight. If you find out at the wellhead, the whole crew stands around waiting on Canon, or someone decides to 'just be careful' without it. Excellence starts the night before."
+      }
+    ],
+    "questions": [
+      "Look at the photo: what's one detail done right that you'll copy on your next davit job?",
+      "Your job says BELOW GRADE. Walk us through what you check the night before, then again on location before anyone goes down.",
+      "What small detail did you get right this week that nobody saw? Say it, because it counted.",
+      "Caleb's question: what did the field teach us yesterday that the breakroom should know?"
+    ],
+    "nonNegotiable": "BELOW GRADE means the davit arm goes, rigged right, with the air tested before and throughout and the rescue plan said out loud. Excellence lives in the details: the light, the label, the pin, the reading. Do the small things right every time."
   }
 }
