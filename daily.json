@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "week": 20,
-  "day": 4,
+  "day": 5,
   "topicWeek": 9,
   "displayWeek": 11,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Excavation",
     "marker": "Month-end: October card finalizes"
   },
-  "openingMessage": "Small things done right every day are what build the kind of crew people want to work next to. That's what we're doing here.",
+  "openingMessage": "The meeting isn't the safety program. The meeting is where we sharpen it. The field is where we prove it.",
   "openingAttribution": null,
-  "openingWhy": "Nobody ever got hurt by the fitting they checked. A skipped bump test, a soft tire on a washed-out lease road, grease that didn't happen — small skips feel free right up until the day they collect. Every big wreck in this field started life as a little shortcut that worked fine last time.",
+  "openingWhy": "July 13, TXL 27 Unit 4 — Ralph Forbes ran his LMRA on valves the paperwork said were bled off. They weren't. Trapped pressure, found before the break instead of during it. That's this meeting doing its job out there.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Treat the locate as a starting point, not a guarantee. Hand-dig near any flag. Verify by sight. The utility map was last updated before something was buried.",
+  "leadershipThought": "Own the process. Own the verify. Own the outcome. Precision in the field is what separates a completed job from an investigation.",
   "yesterdaysJobs": {
     "date": "2026-10-27",
     "label": "Tuesday, October 27",
@@ -224,7 +224,7 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Job scope was convert wellhead to gas lift</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Had meeting did catch a bee hive in let the MT know</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Had meeting crew worked in a safe manner did our test all was good.</span><br><br><strong>Good communication and good understanding about every aspect of the job and</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The job was done the safest way possible and the correct way.</span><br><br><strong>Tube inspection replace rubber on stuffing box</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Job scope completed - a leak was detected on the injection had roustabout c</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything went well all on location communicated with each other.</span>",
+  "exxonMoments": "<strong>They had to do a reconnect</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Brianda Sandoval / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>At 10/17/2026 11:35 AM Unnamed Road Stanton, TX 79782</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Atmospheric Monitoring — Dawson Drake / Robbie Henigan 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>We had pipeline workers near us on the same pad, company rep asked us to se</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Caleb Smith / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>All crew members were active and attentive on location while work was being performed.</span><br><br><strong>Hold point was done for every task, closed off entrance with cones for our</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Justin Fontenot 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Better communication about other hazards outside the job scope.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -241,8 +241,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "'Everyone goes home safe' is the goal. The plan is the five: tested, monitored, attended, rescue staged, permit signed. Stay with the plan today — especially when it's inconvenient.",
-  "todaysChallengeSubtext": "“Setting a goal is not the main thing. It is deciding how you will go about achieving it and staying with that plan.” — Tom Landry",
+  "todaysChallenge": "When the job goes sideways today — weather, delays, a hot line — nobody needs your frustration, they need your next right call. Lead the response, not the complaint.",
+  "todaysChallengeSubtext": "“During critical periods, a leader is not allowed to feel sorry for himself.” — Mike Krzyzewski",
   "compliance": {
     "weekOf": "Week of October 26, 2026",
     "metrics": [
