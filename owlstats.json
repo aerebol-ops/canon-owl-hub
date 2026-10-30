@@ -10,7 +10,7 @@
   "blankForms": 9,
   "excusedBlanks": 1,
   "totalForms": 1330,
-  "techs": 140,
+  "techs": 189,
   "locations": 846,
   "firstDate": "09/08/2026",
   "lastDate": "10/27/2026",
@@ -109,33 +109,65 @@
       "text": "Continue to grow communication with MT and crew"
     },
     {
-      "who": "Jeremy Norris / Gael \"Antonio\" Avila 1099",
-      "date": "10/26/2026",
+      "who": "Larry Jaramillo / William \"Jimmy\" Cooper 1099",
+      "date": "10/27/2026",
+      "text": "Ensure everyone has on their proper PPE prior to work beginning..."
+    },
+    {
+      "who": "Nathan Contreras / Rolando Flores 1099",
+      "date": "10/27/2026",
+      "text": "Continue reinforcing LSRA reviews, proper PPE use, and continuous atmospheric monitoring to maintain a safe work environment throughout all phases of the job."
+    },
+    {
+      "who": "Jeremy Norris / Tyrell Sanders",
+      "date": "10/27/2026",
       "text": "Strive to be better tomorrow than we were today because true perfection can never be accomplished, but you can always learn more day to day."
     },
     {
-      "who": "Dawson Drake / Kedrick Mccarter 1099",
-      "date": "10/24/2026",
-      "text": "All jobs are held to the same standard and the highest standard"
-    },
-    {
-      "who": "Luis Zarate / Kedrick Mccarter 1099",
-      "date": "10/23/2026",
-      "text": "Job was cancelled as the job was done on Wednesday"
-    },
-    {
-      "who": "Jeremy Norris / Bobby Galindo 1099",
-      "date": "10/23/2026",
-      "text": "Strive to be better on the next job better than we are today"
+      "who": "Jeremy Norris / Gael \"Antonio\" Avila 1099",
+      "date": "10/26/2026",
+      "text": "Strive to be better tomorrow than we were today because true perfection can never be accomplished, but you can always learn more day to day."
     }
   ],
   "people": [
     {
       "name": "Nathan Contreras / Rolando Flores 1099",
-      "submitted": 33,
+      "submitted": 56,
       "blank": 0,
       "excused": 0,
-      "filled": 33,
+      "filled": 56,
+      "pct": 100
+    },
+    {
+      "name": "Ralph Forbes / William \"Jimmy\" Cooper 1099",
+      "submitted": 39,
+      "blank": 1,
+      "excused": 0,
+      "filled": 38,
+      "pct": 97
+    },
+    {
+      "name": "Pablo Soto / Baldemar Bracomontes 1099",
+      "submitted": 21,
+      "blank": 0,
+      "excused": 0,
+      "filled": 21,
+      "pct": 100
+    },
+    {
+      "name": "Luis Zarate / Cindy Smith 1099",
+      "submitted": 20,
+      "blank": 0,
+      "excused": 0,
+      "filled": 20,
+      "pct": 100
+    },
+    {
+      "name": "Andrew Bailey / Justin Fontenot 1099",
+      "submitted": 18,
+      "blank": 0,
+      "excused": 0,
+      "filled": 18,
       "pct": 100
     },
     {
@@ -163,7 +195,23 @@
       "pct": 94
     },
     {
+      "name": "Stefanie Kirschke / Rolando Flores 1099",
+      "submitted": 17,
+      "blank": 0,
+      "excused": 0,
+      "filled": 17,
+      "pct": 100
+    },
+    {
       "name": "Christian Lee",
+      "submitted": 16,
+      "blank": 0,
+      "excused": 0,
+      "filled": 16,
+      "pct": 100
+    },
+    {
+      "name": "Jacob Hernandez",
       "submitted": 16,
       "blank": 0,
       "excused": 0,
@@ -195,12 +243,12 @@
       "pct": 100
     },
     {
-      "name": "Ralph Forbes / William \"Jimmy\" Cooper 1099",
+      "name": "Luis Zarate / Jerry Gonzales",
       "submitted": 15,
-      "blank": 1,
+      "blank": 0,
       "excused": 0,
-      "filled": 14,
-      "pct": 93
+      "filled": 15,
+      "pct": 100
     },
     {
       "name": "Rolando Flores",
@@ -211,7 +259,7 @@
       "pct": 100
     },
     {
-      "name": "Jacob Hernandez",
+      "name": "Jeremy Norris / Bobby Galindo 1099",
       "submitted": 14,
       "blank": 0,
       "excused": 0,
@@ -219,15 +267,39 @@
       "pct": 100
     },
     {
-      "name": "Luis Zarate / Cindy Smith 1099",
+      "name": "Michael Jobe / Robbie Henigan 1099",
       "submitted": 14,
       "blank": 0,
       "excused": 0,
       "filled": 14,
+      "pct": 100
+    },
+    {
+      "name": "Ruben Rojo / Baldemar Bracomontes 1099",
+      "submitted": 14,
+      "blank": 0,
+      "excused": 0,
+      "filled": 14,
+      "pct": 100
+    },
+    {
+      "name": "Jacob Hernandez / Humberto Salazar",
+      "submitted": 13,
+      "blank": 0,
+      "excused": 0,
+      "filled": 13,
       "pct": 100
     },
     {
       "name": "Nathan Contreras",
+      "submitted": 13,
+      "blank": 0,
+      "excused": 0,
+      "filled": 13,
+      "pct": 100
+    },
+    {
+      "name": "Pablo Soto / Joseph Popillion 1099",
       "submitted": 13,
       "blank": 0,
       "excused": 0,
@@ -243,7 +315,31 @@
       "pct": 100
     },
     {
+      "name": "Jeremy Norris / Robbie Henigan 1099",
+      "submitted": 12,
+      "blank": 0,
+      "excused": 0,
+      "filled": 12,
+      "pct": 100
+    },
+    {
       "name": "Michael Jobe / Justin Fontenot 1099",
+      "submitted": 12,
+      "blank": 0,
+      "excused": 0,
+      "filled": 12,
+      "pct": 100
+    },
+    {
+      "name": "Raymundo Solis / Gael \"Antonio\" Avila 1099",
+      "submitted": 12,
+      "blank": 0,
+      "excused": 0,
+      "filled": 12,
+      "pct": 100
+    },
+    {
+      "name": "Ruben Rojo / Dermont Morgan 1099",
       "submitted": 12,
       "blank": 0,
       "excused": 0,
@@ -267,6 +363,14 @@
       "pct": 100
     },
     {
+      "name": "Bryan Medlin / Dermont Morgan 1099",
+      "submitted": 11,
+      "blank": 0,
+      "excused": 0,
+      "filled": 11,
+      "pct": 100
+    },
+    {
       "name": "Jose Hurtado",
       "submitted": 11,
       "blank": 0,
@@ -283,11 +387,19 @@
       "pct": 100
     },
     {
-      "name": "Stefanie Kirschke / Rolando Flores 1099",
-      "submitted": 11,
+      "name": "Hayden Haugh 1099 / Tyrell Sanders",
+      "submitted": 10,
       "blank": 0,
       "excused": 0,
-      "filled": 11,
+      "filled": 10,
+      "pct": 100
+    },
+    {
+      "name": "Jeremy Norris / Jerry Gonzales",
+      "submitted": 10,
+      "blank": 0,
+      "excused": 0,
+      "filled": 10,
       "pct": 100
     },
     {
@@ -299,6 +411,22 @@
       "pct": 90
     },
     {
+      "name": "Larry Jaramillo / Humberto Salazar",
+      "submitted": 10,
+      "blank": 0,
+      "excused": 0,
+      "filled": 10,
+      "pct": 100
+    },
+    {
+      "name": "Larry Jaramillo / Tyrell Sanders",
+      "submitted": 10,
+      "blank": 0,
+      "excused": 0,
+      "filled": 10,
+      "pct": 100
+    },
+    {
       "name": "Luis Zarate",
       "submitted": 10,
       "blank": 0,
@@ -307,7 +435,7 @@
       "pct": 100
     },
     {
-      "name": "Michael Jobe / Robbie Henigan 1099",
+      "name": "Luis Zarate / Humberto Salazar",
       "submitted": 10,
       "blank": 0,
       "excused": 0,
@@ -323,7 +451,31 @@
       "pct": 100
     },
     {
-      "name": "Jeremy Norris / Jerry Gonzales",
+      "name": "Raymundo Solis / Tyrell Sanders",
+      "submitted": 10,
+      "blank": 0,
+      "excused": 0,
+      "filled": 10,
+      "pct": 100
+    },
+    {
+      "name": "Dawson Drake / Jerry Gonzales",
+      "submitted": 9,
+      "blank": 0,
+      "excused": 0,
+      "filled": 9,
+      "pct": 100
+    },
+    {
+      "name": "Michael Jobe / Bobby Galindo 1099",
+      "submitted": 9,
+      "blank": 0,
+      "excused": 0,
+      "filled": 9,
+      "pct": 100
+    },
+    {
+      "name": "Pablo Soto / Bobby Galindo 1099",
       "submitted": 9,
       "blank": 0,
       "excused": 0,
@@ -339,7 +491,15 @@
       "pct": 100
     },
     {
-      "name": "Andrew Bailey / Justin Fontenot 1099",
+      "name": "Alexander Clubb / Jerry Gonzales",
+      "submitted": 8,
+      "blank": 0,
+      "excused": 0,
+      "filled": 8,
+      "pct": 100
+    },
+    {
+      "name": "Alexander Clubb / Tyrell Sanders",
       "submitted": 8,
       "blank": 0,
       "excused": 0,
@@ -363,14 +523,6 @@
       "pct": 100
     },
     {
-      "name": "Dawson Drake / Jerry Gonzales",
-      "submitted": 8,
-      "blank": 0,
-      "excused": 0,
-      "filled": 8,
-      "pct": 100
-    },
-    {
       "name": "Dawson Drake / Robbie Henigan 1099",
       "submitted": 8,
       "blank": 0,
@@ -387,7 +539,23 @@
       "pct": 100
     },
     {
-      "name": "Jeremy Norris / Robbie Henigan 1099",
+      "name": "Jeremy Norris / Tyrell Sanders",
+      "submitted": 8,
+      "blank": 0,
+      "excused": 0,
+      "filled": 8,
+      "pct": 100
+    },
+    {
+      "name": "Luis Zarate / Gael \"Antonio\" Avila 1099",
+      "submitted": 8,
+      "blank": 0,
+      "excused": 0,
+      "filled": 8,
+      "pct": 100
+    },
+    {
+      "name": "Nathan Contreras / Gael \"Antonio\" Avila 1099",
       "submitted": 8,
       "blank": 0,
       "excused": 0,
@@ -403,15 +571,7 @@
       "pct": 100
     },
     {
-      "name": "Raymundo Solis / Tyrell Sanders",
-      "submitted": 8,
-      "blank": 0,
-      "excused": 0,
-      "filled": 8,
-      "pct": 100
-    },
-    {
-      "name": "Ruben Rojo / Dermont Morgan 1099",
+      "name": "Ruben Rojo / Cindy Smith 1099",
       "submitted": 8,
       "blank": 0,
       "excused": 0,
@@ -427,7 +587,15 @@
       "pct": 86
     },
     {
-      "name": "Pablo Soto / Bobby Galindo 1099",
+      "name": "Jeremy Norris / Gael \"Antonio\" Avila 1099",
+      "submitted": 7,
+      "blank": 0,
+      "excused": 0,
+      "filled": 7,
+      "pct": 100
+    },
+    {
+      "name": "Luis Zarate / Robbie Henigan 1099",
       "submitted": 7,
       "blank": 0,
       "excused": 0,
@@ -483,7 +651,15 @@
       "pct": 100
     },
     {
-      "name": "Hayden Haugh 1099 / Tyrell Sanders",
+      "name": "Bryan Medlin / Joseph Popillion 1099",
+      "submitted": 6,
+      "blank": 0,
+      "excused": 0,
+      "filled": 6,
+      "pct": 100
+    },
+    {
+      "name": "Dawson Drake / Humberto Salazar",
       "submitted": 6,
       "blank": 0,
       "excused": 0,
@@ -492,6 +668,14 @@
     },
     {
       "name": "Jacob Hernandez / Jose Campos",
+      "submitted": 6,
+      "blank": 0,
+      "excused": 0,
+      "filled": 6,
+      "pct": 100
+    },
+    {
+      "name": "Jordan Lemmons / Cindy Smith 1099",
       "submitted": 6,
       "blank": 0,
       "excused": 0,
@@ -523,7 +707,7 @@
       "pct": 100
     },
     {
-      "name": "Larry Jaramillo / Humberto Salazar",
+      "name": "Larry Jaramillo / Baldemar Bracomontes 1099",
       "submitted": 6,
       "blank": 0,
       "excused": 0,
@@ -539,7 +723,7 @@
       "pct": 100
     },
     {
-      "name": "Luis Zarate / Jerry Gonzales",
+      "name": "Luis Zarate / Kedrick Mccarter 1099",
       "submitted": 6,
       "blank": 0,
       "excused": 0,
@@ -547,7 +731,15 @@
       "pct": 100
     },
     {
-      "name": "Nathan Contreras / Gael \"Antonio\" Avila 1099",
+      "name": "Luis Zarate / Tyrell Sanders",
+      "submitted": 6,
+      "blank": 0,
+      "excused": 0,
+      "filled": 6,
+      "pct": 100
+    },
+    {
+      "name": "Michael Ellis / Cindy Smith 1099",
       "submitted": 6,
       "blank": 0,
       "excused": 0,
@@ -563,7 +755,7 @@
       "pct": 100
     },
     {
-      "name": "Pablo Soto / Baldemar Bracomontes 1099",
+      "name": "Nathan Contreras / Tyrell Sanders",
       "submitted": 6,
       "blank": 0,
       "excused": 0,
@@ -579,6 +771,14 @@
       "pct": 80
     },
     {
+      "name": "Dawson Drake / Kedrick Mccarter 1099",
+      "submitted": 5,
+      "blank": 0,
+      "excused": 0,
+      "filled": 5,
+      "pct": 100
+    },
+    {
       "name": "Jimmy White",
       "submitted": 5,
       "blank": 0,
@@ -588,14 +788,6 @@
     },
     {
       "name": "Larry Jaramillo / Christian Lee 1099",
-      "submitted": 5,
-      "blank": 0,
-      "excused": 0,
-      "filled": 5,
-      "pct": 100
-    },
-    {
-      "name": "Raymundo Solis / Gael \"Antonio\" Avila 1099",
       "submitted": 5,
       "blank": 0,
       "excused": 0,
@@ -619,7 +811,23 @@
       "pct": 100
     },
     {
+      "name": "Alexander Clubb / Raymundo Solis",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
       "name": "Andrew Bailey / Bryan Medlin",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Andrew Bailey / Humberto Salazar",
       "submitted": 4,
       "blank": 0,
       "excused": 0,
@@ -636,6 +844,14 @@
     },
     {
       "name": "Brianda Sandoval / Tyrell Sanders",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Bryan Medlin / Jeremy Norris",
       "submitted": 4,
       "blank": 0,
       "excused": 0,
@@ -667,7 +883,47 @@
       "pct": 100
     },
     {
-      "name": "Dawson Drake / Kedrick Mccarter 1099",
+      "name": "Caleb Smith / Joseph Popillion 1099",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Caleb Smith / Robbie Henigan 1099",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Dawson Drake",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Dawson Drake / Dermont Morgan 1099",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Dawson Drake / Gael \"Antonio\" Avila 1099",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Dawson Drake / William \"Jimmy\" Cooper 1099",
       "submitted": 4,
       "blank": 0,
       "excused": 0,
@@ -691,7 +947,7 @@
       "pct": 100
     },
     {
-      "name": "Jacob Hernandez / Humberto Salazar",
+      "name": "Jeremy Norris / Cindy Smith 1099",
       "submitted": 4,
       "blank": 0,
       "excused": 0,
@@ -699,23 +955,7 @@
       "pct": 100
     },
     {
-      "name": "Jeremy Norris / Bobby Galindo 1099",
-      "submitted": 4,
-      "blank": 0,
-      "excused": 0,
-      "filled": 4,
-      "pct": 100
-    },
-    {
-      "name": "Jeremy Norris / Gael \"Antonio\" Avila 1099",
-      "submitted": 4,
-      "blank": 0,
-      "excused": 0,
-      "filled": 4,
-      "pct": 100
-    },
-    {
-      "name": "Jordan Lemmons / Cindy Smith 1099",
+      "name": "Jerry Gonzales / Gage Gonzales 1099",
       "submitted": 4,
       "blank": 0,
       "excused": 0,
@@ -724,6 +964,14 @@
     },
     {
       "name": "Jordan Lemmons / Dermont Morgan 1099",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Jordan Lemmons / Kedrick Mccarter 1099",
       "submitted": 4,
       "blank": 0,
       "excused": 0,
@@ -755,7 +1003,23 @@
       "pct": 100
     },
     {
-      "name": "Michael Jobe / Bobby Galindo 1099",
+      "name": "Larry Jaramillo / Robbie Henigan 1099",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Larry Jaramillo / William \"Jimmy\" Cooper 1099",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Michael Jobe / Bryan Medlin",
       "submitted": 4,
       "blank": 0,
       "excused": 0,
@@ -764,6 +1028,14 @@
     },
     {
       "name": "Michael Jobe / Christian Lee 1099",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Michael Jobe / Cindy Smith 1099",
       "submitted": 4,
       "blank": 0,
       "excused": 0,
@@ -795,6 +1067,22 @@
       "pct": 100
     },
     {
+      "name": "Nathan Contreras / Gage Gonzales 1099",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Nathan Contreras / Ruben Rojo",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
       "name": "Pablo Soto / Bryan Medlin",
       "submitted": 4,
       "blank": 0,
@@ -803,7 +1091,31 @@
       "pct": 100
     },
     {
-      "name": "Ruben Rojo / Baldemar Bracomontes 1099",
+      "name": "Pablo Soto / Gage Gonzales 1099",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Pablo Soto / Robbie Henigan 1099",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Raymundo Solis / Robbie Henigan 1099",
+      "submitted": 4,
+      "blank": 0,
+      "excused": 0,
+      "filled": 4,
+      "pct": 100
+    },
+    {
+      "name": "Ruben Rojo / Justin Fontenot 1099",
       "submitted": 4,
       "blank": 0,
       "excused": 0,
@@ -819,7 +1131,7 @@
       "pct": 100
     },
     {
-      "name": "Dawson Drake",
+      "name": "Dawson Drake / Joseph Popillion 1099",
       "submitted": 3,
       "blank": 0,
       "excused": 0,
@@ -843,7 +1155,7 @@
       "pct": 100
     },
     {
-      "name": "William Jimmy Cooper",
+      "name": "Ruben Rojo / Joseph Popillion 1099",
       "submitted": 3,
       "blank": 0,
       "excused": 0,
@@ -851,11 +1163,11 @@
       "pct": 100
     },
     {
-      "name": "Alexander Clubb / Raymundo Solis",
-      "submitted": 2,
+      "name": "William Jimmy Cooper",
+      "submitted": 3,
       "blank": 0,
       "excused": 0,
-      "filled": 2,
+      "filled": 3,
       "pct": 100
     },
     {
@@ -883,22 +1195,6 @@
       "pct": 100
     },
     {
-      "name": "Alexander Clubb / Tyrell Sanders",
-      "submitted": 2,
-      "blank": 0,
-      "excused": 0,
-      "filled": 2,
-      "pct": 100
-    },
-    {
-      "name": "Andrew Bailey / Humberto Salazar",
-      "submitted": 2,
-      "blank": 0,
-      "excused": 0,
-      "filled": 2,
-      "pct": 100
-    },
-    {
       "name": "Andrew Bailey / William \"Jimmy\" Cooper 1099",
       "submitted": 2,
       "blank": 0,
@@ -908,6 +1204,30 @@
     },
     {
       "name": "Brianda Sandoval / Alejandro Najar",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Brianda Sandoval / Gael \"Antonio\" Avila 1099",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Brianda Sandoval / Robbie Henigan 1099",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Bryan Medlin / Cindy Smith 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -947,7 +1267,15 @@
       "pct": 100
     },
     {
-      "name": "Caleb Smith / Joseph Popillion 1099",
+      "name": "Caleb Smith / Gael \"Antonio\" Avila 1099",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Caleb Smith / Humberto Salazar",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -971,7 +1299,7 @@
       "pct": 100
     },
     {
-      "name": "Dawson Drake / Dermont Morgan 1099",
+      "name": "Dawson Drake / Bobby Galindo 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -979,7 +1307,7 @@
       "pct": 100
     },
     {
-      "name": "Dawson Drake / William \"Jimmy\" Cooper 1099",
+      "name": "Dawson Drake / Rolando Flores 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -988,6 +1316,14 @@
     },
     {
       "name": "Hayden Haugh 1099 / Christian Lee 1099",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Hayden Haugh 1099 / Cindy Smith 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -1019,6 +1355,14 @@
       "pct": 100
     },
     {
+      "name": "Jacob Hernandez / Justin Fontenot 1099",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
       "name": "Jacob Hernandez / Robbie Henigan 1099",
       "submitted": 2,
       "blank": 0,
@@ -1035,7 +1379,23 @@
       "pct": 100
     },
     {
+      "name": "Jacob Hernandez / Tyrell Sanders",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
       "name": "Jeremy Norris / Alejandro Najar",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Jeremy Norris / Humberto Salazar",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -1051,6 +1411,38 @@
       "pct": 100
     },
     {
+      "name": "Jerry Gonzales / Joseph Popillion 1099",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Jimmy White / Gage Gonzales 1099",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Jordan Lemmons / Humberto Salazar",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Larry Jaramillo / Alfredo Vaquera 1099",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
       "name": "Larry Jaramillo / Gage Gonzales 1099",
       "submitted": 2,
       "blank": 0,
@@ -1059,7 +1451,7 @@
       "pct": 100
     },
     {
-      "name": "Larry Jaramillo / Robbie Henigan 1099",
+      "name": "Michael Jobe / Gael \"Antonio\" Avila 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -1067,31 +1459,7 @@
       "pct": 100
     },
     {
-      "name": "Luis Zarate / Gael \"Antonio\" Avila 1099",
-      "submitted": 2,
-      "blank": 0,
-      "excused": 0,
-      "filled": 2,
-      "pct": 100
-    },
-    {
-      "name": "Luis Zarate / Humberto Salazar",
-      "submitted": 2,
-      "blank": 0,
-      "excused": 0,
-      "filled": 2,
-      "pct": 100
-    },
-    {
-      "name": "Luis Zarate / Kedrick Mccarter 1099",
-      "submitted": 2,
-      "blank": 0,
-      "excused": 0,
-      "filled": 2,
-      "pct": 100
-    },
-    {
-      "name": "Luis Zarate / Tyrell Sanders",
+      "name": "Michael Jobe / Joseph Popillion 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -1100,14 +1468,6 @@
     },
     {
       "name": "Nathan Contreras / Alejandro Najar",
-      "submitted": 2,
-      "blank": 0,
-      "excused": 0,
-      "filled": 2,
-      "pct": 100
-    },
-    {
-      "name": "Nathan Contreras / Tyrell Sanders",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -1131,7 +1491,7 @@
       "pct": 100
     },
     {
-      "name": "Pablo Soto / Joseph Popillion 1099",
+      "name": "Pablo Soto / Justin Fontenot 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -1163,7 +1523,23 @@
       "pct": 100
     },
     {
-      "name": "Raymundo Solis / Robbie Henigan 1099",
+      "name": "Raymundo Solis / Kedrick Mccarter 1099",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Ruben Rojo / Rolando Flores 1099",
+      "submitted": 2,
+      "blank": 0,
+      "excused": 0,
+      "filled": 2,
+      "pct": 100
+    },
+    {
+      "name": "Stefanie Kirschke / Robbie Henigan 1099",
       "submitted": 2,
       "blank": 0,
       "excused": 0,
@@ -1187,6 +1563,14 @@
       "pct": 100
     },
     {
+      "name": "Bryan Medlin / Barthol \"Bj\" Caesar 1099",
+      "submitted": 1,
+      "blank": 0,
+      "excused": 0,
+      "filled": 1,
+      "pct": 100
+    },
+    {
       "name": "Dawson Drake / Jose Campos",
       "submitted": 1,
       "blank": 0,
@@ -1204,6 +1588,14 @@
     },
     {
       "name": "Jeremy Norris / William \"Jimmy\" Cooper 1099",
+      "submitted": 1,
+      "blank": 0,
+      "excused": 0,
+      "filled": 1,
+      "pct": 100
+    },
+    {
+      "name": "Jerry Gonzales / Baldemar Bracomontes 1099",
       "submitted": 1,
       "blank": 0,
       "excused": 0,
@@ -1251,7 +1643,7 @@
       "pct": 100
     },
     {
-      "name": "Ruben Rojo / Joseph Popillion 1099",
+      "name": "Ruben Rojo / Gage Gonzales 1099",
       "submitted": 1,
       "blank": 0,
       "excused": 0,

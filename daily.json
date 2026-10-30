@@ -172,12 +172,60 @@
   "yesterdaysJobs": {
     "date": "2026-10-27",
     "label": "Tuesday, October 27",
-    "count": 2,
+    "count": 14,
     "flags": 0,
     "groups": [
       {
         "category": "AGT",
         "jobs": [
+          {
+            "well": "UNIVERSITY 178B 18H",
+            "jobType": "Air Job",
+            "crew": "Ruben Rojo / Dermont Morgan 1099",
+            "cm": "Bryan Hamilton",
+            "note": "A reconnect on well head, team was thoroughly talked through on all LSRA's",
+            "flag": false
+          },
+          {
+            "well": "BEND 45 #1",
+            "jobType": "Air Job",
+            "crew": "Larry Jaramillo / William \"Jimmy\" Cooper 1099",
+            "cm": "",
+            "note": "All hands participated in safety meeting",
+            "flag": false
+          },
+          {
+            "well": "ALDWELL M R40 101H",
+            "jobType": "Air Job",
+            "crew": "Bryan Medlin / Barthol \"Bj\" Caesar 1099",
+            "cm": "Colt Williams",
+            "note": "Arrived on location at 7:40 waited on sonic to grease the wing valve and fo",
+            "flag": false
+          },
+          {
+            "well": "SPRAYBERRY DRIVER #304H",
+            "jobType": "Air Job",
+            "crew": "",
+            "cm": "",
+            "note": "Arrived on location at approximately 1300 waited for LoTo and sonic to grea",
+            "flag": false
+          },
+          {
+            "well": "PRATT VAUGHN 21F 106H",
+            "jobType": "Davit Arm",
+            "crew": "Nathan Contreras / Rolando Flores 1099",
+            "cm": "Shelly Thiel",
+            "note": "Before beginning cellar work using the davit arm, we conducted a safety mee",
+            "flag": false
+          },
+          {
+            "well": "ROBBIE 17A-8-F 2811H",
+            "jobType": "Air Job",
+            "crew": "Luis Zarate / Cindy Smith 1099",
+            "cm": "",
+            "note": "Crew replaced a spool on the wellhead that wasn't correct from yesterday",
+            "flag": false
+          },
           {
             "well": "Robbie 17A-8 2815",
             "jobType": "Air Job",
@@ -187,11 +235,59 @@
             "flag": false
           },
           {
+            "well": "SEMPLE #1",
+            "jobType": "Air Job",
+            "crew": "Larry Jaramillo / William \"Jimmy\" Cooper 1099",
+            "cm": "Foreman_West Ops 7",
+            "note": "Everyone worked good together",
+            "flag": false
+          },
+          {
+            "well": "KYLE 2600 UNIT 2 2625SH",
+            "jobType": "Air Job",
+            "crew": "Andrew Bailey / Humberto Salazar",
+            "cm": "Andrew Mcfadden",
+            "note": "Good verbal communication, team work",
+            "flag": false
+          },
+          {
+            "well": "NORTHEAST SCHARBAUER 1220H",
+            "jobType": "Air Job",
+            "crew": "Michael Jobe / Bobby Galindo 1099",
+            "cm": "Shelly Thiel",
+            "note": "Had a little h2s when checking let it air out went to 0 safe to work",
+            "flag": false
+          },
+          {
+            "well": "MCMASTER C 2",
+            "jobType": "Air Job",
+            "crew": "Jerry Gonzales / Baldemar Bracomontes 1099",
+            "cm": "Waco Richards",
+            "note": "Had pre task meeting, job task involved breaking containment and line of fi",
+            "flag": false
+          },
+          {
             "well": "Parks 2526SH",
             "jobType": "Air Job",
             "crew": "Andrew Bailey / Humberto Salazar",
             "cm": "Bryan Hamilton",
             "note": "Job planned , crew working safely to complete task",
+            "flag": false
+          },
+          {
+            "well": "MASSEY UNIT 4313H",
+            "jobType": "Air Job",
+            "crew": "Jeremy Norris / Tyrell Sanders",
+            "cm": "Foreman_West Ops 8",
+            "note": "Replacing 2inch piping",
+            "flag": false
+          },
+          {
+            "well": "SPRAYBERRY DRIVER 303H",
+            "jobType": "Air Job",
+            "crew": "",
+            "cm": "",
+            "note": "They couldn't get the valves to hold",
             "flag": false
           }
         ]
@@ -224,14 +320,42 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>They had to do a reconnect</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Brianda Sandoval / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>At 10/17/2026 11:35 AM Unnamed Road Stanton, TX 79782</strong> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Atmospheric Monitoring — Dawson Drake / Robbie Henigan 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>We had pipeline workers near us on the same pad, company rep asked us to se</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Caleb Smith / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>All crew members were active and attentive on location while work was being performed.</span><br><br><strong>Hold point was done for every task, closed off entrance with cones for our</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Justin Fontenot 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Better communication about other hazards outside the job scope.</span>",
+  "exxonMoments": "<strong>Arrived on location at 7:40 waited on sonic to grease the wing valve and fo</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Bryan Medlin / Barthol \"Bj\" Caesar 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>H2S minor was on the kill truck operator's hard hat, above the safe zone</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Spoke with K/T operator and discussed the proper placement of his H2S monitor...</span><br><br><strong>Had pre task meeting, job task involved breaking containment and line of fi</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jerry Gonzales / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>All LSRA's were understood by all crews and everyone worked together to mitigate any possible triggers that could occur, everyone utilized their LMRA's before doing any kind of work.</span><br><br><strong>Had a little h2s when checking let it air out went to 0 safe to work</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Had meeting on job scope everything went great did our readings safe to work.</span><br><br><strong>We observed a reconnect / conversion done on a well</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Confined Space Entry)</span><br><span style='font-size:13px;'>Crews held great safety meeting for the confined space job, crews went over potential dangers and triggers that can happen during the job , crews also verified nearest hospitals and muster areas.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Michael Jobe / Robbie Henigan 1099 — Had meeting did catch a bee hive in let the MT know",
-      "detail": "Had meeting crew worked in a safe manner did our test all was good.",
+      "headline": "Jordan Lemmons / Kedrick Mccarter 1099 — We blew down the well from 800 to 200 psi had to stop bleeding the after so",
+      "detail": "Everything went well, we all participated to make a safe environment to work.",
       "psms": "Operational Discipline",
-      "level": null
+      "level": "eagle"
+    },
+    {
+      "type": "good",
+      "headline": "Bryan Medlin / Dermont Morgan 1099 — While discounting flow line at 9:38 we encountered LEL's at 4 ppm",
+      "detail": "Don't rely on your gps to get you to the job site.",
+      "psms": "Energy Isolation",
+      "level": "eagle"
+    },
+    {
+      "type": "good",
+      "headline": "Dawson Drake / Bobby Galindo 1099 — Upgrading of piping on the flow line on a gas lift well noticed a leak on o",
+      "detail": "Every job is held the same standard.",
+      "psms": "Operational Discipline",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Luis Zarate / Robbie Henigan 1099 — Crew brought surface casing valve up to surface then backfilled hole with g",
+      "detail": "Continue to grow communication with crew and MT.",
+      "psms": "Operational Discipline",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Nathan Contreras / Ruben Rojo — We observed a choker valve changed out",
+      "detail": "Crews had great communication and pointed out muster signs and nearest hospitals.",
+      "psms": "Operational Discipline",
+      "level": "duck"
     },
     {
       "type": "flag",
