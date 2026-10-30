@@ -320,37 +320,37 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Tyrell Sanders — Crews prioritized atmospheric hazard testing, strict LOTO (Lockout/Tagout)",
-      "detail": "Mandate a brief 2-minute verbal and visual walkaround during shift transitions to pass along exact field conditions, active safety controls, and clean site housekeeping s",
-      "psms": "Energy Isolation",
-      "level": "duck"
-    },
-    {
-      "type": "good",
-      "headline": "Larry Jaramillo / Tyrell Sanders — Bucket truck operator was not strapped in, I brought it to his attention an",
-      "detail": "Discuss using the correct tools for the job at hand.",
+      "headline": "Jerry Gonzales / Joseph Popillion 1099 — Crew change rubbers on well and upgrade valves",
+      "detail": "Crews Urgency to get job done sadly and swiftly.",
       "psms": "Operational Discipline",
-      "level": "duck"
+      "level": null
     },
     {
       "type": "good",
-      "headline": "Bryan Medlin / Barthol \"Bj\" Caesar 1099 — Arrived on location at 7:40 waited on sonic to grease the wing valve and fo",
+      "headline": "Ruben Rojo / Rolando Flores 1099 — Disconnect and flange installation",
+      "detail": "No gas or dangerous materials on pre and post break.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Michael Jobe / Gael \"Antonio\" Avila 1099 — Did a good meeting due a new crew on site explaining everything that need t",
       "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Brianda Sandoval / Robbie Henigan 1099 — Crew had to do a conversion on an already disconnected well",
+      "detail": "The conversion was a success.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo / William \"Jimmy\" Cooper 1099 — H2S minor was on the kill truck operator's hard hat, above the safe zone",
-      "detail": "Spoke with K/T operator and discussed the proper placement of his H2S monitor...",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jerry Gonzales / Baldemar Bracomontes 1099 — Had pre task meeting, job task involved breaking containment and line of fi",
-      "detail": "All LSRA's were understood by all crews and everyone worked together to mitigate any possible triggers that could occur, everyone utilized their LMRA's before doing any k",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Jimmy White / Gage Gonzales 1099 — Reconnect flowline to wellhead",
+      "detail": "Everything was done great today. PJSM held, hold points utilized and job competed safely.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
@@ -368,18 +368,18 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 145,
-        "total": 148
+        "done": 166,
+        "total": 169
       },
       {
         "label": "Trailer Inspections",
-        "done": 39,
-        "total": 40
+        "done": 45,
+        "total": 46
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 38,
-        "total": 47
+        "done": 43,
+        "total": 52
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/29"
