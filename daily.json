@@ -295,25 +295,21 @@
     ]
   },
   "formReview": {
-    "date": "2026-10-28",
-    "label": "Wednesday 10/28",
+    "date": "2026-10-29",
+    "label": "Thursday 10/29",
     "verdict": "",
     "concerns": [
       {
-        "title": "Benjamin Boutte (1099) — SM Energy, Junior Mint Fed Com, H2S daily, form time 4:20 PM, submitted 7:52 PM. A sensor was taken out of service in the field and the form repo",
-        "quote": "I have 3 censors working the one by the well was showing 1 so I disconnect it and put it in trailer all other 3 is working and that enuff scencor to cover rig but a complete rig check is due on this rig the alarm done went off several times/false alarm"
+        "title": "1099 Alfredo Vaquera — Diamondback, Black Pearl C 11-14 132 — 12:29 PM — H2S Safety Supervision Daily Inspection Form",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
       },
       {
-        "title": "Michael Ellis — Comstock Resources, Patterson 904, Circle M Alloc B 3H, rig down, job 36295, ended 4:10 PM. Equipment came off location short one sensor and no manager is",
-        "quote": "Damaged or Missing Equipment: Missing one sensor"
+        "title": "1099 Alfredo Vaquera — Diamondback, Black Pearl C 11-14 132 — 12:29 PM — H2S Safety Supervision Daily Inspection Form",
+        "quote": "No Do you have sufficient mask bags?"
       },
       {
-        "title": "Jordan Lemmons — SM Energy, Queen Keely CTB, Trailer Readiness Form, trailer 152, form time 3:24 PM. Six charged cascade bottles, all well below a full charge, and nothin",
-        "quote": "— positions 7 through 10 read"
-      },
-      {
-        "title": "Stefanie Kirschke — SM Energy, McDaniel B Chriesman, Trailer Readiness Form, trailer 175, form time 2:00 PM. Low cascade pressures and one hydro date that needs checking.",
-        "quote": "— positions 7 through 10 read"
+        "title": "Jacob Hernandez — CSRHI Andrews Shop — 5:04 AM — Trailer Inspection Form, trailer 127",
+        "quote": "First aid kit missing will put one in it right now."
       }
     ]
   },
@@ -324,38 +320,38 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Kedrick Mccarter 1099 — We blew down the well from 800 to 200 psi had to stop bleeding the after so",
-      "detail": "Everything went well, we all participated to make a safe environment to work.",
-      "psms": "Operational Discipline",
-      "level": "eagle"
-    },
-    {
-      "type": "good",
-      "headline": "Bryan Medlin / Dermont Morgan 1099 — While discounting flow line at 9:38 we encountered LEL's at 4 ppm",
-      "detail": "Don't rely on your gps to get you to the job site.",
+      "headline": "Jacob Hernandez / Tyrell Sanders — Crews prioritized atmospheric hazard testing, strict LOTO (Lockout/Tagout)",
+      "detail": "Mandate a brief 2-minute verbal and visual walkaround during shift transitions to pass along exact field conditions, active safety controls, and clean site housekeeping s",
       "psms": "Energy Isolation",
-      "level": "eagle"
+      "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Dawson Drake / Bobby Galindo 1099 — Upgrading of piping on the flow line on a gas lift well noticed a leak on o",
-      "detail": "Every job is held the same standard.",
+      "headline": "Larry Jaramillo / Tyrell Sanders — Bucket truck operator was not strapped in, I brought it to his attention an",
+      "detail": "Discuss using the correct tools for the job at hand.",
       "psms": "Operational Discipline",
       "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Luis Zarate / Robbie Henigan 1099 — Crew brought surface casing valve up to surface then backfilled hole with g",
-      "detail": "Continue to grow communication with crew and MT.",
-      "psms": "Operational Discipline",
-      "level": "duck"
+      "headline": "Bryan Medlin / Barthol \"Bj\" Caesar 1099 — Arrived on location at 7:40 waited on sonic to grease the wing valve and fo",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras / Ruben Rojo — We observed a choker valve changed out",
-      "detail": "Crews had great communication and pointed out muster signs and nearest hospitals.",
-      "psms": "Operational Discipline",
-      "level": "duck"
+      "headline": "Larry Jaramillo / William \"Jimmy\" Cooper 1099 — H2S minor was on the kill truck operator's hard hat, above the safe zone",
+      "detail": "Spoke with K/T operator and discussed the proper placement of his H2S monitor...",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jerry Gonzales / Baldemar Bracomontes 1099 — Had pre task meeting, job task involved breaking containment and line of fi",
+      "detail": "All LSRA's were understood by all crews and everyone worked together to mitigate any possible triggers that could occur, everyone utilized their LMRA's before doing any k",
+      "psms": "Atmospheric Monitoring",
+      "level": null
     },
     {
       "type": "flag",
@@ -372,21 +368,21 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 124,
-        "total": 127
+        "done": 145,
+        "total": 148
       },
       {
         "label": "Trailer Inspections",
-        "done": 31,
-        "total": 32
+        "done": 39,
+        "total": 40
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 31,
-        "total": 36
+        "done": 38,
+        "total": 47
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 10/28"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/29"
   },
   "specialFocus": {
     "week": 20,

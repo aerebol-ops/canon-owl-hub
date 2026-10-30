@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
-  "generated": "2026-10-29",
-  "ytdPct": 84.9,
-  "ytdMissed": 2004,
+  "generated": "2026-10-30",
+  "ytdPct": 85.0,
+  "ytdMissed": 2009,
   "months": [
     {
       "month": "January 2026",
@@ -2813,24 +2813,24 @@
       "month": "October 2026",
       "year": 2026,
       "monthNum": 10,
-      "compliancePct": 93.0,
-      "overallPct": 90.8,
-      "overallYesTotal": 1570,
-      "overallNoTotal": 160,
-      "trailerInspYes": 259,
-      "trailerReadyYes": 209,
-      "missedTotal": 177,
+      "compliancePct": 93.1,
+      "overallPct": 90.7,
+      "overallYesTotal": 1606,
+      "overallNoTotal": 164,
+      "trailerInspYes": 267,
+      "trailerReadyYes": 216,
+      "missedTotal": 182,
       "dailyNo": 83,
       "trailerInspNo": 21,
-      "trailerReadyNo": 56,
-      "problemRows": 156,
-      "blanks": 18,
+      "trailerReadyNo": 60,
+      "problemRows": 160,
+      "blanks": 41,
       "employees": 71,
       "cleanEmployees": 28,
-      "dailyYesTotal": 1102,
+      "dailyYesTotal": 1123,
       "dailyNoTotal": 83,
-      "rawRows": 1496,
-      "daysCovered": 28,
+      "rawRows": 1554,
+      "daysCovered": 29,
       "sheetsInMonth": 29,
       "byDay": [
         {
@@ -2972,6 +2972,11 @@
           "date": "10/28",
           "missed": 1,
           "pct": 100
+        },
+        {
+          "date": "10/29",
+          "missed": 4,
+          "pct": 100
         }
       ],
       "watch": [
@@ -2994,12 +2999,12 @@
           "totalMissed": 6,
           "dailyMissed": 4,
           "trailerMissed": 2,
-          "dailyYes": 5,
+          "dailyYes": 6,
           "dailyNo": 4,
-          "pct": 56,
-          "overallYes": 5,
+          "pct": 60,
+          "overallYes": 6,
           "overallNo": 5,
-          "overallPct": 50.0,
+          "overallPct": 54.5,
           "trailerInspMissed": 0,
           "trailerReadyMissed": 1
         },
@@ -3022,12 +3027,12 @@
           "totalMissed": 10,
           "dailyMissed": 7,
           "trailerMissed": 3,
-          "dailyYes": 21,
+          "dailyYes": 23,
           "dailyNo": 7,
-          "pct": 75,
-          "overallYes": 22,
+          "pct": 77,
+          "overallYes": 24,
           "overallNo": 9,
-          "overallPct": 71.0,
+          "overallPct": 72.7,
           "trailerInspMissed": 0,
           "trailerReadyMissed": 2
         },
@@ -3064,14 +3069,28 @@
           "totalMissed": 7,
           "dailyMissed": 5,
           "trailerMissed": 2,
-          "dailyYes": 18,
+          "dailyYes": 19,
           "dailyNo": 5,
-          "pct": 78,
-          "overallYes": 19,
+          "pct": 79,
+          "overallYes": 20,
           "overallNo": 6,
-          "overallPct": 76.0,
+          "overallPct": 76.9,
           "trailerInspMissed": 0,
           "trailerReadyMissed": 1
+        },
+        {
+          "name": "Dermont Morgan",
+          "totalMissed": 7,
+          "dailyMissed": 2,
+          "trailerMissed": 5,
+          "dailyYes": 15,
+          "dailyNo": 2,
+          "pct": 88,
+          "overallYes": 15,
+          "overallNo": 4,
+          "overallPct": 78.9,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 2
         },
         {
           "name": "Hayden Haugh",
@@ -3100,24 +3119,10 @@
           "overallPct": 81.5,
           "trailerInspMissed": 0,
           "trailerReadyMissed": 1
-        },
-        {
-          "name": "Dermont Morgan",
-          "totalMissed": 5,
-          "dailyMissed": 2,
-          "trailerMissed": 3,
-          "dailyYes": 14,
-          "dailyNo": 2,
-          "pct": 88,
-          "overallYes": 14,
-          "overallNo": 3,
-          "overallPct": 82.4,
-          "trailerInspMissed": 0,
-          "trailerReadyMissed": 1
         }
       ],
       "live": true,
-      "throughDate": "10/28"
+      "throughDate": "10/29"
     }
   ]
 }
