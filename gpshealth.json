@@ -1,0 +1,168 @@
+{
+  "reportDate": "10/30",
+  "received": "2026-10-30T09:36",
+  "subject": "Health report 10/30 vs prior reports: 4 flagged (lowest since May), battery backlog cleared; 134 on 5th straight report",
+  "summary": "this is the best report since tracking started. The longest current outage is 5 days. On 9/28 it was 123 days. The battery backlog cleared: 503, 139, 605 and 608 are all off the list, along with 505. The big holdout is 134, which is on its fifth straight report at the Andrews yard, and its battery is now starting to drop.",
+  "flagged": 3,
+  "units": [
+    {
+      "trailer": "507",
+      "tag": "WTX",
+      "issue": "Low battery",
+      "days": "Under 1",
+      "location": "Andrews yard (2066 SE 5501)",
+      "battery": "Low, 4.11V",
+      "checkin": "10/30 (still connecting)"
+    },
+    {
+      "trailer": "138",
+      "tag": "ETX",
+      "issue": "Not detected, no GPS",
+      "days": "1",
+      "location": "1023 W Commerce St, Fairfield",
+      "battery": "OK, 5.16V",
+      "checkin": "10/28"
+    },
+    {
+      "trailer": "134",
+      "tag": "WTX",
+      "issue": "Not detected, no GPS",
+      "days": "2",
+      "location": "Andrews yard (2070 SE 5501)",
+      "battery": "OK but dropping, 4.95V",
+      "checkin": "10/26"
+    }
+  ],
+  "trend": {
+    "dates": [
+      "9/22",
+      "9/28",
+      "10/2",
+      "10/9",
+      "10/16",
+      "10/23",
+      "10/30"
+    ],
+    "rows": [
+      {
+        "m": "Units flagged",
+        "vals": [
+          "11",
+          "8",
+          "9",
+          "6",
+          "5",
+          "6",
+          "3"
+        ]
+      },
+      {
+        "m": "Longest current outage",
+        "vals": [
+          "118 days",
+          "123 days",
+          "86 days",
+          "39 days",
+          "46 days",
+          "19 days",
+          "5 days"
+        ]
+      },
+      {
+        "m": "Dark 30+ days",
+        "vals": [
+          "7",
+          "3",
+          "2",
+          "1",
+          "1",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "m": "Low battery",
+        "vals": [
+          "n/a",
+          "n/a",
+          "4",
+          "n/a",
+          "3",
+          "4",
+          "1 (still connecting)"
+        ]
+      },
+      {
+        "m": "ETX / WTX by location",
+        "vals": [
+          "n/a",
+          "7 / 1",
+          "4 / 5",
+          "3 / 3",
+          "1 / 4",
+          "1 / 5",
+          "1 / 3"
+        ]
+      }
+    ]
+  },
+  "improvements": [
+    "The lowest count since late May, and nothing is long-dark. Every unit on the list has been out 5 days or less.",
+    "The battery backlog is cleared. All three frozen low-battery units from last week (503, 139 and 605) are gone. 503 had been the oldest open battery job, 4 weeks overdue.",
+    "The one low battery on the list is still connecting. If 507 gets batteries this week, it never goes dark."
+  ],
+  "concerns": [
+    "134 is now the chronic problem. It has been on five straight reports and its voltage is falling. Its batteries are fine and it isn't in a coverage gap, since other units at the same yard report normally. That leaves the unit or its mounting. Swap it.",
+    "The Andrews yard has had faults on seven straight reports (9/28 through 10/30). This week it's 134 and 507. It's our yard, so a single visit can handle both: swap 134 and put batteries in 507.",
+    "Fixes aren't being reported. The batteries on 503, 139 and 605 were evidently changed, but nobody replied to the 10/23 report to say so. We're inferring repairs from what's missing on the list, which is how 605 was wrongly counted as fixed last time.",
+    "Repeat offenders: 138 (3rd time), 134 (2nd long episode), 505 and 605 (3rd and 2nd) all keep cycling. The rule stands: a third appearance means a hardware check, not another reboot."
+  ],
+  "actions": [
+    {
+      "trailer": "134",
+      "action": "Swap the unit or check the mounting (Andrews yard). 5th straight report",
+      "since": "10/9",
+      "followup": false,
+      "p": 1
+    },
+    {
+      "trailer": "507",
+      "action": "Replace the batteries now, while it's still connecting (Andrews yard, same trip as 134)",
+      "since": "New",
+      "followup": false,
+      "p": 2
+    },
+    {
+      "trailer": "138",
+      "action": "Hardware check (3rd appearance). Confirm it's at the Fairfield location",
+      "since": "New",
+      "followup": false,
+      "p": 3
+    },
+    {
+      "trailer": "503, 139, 605",
+      "action": "Confirm the batteries were changed, and who changed them and when",
+      "since": "n/a",
+      "followup": true,
+      "p": 4
+    },
+    {
+      "trailer": "136",
+      "action": "Confirm the tracker was pulled or deactivated in Samsara (still open from 10/23)",
+      "since": "10/23",
+      "followup": true,
+      "p": 5
+    },
+    {
+      "trailer": "605, 608",
+      "action": "Correct the region tags in Samsara",
+      "since": "10/23",
+      "followup": true,
+      "p": 6
+    }
+  ],
+  "note": "Samsara GPS tracker health on Canon trailers, from Matt Croom's weekly report.",
+  "ingested": {
+    "folder": "2026-10-30_0936_cZhlrAAA"
+  }
+}

@@ -1,7 +1,7 @@
 // Canon Safety Hub service worker.
 // Strategy: network-first for pages + JSON (hub data must stay fresh),
 // cache-first for icons and photos. Offline falls back to last good copy.
-const CACHE = 'canon-hub-v4';
+const CACHE = 'canon-hub-v5';
 const PRECACHE = [
   './',
   './index.html',

@@ -3565,6 +3565,10 @@ async function renderTemplate() {
         html += `<div id="tpl-qcboard"></div>`;
         setTimeout(_tplQcBoard, 0);
 
+        // From the Office — Matt's weekly scorecard + trailer GPS actions
+        html += `<div id="tpl-office"></div>`;
+        setTimeout(_tplOffice, 0);
+
         // OWL form findings — the crew's own submissions, matched to the weekly topic
         if (daily && daily.exxonMoments) {
           html += `<div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--orange);margin-bottom:6px;">From the Crew's OWL Forms — ${w.psms}</div>`;
@@ -5509,6 +5513,67 @@ function renderJobLogView(v) { _jlView = v; _jlPaint(); }
 let _formqc = null;
 let _ssreview = null;
 let _compstats = null;
+let _gpshealth = null;
+
+// Trailer GPS health (Matt Croom's Friday Samsara report → gpshealth.json).
+// compact = the morning-template version: count + the numbered actions only.
+function _gpsCardHtml(g, compact) {
+  if (!g || !g.units) return '';
+  const act = (g.actions || []).filter(a => !compact || !a.followup);
+  const fl = (g.trend && g.trend.rows || []).find(r => /^units flagged/i.test(r.m));
+  const trendLine = fl ? g.trend.dates.map((d, i) => `${d}: <strong>${fl.vals[i]}</strong>`).join(' &rarr; ') : '';
+  const unitRows = g.units.map(u => `<div style="display:flex; gap:8px; flex-wrap:wrap; align-items:baseline; padding:4px 0; border-bottom:1px solid #eef2f9; font-size:12px;">
+      <span style="font-weight:900; min-width:38px;">#${u.trailer}</span>
+      <span style="font-weight:700; color:${/battery/i.test(u.issue) ? '#b45309' : '#b00020'};">${u.issue}</span>
+      <span style="color:var(--muted);">${u.days} day${u.days === '1' || /^under/i.test(u.days) ? '' : 's'} &middot; ${u.location} &middot; battery ${u.battery}</span></div>`).join('');
+  const actRows = act.map(a => `<div style="display:flex; gap:8px; padding:3px 0; font-size:12px; line-height:1.45;">
+      <span style="flex-shrink:0; font-weight:900; color:${a.followup ? 'var(--muted)' : '#1d4ed8'}; min-width:54px;">${a.followup ? 'confirm' : '#' + a.trailer}</span>
+      <span>${a.followup ? `<strong>${a.trailer}:</strong> ` : ''}${a.action}${a.since && !/^(new|n\/a)$/i.test(a.since) ? ` <span style="color:#b00020; font-weight:700;">(open since ${a.since})</span>` : ''}</span></div>`).join('');
+  if (compact) {
+    return `<div style="border:2px solid #1d4ed8; border-radius:10px; margin-bottom:12px; overflow:hidden;">
+      <div style="background:#1d4ed8; color:#fff; padding:7px 12px; font-weight:800; font-size:13px;">&#128752; Trailer GPS — ${g.flagged} trailer${g.flagged === 1 ? '' : 's'} flagged on the ${g.reportDate} report</div>
+      <div style="padding:8px 12px;">${actRows || '<div style="font-size:12px;">No open actions.</div>'}
+        <div style="font-size:11px; color:var(--muted); margin-top:4px;">A dark tracker means a trailer we can't find. Batteries and mounts get fixed on the next yard visit — tell the office when it's done.</div></div></div>`;
+  }
+  return `<details style="border:2px solid #1d4ed8; border-radius:12px; margin-bottom:12px; background:#fff;" open>
+    <summary style="cursor:pointer; background:#1d4ed8; color:#fff; padding:8px 12px; font-size:14px; font-weight:900; border-radius:9px 9px 0 0;">&#128752; Trailer GPS Health — ${g.reportDate} report: ${g.flagged} flagged</summary>
+    <div style="padding:8px 12px 10px;">
+      ${g.summary ? `<div style="font-size:12.5px; line-height:1.5; margin-bottom:6px;">${g.summary.charAt(0).toUpperCase() + g.summary.slice(1)}</div>` : ''}
+      ${trendLine ? `<div style="font-size:11.5px; color:var(--muted); margin-bottom:6px;">Units flagged by report: ${trendLine}</div>` : ''}
+      ${unitRows}
+      ${actRows ? `<div style="font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.05em; color:#1d4ed8; margin:8px 0 2px;">Action list</div>${actRows}` : ''}
+      ${(g.concerns || []).length ? `<div style="font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.05em; color:#b00020; margin:8px 0 2px;">Concerns</div>${g.concerns.map(s => `<div style="font-size:11.5px; line-height:1.45; padding:2px 0;">&#8226; ${s}</div>`).join('')}` : ''}
+      <div style="font-size:10.5px; color:var(--muted); margin-top:6px;">${g.note} Received ${g.received.slice(5, 10).replace('-', '/')}.</div>
+    </div></details>`;
+}
+
+// "From the Office" card on the morning template: the latest weekly review's
+// Win / Gap and the trailer GPS actions — each only while it's fresh (8 days).
+async function _tplOffice() {
+  const el = document.getElementById('tpl-office');
+  if (!el) return;
+  try {
+    if (!_compstats) { const r = await fetch('compstats.json?_=' + Date.now(), { cache: 'no-store' }); if (r.ok) _compstats = await r.json(); }
+  } catch (e) {}
+  try {
+    if (!_gpshealth) { const r = await fetch('gpshealth.json?_=' + Date.now(), { cache: 'no-store' }); if (r.ok) _gpshealth = await r.json(); }
+  } catch (e) {}
+  const fresh = iso => iso && (Date.now() - new Date(iso).getTime()) < 8 * 86400000;
+  const qk = _compstats && _compstats.quick;
+  const qTone = { ok: '#166534', bad: '#b00020', warn: '#b45309' };
+  const week = qk && fresh(qk.received || (_compstats.week && _compstats.week.ingested && _compstats.week.ingested.received)) ? `
+    <div style="border:2px solid #0f766e; border-radius:10px; margin-bottom:12px; overflow:hidden;">
+      <div style="background:#0f766e; color:#fff; padding:7px 12px; font-weight:800; font-size:13px;">&#128202; Office Scorecard — ${qk.label}: ${qk.headline}</div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(80px, 1fr)); gap:6px; padding:8px 10px 2px;">
+        ${qk.tiles.map(t => `<div style="text-align:center; border-radius:8px; padding:5px 4px; border:1px solid ${qTone[t.tone]}33;"><div style="font-size:20px; font-weight:900; color:${qTone[t.tone]};">${t.v}</div><div style="font-size:10px; font-weight:800; text-transform:uppercase;">${t.m}</div><div style="font-size:10.5px; font-weight:800; color:${qTone[t.tone]};">${t.chg}</div></div>`).join('')}
+      </div>
+      <div style="padding:4px 12px 8px;">
+        ${qk.hits.filter(h => h.k === 'Win' || h.k === 'Gap').map(h => `<div style="font-size:12.5px; padding:2px 0;"><strong style="color:${h.k === 'Win' ? '#166534' : '#b00020'};">${h.k}:</strong> ${h.t}</div>`).join('')}
+        <div style="font-size:11px; color:var(--muted); margin-top:3px;">From Matt Croom's weekly compliance review. Full detail: Job Forms &rarr; Compliance Stats.</div>
+      </div></div>` : '';
+  const gps = _gpshealth && fresh(_gpshealth.received) ? _gpsCardHtml(_gpshealth, true) : '';
+  el.innerHTML = week + gps;
+}
 
 // Compliance Stats leaderboard — every ranked tech, best → worst, with tier,
 // trend and biggest gap; sort + search re-render only the list so the search
@@ -5588,6 +5653,10 @@ async function renderJobLog() {
     const rc = await fetch('compstats.json?_=' + Date.now(), { cache: 'no-store' });
     if (rc.ok) _compstats = await rc.json();
   } catch (e) { _compstats = null; }
+  try {
+    const rg = await fetch('gpshealth.json?_=' + Date.now(), { cache: 'no-store' });
+    if (rg.ok) _gpshealth = await rg.json();
+  } catch (e) { _gpshealth = null; }
   const dayList = (_joblog.days || []).filter(d => d.jobs).map(d => d.date).sort().reverse();
   if (!_jlView || (_jlView !== 'flags' && _jlView !== 'trends' && _jlView !== 'qc' && _jlView !== 'review' && _jlView !== 'compstats' && !dayList.includes(_jlView))) {
     _jlView = dayList[0] || 'trends';
@@ -6275,6 +6344,7 @@ function _jlPaint() {
 
       ${quickHtml}
       ${rankHtml}
+      ${_gpsCardHtml(_gpshealth, false)}
       ${wkHtml}
       ${detOpen('&#128193;', `${mo.label} monthly review + ${yt.label} (archive)`)}
 

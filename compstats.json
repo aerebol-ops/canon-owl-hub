@@ -365,7 +365,12 @@
       "Confirm Gage Gonzales uploaded his paperwork, Medlin sends his missing photos, and BJ Caesar's StreetSmart access is fixed.",
       "Equipment: swap Kirschke's SCBA (out of hydro), verify the SCBA count on Blassingame's XTO job, replace White's fire extinguisher by 10/31, and close Forbes's SABA/SCBA hydro, the Ovintiv sensors and the SM workpack.",
       "Finish the 10/28 audits (about 25% done)."
-    ]
+    ],
+    "ingested": {
+      "folder": "2026-10-29_0757_cZhkuAAA",
+      "received": "2026-10-29T07:57",
+      "curated": true
+    }
   },
   "month": {
     "label": "September 2026",
@@ -2626,7 +2631,11 @@
         "cust": "Jera Upstream",
         "div": "ETX"
       }
-    ]
+    ],
+    "ingested": {
+      "folder": "2026-10-29_1006_cZhk3AAA",
+      "received": "2026-10-29T10:06"
+    }
   },
   "quick": {
     "label": "Week of Oct 22–28",
@@ -2674,6 +2683,7 @@
         "k": "Close out",
         "t": "Kirschke's SCBA hydro · White's extinguisher by 10/31 · Gonzales's Exxon paperwork · Medlin's photos · BJ Caesar's StreetSmart access."
       }
-    ]
+    ],
+    "received": "2026-10-29T07:57"
   }
 }
