@@ -1,6 +1,25 @@
 {
   "weeks": [
     {
+      "week": 21,
+      "owl": "Auto-logged",
+      "theme": "Professionalism",
+      "psms": "Working Around Mobile Equipment",
+      "dateRange": "Nov 2&ndash;Nov 6, 2026",
+      "meetings": [
+        {
+          "date": "Mon, Nov 2",
+          "day": "Week 21 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Michael Jobe / Joseph Popillion 1099</strong> — Had meeting had psm here during the meeting they was very pleased with the meeting we had everyone worked together in a safe manner.</li><li style='margin:3px 0;'><strong>Bryan Medlin / Joseph Popillion 1099</strong> — No gases were detected all went home safely.</li><li style='margin:3px 0;'><strong>Pablo Soto / Gage Gonzales 1099</strong> — Job carried put according to scope without unplanned stops.</li><li style='margin:3px 0;'><strong>Jeremy Norris / Tyrell Sanders</strong> — Stay more out of the way when doing testing so as not to interfere with the roustabout process.</li><li style='margin:3px 0;'><strong>Alexander Clubb / Jerry Gonzales</strong> — Verifying if job was gonna be started or rescheduled.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "H2S minor was on the kill truck operator's hard hat, above the safe zone",
+            "Had a little h2s when checking let it air out went to 0 safe to work"
+          ],
+          "recognition": "Michael Jobe / Joseph Popillion 1099 — Got here to location in they didn't want us to use the road so had to drive"
+        }
+      ]
+    },
+    {
       "week": 20,
       "owl": "Auto-logged",
       "theme": "Precision",

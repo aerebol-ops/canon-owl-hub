@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-30",
-  "week": 20,
-  "day": 5,
-  "topicWeek": 9,
-  "displayWeek": 11,
+  "date": "2026-11-02",
+  "week": 21,
+  "day": 1,
+  "topicWeek": 4,
+  "displayWeek": 12,
   "cycle": 2,
   "rotation": {
-    "week": 11,
-    "host": "CALEB",
-    "topic": "Excavation",
-    "marker": "Month-end: October card finalizes"
+    "week": 12,
+    "host": "ALEX",
+    "topic": "Mobile Equipment",
+    "marker": ""
   },
-  "openingMessage": "The meeting isn't the safety program. The meeting is where we sharpen it. The field is where we prove it.",
+  "openingMessage": "If you leave this meeting knowing one more thing than you walked in with, it worked. Let's make these ten minutes count.",
   "openingAttribution": null,
-  "openingWhy": "July 13, TXL 27 Unit 4 — Ralph Forbes ran his LMRA on valves the paperwork said were bled off. They weren't. Trapped pressure, found before the break instead of during it. That's this meeting doing its job out there.",
+  "openingWhy": "The hand who fought a frozen pump hose trying to kill a well wrote it up on his OWL form — and now every crew that reads it learns that lesson the easy way. One form reaches every trailer in the Basin by morning. What you know only protects people if it moves.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,201 +168,66 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Own the process. Own the verify. Own the outcome. Precision in the field is what separates a completed job from an investigation.",
-  "yesterdaysJobs": {
-    "date": "2026-10-27",
-    "label": "Tuesday, October 27",
-    "count": 14,
-    "flags": 0,
-    "groups": [
-      {
-        "category": "AGT",
-        "jobs": [
-          {
-            "well": "UNIVERSITY 178B 18H",
-            "jobType": "Air Job",
-            "crew": "Ruben Rojo / Dermont Morgan 1099",
-            "cm": "Bryan Hamilton",
-            "note": "A reconnect on well head, team was thoroughly talked through on all LSRA's",
-            "flag": false
-          },
-          {
-            "well": "BEND 45 #1",
-            "jobType": "Air Job",
-            "crew": "Larry Jaramillo / William \"Jimmy\" Cooper 1099",
-            "cm": "",
-            "note": "All hands participated in safety meeting",
-            "flag": false
-          },
-          {
-            "well": "ALDWELL M R40 101H",
-            "jobType": "Air Job",
-            "crew": "Bryan Medlin / Barthol \"Bj\" Caesar 1099",
-            "cm": "Colt Williams",
-            "note": "Arrived on location at 7:40 waited on sonic to grease the wing valve and fo",
-            "flag": false
-          },
-          {
-            "well": "SPRAYBERRY DRIVER #304H",
-            "jobType": "Air Job",
-            "crew": "",
-            "cm": "",
-            "note": "Arrived on location at approximately 1300 waited for LoTo and sonic to grea",
-            "flag": false
-          },
-          {
-            "well": "PRATT VAUGHN 21F 106H",
-            "jobType": "Davit Arm",
-            "crew": "Nathan Contreras / Rolando Flores 1099",
-            "cm": "Shelly Thiel",
-            "note": "Before beginning cellar work using the davit arm, we conducted a safety mee",
-            "flag": false
-          },
-          {
-            "well": "ROBBIE 17A-8-F 2811H",
-            "jobType": "Air Job",
-            "crew": "Luis Zarate / Cindy Smith 1099",
-            "cm": "",
-            "note": "Crew replaced a spool on the wellhead that wasn't correct from yesterday",
-            "flag": false
-          },
-          {
-            "well": "Robbie 17A-8 2815",
-            "jobType": "Air Job",
-            "crew": "Luis Zarate / Cindy Smith 1099",
-            "cm": "",
-            "note": "Crew replaced spools on wellhead but they were the wrong ones and had to wa",
-            "flag": false
-          },
-          {
-            "well": "SEMPLE #1",
-            "jobType": "Air Job",
-            "crew": "Larry Jaramillo / William \"Jimmy\" Cooper 1099",
-            "cm": "Foreman_West Ops 7",
-            "note": "Everyone worked good together",
-            "flag": false
-          },
-          {
-            "well": "KYLE 2600 UNIT 2 2625SH",
-            "jobType": "Air Job",
-            "crew": "Andrew Bailey / Humberto Salazar",
-            "cm": "Andrew Mcfadden",
-            "note": "Good verbal communication, team work",
-            "flag": false
-          },
-          {
-            "well": "NORTHEAST SCHARBAUER 1220H",
-            "jobType": "Air Job",
-            "crew": "Michael Jobe / Bobby Galindo 1099",
-            "cm": "Shelly Thiel",
-            "note": "Had a little h2s when checking let it air out went to 0 safe to work",
-            "flag": false
-          },
-          {
-            "well": "MCMASTER C 2",
-            "jobType": "Air Job",
-            "crew": "Jerry Gonzales / Baldemar Bracomontes 1099",
-            "cm": "Waco Richards",
-            "note": "Had pre task meeting, job task involved breaking containment and line of fi",
-            "flag": false
-          },
-          {
-            "well": "Parks 2526SH",
-            "jobType": "Air Job",
-            "crew": "Andrew Bailey / Humberto Salazar",
-            "cm": "Bryan Hamilton",
-            "note": "Job planned , crew working safely to complete task",
-            "flag": false
-          },
-          {
-            "well": "MASSEY UNIT 4313H",
-            "jobType": "Air Job",
-            "crew": "Jeremy Norris / Tyrell Sanders",
-            "cm": "Foreman_West Ops 8",
-            "note": "Replacing 2inch piping",
-            "flag": false
-          },
-          {
-            "well": "SPRAYBERRY DRIVER 303H",
-            "jobType": "Air Job",
-            "crew": "",
-            "cm": "",
-            "note": "They couldn't get the valves to hold",
-            "flag": false
-          }
-        ]
-      }
-    ]
-  },
-  "formReview": {
-    "date": "2026-10-29",
-    "label": "Thursday 10/29",
-    "verdict": "",
-    "concerns": [
-      {
-        "title": "1099 Alfredo Vaquera — Diamondback, Black Pearl C 11-14 132 — 12:29 PM — H2S Safety Supervision Daily Inspection Form",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
-      },
-      {
-        "title": "1099 Alfredo Vaquera — Diamondback, Black Pearl C 11-14 132 — 12:29 PM — H2S Safety Supervision Daily Inspection Form",
-        "quote": "No Do you have sufficient mask bags?"
-      },
-      {
-        "title": "Jacob Hernandez — CSRHI Andrews Shop — 5:04 AM — Trailer Inspection Form, trailer 127",
-        "quote": "First aid kit missing will put one in it right now."
-      }
-    ]
-  },
+  "leadershipThought": "We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.",
+  "yesterdaysJobs": null,
+  "formReview": null,
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Arrived on location at 7:40 waited on sonic to grease the wing valve and fo</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Bryan Medlin / Barthol \"Bj\" Caesar 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>H2S minor was on the kill truck operator's hard hat, above the safe zone</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Spoke with K/T operator and discussed the proper placement of his H2S monitor...</span><br><br><strong>Had pre task meeting, job task involved breaking containment and line of fi</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jerry Gonzales / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>All LSRA's were understood by all crews and everyone worked together to mitigate any possible triggers that could occur, everyone utilized their LMRA's before doing any kind of work.</span><br><br><strong>Had a little h2s when checking let it air out went to 0 safe to work</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Had meeting on job scope everything went great did our readings safe to work.</span><br><br><strong>We observed a reconnect / conversion done on a well</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Confined Space Entry)</span><br><span style='font-size:13px;'>Crews held great safety meeting for the confined space job, crews went over potential dangers and triggers that can happen during the job , crews also verified nearest hospitals and muster areas.</span>",
+  "exxonMoments": "<strong>A reconnect on well head, team was thoroughly talked through on all LSRA's</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Dermont Morgan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Both teams communicated well and left no stone unturned in looking for dangerous materials or situations prior and during work.</span><br><br><strong>Canceling due to hole in casing</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Crew didn't have a tag line or spotter told them they had to have one</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Had meeting crew worked safely did our reading everything went great.</span><br><br><strong>Did a good meeting due a new crew on site explaining everything that need t</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Reconnect completed with no issues observed</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Review the work sequence beforehand to identify potential delays and keep everyone clear on their responsibilities.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dawson Drake / Humberto Salazar — Humberto handle the meeting amazing, while i was on the phone with Jacob ta",
-      "detail": "All standards were up held.",
+      "headline": "Michael Jobe / Joseph Popillion 1099 — Got here to location in they didn't want us to use the road so had to drive",
+      "detail": "Had meeting had psm here during the meeting they was very pleased with the meeting we had everyone worked together in a safe manner.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Caleb Smith / Joseph Popillion 1099 — Job was completed according to job scope",
-      "detail": "Was a basic reconnect to a swd, invoked setting to pieces of flowline.",
+      "headline": "Bryan Medlin / Joseph Popillion 1099 — Arrived on site at 11:53 pulling unit was still rigged up stayed off the si",
+      "detail": "No gases were detected all went home safely.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jerry Gonzales / Gage Gonzales 1099 — WAME, Breaking Containment, mechanical lifting",
-      "detail": "Job carried out without unplanned stops.",
+      "headline": "Pablo Soto / Gage Gonzales 1099 — WAME, breaking containment",
+      "detail": "Job carried put according to scope without unplanned stops.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Dawson Drake / Gael \"Antonio\" Avila 1099 — Going over the Psms rules",
-      "detail": "Every standard was meet and will be on the next.",
+      "headline": "Jeremy Norris / Tyrell Sanders — A great safety meeting that covered all of the LMRAs and LSRAs that would p",
+      "detail": "Stay more out of the way when doing testing so as not to interfere with the roustabout process.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis / Kedrick Mccarter 1099 — Hold point used once we stopped pumping down the well to sue the crane",
-      "detail": "Better communication between crews when discussing different hazards.",
-      "psms": "Mobile Equipment",
+      "headline": "Alexander Clubb / Jerry Gonzales — BOP was still on wellhead",
+      "detail": "Verifying if job was gonna be started or rescheduled.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "flag",
-      "week": 20,
-      "headline": "Clean board — no open watch items this week",
-      "detail": "Nothing carried in from last week. See a hazard? Flag it on your OWL form and it lands here the same evening.",
-      "psms": "OWL Program"
+      "week": 21,
+      "headline": "H2S minor was on the kill truck operator's hard hat, above the safe zone",
+      "detail": "Spoke with K/T operator and discussed the proper placement of his H2S monitor...",
+      "psms": "Atmospheric Monitoring"
+    },
+    {
+      "type": "flag",
+      "week": 21,
+      "headline": "Had a little h2s when checking let it air out went to 0 safe to work",
+      "detail": "Had meeting on job scope everything went great did our readings safe to work.",
+      "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "When the job goes sideways today — weather, delays, a hot line — nobody needs your frustration, they need your next right call. Lead the response, not the complaint.",
-  "todaysChallengeSubtext": "“During critical periods, a leader is not allowed to feel sorry for himself.” — Mike Krzyzewski",
+  "todaysChallenge": "Yesterday's miss doesn't ride with you today — but its lesson does. Put the lesson on your OWL form where the whole crew can use it, then run today clean.",
+  "todaysChallengeSubtext": "“What to do with a mistake: recognize it, admit it, learn from it, forget it.” — Dean Smith",
   "compliance": {
     "weekOf": "Week of October 26, 2026",
     "metrics": [
@@ -383,37 +248,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/29"
-  },
-  "specialFocus": {
-    "week": 20,
-    "until": "2026-10-30",
-    "title": "The Best Week on Record — Now Finish It: Readiness on Every Move",
-    "why": "All week we've said excellence lives in the small details. Yesterday the office put a number on it. Matt's review of Oct 22–28 came in, and it's the best week since weekly tracking started in September. Day forms were completed 97% of the time, the highest yet. Trailer inspections hit 98%, also the highest yet. Missed forms went from 57 the week before to 25, cut by more than half. And for the second week running, the auditors found no false PPE entries, no backdated paperwork, no undated JSAs and no old or 'N/A' photos. That's not luck. That's every one of you doing the small things right, one form at a time. There's one gap left, and it's the one we fix this morning: the trailer readiness form. It dropped to 73% and has bounced up and down for four weeks. A form that only gets done some of the time isn't a habit yet. Today we make it one.",
-    "standardLabel": "The Scoreboard and the One Gap — Straight From Matt's Review",
-    "standard": [
-      "The week, by the numbers (Oct 22–28): day forms 97.3% (219 of 225), trailer inspections 98.3% (58 of 59), and 25 missed forms, down from 57. Day forms came up in every segment: ETX day forms went from 75% to 97%, Comstock from 54% to 100%, supervision jobs from 78% to 88%, and XTO was 149 of 150.",
-      "22 of the 40 techs the office ranked had zero misses. Robbie Henigan, Humberto Salazar and Larry Taylor led on seven shifts each, with Nathan Contreras, Ralph Forbes, Jordan Lemmons, Dermont Morgan, Justin Pack, Jimmy Cooper, Jerry Gonzales, Ruben Rojo, Cindy Smith, Michael Ellis and Baldemar Bracamontes all perfect too. Dawson Drake went 19 of 20 on 12 shifts, the heaviest load on the list.",
-      "The comebacks are the best part. Every tech on the office's attention list the week before improved. Bryan Medlin went from 22 of 28 to a perfect 11 of 11, Joseph Popillion from 5 of 10 to a perfect 7 of 7, and Bobby Galindo, Dennis Easley and Allen White were all perfect. Allen had missed daily forms four weeks running. Not anymore.",
-      "The longer view, Sep 1 to Oct 27: missed trailer inspections fell from 18% in September to 7% in October, JSA problems from 79 notes to 16, and photo problems from 37 to 7. Most improved: Dawson Drake (+39 points), Alfredo Vaquera (+38), Michael Ellis (+30) and Baldemar Bracamontes (+26). Pablo Soto has been perfect every week since Sep 30. Cindy Smith has missed one form in two months.",
-      "The one gap: trailer readiness. 44 of 60 (73%) this week, after 82%, 71% and 86% in the three weeks before. It's still nearly 1 in 4 missed in October. SM Energy crews were at 8 of 15 this week. The fix: every time a trailer moves, the readiness form gets done before the truck rolls. Not after, and not 'I'll catch it at the end of the day.'",
-      "The small stuff that keeps the streak alive: a JSA on every job, including the short ones and field service. The equipment count in StreetSmart has to match what's actually on location. If StreetSmart won't take your photos or you can't get into the app, call it in and resend. A form you did that never made it to the office counts as a miss."
-    ],
-    "scenarios": [
-      {
-        "title": "Trailer Moves at 2 PM",
-        "body": "You finish one job early and dispatch moves you to a second location across the county. You hook up, you're thinking about the drive and the next crew, and you're gone. That's exactly where the readiness form gets lost: the second move of the day. Caleb, walk the circle through it. When does the readiness form get done on a mid-day move? (Before the truck rolls.) What's on it? Who checks it if you're running two locations? Make it automatic: hitch, walk around, readiness form, then go."
-      },
-      {
-        "title": "The Six SCBAs That Were Really Two",
-        "body": "The job in StreetSmart says six SCBAs on site. You count two. Maybe the job was copied from an old one and nobody updated it. But if something goes wrong on that location, the paperwork says six people had air, and only two did. When the count is wrong, fix it in the app and tell your lead before work starts. The paperwork has to describe the location you're really standing on, the same as the Stop Work write-ups we talked about last week."
-      }
-    ],
-    "questions": [
-      "Best week on record. What's one habit you changed this month that you're keeping?",
-      "Your trailer moves twice today. Walk us through exactly when each readiness form gets done.",
-      "Medlin, Popillion, Galindo, Easley and White went from the office's list to perfect in one week. What's the one thing that makes paperwork easy to finish on location?",
-      "Caleb's question: what did the field teach us this week that the breakroom should know?"
-    ],
-    "nonNegotiable": "This was the best week since tracking began, and it came from small details done right by the whole crew. Keep it: a readiness form on every trailer move before the truck rolls, a JSA on every job, and counts in StreetSmart that match what's on location. Finish the week the way you ran it."
   }
 }

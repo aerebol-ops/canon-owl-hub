@@ -2,6 +2,68 @@
  "generated": "2026-10-30",
  "months": [
   {
+   "month": "2026-10",
+   "label": "October 2026",
+   "scope": "full month",
+   "diligence": {
+    "winner": {
+     "who": "Tyrell Sanders",
+     "jobs": 5,
+     "complete": 5,
+     "pct": 100
+    },
+    "board": [
+     {
+      "who": "Jordan Lemmons",
+      "jobs": 5,
+      "complete": 5,
+      "pct": 100
+     },
+     {
+      "who": "Tyrell Sanders",
+      "jobs": 5,
+      "complete": 5,
+      "pct": 100
+     },
+     {
+      "who": "Pablo Soto",
+      "jobs": 25,
+      "complete": 24,
+      "pct": 96
+     }
+    ]
+   },
+   "duck": {
+    "winner": {
+     "who": "Nathan Contreras / Rolando Flores 1099",
+     "ducks": 7,
+     "eagles": 0,
+     "total": 7
+    },
+    "board": [
+     {
+      "who": "Nathan Contreras / Rolando Flores 1099",
+      "ducks": 7,
+      "eagles": 0,
+      "total": 7
+     },
+     {
+      "who": "Luis Zarate / Cindy Smith 1099",
+      "ducks": 5,
+      "eagles": 0,
+      "total": 5
+     },
+     {
+      "who": "Nathan Contreras / Gael \"Antonio\" Avila 1099",
+      "ducks": 3,
+      "eagles": 0,
+      "total": 3
+     }
+    ]
+   },
+   "attitude": null
+  },
+  {
    "month": "2026-09",
    "label": "September 2026",
    "scope": "since 9/17 — job-packet data starts there",

@@ -116,6 +116,15 @@
       "focus": "Character is built when nobody is watching. Small deviations don't stay small. Correct them now, when the cost is low.",
       "moment": "Brianda Sandoval / Tyrell Sanders — They had to do a reconnect &middot; Larry Jaramillo / Humberto Salazar — Job went good, tested air quality prior to first break",
       "endDate": "October 23"
+    },
+    {
+      "week": 20,
+      "theme": "Excavation",
+      "psms": "Excavation",
+      "owl": "Auto-logged",
+      "focus": "Precision is not perfectionism. It's doing the right thing in the right order before the ground opens up. The locate flag tells you where to look — your eyes and hands tell you what's actually there.",
+      "moment": "Andrew Bailey / Gage Gonzales 1099 — Crew preforming wellhead disconnect while utilizing PSMS &middot; Andrew Bailey / Gage Gonzales 1099 — Crew preforming wellhead disconnect while utilizing PSMS",
+      "endDate": "October 30"
     }
   ]
 }
