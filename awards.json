@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30",
+ "generated": "2026-11-01",
  "months": [
   {
    "month": "2026-10",
@@ -70,28 +70,22 @@
    "diligence": {
     "winner": {
      "who": "Jordan Lemmons",
-     "jobs": 9,
-     "complete": 9,
+     "jobs": 5,
+     "complete": 5,
      "pct": 100
     },
     "board": [
      {
       "who": "Jordan Lemmons",
-      "jobs": 9,
-      "complete": 9,
+      "jobs": 5,
+      "complete": 5,
       "pct": 100
      },
      {
-      "who": "Michael Jobe",
-      "jobs": 5,
-      "complete": 4,
-      "pct": 80
-     },
-     {
-      "who": "Jeremy Norris",
-      "jobs": 7,
-      "complete": 4,
-      "pct": 57
+      "who": "Nathan Contreras",
+      "jobs": 6,
+      "complete": 1,
+      "pct": 17
      }
     ]
    },

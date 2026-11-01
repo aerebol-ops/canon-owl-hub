@@ -170,7 +170,25 @@
   ],
   "leadershipThought": "We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.",
   "yesterdaysJobs": null,
-  "formReview": null,
+  "formReview": {
+    "date": "2026-10-31",
+    "label": "Saturday 10/31",
+    "verdict": "",
+    "concerns": [
+      {
+        "title": "Jordan Lemmons — XTO, Woodfin-Dollie W16C 3H, 09:45 AM, job 36441. Benzene detected above zero during the wellhead and flow line disconnect. The form records the reading ",
+        "quote": "Completed the job we did some some benzene of 0.71 so the mt requested to let it air out and rest so we didn't and got 0s so continued with job and got it finished"
+      },
+      {
+        "title": "Cindy Smith (1099) — XTO, Woodfin-Dollie W16C 3H, 09:47 AM, job 36442. Same well and same operation as item 1, documented independently by the second technician",
+        "quote": "Work area and bleeder valves tested prior to crew beginning work. Benzene was detected on first and second break but dissipated quickly. Crew was able to work without supplied air. Wellhead and flow line was disconnected. The job went according to plan with no incidents or near misses."
+      },
+      {
+        "title": "Jordan Lemmons — Ovintiv, UL Cathedral 36 (H&P 551), field service job 36507, ended 04:04 PM. An LEL sensor on the pad required a board replacement. The work performed fi",
+        "quote": "Swapped the board in the lel sensor on pad and leaving the extra sensor with them on pad"
+      }
+    ]
+  },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -178,36 +196,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Michael Jobe / Joseph Popillion 1099 — Got here to location in they didn't want us to use the road so had to drive",
-      "detail": "Had meeting had psm here during the meeting they was very pleased with the meeting we had everyone worked together in a safe manner.",
+      "headline": "Pablo Soto / Bobby Galindo 1099 — Valves were bled out and waited for permit to go live",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Bryan Medlin / Joseph Popillion 1099 — Arrived on site at 11:53 pulling unit was still rigged up stayed off the si",
-      "detail": "No gases were detected all went home safely.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Pablo Soto / Gage Gonzales 1099 — WAME, breaking containment",
-      "detail": "Job carried put according to scope without unplanned stops.",
+      "headline": "Ruben Rojo / Gage Gonzales 1099 — Disconnect and flange connection",
+      "detail": "No high benzene or other gasses present on work zone before and after break.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Tyrell Sanders — A great safety meeting that covered all of the LMRAs and LSRAs that would p",
-      "detail": "Stay more out of the way when doing testing so as not to interfere with the roustabout process.",
+      "headline": "Brianda Sandoval / Gael \"Antonio\" Avila 1099 — We did a small meeting quick and essay but with all the info need it",
+      "detail": "Talk more to the crew about the safe guard and help them pick up any trash in location.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Alexander Clubb / Jerry Gonzales — BOP was still on wellhead",
-      "detail": "Verifying if job was gonna be started or rescheduled.",
+      "headline": "Bryan Medlin / Jeremy Norris — Job went according to plan reconnected flow line to well",
+      "detail": "Never trust the google map.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Stefanie Kirschke / Robbie Henigan 1099 — Crew working around the wellhead and moving equipment during reconnect",
+      "detail": "Review equipment placement before starting to keep clear walking paths.",
       "psms": "Operational Discipline",
       "level": null
     },
