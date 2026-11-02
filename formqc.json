@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01",
+ "generated": "2026-11-02",
  "scope": "Dropbox '- OWL' exports \u2014 OWL, JSA, 4-gas, location sign, ticket auditable; benzene/atmospheric/permits/tubes/names need the full packet feed",
  "jobs": [
   {
@@ -8707,54 +8707,6 @@
    "late_min": -9,
    "missing": [],
    "complete": true
-  },
-  {
-   "date": "2026-09-27",
-   "well": "Morgan Owens 24E #5H",
-   "category": "AGT",
-   "forms": 2,
-   "checks": {
-    "owl": true,
-    "jsa": false,
-    "gas4": true,
-    "sign": true,
-    "ticket": true
-   },
-   "board": false,
-   "ticket": "",
-   "bnz": "",
-   "at": "",
-   "techs": "",
-   "sched": "",
-   "late_min": null,
-   "missing": [
-    "Exxon JSA uploaded"
-   ],
-   "complete": false
-  },
-  {
-   "date": "2026-09-27",
-   "well": "Brook N-13EM #213H",
-   "category": "AGT",
-   "forms": 2,
-   "checks": {
-    "owl": true,
-    "jsa": false,
-    "gas4": true,
-    "sign": true,
-    "ticket": true
-   },
-   "board": true,
-   "ticket": "101972",
-   "bnz": "",
-   "at": "",
-   "techs": "STEFANIE KIRSCHKE / Rolando Flores 1099",
-   "sched": "9/27/2026",
-   "late_min": null,
-   "missing": [
-    "Exxon JSA uploaded"
-   ],
-   "complete": false
   }
  ]
 }

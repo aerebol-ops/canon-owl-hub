@@ -1,25 +1,15 @@
 {
- "generated": "2026-11-01",
+ "generated": "2026-11-02",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
-  "weekJobs": 33,
-  "weekForms": 58,
-  "weekFlagRate": 3,
-  "weekWells": 32,
-  "weekCrews": 17
+  "weekJobs": 28,
+  "weekForms": 49,
+  "weekFlagRate": 0,
+  "weekWells": 27,
+  "weekCrews": 15
  },
  "days": [
-  {
-   "date": "2026-09-27",
-   "forms": 4,
-   "jobs": 2,
-   "flags": 0,
-   "AGT": 2,
-   "Maintenance": 0,
-   "Well Testing": 0,
-   "Other": 0
-  },
   {
    "date": "2026-09-28",
    "forms": 28,
@@ -4511,28 +4501,6 @@
    "crew": "Pablo Soto / Jerry Gonzales",
    "cm": "Clay Mateo",
    "note": "Crew reconnect to well",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-27",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Morgan Owens 24E #5H",
-   "crew": "",
-   "cm": "",
-   "note": "Workover crew was on site during reconnect",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-27",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Brook N-13EM #213H",
-   "crew": "Stefanie Kirschke / Rolando Flores 1099",
-   "cm": "Jeff Jones",
-   "note": "Reconnected equipment after the workover crew moved off site",
    "psms": "Operational Discipline",
    "flag": false
   }
