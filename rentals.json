@@ -54,7 +54,7 @@
     {
       "rig": "H&P 551",
       "company": "OVINTIV",
-      "location": "UL CATHEDRAL 36",
+      "location": "UL CHATFIELD 36X 106HF",
       "status": "RUNNING",
       "active": true,
       "equipment": "REDLINE",
@@ -69,7 +69,7 @@
     {
       "rig": "H&P 379",
       "company": "OVINTIV",
-      "location": "TERLINGUA 255",
+      "location": "TERLINGUA 255R 105HC",
       "status": "RUNNING",
       "active": true,
       "equipment": "OTIS",
@@ -84,14 +84,14 @@
     {
       "rig": "H&P 395",
       "company": "OVINTIV",
-      "location": "TERILINGUA 255",
+      "location": "TERILINGUA 255T 116HL",
       "status": "RUNNING",
       "active": true,
       "equipment": "REDLINE",
       "ticket": "101217",
       "at": "",
       "onRentSince": "2024-08-30",
-      "currentStart": "2026-11-01",
+      "currentStart": "2026-10-31",
       "lastCheck": "2026-06-21",
       "daysSinceCheck": 134,
       "checkState": "overdue"
@@ -99,7 +99,7 @@
     {
       "rig": "H&P 616",
       "company": "OVINTIV",
-      "location": "TERILINGUA 255",
+      "location": "TERILINGUA 255Q 106HR",
       "status": "RUNNING",
       "active": true,
       "equipment": "REDLINE",
@@ -114,7 +114,7 @@
     {
       "rig": "H&P 264",
       "company": "OVINTIV",
-      "location": "FASKEN MD",
+      "location": "FASKEN MD 9-U 107HD",
       "status": "RUNNING",
       "active": true,
       "equipment": "REDLINE",

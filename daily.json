@@ -192,36 +192,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Caleb Smith / Humberto Salazar — Crew had their correct PPE , using the right tools do the job , had good ve",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "headline": "Jeremy Norris / Humberto Salazar — A disconnect with great communication and a great use of stop work authorit",
+      "detail": "A great safety meeting discussing all of the PSMS rules in depth as according to Exxon safety standards.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Michael Ellis / Cindy Smith 1099 — Disconnected well head, flow and injection line",
+      "detail": "Clean up debris and picked up trip hazards.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Ruben Rojo / Justin Fontenot 1099 — Line disconnect which lead to a pump jack transfer",
+      "detail": "High benzene at beginning of work but team was out of line of fire and wind direction helped with flow of gas.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Caleb Smith / Robbie Henigan 1099 — Crew set out exclusion zones with cones and even used plastic chains to blo",
+      "detail": "Reconnect went according to plan and no issues were found during the process.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Cindy Smith 1099 — Crew used hydraulic lift to move pump jack back a few feet to realign slick",
-      "detail": "Communication is key.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Larry Jaramillo / Baldemar Bracomontes 1099 — Had meeting and made sure to take the time to point out the flooded locatio",
-      "detail": "Discussed all LSRA's associated with job scope, made exclusion zones noticeable.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jacob Hernandez / Justin Fontenot 1099 — Safety was held and exclusion zones were set into place",
-      "detail": "Next job will be held to the same standards.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Caleb Smith / Gael \"Antonio\" Avila 1099 — Crew did a good pre task meeting and verified what Lsra they were utilizing",
-      "detail": "Team involved everyone in the pre task discussion.",
+      "headline": "Pablo Soto / Justin Fontenot 1099 — Held safety meeting with the crew and set up muster stands and exclusion zo",
+      "detail": "Next job will be held to the same standard and follow the same procedures.",
       "psms": "Operational Discipline",
       "level": null
     },
