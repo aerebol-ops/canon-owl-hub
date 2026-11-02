@@ -4586,6 +4586,7 @@ async function renderLog() {
           <div class="owl-week-theme">${wk.theme} &middot; PSMS: ${wk.psms}</div>
           <div class="owl-week-dates">${wk.dateRange}</div>
         </div>
+        ${wk.summaryPdf ? `<a class="owl-pdf-btn" href="${wk.summaryPdf}" target="_blank" rel="noopener" style="text-decoration:none;margin-right:6px;">&#128203; Weekly Summary</a>` : ''}
         <button class="owl-pdf-btn" onclick="shareOwlWeekPDF(${wi})">&#128196; Share PDF</button>
       </div>
       <div class="owl-meetings">
