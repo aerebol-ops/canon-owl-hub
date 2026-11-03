@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02",
+ "generated": "2026-11-03",
  "months": [
   {
    "month": "2026-10",
@@ -7,7 +7,7 @@
    "scope": "full month",
    "diligence": {
     "winner": {
-     "who": "Tyrell Sanders",
+     "who": "Jordan Lemmons",
      "jobs": 5,
      "complete": 5,
      "pct": 100
@@ -72,23 +72,17 @@
    "scope": "since 9/17 — job-packet data starts there",
    "diligence": {
     "winner": {
-     "who": "Jordan Lemmons",
+     "who": "Nathan Contreras",
      "jobs": 5,
-     "complete": 5,
-     "pct": 100
+     "complete": 0,
+     "pct": 0
     },
     "board": [
      {
-      "who": "Jordan Lemmons",
-      "jobs": 5,
-      "complete": 5,
-      "pct": 100
-     },
-     {
       "who": "Nathan Contreras",
-      "jobs": 6,
-      "complete": 1,
-      "pct": 17
+      "jobs": 5,
+      "complete": 0,
+      "pct": 0
      }
     ]
    },

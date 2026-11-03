@@ -1,25 +1,15 @@
 {
- "generated": "2026-11-02",
+ "generated": "2026-11-03",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
-  "weekJobs": 28,
-  "weekForms": 49,
+  "weekJobs": 15,
+  "weekForms": 25,
   "weekFlagRate": 0,
-  "weekWells": 27,
-  "weekCrews": 15
+  "weekWells": 15,
+  "weekCrews": 9
  },
  "days": [
-  {
-   "date": "2026-09-28",
-   "forms": 28,
-   "jobs": 14,
-   "flags": 0,
-   "AGT": 13,
-   "Maintenance": 0,
-   "Well Testing": 1,
-   "Other": 0
-  },
   {
    "date": "2026-09-29",
    "forms": 42,
@@ -4347,160 +4337,6 @@
    "crew": "Alexander Clubb / Gael \"Antonio\" Avila 1099",
    "cm": "Foreman_West Ops 7",
    "note": "Job scope was kill well, when pumping on well only got 4 barrels in before",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "Well Testing",
-   "jobType": "Well Test",
-   "well": "Preston A 3610H",
-   "crew": "Raymundo Solis / Bobby Galindo 1099",
-   "cm": "",
-   "note": "Job was canceled because of no power on the facility",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Welch Cox E39D 304H",
-   "crew": "Dawson Drake / Jose Campos",
-   "cm": "Foreman_East Ops 2",
-   "note": "Job was canceled rescheduled for a later date",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Turner W41K 11H",
-   "crew": "Michael Jobe / William \"Jimmy\" Cooper 1099",
-   "cm": "Foreman_West Ops 10",
-   "note": "Started the job late but all went well crew was great",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Turner W41J 10H",
-   "crew": "Michael Jobe / William \"Jimmy\" Cooper 1099",
-   "cm": "Foreman_West Ops 10",
-   "note": "Had a great meeting went over everything that needed to be done",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Tredaway Elkin 21I #9H",
-   "crew": "Jordan Lemmons / Bryan Medlin",
-   "cm": "Shelly Thiel",
-   "note": "Reconnect went according to job scope and PSMS was out on pad",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Shackelford 40-12B 2H",
-   "crew": "Luis Zarate / Cindy Smith 1099",
-   "cm": "",
-   "note": "Crew did a conversion from esp to cgl",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Pratt Vaughn 21C#103H",
-   "crew": "",
-   "cm": "",
-   "note": "",
-   "psms": "",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Poppy Atrelle 21D 4H",
-   "crew": "Jordan Lemmons / Bryan Medlin",
-   "cm": "Shelly Thiel",
-   "note": "Did the reconnect and tested and got 0s",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "McMaster A 3TM",
-   "crew": "Jacob Hernandez / Gael \"Antonio\" Avila 1099",
-   "cm": "Waco Richards",
-   "note": "Great communication by MT",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "LHS Ranch 27-21 2104 2104BH",
-   "crew": "Pablo Soto / Jerry Gonzales",
-   "cm": "Keane Robinson",
-   "note": "Crew reconnect to flow line",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Jordan N 23-24 2814H",
-   "crew": "Caleb Smith / Dermont Morgan 1099",
-   "cm": "",
-   "note": "Everyone being on the same page working together as a team",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Jack Mohr Unit 3 0124SH",
-   "crew": "Nathan Contreras / Rolando Flores 1099",
-   "cm": "Foreman_East Ops 7",
-   "note": "We observed a conversion done on a well",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Brunson 42-6-G 4314H",
-   "crew": "Andrew Bailey / Gage Gonzales 1099",
-   "cm": "Foreman_East Ops 8",
-   "note": "We observed the well being converted to a gapl",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-09-28",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Brook A-E2C 3H",
-   "crew": "Pablo Soto / Jerry Gonzales",
-   "cm": "Clay Mateo",
-   "note": "Crew reconnect to well",
    "psms": "Operational Discipline",
    "flag": false
   }

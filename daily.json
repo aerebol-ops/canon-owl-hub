@@ -171,17 +171,21 @@
   "leadershipThought": "Think before you speak. Think before you joke. Think before you act. Ask yourself: if this shows up in front of a client, my family, or leadership — does it represent me well? If the answer is no — don't do it.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-11-01",
-    "label": "Sunday 11/01",
+    "date": "2026-11-02",
+    "label": "Monday 11/02",
     "verdict": "",
     "concerns": [
       {
-        "title": "Michael Hutt — Trailer Inspection Form, trailer 505, 137 Glendale Street, Kilgore TX, form time 12:20 PM, no job ID on this form type. The FR uniform question was answere",
-        "quote": "No Are you wearing you Canon Safety issued FR uniform? Sunday picking up from shop If not, why?"
+        "title": "Alfredo Vaquera (1099) — Diamondback, Black Pearl C 11-14 132, 02:51 PM, ticket 102630 — not in Canon Safety issued FR coveralls. The reason field was completed",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls / None assigned If not, why?"
       },
       {
-        "title": "Dawson Drake — Trailer Inspection Form, trailer 504, Co Rd 300, Mentone TX, form time 09:10 AM, no job ID on this form type. The FR uniform question was answered No. The ",
-        "quote": "No Are you wearing you Canon Safety issued FR uniform? Bringing a trailer for Man camp If not, why?"
+        "title": "Alfredo Vaquera (1099) — same form, same job — insufficient mask bags. On the same H2S daily",
+        "quote": "No Do you have sufficient mask bags?"
+      },
+      {
+        "title": "Bobby Galindo (1099) — XTO, NAIL TILLMAN E1G 507H, job 36503, ticket 102660, 09:09 AM to 11:58 AM — gas release during flow-line reconnection. From the OWL observe narrat",
+        "quote": ""
       }
     ]
   },
@@ -192,38 +196,38 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Nathan Contreras / Tyrell Sanders — Continuous multi-gas detection was maintained prior to and during the break",
-      "detail": "All high-risk safety controls—including Lockout/Tagout (LOTO) protocols, exclusion zones, and hot work management—were executed safely without incident.",
+      "headline": "Pablo Soto / Baldemar Bracomontes 1099 — Had our pre task meeting and discussed the LSRA's that were associated with",
+      "detail": "Roustabout crew and safety crew walked the location together to see what potential triggers were present, found a cathodic line that was still live and connected to the w",
+      "psms": "Operational Discipline",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris / Robbie Henigan 1099 — Reconnection of a Horsehead setup on location",
+      "detail": "Great use of various safety equipment to make sure that the process would go smoothly as possible and id not there were backup safety measures to stop a catastrophic defa",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Nathan Contreras / Gael \"Antonio\" Avila 1099 — We observed a disconnect on a pumpjack",
+      "detail": "Crews verified LOTO before work , crews pointed out muster points and nearest hospitals.",
       "psms": "Energy Isolation",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Alexander Clubb / Raymundo Solis — Job scope was killing the well",
-      "detail": "AGT area and highest readings got up to 0.22 ppm of Benz.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — Set up exclusion zone around pump Jack killed well and then replaced packin",
-      "detail": "Always look for room to improve.",
-      "psms": "Operational Discipline",
       "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Ruben Rojo / Baldemar Bracomontes 1099 — Job was completed safely with no accident, great communication between all",
-      "detail": "Great communication between all crews to ensure both wells were disconnected safely and simultaneously.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Raymundo Solis / Gael \"Antonio\" Avila 1099 — Did the meeting with the crew and mt, pretty essay and quick, did first bre",
+      "detail": "Very good crew to work with today, great communication.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Luis Zarate / Jerry Gonzales — Crew killed well and then replaced master valves, wellhead and tubing rubbe",
-      "detail": "Continue to grow communication with crew and MT.",
+      "headline": "Larry Jaramillo / Humberto Salazar — Crew had their correct PPE on and working safely to complete task",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
       "psms": "Operational Discipline",
-      "level": "duck"
+      "level": null
     },
     {
       "type": "flag",
