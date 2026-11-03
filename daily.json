@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "week": 21,
-  "day": 1,
+  "day": 2,
   "topicWeek": 4,
   "displayWeek": 12,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Mobile Equipment",
     "marker": ""
   },
-  "openingMessage": "If you leave this meeting knowing one more thing than you walked in with, it worked. Let's make these ten minutes count.",
+  "openingMessage": "Protect the group. Protect the work. Our jobs, our clients, and our reputation depend on it.",
   "openingAttribution": null,
-  "openingWhy": "The hand who fought a frozen pump hose trying to kill a well wrote it up on his OWL form — and now every crew that reads it learns that lesson the easy way. One form reaches every trailer in the Basin by morning. What you know only protects people if it moves.",
+  "openingWhy": "One pencil-whipped form on one location can put a whole client relationship in review. The operator doesn't just grade the hand that slipped — they grade Canon. Every crew in this Basin is either protected or exposed by what happens on your location today.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.",
+  "leadershipThought": "Think before you speak. Think before you joke. Think before you act. Ask yourself: if this shows up in front of a client, my family, or leadership — does it represent me well? If the answer is no — don't do it.",
   "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-11-01",
@@ -188,42 +188,42 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>A reconnect on well head, team was thoroughly talked through on all LSRA's</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Dermont Morgan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Both teams communicated well and left no stone unturned in looking for dangerous materials or situations prior and during work.</span><br><br><strong>Canceling due to hole in casing</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Crew didn't have a tag line or spotter told them they had to have one</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Had meeting crew worked safely did our reading everything went great.</span><br><br><strong>Did a good meeting due a new crew on site explaining everything that need t</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Reconnect completed with no issues observed</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Review the work sequence beforehand to identify potential delays and keep everyone clear on their responsibilities.</span>",
+  "exxonMoments": "<strong>Job scope was reconnect wellhead to go back into production</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Proper procedures were used while skytrack was in use, spotter and tag line.</span><br><br><strong>Reconnect flowline to wellhead</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jimmy White / Gage Gonzales 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything was done great today. PJSM held, hold points utilized and job competed safely.</span><br><br><strong>Job was completed according to job scope</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Caleb Smith / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Was a basic reconnect to a swd, invoked setting to pieces of flowline.</span><br><br><strong>No near misses , everyone was using the right tools for the job , we're awa</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jacob Hernandez / Humberto Salazar]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Valve install at ground level</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Michael Jobe / Bobby Galindo 1099 — Had a little h2s when checking let it air out went to 0 safe to work",
-      "detail": "Had meeting on job scope everything went great did our readings safe to work.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Nathan Contreras / Tyrell Sanders — Continuous multi-gas detection was maintained prior to and during the break",
+      "detail": "All high-risk safety controls—including Lockout/Tagout (LOTO) protocols, exclusion zones, and hot work management—were executed safely without incident.",
+      "psms": "Energy Isolation",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez — Great communication between MT and crew",
-      "detail": "Job scope finished safely even with delay.",
+      "headline": "Alexander Clubb / Raymundo Solis — Job scope was killing the well",
+      "detail": "AGT area and highest readings got up to 0.22 ppm of Benz.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Stefanie Kirschke / Rolando Flores 1099 — Good communication and teamwork, proper review of the LMRA and job scope, a",
-      "detail": "Continue maintaining clear communication and completing all safety checks before and during the job to ensure hazards are identified and controlled.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — Set up exclusion zone around pump Jack killed well and then replaced packin",
+      "detail": "Always look for room to improve.",
+      "psms": "Operational Discipline",
       "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Luis Zarate / Humberto Salazar — Job has been cancelled due to workover hasn't been here yet",
-      "detail": "Work has been cancelled due to workover hasn't been on it yet.",
-      "psms": "Operational Discipline",
+      "headline": "Ruben Rojo / Baldemar Bracomontes 1099 — Job was completed safely with no accident, great communication between all",
+      "detail": "Great communication between all crews to ensure both wells were disconnected safely and simultaneously.",
+      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Ruben Rojo / Dermont Morgan 1099 — A reconnect on well head, team was thoroughly talked through on all LSRA's",
-      "detail": "Both teams communicated well and left no stone unturned in looking for dangerous materials or situations prior and during work.",
+      "headline": "Luis Zarate / Jerry Gonzales — Crew killed well and then replaced master valves, wellhead and tubing rubbe",
+      "detail": "Continue to grow communication with crew and MT.",
       "psms": "Operational Discipline",
-      "level": null
+      "level": "duck"
     },
     {
       "type": "flag",
@@ -240,8 +240,8 @@
       "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "Yesterday's miss doesn't ride with you today — but its lesson does. Put the lesson on your OWL form where the whole crew can use it, then run today clean.",
-  "todaysChallengeSubtext": "“What to do with a mistake: recognize it, admit it, learn from it, forget it.” — Dean Smith",
+  "todaysChallenge": "Don't wait on perfect conditions or the gear you wish you had. Verify what's in front of you, escalate what's missing, and do today's job right with today's tools.",
+  "todaysChallengeSubtext": "“Start where you are. Use what you have. Do what you can.” — Arthur Ashe",
   "compliance": {
     "weekOf": "Week of October 26, 2026",
     "metrics": [
