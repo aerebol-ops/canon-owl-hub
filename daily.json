@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "week": 21,
-  "day": 2,
+  "day": 3,
   "topicWeek": 4,
   "displayWeek": 12,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Mobile Equipment",
     "marker": ""
   },
-  "openingMessage": "Protect the group. Protect the work. Our jobs, our clients, and our reputation depend on it.",
+  "openingMessage": "The oilfield is not made for everyone. It is made for the gritty. The disciplined. The dependable. This industry rewards preparation, effort, and ownership — not excuses.",
   "openingAttribution": null,
-  "openingWhy": "One pencil-whipped form on one location can put a whole client relationship in review. The operator doesn't just grade the hand that slipped — they grade Canon. Every crew in this Basin is either protected or exposed by what happens on your location today.",
+  "openingWhy": "This field pays what it pays because it's unforgiving. Pressure, gas, iron, and weather don't accept apologies. The hands who make thirty years out here aren't the lucky ones — they're the ones who never once got comfortable.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,23 +168,15 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Think before you speak. Think before you joke. Think before you act. Ask yourself: if this shows up in front of a client, my family, or leadership — does it represent me well? If the answer is no — don't do it.",
+  "leadershipThought": "We protect lives on location. We represent our clients — Exxon, Civitas, and everyone we work for. We operate with professionalism, even when no one is watching. That is our standard at Canon.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-11-02",
-    "label": "Monday 11/02",
+    "date": "2026-11-03",
+    "label": "Tuesday 11/03",
     "verdict": "",
     "concerns": [
       {
-        "title": "Alfredo Vaquera (1099) — Diamondback, Black Pearl C 11-14 132, 02:51 PM, ticket 102630 — not in Canon Safety issued FR coveralls. The reason field was completed",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls / None assigned If not, why?"
-      },
-      {
-        "title": "Alfredo Vaquera (1099) — same form, same job — insufficient mask bags. On the same H2S daily",
-        "quote": "No Do you have sufficient mask bags?"
-      },
-      {
-        "title": "Bobby Galindo (1099) — XTO, NAIL TILLMAN E1G 507H, job 36503, ticket 102660, 09:09 AM to 11:58 AM — gas release during flow-line reconnection. From the OWL observe narrat",
+        "title": "Alfredo Vaquera (1099) — Diamondback, Black Pearl C 11-14 132, 4:35 PM, daily inspection form. Answered No to the FR coveralls question. The reason field was completed",
         "quote": ""
       }
     ]
@@ -192,40 +184,40 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Job scope was reconnect wellhead to go back into production</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Proper procedures were used while skytrack was in use, spotter and tag line.</span><br><br><strong>Reconnect flowline to wellhead</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jimmy White / Gage Gonzales 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything was done great today. PJSM held, hold points utilized and job competed safely.</span><br><br><strong>Job was completed according to job scope</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Caleb Smith / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Was a basic reconnect to a swd, invoked setting to pieces of flowline.</span><br><br><strong>No near misses , everyone was using the right tools for the job , we're awa</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jacob Hernandez / Humberto Salazar]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Valve install at ground level</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
+  "exxonMoments": "<strong>Gauge install above aground</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Getting the job done quick and essay</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>God team work and good communication</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Pablo Soto / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Got here to location in they didn't want us to use the road so had to drive</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Had meeting had psm here during the meeting they was very pleased with the meeting we had everyone worked together in a safe manner.</span><br><br><strong>Crew worked safely today with no concerns to report</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Had a safety meeting discussed some of the key factors when working effectively and efficient.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dawson Drake / Dermont Morgan 1099 — Good communication with fork lift driver spotter",
-      "detail": "Spotter maintained his distance and continued to communicate with the driver.",
+      "headline": "Dawson Drake / Kedrick Mccarter 1099 — Great meeting everyone understood what was happening",
+      "detail": "Every job is different but meets the same standards.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras / Rolando Flores 1099 — We observed a reconnect done on wellhead",
-      "detail": "Crews identified hazards and strap dates , crews verified LOTO.",
-      "psms": "Energy Isolation",
+      "headline": "Jacob Hernandez / Humberto Salazar — No near misses , everyone was using the right tools for the job , we're awa",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris / Bobby Galindo 1099 — All went well no issues with crew",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "psms": "Stop Work Authority",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Luis Zarate / Robbie Henigan 1099 — Crew replaced back pressure valve with a new one",
+      "detail": "Continue to grow communication with MT and crew.",
+      "psms": "Operational Discipline",
       "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Luis Zarate / Tyrell Sanders — Monitoring clean pressure bleed-down and checking for sustained casing/annu",
-      "detail": "Don't get complement , and use gloves.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Luis Zarate / Kedrick Mccarter 1099 — Crew reconnected wellhead flowline and injection stack",
-      "detail": "Continue to grow communication with MT and crew.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Alexander Clubb / Tyrell Sanders — Job scope was reconnect wellhead to go back into production",
-      "detail": "Proper procedures were used while skytrack was in use, spotter and tag line.",
+      "headline": "Larry Jaramillo / William \"Jimmy\" Cooper 1099 — All hands participated in safety meeting",
+      "detail": "Communication of safety plan hospital muster points wane.",
       "psms": "Operational Discipline",
       "level": null
     },
@@ -244,28 +236,28 @@
       "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "Don't wait on perfect conditions or the gear you wish you had. Verify what's in front of you, escalate what's missing, and do today's job right with today's tools.",
-  "todaysChallengeSubtext": "“Start where you are. Use what you have. Do what you can.” — Arthur Ashe",
+  "todaysChallenge": "The standard gets heavy on day four of a long week. Hold it anyway — today's the day it's most tempting to skip a step, which makes today the day it counts most.",
+  "todaysChallengeSubtext": "“Don't give up. Don't ever give up.” — Jim Valvano",
   "compliance": {
-    "weekOf": "Week of October 26, 2026",
+    "weekOf": "Week of November 2, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 166,
-        "total": 169
+        "done": 34,
+        "total": 34
       },
       {
         "label": "Trailer Inspections",
-        "done": 45,
-        "total": 46
+        "done": 13,
+        "total": 13
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 43,
-        "total": 52
+        "done": 10,
+        "total": 13
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Thu 10/29"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 11/02"
   },
   "specialFocus": {
     "week": 21,
