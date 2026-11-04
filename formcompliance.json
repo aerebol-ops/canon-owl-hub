@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-11-04",
-  "ytdPct": 85.1,
-  "ytdMissed": 2012,
+  "ytdPct": 85.0,
+  "ytdMissed": 2013,
   "months": [
     {
       "month": "January 2026",
@@ -3128,35 +3128,40 @@
       "month": "November 2026",
       "year": 2026,
       "monthNum": 11,
-      "compliancePct": 100.0,
-      "overallPct": 95.0,
-      "overallYesTotal": 57,
-      "overallNoTotal": 3,
+      "compliancePct": 97.4,
+      "overallPct": 93.8,
+      "overallYesTotal": 61,
+      "overallNoTotal": 4,
       "trailerInspYes": 13,
       "trailerReadyYes": 10,
-      "missedTotal": 3,
-      "dailyNo": 0,
+      "missedTotal": 4,
+      "dailyNo": 1,
       "trailerInspNo": 0,
       "trailerReadyNo": 3,
-      "problemRows": 3,
-      "blanks": 100,
-      "employees": 64,
-      "cleanEmployees": 61,
-      "dailyYesTotal": 34,
-      "dailyNoTotal": 0,
-      "rawRows": 147,
-      "daysCovered": 1,
-      "sheetsInMonth": 3,
+      "problemRows": 5,
+      "blanks": 140,
+      "employees": 63,
+      "cleanEmployees": 59,
+      "dailyYesTotal": 38,
+      "dailyNoTotal": 1,
+      "rawRows": 199,
+      "daysCovered": 2,
+      "sheetsInMonth": 4,
       "byDay": [
         {
           "date": "11/2",
           "missed": 3,
           "pct": 100
+        },
+        {
+          "date": "11/3",
+          "missed": 1,
+          "pct": 80
         }
       ],
       "watch": [],
       "live": true,
-      "throughDate": "11/2"
+      "throughDate": "11/3"
     }
   ]
 }

@@ -188,36 +188,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dawson Drake / Bobby Galindo 1099 — Crew worked in unison open communication was utilized",
-      "detail": "We all worked safely and efficiently.",
+      "headline": "Jordan Lemmons / Kedrick Mccarter 1099 — Blew down the well and tested got some benzene so let it air out and got 0s",
+      "detail": "Talked with mt and found out it was just a well bleed down and that was jt.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jerry Gonzales / Gage Gonzales 1099 — WAME, Breaking containment, critical lifting",
+      "detail": "Job carried out without unplanned stops.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Nathan Contreras / Ruben Rojo — Trigger was activated when sudden rain and thunder made the MT use his stop",
+      "detail": "Successful disconnect, no injuries or damage to equipment.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Stefanie Kirschke / Rolando Flores 1099 — Reconnect completed with no issues observed",
+      "detail": "Review the work sequence beforehand to identify potential delays and keep everyone clear on their responsibilities.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Bryan Medlin / Dermont Morgan 1099 — Arrived at 7:15 MT was already on site as well as the working crew",
-      "detail": "No gases were detected.",
-      "psms": "Energy Isolation",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Michael Jobe / Gael \"Antonio\" Avila 1099 — Had meeting crew got right to work in a safe manner",
-      "detail": "Be more in the meeting.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Dawson Drake / Gael \"Antonio\" Avila 1099 — Getting the job done quick and essay",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Raymundo Solis / Kedrick Mccarter 1099 — Exclusion zone was set up at the entrance",
-      "detail": "Keep an eye out for any potential hazards in working area.",
+      "headline": "Ruben Rojo / Dermont Morgan 1099 — Replacement of parts on wellhead",
+      "detail": "No gas on pre or first break.",
       "psms": "Operational Discipline",
       "level": null
     },
@@ -243,8 +243,8 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 34,
-        "total": 34
+        "done": 38,
+        "total": 39
       },
       {
         "label": "Trailer Inspections",
@@ -257,7 +257,7 @@
         "total": 13
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 11/02"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 11/03"
   },
   "specialFocus": {
     "week": 21,
