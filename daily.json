@@ -188,36 +188,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dawson Drake / William \"Jimmy\" Cooper 1099 — Employees adhering to safety plan",
-      "detail": "Strive for improvement.",
+      "headline": "Dawson Drake / Bobby Galindo 1099 — Crew worked in unison open communication was utilized",
+      "detail": "We all worked safely and efficiently.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Luis Zarate / Cindy Smith 1099 — Crew replaced a spool on the wellhead that wasn't correct from yesterday",
-      "detail": "Continue growing communication with MT and crew.",
-      "psms": "Operational Discipline",
-      "level": "duck"
+      "headline": "Bryan Medlin / Dermont Morgan 1099 — Arrived at 7:15 MT was already on site as well as the working crew",
+      "detail": "No gases were detected.",
+      "psms": "Energy Isolation",
+      "level": null
     },
     {
       "type": "good",
-      "headline": "Luis Zarate / Gael \"Antonio\" Avila 1099 — Crew replaced flowline valve that was not holding",
-      "detail": "Continue to grow communication with MT and crew.",
-      "psms": "Operational Discipline",
-      "level": "duck"
-    },
-    {
-      "type": "good",
-      "headline": "Andrew Bailey / Humberto Salazar — Good verbal communication, team work",
-      "detail": "Good verbal communication, team work.",
+      "headline": "Michael Jobe / Gael \"Antonio\" Avila 1099 — Had meeting crew got right to work in a safe manner",
+      "detail": "Be more in the meeting.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Robbie Henigan 1099 — Crew didn't have a tag line or spotter told them they had to have one",
-      "detail": "Had meeting crew worked safely did our reading everything went great.",
+      "headline": "Dawson Drake / Gael \"Antonio\" Avila 1099 — Getting the job done quick and essay",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Raymundo Solis / Kedrick Mccarter 1099 — Exclusion zone was set up at the entrance",
+      "detail": "Keep an eye out for any potential hazards in working area.",
       "psms": "Operational Discipline",
       "level": null
     },
