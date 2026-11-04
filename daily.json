@@ -188,37 +188,37 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jordan Lemmons / Kedrick Mccarter 1099 — Blew down the well and tested got some benzene so let it air out and got 0s",
-      "detail": "Talked with mt and found out it was just a well bleed down and that was jt.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Bryan Medlin / Joseph Popillion 1099 — Arrived on site at 8:00, the safety meeting was conducted at 8: 30",
+      "detail": "No gases were detected.",
+      "psms": "Energy Isolation",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jerry Gonzales / Gage Gonzales 1099 — WAME, Breaking containment, critical lifting",
-      "detail": "Job carried out without unplanned stops.",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Nathan Contreras / Ruben Rojo — Trigger was activated when sudden rain and thunder made the MT use his stop",
-      "detail": "Successful disconnect, no injuries or damage to equipment.",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Stefanie Kirschke / Rolando Flores 1099 — Reconnect completed with no issues observed",
-      "detail": "Review the work sequence beforehand to identify potential delays and keep everyone clear on their responsibilities.",
+      "headline": "Pablo Soto / Gage Gonzales 1099 — Hi pod team work and good communication",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Ruben Rojo / Dermont Morgan 1099 — Replacement of parts on wellhead",
-      "detail": "No gas on pre or first break.",
+      "headline": "Michael Jobe / Bobby Galindo 1099 — The crew drop a part down the cage had to go get another part",
+      "detail": "Go over the job scope more.",
       "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jeremy Norris / Tyrell Sanders — Good communication from all crews throughout the process and a great safety",
+      "detail": "The job went safely and smoothly during the entire process.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Brianda Sandoval / Gael \"Antonio\" Avila 1099 — flowlines needed to be disconnected",
+      "detail": "Crew completed task effectively and in a timely manner.",
+      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
@@ -243,18 +243,18 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 38,
-        "total": 39
+        "done": 95,
+        "total": 98
       },
       {
         "label": "Trailer Inspections",
-        "done": 13,
-        "total": 13
+        "done": 29,
+        "total": 30
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 10,
-        "total": 13
+        "done": 26,
+        "total": 30
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 11/03"
