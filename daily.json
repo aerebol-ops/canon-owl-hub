@@ -188,36 +188,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Dawson Drake / Kedrick Mccarter 1099 — Great meeting everyone understood what was happening",
-      "detail": "Every job is different but meets the same standards.",
+      "headline": "Dawson Drake / William \"Jimmy\" Cooper 1099 — Employees adhering to safety plan",
+      "detail": "Strive for improvement.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jacob Hernandez / Humberto Salazar — No near misses , everyone was using the right tools for the job , we're awa",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "headline": "Luis Zarate / Cindy Smith 1099 — Crew replaced a spool on the wellhead that wasn't correct from yesterday",
+      "detail": "Continue growing communication with MT and crew.",
       "psms": "Operational Discipline",
-      "level": null
+      "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Bobby Galindo 1099 — All went well no issues with crew",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
-      "psms": "Stop Work Authority",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Luis Zarate / Robbie Henigan 1099 — Crew replaced back pressure valve with a new one",
+      "headline": "Luis Zarate / Gael \"Antonio\" Avila 1099 — Crew replaced flowline valve that was not holding",
       "detail": "Continue to grow communication with MT and crew.",
       "psms": "Operational Discipline",
       "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo / William \"Jimmy\" Cooper 1099 — All hands participated in safety meeting",
-      "detail": "Communication of safety plan hospital muster points wane.",
+      "headline": "Andrew Bailey / Humberto Salazar — Good verbal communication, team work",
+      "detail": "Good verbal communication, team work.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Michael Jobe / Robbie Henigan 1099 — Crew didn't have a tag line or spotter told them they had to have one",
+      "detail": "Had meeting crew worked safely did our reading everything went great.",
       "psms": "Operational Discipline",
       "level": null
     },
