@@ -171,13 +171,25 @@
   "leadershipThought": "Your awareness has to be higher than your intent. Intent doesn't matter if the impact is wrong. Operate in a diverse environment — different backgrounds, different beliefs, different life experiences.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-11-03",
-    "label": "Tuesday 11/03",
+    "date": "2026-11-04",
+    "label": "Wednesday 11/04",
     "verdict": "",
     "concerns": [
       {
-        "title": "Alfredo Vaquera (1099) — Diamondback, Black Pearl C 11-14 132, 4:35 PM, daily inspection form. Answered No to the FR coveralls question. The reason field was completed",
-        "quote": ""
+        "title": "Andrew Bailey — SM Energy, Mandelbaum CTB / Jal, NM — trailer 139 — Trailer Inspection Form 10:59 AM and Trailer Readiness Form 6:59 PM",
+        "quote": "TRAILER DOORS NEED TO BE FIXED!!!!!!!!!!!!!!!!!!!!!! Flying open on lease roads!!!!"
+      },
+      {
+        "title": "1099 Bobby Galindo — SM Energy, Holly CTB / Big Lake, TX — trailer 507 — Trailer Readiness Form 1:03 PM",
+        "quote": "We are missing a mask for a work unit, but will be getting one tomorrow before leaving to location."
+      },
+      {
+        "title": "Humberto Marquez-Salazar — trailer 603 — Trailer Readiness Form 4:32 PM, CSRHI Andrews Shop",
+        "quote": "Is anything wrong or missing? If so what and who was notified?"
+      },
+      {
+        "title": "Raymundo Solis — trailer 602 — Trailer Readiness Form 1:39 PM",
+        "quote": "Is anything wrong or missing?"
       }
     ]
   },
@@ -188,36 +200,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Bryan Medlin / Jeremy Norris — Good communication throughout between all parties on site",
-      "detail": "Strive to be better on the next job better than we are today.",
+      "headline": "Jacob Hernandez / Justin Fontenot 1099 — Great meeting with WMS and MT great cooperation from everyone",
+      "detail": "Job was completed to scope.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Caleb Smith / Humberto Salazar — Job was completed following the plan and no adjustments were needed",
-      "detail": "Crew took the time to verify permit and icc was in place.",
+      "headline": "Luis Zarate / Jerry Gonzales — Crew laid down polish rod and hanged it for frac protection then they repla",
+      "detail": "Continue to grow communication with MT and crew.",
+      "psms": "Operational Discipline",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Nathan Contreras / Rolando Flores 1099 — We observed a reconnect / conversion done on a well",
+      "detail": "Crews held great safety meeting for the confined space job, crews went over potential dangers and triggers that can happen during the job , crews also verified nearest ho",
+      "psms": "Confined Space Entry",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — Team discussions on safety",
+      "detail": "Team discussions on safety.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Cindy Smith 1099 — Used a hydraulic lift to move the pumpjack back a few inches to realign sli",
-      "detail": "Strive to be better tomorrow fhan we were today as AGT specialists.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Larry Jaramillo / Baldemar Bracomontes 1099 — Possible hazards were discussed prior to beginning the job",
-      "detail": "Possible hazards were discussed prior to beginning the job.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jacob Hernandez — Meeting was very productive and detail",
-      "detail": "Job was done to job scope perfectly everyone was where they needed to be.",
+      "headline": "Luis Zarate / Kedrick Mccarter 1099 — Everything went according to plan, job was done safely.",
+      "detail": "OWL form — Operational Discipline",
       "psms": "Operational Discipline",
       "level": null
     },

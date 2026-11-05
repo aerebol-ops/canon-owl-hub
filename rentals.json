@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04",
+  "generated": "2026-11-05",
   "source": "Permian Basin Rental Board November 2026.xlsx",
   "boardsScanned": [
     "Permian Basin Rental Board September 2024.xlsx",
@@ -48,7 +48,7 @@
       "onRentSince": "2024-09-01",
       "currentStart": "2026-11-01",
       "lastCheck": "2026-01-17",
-      "daysSinceCheck": 291,
+      "daysSinceCheck": 292,
       "checkState": "overdue"
     },
     {
@@ -63,7 +63,7 @@
       "onRentSince": "2024-09-01",
       "currentStart": "2026-11-01",
       "lastCheck": "2026-06-10",
-      "daysSinceCheck": 147,
+      "daysSinceCheck": 148,
       "checkState": "overdue"
     },
     {
@@ -78,7 +78,7 @@
       "onRentSince": "2024-08-30",
       "currentStart": "2026-11-01",
       "lastCheck": "2026-06-21",
-      "daysSinceCheck": 136,
+      "daysSinceCheck": 137,
       "checkState": "overdue"
     },
     {
@@ -93,7 +93,7 @@
       "onRentSince": "2024-08-30",
       "currentStart": "2026-10-31",
       "lastCheck": "2026-06-21",
-      "daysSinceCheck": 136,
+      "daysSinceCheck": 137,
       "checkState": "overdue"
     },
     {
@@ -108,7 +108,7 @@
       "onRentSince": "2024-08-27",
       "currentStart": "2026-11-01",
       "lastCheck": "2026-08-28",
-      "daysSinceCheck": 68,
+      "daysSinceCheck": 69,
       "checkState": "overdue"
     },
     {
@@ -123,7 +123,7 @@
       "onRentSince": "2025-10-31",
       "currentStart": "2026-11-01",
       "lastCheck": "2026-09-19",
-      "daysSinceCheck": 46,
+      "daysSinceCheck": 47,
       "checkState": "overdue"
     }
   ]
