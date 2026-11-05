@@ -200,36 +200,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Alexander Clubb / Tyrell Sanders — Communication, work , safety meeting",
-      "detail": "Be aware of surroundings.",
+      "headline": "Ruben Rojo / Baldemar Bracomontes 1099 — Really windy conditions but little to no gas from well",
+      "detail": "Successful disconnect, no bodily harm or dangerous amounts of gas.",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Nathan Contreras / Tyrell Sanders — Maintained effective line of communication between safety technicians and s",
+      "detail": "Active monitoring was maintained for atmospheric hazards (including HS checks).",
+      "psms": "Atmospheric Monitoring",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Luis Zarate / Cindy Smith 1099 — Crew killed the well then they replaced the tubing rubber",
+      "detail": "Continue to grow my communication with crew and MT.",
+      "psms": "Operational Discipline",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Larry Jaramillo / William \"Jimmy\" Cooper 1099 — Everyone worked good together",
+      "detail": "Communication was good.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis / Gael \"Antonio\" Avila 1099 — AGT - before job began we did an initial reading on the bleeder valve used",
-      "detail": "Nothing to report on this.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Pablo Soto / Baldemar Bracomontes 1099 — Had a pump jack job, had great communication with the crane crew and made a",
-      "detail": "There was good communication all around, everyone on location worked together to make the site a safe working environment. Job was completed safely and without incident.",
-      "psms": "Mobile Equipment",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Nathan Contreras / Gael \"Antonio\" Avila 1099 — Quick little meeting and essay job all the personal understood everything a",
-      "detail": "Same thing making sure everyone it's safe and working around a safe space.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Larry Jaramillo / Humberto Salazar — Crew had good communication",
-      "detail": "Tools were inspected and cleaned prior to job beginning.",
+      "headline": "Bryan Medlin / Dermont Morgan 1099 — Arrived on location at 7:15 MT was on site as well as the working crew",
+      "detail": "No gases were detected.",
       "psms": "Operational Discipline",
       "level": null
     },
