@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "week": 21,
-  "day": 3,
+  "day": 4,
   "topicWeek": 4,
   "displayWeek": 12,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Mobile Equipment",
     "marker": ""
   },
-  "openingMessage": "The oilfield is not made for everyone. It is made for the gritty. The disciplined. The dependable. This industry rewards preparation, effort, and ownership — not excuses.",
+  "openingMessage": "Nobody wins alone. Nobody builds a company alone. Nobody protects a location alone. We succeed by winning the small daily battles.",
   "openingAttribution": null,
-  "openingWhy": "This field pays what it pays because it's unforgiving. Pressure, gas, iron, and weather don't accept apologies. The hands who make thirty years out here aren't the lucky ones — they're the ones who never once got comfortable.",
+  "openingWhy": "On an H2S separator job a few weeks back, Alex Clubb wouldn't let the break start until rescue was staged — himself primary, Justin secondary, named out loud before a bolt turned. The job went clean because three men were tied together, not because one man was good.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "We protect lives on location. We represent our clients — Exxon, Civitas, and everyone we work for. We operate with professionalism, even when no one is watching. That is our standard at Canon.",
+  "leadershipThought": "Your awareness has to be higher than your intent. Intent doesn't matter if the impact is wrong. Operate in a diverse environment — different backgrounds, different beliefs, different life experiences.",
   "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-11-03",
@@ -184,41 +184,41 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Gauge install above aground</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Getting the job done quick and essay</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>God team work and good communication</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Pablo Soto / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Got here to location in they didn't want us to use the road so had to drive</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Had meeting had psm here during the meeting they was very pleased with the meeting we had everyone worked together in a safe manner.</span><br><br><strong>Crew worked safely today with no concerns to report</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Had a safety meeting discussed some of the key factors when working effectively and efficient.</span>",
+  "exxonMoments": "<strong>Job planned , crew working safely to complete task</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey / Humberto Salazar]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Same crew understood everything and the job went good and safely</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>A great meeting between all to discuss the LMRAs and LSRAs as they pertain</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Strive to be better tomorrow than we were today because true perfection can never be accomplished, but you can always learn more day to day.</span><br><br><strong>A great usage of the LMRAs before each step of the task as they had a new w</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jeremy Norris / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Strive to be better on the next job better than we are today.</span><br><br><strong>Good communication in the morning meeting</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Bryan Medlin / Dermont Morgan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone explained operations and how they will maintain safety measures at the morning meeting.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Bryan Medlin / Joseph Popillion 1099 — Arrived on site at 8:00, the safety meeting was conducted at 8: 30",
-      "detail": "No gases were detected.",
-      "psms": "Energy Isolation",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Pablo Soto / Gage Gonzales 1099 — Hi pod team work and good communication",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "headline": "Bryan Medlin / Jeremy Norris — Good communication throughout between all parties on site",
+      "detail": "Strive to be better on the next job better than we are today.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Bobby Galindo 1099 — The crew drop a part down the cage had to go get another part",
-      "detail": "Go over the job scope more.",
+      "headline": "Caleb Smith / Humberto Salazar — Job was completed following the plan and no adjustments were needed",
+      "detail": "Crew took the time to verify permit and icc was in place.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Tyrell Sanders — Good communication from all crews throughout the process and a great safety",
-      "detail": "The job went safely and smoothly during the entire process.",
+      "headline": "Jeremy Norris / Cindy Smith 1099 — Used a hydraulic lift to move the pumpjack back a few inches to realign sli",
+      "detail": "Strive to be better tomorrow fhan we were today as AGT specialists.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Brianda Sandoval / Gael \"Antonio\" Avila 1099 — flowlines needed to be disconnected",
-      "detail": "Crew completed task effectively and in a timely manner.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Larry Jaramillo / Baldemar Bracomontes 1099 — Possible hazards were discussed prior to beginning the job",
+      "detail": "Possible hazards were discussed prior to beginning the job.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez — Meeting was very productive and detail",
+      "detail": "Job was done to job scope perfectly everyone was where they needed to be.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
@@ -236,8 +236,8 @@
       "psms": "Atmospheric Monitoring"
     }
   ],
-  "todaysChallenge": "The standard gets heavy on day four of a long week. Hold it anyway — today's the day it's most tempting to skip a step, which makes today the day it counts most.",
-  "todaysChallengeSubtext": "“Don't give up. Don't ever give up.” — Jim Valvano",
+  "todaysChallenge": "Today, nobody works an island. Know who's upwind of you, who's watching your entry, who's got rescue. If you can't name them, the job isn't ready to start.",
+  "todaysChallengeSubtext": "“The way a team plays as a whole determines its success.” — Babe Ruth",
   "compliance": {
     "weekOf": "Week of November 2, 2026",
     "metrics": [
