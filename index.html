@@ -3660,8 +3660,8 @@ async function renderTemplate() {
 
   // SPECIAL FOCUS — standing high-visibility block above the numbered sections.
   // Driven by daily.specialFocus (carried forward by every sweep until removed).
-  const sfHtml = (daily && daily.specialFocus) ? (() => {
-    const sf = daily.specialFocus;
+  // An optional specialFocus.before[] stacks extra blocks above the main one.
+  const sfHtml = (daily && daily.specialFocus) ? [...(daily.specialFocus.before || []), daily.specialFocus].map(sf => {
     return `
     <div style="border:2px solid #b00020; border-radius:10px; margin-bottom:18px; overflow:hidden;">
       <div style="background:#b00020;color:#fff;padding:10px 14px;font-weight:800;font-size:13px;letter-spacing:.06em;text-transform:uppercase;">&#9888;&#65039; Special Focus &mdash; ${sf.title}</div>
@@ -3680,7 +3680,7 @@ async function renderTemplate() {
         ${sf.nonNegotiable ? `<div style="margin-top:12px;padding:11px 13px;background:#b00020;color:#fff;border-radius:6px;font-weight:700;font-size:14px;line-height:1.5;">${sf.nonNegotiable}</div>` : ''}
       </div>
     </div>`;
-  })() : '';
+  }).join('') : '';
 
   const html = `
     <div class="runsheet-header">
@@ -4122,7 +4122,7 @@ function shareMeetingSummary() {
   <p>${dateStr} &nbsp;·&nbsp; 5:30 AM &nbsp;·&nbsp; Week ${shownWeek}: ${w.theme}${d && d.cycle > 1 ? ` &middot; Cycle ${d.cycle}` : ''}</p>
 </div>
 
-${d && d.specialFocus ? (() => { const sf = d.specialFocus; return `
+${d && d.specialFocus ? [...(d.specialFocus.before || []), d.specialFocus].map(sf => { return `
 <div class="section" style="border:2px solid #b00020; border-radius:8px; overflow:hidden;">
   <div style="background:#b00020;color:#fff;padding:8px 12px;font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;">&#9888;&#65039; Special Focus &mdash; ${sf.title}</div>
   <div style="padding:12px;">
@@ -4133,7 +4133,7 @@ ${d && d.specialFocus ? (() => { const sf = d.specialFocus; return `
     ${(sf.questions || []).map(q => `<div class="sub-note"><strong>Ask the crew:</strong> ${q}</div>`).join('')}
     ${sf.nonNegotiable ? `<div style="margin-top:10px;padding:9px 11px;background:#b00020;color:#fff;border-radius:5px;font-weight:700;">${sf.nonNegotiable}</div>` : ''}
   </div>
-</div>`; })() : ''}
+</div>`; }).join('') : ''}
 
 <div class="section">
   <div class="sec-header">
