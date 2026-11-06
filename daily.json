@@ -200,36 +200,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Stefanie Kirschke / Rolando Flores 1099 — Disconnect operations were completed without issues",
-      "detail": "Build on today’s success by reviewing the job sequence with the crew before the next disconnect and identifying any opportunities to improve.",
+      "headline": "Bryan Medlin / Joseph Popillion 1099 — We arrived on site at 8:00",
+      "detail": "No gases were detected.",
+      "psms": "Energy Isolation",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Jerry Gonzales / Gage Gonzales 1099 — Crew changed out stuffing box and upgraded ball valves",
+      "detail": "Comunícate is somthing we can always grow on .",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Michael Jobe / Bobby Galindo 1099 — All went well minimal of benzene detected no other gases detected",
+      "detail": "Safely meeting was held communication was clear and understood.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Luis Zarate / Robbie Henigan 1099 — Valve install at ground level",
+      "headline": "Jeremy Norris / Tyrell Sanders — Great safety meetinf to communicate the proper LSRAs and LMRAs of the job a",
+      "detail": "The job went quickly and safely throughout, all parties left out the same way they came in.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Pablo Soto / Gage Gonzales 1099 — Good team work and great communication",
       "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Dawson Drake / Gael \"Antonio\" Avila 1099 — Did the meeting, great communication and great understanding about all the",
-      "detail": "Help them pick up the trash or need any tools.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jeremy Norris / Bobby Galindo 1099 — Crew worked safely today with no concerns to report",
-      "detail": "Had a safety meeting discussed some of the key factors when working effectively and efficient.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jordan Lemmons / Kedrick Mccarter 1099 — Job was completed and everyone was safe",
-      "detail": "Job was completed and everyone was safe.",
       "psms": "Operational Discipline",
       "level": null
     },
