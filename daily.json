@@ -196,37 +196,37 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Raymundo Solis / Gael \"Antonio\" Avila 1099 — Same crew essay meeting, job was done the correct way and everything went g",
-      "detail": "Help them pick up trash.",
+      "headline": "Larry Jaramillo / Humberto Salazar — Crew members could not focus on the job due to communication issues with th",
+      "detail": "MT was able to stop crew and discuss with them the job steps.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Pablo Soto / Baldemar Bracomontes 1099 — God team work and good communication",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "headline": "Ruben Rojo / Baldemar Bracomontes 1099 — Held pre task meeting to ensure everyone understood the job scope and the e",
+      "detail": "All LSRA's associated with the job scope were gone over and utilized, proper hold points were held and there was no need to rework anything. Job completed smoothly.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Bryan Medlin / Dermont Morgan 1099 — Good communication in the morning meeting",
-      "detail": "Everyone explained operations and how they will maintain safety measures at the morning meeting.",
+      "headline": "Luis Zarate / Cindy Smith 1099 — Crew replaced wellhead parts",
+      "detail": "Communication is key.",
       "psms": "Operational Discipline",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Alexander Clubb / Tyrell Sanders — Job scope disconnect wellhead from production",
+      "detail": "Don't get complaisant.",
+      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Larry Jaramillo / Baldemar Bracomontes 1099 — Job was completed safely as discussed in the meeting, talked about the impo",
-      "detail": "All crews had great communication of the job scope and a great understanding of what it entailed, all crews worked together to ensure job was completed safely and efficie",
-      "psms": "Stop Work Authority",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Luis Zarate / Jerry Gonzales — Well monkey rod installed on well and upgraded ball valves",
-      "detail": "Crews urgency to get job done.",
-      "psms": "Operational Discipline",
+      "headline": "Raymundo Solis / Gael \"Antonio\" Avila 1099 — Life saving rules - talked about standing up and crosswind when breaking co",
+      "detail": "Make sure we show the JSA to whoever shows up to the location that wasn't part of our pre task meeting.",
+      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
