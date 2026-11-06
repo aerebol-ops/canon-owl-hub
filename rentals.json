@@ -32,9 +32,9 @@
   ],
   "warnDays": 15,
   "overdueDays": 30,
-  "activeRentals": 6,
+  "activeRentals": 5,
   "neverChecked": 0,
-  "overdueChecks": 6,
+  "overdueChecks": 5,
   "rigs": [
     {
       "rig": "AIR TRAILER",
@@ -82,21 +82,6 @@
       "checkState": "overdue"
     },
     {
-      "rig": "H&P 395",
-      "company": "OVINTIV",
-      "location": "TERILINGUA 255T 116HL",
-      "status": "RUNNING",
-      "active": true,
-      "equipment": "REDLINE",
-      "ticket": "101217",
-      "at": "",
-      "onRentSince": "2024-08-30",
-      "currentStart": "2026-10-31",
-      "lastCheck": "2026-06-21",
-      "daysSinceCheck": 138,
-      "checkState": "overdue"
-    },
-    {
       "rig": "H&P 616",
       "company": "OVINTIV",
       "location": "TERILINGUA 255Q 106HR",
@@ -124,6 +109,21 @@
       "currentStart": "2026-11-01",
       "lastCheck": "2026-09-19",
       "daysSinceCheck": 48,
+      "checkState": "overdue"
+    },
+    {
+      "rig": "H&P 395",
+      "company": "OVINTIV",
+      "location": "TERILINGUA 255T 116HL",
+      "status": "RIGGED DOWN",
+      "active": false,
+      "equipment": "REDLINE",
+      "ticket": "101217",
+      "at": "",
+      "onRentSince": "2024-08-30",
+      "currentStart": "2026-10-31",
+      "lastCheck": "2026-06-21",
+      "daysSinceCheck": 138,
       "checkState": "overdue"
     }
   ]

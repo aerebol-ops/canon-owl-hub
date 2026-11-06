@@ -196,36 +196,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Luis Zarate / Gael \"Antonio\" Avila 1099 — Good crew and good communication on everything",
-      "detail": "Help them pick up any trash or passing them any tools that they might need.",
+      "headline": "Raymundo Solis / Gael \"Antonio\" Avila 1099 — Same crew essay meeting, job was done the correct way and everything went g",
+      "detail": "Help them pick up trash.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Luis Zarate / Cindy Smith 1099 — Crew replaced tubing rubber on wellhead",
-      "detail": "Communication is vital.",
-      "psms": "Operational Discipline",
-      "level": "duck"
-    },
-    {
-      "type": "good",
-      "headline": "Nathan Contreras / Rolando Flores 1099 — Before beginning cellar work using the davit arm, we conducted a safety mee",
-      "detail": "Continue identifying potential hazards through LSRAs, verifying safe atmospheric conditions before and during cellar work, and maintaining clear communication among all c",
-      "psms": "Atmospheric Monitoring",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Alexander Clubb / Tyrell Sanders — Job scope was disconnect wellhead from production",
+      "headline": "Pablo Soto / Baldemar Bracomontes 1099 — God team work and good communication",
       "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
-      "psms": "Atmospheric Monitoring",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — Completed a job with no issues",
-      "detail": "Look for room to improve.",
+      "headline": "Bryan Medlin / Dermont Morgan 1099 — Good communication in the morning meeting",
+      "detail": "Everyone explained operations and how they will maintain safety measures at the morning meeting.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Larry Jaramillo / Baldemar Bracomontes 1099 — Job was completed safely as discussed in the meeting, talked about the impo",
+      "detail": "All crews had great communication of the job scope and a great understanding of what it entailed, all crews worked together to ensure job was completed safely and efficie",
+      "psms": "Stop Work Authority",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Luis Zarate / Jerry Gonzales — Well monkey rod installed on well and upgraded ball valves",
+      "detail": "Crews urgency to get job done.",
       "psms": "Operational Discipline",
       "level": null
     },
