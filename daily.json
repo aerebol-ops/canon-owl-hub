@@ -171,25 +171,21 @@
   "leadershipThought": "Act like a professional at all times. Respect the environment. Be aware. Don't create distractions. Act like the person the client would want back tomorrow.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-11-04",
-    "label": "Wednesday 11/04",
+    "date": "2026-11-05",
+    "label": "Thursday 11/05",
     "verdict": "",
     "concerns": [
       {
-        "title": "Andrew Bailey — SM Energy, Mandelbaum CTB / Jal, NM — trailer 139 — Trailer Inspection Form 10:59 AM and Trailer Readiness Form 6:59 PM",
-        "quote": "TRAILER DOORS NEED TO BE FIXED!!!!!!!!!!!!!!!!!!!!!! Flying open on lease roads!!!!"
+        "title": "Stefanie Kirschke — SM Energy, UL Darby — trailer 507 — Trailer Readiness Form, 1:38 PM. Two photo notes record missing respiratory equipment on the trailer, and the clos",
+        "quote": "Floor will need to eventually be replaced"
       },
       {
-        "title": "1099 Bobby Galindo — SM Energy, Holly CTB / Big Lake, TX — trailer 507 — Trailer Readiness Form 1:03 PM",
-        "quote": "We are missing a mask for a work unit, but will be getting one tomorrow before leaving to location."
+        "title": "Joshua Blassingame — Machin & Associates, Elliot #1 — H2S Safety Supervision Daily Inspection Form, 10:25 AM. The note attached to the fire extinguisher tag photo records",
+        "quote": "Comments or Concerns for Management"
       },
       {
-        "title": "Humberto Marquez-Salazar — trailer 603 — Trailer Readiness Form 4:32 PM, CSRHI Andrews Shop",
-        "quote": "Is anything wrong or missing? If so what and who was notified?"
-      },
-      {
-        "title": "Raymundo Solis — trailer 602 — Trailer Readiness Form 1:39 PM",
-        "quote": "Is anything wrong or missing?"
+        "title": "1099 Rolando Flores — SM Energy, Money Graham CTB — trailer 148 — Trailer Readiness Form, 4:55 PM. Missing barrier equipment reported, with no notified party named.",
+        "quote": ""
       }
     ]
   },
@@ -200,36 +196,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Bryan Medlin / Joseph Popillion 1099 — We arrived on site at 8:00",
-      "detail": "No gases were detected.",
-      "psms": "Energy Isolation",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jerry Gonzales / Gage Gonzales 1099 — Crew changed out stuffing box and upgraded ball valves",
-      "detail": "Comunícate is somthing we can always grow on .",
+      "headline": "Luis Zarate / Gael \"Antonio\" Avila 1099 — Good crew and good communication on everything",
+      "detail": "Help them pick up any trash or passing them any tools that they might need.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Bobby Galindo 1099 — All went well minimal of benzene detected no other gases detected",
-      "detail": "Safely meeting was held communication was clear and understood.",
+      "headline": "Luis Zarate / Cindy Smith 1099 — Crew replaced tubing rubber on wellhead",
+      "detail": "Communication is vital.",
+      "psms": "Operational Discipline",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Nathan Contreras / Rolando Flores 1099 — Before beginning cellar work using the davit arm, we conducted a safety mee",
+      "detail": "Continue identifying potential hazards through LSRAs, verifying safe atmospheric conditions before and during cellar work, and maintaining clear communication among all c",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jeremy Norris / Tyrell Sanders — Great safety meetinf to communicate the proper LSRAs and LMRAs of the job a",
-      "detail": "The job went quickly and safely throughout, all parties left out the same way they came in.",
-      "psms": "Operational Discipline",
+      "headline": "Alexander Clubb / Tyrell Sanders — Job scope was disconnect wellhead from production",
+      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Pablo Soto / Gage Gonzales 1099 — Good team work and great communication",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
+      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — Completed a job with no issues",
+      "detail": "Look for room to improve.",
       "psms": "Operational Discipline",
       "level": null
     },
