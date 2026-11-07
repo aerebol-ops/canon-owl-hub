@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-06",
-  "week": 21,
-  "day": 5,
-  "topicWeek": 4,
-  "displayWeek": 12,
+  "date": "2026-11-09",
+  "week": 22,
+  "day": 1,
+  "topicWeek": 11,
+  "displayWeek": 13,
   "cycle": 2,
   "rotation": {
-    "week": 12,
-    "host": "ALEX",
-    "topic": "Mobile Equipment",
-    "marker": ""
+    "week": 13,
+    "host": "RAY",
+    "topic": "Working at Height",
+    "marker": "Sun Nov 15 — 90-day confirmation + first Quarterly Lead Review"
   },
-  "openingMessage": "You help power homes, hospitals, schools, businesses, and communities across North America. Take pride in that. Take pride in the standard you represent. Take pride in each other.",
+  "openingMessage": "Character is built when nobody is watching. Check your monitor one more time. Verify tube inventory. Fuel your truck before it becomes a problem. Nobody rewards these actions. But they create certainty.",
   "openingAttribution": null,
-  "openingWhy": "The gas you meter today ends up in somebody's stove, a hospital's boiler, a school's heat this winter. The Permian runs a big piece of this country. Run your piece of the Permian like it matters — because it does.",
+  "openingWhy": "A monitor that never gets bump-tested still reads zero — zero is also what a dead sensor says. On a one-man location there's nobody to catch that but you. The gas will absolutely test the equipment you didn't.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,84 +168,59 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Act like a professional at all times. Respect the environment. Be aware. Don't create distractions. Act like the person the client would want back tomorrow.",
+  "leadershipThought": "100% tie-off means one hook is always in before the other comes off. Not almost always. Always. Standards don't soften because the job is routine — the routine job is where standards get skipped.",
   "yesterdaysJobs": null,
-  "formReview": {
-    "date": "2026-11-05",
-    "label": "Thursday 11/05",
-    "verdict": "",
-    "concerns": [
-      {
-        "title": "Stefanie Kirschke — SM Energy, UL Darby — trailer 507 — Trailer Readiness Form, 1:38 PM. Two photo notes record missing respiratory equipment on the trailer, and the clos",
-        "quote": "Floor will need to eventually be replaced"
-      },
-      {
-        "title": "Joshua Blassingame — Machin & Associates, Elliot #1 — H2S Safety Supervision Daily Inspection Form, 10:25 AM. The note attached to the fire extinguisher tag photo records",
-        "quote": "Comments or Concerns for Management"
-      },
-      {
-        "title": "1099 Rolando Flores — SM Energy, Money Graham CTB — trailer 148 — Trailer Readiness Form, 4:55 PM. Missing barrier equipment reported, with no notified party named.",
-        "quote": ""
-      }
-    ]
-  },
+  "formReview": null,
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Job scope was convert wellhead to gas lift</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Had meeting did catch a bee hive in let the MT know</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Had meeting crew worked in a safe manner did our test all was good.</span><br><br><strong>Good communication and good understanding about every aspect of the job and</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Luis Zarate / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The job was done the safest way possible and the correct way.</span><br><br><strong>Good communication with fork lift driver spotter</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake / Dermont Morgan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Spotter maintained his distance and continued to communicate with the driver.</span><br><br><strong>We blew down the well from 800 to 200 psi had to stop bleeding the after so</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons / Kedrick Mccarter 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything went well, we all participated to make a safe environment to work.</span>",
+  "exxonMoments": "<strong>Arrived on location at 7:40 waited on sonic to grease the wing valve and fo</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Bryan Medlin / Barthol \"Bj\" Caesar 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>H2S minor was on the kill truck operator's hard hat, above the safe zone</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Larry Jaramillo / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Spoke with K/T operator and discussed the proper placement of his H2S monitor...</span><br><br><strong>Had pre task meeting, job task involved breaking containment and line of fi</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jerry Gonzales / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>All LSRA's were understood by all crews and everyone worked together to mitigate any possible triggers that could occur, everyone utilized their LMRA's before doing any kind of work.</span><br><br><strong>Had a little h2s when checking let it air out went to 0 safe to work</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Had meeting on job scope everything went great did our readings safe to work.</span><br><br><strong>We observed a reconnect / conversion done on a well</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Confined Space Entry)</span><br><span style='font-size:13px;'>Crews held great safety meeting for the confined space job, crews went over potential dangers and triggers that can happen during the job , crews also verified nearest hospitals and muster areas.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Larry Jaramillo / Humberto Salazar — Crew members could not focus on the job due to communication issues with th",
-      "detail": "MT was able to stop crew and discuss with them the job steps.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Ruben Rojo / Baldemar Bracomontes 1099 — Held pre task meeting to ensure everyone understood the job scope and the e",
-      "detail": "All LSRA's associated with the job scope were gone over and utilized, proper hold points were held and there was no need to rework anything. Job completed smoothly.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Luis Zarate / Cindy Smith 1099 — Crew replaced wellhead parts",
-      "detail": "Communication is key.",
+      "headline": "Brianda Sandoval / Tyrell Sanders — a pressure valve had to be replaced on top of the well head",
+      "detail": "More communication with the crew.",
       "psms": "Operational Discipline",
       "level": "duck"
     },
     {
       "type": "good",
-      "headline": "Alexander Clubb / Tyrell Sanders — Job scope disconnect wellhead from production",
-      "detail": "Don't get complaisant.",
+      "headline": "Jeremy Norris / Robbie Henigan 1099 — Verify conditions, brief all personnel, and leave the location better than you f",
+      "detail": "OWL form — Operational Discipline",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Luis Zarate / Robbie Henigan 1099 — Crew brought surface casing valve to ground level and then filled cellar wi",
+      "detail": "Continue to grow communication with MT and crew.",
+      "psms": "Operational Discipline",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Dawson Drake / Gael \"Antonio\" Avila 1099 — A crew doing a disconnect with precision communication over psms",
+      "detail": "Made a new goal for my self to learn Spanish.",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Raymundo Solis / Gael \"Antonio\" Avila 1099 — Life saving rules - talked about standing up and crosswind when breaking co",
-      "detail": "Make sure we show the JSA to whoever shows up to the location that wasn't part of our pre task meeting.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Bryan Medlin / Dermont Morgan 1099 — No dangerous gases were detected",
+      "detail": "No dangerous gases were detected.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "flag",
-      "week": 21,
-      "headline": "H2S minor was on the kill truck operator's hard hat, above the safe zone",
-      "detail": "Spoke with K/T operator and discussed the proper placement of his H2S monitor...",
-      "psms": "Atmospheric Monitoring"
-    },
-    {
-      "type": "flag",
-      "week": 21,
-      "headline": "Had a little h2s when checking let it air out went to 0 safe to work",
-      "detail": "Had meeting on job scope everything went great did our readings safe to work.",
-      "psms": "Atmospheric Monitoring"
+      "week": 22,
+      "headline": "Clean board — no open watch items this week",
+      "detail": "Nothing carried in from last week. See a hazard? Flag it on your OWL form and it lands here the same evening.",
+      "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Beat the callout today. Do your inspection, your cal check, and your paperwork before anyone has to ask for it. Self-discipline means nobody has to chase you.",
-  "todaysChallengeSubtext": "“Discipline yourself, and others won't need to.” — John Wooden",
+  "todaysChallenge": "If yesterday had a miss — a form skipped, a reading you should have questioned — square it today. Get up, fix it, and tell the next crew what you learned.",
+  "todaysChallengeSubtext": "“It's not whether you get knocked down, it's whether you get up.” — Vince Lombardi",
   "compliance": {
     "weekOf": "Week of November 2, 2026",
     "metrics": [
@@ -266,69 +241,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 11/03"
-  },
-  "specialFocus": {
-    "week": 21,
-    "title": "Read the Bottle — Hydro Dates, the Star, and What's Expired",
-    "why": "<p style='margin:0 0 10px;'>Every breathing-air bottle we carry has a <b>hydro date</b>: SCBA bottles, 5-minute escape packs, and cascade and work-unit bottles. It's the month and year the bottle was last pressure-tested (a <i>hydrostatic test</i>) by a DOT-licensed retester. That test is the only proof the bottle will still hold thousands of psi without letting go. Once the hydro runs out, nobody has proven the bottle is safe, so it doesn't go to work. Customers and auditors check this first, and it takes ten seconds to read. <b>Alex, if you can, bring a steel, an aluminum, and a composite bottle to pass around.</b></p><div style='font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#1b2a4a;margin:14px 0 6px;'>1 &middot; Where to look and how to read it (steel &amp; aluminum: stamped on the shoulder)</div><svg viewBox='0 0 640 250' style='width:100%;max-width:640px;height:auto;display:block;' role='img' aria-label='Example shoulder stamp: older test 08 A123 16, newest test 05 B456 21 with a star'><rect x='2' y='2' width='636' height='246' rx='14' fill='#eef1f4' stroke='#9aa3ad' stroke-width='2'/><text x='24' y='36' font-family='Consolas,monospace' font-size='16' fill='#5b6670'>DOT-3AA2265 &#183; S/N N12345 &#183; (original stamps)</text><text x='24' y='78' font-family='Consolas,monospace' font-size='24' fill='#8a949e'>08</text><rect x='62' y='56' width='72' height='30' fill='none' stroke='#8a949e' stroke-width='2'/><text x='98' y='78' text-anchor='middle' font-family='Consolas,monospace' font-size='22' fill='#8a949e'>A123</text><text x='142' y='78' font-family='Consolas,monospace' font-size='24' fill='#8a949e'>16</text><text x='186' y='77' font-family='Arial,sans-serif' font-size='13' fill='#8a949e'>&#8592; older test. Skip it: always read the NEWEST date.</text><text x='70' y='152' text-anchor='middle' font-family='Consolas,monospace' font-size='46' font-weight='700' fill='#1b2a4a'>05</text><rect x='110' y='112' width='130' height='52' fill='none' stroke='#1b2a4a' stroke-width='3'/><text x='175' y='152' text-anchor='middle' font-family='Consolas,monospace' font-size='42' font-weight='700' fill='#1b2a4a'>B456</text><text x='285' y='152' text-anchor='middle' font-family='Consolas,monospace' font-size='46' font-weight='700' fill='#1b2a4a'>21</text><text x='350' y='154' text-anchor='middle' font-family='Arial,sans-serif' font-size='46' fill='#b00020'>&#9733;</text><g stroke='#5b6670' stroke-width='1.5'><line x1='70' y1='164' x2='70' y2='186'/><line x1='175' y1='168' x2='175' y2='186'/><line x1='285' y1='164' x2='285' y2='186'/><line x1='350' y1='164' x2='350' y2='186'/></g><g font-family='Arial,sans-serif' font-size='12' font-weight='700' text-anchor='middle'><text x='70' y='202' fill='#1b2a4a'>MONTH</text><text x='175' y='202' fill='#1b2a4a'>RETESTER ID</text><text x='175' y='217' fill='#5b6670' font-weight='400'>(always in a square)</text><text x='285' y='202' fill='#1b2a4a'>YEAR</text><text x='350' y='202' fill='#b00020'>STAR</text><text x='350' y='217' fill='#b00020' font-weight='400'>10-yr steel</text></g><line x1='380' y1='104' x2='380' y2='226' stroke='#c3cad1' stroke-width='1.5'/><g font-family='Arial,sans-serif' font-size='13.5' fill='#1b2a4a'><text x='394' y='122' font-weight='700'>05 &#183; B456 &#183; 21 means:</text><text x='394' y='144'>Tested May 2021</text><text x='394' y='166'>Steel + &#9733; &#8594; next due May 2031</text><text x='394' y='188'>No star &#8594; next due May 2026</text><text x='394' y='212' font-weight='700' fill='#b00020'>Good through the LAST</text><text x='394' y='229' font-weight='700' fill='#b00020'>day of that month only.</text></g></svg><div style='font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#1b2a4a;margin:16px 0 6px;'>2 &middot; Which bottle is it? Each type runs its own clock</div><div style='display:flex;flex-wrap:wrap;gap:8px;'><div style='flex:1 1 180px;border:1px solid #c3cad1;border-top:5px solid #5b6670;border-radius:8px;padding:9px 11px;background:#fff;'><div style='font-weight:800;color:#1b2a4a;'>STEEL &middot; DOT-3A / 3AA</div><div style='font-size:12.5px;color:#5b6670;margin:2px 0 6px;'>Heavy, painted, dates stamped in the metal. Most cascade bottles.</div><div style='font-size:13.5px;line-height:1.45;'>Hydro every <b>5 years</b>.<br>With a <b style='color:#b00020;'>&#9733;</b> right after the newest date: every <b>10 years</b>.</div></div><div style='flex:1 1 180px;border:1px solid #c3cad1;border-top:5px solid #9aa3ad;border-radius:8px;padding:9px 11px;background:#fff;'><div style='font-weight:800;color:#1b2a4a;'>ALUMINUM &middot; DOT-3AL</div><div style='font-size:12.5px;color:#5b6670;margin:2px 0 6px;'>Lighter, bare or painted metal, dates stamped on the shoulder.</div><div style='font-size:13.5px;line-height:1.45;'>Hydro every <b>5 years</b>.<br>No star rule for aluminum. A star here buys <b>nothing</b>.</div></div><div style='flex:1 1 180px;border:1px solid #c3cad1;border-top:5px solid #1b2a4a;border-radius:8px;padding:9px 11px;background:#fff;'><div style='font-weight:800;color:#1b2a4a;'>COMPOSITE &middot; carbon wrap</div><div style='font-size:12.5px;color:#5b6670;margin:2px 0 6px;'>Light, fiber-wrapped. Label reads DOT-SP, DOT-E or DOT-CFFC. Most SCBA &amp; escape bottles.</div><div style='font-size:13.5px;line-height:1.45;'>Hydro every <b>5 years</b> (some older fiberglass: 3, so check the label).<br><b>PLUS a life limit:</b> 15 years from the date it was made (30 only if the label says 30-year). Dates are on labels, never stamped.</div></div></div><div style='margin:16px 0 0;border:2px solid #b00020;border-radius:8px;padding:10px 12px;background:#fff5f5;'><div style='font-weight:800;color:#b00020;margin-bottom:6px;'>&#9733; THE STAR: what it gives you, and when it doesn't count</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li><b>What it means:</b> the steel bottle passed its test under DOT's 10-year rule, so the next hydro is due in <b>10 years instead of 5</b>.</li><li><b>Steel only</b> (DOT-3A / 3AA). A star on aluminum or composite gives you nothing.</li><li>It has to sit <b>right after the newest date</b>. A star next to an older test doesn't carry forward. If the latest date has no star, it's a 5-year bottle.</li><li><b>Struck-out or X'd-out star = back to 5 years.</b> That happens when the bottle was filled with a gas that isn't on DOT's list. The star is only for clean, dry gases like breathing air and nitrogen, and never for underwater (scuba) breathing.</li><li><b>A PLUS sign (+) is not a star.</b> It means the steel bottle may be filled 10% over its stamped pressure. It adds <b>zero</b> time to the hydro date.</li></ul></div><div style='font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#1b2a4a;margin:16px 0 6px;'>3 &middot; Composite bottles run two clocks, and either one can kill it</div><svg viewBox='0 0 640 230' style='width:100%;max-width:640px;height:auto;display:block;' role='img' aria-label='Composite bottle with hydro label 06 C789 23 and manufacture date 10/2011'><rect x='2' y='2' width='636' height='226' rx='14' fill='#eef1f4' stroke='#9aa3ad' stroke-width='2'/><rect x='40' y='26' width='470' height='96' rx='46' fill='#2b2f33'/><g stroke='#3d4349' stroke-width='3'><line x1='90' y1='26' x2='130' y2='122'/><line x1='150' y1='26' x2='190' y2='122'/><line x1='410' y1='26' x2='450' y2='122'/><line x1='460' y1='26' x2='490' y2='100'/></g><rect x='510' y='52' width='40' height='44' rx='5' fill='#8a949e'/><rect x='550' y='60' width='34' height='28' rx='4' fill='#5b6670'/><rect x='170' y='36' width='200' height='76' rx='4' fill='#fff' stroke='#c3cad1'/><g font-family='Arial,sans-serif' font-size='11' fill='#1b2a4a'><text x='180' y='54' font-weight='700'>DOT-SP xxxxx-4500</text><text x='180' y='72'>MFD 10/11 &#183; S/N C00123</text><text x='180' y='90' font-weight='700' fill='#b00020'>15-YEAR SERVICE LIFE</text><text x='180' y='105' fill='#5b6670'>(manufacture date = life clock)</text></g><rect x='384' y='44' width='84' height='40' rx='3' fill='#fff8d6' stroke='#bf8f00'/><text x='426' y='60' text-anchor='middle' font-family='Arial,sans-serif' font-size='10' fill='#5b6670'>hydro label</text><text x='426' y='77' text-anchor='middle' font-family='Consolas,monospace' font-size='14' font-weight='700' fill='#1b2a4a'>06&#183;C789&#183;23</text><g font-family='Arial,sans-serif' font-size='14'><text x='40' y='154' font-weight='700' fill='#1b2a4a'>Clock 1, hydro:</text><text x='160' y='154' fill='#1b2a4a'>tested June 2023 &#8594; next due June 2028</text><text x='540' y='154' font-weight='700' fill='#2e7d32'>&#10003; OK</text><text x='40' y='180' font-weight='700' fill='#1b2a4a'>Clock 2, life:</text><text x='160' y='180' fill='#1b2a4a'>made Oct 2011 + 15 years &#8594; ended Oct 2026</text><text x='540' y='180' font-weight='700' fill='#b00020'>&#10007; DONE</text><text x='40' y='212' font-weight='700' fill='#b00020'>Fresh hydro doesn't save it. Life limit is up: the bottle is finished for good.</text></g></svg><div style='margin:14px 0 0;padding:9px 12px;border-left:4px solid #1b2a4a;background:#f4f6f8;font-size:13.5px;line-height:1.5;'><b>Why we're stricter than the bare DOT minimum:</b> DOT lets a bottle that was filled before its due date stay in service until it's empty. Canon doesn't run on that. Nobody can look at a bottle and know when it was filled, and the customer's auditor only sees the date. <b>Past its month = off the trailer.</b></div><div style='margin-top:10px;font-size:11px;color:#5b6670;line-height:1.45;'>Sources: DOT 49 CFR 180.205 (requalification), 180.209 (retest intervals and the 10-year star rule), 180.213 (marking format, composite labels); OSHA 29 CFR 1910.134 (i)(4) and (h)(3)(iii); the composite bottle's own DOT special permit. Drawings are examples, not real serial numbers.</div>",
-    "standardLabel": "The Bottle Standard: Check It Before It Goes to Work",
-    "standard": [
-      "Read the <b>newest</b> date on every bottle before it goes on a trailer or into service: month, retester ID in the square, year. Do the math out loud: +5 years, or +10 only if it's a steel bottle with a star right after that newest date.",
-      "A bottle is good through the <b>last day of its due month</b>. On the 1st of the next month it's expired: tag it OUT OF HYDRO, pull it off the trailer, and tell your lead so the shop can send it out. Due this month? Flag it now, not on the 31st.",
-      "<b>The star is steel only.</b> No star, a star next to an older date, or a struck-out star means 5 years. Aluminum and composite bottles never get 10 years from a star. A plus sign (+) is about fill pressure and adds no time.",
-      "<b>Composite = two clocks.</b> Check the hydro label (every 5 years) AND the manufacture date (15-year life, 30 only if the label says 30-year). If either one is up, the bottle is done. Never stamp, scratch, or write on a composite wrap or its labels.",
-      "<b>Damage beats the date.</b> Dents, gouges, bulges, heat or fire marks, chemical stains, cut or fuzzy fibers on a composite, or a label you can't read: out of service no matter how fresh the hydro is.",
-      "<b>In date AND full.</b> SCBA and escape bottles stay fully charged and get refilled before they drop below 90% (OSHA 1910.134). Found one out of hydro, damaged, or low? Put it on your readiness form with the bottle number and who you told."
-    ],
-    "scenarios": [
-      {
-        "title": "The Cascade Walk-Around",
-        "body": "You're setting the air trailer on location and read three steel 3AA cascade bottles. <b>Bottle A:</b> <code>09 [A123] 16 &#9733;</code>. <b>Bottle B:</b> <code>03 [A123] 22</code>, no star. <b>Bottle C:</b> <code>11 [A123] 21</code>, no star. Today is November 2026. Which ones are good, which one is expired, and which one needs a call to the shop this week? <i>(A: due Sept 2026, so EXPIRED; pull it. B: good through March 31, 2027. C: due this month, good through Nov 30; flag it today.)</i>"
-      },
-      {
-        "title": "The Escape Pack With a Fresh Hydro",
-        "body": "A 5-minute escape pack has a composite bottle with a shiny hydro label from 2023. Someone says, 'It just got tested, it's fine.' You flip it over: the label says it was made in October 2011 with a 15-year service life. Is it fine? <i>(No. The life clock ran out in October 2026. A fresh hydro doesn't bring a composite bottle back from its life limit. Tag it, pull it, tell your lead.)</i>"
-      }
-    ],
-    "questions": [
-      "Pick up your SCBA or escape bottle. Where's the newest hydro date? Read it out loud and tell us the month it's due.",
-      "What does the star give you, and which bottles can never use it?",
-      "Star or plus sign: what's the difference, and which one adds time?",
-      "Your bottle's due month is this month. Is it good tomorrow? Is it good on the 1st?"
-    ],
-    "nonNegotiable": "If you can't read the date, can't do the math, or it's past its month, the bottle does not go to work. Tag it, pull it, and tell your lead. A bottle out of hydro is a bottle nobody has proven will hold.",
-    "before": [
-      {
-        "title": "Working Around Mobile Equipment — Thursday's Near Miss, Plus the Good and Bad",
-        "why": "<div style='border:2px solid #b00020;border-radius:8px;padding:11px 13px;background:#fff5f5;margin-bottom:14px;'><div style='font-weight:800;color:#b00020;margin-bottom:6px;'>&#9888;&#65039; START HERE: A HOSE GOT AWAY ON THURSDAY</div><p style='margin:0 0 8px;font-size:14px;line-height:1.5;'><b>What happened (about 12:20 PM):</b> at the start of a tank cleanout on an SM location, a crew was spraying water into a tank through the manway from outside the tank. The hose got away from the person handling it, whipped out of the manway and hit two nearby tanks. The pump operator shut down the pump. <b>Nobody was hurt and nothing was damaged.</b> From where Cindy Smith stood, the hose looked like it passed close behind Jordan Lemmons's head. Jordan was walking through the area and never saw it.</p><p style='margin:0 0 8px;font-size:14px;line-height:1.5;'><b>What our people did right:</b> Jordan checked that everyone was OK, then told the crew to put someone where they could see both the pump truck and the crew, and to tie off the hose. Cindy told Jordan how close it looked. Both gave statements, and management was told. That's how a near miss should be handled.</p><p style='margin:0;font-size:14px;line-height:1.5;'><b>What we don't know yet:</b> the cause. It hasn't been established, so don't guess and don't blame anyone. <b>The lesson doesn't depend on the cause:</b> a pump truck's reach is as long as its hose, and anyone near that hose is in the line of fire.</p></div><p style='margin:0 0 10px;'><b>Alex, this one's yours.</b> The rest comes from Matt's nightly form reviews (10/28 to 11/5) and the crew's own OWL write-ups on this week's topic (10/21 to 10/29). Those reviews showed no mobile-equipment incident or near miss before Thursday, and crews have been doing the hard part well around cranes, forklifts and trucks. Where we're slipping is the part before the job: the trailer, the gear and telling someone.</p><div style='display:flex;flex-wrap:wrap;gap:10px;margin-top:6px;'><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; THE GOOD: say these names</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li><b>Dawson Drake &amp; Dermont Morgan</b>, Brook D-W23I (10/21): the forklift spotter kept a safe distance and kept talking to the driver.</li><li><b>Pablo Soto &amp; Baldemar Bracomontes</b>, Jack Mohr (10/22): made the exclusion zones known to the crane crew and the truckers, so nobody had to guess.</li><li><b>Raymundo Solis &amp; Kedrick McCarter</b>, Hernandez 20 #1 (10/22): used a hold point before the crane, kept everyone clear of the suspended load, and stood away from the pump truck's pressure hose.</li><li><b>Michael Jobe</b>, Brook D 17H (10/29): the vac truck wasn't sucking. Jobe spoke up and the crew stood by for another truck instead of working around it.</li><li><b>Bryan Medlin</b>, trailer 604 (11/2): found broken welds on the cascade rack, put it on both forms, and named who was told. That's how it's done.</li><li><b>Ralph Forbes</b>, Crouch 16 (11/4): when the vac truck didn't show, the crew changed the plan and wrote down exactly what happened. Fullest write-up of the day.</li><li><b>Bobby Galindo</b>, Nail Tillman (11/2): heard a hiss during a flow-line reconnect, stopped the crew and moved them back until it was fixed and tested. That's stop work used for real, so tick <i>utilized</i>, not <i>discussed</i>.</li><li><b>Trailer GPS</b> (10/30 report): 3 trailers flagged and the longest outage is 5 days. On 9/28 it was 123.</li></ul></div><div style='flex:1 1 280px;border:1px solid #e3b7bd;border-top:5px solid #b00020;border-radius:8px;padding:10px 12px;background:#fff5f5;'><div style='font-weight:800;color:#b00020;margin-bottom:6px;'>&#10007; THE BAD: fix these this week</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li><b>Trailers rolling with known defects.</b> Trailer 139's doors were <b>flying open on lease roads</b> (11/4). The same trailer's rear door was written up hanging on one bracket on 10/28. Matt's call: <b>139 doesn't go back out until it's repaired and signed off.</b> A marker light out was written up on 605 two days running (10/29, 10/30), only in a photo note, and the trailer still went out. The standard is <b>no trailer moves unless every light works</b>. Also written up: 604's rack welds (11/2).</li><li><b>Zone gear missing.</b> 127 had no cones, caution tape or spotter flags (10/29), and the photos on that form were from 2020. 152 had no cones (10/30). 148 has been short caution tape since 10/29 and was still short on 11/5.</li><li><b>Problem written, nobody told.</b> Three readiness forms on 11/3 named a problem and no person: a work pack short a mask, caution tape, and mask bags. On 11/4, neither form on 139's doors named anyone either.</li><li><b>Old photos.</b> Spotter flags, cones and the cascade alarm are the repeat offenders. One hitch-ball photo was a year old (11/2). An old photo proves nothing about today's hookup.</li><li><b>Rain and mud.</b> One rig check says the checklist couldn't be done in the rain but still carries numbers. If you couldn't check it, say so and go back. Crews also reported people slipping on muddy pads.</li><li><b>Forms and hydro.</b> At the nightly check, air-job trailers short a required form ran 7 on 11/3, 6 on 11/4 and 6 on 11/5 (checked at 10 PM, so late forms may close some). That's the same readiness gap from Matt's weekly. Trailer 503's hydro dates were blank again on 11/5, four days running, and on both shifts. Read the bottle and write it down.</li></ul><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>On the office, not the crew:</b> the shop ran out of mask bags and stickers, and three techs reported it 11/3. Two more crews were short stickers on 11/5. We owe you that resupply.</div></div></div>",
-        "standardLabel": "Alex's Six Asks on WAME: Starting This Morning",
-        "standard": [
-          "<b>Anything under pump pressure can move.</b> Before the pump comes up, agree how the hose is controlled, who's watching and how the pump gets shut down. Put someone where they can see both the pump operator and the crew. Stay out of the path a loose hose can take.",
-          "<b>Talk to the operator first.</b> Eye contact or radio before you enter any swing or travel zone. If you can't see the mirrors, they can't see you. Ground work stops when equipment moves nearby.",
-          "<b>Set the zone with real gear.</b> Cones, caution tape and spotter flags are checked at the trailer inspection. Missing one? Get it before you leave the shop, or write it down and name who you told.",
-          "<b>All lights or no move.</b> Check hitch, ball, pins, chains, lights, doors and rack fresh at every hookup. A defect goes in Comments for Management, not a photo note, with who you told. The trailer doesn't roll until a lead clears it.",
-          "<b>Every lift gets a spotter and a tag line, and they're two different people.</b> If the crew doesn't have them, that's a hold point. Say so before the load moves, like the crew at Scarlet Unit 2 did on 10/25.",
-          "<b>Rain and mud change the plan.</b> Walk the zone again, because trucks stop longer and spotters slip. If weather kept you from checking something, write that and go back when it clears. Today's photo or no photo, never an old one."
-        ],
-        "scenarios": [
-          {
-            "title": "The Hose at the Manway",
-            "body": "A crew is starting a tank cleanout. One hand has the hose at the manway and the pump operator is back at the truck. Can the operator see the crew? What do you ask for before the pump comes up, and where do you stand? Now the hose gets loose. Who shuts down the pump, and how do they know to? And what has to be true before anyone starts it again? <i>(Agree on the signal and who's watching both sides before the pump starts. Stay out of the path. When it goes wrong: pump down, check everyone, tell your lead, and write it up with who you told. Nobody restarts until the fix is actually in place, not just talked about.)</i>"
-          },
-          {
-            "title": "5 AM at the Shop",
-            "body": "Your inspection finds an amber marker light out. The job's an hour away and the company man is already calling. What do you write, where do you write it, who do you tell, and does the trailer move? Now change it to a door hanging on one bracket, or a broken weld on the cascade rack. <i>(Comments for Management, with the name of who you told. No lights, no move. Get a lead's call before a door or weld defect goes down the road. A late start is cheaper than what can happen on the highway.)</i>"
-          }
-        ],
-        "questions": [
-          "Next job with a pump truck: who can see both the operator and the crew? Say the name out loud. If nobody can, what do you do?",
-          "Your last location: who was running the equipment, and how were you talking to them? Radio, hand signals, or just hoping?",
-          "When did you last put your hands on your trailer's spotter flags and cones, not a photo of them?",
-          "A kill truck operator was wearing an H2S monitor up on a hard hat, above the breathing zone (10/27). Our tech spoke up about where it belongs. What does professional sound like when it's another company's operator?",
-          "Alex's question: what did you see around equipment in the last two weeks that nobody wrote down?"
-        ],
-        "nonNegotiable": "If you can't name who has eyes on you, you're not clear to be there. No spotter, no tag line, no zone gear: stop and get them. No Canon trailer moves unless every light works. Near miss? Stop, check everyone, tell someone, and write it up."
-      }
-    ]
   }
 }
