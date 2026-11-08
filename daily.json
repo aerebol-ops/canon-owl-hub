@@ -170,7 +170,29 @@
   ],
   "leadershipThought": "100% tie-off means one hook is always in before the other comes off. Not almost always. Always. Standards don't soften because the job is routine — the routine job is where standards get skipped.",
   "yesterdaysJobs": null,
-  "formReview": null,
+  "formReview": {
+    "date": "2026-11-07",
+    "label": "Saturday 11/07",
+    "verdict": "",
+    "concerns": [
+      {
+        "title": "Stefanie Kirschke — XTO, Spraberry Driver 2272A and University 1-32 4H, trailer 605, 5:51 AM / 11:03 AM / 1:16 PM. Answered \"No\" to the FR uniform question on all three T",
+        "quote": "to the FR uniform question on all three Trailer Inspection Forms filed that day. Unlike 09/26, when she answered No with the reason field blank, she completed the reason every time:"
+      },
+      {
+        "title": "Bryan Medlin — Trailer Readiness Form, trailer 602, CSRHI Andrews Shop, 3:49 PM. Reported structural damage to the cascade rack. The entry in \"Is anything wrong or missin",
+        "quote": "Is anything wrong or missing? If so what and who was notified?"
+      },
+      {
+        "title": "Larry Jaramillo — Diamondback Energy, Black Pearl C 11-14 132, trailer 118, form time 7:58 AM. Reported an equipment shortfall under \"Comments or Concerns for Management\"",
+        "quote": "Comments or Concerns for Management"
+      },
+      {
+        "title": "Brianda Sandoval — Trailer Readiness Form, trailer 128, CSRHI Andrews Shop, 4:42 PM. Reported missing location equipment, corrected on the spot. The entry reads",
+        "quote": "the muster sign was missing, I placed another one in."
+      }
+    ]
+  },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -178,36 +200,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Brianda Sandoval / Tyrell Sanders — a pressure valve had to be replaced on top of the well head",
-      "detail": "More communication with the crew.",
-      "psms": "Operational Discipline",
-      "level": "duck"
-    },
-    {
-      "type": "good",
-      "headline": "Jeremy Norris / Robbie Henigan 1099 — Verify conditions, brief all personnel, and leave the location better than you f",
-      "detail": "OWL form — Operational Discipline",
+      "headline": "Jordan Lemmons / Kedrick Mccarter 1099 — Didn't have high gases and got the well to 0",
+      "detail": "Didn't have high gases and got the well to 0.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Luis Zarate / Robbie Henigan 1099 — Crew brought surface casing valve to ground level and then filled cellar wi",
-      "detail": "Continue to grow communication with MT and crew.",
+      "headline": "Bryan Medlin / Joseph Popillion 1099 — Good communication between forklift driver and spotter great hand signals",
+      "detail": "Be better at monitoring of movement around our specific job site.",
+      "psms": "Mobile Equipment",
+      "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — Set up exclusion zone conducted a conversion on two Wells",
+      "detail": "Always look for improvement.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Dawson Drake / Gael \"Antonio\" Avila 1099 — A crew doing a disconnect with precision communication over psms",
-      "detail": "Made a new goal for my self to learn Spanish.",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Alexander Clubb / Tyrell Sanders — Job scope was reconnect well head to go back into production",
+      "detail": "Everything went smooth.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Bryan Medlin / Dermont Morgan 1099 — No dangerous gases were detected",
-      "detail": "No dangerous gases were detected.",
+      "headline": "Jeremy Norris / Bobby Galindo 1099 — Crew was about to use the impact, but told them they couldn't because LEL w",
+      "detail": "All communications were open and taken in smoothly.",
       "psms": "Operational Discipline",
       "level": null
     },
