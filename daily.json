@@ -263,5 +263,37 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 11/03"
+  },
+  "specialFocus": {
+    "week": 22,
+    "until": "2026-11-10",
+    "title": "Ray's Week Starts Here: Last Week's Wins and Misses, Then Working at Height",
+    "why": "<p style='margin:0 0 10px;'><b>Ray, this week is yours.</b> Start with last week, straight from Matt Croom's nightly form reviews (Monday 11/2 through Saturday 11/7). Say the names out loud, then fix the misses, then move to this week's topic: <b>Working at Height</b>. The full Week 21 summary is on the hub under &#128203; Weekly Summary.</p><div style='display:flex;flex-wrap:wrap;gap:10px;margin-top:6px;'><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; THE GOOD: say these names</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li><b>Bobby Galindo</b>, Nail Tillman (Mon): heard a hiss on a reconnect, stopped the crew and moved them back until it was fixed and tested clean.</li><li><b>Jordan Lemmons &amp; Cindy Smith</b> (Thu): when a hose got away on a tank cleanout, they checked on everyone, fixed the setup, spoke up and gave statements. That's how a near miss gets handled.</li><li><b>Ray Solis</b>'s crews (Fri): saw a damaged spool, stopped and told the MT, and the valve got locked out. With slickline on the next well, they kept the crew clear and wrote the lesson: bigger exclusion zone on SimOps.</li><li><b>Michael Jobe</b>, Butters (Sat): the crew didn't have cones out, so set-up stopped until they did. Traffic control first, then the job.</li><li><b>Bryan Medlin</b>: wrote up broken cascade rack welds twice this week, on 604 (Mon) and 602 (Sat). Defects in writing are how they get fixed.</li><li><b>Brianda Sandoval</b>, trailer 128 (Sat): found the muster sign missing and put up a new one on the spot.</li><li><b>Bobby Fleming</b> (Fri): wrote up an expired workpack in the comments field. That's Read the Bottle working.</li><li><b>Michael Ellis</b> (Sat): three confined space jobs closed out complete, each paused overnight the right way, every photo from that day. <b>Stefanie Kirschke</b> filed the most complete close-outs on Saturday.</li><li><b>Nathan Contreras</b>: on Matt's clean list Monday, Tuesday, Thursday and Friday.</li></ul></div><div style='flex:1 1 280px;border:1px solid #e3b7bd;border-top:5px solid #b00020;border-radius:8px;padding:10px 12px;background:#fff5f5;'><div style='font-weight:800;color:#b00020;margin-bottom:6px;'>&#10007; THE MISSES: fix these this week</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li><b>Three real stops, zero ticks.</b> Galindo's hiss, Ray's crews and the spool, and Jobe's cones were all stop work used for real. Across 465 forms Monday through Saturday, \"Stop work authority utilized\" was ticked <b>zero</b> times. If you stopped it, tick <i>utilized</i>, not <i>discussed</i>, and write two lines.</li><li><b>Problem written, nobody named.</b> Every day Tuesday through Saturday had readiness forms naming a problem and no person. Saturday's rack weld and missing muster sign were the same. Write what's wrong <b>and</b> who you told.</li><li><b>Old photos.</b> Stale ELSA and loud-alarm photos on the H2S daily are the most repeated miss of the week, on three of four dailies Saturday, and one set is from 2021. An old photo proves nothing about today.</li><li><b>Half a bottle entry.</b> Trailer 503's hydro dates were blank all five weekdays. Other readiness forms listed hydro dates with no pressure. Every charged bottle gets <b>both</b>: pressure and date.</li><li><b>Empty close-outs.</b> Saturday alone had six jobs with the whole Learn section blank, and more answered \"Na.\" One honest line about what we'd do better beats a blank.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>On the office, not the crew:</b> we ran out of mask bags and stickers, and crews were still short stickers Friday. We owe you that resupply.</div>",
+    "standardLabel": "Week 22: Working at Height. The Standard",
+    "standard": [
+      "Fall protection is required at <b>6 feet (2 meters) or greater</b>. Measure from where you'd land, not where you're standing.",
+      "<b>100% tie-off</b> to approved anchor points outside a protected area. One hook is always in before the other comes off.",
+      "<b>Inspect</b> harness, lanyard and anchor hardware before every use. Damaged gear comes out of service.",
+      "<b>Secure tools and materials</b> so nothing drops on the people below.",
+      "<b>Rescue is in place before you go up.</b> Someone must be able to get you down, and you should be able to name them.",
+      "<b>Three points of contact</b> on every ladder and stair."
+    ],
+    "scenarios": [
+      {
+        "title": "The Trailer Deck",
+        "body": "A tech climbs onto the trailer deck to reach a monitor mast, figures it's about five and a half feet, and doesn't tie off. But the trailer is on a slope, the diamond plate is dusty, and below is a hitch and a set of jack stands. Six feet is measured from where you'd land, not where you're standing. Ray, ask the circle: what's actually under you up there, and who gets you down if you go over the side?"
+      },
+      {
+        "title": "The Stop Nobody Ticked",
+        "body": "Saturday at Butters, the crew didn't have cones out, so Michael Jobe stopped set-up until they did. That's stop work used for real. Then the form said \"discussed.\" At height it's the same: if the anchor's wrong or the rescue isn't set, you stop, and then you write it down as <i>utilized</i>. The box is how the office knows it happened."
+      }
+    ],
+    "questions": [
+      "When did you last step up on a trailer deck or tank stair without thinking twice? What was underneath you?",
+      "Name the person who would get you down today if you went over the side. If you can't name one, what's the plan?",
+      "Three real stops last week and zero ticked. What makes \"utilized\" feel like the wrong box to tick?",
+      "Ray's question: what did last week teach us that the whole crew should carry into this one?"
+    ],
+    "nonNegotiable": "Name your anchor and your rescue before you climb. Every form: write the problem and who you told, and tick the stop when you use it. A standard doesn't soften because the job is routine. The routine job is where standards get skipped."
   }
 }
