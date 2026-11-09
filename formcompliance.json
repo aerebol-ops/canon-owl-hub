@@ -3138,25 +3138,25 @@
       "month": "November 2026",
       "year": 2026,
       "monthNum": 11,
-      "compliancePct": 96.2,
-      "overallPct": 94.6,
-      "overallYesTotal": 157,
+      "compliancePct": 96.6,
+      "overallPct": 95.0,
+      "overallYesTotal": 172,
       "overallNoTotal": 9,
-      "trailerInspYes": 29,
-      "trailerReadyYes": 26,
+      "trailerInspYes": 32,
+      "trailerReadyYes": 27,
       "missedTotal": 9,
       "dailyNo": 4,
       "trailerInspNo": 1,
       "trailerReadyNo": 4,
-      "problemRows": 22,
-      "blanks": 58,
-      "employees": 63,
-      "cleanEmployees": 55,
-      "dailyYesTotal": 102,
+      "problemRows": 23,
+      "blanks": 241,
+      "employees": 68,
+      "cleanEmployees": 60,
+      "dailyYesTotal": 113,
       "dailyNoTotal": 4,
-      "rawRows": 199,
-      "daysCovered": 3,
-      "sheetsInMonth": 4,
+      "rawRows": 435,
+      "daysCovered": 4,
+      "sheetsInMonth": 10,
       "byDay": [
         {
           "date": "11/1",
@@ -3172,11 +3172,16 @@
           "date": "11/3",
           "missed": 4,
           "pct": 96
+        },
+        {
+          "date": "11/8",
+          "missed": 0,
+          "pct": 100
         }
       ],
       "watch": [],
       "live": true,
-      "throughDate": "11/3"
+      "throughDate": "11/8"
     }
   ]
 }
