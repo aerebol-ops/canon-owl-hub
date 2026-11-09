@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08",
+ "generated": "2026-11-09",
  "scope": "Dropbox '- OWL' exports \u2014 OWL, JSA, 4-gas, location sign, ticket auditable; benzene/atmospheric/permits/tubes/names need the full packet feed",
  "jobs": [
   {
@@ -6946,72 +6946,6 @@
    "techs": "LARRY JARAMILLO / Rolando Flores 1099",
    "sched": "10/5/2026 8:00AM",
    "late_min": -43,
-   "missing": [],
-   "complete": true
-  },
-  {
-   "date": "2026-10-04",
-   "well": "Texas Ten 38-36",
-   "category": "AGT",
-   "forms": 2,
-   "checks": {
-    "owl": true,
-    "jsa": true,
-    "gas4": true,
-    "sign": true,
-    "ticket": true
-   },
-   "board": true,
-   "ticket": "102088",
-   "bnz": "2",
-   "at": "602",
-   "techs": "ANDREW BAILEY / Rolando Flores 1099",
-   "sched": "10/04/26 9:00",
-   "late_min": null,
-   "missing": [],
-   "complete": true
-  },
-  {
-   "date": "2026-10-04",
-   "well": "TXL 27 4 BTA 1077 1077JH",
-   "category": "AGT",
-   "forms": 2,
-   "checks": {
-    "owl": true,
-    "jsa": true,
-    "gas4": true,
-    "sign": true,
-    "ticket": true
-   },
-   "board": true,
-   "ticket": "102085",
-   "bnz": "6",
-   "at": "606",
-   "techs": "JORDAN LEMMONS / Cindy Smith 1099",
-   "sched": "10/5/2026 12:00 PM",
-   "late_min": 111,
-   "missing": [],
-   "complete": true
-  },
-  {
-   "date": "2026-10-04",
-   "well": "DRIVER E5A 101H",
-   "category": "AGT",
-   "forms": 2,
-   "checks": {
-    "owl": true,
-    "jsa": true,
-    "gas4": true,
-    "sign": true,
-    "ticket": true
-   },
-   "board": true,
-   "ticket": "102079",
-   "bnz": "6",
-   "at": "606",
-   "techs": "JORDAN LEMMONS / Cindy Smith 1099",
-   "sched": "10/4/2026 9:00 AM",
-   "late_min": 13,
    "missing": [],
    "complete": true
   }

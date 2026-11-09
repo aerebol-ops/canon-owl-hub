@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08",
+ "generated": "2026-11-09",
  "months": [
   {
    "month": "2026-10",
@@ -20,16 +20,16 @@
       "pct": 100
      },
      {
-      "who": "Jordan Lemmons",
-      "jobs": 5,
-      "complete": 5,
-      "pct": 100
-     },
-     {
       "who": "Pablo Soto",
       "jobs": 22,
       "complete": 21,
       "pct": 95
+     },
+     {
+      "who": "Larry Jaramillo",
+      "jobs": 18,
+      "complete": 17,
+      "pct": 94
      }
     ]
    },
