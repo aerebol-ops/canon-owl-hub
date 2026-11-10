@@ -1,8 +1,8 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
-  "generated": "2026-11-09",
+  "generated": "2026-11-10",
   "ytdPct": 85.2,
-  "ytdMissed": 2030,
+  "ytdMissed": 2043,
   "months": [
     {
       "month": "January 2026",
@@ -3138,24 +3138,24 @@
       "month": "November 2026",
       "year": 2026,
       "monthNum": 11,
-      "compliancePct": 95.9,
-      "overallPct": 94.6,
-      "overallYesTotal": 175,
-      "overallNoTotal": 10,
-      "trailerInspYes": 32,
-      "trailerReadyYes": 27,
-      "missedTotal": 10,
-      "dailyNo": 5,
+      "compliancePct": 94.9,
+      "overallPct": 91.9,
+      "overallYesTotal": 226,
+      "overallNoTotal": 20,
+      "trailerInspYes": 42,
+      "trailerReadyYes": 34,
+      "missedTotal": 23,
+      "dailyNo": 8,
       "trailerInspNo": 1,
-      "trailerReadyNo": 4,
-      "problemRows": 23,
-      "blanks": 235,
+      "trailerReadyNo": 11,
+      "problemRows": 33,
+      "blanks": 182,
       "employees": 68,
-      "cleanEmployees": 59,
-      "dailyYesTotal": 116,
-      "dailyNoTotal": 5,
-      "rawRows": 435,
-      "daysCovered": 5,
+      "cleanEmployees": 51,
+      "dailyYesTotal": 150,
+      "dailyNoTotal": 8,
+      "rawRows": 439,
+      "daysCovered": 6,
       "sheetsInMonth": 10,
       "byDay": [
         {
@@ -3182,11 +3182,87 @@
           "date": "11/8",
           "missed": 0,
           "pct": 100
+        },
+        {
+          "date": "11/9",
+          "missed": 10,
+          "pct": 92
         }
       ],
-      "watch": [],
+      "watch": [
+        {
+          "name": "Stefanie Kirschke",
+          "totalMissed": 1,
+          "dailyMissed": 0,
+          "trailerMissed": 1,
+          "dailyYes": 5,
+          "dailyNo": 0,
+          "pct": 100,
+          "overallYes": 9,
+          "overallNo": 1,
+          "overallPct": 90.0,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 1
+        },
+        {
+          "name": "Larry Jaramillo",
+          "totalMissed": 1,
+          "dailyMissed": 0,
+          "trailerMissed": 1,
+          "dailyYes": 5,
+          "dailyNo": 0,
+          "pct": 100,
+          "overallYes": 10,
+          "overallNo": 1,
+          "overallPct": 90.9,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 1
+        },
+        {
+          "name": "Brianda Sandoval",
+          "totalMissed": 1,
+          "dailyMissed": 0,
+          "trailerMissed": 1,
+          "dailyYes": 5,
+          "dailyNo": 0,
+          "pct": 100,
+          "overallYes": 11,
+          "overallNo": 1,
+          "overallPct": 91.7,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 1
+        },
+        {
+          "name": "Michael Jobe",
+          "totalMissed": 0,
+          "dailyMissed": 0,
+          "trailerMissed": 0,
+          "dailyYes": 5,
+          "dailyNo": 0,
+          "pct": 100,
+          "overallYes": 11,
+          "overallNo": 0,
+          "overallPct": 100.0,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 0
+        },
+        {
+          "name": "Bryan Medlin",
+          "totalMissed": 0,
+          "dailyMissed": 0,
+          "trailerMissed": 0,
+          "dailyYes": 5,
+          "dailyNo": 0,
+          "pct": 100,
+          "overallYes": 11,
+          "overallNo": 0,
+          "overallPct": 100.0,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 0
+        }
+      ],
       "live": true,
-      "throughDate": "11/8"
+      "throughDate": "11/9"
     }
   ]
 }

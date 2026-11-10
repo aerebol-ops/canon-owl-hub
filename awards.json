@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-10",
  "months": [
   {
    "month": "2026-10",
@@ -27,8 +27,8 @@
      },
      {
       "who": "Larry Jaramillo",
-      "jobs": 18,
-      "complete": 17,
+      "jobs": 17,
+      "complete": 16,
       "pct": 94
      }
     ]
