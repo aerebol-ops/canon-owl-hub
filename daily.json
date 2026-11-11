@@ -200,9 +200,34 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Jeremy Norris / Bobby Galindo 1099 — crew worked safely and no issues to report",
-      "detail": "Verify conditions, brief all personnel, and leave the location better than you found it.",
-      "psms": "Operational Discipline",
+      "week": 22,
+      "headline": "Jordan Lemmons — heard a wheel bearing, brought trailer 152 back and named who was told",
+      "detail": "\"Bring trailer back because of wheel bearing making noise. I notified Ray.\" The problem, the action and the name, all on the form.",
+      "psms": "Mobile Equipment",
+      "level": null
+    },
+    {
+      "type": "good",
+      "week": 22,
+      "headline": "Michael Jobe — no tag line on location, so the crew got one before the work",
+      "detail": "Calverley-McDaniels, Monday. Fix the setup first, then the job. That's a stop worth ticking as \"utilized.\"",
+      "psms": "Stop Work Authority",
+      "level": null
+    },
+    {
+      "type": "good",
+      "week": 22,
+      "headline": "Brianda Sandoval — the only complete trailer set on Sunday",
+      "detail": "Trailer 603: two inspections and the readiness form, pressure and hydro date on every bottle, every photo from that day, and a real write-up of the rain and mud.",
+      "psms": "Respiratory Protection",
+      "level": null
+    },
+    {
+      "type": "good",
+      "week": 22,
+      "headline": "Tyrell Sanders and Kedrick McCarter — full OWL close-outs Monday",
+      "detail": "Fred B Houston #4 and Allar Callaway: real narratives and same-day photos, on Matt's clean list.",
+      "psms": "OWL Program",
       "level": null
     },
     {
@@ -235,5 +260,33 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Mon 11/09"
+  },
+  "specialFocus": {
+    "week": 22,
+    "until": "2026-11-11",
+    "title": "Midweek: Monday's Wins and Misses, Then Working at Height on the Rig-Up",
+    "why": "<p style='margin:0 0 10px;'><b>Ray, midweek check.</b> Here's what Matt Croom's reviews of Sunday's and Monday's forms showed. Say the names, fix the misses, then take Working at Height to the place we're most often off the ground: <b>rig-ups and rig-downs</b>.</p><div style='display:flex;flex-wrap:wrap;gap:10px;margin-top:6px;'><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; THE GOOD: say these names</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li><b>Jordan Lemmons</b>, trailer 152 (Mon): heard a wheel bearing making noise, brought the trailer back, and wrote down who was told. The problem, the action and the name: that's the whole habit.</li><li><b>Michael Jobe</b>, Calverley-McDaniels (Mon): the crew had no tag line, so Jobe had them get one before the work. Second week running he's fixed the setup first (cones on Saturday).</li><li><b>Brianda Sandoval</b>, trailer 603 (Sun): the only complete trailer set of the day. Two inspections and the readiness form, pressure and hydro date on every bottle, every photo from that day.</li><li><b>Tyrell Sanders</b>, Fred B Houston #4, and <b>Kedrick McCarter</b>, Allar Callaway (Mon): full OWL close-outs with real narratives and same-day photos.</li><li><b>Read the Bottle is sticking:</b> every charged bottle on trailers 602, 605 and 507 had both pressure and hydro date on Monday.</li></ul></div><div style='flex:1 1 280px;border:1px solid #e3b7bd;border-top:5px solid #b00020;border-radius:8px;padding:10px 12px;background:#fff5f5;'><div style='font-weight:800;color:#b00020;margin-bottom:6px;'>&#10007; THE MISSES: fix these today</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li><b>Still zero \"utilized\" ticks</b> Sunday and Monday. Getting a crew to fetch a tag line before the work is a stop. Tick <i>utilized</i> and write two lines.</li><li><b>Copied selections.</b> Monday, the same long \"what did we observe\" list was identical on five forms and the same \"what went well\" list on eight. Pick fresh for each job. That's how the office knows what actually happened.</li><li><b>Trailer forms.</b> By 11 PM Monday, only 3 of 12 air trailers had the full set: two inspections plus the readiness form. Late forms may close some, but the readiness form is the one missing most.</li><li><b>Old photos.</b> Stale ELSA and alarm photos on the H2S daily again both days, a rig-down with five photos from 2021, and a cascade alarm photo from 2023.</li><li><b>Rig gear and counts.</b> One rig-up went out without its repeater, and three rig forms had equipment counts that disagree between the top of the form and the checklist. Count it once, count it right, before you leave the yard.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>On the office, not the crew:</b> crews were still asking for mask bags and stickers Monday, and one contractor still reports no FR coveralls issued. We owe you both.</div>",
+    "standardLabel": "Working at Height on Rig-Ups and Rig-Downs",
+    "standard": [
+      "<b>Plan the climb before you load the truck.</b> Sensor heads, windsocks, repeaters and alarms often go up high. Know where each one goes and how you'll reach it.",
+      "<b>Six feet or more, measured from where you'd land: 100% tied off</b> to an approved anchor. If you can't name the anchor, you don't have one.",
+      "<b>Inspect your harness and lanyard</b> before you put them on. Damaged gear comes out of service.",
+      "<b>Hands free on the stairs and ladders, three points of contact.</b> Tools and equipment go up in a bag or on a line, and they're tethered while you work.",
+      "<b>Nobody under you.</b> Tell the rig crew you're working overhead and keep the area below clear.",
+      "<b>Name your rescue before you go up.</b> Who gets you down, and how?"
+    ],
+    "scenarios": [
+      {
+        "title": "Hanging the Windsock",
+        "body": "Rig-up day, and the windsock goes on a bracket up the stairs. You're at the top, and the bracket is just out of reach past the handrail. One foot on the bottom rail and you'd have it. Stop there. Standing on the rail puts you above the guardrail, and you're working at height with nothing to catch you. Come down, get your harness, find a rated anchor or a better way to reach it, and send the sock up on a line. Ray, ask the circle: what's the reach on your last rig-up that you almost made without tying off?"
+      }
+    ],
+    "questions": [
+      "On your last rig-up, what did you install above six feet, and what did you tie off to?",
+      "If a tool slipped from where you were working overhead, who was standing below?",
+      "Jordan heard a bearing and brought the trailer back. What have you heard or felt at a hookup that you drove on anyway?",
+      "Who gets you down if you go over today? Name them."
+    ],
+    "nonNegotiable": "Above six feet you're tied off, your tools are tethered and the people below know you're up there. On every form, write what's wrong and who you told, and tick the stop when you use it."
   }
 }
