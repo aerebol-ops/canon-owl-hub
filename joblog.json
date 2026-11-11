@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10",
+ "generated": "2026-11-11",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
@@ -10,16 +10,6 @@
   "weekCrews": 0
  },
  "days": [
-  {
-   "date": "2026-10-06",
-   "forms": 24,
-   "jobs": 12,
-   "flags": 0,
-   "AGT": 12,
-   "Maintenance": 0,
-   "Well Testing": 0,
-   "Other": 0
-  },
   {
    "date": "2026-10-07",
    "forms": 26,
@@ -3234,138 +3224,6 @@
    "cm": "Baldo Sanchez",
    "note": "The crew did much better about putting there zone out",
    "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-06",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Weyman 26 1",
-   "crew": "Andrew Bailey / Justin Fontenot 1099",
-   "cm": "Tim Blackwell",
-   "note": "Safety meeting was held and all crew trucks set into place and set exclusio",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-06",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Walnut Barron 11C 3H",
-   "crew": "Pablo Soto / Joseph Popillion 1099",
-   "cm": "",
-   "note": "Gods team work and communication",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-06",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "TXL 27 UNIT 3 2771JH",
-   "crew": "Ralph Forbes / William \"Jimmy\" Cooper 1099",
-   "cm": "Baldo Sanchez",
-   "note": "Exclusion zone set up around wellhead to conduct work, wellhead disconnect,",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-06",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "TOM GLAVINE 31-32 01HB",
-   "crew": "",
-   "cm": "",
-   "note": "",
-   "psms": "",
-   "flag": false
-  },
-  {
-   "date": "2026-10-06",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "SHAQ B 38-14 4202H",
-   "crew": "Nathan Contreras / Gage Gonzales 1099",
-   "cm": "Jeff Jones",
-   "note": "WAME, Breaking containment, job steps preformed with line of fire hazard",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-06",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "PRESTON 9B 102H",
-   "crew": "Jeremy Norris / Cindy Smith 1099",
-   "cm": "Abe Espinoza",
-   "note": "A disconnection of the flowline, a 2\" valve and the stack from the wellhead",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-06",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "NAIL TILLMAN W1N 414H",
-   "crew": "Pablo Soto / Joseph Popillion 1099",
-   "cm": "Foreman_West Ops 11",
-   "note": "Team work and good communication",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-06",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "HAYDEN 14-23-A 2701H",
-   "crew": "Larry Jaramillo / Tyrell Sanders",
-   "cm": "Foreman_East Ops 1",
-   "note": "Verifying zero pressure behind valves, setting back-pressure valves (BPVs)",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-06",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "DAWKINS SALEH 40E 413H",
-   "crew": "Larry Jaramillo / Tyrell Sanders",
-   "cm": "Foreman_East Ops 3",
-   "note": "Hands-on gas testing and environmental verification were conducted prior to",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-06",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Comancheros 19-31 3113 3113AH",
-   "crew": "",
-   "cm": "",
-   "note": "",
-   "psms": "",
-   "flag": false
-  },
-  {
-   "date": "2026-10-06",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Brook N-13EK 211H",
-   "crew": "Andrew Bailey / Justin Fontenot 1099",
-   "cm": "",
-   "note": "Atmospheric testing completed and well reconnected",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-06",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "BENEDUM 3D 4H",
-   "crew": "",
-   "cm": "",
-   "note": "",
-   "psms": "",
    "flag": false
   }
  ]

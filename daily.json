@@ -171,25 +171,25 @@
   "leadershipThought": "Know your anchor point is rated for your fall distance before you step off the platform. A dropped tool at 20 feet hits hard. Tether it before you climb, not after.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-11-09",
-    "label": "Monday 11/09",
+    "date": "2026-11-10",
+    "label": "Tuesday 11/10",
     "verdict": "",
     "concerns": [
       {
-        "title": "Alfredo Vaquera 1099 — Diamondback, Black Pearl C 11-14 132 — 4:07 PM — supervision, ticket 102713",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
+        "title": "Luis Zarate — XTO, Texas ten 39-39H, 1:44 PM, job 36771_2 — 50 ppm H2S at the heater treater outlet. Sample #1 on the Texas ten 39-39H well testing form recorded 50 ppm; ",
+        "quote": "Sample #1: Heater Treater Outlet ... Sample #1 PPM: 50"
       },
       {
-        "title": "Stefanie Kirschke — trailer 507 — 5:53 AM — Midland, submitted at 1600 Rankin Hwy",
-        "quote": "field blank, so there is no recorded reason."
+        "title": "Pablo Soto — trailer 601, 1:46 PM, Unnamed Road, Midland TX — not in Canon Safety issued FR uniform. The Trailer Inspection Form records",
+        "quote": "No Are you wearing you Canon Safety issued FR uniform? I left my cover alls in my truck I forgot to take them down this morning before I left the shop"
       },
       {
-        "title": "Raymundo Solis — trailer 501 — 11:52 AM — West Odessa",
-        "quote": "No Are you wearing you Canon Safety issued FR uniform?"
+        "title": "Alfredo Vaquera — Diamondback, Black pearl, 3:54 PM, H2S daily — not in FR coveralls, reason \"None assigned\".",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls None assigned"
       },
       {
-        "title": "Jordan Lemmons — trailer 152 — 2:21 PM — Eunice, NM",
-        "quote": "Bring trailer back because of wheel bearing making noise I notified Ray"
+        "title": "Bryan Medlin — trailer 603, 5:10 AM, Andrews shop — broken weld on the cascade rack. Reported in Comments or Concerns for Management",
+        "quote": "We have a broken weld on the cascade rack"
       }
     ]
   },
@@ -200,51 +200,10 @@
   "fieldNews": [
     {
       "type": "good",
-      "week": 22,
-      "headline": "Jordan Lemmons — heard a wheel bearing, brought trailer 152 back and named who was told",
-      "detail": "\"Bring trailer back because of wheel bearing making noise. I notified Ray.\" The problem, the action and the name, all on the form.",
-      "psms": "Mobile Equipment",
-      "level": null
-    },
-    {
-      "type": "good",
-      "week": 22,
-      "headline": "Michael Jobe — no tag line on location, so the crew got one before the work",
-      "detail": "Calverley-McDaniels, Monday. Fix the setup first, then the job. That's a stop worth ticking as \"utilized.\"",
-      "psms": "Stop Work Authority",
-      "level": null
-    },
-    {
-      "type": "good",
-      "week": 22,
-      "headline": "Nathan Contreras — the only tech with nothing to fix on Tuesday",
-      "detail": "Two trailer 604 inspections and two air jobs: full close-outs, FR on, every photo from that day. Four clean days last week too.",
-      "psms": "OWL Program",
-      "level": null
-    },
-    {
-      "type": "good",
-      "week": 22,
-      "headline": "Humberto Marquez-Salazar — the heaviest clean trailer record Tuesday",
-      "detail": "Trailer 606: three inspections plus the readiness form, FR on every one, every photo from that day.",
-      "psms": "Respiratory Protection",
-      "level": null
-    },
-    {
-      "type": "good",
-      "week": 22,
-      "headline": "Brianda Sandoval — the only complete trailer set on Sunday",
-      "detail": "Trailer 603: two inspections and the readiness form, pressure and hydro date on every bottle, every photo from that day, and a real write-up of the rain and mud.",
-      "psms": "Respiratory Protection",
-      "level": null
-    },
-    {
-      "type": "good",
-      "week": 22,
-      "headline": "Tyrell Sanders and Kedrick McCarter — full OWL close-outs Monday",
-      "detail": "Fred B Houston #4 and Allar Callaway: real narratives and same-day photos, on Matt's clean list.",
-      "psms": "OWL Program",
-      "level": null
+      "headline": "Jeremy Norris / Tyrell Sanders — on the OWL board",
+      "detail": "Showing up in the paperwork every time — latest form: Operational Discipline, 2026-10-27. That consistency is the habit.",
+      "psms": "Operational Discipline",
+      "level": "habit"
     },
     {
       "type": "flag",
@@ -261,21 +220,21 @@
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 34,
-        "total": 37
+        "done": 86,
+        "total": 90
       },
       {
         "label": "Trailer Inspections",
-        "done": 10,
-        "total": 10
+        "done": 23,
+        "total": 23
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 7,
-        "total": 14
+        "done": 21,
+        "total": 28
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 11/09"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 11/10"
   },
   "specialFocus": {
     "week": 22,
