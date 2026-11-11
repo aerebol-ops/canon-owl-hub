@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "week": 22,
-  "day": 2,
+  "day": 3,
   "topicWeek": 11,
   "displayWeek": 13,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Working at Height",
     "marker": "Sun Nov 15 — 90-day confirmation + first Quarterly Lead Review"
   },
-  "openingMessage": "What can I do about it now? That's the only question that matters when something isn't right. The moment you stop blaming, you gain control. That's where leadership begins.",
+  "openingMessage": "Own your response. Own your equipment. Own your preparation. Own your outcome. Stay disciplined. Stay prepared. Protect each other. Let's go to work.",
   "openingAttribution": null,
-  "openingWhy": "Valve's weeping, the spotter didn't show, the wrong kill water got delivered — you can burn an hour on whose fault it is, or handle it and sort the story after. The leak doesn't pause for the argument. The hand asking 'what now' is running the job while everyone else runs the trial.",
+  "openingWhy": "This week our own trailer checks caught a low SABA, an empty one, and an SCBA out of hydro — before one hand staked his lungs on any of them. Ownership isn't a poster on the wall. It's a bottle that's full because somebody checked it.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Inspect your harness before you put it on. Not because you were told to — because you know what wear looks like at altitude and you own what happens next.",
+  "leadershipThought": "Know your anchor point is rated for your fall distance before you step off the platform. A dropped tool at 20 feet hits hard. Tether it before you climb, not after.",
   "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-11-09",
@@ -196,7 +196,7 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Did a good meeting due a new crew on site explaining everything that need t</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Reconnect completed with no issues observed</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Review the work sequence beforehand to identify potential delays and keep everyone clear on their responsibilities.</span><br><br><strong>Good communication and teamwork, proper review of the LMRA and job scope, a</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue maintaining clear communication and completing all safety checks before and during the job to ensure hazards are identified and controlled.</span><br><br><strong>Disconnect operations were completed without issues</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Build on today’s success by reviewing the job sequence with the crew before the next disconnect and identifying any opportunities to improve.</span><br><br><strong>Job scope was disconnect wellhead from production</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
+  "exxonMoments": "<strong>Before beginning cellar work using the davit arm, we conducted a safety mee</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue identifying potential hazards through LSRAs, verifying safe atmospheric conditions before and during cellar work, and maintaining clear communication among all crew members to ensure the job is completed safely and efficiently.</span><br><br><strong>A reconnect on well head, team was thoroughly talked through on all LSRA's</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Dermont Morgan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Both teams communicated well and left no stone unturned in looking for dangerous materials or situations prior and during work.</span><br><br><strong>Canceling due to hole in casing</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Crew didn't have a tag line or spotter told them they had to have one</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Had meeting crew worked safely did our reading everything went great.</span><br><br><strong>A disconnect on a old well</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake / Kedrick Mccarter 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>All jobs are held to the same standard and the highest standard.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -213,8 +213,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Check your attitude at the gate today. The crew reads it before you say a word — bring the version of you that makes the location better.",
-  "todaysChallengeSubtext": "“Ability is what you're capable of doing. Motivation determines what you do. Attitude determines how well you do it.” — Lou Holtz",
+  "todaysChallenge": "Finish today — all the way. The last form, the last photo, the location left better than you found it. Ninety percent done is not done.",
+  "todaysChallengeSubtext": "“Discipline helps you finish a job, and finishing is what separates excellence from mediocrity.” — Pat Summitt",
   "compliance": {
     "weekOf": "Week of November 9, 2026",
     "metrics": [
