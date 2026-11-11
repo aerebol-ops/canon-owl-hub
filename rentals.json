@@ -114,14 +114,14 @@
     {
       "rig": "H&P 264",
       "company": "OVINTIV",
-      "location": "FASKEN MD 9-U 111HC",
-      "status": "PENDING CODING",
+      "location": "UL CATHEDRAL 36",
+      "status": "RUNNING",
       "active": true,
       "equipment": "REDLINE",
-      "ticket": "101215B",
+      "ticket": "102890",
       "at": "",
       "onRentSince": "2025-10-31",
-      "currentStart": "2026-11-02",
+      "currentStart": "2026-11-11",
       "lastCheck": "2026-09-19",
       "daysSinceCheck": 53,
       "checkState": "overdue"
