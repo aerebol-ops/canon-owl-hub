@@ -169,34 +169,118 @@
     }
   ],
   "leadershipThought": "Rescue capability must be staged before you ascend — someone must be able to get you down. That plan exists before the first rung. Not after.",
-  "yesterdaysJobs": null,
-  "formReview": {
+  "yesterdaysJobs": {
     "date": "2026-11-10",
-    "label": "Tuesday 11/10",
+    "label": "Tuesday, November 10",
+    "count": 9,
+    "flags": 1,
+    "groups": [
+      {
+        "category": "AGT",
+        "jobs": [
+          {
+            "well": "RAY OXY W43R 18H",
+            "jobType": "Air Job",
+            "crew": "Jacob Hernandez / Caleb Smith",
+            "cm": "",
+            "note": "Crew and MT conducted their pre task briefing and listed their lsras",
+            "flag": false
+          },
+          {
+            "well": "ARICK SIMMS 26H 8H",
+            "jobType": "Air Job",
+            "crew": "Humberto Salazar / Gage Gonzales 1099",
+            "cm": "",
+            "note": "Crew had their correct PPE on , using the right tools for the job",
+            "flag": true
+          },
+          {
+            "well": "KEWANEE C #1",
+            "jobType": "Air Job",
+            "crew": "Jerry Gonzales / Kedrick Mccarter 1099",
+            "cm": "Foreman_East Ops 5",
+            "note": "Crew upgrade rubbers on well /tubing",
+            "flag": false
+          },
+          {
+            "well": "Robbie 17A-8 #4415H",
+            "jobType": "Air Job",
+            "crew": "Larry Jaramillo / Gael \"Antonio\" Avila 1099",
+            "cm": "",
+            "note": "Good communication helped out in preventing slips and falls in the wet and",
+            "flag": false
+          },
+          {
+            "well": "UNIVERSITY 6-45 #4",
+            "jobType": "Air Job",
+            "crew": "Bryan Medlin / Joseph Popillion 1099",
+            "cm": "Foreman_West Ops 3",
+            "note": "Great coomuniation between crew and mt",
+            "flag": false
+          },
+          {
+            "well": "Brook N-13H",
+            "jobType": "Air Job",
+            "crew": "",
+            "cm": "",
+            "note": "Had a little meeting masked up",
+            "flag": false
+          },
+          {
+            "well": "ROCKER B 1-102H",
+            "jobType": "Air Job",
+            "crew": "Ralph Forbes / William \"Jimmy\" Cooper 1099",
+            "cm": "Foreman_South Ops 3",
+            "note": "Health safety meeting discussed exclusion zone, and job scope",
+            "flag": false
+          },
+          {
+            "well": "UNIVERSITY 3-31 5H",
+            "jobType": "Air Job",
+            "crew": "Ruben Rojo / Dermont Morgan 1099",
+            "cm": "Bryan Hamilton",
+            "note": "PSMS rep was out on field and made sure we all went through and had all of",
+            "flag": false
+          },
+          {
+            "well": "BROOK N-13EN 214H",
+            "jobType": "Air Job",
+            "crew": "Humberto Salazar / Gage Gonzales 1099",
+            "cm": "",
+            "note": "WAME, Mechanical Lifting, Breaking Cont",
+            "flag": false
+          }
+        ]
+      }
+    ]
+  },
+  "formReview": {
+    "date": "2026-11-11",
+    "label": "Wednesday 11/11",
     "verdict": "",
     "concerns": [
       {
-        "title": "Luis Zarate — XTO, Texas ten 39-39H, 1:44 PM, job 36771_2 — 50 ppm H2S at the heater treater outlet. Sample #1 on the Texas ten 39-39H well testing form recorded 50 ppm; ",
-        "quote": "Sample #1: Heater Treater Outlet ... Sample #1 PPM: 50"
+        "title": "1099 Alfredo Vaquera — Diamondback, Black Pearl C 11-14 132, 11/11 07:44 AM, ticket 102713. Not in Canon Safety issued FR coveralls.",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
       },
       {
-        "title": "Pablo Soto — trailer 601, 1:46 PM, Unnamed Road, Midland TX — not in Canon Safety issued FR uniform. The Trailer Inspection Form records",
-        "quote": "No Are you wearing you Canon Safety issued FR uniform? I left my cover alls in my truck I forgot to take them down this morning before I left the shop"
+        "title": "1099 Benjamin Boutte — SM Energy, Miracle Max A 1743WA, 11/11 05:51 PM, nights shift, ticket 102887. A sensor flagged as needing replacement.",
+        "quote": "Censor by frac tank need to be swapped Comments or Concerns for Management"
       },
       {
-        "title": "Alfredo Vaquera — Diamondback, Black pearl, 3:54 PM, H2S daily — not in FR coveralls, reason \"None assigned\".",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls None assigned"
+        "title": "Luis Zarate — XTO Energy, Q4 quarterly well testing, Sale ranch 37-21H, 11/11, job 36771_3. H2S readings well above zero at the heater treater outlet.",
+        "quote": "Sample #6: Heater Treater Outlet / Sample #6 PPM: 500"
       },
       {
-        "title": "Bryan Medlin — trailer 603, 5:10 AM, Andrews shop — broken weld on the cascade rack. Reported in Comments or Concerns for Management",
-        "quote": "We have a broken weld on the cascade rack"
+        "title": "Jordan Lemmons — SM Energy, Junior Mint CTB, 11/11 03:27 PM, job 36836_2, ticket 102886. Gas detected during a vessel clean-out, work continued.",
+        "quote": "Cleaned out a vessel and tested got 4hs2 and 30lel so continued clean out and got ever done and cleaned between vessel 201 and 202 Dawson was on 201"
       }
     ]
   },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Job scope was reconnect wellhead to go back into production</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Proper procedures were used while skytrack was in use, spotter and tag line.</span><br><br><strong>Reconnect flowline to wellhead</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jimmy White / Gage Gonzales 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everything was done great today. PJSM held, hold points utilized and job competed safely.</span><br><br><strong>Job was completed according to job scope</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Caleb Smith / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Was a basic reconnect to a swd, invoked setting to pieces of flowline.</span><br><br><strong>Life saving rules - talked about standing up and crosswind when breaking co</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Make sure we show the JSA to whoever shows up to the location that wasn't part of our pre task meeting.</span><br><br><strong>No near misses , everyone was using the right tools for the job , we're awa</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jacob Hernandez / Humberto Salazar]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
+  "exxonMoments": "<strong>Working at heights / Crane operations</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Dermont Morgan 1099]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Staying out off the way of over head load and good communication.</span><br><br><strong>Crew upgrade rubbers on well/tubing</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jerry Gonzales / Kedrick Mccarter 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Communication during safety meetings, next time I'll bring up more hazards to be aware of.</span><br><br><strong>Health safety meeting discussed exclusion zone, and job scope</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Driving)</span><br><span style='font-size:13px;'>Informed how arriving to location and what to do before job starts by company man. Park off to the side . When crew is on location in discussion is head of where placement is going to be of all equipment and vehicles ground guides are to be used at all times no driving on site without them.</span><br><br><strong>Team completed repairs</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>On 11/10/2026, I technician Bryan Medlin was assigned to the University 6-4</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Bryan Medlin / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The well was killed the rubber was changed without any incident.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -233,6 +317,20 @@
       "detail": "Wednesday: pressure and hydro date on every charged bottle (\"07-25 4000\").",
       "psms": "Respiratory Protection",
       "level": null
+    },
+    {
+      "type": "good",
+      "headline": "Raymundo Solis / Pablo Soto — Unsafe conditions - slick line was on the well next to the one we were disc",
+      "detail": "Set up a bigger exclusion zone when there's SimOps.",
+      "psms": "Atmospheric Monitoring",
+      "level": "eagle"
+    },
+    {
+      "type": "good",
+      "headline": "Jacob Hernandez / Caleb Smith — Crew and MT conducted their pre task briefing and listed their lsras",
+      "detail": "Crew discussed who was the flagged and spotter for wame.",
+      "psms": "Operational Discipline",
+      "level": "duck"
     },
     {
       "type": "flag",

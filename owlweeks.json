@@ -37,11 +37,11 @@
         {
           "date": "Thu, Nov 12",
           "day": "Thursday",
-          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Rescue capability must be staged before you ascend — someone must be able to get you down. That plan exists before the first rung. Not after.&rdquo;</em><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Rescue capability must be staged before you ascend — someone must be able to get you down. That plan exists before the first rung. Not after.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Michael Jobe and Hayden Haugh</strong> — Trailer inspections, a full observation list, a complete Learn section and every photo from that day. Matt's review found nothing to flag on</li><li style='margin:3px 0;'><strong>Robert Henigan</strong> — Trailer 604 readiness form, Tuesday. The only one that answered the question instead of leaving it blank. Clear words tell the office someth</li><li style='margin:3px 0;'><strong>Allen White and Dennis Easley</strong> — Tuesday's and Wednesday's H2S dailies: \"6@2100psi\" and \"6@ 8/22.\" Short, exact, readable by anyone.</li><li style='margin:3px 0;'><strong>Trevor McKenzie</strong> — Wednesday: pressure and hydro date on every charged bottle (\"07-25 4000\").</li><li style='margin:3px 0;'><strong>Raymundo Solis / Pablo Soto</strong> — Set up a bigger exclusion zone when there's SimOps.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
           "flags": [
             "Clean board — no open watch items this week"
           ],
-          "recognition": ""
+          "recognition": "Michael Jobe and Hayden Haugh — nothing to fix all day Wednesday"
         }
       ]
     },
