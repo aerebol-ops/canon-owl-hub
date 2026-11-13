@@ -42,6 +42,15 @@
             "Clean board — no open watch items this week"
           ],
           "recognition": "Michael Jobe and Hayden Haugh — nothing to fix all day Wednesday"
+        },
+        {
+          "date": "Fri, Nov 13",
+          "day": "Friday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;This industry rewards preparation, effort, and ownership — not excuses. You help power homes, hospitals, schools, and communities. Take pride in the standard you represent.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Michael Jobe and Hayden Haugh</strong> — Trailer inspections, a full observation list, a complete Learn section and every photo from that day. Matt's review found nothing to flag on</li><li style='margin:3px 0;'><strong>Robert Henigan</strong> — Trailer 604 readiness form, Tuesday. The only one that answered the question instead of leaving it blank. Clear words tell the office someth</li><li style='margin:3px 0;'><strong>Allen White and Dennis Easley</strong> — Tuesday's and Wednesday's H2S dailies: \"6@2100psi\" and \"6@ 8/22.\" Short, exact, readable by anyone.</li><li style='margin:3px 0;'><strong>Trevor McKenzie</strong> — Wednesday: pressure and hydro date on every charged bottle (\"07-25 4000\").</li><li style='margin:3px 0;'><strong>Humberto Salazar / Dermont Morgan 1099</strong> — Everyone was on the same page and staying out of way of potential gas releases.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Clean board — no open watch items this week"
+          ],
+          "recognition": "Michael Jobe and Hayden Haugh — nothing to fix all day Wednesday"
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "week": 22,
-  "day": 4,
+  "day": 5,
   "topicWeek": 11,
   "displayWeek": 13,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Working at Height",
     "marker": "Sun Nov 15 — 90-day confirmation + first Quarterly Lead Review"
   },
-  "openingMessage": "We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.",
-  "openingAttribution": null,
-  "openingWhy": "Company men swap crew stories at every tank battery in the Basin. The crew that leaves the pad clean, calls in early, and doesn't argue gets requested by name. The one that doesn't gets replaced without a phone call. Both reputations get built one location at a time.",
+  "openingMessage": "If you don't have time to do it right, when will you have time to do it over?",
+  "openingAttribution": "John Wooden",
+  "openingWhy": "A rushed handover — 'she's bled down, you're good' — with one valve still holding pressure is how the night hand ends up wearing what the day hand skipped. The five minutes a real handover takes is the cheapest time in the oilfield.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Rescue capability must be staged before you ascend — someone must be able to get you down. That plan exists before the first rung. Not after.",
+  "leadershipThought": "This industry rewards preparation, effort, and ownership — not excuses. You help power homes, hospitals, schools, and communities. Take pride in the standard you represent.",
   "yesterdaysJobs": {
     "date": "2026-11-10",
     "label": "Tuesday, November 10",
@@ -280,7 +280,7 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Working at heights / Crane operations</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Dermont Morgan 1099]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Staying out off the way of over head load and good communication.</span><br><br><strong>Crew upgrade rubbers on well/tubing</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jerry Gonzales / Kedrick Mccarter 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Communication during safety meetings, next time I'll bring up more hazards to be aware of.</span><br><br><strong>Health safety meeting discussed exclusion zone, and job scope</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Driving)</span><br><span style='font-size:13px;'>Informed how arriving to location and what to do before job starts by company man. Park off to the side . When crew is on location in discussion is head of where placement is going to be of all equipment and vehicles ground guides are to be used at all times no driving on site without them.</span><br><br><strong>Team completed repairs</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>On 11/10/2026, I technician Bryan Medlin was assigned to the University 6-4</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Bryan Medlin / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>The well was killed the rubber was changed without any incident.</span>",
+  "exxonMoments": "<strong>Great coomuniation between crew and mt</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Bryan Medlin / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Make sure that all trucks are implace and understanding time hacks.</span><br><br><strong>Atmospheric Monitoring — Jerry Gonzales / Barthol \"Bj\" Caesar 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jerry Gonzales / Barthol \"Bj\" Caesar 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Crew didn't have there cones out had to stop for them to get them out in se</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Had meeting did our reading all was good crew worked in a safe manner.</span><br><br><strong>Reconnect went well with no issues</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>No gasses or dangerous materials on pre test as well as after break.</span><br><br><strong>The crane did not make it to location because it was down for maintenance,</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Next time, we’ll discuss during the safety meeting which tasks can move forward if the crane is delayed.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -320,16 +320,16 @@
     },
     {
       "type": "good",
-      "headline": "Humberto Salazar / Gage Gonzales 1099 — WAME, Safe mechanical lifting",
-      "detail": "Job completed without unplanned stops.",
+      "headline": "Humberto Salazar / Dermont Morgan 1099 — Good communication when opening the man way",
+      "detail": "Everyone was on the same page and staying out of way of potential gas releases.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Jerry Gonzales / Kedrick Mccarter 1099 — Crew upgrade rubbers on well /tubing",
-      "detail": "Crews effort to get job done.",
-      "psms": "Operational Discipline",
+      "headline": "Humberto Salazar / Joseph Popillion 1099 — Job planned , everyone wearing their ppe , using the right tools for the jo",
+      "detail": "Everyone worked as a team to complete task safely , use a spotter all the time when operating forklift and he had his vest on all the time and use hand signals to comuníc",
+      "psms": "Mobile Equipment",
       "level": null
     },
     {
@@ -340,8 +340,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Something will not go to plan today. Decide now what your response looks like: calm, by the numbers, communicated early. Control the controllables.",
-  "todaysChallengeSubtext": "“You can't always control circumstances. However, you can always control your attitude, approach, and response.” — Tony Dungy",
+  "todaysChallenge": "If the reading looks off, test again. If the form's wrong, redo it. 'Close enough' isn't a Canon phrase — stay on it until it's right.",
+  "todaysChallengeSubtext": "“Champions keep playing until they get it right.” — Billie Jean King",
   "compliance": {
     "weekOf": "Week of November 9, 2026",
     "metrics": [
@@ -362,32 +362,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 11/10"
-  },
-  "specialFocus": {
-    "week": 22,
-    "until": "2026-11-12",
-    "title": "Full Board Thursday: Say It Once, Say It Right",
-    "why": "<p style='margin:0 0 8px;'><b>Ray, it's a full board.</b> More than twenty jobs, crews running three and four jobs back to back, three Davit Arm jobs below grade, and one well the board marks <b>HIGH H2S</b>. Keep it under ten minutes and say each point once.</p><p style='margin:0 0 10px;padding:8px 10px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;'><b>Start with the intent:</b> everyone goes home tonight, and our forms tell the truth about the day. When we point out a miss, it's to protect the crew, not to catch anybody. Wins get named out loud. Misses belong to all of us, and anything about one person's form gets handled one-on-one, not in the circle.</p><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; SAY THESE NAMES</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Michael Jobe and Hayden Haugh</b>, Wednesday: the only two with nothing to fix all day. Trailer inspections, a full observation list, a complete Learn section, every photo from that day.</li><li style='margin:0 0 4px;'><b>Robert Henigan</b>, trailer 604 (Tue): the only readiness form that answered \"anything wrong or missing?\" with a plain \"No.\" Every other form left it blank. A clear answer tells the office something. A blank tells us nothing.</li><li style='margin:0 0 4px;'><b>Allen White and Dennis Easley</b>, H2S dailies (Tue and Wed): two days running, every bottle written so anyone can read it: \"6@2100psi\" and \"6@ 8/22.\" Exact, short, done.</li><li style='margin:0 0 4px;'><b>Trevor McKenzie</b>, trailer 603 (Wed): a complete readiness form, pressure and hydro date on every charged bottle: \"07-25 4000.\"</li></ul><div style='font-size:11.5px;color:#5b6670;margin-top:4px;'>From Matt Croom's reviews of Tuesday's and Wednesday's forms.</div></div><div style='flex:1 1 280px;border:1px solid #b9c8da;border-top:5px solid #1f3a5f;border-radius:8px;padding:10px 12px;background:#f5f8fc;'><div style='font-weight:800;color:#1f3a5f;margin-bottom:6px;'>&#9998; SAY IT RIGHT TODAY: three things</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>On the form, tick what's true.</b> <i>Utilized</i> means you stopped the work. <i>Discussed</i> means you talked about it. \"Unsafe conditions\" needs one sentence saying what the condition was. Yesterday, four forms ticked it with nothing unsafe written. The office reads those boxes to see where the risk is, so the box has to match the day.</li><li style='margin:0 0 4px;'><b>Name the problem and the person.</b> \"Low-pressure alarm didn't sound on the cascade, told Ray at 6:15.\" One line like that gets a trailer fixed. A problem with nobody named can sit for days.</li><li style='margin:0 0 4px;'><b>Say it back.</b> Before the first break on every well, repeat the plan to the company man and your partner: which valve, air on, who's upwind, who calls the break. If they say \"you're good,\" ask \"good to do what?\"</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>Ten minutes:</b> intent (1) &middot; names (2) &middot; say it right (3) &middot; rescue standard (3) &middot; send-off (1).</div>",
-    "standardLabel": "Working at Height and Below Grade: Rescue Is Set Before You Start",
-    "standard": [
-      "<b>Name your rescue before you climb or go below grade:</b> who gets you out, with what, and how long it takes.",
-      "<b>Davit Arm jobs today</b> (Sally E26E 105H, Sally E26A 101H, Crawford 27F 106H): the davit arm and retrieval line are set up and checked before anyone goes in.",
-      "<b>Six feet or more, measured from where you'd land: 100% tied off.</b> One hook is always in before the other comes off.",
-      "<b>HIGH H2S on XBC Giddings Estate 1301H:</b> air on, monitors on and the break plan agreed with the company man before the first line is opened.",
-      "<b>Every well gets its own briefing and its own form.</b> The fourth well of the day is a new location, not a copy of the first. Yesterday the same \"what went well\" list showed up on more than a dozen forms.",
-      "<b>When the plan changes, say the new plan back</b> before anyone moves."
-    ],
-    "scenarios": [
-      {
-        "title": "The Fourth Well",
-        "body": "It's two in the afternoon on your fourth well of the day: same crew, same company man, same job. The company man waves and says \"You're good.\" Good to do what? The wind has turned since the morning, and the form from the first well is right there to copy. Stop and say it back: \"Confirming: we break the flange on this well, air on, crew upwind, I call the break.\" Then fill out a fresh form for this well. Ray, ask the circle: what changed between your first well and your last one yesterday?"
-      }
-    ],
-    "questions": [
-      "What will you say back to the company man before your first break today?",
-      "If you go down at a Davit Arm job, who gets you out, and how long does it take?",
-      "On your last well today, what will be different from your first?"
-    ],
-    "nonNegotiable": "Say it back, write it true, and name your rescue before you start. Every well gets its own briefing and its own form."
   }
 }
