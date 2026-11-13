@@ -1,25 +1,15 @@
 {
- "generated": "2026-11-12",
+ "generated": "2026-11-13",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
-  "weekJobs": 66,
-  "weekForms": 129,
-  "weekFlagRate": 11,
-  "weekWells": 63,
-  "weekCrews": 23
+  "weekJobs": 54,
+  "weekForms": 105,
+  "weekFlagRate": 13,
+  "weekWells": 52,
+  "weekCrews": 20
  },
  "days": [
-  {
-   "date": "2026-10-08",
-   "forms": 27,
-   "jobs": 13,
-   "flags": 1,
-   "AGT": 13,
-   "Maintenance": 0,
-   "Well Testing": 0,
-   "Other": 0
-  },
   {
    "date": "2026-10-09",
    "forms": 31,
@@ -4576,149 +4566,6 @@
    "cm": "",
    "note": "Safety was held crew went over everything and set exclusion zones into plac",
    "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-08",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "YORK LAW 139G 107H",
-   "crew": "Hayden Haugh 1099 / Tyrell Sanders",
-   "cm": "Foreman_West Ops 3",
-   "note": "Verifying zero trapped annular pressure",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-08",
-   "category": "AGT",
-   "jobType": "Ari Job",
-   "well": "Weyman 26 12",
-   "crew": "",
-   "cm": "",
-   "note": "",
-   "psms": "",
-   "flag": false
-  },
-  {
-   "date": "2026-10-08",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "WOODFIN-DOLLIE E16C 103H",
-   "crew": "Dawson Drake / Humberto Salazar",
-   "cm": "Jeff Jones",
-   "note": "Everyone was having good verbal communication and working safely to complet",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-08",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "WEYMAN 26 5",
-   "crew": "Nathan Contreras / Rolando Flores 1099",
-   "cm": "Tim Blackwell",
-   "note": "During work on the OFP, elevated HS levels were identified in the work area",
-   "psms": "Atmospheric Monitoring",
-   "flag": true
-  },
-  {
-   "date": "2026-10-08",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "University 2-20 58H",
-   "crew": "Alexander Clubb / Trevor Mckenzie 1099",
-   "cm": "",
-   "note": "Job scope was reconnect pump jack to go back into production",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-08",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "TXL 27 UNIT 4 3479JH",
-   "crew": "",
-   "cm": "",
-   "note": "",
-   "psms": "",
-   "flag": false
-  },
-  {
-   "date": "2026-10-08",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "SALLY W26N 14H",
-   "crew": "Andrew Bailey / Justin Fontenot 1099",
-   "cm": "Foreman_West Ops 4",
-   "note": "Safety meeting was held and all exclusion zones were set into place",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-08",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "ROCKER B 1D HW SWD",
-   "crew": "Jeremy Norris / Gael \"Antonio\" Avila 1099",
-   "cm": "Foreman_South Ops 3",
-   "note": "job canceled, wrong pad sent and no safety crew needed",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-08",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "NUNN 14 1 SWD",
-   "crew": "Raymundo Solis / Robbie Henigan 1099",
-   "cm": "Foreman_South Ops 1",
-   "note": "An exclusion zone was set up before any movement of forklift and work being",
-   "psms": "Mobile Equipment",
-   "flag": false
-  },
-  {
-   "date": "2026-10-08",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "MORGAN-CARLETON 24B 102H",
-   "crew": "Larry Jaramillo / Alfredo Vaquera 1099",
-   "cm": "Jeff Jones",
-   "note": "Life saving rules were applied throughout the whole operation",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-08",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "MARY 18 1HB",
-   "crew": "",
-   "cm": "",
-   "note": "",
-   "psms": "",
-   "flag": false
-  },
-  {
-   "date": "2026-10-08",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "HOGAN 1-24-F 2411H",
-   "crew": "",
-   "cm": "",
-   "note": "",
-   "psms": "",
-   "flag": false
-  },
-  {
-   "date": "2026-10-08",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "DOVE SCHARBAUER W9F 6H",
-   "crew": "Hayden Haugh 1099 / Tyrell Sanders",
-   "cm": "Foreman_West Ops 1",
-   "note": "Disconnection of the 6H and 7H for the workover",
-   "psms": "Atmospheric Monitoring",
    "flag": false
   }
  ]

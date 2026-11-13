@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12",
+ "generated": "2026-11-13",
  "months": [
   {
    "month": "2026-10",
@@ -21,14 +21,14 @@
      },
      {
       "who": "Pablo Soto",
-      "jobs": 18,
-      "complete": 17,
+      "jobs": 17,
+      "complete": 16,
       "pct": 94
      },
      {
       "who": "Larry Jaramillo",
-      "jobs": 17,
-      "complete": 16,
+      "jobs": 16,
+      "complete": 15,
       "pct": 94
      }
     ]
