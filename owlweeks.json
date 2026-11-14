@@ -1,6 +1,24 @@
 {
   "weeks": [
     {
+      "week": 23,
+      "owl": "Auto-logged",
+      "theme": "Operational Discipline",
+      "psms": "Operational Discipline",
+      "dateRange": "Nov 16&ndash;Nov 20, 2026",
+      "meetings": [
+        {
+          "date": "Mon, Nov 16",
+          "day": "Week 23 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Bryan Medlin / Barthol \"Bj\" Caesar 1099</strong> — Reconnecting the flow line to the well went well.</li><li style='margin:3px 0;'><strong>Jerry Gonzales / Joseph Popillion 1099</strong> — Crews urgency was great .</li><li style='margin:3px 0;'><strong>Ruben Rojo / Gage Gonzales 1099</strong> — No dangerous materials or gas on break.</li><li style='margin:3px 0;'><strong>Ruben Rojo / Dermont Morgan 1099</strong> — Nothing to improve on.</li><li style='margin:3px 0;'><strong>Michael Jobe / Robbie Henigan 1099</strong> — Have a better meeting.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Clean board — no open watch items this week"
+          ],
+          "recognition": "Bryan Medlin / Barthol \"Bj\" Caesar 1099 — Reconnecting the flow line to the well went well"
+        }
+      ]
+    },
+    {
       "week": 22,
       "owl": "Auto-logged",
       "theme": "Standards",

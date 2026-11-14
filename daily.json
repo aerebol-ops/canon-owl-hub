@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-13",
-  "week": 22,
-  "day": 5,
-  "topicWeek": 11,
-  "displayWeek": 13,
+  "date": "2026-11-16",
+  "week": 23,
+  "day": 1,
+  "topicWeek": 13,
+  "displayWeek": 14,
   "cycle": 2,
   "rotation": {
-    "week": 13,
-    "host": "RAY",
-    "topic": "Working at Height",
-    "marker": "Sun Nov 15 — 90-day confirmation + first Quarterly Lead Review"
+    "week": 14,
+    "host": "JACOB",
+    "topic": "Operational Discipline",
+    "marker": ""
   },
-  "openingMessage": "If you don't have time to do it right, when will you have time to do it over?",
+  "openingMessage": "Be quick, but don't hurry.",
   "openingAttribution": "John Wooden",
-  "openingWhy": "A rushed handover — 'she's bled down, you're good' — with one valve still holding pressure is how the night hand ends up wearing what the day hand skipped. The five minutes a real handover takes is the cheapest time in the oilfield.",
+  "openingWhy": "Quick is a crew that's run the job a hundred times and moves clean. Hurry is skipping the re-test because the workover rig is standing by and the company man is pacing. Quick gets you home early. Hurry gets you an incident review.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,184 +168,59 @@
       "count": 1
     }
   ],
-  "leadershipThought": "This industry rewards preparation, effort, and ownership — not excuses. You help power homes, hospitals, schools, and communities. Take pride in the standard you represent.",
-  "yesterdaysJobs": {
-    "date": "2026-11-10",
-    "label": "Tuesday, November 10",
-    "count": 9,
-    "flags": 1,
-    "groups": [
-      {
-        "category": "AGT",
-        "jobs": [
-          {
-            "well": "RAY OXY W43R 18H",
-            "jobType": "Air Job",
-            "crew": "Jacob Hernandez / Caleb Smith",
-            "cm": "",
-            "note": "Crew and MT conducted their pre task briefing and listed their lsras",
-            "flag": false
-          },
-          {
-            "well": "ARICK SIMMS 26H 8H",
-            "jobType": "Air Job",
-            "crew": "Humberto Salazar / Gage Gonzales 1099",
-            "cm": "",
-            "note": "Crew had their correct PPE on , using the right tools for the job",
-            "flag": true
-          },
-          {
-            "well": "KEWANEE C #1",
-            "jobType": "Air Job",
-            "crew": "Jerry Gonzales / Kedrick Mccarter 1099",
-            "cm": "Foreman_East Ops 5",
-            "note": "Crew upgrade rubbers on well /tubing",
-            "flag": false
-          },
-          {
-            "well": "Robbie 17A-8 #4415H",
-            "jobType": "Air Job",
-            "crew": "Larry Jaramillo / Gael \"Antonio\" Avila 1099",
-            "cm": "",
-            "note": "Good communication helped out in preventing slips and falls in the wet and",
-            "flag": false
-          },
-          {
-            "well": "UNIVERSITY 6-45 #4",
-            "jobType": "Air Job",
-            "crew": "Bryan Medlin / Joseph Popillion 1099",
-            "cm": "Foreman_West Ops 3",
-            "note": "Great coomuniation between crew and mt",
-            "flag": false
-          },
-          {
-            "well": "Brook N-13H",
-            "jobType": "Air Job",
-            "crew": "",
-            "cm": "",
-            "note": "Had a little meeting masked up",
-            "flag": false
-          },
-          {
-            "well": "ROCKER B 1-102H",
-            "jobType": "Air Job",
-            "crew": "Ralph Forbes / William \"Jimmy\" Cooper 1099",
-            "cm": "Foreman_South Ops 3",
-            "note": "Health safety meeting discussed exclusion zone, and job scope",
-            "flag": false
-          },
-          {
-            "well": "UNIVERSITY 3-31 5H",
-            "jobType": "Air Job",
-            "crew": "Ruben Rojo / Dermont Morgan 1099",
-            "cm": "Bryan Hamilton",
-            "note": "PSMS rep was out on field and made sure we all went through and had all of",
-            "flag": false
-          },
-          {
-            "well": "BROOK N-13EN 214H",
-            "jobType": "Air Job",
-            "crew": "Humberto Salazar / Gage Gonzales 1099",
-            "cm": "",
-            "note": "WAME, Mechanical Lifting, Breaking Cont",
-            "flag": false
-          }
-        ]
-      }
-    ]
-  },
-  "formReview": {
-    "date": "2026-11-11",
-    "label": "Wednesday 11/11",
-    "verdict": "",
-    "concerns": [
-      {
-        "title": "1099 Alfredo Vaquera — Diamondback, Black Pearl C 11-14 132, 11/11 07:44 AM, ticket 102713. Not in Canon Safety issued FR coveralls.",
-        "quote": "No Are you wearing your Canon Safety issued FR coveralls"
-      },
-      {
-        "title": "1099 Benjamin Boutte — SM Energy, Miracle Max A 1743WA, 11/11 05:51 PM, nights shift, ticket 102887. A sensor flagged as needing replacement.",
-        "quote": "Censor by frac tank need to be swapped Comments or Concerns for Management"
-      },
-      {
-        "title": "Luis Zarate — XTO Energy, Q4 quarterly well testing, Sale ranch 37-21H, 11/11, job 36771_3. H2S readings well above zero at the heater treater outlet.",
-        "quote": "Sample #6: Heater Treater Outlet / Sample #6 PPM: 500"
-      },
-      {
-        "title": "Jordan Lemmons — SM Energy, Junior Mint CTB, 11/11 03:27 PM, job 36836_2, ticket 102886. Gas detected during a vessel clean-out, work continued.",
-        "quote": "Cleaned out a vessel and tested got 4hs2 and 30lel so continued clean out and got ever done and cleaned between vessel 201 and 202 Dawson was on 201"
-      }
-    ]
-  },
+  "leadershipThought": "We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.",
+  "yesterdaysJobs": null,
+  "formReview": null,
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Great coomuniation between crew and mt</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Bryan Medlin / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Make sure that all trucks are implace and understanding time hacks.</span><br><br><strong>Atmospheric Monitoring — Jerry Gonzales / Barthol \"Bj\" Caesar 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jerry Gonzales / Barthol \"Bj\" Caesar 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Crew didn't have there cones out had to stop for them to get them out in se</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Had meeting did our reading all was good crew worked in a safe manner.</span><br><br><strong>Reconnect went well with no issues</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Joseph Popillion 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>No gasses or dangerous materials on pre test as well as after break.</span><br><br><strong>The crane did not make it to location because it was down for maintenance,</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Mobile Equipment)</span><br><span style='font-size:13px;'>Next time, we’ll discuss during the safety meeting which tasks can move forward if the crane is delayed.</span>",
+  "exxonMoments": "<strong>all went well, just a slight set back, due to, hail</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>On 11-06-2026, I Bryan Medlin was assigned to the Arick SIMMs 26H 8H</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Bryan Medlin / Gage Gonzales 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Everyone stayed out the way when killing the well</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Killed the well crew worked in a safe manner did our readings.</span><br><br><strong>Good communication when opening the man way</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Humberto Salazar / Dermont Morgan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone was on the same page and staying out of way of potential gas releases.</span><br><br><strong>Adherence to safety rules</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
   "fieldNews": [
     {
       "type": "good",
-      "week": 22,
-      "curated": true,
-      "headline": "Nathan Contreras — the only tech with nothing to fix Tuesday, clean Monday too",
-      "detail": "Two trailer inspections and two wells Tuesday, every photo taken that day. Top of the board for the week.",
-      "psms": "OWL Program",
+      "headline": "Bryan Medlin / Barthol \"Bj\" Caesar 1099 — Reconnecting the flow line to the well went well",
+      "detail": "Reconnecting the flow line to the well went well.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "week": 22,
-      "curated": true,
-      "headline": "Michael Jobe — clean Monday and Wednesday, and wrote down the correction made on location",
-      "detail": "Monday's form was the only one that recorded a real field correction: the crew had no tag line, and Jobe had them get one.",
-      "psms": "OWL Program",
+      "headline": "Jerry Gonzales / Joseph Popillion 1099 — Crew disconnect flow line and injection line",
+      "detail": "Crews urgency was great .",
+      "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "week": 22,
-      "curated": true,
-      "headline": "Humberto Marquez-Salazar — trailer 606 fully covered two days running",
-      "detail": "Three inspections plus the readiness form on Tuesday and again Wednesday, every photo taken that day.",
-      "psms": "Respiratory Protection",
+      "headline": "Ruben Rojo / Gage Gonzales 1099 — Packing replacement on wellhead",
+      "detail": "No dangerous materials or gas on break.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "week": 22,
-      "curated": true,
-      "headline": "Jerry Gonzales — complete two days in a row",
-      "detail": "Both trailer inspections and a full close-out Tuesday, then a readiness form Wednesday with pressure and hydro date on every charged bottle.",
-      "psms": "Respiratory Protection",
+      "headline": "Ruben Rojo / Dermont Morgan 1099 — PSMS rep was out on field and made sure we all went through and had all of",
+      "detail": "Nothing to improve on.",
+      "psms": "Mobile Equipment",
       "level": null
     },
     {
       "type": "good",
-      "week": 22,
-      "curated": true,
-      "headline": "Tyrell Sanders, Kedrick McCarter and Hayden Haugh — nothing to fix on their wells",
-      "detail": "Sanders and McCarter on Monday, Haugh on Wednesday: full close-outs and every photo on the day.",
-      "psms": "OWL Program",
-      "level": null
-    },
-    {
-      "type": "good",
-      "week": 22,
-      "curated": true,
-      "headline": "Dennis Easley and Allen White — every bottle written out, two days running",
-      "detail": "Tuesday's and Wednesday's H2S dailies carried pressure and hydro date on every bottle.",
-      "psms": "Respiratory Protection",
+      "headline": "Michael Jobe / Robbie Henigan 1099 — Crew didn't have a tag had to tell them to get a tag line",
+      "detail": "Have a better meeting.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "flag",
-      "week": 22,
+      "week": 23,
       "headline": "Clean board — no open watch items this week",
       "detail": "Nothing carried in from last week. See a hazard? Flag it on your OWL form and it lands here the same evening.",
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "If the reading looks off, test again. If the form's wrong, redo it. 'Close enough' isn't a Canon phrase — stay on it until it's right.",
-  "todaysChallengeSubtext": "“Champions keep playing until they get it right.” — Billie Jean King",
+  "todaysChallenge": "One percent better today: one cleaner form, one earlier callout, one sharper LMRA. Stack enough days like that and it stops being effort — it's just who we are.",
+  "todaysChallengeSubtext": "“Excellence is the gradual result of always striving to do better.” — Pat Riley",
   "compliance": {
     "weekOf": "Week of November 9, 2026",
     "metrics": [
@@ -366,33 +241,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Wed 11/11"
-  },
-  "specialFocus": {
-    "week": 22,
-    "until": "2026-11-13",
-    "title": "Focus Friday: This Week's Top Performers, and What They All Do the Same Way",
-    "why": "<p style='margin:0 0 8px;'><b>Ray, close your week with the names.</b> It's been a strong one, and today the focus is the people who made it that way. Read every name out loud, say what it was for, and give the circle a second to react before you move on. Ten minutes.</p><p style='margin:0 0 10px;padding:8px 10px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;'><b>Start with the intent:</b> nobody on this list did anything special. They did the ordinary things all the way through, on every form, on every well. That's the whole point. If your name isn't up here, the list below shows exactly what gets it there next week.</p><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #e6cf9a;border-top:5px solid #b8860b;border-radius:8px;padding:10px 12px;background:#fffaf0;'><div style='font-weight:800;color:#b8860b;margin-bottom:6px;'>&#9733; TOP OF THE BOARD: clean on two different days</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Nathan Contreras</b>, Monday and Tuesday: clean both days, and on Tuesday the only tech in the company with nothing at all to fix. Two trailer inspections, two wells, every photo taken that day.</li><li style='margin:0 0 4px;'><b>Michael Jobe</b>, Monday and Wednesday: clean both days, and Monday's form was the only one that wrote down a real correction: the crew had no tag line, and Jobe had them get one.</li><li style='margin:0 0 4px;'><b>Humberto Marquez-Salazar</b>, Tuesday and Wednesday: trailer 606 fully covered two days running. Three inspections plus the readiness form each day, every photo taken that day.</li><li style='margin:0 0 4px;'><b>Jerry Gonzales</b>, Tuesday and Wednesday: both trailer inspections and a complete close-out Tuesday, then a readiness form Wednesday with pressure and hydro date on every charged bottle.</li><li style='margin:0 0 4px;'><b>Dennis Easley and Allen White</b>, Tuesday and Wednesday: H2S dailies with every bottle written out, pressure and hydro date, two days in a row.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; ALSO EARNED IT THIS WEEK</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Tyrell Sanders and Kedrick McCarter</b>, Monday: nothing to fix on their wells. Full close-outs, every photo on the day.</li><li style='margin:0 0 4px;'><b>Hayden Haugh</b>, Wednesday: two trailer inspections and the well, complete from top to bottom.</li><li style='margin:0 0 4px;'><b>Jacob Hernandez</b>, Tuesday: two inspections, the readiness form and a full Learn section on the well.</li><li style='margin:0 0 4px;'><b>Trevor McKenzie, Alexander Clubb, Bryan Medlin and Jimmy Cooper</b>, Wednesday: readiness forms with pressure and hydro date on every charged bottle.</li><li style='margin:0 0 4px;'><b>Robert Henigan</b>, Tuesday: answered \"anything wrong or missing?\" with a plain \"No\" when every other form left it blank.</li></ul></div></div><div style='font-size:11.5px;color:#5b6670;margin-top:6px;'>From Matt Croom's nightly reviews of Monday, Tuesday and Wednesday forms. Thursday's review wasn't in when this was written.</div><div style='margin-top:10px;border:1px solid #b9c8da;border-top:5px solid #1f3a5f;border-radius:8px;padding:10px 12px;background:#f5f8fc;'><div style='font-weight:800;color:#1f3a5f;margin-bottom:6px;'>THE WEEK IN NUMBERS</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>64 jobs</b> on the Exxon board Monday through Thursday. Thursday alone was 21, with three below-grade Davit Arm jobs. Today's board has 17 more.</li><li style='margin:0 0 4px;'><b>Uniform:</b> techs answering \"No\" to Canon FR coveralls went from 3 on Monday to 2 on Tuesday to 1 on Wednesday.</li><li style='margin:0 0 4px;'><b>Trailer inspections:</b> 23 of 23 filed Monday and Tuesday.</li><li style='margin:0 0 4px;'><b>The clean list grew every day.</b> Wednesday's was the longest of the week: ten names.</li></ul></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>Ten minutes:</b> intent (1) &middot; top of the board (3) &middot; also earned it (2) &middot; what they do the same way (3) &middot; send-off (1).</div>",
-    "standardLabel": "What the Top Performers Do the Same Way",
-    "standard": [
-      "<b>Today's photos, taken today.</b> Every clean form this week had every photo dated the day of the job. An old photo proves nothing about today.",
-      "<b>Every charged bottle gets two things:</b> the pressure and the hydro date. A date with no pressure is half an entry.",
-      "<b>Every trailer, every day:</b> both inspections and the readiness form. It doesn't matter which tech on the trailer files which one, as long as all three are in.",
-      "<b>Finish the Learn section in your own words.</b> One sentence about this well beats a list copied from the last one.",
-      "<b>Answer every question.</b> \"No\" is an answer. A blank isn't.",
-      "<b>Write down the correction you made.</b> \"Crew had no tag line, had them get one\" is one line, and it's the best line on a form all week.",
-      "<b>Still Working at Height week:</b> six feet or more, 100% tied off, and your rescue is named before you climb."
-    ],
-    "scenarios": [
-      {
-        "title": "Your Name on Monday's List",
-        "body": "It's Friday afternoon, last well of the week, and the crew wants to roll. The close-out is open on your phone. The photos from this morning's trailer inspection are still in your camera roll, the Learn section is blank, and the readiness form asks if anything is wrong or missing. This is the exact minute that decided every name read out today. Take today's photos, write one true sentence about this well, answer the question, and send it before you leave location. Ray, ask the circle: what's the one box you're most likely to skip at the end of a Friday?"
-      }
-    ],
-    "questions": [
-      "Which one of these habits is already yours, and which one do you start today?",
-      "Who on your crew did something this week that belongs on this list? Say the name and what it was.",
-      "What has to be on your forms today for your name to be read out Monday?"
-    ],
-    "nonNegotiable": "Finish the week the way the top of the board ran it: today's photos, every bottle written out, every question answered, all three trailer forms in before you leave location."
   }
 }
