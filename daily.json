@@ -170,7 +170,29 @@
   ],
   "leadershipThought": "We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.",
   "yesterdaysJobs": null,
-  "formReview": null,
+  "formReview": {
+    "date": "2026-11-14",
+    "label": "Saturday 11/14",
+    "verdict": "",
+    "concerns": [
+      {
+        "title": "Pablo Soto — Trailer Inspection Forms, 07:24 AM (CSRHI Andrews Shop) and 12:52 PM (Unnamed Road, Jal, NM), trailer 139. Both forms record that he was not in Canon Safety ",
+        "quote": "No Are you wearing you Canon Safety issued FR uniform? I have FRS I was going to work at shop but they send on a jod If not, why?"
+      },
+      {
+        "title": "1099 Gage Gonzales — H2S Safety Supervision Daily Inspection Form, Diamondback, ST W 603, 05:47 PM. Recorded as not in Canon Safety issued FR coveralls, with a reason giv",
+        "quote": "No Are you wearing your Canon Safety issued FR coveralls Only pair getting repaired If not, why?"
+      },
+      {
+        "title": "1099 Trevor McKenzie — H2S Safety Supervision Daily Inspection Form, Ovintiv, H&P 379 (Buzz Hurt 36), 03:51 PM. Insufficient mask bags recorded on location.",
+        "quote": "No Do you have sufficient mask bags?"
+      },
+      {
+        "title": "ALLEN WHITE — H2S equipment rig down, TGNR, H&P 541, J14E Hull Pad, job 36946, ended 11/14 09:08 AM. The rig down checklist records an equipment issue needing attention, ",
+        "quote": "Equipment Issues Need Attention: Yes"
+      }
+    ]
+  },
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
@@ -178,36 +200,36 @@
   "fieldNews": [
     {
       "type": "good",
-      "headline": "Bryan Medlin / Barthol \"Bj\" Caesar 1099 — Reconnecting the flow line to the well went well",
-      "detail": "Reconnecting the flow line to the well went well.",
-      "psms": "Operational Discipline",
-      "level": null
-    },
-    {
-      "type": "good",
-      "headline": "Jerry Gonzales / Joseph Popillion 1099 — Crew disconnect flow line and injection line",
-      "detail": "Crews urgency was great .",
+      "headline": "Nathan Contreras / Tyrell Sanders — Verify conditions, brief all personnel, and leave the location better than you f",
+      "detail": "OWL form — Atmospheric Monitoring",
       "psms": "Atmospheric Monitoring",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Ruben Rojo / Gage Gonzales 1099 — Packing replacement on wellhead",
-      "detail": "No dangerous materials or gas on break.",
+      "headline": "Ruben Rojo / Baldemar Bracomontes 1099 — Rod hanger/frack protector being installed and old parts being replaced",
+      "detail": "Bring more water in ice chest.",
+      "psms": "Operational Discipline",
+      "level": "duck"
+    },
+    {
+      "type": "good",
+      "headline": "Stefanie Kirschke / Rolando Flores 1099 — Crew coordinated the reconnect while remaining aware of pinch points, line-",
+      "detail": "Confirm equipment placement and crew positioning before starting to minimize unnecessary movement.",
       "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Ruben Rojo / Dermont Morgan 1099 — PSMS rep was out on field and made sure we all went through and had all of",
-      "detail": "Nothing to improve on.",
-      "psms": "Mobile Equipment",
+      "headline": "Luis Zarate / Jerry Gonzales — Crew killed the well then they laid down polish rod and hanged rods",
+      "detail": "Continue to grow communication with crew and MT.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
       "type": "good",
-      "headline": "Michael Jobe / Robbie Henigan 1099 — Crew didn't have a tag had to tell them to get a tag line",
-      "detail": "Have a better meeting.",
+      "headline": "Nathan Contreras / Rolando Flores 1099 — We observed valve replacement and rod hanger installed on a pump jack",
+      "detail": "Crews set up exclusion zones and went over lsra and Lmra in the safety meeting , crews also went over muster areas and nearest hospitals.",
       "psms": "Operational Discipline",
       "level": null
     },

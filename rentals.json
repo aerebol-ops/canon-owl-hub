@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13",
+  "generated": "2026-11-15",
   "source": "Permian Basin Rental Board November 2026.xlsx",
   "boardsScanned": [
     "Permian Basin Rental Board September 2024.xlsx",
@@ -32,10 +32,25 @@
   ],
   "warnDays": 15,
   "overdueDays": 30,
-  "activeRentals": 6,
-  "neverChecked": 0,
+  "activeRentals": 7,
+  "neverChecked": 1,
   "overdueChecks": 6,
   "rigs": [
+    {
+      "rig": "COIL TUBING",
+      "company": "SM ENERGY",
+      "location": "JUNIOR MINT E2",
+      "status": "RUNNING",
+      "active": true,
+      "equipment": "H2S SENSOR PACKAGE/SPLITTING TRAILER",
+      "ticket": "102955",
+      "at": "",
+      "onRentSince": "2024-09-12",
+      "currentStart": "2026-11-15",
+      "lastCheck": null,
+      "daysSinceCheck": null,
+      "checkState": "never"
+    },
     {
       "rig": "AIR TRAILER",
       "company": "XTO",
@@ -48,7 +63,7 @@
       "onRentSince": "2024-09-01",
       "currentStart": "2026-11-01",
       "lastCheck": "2026-01-17",
-      "daysSinceCheck": 300,
+      "daysSinceCheck": 302,
       "checkState": "overdue"
     },
     {
@@ -63,7 +78,7 @@
       "onRentSince": "2024-09-01",
       "currentStart": "2026-11-06",
       "lastCheck": "2026-06-10",
-      "daysSinceCheck": 156,
+      "daysSinceCheck": 158,
       "checkState": "overdue"
     },
     {
@@ -78,7 +93,7 @@
       "onRentSince": "2024-08-30",
       "currentStart": "2026-11-09",
       "lastCheck": "2026-06-21",
-      "daysSinceCheck": 145,
+      "daysSinceCheck": 147,
       "checkState": "overdue"
     },
     {
@@ -93,7 +108,7 @@
       "onRentSince": "2024-08-30",
       "currentStart": "2026-11-09",
       "lastCheck": "2026-06-21",
-      "daysSinceCheck": 145,
+      "daysSinceCheck": 147,
       "checkState": "overdue"
     },
     {
@@ -108,7 +123,7 @@
       "onRentSince": "2024-08-27",
       "currentStart": "2026-11-01",
       "lastCheck": "2026-08-28",
-      "daysSinceCheck": 77,
+      "daysSinceCheck": 79,
       "checkState": "overdue"
     },
     {
@@ -123,7 +138,7 @@
       "onRentSince": "2025-10-31",
       "currentStart": "2026-11-11",
       "lastCheck": "2026-09-19",
-      "daysSinceCheck": 55,
+      "daysSinceCheck": 57,
       "checkState": "overdue"
     }
   ]
