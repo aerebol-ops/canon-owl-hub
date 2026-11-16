@@ -171,25 +171,21 @@
   "leadershipThought": "We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-11-14",
-    "label": "Saturday 11/14",
+    "date": "2026-11-15",
+    "label": "Sunday 11/15",
     "verdict": "",
     "concerns": [
       {
-        "title": "Pablo Soto — Trailer Inspection Forms, 07:24 AM (CSRHI Andrews Shop) and 12:52 PM (Unnamed Road, Jal, NM), trailer 139. Both forms record that he was not in Canon Safety ",
-        "quote": "No Are you wearing you Canon Safety issued FR uniform? I have FRS I was going to work at shop but they send on a jod If not, why?"
+        "title": "Stefanie Kirschke — SM Energy, Junior Mint CTB — Trailer Inspection Forms at 06:34 AM (Andrews shop) and 02:41 PM (Jal, NM) — trailer 139. Both forms record that she was ",
+        "quote": "No Are you wearing you Canon Safety issued FR uniform? Washing If not, why?"
       },
       {
-        "title": "1099 Gage Gonzales — H2S Safety Supervision Daily Inspection Form, Diamondback, ST W 603, 05:47 PM. Recorded as not in Canon Safety issued FR coveralls, with a reason giv",
+        "title": "1099 Gage Gonzales — Diamondback, ST W 603 — H2S Safety Supervision Daily Inspection Form, 11:19 AM, TX-349 Midland. Not in Canon Safety issued FR coveralls.",
         "quote": "No Are you wearing your Canon Safety issued FR coveralls Only pair getting repaired If not, why?"
       },
       {
-        "title": "1099 Trevor McKenzie — H2S Safety Supervision Daily Inspection Form, Ovintiv, H&P 379 (Buzz Hurt 36), 03:51 PM. Insufficient mask bags recorded on location.",
-        "quote": "No Do you have sufficient mask bags?"
-      },
-      {
-        "title": "ALLEN WHITE — H2S equipment rig down, TGNR, H&P 541, J14E Hull Pad, job 36946, ended 11/14 09:08 AM. The rig down checklist records an equipment issue needing attention, ",
-        "quote": "Equipment Issues Need Attention: Yes"
+        "title": "Dawson Drake — SM Energy, Junior Mint E2 — H2S Equipment Rig Up rig check, job 36654_2, ended 12:19 PM. The rig check records that the loud alarms and lights were not tes",
+        "quote": "Loud Alarms and Lights Tested?: No"
       }
     ]
   },
@@ -245,9 +241,9 @@
     },
     {
       "type": "good",
-      "headline": "Nathan Contreras / Tyrell Sanders — Verify conditions, brief all personnel, and leave the location better than you f",
-      "detail": "OWL form — Atmospheric Monitoring",
-      "psms": "Atmospheric Monitoring",
+      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — Health safety meeting discussed exclusion zone, and job scope",
+      "detail": "Informed how arriving to location and what to do before job starts by company man. Park off to the side . When crew is on location in discussion is head of where placemen",
+      "psms": "Driving",
       "level": null
     },
     {

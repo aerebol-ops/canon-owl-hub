@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "scope": "Dropbox '- OWL' exports \u2014 OWL, JSA, 4-gas, location sign, ticket auditable; benzene/atmospheric/permits/tubes/names need the full packet feed",
  "jobs": [
   {
@@ -8121,30 +8121,6 @@
    "techs": "",
    "sched": "",
    "late_min": null,
-   "missing": [
-    "Exxon JSA uploaded"
-   ],
-   "complete": false
-  },
-  {
-   "date": "2026-10-11",
-   "well": "TXL 27 UNIT 3 2773JH",
-   "category": "AGT",
-   "forms": 2,
-   "checks": {
-    "owl": true,
-    "jsa": false,
-    "gas4": true,
-    "sign": true,
-    "ticket": true
-   },
-   "board": true,
-   "ticket": "102185",
-   "bnz": "2",
-   "at": "602",
-   "techs": "DAWSON DRAKE / Rolando Flores 1099",
-   "sched": "10/11/2026 10:00 AM",
-   "late_min": -27,
    "missing": [
     "Exxon JSA uploaded"
    ],

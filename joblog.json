@@ -1,25 +1,15 @@
 {
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
-  "weekJobs": 31,
-  "weekForms": 59,
-  "weekFlagRate": 6,
-  "weekWells": 30,
-  "weekCrews": 12
+  "weekJobs": 28,
+  "weekForms": 54,
+  "weekFlagRate": 7,
+  "weekWells": 27,
+  "weekCrews": 11
  },
  "days": [
-  {
-   "date": "2026-10-11",
-   "forms": 2,
-   "jobs": 1,
-   "flags": 0,
-   "AGT": 1,
-   "Maintenance": 0,
-   "Well Testing": 0,
-   "Other": 0
-  },
   {
    "date": "2026-10-12",
    "forms": 44,
@@ -4227,17 +4217,6 @@
    "cm": "",
    "note": "",
    "psms": "",
-   "flag": false
-  },
-  {
-   "date": "2026-10-11",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "TXL 27 UNIT 3 2773JH",
-   "crew": "Dawson Drake / Rolando Flores 1099",
-   "cm": "Baldo Sanchez",
-   "note": "Arriving on location crew had exzone set Had small meeting with crew and mt",
-   "psms": "Atmospheric Monitoring",
    "flag": false
   }
  ]
