@@ -1,7 +1,7 @@
 {
   "source": "Monthly Employee Form Compliance Reports \u2014 current month scored live from the daily compliance worksheets",
   "generated": "2026-11-17",
-  "ytdPct": 85.5,
+  "ytdPct": 85.6,
   "ytdMissed": 2055,
   "months": [
     {
@@ -3138,21 +3138,21 @@
       "month": "November 2026",
       "year": 2026,
       "monthNum": 11,
-      "compliancePct": 95.5,
-      "overallPct": 94.7,
-      "overallYesTotal": 577,
+      "compliancePct": 95.6,
+      "overallPct": 94.9,
+      "overallYesTotal": 595,
       "overallNoTotal": 32,
-      "trailerInspYes": 101,
-      "trailerReadyYes": 92,
+      "trailerInspYes": 105,
+      "trailerReadyYes": 96,
       "missedTotal": 35,
       "dailyNo": 18,
       "trailerInspNo": 1,
       "trailerReadyNo": 13,
-      "problemRows": 61,
-      "blanks": 109,
+      "problemRows": 63,
+      "blanks": 97,
       "employees": 68,
       "cleanEmployees": 48,
-      "dailyYesTotal": 384,
+      "dailyYesTotal": 394,
       "dailyNoTotal": 18,
       "rawRows": 635,
       "daysCovered": 11,
@@ -3211,10 +3211,24 @@
         {
           "date": "11/11",
           "missed": 1,
-          "pct": 95
+          "pct": 97
         }
       ],
       "watch": [
+        {
+          "name": "Kedrick Mccarter",
+          "totalMissed": 4,
+          "dailyMissed": 2,
+          "trailerMissed": 2,
+          "dailyYes": 4,
+          "dailyNo": 2,
+          "pct": 67,
+          "overallYes": 7,
+          "overallNo": 3,
+          "overallPct": 70.0,
+          "trailerInspMissed": 0,
+          "trailerReadyMissed": 1
+        },
         {
           "name": "Larry Taylor",
           "totalMissed": 3,
@@ -3338,20 +3352,6 @@
           "overallYes": 11,
           "overallNo": 1,
           "overallPct": 91.7,
-          "trailerInspMissed": 0,
-          "trailerReadyMissed": 1
-        },
-        {
-          "name": "Jordan Lemmons",
-          "totalMissed": 1,
-          "dailyMissed": 0,
-          "trailerMissed": 1,
-          "dailyYes": 7,
-          "dailyNo": 0,
-          "pct": 100,
-          "overallYes": 14,
-          "overallNo": 1,
-          "overallPct": 93.3,
           "trailerInspMissed": 0,
           "trailerReadyMissed": 1
         }
