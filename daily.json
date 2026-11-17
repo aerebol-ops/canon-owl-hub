@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "week": 23,
-  "day": 1,
+  "day": 2,
   "topicWeek": 13,
   "displayWeek": 14,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Operational Discipline",
     "marker": ""
   },
-  "openingMessage": "Be quick, but don't hurry.",
+  "openingMessage": "It takes time to create excellence. If it could be done quickly, more people would do it.",
   "openingAttribution": "John Wooden",
-  "openingWhy": "Quick is a crew that's run the job a hundred times and moves clean. Hurry is skipping the re-test because the workover rig is standing by and the company man is pacing. Quick gets you home early. Hurry gets you an incident review.",
+  "openingWhy": "Nobody catches trapped pressure on a 'dead' line in his first month. That catch comes from a thousand honest LMRAs where nothing was wrong. Every real check you run today is buying the instinct that saves you in year five.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "We win in this business by being invited back the next day. That doesn't just come from doing the job right — it comes from how we carry ourselves as professionals and as people.",
+  "leadershipThought": "Think before you speak. Think before you joke. Think before you act. Ask yourself: if this shows up in front of a client, my family, or leadership — does it represent me well? If the answer is no — don't do it.",
   "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-11-15",
@@ -192,7 +192,7 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>all went well, just a slight set back, due to, hail</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>On 11-06-2026, I Bryan Medlin was assigned to the Arick SIMMs 26H 8H</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Bryan Medlin / Gage Gonzales 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Everyone stayed out the way when killing the well</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Killed the well crew worked in a safe manner did our readings.</span><br><br><strong>Good communication when opening the man way</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Humberto Salazar / Dermont Morgan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Everyone was on the same page and staying out of way of potential gas releases.</span><br><br><strong>Adherence to safety rules</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
+  "exxonMoments": "<strong>Operational Discipline — Humberto Salazar / Barthol \"Bj\" Caesar 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Humberto Salazar / Barthol \"Bj\" Caesar 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Reconnect to well head</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jerry Gonzales / Dermont Morgan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Crew coordinated the reconnect while remaining aware of pinch points, line-</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Confirm equipment placement and crew positioning before starting to minimize unnecessary movement.</span><br><br><strong>Crew maintained awareness of changing conditions and equipment movement dur</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Review task assignments before starting to reduce downtime and confusion.</span><br><br><strong>Crew stayed mindful of footing and hand placement during the reconnect</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Stage tools closer to the work area to reduce unnecessary trips.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -241,9 +241,9 @@
     },
     {
       "type": "good",
-      "headline": "Ralph Forbes / William \"Jimmy\" Cooper 1099 — Health safety meeting discussed exclusion zone, and job scope",
-      "detail": "Informed how arriving to location and what to do before job starts by company man. Park off to the side . When crew is on location in discussion is head of where placemen",
-      "psms": "Driving",
+      "headline": "Jacob Hernandez / Caleb Smith — Great communication between crew,MT and Canon safety",
+      "detail": "Job scope completed safely.",
+      "psms": "Operational Discipline",
       "level": null
     },
     {
@@ -254,8 +254,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "One percent better today: one cleaner form, one earlier callout, one sharper LMRA. Stack enough days like that and it stops being effort — it's just who we are.",
-  "todaysChallengeSubtext": "“Excellence is the gradual result of always striving to do better.” — Pat Riley",
+  "todaysChallenge": "Treat today's job — however routine — as the one they'll judge your whole career on. One location, done completely right, start to finish.",
+  "todaysChallengeSubtext": "“Make each day your masterpiece.” — John Wooden",
   "compliance": {
     "weekOf": "Week of November 9, 2026",
     "metrics": [
