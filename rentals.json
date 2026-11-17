@@ -32,9 +32,9 @@
   ],
   "warnDays": 15,
   "overdueDays": 30,
-  "activeRentals": 7,
+  "activeRentals": 6,
   "neverChecked": 1,
-  "overdueChecks": 6,
+  "overdueChecks": 5,
   "rigs": [
     {
       "rig": "COIL TUBING",
@@ -112,21 +112,6 @@
       "checkState": "overdue"
     },
     {
-      "rig": "H&P 616",
-      "company": "OVINTIV",
-      "location": "TERILINGUA 255Q 106HR",
-      "status": "RUNNING",
-      "active": true,
-      "equipment": "REDLINE",
-      "ticket": "101219",
-      "at": "",
-      "onRentSince": "2024-08-27",
-      "currentStart": "2026-11-01",
-      "lastCheck": "2026-08-28",
-      "daysSinceCheck": 81,
-      "checkState": "overdue"
-    },
-    {
       "rig": "H&P 264",
       "company": "OVINTIV",
       "location": "UL CATHEDRAL 36",
@@ -139,6 +124,21 @@
       "currentStart": "2026-11-11",
       "lastCheck": "2026-09-19",
       "daysSinceCheck": 59,
+      "checkState": "overdue"
+    },
+    {
+      "rig": "H&P 616",
+      "company": "OVINTIV",
+      "location": "TERILINGUA 255Q 106HR",
+      "status": "RIGGED DOWN",
+      "active": false,
+      "equipment": "REDLINE",
+      "ticket": "101219",
+      "at": "",
+      "onRentSince": "2024-08-27",
+      "currentStart": "2026-11-01",
+      "lastCheck": "2026-08-28",
+      "daysSinceCheck": 81,
       "checkState": "overdue"
     }
   ]
