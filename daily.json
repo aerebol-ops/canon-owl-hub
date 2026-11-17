@@ -199,6 +199,33 @@
       "week": 23,
       "level": null,
       "curated": true,
+      "headline": "Justin Pack — three days running with nothing to fix",
+      "detail": "Hughes #1, Friday through Sunday: complete daily each day, cascade and hydro filled in, every photo from that morning.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "week": 23,
+      "level": null,
+      "curated": true,
+      "headline": "Marcos Morales — complete H2S daily at St Elmo",
+      "detail": "Sunday: every photo taken on location inside nine minutes, FR on, nothing for the review to flag.",
+      "psms": "OWL Program"
+    },
+    {
+      "type": "good",
+      "week": 23,
+      "level": null,
+      "curated": true,
+      "headline": "Bobby Fleming and Kyle Williams — journey plans filed for the drive",
+      "detail": "Sunday: Commuting Journey Management Plans complete. Holiday roads are the most dangerous part of the day.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "week": 23,
+      "level": null,
+      "curated": true,
       "headline": "Bobby Galindo — stopped an entry until harness and tag line were in place",
       "detail": "Emma Jane CTB, Friday: someone was about to go in without a harness and tag line. Galindo used stop work authority, and both were in place before entry.",
       "psms": "Stop Work Authority"
@@ -211,40 +238,6 @@
       "headline": "Robert Henigan — stopped the crew for a brass hammer in H2S service",
       "detail": "Hoelscher 2TM, Friday: \"The guys were using a regular hammer we had them stop work and go grab a brass hammer.\"",
       "psms": "Stop Work Authority"
-    },
-    {
-      "type": "good",
-      "week": 23,
-      "level": null,
-      "curated": true,
-      "headline": "Jordan Lemmons — paused the job on a leaking casing valve",
-      "detail": "Benedum 3A 1H, Saturday: came back only after the valve was changed and holding.",
-      "psms": "Stop Work Authority"
-    },
-    {
-      "type": "good",
-      "week": 23,
-      "level": null,
-      "curated": true,
-      "headline": "Bryan Medlin — hold point at the first break, waited for zero",
-      "detail": "XBC Giddings Estate R40 4089H, Friday: gas showed at the first break, hold point called, work resumed only after it cleared, with continuous monitoring.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "week": 23,
-      "level": null,
-      "curated": true,
-      "headline": "Justin Pack — nothing to fix Friday or Saturday",
-      "detail": "Hughes #1: complete daily both days, cascade and hydro filled in, every photo from that morning.",
-      "psms": "OWL Program"
-    },
-    {
-      "type": "good",
-      "headline": "Jacob Hernandez / Caleb Smith — Great communication between crew,MT and Canon safety",
-      "detail": "Job scope completed safely.",
-      "psms": "Operational Discipline",
-      "level": null
     },
     {
       "type": "flag",
@@ -280,29 +273,28 @@
   "specialFocus": {
     "week": 23,
     "until": "2026-11-17",
-    "title": "Week 23 Starts Here: Same Fight, Heads on a Swivel Through the Holidays",
-    "why": "<p style='margin:0 0 8px;'><b>Jacob, this week is yours.</b> Start with the message, then last week straight from Matt Croom's form reviews, then the topic: <b>Operational Discipline</b> through a season full of distractions. Thanksgiving is a week from Thursday, days off are stacking up, and minds start going home before the job is done.</p><div style='margin:0 0 10px;padding:10px 12px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;font-size:14px;line-height:1.5;'>&ldquo;We're in the same fight together. We all want the best for our families and ourselves. We sacrifice for them, and we need their support too. Stay diligent, keep your head on a swivel, and watch each other's backs.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:4px;'>&mdash; Mike Lyons</div></div><p style='margin:0 0 10px;'>Friday showed what that looks like. Bobby Galindo stopped someone from going in without a harness. Robert Henigan stopped a crew using a steel hammer in H2S service. Neither one was about paperwork. They were watching somebody else's back.</p><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; LAST WEEK'S GOOD: say these names</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Bobby Galindo</b>, Emma Jane CTB (Fri): someone was about to go in without a harness or a tag line. Galindo stopped it, and both were in place before anyone entered.</li><li style='margin:0 0 4px;'><b>Robert Henigan</b>, Hoelscher 2TM (Fri): the crew was using a regular hammer in H2S service. Henigan stopped them until they had a brass one.</li><li style='margin:0 0 4px;'><b>Jordan Lemmons</b>, Benedum 3A 1H (Sat): found a leaking casing valve, paused the job, and came back only after the valve was changed and holding.</li><li style='margin:0 0 4px;'><b>Bryan Medlin</b>, XBC Giddings Estate R40 4089H (Fri): gas showed at the first break. Medlin called a hold point, waited until it read zero, and kept monitoring. That's the process working.</li><li style='margin:0 0 4px;'><b>Nothing to fix all day:</b> Nathan Contreras (Tue), Michael Jobe and Hayden Haugh (Wed), and Justin Pack on both Friday and Saturday.</li><li style='margin:0 0 4px;'><b>Bobby Fleming</b> (Fri): every photo on the field service form taken that day. <b>Brianda Sandoval</b>: complete bottle entries on the readiness forms Friday and Saturday.</li></ul></div><div style='flex:1 1 280px;border:1px solid #e3b7bd;border-top:5px solid #b00020;border-radius:8px;padding:10px 12px;background:#fff5f5;'><div style='font-weight:800;color:#b00020;margin-bottom:6px;'>&#10007; LAST WEEK'S MISSES: these belong to all of us</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Four real stops, zero ticks.</b> Galindo, Henigan and Lemmons stopped work for real reasons, and Monday's tag line was a stop too. \"Stop work authority utilized\" was ticked <b>zero</b> times all week. On one of those jobs, the partner's form named the unsafe tool but ticked nothing. If the work stopped, tick <i>utilized</i> on <b>both</b> forms and write two lines.</li><li style='margin:0 0 4px;'><b>Copied forms.</b> Wednesday, the same \"what went well\" list was on more than a dozen forms. Saturday, one job's write-up was word-for-word identical to a job at a different well. Every well gets its own form.</li><li style='margin:0 0 4px;'><b>Trailer forms short every day.</b> Two inspections and the readiness form, every trailer, every day it's out.</li><li style='margin:0 0 4px;'><b>Old photos.</b> JSA and gas log photos from 2020 were still showing up on job forms. If the photo isn't from today, it proves nothing about today.</li><li style='margin:0 0 4px;'><b>FRs go where you go.</b> If there's any chance you get sent from the shop to a job, your FRs are on you when you leave.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>On the office, not the crew:</b> a trailer went out short an SCBA and with no flags, cones or tape, a rig ran short of mask bags, one contractor's only pair of FRs was in for repair with no spare, and one still reports none issued. Restocking and second sets are on us.</div>",
-    "standardLabel": "Week 23: Operational Discipline When Your Mind Is Somewhere Else",
+    "title": "Day Two: Watch Each Other's Backs, Starting With Your Partner",
+    "why": "<p style='margin:0 0 8px;'><b>Jacob, day two.</b> Yesterday started with Mike's message. Today, make it practical: what watching each other's backs looks like on location and on the road. Thanksgiving is nine days out, and day two of a holiday week is still a full workday.</p><div style='margin:0 0 10px;padding:8px 12px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;font-size:14px;line-height:1.5;'>&ldquo;Stay diligent, keep your head on a swivel, and watch each other's backs.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:4px;'>&mdash; Mike Lyons</div></div><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; SAY THESE NAMES</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Justin Pack</b>, Hughes #1: nothing to fix on Friday, Saturday <b>or</b> Sunday. Three days running, complete daily, cascade and hydro filled in, every photo from that morning.</li><li style='margin:0 0 4px;'><b>Marcos Morales</b>, St Elmo (Sun): complete H2S daily, every photo taken on location inside nine minutes, FR on.</li><li style='margin:0 0 4px;'><b>Bobby Fleming and Kyle Williams</b> (Sun): filed Commuting Journey Management Plans for the drive. That's the holiday-road habit we want from everybody this month.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b9c8da;border-top:5px solid #1f3a5f;border-radius:8px;padding:10px 12px;background:#f5f8fc;'><div style='font-weight:800;color:#1f3a5f;margin-bottom:6px;'>&#128101; WATCH EACH OTHER'S BACKS: four checks</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Look at your partner, not just the monitor.</b> Before the first break: mask fit, monitor on, upwind. Ask \"you good?\" and wait for the answer.</li><li style='margin:0 0 4px;'><b>If your partner stops the job, you stopped the job.</b> Tick <i>utilized</i> on both forms. Last week, one partner's form named the unsafe tool and ticked nothing.</li><li style='margin:0 0 4px;'><b>Short gear is everybody's problem.</b> If your trailer or your partner is short an SCBA, FRs or mask bags, say it before it rolls, and write down who you told.</li><li style='margin:0 0 4px;'><b>Know your partner's drive home.</b> Long drive? File the journey plan, and text when you're home.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>Ten minutes:</b> Mike's line (1) &middot; names (2) &middot; four checks (3) &middot; the quiet partner (3) &middot; send-off (1).</div>",
+    "standardLabel": "Week 23: Operational Discipline, and Your Partner Is Part of the Job",
     "standard": [
-      "<b>Leave it at the gate.</b> Before the first break, phone away, and say the job out loud with your partner: what, where, who calls it.",
-      "<b>Holiday roads are the most dangerous part of the day.</b> Phone down behind the wheel, heavier traffic, and deer moving at dawn and dusk. Your family wants you home more than they want you home early.",
-      "<b>Rest is equipment.</b> Extra shifts to cover days off and long drives home add up. If you're running on empty, tell your lead before the job, not after.",
-      "<b>New partner? Brief like it's day one.</b> Holiday coverage puts people on crews they don't usually run with. Don't assume they know how you work.",
-      "<b>The last job before days off is where shortcuts happen.</b> The job ends when the work is right and the form is true, not when the truck is pointed home.",
-      "<b>Heads on a swivel.</b> If your partner is off today, ask. If something's wrong on location, stop it, and tick <i>utilized</i>."
+      "<b>The pre-task briefing takes two voices.</b> If only one person talked, it wasn't a briefing.",
+      "<b>LMRA out loud before the first wrench:</b> what's changed since yesterday, and since the last well.",
+      "<b>Verify controls with your own eyes</b>, not the permit's, then have your partner check yours.",
+      "<b>The routine job is the dangerous one.</b> Your hundredth reconnect gets the same attention as your first.",
+      "<b>Pressure is not authorization.</b> \"Let's get out of here,\" from anyone, including your partner, means slow down.",
+      "<b>Drive like your family is in the truck.</b> Phone down, journey plan on the long drives, and nobody drives tired."
     ],
     "scenarios": [
       {
-        "title": "The Last Well Before Thanksgiving",
-        "body": "It's the Wednesday before Thanksgiving. Last well of the day, a four-hour drive home after it, and your phone has been buzzing all afternoon with family plans. Your partner is quiet and skipped the walk-around on the trailer. The company man wants the line opened so everyone can leave. Nobody is doing anything crazy. That's exactly how it happens. Take thirty seconds: phones away, \"you good?\" to your partner, say the job back, then break containment. Jacob, ask the circle: what's the one thing you'd skip on that last well, and who would catch it?"
+        "title": "The Quiet Partner",
+        "body": "Your partner has been quiet all morning, and their phone keeps buzzing. Something's going on at home. At the second well they skip the mask check and start toward the wellhead. They're experienced, and it feels like none of your business. It is your business. \"Hold up. You good?\" Thirty seconds. Do the mask check together, then go. Jacob, ask the circle: on your worst day, what would you want your partner to say to you?"
       }
     ],
     "questions": [
-      "What's pulling at your attention this week, and what will you do to leave it at the gate?",
-      "How will you know if your partner is off today? What would you say?",
-      "Galindo, Henigan and Lemmons all stopped work last week. What would make you stop a job in front of another company's crew?",
-      "What does your family do that makes this job possible? Have you told them?"
+      "Who is your partner today, and what's one thing you'll check for them before the first break?",
+      "If your partner stops the job today, what goes on your form?",
+      "What's your plan to get home safe for Thanksgiving, and who knows your route?"
     ],
-    "nonNegotiable": "Phone down, eyes up, and watch your partner. If something's wrong, stop it and tick \"utilized.\" We all go home for the holidays."
+    "nonNegotiable": "If your partner stops it, you stopped it: tick \"utilized\" on both forms. Phone down, eyes up, and nobody drives tired. We all go home for the holidays."
   }
 }
