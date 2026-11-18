@@ -203,6 +203,24 @@
       "week": 23,
       "level": null,
       "curated": true,
+      "headline": "Justin Pack — five days running with nothing to fix",
+      "detail": "Hughes #1, Friday through Tuesday: complete daily each day, every answer filled in, every photo from that morning.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "week": 23,
+      "level": null,
+      "curated": true,
+      "headline": "Andrew Bailey and Humberto Marquez-Salazar — trailers fully covered",
+      "detail": "Tuesday: Bailey filed all four forms for trailer 602, second day running. Marquez-Salazar filed three inspections on 604.",
+      "psms": "OWL Program"
+    },
+    {
+      "type": "good",
+      "week": 23,
+      "level": null,
+      "curated": true,
       "headline": "Michael Jobe — no tag, no cones: found it and fixed it before work began",
       "detail": "Brook N-13EN 214H, Monday: told the person in charge and had it corrected before the job started. Find it, fix it, write it.",
       "psms": "Operational Discipline"
@@ -221,8 +239,8 @@
       "week": 23,
       "level": null,
       "curated": true,
-      "headline": "Hayden Haugh and Trevor McKenzie — nothing to fix Monday",
-      "detail": "Trailer 608 inspections and an air job (Haugh), and a complete air job close-out (McKenzie).",
+      "headline": "Hayden Haugh and Trevor McKenzie — nothing to fix Monday or Tuesday",
+      "detail": "Two days running: trailer 608 inspections and readiness with every bottle filled in, and complete air job close-outs.",
       "psms": "OWL Program"
     },
     {
@@ -233,15 +251,6 @@
       "headline": "Bryan Medlin and Joseph Popillion — held the job and used stop work over a leaking casing",
       "detail": "Shull Crawford 15OO 115H, Monday: gas showed when the valves opened. Hold point, a plan, the right people notified, and the disconnect stopped until the crew was comfortable. Two partners watching each other's backs.",
       "psms": "Stop Work Authority"
-    },
-    {
-      "type": "good",
-      "week": 23,
-      "level": null,
-      "curated": true,
-      "headline": "Justin Pack — four days running with nothing to fix",
-      "detail": "Hughes #1, Friday through Monday: complete daily each day, cascade and hydro filled in, every photo from that morning.",
-      "psms": "Operational Discipline"
     },
     {
       "type": "flag",
@@ -278,7 +287,7 @@
     "week": 23,
     "until": "2026-11-18",
     "title": "Midweek: The Theme Is Showing Up on Location. Keep It Going.",
-    "why": "<p style='margin:0 0 8px;'><b>Jacob, midweek, and the message is landing.</b> Since Monday, crews have held for zero, stopped a disconnect over a leaking casing, and got a tag and cones in place before anyone started. That's what &ldquo;same fight&rdquo; looks like. Today is about keeping it going.</p><div style='margin:0 0 10px;padding:8px 12px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;font-size:14px;line-height:1.5;'>&ldquo;We're in the same fight together.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:4px;'>&mdash; Mike Lyons</div></div><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; WHERE WE SAW IT THIS WEEK: say these names</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Michael Jobe</b>, Brook N-13EN 214H (Mon): pulled up to no tag and no cones, told the person in charge, and had it fixed before work began. Find it, fix it, write it.</li><li style='margin:0 0 4px;'><b>Bryan Medlin</b>, Crawford pads (Mon): two hold points in one day. Both times Medlin waited for zero, made a plan, and kept going only when it was right.</li><li style='margin:0 0 4px;'><b>Luis Zarate</b> (Mon): well testing across eight sites, every form complete, every photo from the day.</li><li style='margin:0 0 4px;'><b>Justin Pack</b>, Hughes #1: nothing to fix Friday through Monday. <b>Hayden Haugh</b> and <b>Trevor McKenzie</b> clean Monday too.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b9c8da;border-top:5px solid #1f3a5f;border-radius:8px;padding:10px 12px;background:#f5f8fc;'><div style='font-weight:800;color:#1f3a5f;margin-bottom:6px;'>&#9650; KEEP THE MOMENTUM: three for today</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Give your stop the credit it earned.</b> If you held or stopped the job, tick <i>utilized</i> and write two lines. The good calls you're making this week deserve to be counted.</li><li style='margin:0 0 4px;'><b>Keep asking \"you good?\"</b> It's showing up on location. Make it automatic by Friday.</li><li style='margin:0 0 4px;'><b>Thanksgiving is eight days out.</b> Plan the drive now: journey plan for the long ones, and text your partner when you're home.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>Ten minutes:</b> what's landing (1) &middot; names (3) &middot; momentum (2) &middot; the new hand (3) &middot; send-off (1).</div>",
+    "why": "<p style='margin:0 0 8px;'><b>Jacob, midweek, and the message is landing.</b> Since Monday, crews have held for zero, stopped a disconnect over a leaking casing, and got a tag and cones in place before anyone started. That's what &ldquo;same fight&rdquo; looks like. Today is about keeping it going.</p><div style='margin:0 0 10px;padding:8px 12px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;font-size:14px;line-height:1.5;'>&ldquo;We're in the same fight together.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:4px;'>&mdash; Mike Lyons</div></div><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; WHERE WE SAW IT THIS WEEK: say these names</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Justin Pack</b>, Hughes #1: nothing to fix Friday through Tuesday. <b>Five days running.</b></li><li style='margin:0 0 4px;'><b>Andrew Bailey</b> (Tue): filed all four forms for trailer 602 solo, second day running. <b>Humberto Marquez-Salazar</b>: three inspections on 604. Both trailers fully covered.</li><li style='margin:0 0 4px;'><b>Dennis Easley</b>, Cold Snack Fed Com, and <b>Rolando Flores</b>, Buzz Hurt 36 nights (Tue): supervision dailies in and matched to the board.</li><li style='margin:0 0 4px;'><b>Justin Fontenot</b> (Tue): both air jobs complete with the Learn section filled in, second day running. <b>Josh Blassingame</b>: an eleven-hour traffic control shift closed out clean.</li><li style='margin:0 0 4px;'><b>Michael Jobe</b>, Brook N-13EN 214H (Mon): pulled up to no tag and no cones, told the person in charge, and had it fixed before work began. Find it, fix it, write it.</li><li style='margin:0 0 4px;'><b>Bryan Medlin</b>, Crawford pads (Mon): two hold points in one day. Both times Medlin waited for zero, made a plan, and kept going only when it was right.</li><li style='margin:0 0 4px;'><b>Luis Zarate</b> (Mon): well testing across eight sites, every form complete, every photo from the day.</li><li style='margin:0 0 4px;'><b>Hayden Haugh</b> and <b>Trevor McKenzie</b>: clean Monday and clean again Tuesday, Learn sections and all.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b9c8da;border-top:5px solid #1f3a5f;border-radius:8px;padding:10px 12px;background:#f5f8fc;'><div style='font-weight:800;color:#1f3a5f;margin-bottom:6px;'>&#9650; KEEP THE MOMENTUM: three for today</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Give your stop the credit it earned.</b> If you held or stopped the job, tick <i>utilized</i> and write two lines. The good calls you're making this week deserve to be counted.</li><li style='margin:0 0 4px;'><b>Keep asking \"you good?\"</b> It's showing up on location. Make it automatic by Friday.</li><li style='margin:0 0 4px;'><b>Thanksgiving is eight days out.</b> Plan the drive now: journey plan for the long ones, and text your partner when you're home.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>Ten minutes:</b> what's landing (1) &middot; names (3) &middot; momentum (2) &middot; the new hand (3) &middot; send-off (1).</div>",
     "standardLabel": "Week 23: Operational Discipline, and Good Habits Are Contagious",
     "standard": [
       "<b>What you did Monday and Tuesday is the standard now</b>, not the exception.",
