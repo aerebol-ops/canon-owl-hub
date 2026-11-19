@@ -190,6 +190,15 @@
       "week": 23,
       "level": null,
       "curated": true,
+      "headline": "Bryan Medlin and Joseph Popillion — held the job and used stop work over a leaking casing",
+      "detail": "Shull Crawford 15OO 115H, Monday: gas showed when the valves opened. Hold point, a plan, the right people notified, and the disconnect stopped until the crew was comfortable. Two partners watching each other's backs.",
+      "psms": "Stop Work Authority"
+    },
+    {
+      "type": "good",
+      "week": 23,
+      "level": null,
+      "curated": true,
       "headline": "Andrew Bailey and Humberto Marquez-Salazar — trailers fully covered",
       "detail": "Tuesday: Bailey filed all four forms for trailer 602, second day running. Marquez-Salazar filed three inspections on 604.",
       "psms": "OWL Program"
@@ -222,20 +231,12 @@
       "psms": "OWL Program"
     },
     {
-      "type": "good",
-      "week": 23,
-      "level": null,
-      "curated": true,
-      "headline": "Bryan Medlin and Joseph Popillion — held the job and used stop work over a leaking casing",
-      "detail": "Shull Crawford 15OO 115H, Monday: gas showed when the valves opened. Hold point, a plan, the right people notified, and the disconnect stopped until the crew was comfortable. Two partners watching each other's backs.",
-      "psms": "Stop Work Authority"
-    },
-    {
       "type": "flag",
       "week": 23,
-      "headline": "Clean board — no open watch items this week",
-      "detail": "Nothing carried in from last week. See a hazard? Flag it on your OWL form and it lands here the same evening.",
-      "psms": "OWL Program"
+      "curated": true,
+      "headline": "Highway 176 fog crash, Wednesday morning: five miles from the shop",
+      "detail": "A driver weaving between semis tried to pass in fog and dark. Ralph and Jimmy are both okay and home with family. Slow down to what you can see, back off the semis, and let the weaver go.",
+      "psms": "Operational Discipline"
     }
   ],
   "todaysChallenge": "Today's job is probably ordinary. Do the ordinary at a champion's level: the routine bleed-down, the routine cal, the routine form — better than anyone else in the Basin.",
@@ -260,5 +261,32 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 11/17"
+  },
+  "specialFocus": {
+    "week": 23,
+    "until": "2026-11-19",
+    "title": "Five Miles From the Shop: Fog, Dark and a Driver Who Wouldn't Wait",
+    "why": "<p style='margin:0 0 8px;'><b>Jacob, start here.</b> Wednesday morning, on Highway 176 north of Midland, less than five miles from the shop, in fog and dark, a driver was weaving in and out between two semis. That driver tried to pass the second semi with no way to see what was coming and almost hit Ralph Forbes head-on. Ralph took the ditch to avoid it. The trailer jackknifed, pushed the truck back out into the oncoming lane, and the semi hit it.</p><p style='margin:0 0 8px;'>Thank God, the semi driver turned toward the ditch at the very last second. Instead of a T-bone, it was a sideswipe at an angle, and that probably saved Ralph's and Jimmy Cooper's lives. The other driver caused this. Ralph and Jimmy were doing their job and driving to work.</p><p style='margin:0 0 8px;font-weight:700;color:#2e7d32;'>Ralph and Jimmy are both okay and home with their families.</p><div style='display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:0 0 10px;'><a href='incidents/2026-11-hwy176/1-canon-truck-side-impact.jpg' target='_blank' style='text-decoration:none;color:inherit;'><img src='incidents/2026-11-hwy176/1-canon-truck-side-impact.jpg' alt='Canon pickup with heavy side damage after the sideswipe' loading='lazy' style='width:100%;border-radius:8px;display:block;'><div style='font-size:11px;color:#555;margin-top:3px;'>The hit came at an angle, not a T-bone</div></a><a href='incidents/2026-11-hwy176/2-scene-fog-hwy176.jpg' target='_blank' style='text-decoration:none;color:inherit;'><img src='incidents/2026-11-hwy176/2-scene-fog-hwy176.jpg' alt='Highway 176 in fog at first light with the semi and the Canon pickup' loading='lazy' style='width:100%;border-radius:8px;display:block;'><div style='font-size:11px;color:#555;margin-top:3px;'>Highway 176, Wednesday morning: fog and dark, five miles from the shop</div></a></div><div style='margin:0 0 10px;padding:8px 12px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;font-size:14px;line-height:1.5;'>&ldquo;We're in the same fight together. We all want the best for our families and ourselves.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:4px;'>&mdash; Mike Lyons</div></div><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #b9c8da;border-top:5px solid #1f3a5f;border-radius:8px;padding:10px 12px;background:#f5f8fc;'><div style='font-weight:800;color:#1f3a5f;margin-bottom:6px;'>&#127787; FOG AND DARK: five for the drive</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Slow down to what you can see.</b> If you can't stop inside the distance you can see, you're too fast. Low beams in fog, never brights.</li><li style='margin:0 0 4px;'><b>Back off the semis.</b> Double your following distance in fog and dark. Six seconds or more.</li><li style='margin:0 0 4px;'><b>Let the weaver go.</b> Somebody driving crazy around you? Ease off, give them the road, and keep your eyes on your way out.</li><li style='margin:0 0 4px;'><b>Never pass what you can't see past.</b> On a two-lane in fog, there's no pass worth it.</li><li style='margin:0 0 4px;'><b>Too thick? Get off the road and wait it out.</b> Pull well clear, hazards on, and call your lead. Late is better than never.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; WHERE WE SAW IT THIS WEEK: say these names</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Justin Pack</b>, Hughes #1: five days running with nothing to fix.</li><li style='margin:0 0 4px;'><b>The week so far:</b> Medlin and Popillion's stop over a leaking casing, Jobe's tag and cones, Zarate's eight sites, Bailey and Marquez-Salazar's trailers, Easley and Flores on supervision, Fontenot, Blassingame, Haugh and McKenzie. That's the same fight, every day.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>Ten minutes:</b> Highway 176 and the photos (3) &middot; fog and dark (3) &middot; names (1) &middot; the weaver (2) &middot; send-off (1).</div>",
+    "standardLabel": "Week 23: Operational Discipline Starts Behind the Wheel",
+    "standard": [
+      "<b>Speed for the conditions</b>, not the sign. Fog and dark cut the speed limit for you.",
+      "<b>Low beams in fog</b>, lights on all day, and keep the glass clean.",
+      "<b>Six seconds or more</b> behind any semi in fog or dark.",
+      "<b>Let the weaver go.</b> Don't race, don't block, don't speed up. Back off and give them the road.",
+      "<b>Know your way out.</b> Shoulder, ditch, open lane: always know where you'd go.",
+      "<b>Seatbelts, every seat, every trip.</b> Phone down, and nobody drives tired."
+    ],
+    "scenarios": [
+      {
+        "title": "The Weaver in Your Mirror",
+        "body": "It's 5:30 in the morning on a two-lane, the fog is thick, and you're behind a semi. Headlights come up fast behind you, swing out, duck back in, swing out again. That driver wants by and can't see any better than you can. What do you do? Ease off. Open a gap so they have somewhere to go. Don't speed up and don't hold your ground. Watch the oncoming lane for them, and know where your shoulder is. Jacob, ask the circle: on your drive this morning, where was your way out?"
+      }
+    ],
+    "questions": [
+      "What does too fast for the fog look like on your route?",
+      "When somebody's driving crazy around you, what's your first move?",
+      "Thanksgiving is one week from today. Who's checking that you got home, and who are you checking on?"
+    ],
+    "nonNegotiable": "In fog and dark: slow down, back off, let the weaver go, and never pass what you can't see past. Ralph and Jimmy went home to their families. Same fight, same team. We all go home for the holidays."
   }
 }
