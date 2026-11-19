@@ -6389,6 +6389,47 @@ function _jlPaint() {
         ${wk.actions.map((s, i) => `<div style="display:flex; gap:8px; padding:3px 0; font-size:12px; line-height:1.5;"><span style="color:#0f766e; font-weight:800;">${i + 1}.</span><span>${s}</span></div>`).join('')}
       </div></div></details>
       ${sp ? `${detOpen('&#128200;', `${sp.label}: missed areas, best, most improved, focus list`)}${spHtml}</div></details>` : ''}`;
+    // Matt's Mid-Month Check-In (11/19/2026 →): month-by-month trend, most improved,
+    // techs needing attention, integrity watch, best performers, recommendations
+    const mm = cs.midmonth;
+    const mmRow = (cells, i, hdr) => `<div style="display:flex; gap:6px; padding:${hdr ? '5px' : '4px'} 10px; font-size:${hdr ? '9.5px' : '11.5px'}; ${hdr ? 'background:#eef2f9; font-weight:800; text-transform:uppercase; color:var(--navy);' : (i % 2 ? 'background:#fafafa;' : '')}">${cells.map(([v, f, st]) => `<span style="flex:${f}; ${st || ''}">${v}</span>`).join('')}</div>`;
+    const mmBox = (inner, bd) => `<div style="background:#fff; border:1px solid ${bd || '#dde3ee'}; border-radius:10px; overflow:hidden; margin-bottom:6px;">${inner}</div>`;
+    const mmHtml = !mm ? '' : `<details open style="border:2px solid #7c3aed; border-radius:12px; margin-bottom:12px; background:#fff;">
+      <summary style="cursor:pointer; padding:9px 12px; background:#7c3aed; color:#fff; border-radius:10px 10px 0 0; font-size:14px; font-weight:900;">&#128197; ${mm.label} <span style="font-weight:400; font-size:11px; opacity:.85;">— tap to close</span></summary>
+      <div style="padding:8px 12px 10px;">
+        <div style="font-size:11px; color:var(--muted); margin-bottom:6px; line-height:1.45;">${mm.source}</div>
+        ${secHdr('Company trend by month', '#7c3aed')}
+        ${mmBox(mmRow([['Month', 1.3], ['Day', 1], ['Night', 1], ['Insp.', 1], ['Ready', 1], ['Overall', .8, 'text-align:right;'], ['Misses', .7, 'text-align:right;']], 0, true) +
+          mm.trend.map((r, i) => mmRow([[r.month, 1.3, 'font-weight:700;'], [r.day.split(' (')[0], 1], [r.night.split(' (')[0], 1], [r.insp.split(' (')[0], 1], [r.ready.split(' (')[0], 1],
+            [r.overall, .8, `text-align:right; font-weight:800; color:${pctCol(pctNum(r.overall))};`], [r.misses, .7, 'text-align:right; color:var(--muted);']], i)).join(''))}
+        <div style="font-size:11.5px; color:#3b0764; line-height:1.5; margin-bottom:6px;">${mm.trendNote}</div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:8px;">
+          <div style="flex:1; min-width:290px; background:#eff6ff; border:1px solid #bfdbfe; border-radius:10px; padding:8px 12px;">
+            <div style="font-size:12px; font-weight:800; color:#1d4ed8; margin-bottom:4px;">Most Improved — October → November</div>
+            ${mm.improved.map(r => `<div style="display:flex; gap:6px; font-size:11.5px; padding:2px 0;"><span style="flex:2; font-weight:600;">${r.tech}</span><span style="flex:1.8; text-align:right; color:var(--muted);">${r.oct} → <strong style="color:#166534;">${r.nov.split(' (')[0]}</strong></span><span style="flex:1; text-align:right; font-weight:800; color:#1d4ed8; white-space:nowrap;">${r.chg.replace(' pts', '')}</span></div>
+              <div style="font-size:10px; color:#1e3a8a; margin:-1px 0 2px 4px;">${r.note}</div>`).join('')}
+            ${mm.turnarounds.length ? `<div style="font-size:11px; font-weight:800; color:#1d4ed8; margin-top:6px;">Sustained turnarounds</div>${mm.turnarounds.map(t => `<div style="font-size:10.5px; color:#1e3a8a; padding:1px 0;">&#8226; ${t}</div>`).join('')}` : ''}
+            ${mm.improvedHeld && mm.improvedHeld.length ? `<div style="font-size:10.5px; color:var(--muted); margin-top:4px;">Not credited (false FRC entries): ${mm.improvedHeld.join(', ')}.</div>` : ''}
+          </div>
+          <div style="flex:1; min-width:290px; background:#f0fdf4; border:1px solid #bbf7d0; border-radius:10px; padding:8px 12px;">
+            <div style="font-size:12px; font-weight:800; color:#166534; margin-bottom:4px;">Best Performers — September through November</div>
+            ${mm.best.map(r => `<div style="display:flex; gap:6px; font-size:11.5px; padding:2px 0;"><span style="flex:2; font-weight:600;">${r.rank}. ${r.tech}</span><span style="flex:1.3; text-align:right; font-weight:800; color:#166534; white-space:nowrap;">${r.span.split(' (')[0]}</span><span style="flex:1.6; text-align:right; color:var(--muted); font-size:10.5px;">${r.sep} → ${r.oct} → ${r.nov.split(' (')[0]}</span></div>`).join('')}
+            <div style="font-size:10.5px; color:#14532d; margin-top:4px; line-height:1.45;">${mm.bestIntro} ${mm.bestFoot}</div>
+          </div>
+        </div>
+        ${secHdr('Techs Needing the Most Attention — November so far', '#b45309')}
+        ${mmBox(mmRow([['Tech', 2], ['Misses', .6, 'text-align:center;'], ['Nov', 1.1, 'text-align:center;'], ['Sep → Oct', 1, 'text-align:center;'], ['Trend', 1.2], ['Notes', 3]], 0, true).replace('#eef2f9', '#fffbeb').replace('color:var(--navy)', 'color:#92400e') +
+          mm.attention.map((r, i) => mmRow([[`${r.rank}. ${r.tech}`, 2, 'font-weight:700;'], [r.misses, .6, 'text-align:center; font-weight:800; color:#b45309;'], [r.nov, 1.1, `text-align:center; font-weight:700; color:${pctCol(pctNum(r.nov))};`],
+            [`${r.sep} → ${r.oct}`, 1, 'text-align:center; font-size:10.5px; color:var(--muted);'], [r.trend, 1.2, `font-size:11px; font-weight:700; color:${/improv/i.test(r.trend) ? '#166534' : '#b00020'};`], [r.note, 3, 'font-size:10.5px; color:var(--muted);']], i)).join(''), '#e7d9c4')}
+        ${mm.integrity.length ? `${secHdr('Integrity Watch — false FRC / coverall entries', '#7f1d1d')}
+        ${mmBox(mmRow([['Tech', 2.4], ['Oct', .5, 'text-align:center;'], ['Nov', .6, 'text-align:center;'], ['Nov completion', 1.1, 'text-align:center;'], ['Note', 2.4]], 0, true).replace('#eef2f9', '#fdf2f2').replace('color:var(--navy)', 'color:#7f1d1d') +
+          mm.integrity.map((r, i) => mmRow([[r.tech, 2.4, 'font-weight:700;'], [r.oct, .5, 'text-align:center;'], [r.nov, .6, 'text-align:center; font-weight:800; color:#7f1d1d;'], [r.comp, 1.1, 'text-align:center; color:var(--muted);'], [r.note, 2.4, 'font-size:10.5px; color:var(--muted);']], i)).join(''), '#f1c8c8')}
+        <div style="font-size:10.5px; color:#7f1d1d; margin-bottom:6px;">${mm.integrityFoot}</div>` : ''}
+        ${secHdr('Recommendations', '#0f766e')}
+        <div style="background:#f0fdfa; border:1px solid #99e6dd; border-radius:10px; padding:8px 12px;">
+          ${mm.recommendations.map((s, i) => `<div style="display:flex; gap:8px; padding:3px 0; font-size:12px; line-height:1.5;"><span style="color:#0f766e; font-weight:800;">${i + 1}.</span><span>${s}</span></div>`).join('')}
+        </div>
+      </div></details>`;
     body = `
       <div style="background:#0f766e; color:#fff; border-radius:0 8px 8px 8px; padding:10px 14px; margin-bottom:12px;">
         <div style="font-size:14px; font-weight:800;">&#128202; Internal Compliance Stats</div>
@@ -6397,6 +6438,7 @@ function _jlPaint() {
       </div>
 
       ${quickHtml}
+      ${mmHtml}
       ${rankHtml}
       ${_gpsCardHtml(_gpshealth, false)}
       ${wkHtml}

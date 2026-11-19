@@ -1,375 +1,490 @@
 {
-  "generated": "2026-10-29T16:20:00",
-  "source": "Audits of the Daily Internal Compliance 2026 workbook — Matt Croom's weekly review (Oct 22–28) and eight-week rankings (Sep 1–Oct 27) received 10/29/2026; September monthly review received 10/1/2026 and YTD reports 9/30/2026",
+  "generated": "2026-11-19 11:01",
+  "source": "Audits of the Daily Internal Compliance 2026 workbook — Matt Croom's Weekly Compliance Review (Nov 12–18) and Mid-Month Check-In (Nov 1–18, vs Aug–Oct), received 11/19/2026; eight-week rankings (Sep 1–Oct 27) received 10/29; September monthly review 10/1 and YTD reports 9/30",
   "method": "Completion % = Yes ÷ (Yes + No). Day forms, trailer inspection and trailer readiness are credited to the day tech; night forms to the night tech.",
   "week": {
-    "label": "Week of Oct 22 – 28, 2026",
-    "prevLabel": "Last report",
-    "source": "Matt Croom's Daily Compliance Review (received 10/29) — Oct 22–27 fully audited; 10/28 about 25% audited. 374 job-days. Top performers ranked among techs with 3+ audited shifts.",
-    "bottomLine": "The best week since weekly tracking began in September. Day forms hit 97% and trailer inspections 98%, missed forms fell from 57 to 25, and no false PPE, backdated or undated paperwork was flagged. The one gap: trailer readiness slipped to 73%, with SM Energy at 53%.",
+    "label": "Week of Nov 12 – 18, 2026",
+    "prevLabel": "Prior week",
+    "source": "Matt Croom's Weekly Compliance Review (received 11/19) — auto-ingested from his email. Audit coverage (rows with Day forms filled): Nov 12 90% (64/71 – partial), Nov 13 97% (62/64), Nov 14 100% (32/32), Nov 15 97% (31/32), Nov 16 95% (52/55), Nov 17 100% (53/53). Nov 18 (yesterday): 52 jobs entered but 0% audited.",
+    "bottomLine": "Trailer readiness edged up 88.6% → 89.3%; XTO readiness 92.2% → 94.4%, and XTO day forms stayed 100% (133/133). The gap: night forms dropped 90.9% → 76.2% (16/21).",
     "glance": [
       {
-        "m": "Job-days logged",
-        "now": "374",
-        "prev": "476",
-        "chg": "",
+        "m": "Job-days",
+        "now": "359",
+        "prev": "363",
+        "chg": "-4 · MTD 923",
         "tone": "info"
       },
       {
-        "m": "Day forms completed",
-        "now": "97.3% (219/225)",
-        "prev": "91.1%",
-        "chg": "up 6 pts — best yet",
-        "tone": "ok"
+        "m": "Day forms",
+        "now": "95.2% (220/231)",
+        "prev": "95.8% (254/265)",
+        "chg": "down 0.6 pts · MTD 95.8%",
+        "tone": "info"
       },
       {
-        "m": "Night forms completed",
-        "now": "60.0% (3/5)",
-        "prev": "75.0%",
-        "chg": "small sample",
+        "m": "Night forms",
+        "now": "76.2% (16/21)",
+        "prev": "90.9% (10/11)",
+        "chg": "down 14.7 pts · MTD 83.3%",
         "tone": "warn"
       },
       {
-        "m": "Trailer inspection completed",
-        "now": "98.3% (58/59)",
-        "prev": "89.0%",
-        "chg": "up 9 pts — best yet",
-        "tone": "ok"
-      },
-      {
-        "m": "Trailer readiness completed",
-        "now": "73.3% (44/60)",
-        "prev": "86.1%",
-        "chg": "down 13 pts",
+        "m": "Trailer inspection",
+        "now": "98.2% (54/55)",
+        "prev": "100.0% (70/70)",
+        "chg": "down 1.8 pts · MTD 98.8%",
         "tone": "warn"
       },
       {
-        "m": "Missed forms (all types)",
-        "now": "25",
-        "prev": "57",
-        "chg": "down 56% (Sept pace ~81/week)",
-        "tone": "ok"
+        "m": "Trailer readiness",
+        "now": "89.3% (50/56)",
+        "prev": "88.6% (62/70)",
+        "chg": "up 0.7 pts · MTD 88.8%",
+        "tone": "info"
       },
       {
-        "m": "Jobs flagged with problems",
-        "now": "22",
-        "prev": "47",
-        "chg": "down 53%",
-        "tone": "ok"
+        "m": "Missed forms (day + night \"No\")",
+        "now": "16",
+        "prev": "12",
+        "chg": "up 4 · MTD 34",
+        "tone": "warn"
       },
       {
-        "m": "Auditor notes",
-        "now": "25",
-        "prev": "62",
-        "chg": "down 60%",
+        "m": "All misses (4 checks)",
+        "now": "23",
+        "prev": "20",
+        "chg": "up 3 · MTD 55",
+        "tone": "warn"
+      },
+      {
+        "m": "Problem flags",
+        "now": "35",
+        "prev": "39",
+        "chg": "down 4 · MTD 99",
         "tone": "ok"
       }
     ],
-    "segments": "By segment, day forms: XTO 99.3% (149/150) · WTX 97.4% · ETX 96.6% (was 75%) · Comstock 100% (was 54%) · SM Energy 92.5% · air jobs 98.8% · supervision jobs 87.5% (was 78%). Readiness: XTO 80.0% (36/45) · SM Energy 53.3% (8/15).",
+    "segments": "By segment, day forms: ETX 89.3% · WTX 96.1% · XTO Energy 100.0% · SM Energy 97.9% · Southwest Operating 100.0% · Diamondback 78.6% · Ovintiv 55.6% · Comstock 75.0% · Corsa Resources 100.0%. Readiness: XTO Energy 94.4% · SM Energy 80.0%. Small samples: Diamondback, Ovintiv, Comstock, Corsa each ≤18 job-days. Sabine rows are not form-audited (all N/A/blank). No Mitsui or BPX rows this week. Other customers (Adamas, Sulphur River, Rose City, TGNR, etc.) have ≤3 job-days each.",
     "concerns": [
       {
-        "t": "Trailer readiness — the only form that went backwards",
-        "d": "44 of 60 (73.3%), down from 86%. It has swung 82% → 71% → 86% → 73% over four weeks, so it isn't sticking and needs a process fix (a checkpoint at dispatch or a StreetSmart prompt on every trailer move). SM Energy 8 of 15 (53%): Caleb Smith, Brianda Sandoval, Kirschke and Flores, Jobe and Bailey, Clubb. XTO 36 of 45 (80%): Jimmy White (2), Gage Gonzales, Zarate and McCarter, Jobe and Avila, Norris and Sanders."
+        "t": "Night forms dropped 90.9% → 76.2% (16/21)",
+        "d": "5 misses: Benjamin Boutte ×2 (SM, Nov 14–15), Michael Hutt ×2 (Southwest Operating, Nov 14 & 16), Rolando Flores (Ovintiv, Nov 16)."
       },
       {
-        "t": "JSAs and equipment counts",
-        "d": "Josh Blassingame: no JSA on three jobs 10/27 (City of Tyler and XTO; called and reminded), and on one XTO job StreetSmart listed 6 SCBAs on site but he said only 2 were there. Also no daily inspection 10/24. Crew-wide: a JSA on every job, including short and field-service jobs, and equipment counts in StreetSmart must match what's on site."
+        "t": "Supervision jobs",
+        "d": "Day forms 83.3% (40/48), nights 75.0% (15/20) – 13 of the 16 missed forms were on supervision jobs."
       },
       {
-        "t": "Missed daily inspections",
-        "d": "Benjamin Boutte: night daily inspections missed 10/23 and 10/25 (2 of 4). Brey Rasco: no daily inspection 10/26 (1 of 3) — third report running on the list, though no undated-JSA flags this week. Michael Jobe (10/26) and Hayden Haugh (10/26, his only miss, down from 3)."
+        "t": "Ovintiv day forms 55.6% (5/9)",
+        "d": "All 4 misses are Kedrick McCarter (Nov 14, 15, 16, 17 – four days running)."
       },
       {
-        "t": "Exxon paperwork and StreetSmart problems",
-        "d": "Gage Gonzales: no Exxon JSA or atmospheric testing log 10/22 (the auditor moved them over from Jerry's job); reported his job deleted 10/27 — confirm the paperwork was uploaded. Bryan Medlin's readiness photos didn't come through 10/27 (says the form was done; waiting on photos). BJ Caesar had no StreetSmart access 10/27."
+        "t": "Diamondback 78.6%",
+        "d": "3 misses: Gage Gonzales ×2 – \"did not pause his job\" Nov 16 & 17; Alfredo Vaquera Nov 13."
+      },
+      {
+        "t": "SM Energy readiness still lowest at 80.0% (16/20)",
+        "d": "Trailer inspection slipped to 92.3% (Dawson Drake missed both inspection and readiness Nov 16)."
+      },
+      {
+        "t": "Repeat offenders (misses in both weeks or longer)",
+        "d": "Kedrick McCarter (third straight week), Michael Hutt (third straight week), Hayden Haugh (third straight week), Larry Taylor, Brianda Sandoval (readiness again + false PPE), Gage Gonzales, Allen White."
+      },
+      {
+        "t": "Integrity: Reused/backdated or missing JSAs",
+        "d": "Dennis Easley – no JSA Nov 15; uploaded the JSA from the 16th on Nov 17 (SM)."
+      },
+      {
+        "t": "Integrity: Jobs not paused in StreetSmart",
+        "d": "Gage Gonzales (Nov 16, 17, Diamondback)."
+      },
+      {
+        "t": "Integrity: Photos taken before system verified",
+        "d": "Michael Ellis (Rose City rig-up, Nov 16) – did not verify the OTIS system was operational; all sensors read F14 fault."
+      },
+      {
+        "t": "Integrity: Missing trailer photos",
+        "d": "Brey Rasco (Nov 13; also Nov 11 with Benjamin Boutte) – ongoing since at least Nov 1."
+      },
+      {
+        "t": "Integrity: Larry Taylor said he could not do inspections Nov 12 due to cement/construction on sites",
+        "d": "No inspection Nov 13."
+      },
+      {
+        "t": "StreetSmart problems",
+        "d": "Jerry Gonzales photos did not come through (Nov 13) – not counted against him."
       },
       {
         "t": "Equipment to close out",
-        "d": "SCBA out of hydro (Kirschke, SM Energy, 10/23) · SCBA count discrepancy on Blassingame's XTO job (10/27). Still open from prior weeks: Forbes's SABA/SCBA hydro (BPX), Ovintiv sensor batteries and dead sensors, SM workpack hydro, and White's fire extinguisher, which expires 10/31."
-      },
-      {
-        "t": "Other",
-        "d": "Night forms 3 of 5 — a small sample, but both misses are Boutte's. Finish the 10/28 audits (about 25% done)."
+        "d": "Rose City rig-up – all sensors reading F14 fault / OTIS system not verified (Nov 16). · SM (Brey Rasco / Benjamin Boutte) – sensor needs to be replaced (Nov 13); mask bags and tags were out of date Nov 6. · SM (Dennis Easley) – one SABA low on air (Nov 13). · Diamondback (Alfredo Vaquera) – new mask bags and tags needed (Nov 12); low bottles noted Nov 9. · Carry-over, no update in the file: Trailer 138 extinguisher monthly (Comstock); Comstock sensor head \"err\"/LEL errors; Bobby Fleming's 2 sensors out of calibration and out-of-hydro work pack; Ruben Rojo's Ovintiv SCBA dates/sensor battery; Trailer 605 extinguisher annual and Trailer 175 annual (Ray notified); Josh Blassingame's extinguisher expiring end of November."
       }
     ],
     "needsAttention": [
       {
         "rank": 1,
-        "tech": "Brey Rasco",
-        "missed": 2,
-        "pct": "33.3% (1/3)",
-        "day": 2,
+        "tech": "Kedrick McCarter",
+        "missed": 4,
+        "pct": "55.6% (5/9)",
+        "day": 4,
         "night": 0,
         "insp": 0,
         "ready": 0,
-        "last": "10/27",
-        "cust": "SM Energy — 3rd report on the list"
+        "last": "Nov 17",
+        "cust": "Ovintiv — prior week 2"
       },
       {
         "rank": 2,
         "tech": "Benjamin Boutte",
         "missed": 2,
-        "pct": "50.0% (2/4)",
+        "pct": "60.0% (3/5)",
         "day": 0,
         "night": 2,
         "insp": 0,
         "ready": 0,
-        "last": "10/25",
-        "cust": "SM Energy — night daily inspections"
+        "last": "Nov 15",
+        "cust": "SM Energy — prior week 0"
       },
       {
         "rank": 3,
         "tech": "Gage Gonzales",
         "missed": 2,
-        "pct": "60.0% (3/5)",
-        "day": 1,
+        "pct": "66.7% (4/6)",
+        "day": 2,
         "night": 0,
         "insp": 0,
-        "ready": 1,
-        "last": "10/23",
-        "cust": "XTO — Exxon JSA / atmos log 10/22"
+        "ready": 0,
+        "last": "Nov 17",
+        "cust": "Diamondback — prior week 1"
       },
       {
         "rank": 4,
-        "tech": "Brianda Sandoval",
+        "tech": "Larry Taylor",
         "missed": 2,
-        "pct": "60.0% (3/5)",
-        "day": 1,
+        "pct": "66.7% (4/6)",
+        "day": 2,
         "night": 0,
         "insp": 0,
-        "ready": 1,
-        "last": "10/23",
-        "cust": "SM Energy — job not paused 10/22"
+        "ready": 0,
+        "last": "Nov 13",
+        "cust": "Comstock — prior week 3"
       },
       {
         "rank": 5,
-        "tech": "Jimmy White",
+        "tech": "Michael Hutt",
         "missed": 2,
         "pct": "66.7% (4/6)",
         "day": 0,
-        "night": 0,
+        "night": 2,
         "insp": 0,
-        "ready": 2,
-        "last": "10/23",
-        "cust": "XTO — new to the list"
+        "ready": 0,
+        "last": "Nov 16",
+        "cust": "Southwest Operating — prior week 2"
       },
       {
         "rank": 6,
-        "tech": "Michael Jobe",
+        "tech": "Brianda Sandoval",
         "missed": 2,
-        "pct": "84.6% (11/13)",
+        "pct": "85.7% (12/14)",
         "day": 0,
         "night": 0,
         "insp": 0,
         "ready": 2,
-        "last": "10/26",
-        "cust": "XTO / SM — normally a top performer"
+        "last": "Nov 16",
+        "cust": "SM Energy — prior week 2"
       },
       {
         "rank": 7,
-        "tech": "Josh Blassingame",
+        "tech": "Dawson Drake",
+        "missed": 2,
+        "pct": "88.9% (16/18)",
+        "day": 0,
+        "night": 0,
+        "insp": 1,
+        "ready": 1,
+        "last": "Nov 16",
+        "cust": "SM Energy — prior week 0"
+      },
+      {
+        "rank": 8,
+        "tech": "Alfredo Vaquera",
         "missed": 1,
-        "pct": "88.9% (8/9)",
+        "pct": "80.0% (4/5)",
         "day": 1,
         "night": 0,
         "insp": 0,
         "ready": 0,
-        "last": "10/24",
-        "cust": "Sulphur River / XTO — no JSA on 3 jobs 10/27, SCBA count"
-      }
-    ],
-    "needsAttentionNote": "19 techs missed at least one form; 25 misses total. Twelve more had one miss each, all trailer readiness except Haugh (day form) and Drake (trailer inspection): McCarter, Haugh, Sanders, Bailey, Caleb Smith, Clubb, Kirschke, Avila, Flores, Zarate, Drake, Norris.",
-    "progressLabel": "Every tech on last report's attention list improved",
-    "progress": "Bryan Medlin 22/28 → 11/11 perfect · Joseph Popillion 5/10 → 7/7 perfect · Bobby Galindo 10/14 → 7/7 perfect · Dennis Easley 4/7 → 3/3 perfect · Allen White 5/6 → 3/3 perfect (after four weeks of missed daily forms) · Hayden Haugh 1/4 → 5/6 · Kedrick McCarter 4/8 → 5/6 · Andrew Bailey 3/5 → 7/8 · Brey Rasco 3/9 → 1/3, no JSA flags. Integrity cleared: no false PPE entries for the second week running, no backdated paperwork, no undated JSAs, no old-photo or \"N/A photo\" flags. Morning trailer inspections missed once (down from 6).",
-    "bestTitle": "Best of the Week — 22 of 40 qualifying techs with zero misses",
-    "best": [
-      {
-        "rank": 1,
-        "tech": "Robbie Henigan",
-        "pct": "100%",
-        "ratio": "0 / 11",
-        "shifts": 7,
-        "cust": "XTO"
-      },
-      {
-        "rank": 2,
-        "tech": "Humberto Salazar",
-        "pct": "100%",
-        "ratio": "0 / 10",
-        "shifts": 7,
-        "cust": "XTO"
-      },
-      {
-        "rank": 3,
-        "tech": "Larry Taylor",
-        "pct": "100%",
-        "ratio": "0 / 8",
-        "shifts": 7,
-        "cust": "Comstock"
-      },
-      {
-        "rank": 4,
-        "tech": "Nathan Contreras",
-        "pct": "100%",
-        "ratio": "0 / 13",
-        "shifts": 6,
-        "cust": "XTO"
-      },
-      {
-        "rank": 5,
-        "tech": "Ralph Forbes",
-        "pct": "100%",
-        "ratio": "0 / 12",
-        "shifts": 6,
-        "cust": "XTO"
-      },
-      {
-        "rank": 6,
-        "tech": "Jordan Lemmons",
-        "pct": "100%",
-        "ratio": "0 / 11",
-        "shifts": 6,
-        "cust": "SM Energy"
-      },
-      {
-        "rank": 7,
-        "tech": "Bryan Medlin",
-        "pct": "100%",
-        "ratio": "0 / 11",
-        "shifts": 6,
-        "cust": "XTO"
-      },
-      {
-        "rank": 8,
-        "tech": "Joseph Popillion",
-        "pct": "100%",
-        "ratio": "0 / 7",
-        "shifts": 6,
-        "cust": "XTO"
+        "last": "Nov 13",
+        "cust": "Diamondback — prior week 0"
       },
       {
         "rank": 9,
-        "tech": "Dermont Morgan",
-        "pct": "100%",
-        "ratio": "0 / 6",
-        "shifts": 6,
-        "cust": "XTO"
+        "tech": "Allen White",
+        "missed": 1,
+        "pct": "80.0% (4/5)",
+        "day": 1,
+        "night": 0,
+        "insp": 0,
+        "ready": 0,
+        "last": "Nov 14",
+        "cust": "TGNR — prior week 1"
       },
       {
         "rank": 10,
-        "tech": "Justin Pack",
-        "pct": "100%",
-        "ratio": "0 / 6",
-        "shifts": 6,
-        "cust": "FESCO (XTO)"
+        "tech": "Caleb Smith",
+        "missed": 1,
+        "pct": "80.0% (4/5)",
+        "day": 0,
+        "night": 0,
+        "insp": 0,
+        "ready": 1,
+        "last": "Nov 13",
+        "cust": "SM Energy — prior week 0"
       },
       {
         "rank": 11,
-        "tech": "William \"Jimmy\" Cooper",
-        "pct": "100%",
-        "ratio": "0 / 6",
-        "shifts": 6,
-        "cust": "XTO"
+        "tech": "Rolando Flores",
+        "missed": 1,
+        "pct": "87.5% (7/8)",
+        "day": 0,
+        "night": 1,
+        "insp": 0,
+        "ready": 0,
+        "last": "Nov 16",
+        "cust": "Ovintiv — prior week 0"
       },
       {
         "rank": 12,
-        "tech": "Raymundo Solis",
-        "pct": "100%",
-        "ratio": "0 / 8",
-        "shifts": 5,
-        "cust": "XTO"
+        "tech": "Michael Jobe",
+        "missed": 1,
+        "pct": "90.0% (9/10)",
+        "day": 0,
+        "night": 0,
+        "insp": 0,
+        "ready": 1,
+        "last": "Nov 13",
+        "cust": "SM Energy — prior week 0"
       },
       {
         "rank": 13,
-        "tech": "Bobby Galindo",
-        "pct": "100%",
-        "ratio": "0 / 7",
-        "shifts": 5,
-        "cust": "XTO"
+        "tech": "Hayden Haugh",
+        "missed": 1,
+        "pct": "90.9% (10/11)",
+        "day": 1,
+        "night": 0,
+        "insp": 0,
+        "ready": 0,
+        "last": "Nov 15",
+        "cust": "SM Energy — prior week 1"
       },
       {
         "rank": 14,
-        "tech": "Jerry Gonzales",
+        "tech": "Robbie Henigan",
+        "missed": 1,
+        "pct": "92.3% (12/13)",
+        "day": 0,
+        "night": 0,
+        "insp": 0,
+        "ready": 1,
+        "last": "Nov 15",
+        "cust": "XTO Energy — prior week 0"
+      }
+    ],
+    "needsAttentionNote": "14 techs missed at least one check; 23 misses across the four checks",
+    "progressLabel": "Improvements vs prior week",
+    "progress": "ETX day forms 82.9% → 89.3%; ETX problem flags 15 → 6 · Comstock day forms 66.7% → 75.0% (misses 5 → 2) · Air jobs day forms 100% for the third straight week (138/138) · No old/reused/\"N/A\" photo, missing Exxon JSA or atmospheric testing log notes were recorded this week. Techs who improved (0 misses this week): Marcos Morales (1 → 0, 8/8), Jordan Lemmons (1 → 0, 13/13), Michael Ellis (1 → 0, 6/6), Dermont Morgan (1 → 0, 5/5), Dennis Easley (1 → 0, 6/6 – but see JSA issues), Brey Rasco (1 → 0, 3/3 – but trailer photos missing again), Ruben Rojo (1 → 0, small sample). Larry Taylor improved slightly (3 → 2 misses).",
+    "bestTitle": "Best of the Week — 20 techs at 100% (3+ audited shifts)",
+    "best": [
+      {
+        "rank": 1,
+        "tech": "Joseph Popillion",
         "pct": "100%",
-        "ratio": "0 / 10",
+        "ratio": "9/9",
+        "shifts": 9,
+        "cust": "second perfect week running"
+      },
+      {
+        "rank": 2,
+        "tech": "Ralph Forbes",
+        "pct": "100%",
+        "ratio": "14/14",
+        "shifts": 8,
+        "cust": "100% this week"
+      },
+      {
+        "rank": 3,
+        "tech": "Marcos Morales",
+        "pct": "100%",
+        "ratio": "8/8",
+        "shifts": 8,
+        "cust": "turnaround from 1 miss"
+      },
+      {
+        "rank": 4,
+        "tech": "Stefanie Kirschke",
+        "pct": "100%",
+        "ratio": "13/13",
+        "shifts": 8,
+        "cust": "second perfect week"
+      },
+      {
+        "rank": 5,
+        "tech": "Alexander Clubb",
+        "pct": "100%",
+        "ratio": "10/10",
+        "shifts": 7,
+        "cust": "100% this week"
+      },
+      {
+        "rank": 6,
+        "tech": "William \"Jimmy\" Cooper",
+        "pct": "100%",
+        "ratio": "9/9",
+        "shifts": 7,
+        "cust": "100% this week"
+      },
+      {
+        "rank": 7,
+        "tech": "Jordan Lemmons",
+        "pct": "100%",
+        "ratio": "13/13",
+        "shifts": 6,
+        "cust": "turnaround"
+      },
+      {
+        "rank": 8,
+        "tech": "Humberto Salazar",
+        "pct": "100%",
+        "ratio": "12/12",
+        "shifts": 6,
+        "cust": "100% this week"
+      },
+      {
+        "rank": 9,
+        "tech": "Justin Pack",
+        "pct": "100%",
+        "ratio": "6/6",
+        "shifts": 6,
+        "cust": "100% this week"
+      },
+      {
+        "rank": 10,
+        "tech": "Luis Zarate",
+        "pct": "100%",
+        "ratio": "6/6",
+        "shifts": 5,
+        "cust": "100% this week"
+      },
+      {
+        "rank": 11,
+        "tech": "Trevor McKenzie",
+        "pct": "100%",
+        "ratio": "6/6",
+        "shifts": 5,
+        "cust": "100% this week"
+      },
+      {
+        "rank": 12,
+        "tech": "Andrew Bailey",
+        "pct": "100%",
+        "ratio": "perfect",
         "shifts": 4,
-        "cust": "XTO"
+        "cust": "100% this week"
+      },
+      {
+        "rank": 13,
+        "tech": "Pablo Soto",
+        "pct": "100%",
+        "ratio": "perfect",
+        "shifts": 4,
+        "cust": "100% this week"
+      },
+      {
+        "rank": 14,
+        "tech": "Justin Fontenot",
+        "pct": "100%",
+        "ratio": "perfect",
+        "shifts": 4,
+        "cust": "100% this week"
       },
       {
         "rank": 15,
-        "tech": "Jacob Hernandez",
+        "tech": "Josh Blassingame",
         "pct": "100%",
-        "ratio": "0 / 7",
+        "ratio": "perfect",
         "shifts": 4,
-        "cust": "XTO"
+        "cust": "100% this week"
       },
       {
         "rank": 16,
-        "tech": "Ruben Rojo",
+        "tech": "Dermont Morgan",
         "pct": "100%",
-        "ratio": "0 / 7",
+        "ratio": "perfect",
         "shifts": 4,
-        "cust": "XTO"
+        "cust": "turnaround"
       },
       {
         "rank": 17,
-        "tech": "Cindy Smith",
+        "tech": "Bobby Fleming",
         "pct": "100%",
-        "ratio": "0 / 5",
-        "shifts": 4,
-        "cust": "XTO"
+        "ratio": "perfect",
+        "shifts": 3,
+        "cust": "100% this week"
       },
       {
         "rank": 18,
-        "tech": "Michael Ellis",
+        "tech": "Barthol \"BJ\" Caesar",
         "pct": "100%",
-        "ratio": "0 / 4",
-        "shifts": 4,
-        "cust": "Comstock"
+        "ratio": "perfect",
+        "shifts": 3,
+        "cust": "100% this week"
       },
       {
         "rank": 19,
-        "tech": "Dennis Easley",
+        "tech": "Raymundo Solis",
         "pct": "100%",
-        "ratio": "0 / 3",
+        "ratio": "perfect",
         "shifts": 3,
-        "cust": "SM Energy"
+        "cust": "100% this week"
       },
       {
         "rank": 20,
-        "tech": "Allen White",
+        "tech": "Jerry Gonzales",
         "pct": "100%",
-        "ratio": "0 / 3",
+        "ratio": "perfect",
         "shifts": 3,
-        "cust": "Hilcorp"
-      },
-      {
-        "rank": 21,
-        "tech": "Baldemar Bracamontes",
-        "pct": "100%",
-        "ratio": "0 / 3",
-        "shifts": 3,
-        "cust": "XTO"
+        "cust": "note: false FRC entry Nov 11, last day of prior week"
       }
     ],
-    "bestAlso": "Also perfect: Larry Jaramillo (0/8; no PPE flags for two weeks — still under the false-PPE escalation, so not called out). Near-perfect: Dawson Drake 95.0% (1/20, 12 shifts), Luis Zarate 93.8% (1/16).",
-    "bestNotes": [
-      "Comebacks to name out loud: Bryan Medlin and Joseph Popillion went from last report's attention list to perfect; Bobby Galindo, Dennis Easley and Allen White were perfect too.",
-      "Consistent all-stars: Robbie Henigan and Humberto Salazar (perfect three reports running), Raymundo Solis, Ralph Forbes (back to perfect), Justin Pack (6/6).",
-      "Dawson Drake: 19 of 20 on 12 shifts — the heaviest load on the list, one miss."
-    ],
+    "bestAlso": "Excluded from recognition due to false PPE entries this week: Jeremy Norris (7 shifts, 100%), Bryan Medlin (8, 100%), Larry Jaramillo (6, 100%), Tyrell Sanders (6, 100%), Gael Avila (7, 100%), Bobby Galindo (4, 100%). Also held back (other integrity flags, my judgment): Dennis Easley (JSA), Brey Rasco (trailer photos), Michael Ellis (F14 photos). Next best: Robbie Henigan 12/13 (92.3%), Hayden Haugh 10/11 (90.9%), Michael Jobe 9/10 (90.0%), Dawson Drake 16/18 (88.9%).",
+    "bestNotes": [],
     "actions": [
-      "Recognize the crew: best week since tracking began. Call out the comebacks (Medlin, Popillion, Galindo, Easley, White) and the all-stars.",
-      "Trailer readiness: brief SM Energy crews this week (53%), and decide on a process fix for readiness across XTO and SM (checkpoint at dispatch or a StreetSmart prompt).",
-      "Talk to Josh Blassingame about JSAs and the SCBA count, Benjamin Boutte about night daily forms, and Brey Rasco about daily forms.",
-      "Confirm Gage Gonzales uploaded his paperwork, Medlin sends his missing photos, and BJ Caesar's StreetSmart access is fixed.",
-      "Equipment: swap Kirschke's SCBA (out of hydro), verify the SCBA count on Blassingame's XTO job, replace White's fire extinguisher by 10/31, and close Forbes's SABA/SCBA hydro, the Ovintiv sensors and the SM workpack.",
-      "Finish the 10/28 audits (about 25% done)."
+      "False FRC entries are rising (4 → 7 techs). Address the XTO crew as a group, with direct follow-up for Norris, Jaramillo and Medlin (repeat every week this month).",
+      "Escalate Kedrick McCarter – 4 consecutive missed daily inspections at Ovintiv on top of earlier issues.",
+      "Night techs: call Michael Hutt and Benjamin Boutte about daily inspections (night forms down to 76%).",
+      "Gage Gonzales: coach on pausing jobs in StreetSmart. Dennis Easley: daily, dated, job-specific JSAs.",
+      "Brey Rasco: trailer photos are still missing after several weeks – needs a firm follow-up.",
+      "Trailer readiness reminder for SM crews (Brianda Sandoval, Dawson Drake, Michael Jobe, Caleb Smith).",
+      "Close out the Rose City F14 faults, SM sensor/SABA, Diamondback mask bags, and confirm status of the carry-over items above.",
+      "Audit Nov 18 and the 7 un-audited Nov 12 rows so they can be counted."
     ],
     "ingested": {
-      "folder": "2026-10-29_0757_cZhkuAAA",
-      "received": "2026-10-29T07:57",
-      "curated": true
+      "folder": "2026-11-19_0800_hwH6YAAA",
+      "received": "2026-11-19T08:00",
+      "format": "v2"
+    },
+    "falsePpe": {
+      "title": "False PPE entries: 7 techs, 12 entries, up from 4 techs last week",
+      "detail": "Marked wearing company FRC/coveralls on the form but were not. All on XTO jobs (air jobs and davit arm).",
+      "cases": [
+        "Jeremy Norris (Nov 12, 16, 17 – 3×)",
+        "Larry Jaramillo (Nov 12, 13, 16 – 3×; also Nov 3 & 6)",
+        "Bryan Medlin (Nov 12, 16; also Nov 6, 7, 11)",
+        "Gael Avila (Nov 12)",
+        "Brianda Sandoval (Nov 14)",
+        "Tyrell Sanders (Nov 16)",
+        "Bobby Galindo (Nov 16)"
+      ]
     }
   },
   "month": {
@@ -2638,52 +2753,453 @@
     }
   },
   "quick": {
-    "label": "Week of Oct 22–28",
-    "headline": "Best week since tracking began in September",
+    "label": "Week of Nov 12–18",
+    "headline": "Trailer readiness edged up 88.6% → 89.3%; XTO readiness 92.2% → 94.4%, and XTO day forms stayed 100% (133/133)",
     "tiles": [
       {
         "m": "Day forms",
-        "v": "97%",
-        "chg": "▲ 6 pts",
+        "v": "95%",
+        "chg": "▼ 0.6 pts",
         "tone": "ok"
+      },
+      {
+        "m": "Night forms",
+        "v": "76%",
+        "chg": "▼ 14.7 pts",
+        "tone": "bad"
       },
       {
         "m": "Trailer inspection",
         "v": "98%",
-        "chg": "▲ 9 pts",
-        "tone": "ok"
-      },
-      {
-        "m": "Trailer readiness",
-        "v": "73%",
-        "chg": "▼ 13 pts",
+        "chg": "▼ 1.8 pts",
         "tone": "bad"
       },
       {
-        "m": "Missed forms",
-        "v": "25",
-        "chg": "▼ from 57",
+        "m": "Trailer readiness",
+        "v": "89%",
+        "chg": "▲ 0.7 pts",
         "tone": "ok"
+      },
+      {
+        "m": "Missed forms",
+        "v": "16",
+        "chg": "from 12",
+        "tone": "bad"
       }
     ],
     "hits": [
       {
         "k": "Win",
-        "t": "22 of 40 techs perfect. No false PPE, backdated paperwork, undated JSAs or bad photos — second week running."
+        "t": "Trailer readiness edged up 88.6% → 89.3%; XTO readiness 92.2% → 94.4%, and XTO day forms stayed 100% (133/133)."
       },
       {
         "k": "Gap",
-        "t": "Trailer readiness on every move — SM Energy 8 of 15 (53%), XTO 36 of 45 (80%)."
+        "t": "Night forms dropped 90.9% → 76.2% (16/21)."
       },
       {
         "k": "Talk to",
-        "t": "Blassingame (JSAs, SCBA count) · Boutte (night forms) · Rasco (daily forms)."
+        "t": "Escalate Kedrick McCarter – 4 consecutive missed daily inspections at Ovintiv on top of earlier issues."
       },
       {
         "k": "Close out",
-        "t": "Kirschke's SCBA hydro · White's extinguisher by 10/31 · Gonzales's Exxon paperwork · Medlin's photos · BJ Caesar's StreetSmart access."
+        "t": "Close out the Rose City F14 faults, SM sensor/SABA, Diamondback mask bags, and confirm status of the carry-over items above."
       }
     ],
-    "received": "2026-10-29T07:57"
+    "received": "2026-11-19T08:00"
+  },
+  "midmonth": {
+    "label": "Mid-Month Check-In – November 1–18, 2026",
+    "source": "Matt Croom's mid-month check-in (received 11/19) from the Daily Internal Compliance 2026 workbook. Caveats: November is month-to-date. Nov 18 is entered but not audited, and Nov 12 is 90% audited. August has thin audit coverage on Aug 29 and Aug 31. False PPE counts come from auditor notes that say the tech marked company FRC/coveralls but wasn't wearing them; earlier months may have used different wording, so September counts may be low.",
+    "trend": [
+      {
+        "month": "August",
+        "jobs": "1,498",
+        "day": "88.1% (926/1,051)",
+        "night": "55.4% (82/148)",
+        "insp": "81.6% (209/256)",
+        "ready": "70.3% (149/212)",
+        "overall": "81.9%",
+        "misses": "301",
+        "flags": "235"
+      },
+      {
+        "month": "September",
+        "jobs": "1,788",
+        "day": "89.4% (1,232/1,378)",
+        "night": "42.3% (41/97)",
+        "insp": "82.0% (251/306)",
+        "ready": "68.5% (198/289)",
+        "overall": "83.2%",
+        "misses": "348",
+        "flags": "339"
+      },
+      {
+        "month": "October",
+        "jobs": "1,643",
+        "day": "94.3% (1,134/1,202)",
+        "night": "77.6% (59/76)",
+        "insp": "91.6% (283/309)",
+        "ready": "78.1% (228/292)",
+        "overall": "90.7%",
+        "misses": "175",
+        "flags": "171"
+      },
+      {
+        "month": "November (1–18)",
+        "jobs": "923",
+        "day": "95.8% (612/639)",
+        "night": "83.3% (35/42)",
+        "insp": "98.8% (165/167)",
+        "ready": "88.8% (150/169)",
+        "overall": "94.6%",
+        "misses": "55",
+        "flags": "99"
+      }
+    ],
+    "trendNote": "Every check is at its best level of the four months. Overall completion has gone from 81.9% in August to 94.6% so far in November. Trailer inspection rose 17 points and readiness 18 points since August. November misses are running at about half of October's pace (55 in 18 days vs 175 in 31). One thing went the other way: false PPE entries. There were 9 in October and 21 so far in November, across 9 techs.",
+    "improved": [
+      {
+        "tech": "Brey Rasco",
+        "sep": "74.1%",
+        "oct": "50.0%",
+        "nov": "91.7% (1/12 missed)",
+        "chg": "+41.7 pts",
+        "note": "Forms much better, but trailer photos are still missing repeatedly (Nov 1, 3, 4, 5, 11, 13). Missed his inspection form and JSA on Nov 10."
+      },
+      {
+        "tech": "Joseph Popillion",
+        "sep": "28.6%",
+        "oct": "70.3%",
+        "nov": "100% (21/21)",
+        "chg": "+29.7 pts",
+        "note": "Perfect all November. From 29% in September to 100% now – the strongest sustained turnaround."
+      },
+      {
+        "tech": "Bobby Galindo",
+        "sep": "71.1%",
+        "oct": "84.8%",
+        "nov": "100% (23/23)",
+        "chg": "+15.2 pts",
+        "note": "Perfect on forms; 1 false FRC entry (Nov 16)."
+      },
+      {
+        "tech": "Dermont Morgan",
+        "sep": "68.0%",
+        "oct": "80.0%",
+        "nov": "92.9% (13/14)",
+        "chg": "+12.9 pts",
+        "note": "Steady climb for three months."
+      },
+      {
+        "tech": "Andrew Bailey",
+        "sep": "84.8%",
+        "oct": "88.2%",
+        "nov": "100% (27/27)",
+        "chg": "+11.8 pts",
+        "note": "Perfect November; false FR entry on Oct 31, clean since."
+      },
+      {
+        "tech": "Benjamin Boutte",
+        "sep": "68.2%",
+        "oct": "76.7%",
+        "nov": "86.7% (13/15)",
+        "chg": "+10.0 pts",
+        "note": "Improving, but missed night inspections Nov 14 & 15."
+      },
+      {
+        "tech": "Allen White",
+        "sep": "66.7%",
+        "oct": "76.9%",
+        "nov": "86.7% (13/15)",
+        "chg": "+9.7 pts",
+        "note": "Up 20 points since September; still missing occasional daily inspections (Nov 9, 14)."
+      },
+      {
+        "tech": "Gael Avila",
+        "sep": "81.8%",
+        "oct": "85.4%",
+        "nov": "95.0% (19/20)",
+        "chg": "+9.6 pts",
+        "note": "1 false coverall entry (Nov 12)."
+      },
+      {
+        "tech": "Ruben Rojo",
+        "sep": "85.7%",
+        "oct": "87.0%",
+        "nov": "96.3% (26/27)",
+        "chg": "+9.3 pts",
+        "note": "Equipment notes on Ovintiv rig-up (Nov 9: SCBA dated \"12-9\", no repeater)."
+      },
+      {
+        "tech": "Michael Jobe",
+        "sep": "97.3%",
+        "oct": "88.4%",
+        "nov": "97.4% (37/38)",
+        "chg": "+9.0 pts",
+        "note": "Back to his September level on a heavy load."
+      }
+    ],
+    "improvedHeld": [
+      "Bryan Medlin",
+      "Jeremy Norris"
+    ],
+    "turnarounds": [
+      "Marcos Morales – 4.3% in September (22 of 23 checks missed) → 95.0% in November (19/20). Too few October checks to rank above, but the biggest turnaround in the file.",
+      "Dawson Drake – 52.5% (29 misses) in September → 92.8% October → 93.1% November.",
+      "Michael Ellis – 60.7% → 91.7% → 93.8%. Paperwork issues remain (confined space logs Nov 5–6; F14 photos Nov 16).",
+      "Alfredo Vaquera – 54.2% → 93.3% → 92.3%.",
+      "Dennis Easley – 72.2% → 88.0% → 94.1%. JSA problems this month: missing Nov 5 and 15, reused on Nov 17."
+    ],
+    "attention": [
+      {
+        "rank": 1,
+        "tech": "Kedrick McCarter",
+        "misses": "7",
+        "nov": "63.2% (12/19)",
+        "oct": "60.0%",
+        "sep": "38.9%",
+        "trend": "Chronic",
+        "note": "Lowest regular tech for three months. Missed daily inspections Nov 14–17 (four in a row) at Ovintiv; job not started Nov 5; undated JSA Nov 3."
+      },
+      {
+        "rank": 2,
+        "tech": "Michael Hutt",
+        "misses": "5",
+        "nov": "64.3% (9/14)",
+        "oct": "96.0%",
+        "sep": "95.0%",
+        "trend": "Sharp decline (−32 pts)",
+        "note": "Was a top performer. Missed daily inspections Nov 6, 11, 14, 16; no photos/explanation on the Nov 3 alarm call."
+      },
+      {
+        "rank": 3,
+        "tech": "Larry Taylor",
+        "misses": "5",
+        "nov": "78.3% (18/23)",
+        "oct": "97.2%",
+        "sep": "87.9%",
+        "trend": "Decline (−19 pts)",
+        "note": "Comstock inspections missed Nov 5, 7, 13; reused Nov 8 JSA on Nov 9; cited cement/construction Nov 12."
+      },
+      {
+        "rank": 4,
+        "tech": "Brianda Sandoval",
+        "misses": "4",
+        "nov": "89.2% (33/37)",
+        "oct": "87.5%",
+        "sep": "82.1%",
+        "trend": "Flat",
+        "note": "All 4 misses are trailer readiness (Nov 5, 9, 15, 16); false FRC entry Nov 14."
+      },
+      {
+        "rank": 5,
+        "tech": "Josh Blassingame",
+        "misses": "3",
+        "nov": "76.9% (10/13)",
+        "oct": "79.3%",
+        "sep": "86.2%",
+        "trend": "Slipping",
+        "note": "Missed daily inspections Nov 1, 2, 4 (Machin). Perfect since that job ended."
+      },
+      {
+        "rank": 6,
+        "tech": "Gage Gonzales",
+        "misses": "3",
+        "nov": "78.6% (11/14)",
+        "oct": "77.8%",
+        "sep": "87.0%",
+        "trend": "Stuck ~78%",
+        "note": "No JSA Nov 5; job not paused Nov 16, 17 (Diamondback)."
+      },
+      {
+        "rank": 7,
+        "tech": "Hayden Haugh",
+        "misses": "3",
+        "nov": "80.0% (12/15)",
+        "oct": "80.6%",
+        "sep": "80.0%",
+        "trend": "Stuck at 80%",
+        "note": "Missed daily inspections Nov 4, 6, 15 – one every week this month."
+      },
+      {
+        "rank": 8,
+        "tech": "Allen White",
+        "misses": "2",
+        "nov": "86.7% (13/15)",
+        "oct": "76.9%",
+        "sep": "66.7%",
+        "trend": "Improving",
+        "note": "Trailer 138 extinguisher still open from Nov 1 / Nov 8."
+      },
+      {
+        "rank": 9,
+        "tech": "Benjamin Boutte",
+        "misses": "2",
+        "nov": "86.7% (13/15)",
+        "oct": "76.7%",
+        "sep": "68.2%",
+        "trend": "Improving",
+        "note": "Missed night inspections Nov 14–15; no trailer photos Nov 11."
+      },
+      {
+        "rank": 10,
+        "tech": "Nathan Contreras",
+        "misses": "2",
+        "nov": "90.9% (20/22)",
+        "oct": "93.8%",
+        "sep": "90.1%",
+        "trend": "Flat",
+        "note": "Readiness misses; false PPE Nov 6 (\"wearing jean\"), 2 in October."
+      }
+    ],
+    "integrity": [
+      {
+        "tech": "Larry Jaramillo",
+        "oct": "3",
+        "nov": "5",
+        "comp": "100% (34/34)",
+        "note": "8 entries since Oct 5 – the most of anyone"
+      },
+      {
+        "tech": "Bryan Medlin",
+        "oct": "0",
+        "nov": "5",
+        "comp": "100% (44/44)",
+        "note": "New this month, now almost every week"
+      },
+      {
+        "tech": "Jeremy Norris",
+        "oct": "2",
+        "nov": "4",
+        "comp": "97.1% (33/34)",
+        "note": "6 since October; plus missing Exxon JSA Nov 3"
+      },
+      {
+        "tech": "Jerry Gonzales",
+        "oct": "0",
+        "nov": "2",
+        "comp": "100% (22/22)",
+        "note": "Nov 6, 11"
+      },
+      {
+        "tech": "Nathan Contreras",
+        "oct": "2",
+        "nov": "1",
+        "comp": "90.9%",
+        "note": "Nov 6"
+      },
+      {
+        "tech": "Gael Avila, Tyrell Sanders, Bobby Galindo, Brianda Sandoval",
+        "oct": "0",
+        "nov": "1 each",
+        "comp": "89–100%",
+        "note": "First flags this month (Nov 12–16)"
+      }
+    ],
+    "integrityFoot": "All November entries were on XTO jobs. Medlin, Jaramillo and Norris would otherwise rank among the best performers this month.",
+    "best": [
+      {
+        "rank": 1,
+        "tech": "Cindy Smith",
+        "span": "98.6% (71 checks)",
+        "sep": "100%",
+        "oct": "97.5%",
+        "nov": "100% (13)"
+      },
+      {
+        "rank": 2,
+        "tech": "Raymundo Solis",
+        "span": "98.0% (98)",
+        "sep": "94.3%",
+        "oct": "100%",
+        "nov": "100% (17)"
+      },
+      {
+        "rank": 3,
+        "tech": "Humberto Salazar",
+        "span": "97.9% (94)",
+        "sep": "85.7%*",
+        "oct": "98.0%",
+        "nov": "100% (37)"
+      },
+      {
+        "rank": 4,
+        "tech": "Ralph Forbes",
+        "span": "97.4% (153)",
+        "sep": "100%",
+        "oct": "93.5%",
+        "nov": "100% (37)"
+      },
+      {
+        "rank": 5,
+        "tech": "Justin Pack",
+        "span": "96.7% (60)",
+        "sep": "93.1%",
+        "oct": "100%",
+        "nov": "100% (7)"
+      },
+      {
+        "rank": 6,
+        "tech": "Robbie Henigan",
+        "span": "96.3% (107)",
+        "sep": "90.0%",
+        "oct": "100%",
+        "nov": "97.0% (33)"
+      },
+      {
+        "rank": 7,
+        "tech": "Rolando Flores",
+        "span": "96.1% (152)",
+        "sep": "94.6%",
+        "oct": "98.2%",
+        "nov": "95.5% (22)"
+      },
+      {
+        "rank": 8,
+        "tech": "Jordan Lemmons",
+        "span": "95.3% (171)",
+        "sep": "93.2%",
+        "oct": "100%",
+        "nov": "96.7% (30)"
+      },
+      {
+        "rank": 9,
+        "tech": "Pablo Soto",
+        "span": "95.3% (149)",
+        "sep": "89.6%",
+        "oct": "100%",
+        "nov": "100% (19)"
+      },
+      {
+        "rank": 10,
+        "tech": "Michael Jobe",
+        "span": "94.8% (154)",
+        "sep": "97.3%",
+        "oct": "88.4%",
+        "nov": "97.4% (38)"
+      },
+      {
+        "rank": 11,
+        "tech": "Luis Zarate",
+        "span": "94.0% (117)",
+        "sep": "91.5%",
+        "oct": "94.0%",
+        "nov": "100% (20)"
+      }
+    ],
+    "bestIntro": "Techs with at least 40 audited checks over Sep 1 – Nov 18 and no false PPE entry in November.",
+    "bestFoot": "*Salazar had only 7 checks in September. Rolando Flores had a false FR entry Oct 31 and none since. Left off for November false PPE entries: Tyrell Sanders (97.3%), Jerry Gonzales (94.9%), Larry Jaramillo (94.9%), Bryan Medlin (93.8%).",
+    "recommendations": [
+      "Recognize: Joseph Popillion and Marcos Morales for the biggest sustained turnarounds. Recognize Cindy Smith, Raymundo Solis, Humberto Salazar, Ralph Forbes, Pablo Soto, Robbie Henigan and Jordan Lemmons for consistency.",
+      "Escalate Kedrick McCarter. He's been the lowest regular tech three months running (39% → 60% → 63%), with four straight misses this week.",
+      "Find out what changed for Michael Hutt and Larry Taylor. Both fell from 96–97% in October to 64% and 78% this month.",
+      "Put a stop to false FRC entries on the XTO crews, starting with Jaramillo, Medlin and Norris. The count has doubled versus October, even as form completion hit its best levels.",
+      "Fix the stuck-at-80% techs: Hayden Haugh and Gage Gonzales have been flat for three months. Brianda Sandoval also needs a trailer-readiness-specific follow-up.",
+      "Don't over-credit Brey Rasco's jump. His forms are better, but trailer photos have been missing on and off for weeks."
+    ],
+    "ingested": {
+      "folder": "2026-11-19_0801_hwH6ZAAA",
+      "received": "2026-11-19T08:01"
+    }
   }
 }
