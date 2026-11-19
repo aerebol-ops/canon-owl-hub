@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18",
+ "generated": "2026-11-19",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
@@ -10,16 +10,6 @@
   "weekCrews": 0
  },
  "days": [
-  {
-   "date": "2026-10-14",
-   "forms": 22,
-   "jobs": 12,
-   "flags": 2,
-   "AGT": 12,
-   "Maintenance": 0,
-   "Well Testing": 0,
-   "Other": 0
-  },
   {
    "date": "2026-10-15",
    "forms": 25,
@@ -3593,138 +3583,6 @@
    "note": "Trigger was activated when sudden rain and thunder made the MT use his stop",
    "psms": "Atmospheric Monitoring",
    "flag": true
-  },
-  {
-   "date": "2026-10-14",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Weyman 23 #5",
-   "crew": "Nathan Contreras / Gael \"Antonio\" Avila 1099",
-   "cm": "Foreman_East Ops 6",
-   "note": "Same crew and everything pretty essay",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-14",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Weyman 23 #4",
-   "crew": "Nathan Contreras / Gael \"Antonio\" Avila 1099",
-   "cm": "Foreman_East Ops 6",
-   "note": "We observe a rod hanger installed and valves replaced on pumpjack",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-14",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Preston Freeman 15A 101H",
-   "crew": "",
-   "cm": "",
-   "note": "Reconnect of wellhead parts",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-14",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "POWELL 34 10",
-   "crew": "",
-   "cm": "",
-   "note": "",
-   "psms": "",
-   "flag": false
-  },
-  {
-   "date": "2026-10-14",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "NUNN 14 1 SWD-TK554",
-   "crew": "",
-   "cm": "",
-   "note": "High benzene levels were at 10 ppm when they broke containment the wind was",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-14",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "NOBLES 3226SH",
-   "crew": "Luis Zarate / Jerry Gonzales",
-   "cm": "Foreman_West Ops 5",
-   "note": "Crew re concert to well",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-14",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "MCCLINTIC A 8H",
-   "crew": "Jeremy Norris / Humberto Salazar",
-   "cm": "Foreman_East Ops 6",
-   "note": "A disconnect with great communication and a great use of stop work authorit",
-   "psms": "Atmospheric Monitoring",
-   "flag": true
-  },
-  {
-   "date": "2026-10-14",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "MARY 18 1HB",
-   "crew": "Raymundo Solis / Tyrell Sanders",
-   "cm": "Chad Farr",
-   "note": "Hold point - had to stop the job because they had to go get parts for the r",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-14",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "KYLE 2600 UNIT 2 2625SH",
-   "crew": "Raymundo Solis / Tyrell Sanders",
-   "cm": "Andrew Mcfadden",
-   "note": "No H2s or any pressure",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-14",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "FRANK 11E 105H",
-   "crew": "Pablo Soto / Baldemar Bracomontes 1099",
-   "cm": "Joshua Hrabovsky",
-   "note": "Had pre task meeting, when we started our pretest on bleeders we noticed a",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-14",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "BROOK B-3I 9H",
-   "crew": "Pablo Soto / Baldemar Bracomontes 1099",
-   "cm": "Jeff Jones",
-   "note": "Crew had pre task meeting, with all the traffic on location we made sure to",
-   "psms": "Operational Discipline",
-   "flag": true
-  },
-  {
-   "date": "2026-10-14",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "BROOK B-3G 7H",
-   "crew": "Pablo Soto / Baldemar Bracomontes 1099",
-   "cm": "Jeff Jones",
-   "note": "All bleeders were open prior to first break, had meeting and discussed who",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
   }
  ]
 }
