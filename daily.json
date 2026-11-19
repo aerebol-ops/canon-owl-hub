@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "week": 23,
-  "day": 3,
+  "day": 4,
   "topicWeek": 13,
   "displayWeek": 14,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Operational Discipline",
     "marker": ""
   },
-  "openingMessage": "Be more concerned with your character than your reputation, because your character is what you really are, while your reputation is merely what others think you are.",
+  "openingMessage": "Failure is not fatal, but failure to change might be.",
   "openingAttribution": "John Wooden",
-  "openingWhy": "Your reputation is what the audit sees. Your character is what the wellhead sees at 3 AM with no company man in fifty miles. Out here, the gas only ever meets your character.",
+  "openingWhy": "A near-miss is the well telling you exactly how it plans to hurt somebody — free of charge. The crews that end up in the report are rarely the ones who got no warning. They're the ones who turned the warning into a story instead of a change.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,13 +168,13 @@
       "count": 1
     }
   ],
-  "leadershipThought": "We protect lives on location. We represent our clients — Exxon, Civitas, and everyone we work for. We operate with professionalism, even when no one is watching. That is our standard at Canon.",
+  "leadershipThought": "Your awareness has to be higher than your intent. Intent doesn't matter if the impact is wrong. Operate in a diverse environment — different backgrounds, different beliefs, different life experiences.",
   "yesterdaysJobs": null,
   "formReview": null,
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Work went well according to plan crew understood the job stop and the steps</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jordan Lemmons / Cindy Smith 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crew and the mt was pleased with the reading and that the job went well.</span><br><br><strong>crew worked ok with us just rain and mud slowed down the job somewhat</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Bryan Medlin / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>A little miscommunication on their part, but got them to understand what first break means. All worked out with great communication.</span><br><br><strong>Unsafe conditions was talked about due to the weather</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Raymundo Solis / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Roustabout crew made sure to double check that all nuts and bolts on the flow lines were properly tightened and secured.</span><br><br><strong>No issues to report at this time all went well</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Bobby Galindo 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Crews worked safely together</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
+  "exxonMoments": "<strong>We observed valve replacement and rod hanger installed on a pump jack</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Crews set up exclusion zones and went over lsra and Lmra in the safety meeting , crews also went over muster areas and nearest hospitals.</span><br><br><strong>We arrived at 7:20 this morning the MT decided to go to another location ca</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Bryan Medlin / Barthol \"Bj\" Caesar 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>We worked together and completed the job scoop without any incident.</span><br><br><strong>Job planned , crew working safely to complete task</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Andrew Bailey / Humberto Salazar]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>A reconnect on well head, team was thoroughly talked through on all LSRA's</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ruben Rojo / Dermont Morgan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Both teams communicated well and left no stone unturned in looking for dangerous materials or situations prior and during work.</span><br><br><strong>Canceling due to hole in casing</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Robbie Henigan 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -238,54 +238,27 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "If something goes sideways today, call it in straight — no polish, no blame. Admit it, log the lesson on your OWL form, and make sure the next crew hears it.",
-  "todaysChallengeSubtext": "“When you make a mistake, there are only three things you should ever do about it: admit it, learn from it, and don't repeat it.” — Bear Bryant",
+  "todaysChallenge": "Today's job is probably ordinary. Do the ordinary at a champion's level: the routine bleed-down, the routine cal, the routine form — better than anyone else in the Basin.",
+  "todaysChallengeSubtext": "“Champions are champions not because they do anything extraordinary but because they do the ordinary things better than anyone else.” — Chuck Noll",
   "compliance": {
-    "weekOf": "Week of November 9, 2026",
+    "weekOf": "Week of November 16, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 105,
-        "total": 110
+        "done": 85,
+        "total": 91
       },
       {
         "label": "Trailer Inspections",
-        "done": 27,
-        "total": 27
+        "done": 21,
+        "total": 22
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 24,
-        "total": 31
+        "done": 21,
+        "total": 23
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Wed 11/11"
-  },
-  "specialFocus": {
-    "week": 23,
-    "until": "2026-11-18",
-    "title": "Midweek: The Theme Is Showing Up on Location. Keep It Going.",
-    "why": "<p style='margin:0 0 8px;'><b>Jacob, midweek, and the message is landing.</b> Since Monday, crews have held for zero, stopped a disconnect over a leaking casing, and got a tag and cones in place before anyone started. That's what &ldquo;same fight&rdquo; looks like. Today is about keeping it going.</p><div style='margin:0 0 10px;padding:8px 12px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;font-size:14px;line-height:1.5;'>&ldquo;We're in the same fight together.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:4px;'>&mdash; Mike Lyons</div></div><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; WHERE WE SAW IT THIS WEEK: say these names</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Justin Pack</b>, Hughes #1: nothing to fix Friday through Tuesday. <b>Five days running.</b></li><li style='margin:0 0 4px;'><b>Andrew Bailey</b> (Tue): filed all four forms for trailer 602 solo, second day running. <b>Humberto Marquez-Salazar</b>: three inspections on 604. Both trailers fully covered.</li><li style='margin:0 0 4px;'><b>Dennis Easley</b>, Cold Snack Fed Com, and <b>Rolando Flores</b>, Buzz Hurt 36 nights (Tue): supervision dailies in and matched to the board.</li><li style='margin:0 0 4px;'><b>Justin Fontenot</b> (Tue): both air jobs complete with the Learn section filled in, second day running. <b>Josh Blassingame</b>: an eleven-hour traffic control shift closed out clean.</li><li style='margin:0 0 4px;'><b>Michael Jobe</b>, Brook N-13EN 214H (Mon): pulled up to no tag and no cones, told the person in charge, and had it fixed before work began. Find it, fix it, write it.</li><li style='margin:0 0 4px;'><b>Bryan Medlin</b>, Crawford pads (Mon): two hold points in one day. Both times Medlin waited for zero, made a plan, and kept going only when it was right.</li><li style='margin:0 0 4px;'><b>Luis Zarate</b> (Mon): well testing across eight sites, every form complete, every photo from the day.</li><li style='margin:0 0 4px;'><b>Hayden Haugh</b> and <b>Trevor McKenzie</b>: clean Monday and clean again Tuesday, Learn sections and all.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b9c8da;border-top:5px solid #1f3a5f;border-radius:8px;padding:10px 12px;background:#f5f8fc;'><div style='font-weight:800;color:#1f3a5f;margin-bottom:6px;'>&#9650; KEEP THE MOMENTUM: three for today</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Give your stop the credit it earned.</b> If you held or stopped the job, tick <i>utilized</i> and write two lines. The good calls you're making this week deserve to be counted.</li><li style='margin:0 0 4px;'><b>Keep asking \"you good?\"</b> It's showing up on location. Make it automatic by Friday.</li><li style='margin:0 0 4px;'><b>Thanksgiving is eight days out.</b> Plan the drive now: journey plan for the long ones, and text your partner when you're home.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>Ten minutes:</b> what's landing (1) &middot; names (3) &middot; momentum (2) &middot; the new hand (3) &middot; send-off (1).</div>",
-    "standardLabel": "Week 23: Operational Discipline, and Good Habits Are Contagious",
-    "standard": [
-      "<b>What you did Monday and Tuesday is the standard now</b>, not the exception.",
-      "<b>Find it, fix it, write it.</b> No tag, no cones? Tell the person in charge, fix it before work starts, and put one line on the form.",
-      "<b>A hold point is a strength.</b> Waiting for zero isn't a delay. It's the job done right.",
-      "<b>The same briefing on job 500 as job 1</b>, with both partners talking.",
-      "<b>Watch your partner the way they watch you.</b> \"You good?\" costs nothing.",
-      "<b>Holiday roads:</b> phone down, journey plan on the long drives, and nobody drives tired."
-    ],
-    "scenarios": [
-      {
-        "title": "The New Hand Is Watching",
-        "body": "Holiday coverage puts a newer hand on your crew today. They don't know you, and they're quiet. They'll watch what you do more than they'll listen to what you say. They'll see you do the mask check, ask your partner \"you good?\", hold for zero, and write the form before you leave the location. Whatever you do today is what they'll do next week when nobody's watching them. Jacob, ask the circle: who taught you a good habit just by doing it in front of you?"
-      }
-    ],
-    "questions": [
-      "What's one thing you saw a teammate do this week that you want to copy?",
-      "Who taught you a habit by example, and who are you passing it on to?",
-      "What's your plan to get home for Thanksgiving, and who knows it?"
-    ],
-    "nonNegotiable": "Keep doing the small things: \"you good?\", hold for zero, and tick \"utilized\" when you stop. Same fight, same team. We all go home for the holidays."
+    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 11/17"
   }
 }

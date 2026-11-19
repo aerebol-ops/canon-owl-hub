@@ -33,6 +33,15 @@
             "Clean board — no open watch items this week"
           ],
           "recognition": "Justin Pack — five days running with nothing to fix"
+        },
+        {
+          "date": "Thu, Nov 19",
+          "day": "Thursday",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Your awareness has to be higher than your intent. Intent doesn't matter if the impact is wrong. Operate in a diverse environment — different backgrounds, different beliefs, different life experiences.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>Justin Pack</strong> — Hughes #1, Friday through Tuesday: complete daily each day, every answer filled in, every photo from that morning.</li><li style='margin:3px 0;'><strong>Andrew Bailey and Humberto Marquez-Salazar</strong> — Tuesday: Bailey filed all four forms for trailer 602, second day running. Marquez-Salazar filed three inspections on 604.</li><li style='margin:3px 0;'><strong>Michael Jobe</strong> — Brook N-13EN 214H, Monday: told the person in charge and had it corrected before the job started. Find it, fix it, write it.</li><li style='margin:3px 0;'><strong>Luis Zarate</strong> — Monday: odometer, narrative and every photo from the day across all eight sites.</li><li style='margin:3px 0;'><strong>Hayden Haugh and Trevor McKenzie</strong> — Two days running: trailer 608 inspections and readiness with every bottle filled in, and complete air job close-outs.</li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Clean board — no open watch items this week"
+          ],
+          "recognition": "Justin Pack — five days running with nothing to fix"
         }
       ]
     },
