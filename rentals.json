@@ -99,14 +99,14 @@
     {
       "rig": "H&P 395",
       "company": "OVINTIV",
-      "location": "ST ELMO",
+      "location": "NEAL 35D 205HM",
       "status": "RUNNING",
       "active": true,
       "equipment": "REDLINE",
-      "ticket": "102870",
+      "ticket": "102870A",
       "at": "",
       "onRentSince": "2024-08-30",
-      "currentStart": "2026-11-09",
+      "currentStart": "2026-11-18",
       "lastCheck": "2026-06-21",
       "daysSinceCheck": 152,
       "checkState": "overdue"
