@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19",
+ "generated": "2026-11-20",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
@@ -10,16 +10,6 @@
   "weekCrews": 0
  },
  "days": [
-  {
-   "date": "2026-10-15",
-   "forms": 25,
-   "jobs": 13,
-   "flags": 2,
-   "AGT": 13,
-   "Maintenance": 0,
-   "Well Testing": 0,
-   "Other": 0
-  },
   {
    "date": "2026-10-16",
    "forms": 31,
@@ -3440,149 +3430,6 @@
    "note": "Crew had their correct PPE on and working safely to complete task",
    "psms": "Operational Discipline",
    "flag": false
-  },
-  {
-   "date": "2026-10-15",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "ZOEY 4-16C 103H",
-   "crew": "Jacob Hernandez / Tyrell Sanders",
-   "cm": "Wade Russom",
-   "note": "Crews prioritized atmospheric hazard testing, strict LOTO (Lockout/Tagout)",
-   "psms": "Energy Isolation",
-   "flag": false
-  },
-  {
-   "date": "2026-10-15",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Weyman 23 #6",
-   "crew": "Larry Jaramillo / Humberto Salazar",
-   "cm": "",
-   "note": "No near misses , good communication",
-   "psms": "Operational Discipline",
-   "flag": true
-  },
-  {
-   "date": "2026-10-15",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "TURNER E2-1202C 103H",
-   "crew": "Pablo Soto / Baldemar Bracomontes 1099",
-   "cm": "Wes Tankersley",
-   "note": "Tested bleeders before first break, all readings yielded a safe working atm",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-15",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "SALLY W26N 14H",
-   "crew": "Nathan Contreras / Ruben Rojo",
-   "cm": "Shelly Thiel",
-   "note": "Reconnect of newer part onto a wellhead",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-15",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "PECAN ACRES 23 PSA 2 09SH",
-   "crew": "Caleb Smith / Gael \"Antonio\" Avila 1099",
-   "cm": "Shelly Thiel",
-   "note": "Crew did a good pre task meeting and verified what Lsra they were utilizing",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-15",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "MARSH 36K 111H",
-   "crew": "Dawson Drake / Robbie Henigan 1099",
-   "cm": "",
-   "note": "Disconnect the flow line and injection",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-15",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "MARSH 36J 110H",
-   "crew": "Dawson Drake / Robbie Henigan 1099",
-   "cm": "",
-   "note": "Atmospheric Monitoring \u2014 Dawson Drake / Robbie Henigan 1099",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-15",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "HALFF 10 #2",
-   "crew": "Luis Zarate / Jerry Gonzales",
-   "cm": "",
-   "note": "Job was rescheduled for tomorrow due to crane crew not having confined spac",
-   "psms": "Confined Space Entry",
-   "flag": false
-  },
-  {
-   "date": "2026-10-15",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "COMANCHEROS 19-31 3113 3113AH",
-   "crew": "Raymundo Solis / Tyrell Sanders",
-   "cm": "Joshua Hrabovsky",
-   "note": "The crew verified real-time field and atmospheric conditions on- site rathe",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-15",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "BROOK B-3A 1H",
-   "crew": "Pablo Soto / Baldemar Bracomontes 1099",
-   "cm": "Jeff Jones",
-   "note": "Had pre task meeting, had good communication with crew and PIC about the LS",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-15",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "BEND A #1",
-   "crew": "Luis Zarate / Jerry Gonzales",
-   "cm": "Foreman_West Ops 7",
-   "note": "Crew laid down polish rod and hanged it for frac protection then they repla",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-15",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "BATES 43-42 4415H",
-   "crew": "Jacob Hernandez / Justin Fontenot 1099",
-   "cm": "Colt Williams",
-   "note": "Safety was held and exclusion zones were set into place",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-15",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "ARICK SIMMS 26H 8H",
-   "crew": "Nathan Contreras / Ruben Rojo",
-   "cm": "Shelly Thiel",
-   "note": "Trigger was activated when sudden rain and thunder made the MT use his stop",
-   "psms": "Atmospheric Monitoring",
-   "flag": true
   }
  ]
 }
