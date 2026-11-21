@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-20",
-  "week": 23,
-  "day": 5,
-  "topicWeek": 13,
-  "displayWeek": 14,
+  "date": "2026-11-23",
+  "week": 24,
+  "day": 1,
+  "topicWeek": 1,
+  "displayWeek": 15,
   "cycle": 2,
   "rotation": {
-    "week": 14,
-    "host": "JACOB",
-    "topic": "Operational Discipline",
-    "marker": ""
+    "week": 15,
+    "host": "CALEB",
+    "topic": "Energy Isolation",
+    "marker": "Cycle 2 closes · Thanksgiving Thu 11/26 — holiday coverage set at the nightly meetings"
   },
-  "openingMessage": "The most important thing in the world is family and love. Never forget that.",
+  "openingMessage": "Success is peace of mind, which is a direct result of self-satisfaction in knowing you did your best to become the best you are capable of becoming.",
   "openingAttribution": "John Wooden",
-  "openingWhy": "Every rule we run — the attendant who stays put, the tested atmosphere, the staged rescue — traces back to some kitchen table that got a phone call instead of a truck in the driveway. The standard was never for the client. It's for whoever is waiting on you tonight.",
+  "openingWhy": "There's a quiet that rides home with you when every reading was real and the location's better than you found it. No shortcut has ever produced that feeling, and no paycheck covers not having it.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,13 +168,13 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Act like a professional at all times. Respect the environment. Be aware. Don't create distractions. Act like the person the client would want back tomorrow.",
+  "leadershipThought": "Major incidents often start with small oversights. Someone assumed. Someone skipped a step. Someone thought, 'It'll probably be okay.' PSMS exists because consistency reduces surprises.",
   "yesterdaysJobs": null,
   "formReview": null,
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Crew upgrade rubbers on well/tubing</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jerry Gonzales / Kedrick Mccarter 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Communication during safety meetings, next time I'll bring up more hazards to be aware of.</span><br><br><strong>Team completed repairs</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Ralph Forbes / William \"Jimmy\" Cooper 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Did a good meeting due a new crew on site explaining everything that need t</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Michael Jobe / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Reconnect completed with no issues observed</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Review the work sequence beforehand to identify potential delays and keep everyone clear on their responsibilities.</span><br><br><strong>Job scope was reconnect wellhead to go back into production</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Alexander Clubb / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Operational Discipline)</span><br><span style='font-size:13px;'>Proper procedures were used while skytrack was in use, spotter and tag line.</span>",
+  "exxonMoments": "<strong>We observed a well being blowdown</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Trevor Mckenzie 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews verified all LOTO before opening or blowing down valves , crews pointed out windsocks, hospitals , and muster points .</span><br><br><strong>We observed a disconnect on a pumpjack</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews verified LOTO before work , crews pointed out muster points and nearest hospitals.</span><br><br><strong>Confirming required Personal Protective Equipment (PPE), verifying Lockout/</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Assembling dedicated hardware kits and staging tools/equipment before arriving on-site to reduce setup time and streamline initial rig-up.</span><br><br><strong>Welder on site set a fire watch and had his area prepped for hot work</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Roustabout crew verified Loto was in place and has testing was done.</span><br><br><strong>Crews prioritized atmospheric hazard testing, strict LOTO (Lockout/Tagout)</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jacob Hernandez / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Mandate a brief 2-minute verbal and visual walkaround during shift transitions to pass along exact field conditions, active safety controls, and clean site housekeeping status.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -232,15 +232,14 @@
     },
     {
       "type": "flag",
-      "week": 23,
-      "curated": true,
-      "headline": "Highway 176 fog crash, Wednesday morning: five miles from the shop",
-      "detail": "A driver weaving between semis tried to pass in fog and dark. Ralph and Jimmy are both okay and home with family. Slow down to what you can see, back off the semis, and let the weaver go.",
-      "psms": "Operational Discipline"
+      "week": 24,
+      "headline": "Clean board — no open watch items this week",
+      "detail": "Nothing carried in from last week. See a hazard? Flag it on your OWL form and it lands here the same evening.",
+      "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Your standard today protects people you'll never meet — the night crew, the pumper tomorrow, somebody's dad next month. Leave the location better because you were on it.",
-  "todaysChallengeSubtext": "“A life is not important except in the impact it has on other lives.” — Jackie Robinson",
+  "todaysChallenge": "Pick one thing today you'd only do if someone was checking — the monitor calibration, the trailer form, the tube count — and do it like the client was standing there. Nobody watching is the test.",
+  "todaysChallengeSubtext": "“The true test of a man's character is what he does when no one is watching.” — John Wooden",
   "compliance": {
     "weekOf": "Week of November 16, 2026",
     "metrics": [
@@ -261,31 +260,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 11/17"
-  },
-  "specialFocus": {
-    "week": 23,
-    "until": "2026-11-20",
-    "title": "Finish Strong: Same Fight, All the Way to the Holiday",
-    "why": "<p style='margin:0 0 8px;'><b>Jacob, last day of the week. Finish it strong.</b> Monday started with Mike's message. Tuesday was partners. Wednesday, good habits spreading. Thursday, Highway 176, and Ralph and Jimmy went home to their families. Today we close the week the way we opened it, and get ready for Thanksgiving week.</p><div style='margin:0 0 10px;padding:8px 12px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;font-size:14px;line-height:1.5;'>&ldquo;We're in the same fight together. We all want the best for our families and ourselves. We sacrifice for them, and we need their support too. Stay diligent, keep your head on a swivel, and watch each other's backs.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:4px;'>&mdash; Mike Lyons</div></div><p style='margin:0 0 8px;'>And the numbers say it's working. Matt Croom's mid-month audit came in Thursday: <b>November is the best month of the fall.</b></p><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #d6bfe0;border-top:5px solid #6a1b9a;border-radius:8px;padding:10px 12px;background:#faf5fc;'><div style='font-weight:800;color:#6a1b9a;margin-bottom:6px;'>&#128200; THE FALL IN NUMBERS: Matt Croom's audit</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Overall form completion:</b> 82% in August, 83% in September, 91% in October, and <b>94.6% in November so far</b>. The best month of the fall.</li><li style='margin:0 0 4px;'><b>Trailer inspections:</b> <b>98.8%</b> in November, up from 82% in September.</li><li style='margin:0 0 4px;'><b>Readiness forms:</b> <b>89%</b>, up from 69% in September.</li><li style='margin:0 0 4px;'><b>Day forms:</b> <b>96%</b> complete in November.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; THE WEEK'S HONOR ROLL: say these names</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Justin Pack</b>, Hughes #1 (Thu): complete again. <b>Seven days running.</b></li><li style='margin:0 0 4px;'><b>Thursday's clean list:</b> Marcos Morales at Cathedral 36. Two clean trailer inspections each from Humberto Marquez-Salazar (603), Justin Fontenot (602), Hayden Haugh (608) and Pablo Soto (607). Clean inspections from Michael Ellis, Larry Taylor, Ruben Rojo, Andrew Bailey and Dawson Drake. Complete readiness forms from Kedrick McCarter and Robert Henigan. Fontenot also closed the air job with full Observe, Win and Learn sections.</li><li style='margin:0 0 4px;'><b>Luis Zarate</b> (trailer 134): found a problem at 7:11 AM and escalated it the right way. <b>Shelby Gibbs</b>: three training classes closed out, tickets and rosters on every one.</li><li style='margin:0 0 4px;'><b>100% for the week (Nov 12&ndash;18):</b> Joseph Popillion, Ralph Forbes, Marcos Morales, Stefanie Kirschke, Jimmy Cooper, Jordan Lemmons, Humberto Salazar, Justin Pack, Luis Zarate, Trevor McKenzie, Andrew Bailey, Pablo Soto, Justin Fontenot, Josh Blassingame, Dermont Morgan, Bobby Fleming and BJ Caesar. <b>Popillion</b> and <b>Kirschke</b>: second perfect week running.</li><li style='margin:0 0 4px;'><b>Ralph Forbes and Jimmy Cooper:</b> 100% for the week, and home with their families.</li><li style='margin:0 0 4px;'><b>This fall's turnarounds:</b> <b>Popillion</b>, perfect all November and the strongest turnaround in the company. <b>Morales</b>, the biggest climb in the file since September. <b>Morgan</b>, three months of steady climb. <b>Bailey</b>, a perfect November. <b>Brey Rasco</b>, the biggest one-month jump. <b>Jobe</b>, back to September-best form on one of the heaviest loads.</li><li style='margin:0 0 4px;'><b>Steadiest since September:</b> Cindy Smith, Humberto Salazar, Ralph Forbes, Justin Pack, Robert Henigan, Rolando Flores, Jordan Lemmons and Luis Zarate.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b9c8da;border-top:5px solid #1f3a5f;border-radius:8px;padding:10px 12px;background:#f5f8fc;'><div style='font-weight:800;color:#1f3a5f;margin-bottom:6px;'>&#9650; FINISH STRONG: three for today</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Finish the week the way you started it.</b> Every form, every photo, taken that day. The last job counts the same as the first.</li><li style='margin:0 0 4px;'><b>Nights, match the days.</b> Day forms are at 96% this month. Night crews, that's the bar. Let's bring it home.</li><li style='margin:0 0 4px;'><b>Write it the way it is.</b> Stopped the job? Tick &ldquo;utilized.&rdquo; Something not right? A true &ldquo;No&rdquo; and the fix beats a &ldquo;Yes&rdquo; that isn't so.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>Ten minutes:</b> the week and Mike's words (2) &middot; the numbers (2) &middot; names (3) &middot; finish strong (1) &middot; the last job (1) &middot; send-off (1).</div>",
-    "standardLabel": "Week 23: Operational Discipline Through the Last Job",
-    "standard": [
-      "<b>The last job gets the first job's attention.</b> Same JSA, same gas checks, same hold points.",
-      "<b>Every form, every photo, taken that day</b>, before you leave the location.",
-      "<b>Watch your partner</b> the whole shift, not just the first hour.",
-      "<b>Stop it when it's wrong</b>, and write it down: tick &ldquo;utilized.&rdquo;",
-      "<b>Plan the drive home</b> like part of the job. Lights on, phone down, nobody drives tired."
-    ],
-    "scenarios": [
-      {
-        "title": "The Last Job Before the Holiday Week",
-        "body": "It's Friday afternoon, the last location of the week. Everybody's thinking about the weekend and Thanksgiving. The job's nearly done, and somebody says, &ldquo;We're almost out of here, let's just wrap it up.&rdquo; What does finishing strong look like right now? Same gas check, same hold point, same partner check, and the forms and photos done before the truck rolls. Jacob, ask the circle: what's the last thing you check before you leave a location?"
-      }
-    ],
-    "questions": [
-      "What's one thing you did this week that you're proud of?",
-      "Who on your crew had your back this week? Did you tell them?",
-      "Thanksgiving is Thursday. What's your plan to get there safe, and who knows your route?"
-    ],
-    "nonNegotiable": "Finish the way we started: every form, every photo, every partner. Ralph and Jimmy went home to their families this week. Same fight, same team. We all go home for the holidays."
   }
 }

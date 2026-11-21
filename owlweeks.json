@@ -1,6 +1,24 @@
 {
   "weeks": [
     {
+      "week": 24,
+      "owl": "Auto-logged",
+      "theme": "Ownership",
+      "psms": "Energy Isolation",
+      "dateRange": "Nov 23&ndash;Nov 27, 2026",
+      "meetings": [
+        {
+          "date": "Mon, Nov 23",
+          "day": "Week 24 Kickoff",
+          "summary": "<div style='font-size:12px;color:#1a1a1a;line-height:1.5;'><em>&ldquo;Major incidents often start with small oversights. Someone assumed. Someone skipped a step. Someone thought, 'It'll probably be okay.' PSMS exists because consistency reduces surprises.&rdquo;</em><br><br><strong>From the day&rsquo;s OWL forms:</strong><ul style='margin:6px 0 0 18px;padding:0;'><li style='margin:3px 0;'><strong>The whole crew</strong> — Matt Croom's mid-month audit: 94.6% of forms complete in November, up from 82% in August. Trailer inspections at 98.8%. Seventeen techs at 1</li><li style='margin:3px 0;'><strong>Justin Pack</strong> — Hughes #1, Friday through Thursday: complete H2S daily each day, both cascade fields, every photo from that morning.</li><li style='margin:3px 0;'><strong>Thursday's clean list</strong> — Morales, Marquez-Salazar, Fontenot, Haugh, Soto, Ellis, Larry Taylor, Rojo, Bailey, Drake, McCarter and Henigan: complete forms, same-day ph</li><li style='margin:3px 0;'><strong>Joseph Popillion</strong> — Shull Crawford 15OO 115H, Monday: gas showed when the valves opened. Hold point, a plan, the right people notified, and the disconnect stopp</li><li style='margin:3px 0;'><strong>Ralph Forbes</strong> — Wednesday, trailer 139: complete and clean before the Highway 176 crash. Doing it right can't stop a reckless driver, but it's why we never </li></ul><div style='margin-top:8px;color:#555;font-size:11px;'>Auto-logged from the daily sweep — full detail in Field News and the day&rsquo;s daily.json.</div></div>",
+          "flags": [
+            "Clean board — no open watch items this week"
+          ],
+          "recognition": "The whole crew — November is the best month of the fall"
+        }
+      ]
+    },
+    {
       "week": 23,
       "owl": "Auto-logged",
       "theme": "Operational Discipline",
