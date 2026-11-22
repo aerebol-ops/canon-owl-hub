@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20",
+ "generated": "2026-11-22",
  "months": [
   {
    "month": "2026-10",
@@ -20,16 +20,16 @@
       "pct": 100
      },
      {
-      "who": "Larry Jaramillo",
-      "jobs": 9,
-      "complete": 9,
+      "who": "Pablo Soto",
+      "jobs": 6,
+      "complete": 6,
       "pct": 100
      },
      {
-      "who": "Pablo Soto",
-      "jobs": 8,
-      "complete": 8,
-      "pct": 100
+      "who": "Stefanie Kirschke",
+      "jobs": 6,
+      "complete": 4,
+      "pct": 67
      }
     ]
    },
