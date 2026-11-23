@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
@@ -10,16 +10,6 @@
   "weekCrews": 0
  },
  "days": [
-  {
-   "date": "2026-10-18",
-   "forms": 14,
-   "jobs": 7,
-   "flags": 0,
-   "AGT": 7,
-   "Maintenance": 0,
-   "Well Testing": 0,
-   "Other": 0
-  },
   {
    "date": "2026-10-19",
    "forms": 16,
@@ -3024,83 +3014,6 @@
    "cm": "Foreman_West Ops 10",
    "note": "BOP was still on wellhead",
    "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-18",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "YORK LAW 139G 107H",
-   "crew": "Luis Zarate / Humberto Salazar",
-   "cm": "Foreman_West Ops 3",
-   "note": "Job has been cancelled due to workover hasn't been here yet",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-18",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "SHAQ B 38-14 4202H",
-   "crew": "Stefanie Kirschke / Robbie Henigan 1099",
-   "cm": "Jeff Jones",
-   "note": "Crew working around the wellhead and moving equipment during reconnect",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-18",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "MEEK LINDSAY 6M 13H",
-   "crew": "Luis Zarate / Humberto Salazar",
-   "cm": "Foreman_West Ops 11",
-   "note": "Job was cancelled due to workover won't be finished till 9pm tonight",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-18",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "MARSH 36K 111H",
-   "crew": "",
-   "cm": "",
-   "note": "",
-   "psms": "",
-   "flag": false
-  },
-  {
-   "date": "2026-10-18",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "MARSH 36J 110H",
-   "crew": "Bryan Medlin / Jeremy Norris",
-   "cm": "Andrew Mcfadden",
-   "note": "Job went according to plan reconnected flow line to well",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-18",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "DYER KILGORE I 25-34 4209H",
-   "crew": "Brianda Sandoval / Gael \"Antonio\" Avila 1099",
-   "cm": "Foreman_East Ops 1",
-   "note": "We did a small meeting quick and essay but with all the info need it",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-18",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "CHRISTY-THOMAS 15E 5H",
-   "crew": "",
-   "cm": "",
-   "note": "Confirming required Personal Protective Equipment (PPE), verifying Lockout/",
-   "psms": "Energy Isolation",
    "flag": false
   }
  ]
