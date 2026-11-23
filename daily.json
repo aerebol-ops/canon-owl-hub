@@ -196,56 +196,47 @@
   "fieldNews": [
     {
       "type": "good",
-      "week": 23,
+      "week": 24,
       "level": null,
       "curated": true,
-      "headline": "The whole crew — November is the best month of the fall",
-      "detail": "Matt Croom's mid-month audit: 94.6% of forms complete in November, up from 82% in August. Trailer inspections at 98.8%. Seventeen techs at 100% for the week.",
-      "psms": "OWL Program"
-    },
-    {
-      "type": "good",
-      "week": 23,
-      "level": null,
-      "curated": true,
-      "headline": "Justin Pack — seven days running with nothing to fix",
-      "detail": "Hughes #1, Friday through Thursday: complete H2S daily each day, both cascade fields, every photo from that morning.",
-      "psms": "Operational Discipline"
-    },
-    {
-      "type": "good",
-      "week": 23,
-      "level": null,
-      "curated": true,
-      "headline": "Thursday's clean list — twelve techs with nothing to fix",
-      "detail": "Morales, Marquez-Salazar, Fontenot, Haugh, Soto, Ellis, Larry Taylor, Rojo, Bailey, Drake, McCarter and Henigan: complete forms, same-day photos.",
-      "psms": "OWL Program"
-    },
-    {
-      "type": "good",
-      "week": 23,
-      "level": null,
-      "curated": true,
-      "headline": "Joseph Popillion — held the job and used stop work over a leaking casing",
-      "detail": "Shull Crawford 15OO 115H, Monday: gas showed when the valves opened. Hold point, a plan, the right people notified, and the disconnect stopped until the crew was comfortable.",
+      "headline": "Michael Jobe — stopped a forklift move until the spotter was in place",
+      "detail": "Stone Robb E45A 1H, Friday: a roustabout was about to run a forklift with no spotter. Jobe stopped it until the spotter had a vest and a flag.",
       "psms": "Stop Work Authority"
     },
     {
       "type": "good",
-      "week": 23,
+      "week": 24,
       "level": null,
       "curated": true,
-      "headline": "Ralph Forbes — clean trailer inspection at 5:03 AM, before the drive",
-      "detail": "Wednesday, trailer 139: complete and clean before the Highway 176 crash. Doing it right can't stop a reckless driver, but it's why we never stop doing it right.",
+      "headline": "Justin Pack — eight days running with nothing to fix",
+      "detail": "Hughes #1, Friday to Friday: complete H2S daily every day, hydro and cascade filled in, every photo from that morning.",
       "psms": "Operational Discipline"
     },
     {
       "type": "good",
-      "week": 23,
+      "week": 24,
       "level": null,
       "curated": true,
-      "headline": "Andrew Bailey — trailer 602 covered three days running",
-      "detail": "Wednesday: three trailer inspections and two air jobs, complete throughout.",
+      "headline": "Rolando Flores — seven straight night shifts, a written summary every one",
+      "detail": "Buzz Hurt 36: every night documented, start to finish.",
+      "psms": "OWL Program"
+    },
+    {
+      "type": "good",
+      "week": 24,
+      "level": null,
+      "curated": true,
+      "headline": "Ralph Forbes — back at it, and wrote up the broken lens without being asked",
+      "detail": "Friday: three trailer inspections on 606 and two air jobs, two days after Highway 176. Find it, fix it, write it.",
+      "psms": "Operational Discipline"
+    },
+    {
+      "type": "good",
+      "week": 24,
+      "level": null,
+      "curated": true,
+      "headline": "Kedrick McCarter — thirty photos, all from the day, nothing to fix",
+      "detail": "Cathedral 36, Saturday: a complete H2S daily from top to bottom.",
       "psms": "OWL Program"
     },
     {
@@ -278,5 +269,32 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 11/17"
+  },
+  "specialFocus": {
+    "week": 24,
+    "until": "2026-11-23",
+    "title": "Week 24 Starts Here: Prove It's Safe Before You Touch It",
+    "why": "<p style='margin:0 0 8px;'><b>Caleb, this week is yours.</b> It's a short week: Thanksgiving is Thursday, and it's the last week of cycle two. Start with last week's names, then the topic: <b>Energy Isolation</b>. Then send everybody out ready for the holiday.</p><div style='margin:0 0 10px;padding:8px 12px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;font-size:14px;line-height:1.5;'>&ldquo;We're in the same fight together. We all want the best for our families and ourselves. Stay diligent, keep your head on a swivel, and watch each other's backs.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:4px;'>&mdash; Mike Lyons</div></div><p style='margin:0 0 8px;'>Last week, that theme showed up on location every day. Friday it showed up again, on a well that wasn't even ours. At Morgan-Owens, a crew noticed the bleeder valve on the next well was open with the cap still on. They told the company man before starting, the valve got shut, and they waited to make sure that cap wasn't going anywhere before they went to work. <b>That's energy isolation:</b> see it, say it, and prove it's safe before anyone touches anything.</p><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; LAST WEEK'S GOOD: say these names</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Michael Jobe</b>, Stone Robb E45A 1H (Fri): a roustabout was about to run a forklift with no spotter. Jobe stopped it until the spotter was out there with a vest and a flag. That's stop work, used right.</li><li style='margin:0 0 4px;'><b>Justin Pack</b>, Hughes #1: nothing to fix, Friday to Friday. <b>Eight days running.</b></li><li style='margin:0 0 4px;'><b>Rolando Flores</b>, Buzz Hurt 36: seven straight night shifts, and a written summary for every one.</li><li style='margin:0 0 4px;'><b>Ralph Forbes</b> (Fri): two days after Highway 176, three inspections on 606 and two air jobs, and wrote up the broken light lens without being asked. Find it, fix it, write it.</li><li style='margin:0 0 4px;'><b>Kedrick McCarter</b>, Cathedral 36 (Sat): all thirty photos from the day, nothing to fix.</li><li style='margin:0 0 4px;'><b>Clean Friday:</b> Humberto Marquez-Salazar (two air jobs and three inspections on 601), Andrew Bailey, Pablo Soto, Justin Fontenot and Gage Gonzales. Supervision covered and clean: Josh Blassingame, Dennis Easley, Bobby Fleming and Benjamin Boutte.</li><li style='margin:0 0 4px;'><b>The week behind us:</b> Popillion's stop over a leaking casing, Jobe's tag and cones, seventeen techs at 100% for the week, and November on track to be the best month of the fall.</li></ul></div><div style='flex:1 1 280px;border:1px solid #ecd3ae;border-top:5px solid #b45309;border-radius:8px;padding:10px 12px;background:#fffaf2;'><div style='font-weight:800;color:#b45309;margin-bottom:6px;'>&#128274; ENERGY ISOLATION: five before you start</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>1. Walk the plan.</b> Before work, go over every energy source with your partner and the company man: pressure, electrical, mechanical, chemical. Everybody agrees on the isolation points.</li><li style='margin:0 0 4px;'><b>2. Lock and tag every point.</b> Your lock, your tag, your key.</li><li style='margin:0 0 4px;'><b>3. Bleed it, then prove it.</b> The gauge reads zero and the bleeder is open and quiet. Nothing dripping, nothing hissing.</li><li style='margin:0 0 4px;'><b>4. Try it before you trust it.</b> Try the start, try the valve, and call it out loud.</li><li style='margin:0 0 4px;'><b>5. Blind it if you can't trust it.</b> A line that can't be proven gets a blind or a double block.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b9c8da;border-top:5px solid #1f3a5f;border-radius:8px;padding:10px 12px;background:#f5f8fc;'><div style='font-weight:800;color:#1f3a5f;margin-bottom:6px;'>&#9650; THANKSGIVING WEEK: three for the short week</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Stopped the job? Tick &ldquo;utilized.&rdquo;</b> Jobe's Friday stop was the real thing. Write it on both partners' forms, with two lines on what happened.</li><li style='margin:0 0 4px;'><b>Found something broken? Great catch.</b> Put it in <i>Comments to management</i>, because that's the box that gets read, and name who you told.</li><li style='margin:0 0 4px;'><b>Holiday coverage means new partners.</b> Brief like it's day one, do the pre-trip on the truck, and file the journey plan before a long drive.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>Ten minutes:</b> names (3) &middot; the bleeder next door (1) &middot; the five (3) &middot; three asks (1) &middot; the scenario (1) &middot; send-off (1).</div>",
+    "standardLabel": "Week 24: Energy Isolation, Verify Before You Touch It",
+    "standard": [
+      "<b>Every source, named out loud</b> before work starts: pressure, electrical, mechanical, chemical.",
+      "<b>Lock and tag every isolation point.</b> Your lock, your key. Nobody removes a lock but the person who hung it.",
+      "<b>Zero means proven zero.</b> Bleed it down, read the gauge, and open the bleeder. Don't take anyone's word for it, ours included.",
+      "<b>Try before you trust.</b> Try the start and try the valve, then say it's dead.",
+      "<b>Look next door.</b> Wells, lines and crews beside you can put energy into your job.",
+      "<b>Anything changes, stop.</b> New crew, new valve lineup, new pressure: stop, re-verify, then go."
+    ],
+    "scenarios": [
+      {
+        "title": "\"It's Bled Down, Go Ahead\"",
+        "body": "It's Wednesday morning before Thanksgiving. The company man meets you at the wellhead: &ldquo;It's bled down, go ahead and break it.&rdquo; Everybody wants to be done early today. The gauge looks like zero, but it's hard to read, and nobody has opened the bleeder. What do you do? Open the bleeder, watch and listen, and get a gauge you trust. Lock and tag the valve. Then break it, with your partner watching. Caleb, ask the circle: what does &ldquo;proven zero&rdquo; look like on your job today?"
+      }
+    ],
+    "questions": [
+      "What are the energy sources on today's job, and who has checked each one?",
+      "When someone tells you it's bled down, what do you check before you believe it?",
+      "Thanksgiving is Thursday. Who's covering, who's driving, and who knows your route?"
+    ],
+    "nonNegotiable": "Prove it's dead before you touch it: lock, tag, bleed, verify zero. If anything changes, stop. Same fight, same team. We all go home for Thanksgiving."
   }
 }
