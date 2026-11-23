@@ -33,24 +33,9 @@
   "warnDays": 15,
   "overdueDays": 30,
   "activeRentals": 7,
-  "neverChecked": 1,
-  "overdueChecks": 6,
+  "neverChecked": 0,
+  "overdueChecks": 7,
   "rigs": [
-    {
-      "rig": "COIL TUBING",
-      "company": "SM ENERGY",
-      "location": "JUNIOR MINT E2",
-      "status": "RUNNING",
-      "active": true,
-      "equipment": "H2S SENSOR PACKAGE/SPLITTING TRAILER",
-      "ticket": "102955",
-      "at": "",
-      "onRentSince": "2024-09-12",
-      "currentStart": "2026-11-15",
-      "lastCheck": null,
-      "daysSinceCheck": null,
-      "checkState": "never"
-    },
     {
       "rig": "AIR TRAILER",
       "company": "XTO",
@@ -77,6 +62,21 @@
       "at": "",
       "onRentSince": "2024-09-01",
       "currentStart": "2026-11-06",
+      "lastCheck": "2026-06-10",
+      "daysSinceCheck": 166,
+      "checkState": "overdue"
+    },
+    {
+      "rig": "FRAC",
+      "company": "SM ENERGY",
+      "location": "JUNIOR MINT E2",
+      "status": "RUNNING",
+      "active": true,
+      "equipment": "H2S SENSOR PACKAGE/SPLITTING TRAILER",
+      "ticket": "103075",
+      "at": "",
+      "onRentSince": "2022-10-02",
+      "currentStart": "2026-11-23",
       "lastCheck": "2026-06-10",
       "daysSinceCheck": 166,
       "checkState": "overdue"
@@ -140,6 +140,21 @@
       "lastCheck": "2026-09-19",
       "daysSinceCheck": 65,
       "checkState": "overdue"
+    },
+    {
+      "rig": "COIL TUBING",
+      "company": "SM ENERGY",
+      "location": "JUNIOR MINT E2",
+      "status": "RIGGED DOWN",
+      "active": false,
+      "equipment": "H2S SENSOR PACKAGE/SPLITTING TRAILER",
+      "ticket": "102955",
+      "at": "",
+      "onRentSince": "2024-09-12",
+      "currentStart": "2026-11-15",
+      "lastCheck": null,
+      "daysSinceCheck": null,
+      "checkState": "never"
     }
   ]
 }
