@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "week": 24,
-  "day": 1,
+  "day": 2,
   "topicWeek": 1,
   "displayWeek": 15,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Energy Isolation",
     "marker": "Cycle 2 closes · Thanksgiving Thu 11/26 — holiday coverage set at the nightly meetings"
   },
-  "openingMessage": "Success is peace of mind, which is a direct result of self-satisfaction in knowing you did your best to become the best you are capable of becoming.",
-  "openingAttribution": "John Wooden",
-  "openingWhy": "There's a quiet that rides home with you when every reading was real and the location's better than you found it. No shortcut has ever produced that feeling, and no paycheck covers not having it.",
+  "openingMessage": "Discipline is doing what you are supposed to do in the best possible manner at the time you are supposed to do it.",
+  "openingAttribution": "Mike Krzyzewski",
+  "openingWhy": "A gas test run after the line is already open is the right thing done too late. Out here the clock is part of the procedure: test before, monitor during, verify after. When you do it matters as much as whether you do it.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Major incidents often start with small oversights. Someone assumed. Someone skipped a step. Someone thought, 'It'll probably be okay.' PSMS exists because consistency reduces surprises.",
+  "leadershipThought": "Check your monitor one more time. Verify tube inventory. Fuel your truck before it becomes a problem. Nobody rewards these actions. But they create certainty. And certainty protects people.",
   "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-11-22",
@@ -184,7 +184,7 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>We observed a well being blowdown</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Trevor Mckenzie 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews verified all LOTO before opening or blowing down valves , crews pointed out windsocks, hospitals , and muster points .</span><br><br><strong>We observed a disconnect on a pumpjack</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews verified LOTO before work , crews pointed out muster points and nearest hospitals.</span><br><br><strong>Confirming required Personal Protective Equipment (PPE), verifying Lockout/</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Assembling dedicated hardware kits and staging tools/equipment before arriving on-site to reduce setup time and streamline initial rig-up.</span><br><br><strong>Welder on site set a fire watch and had his area prepped for hot work</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Roustabout crew verified Loto was in place and has testing was done.</span><br><br><strong>Crews prioritized atmospheric hazard testing, strict LOTO (Lockout/Tagout)</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jacob Hernandez / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Mandate a brief 2-minute verbal and visual walkaround during shift transitions to pass along exact field conditions, active safety controls, and clean site housekeeping status.</span>",
+  "exxonMoments": "<strong>We observed a rod hanger install and valve replacement done on a pumpjack</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews verified LOTO before beginning work , crews identified nearest hospitals and access roads . Crews pointed out LSRA and muster points without help .</span><br><br><strong>Held pre task meeting, continued to walk and recognize all lockout points</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Pablo Soto / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Walked the job and made any triggers observed known, caught that the service casing was leaking and called in the cactus crew. Job resumed shortly after and completed without further triggers.</span><br><br><strong>We observed a reconnect done on wellhead</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews identified hazards and strap dates , crews verified LOTO.</span><br><br><strong>Atmospheric hazard testing was performed prior to the first break, and Lock</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Hayden Haugh 1099 / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Ensuring all replacement flange gaskets, ring joints, studs, and exact torque specs are double-checked and staged at the wellhead before cracking the first break.</span><br><br><strong>Disconnect but with a leak vaule and the csg had 800 psi after loto</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Always verify for yourself never trust somebody else else's verification.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -239,8 +239,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Pick one thing today you'd only do if someone was checking — the monitor calibration, the trailer form, the tube count — and do it like the client was standing there. Nobody watching is the test.",
-  "todaysChallengeSubtext": "“The true test of a man's character is what he does when no one is watching.” — John Wooden",
+  "todaysChallenge": "Preparation is the job today: fuel before you need it, calibrate before you're asked, stage the rescue plan before the break. Win the job before it starts.",
+  "todaysChallengeSubtext": "“It's not the will to win that matters — everyone has that. It's the will to prepare to win that matters.” — Bear Bryant",
   "compliance": {
     "weekOf": "Week of November 16, 2026",
     "metrics": [
@@ -261,32 +261,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Tue 11/17"
-  },
-  "specialFocus": {
-    "week": 24,
-    "until": "2026-11-23",
-    "title": "Week 24 Starts Here: Prove It's Safe Before You Touch It",
-    "why": "<p style='margin:0 0 8px;'><b>Caleb, this week is yours.</b> It's a short week: Thanksgiving is Thursday, and it's the last week of cycle two. Start with last week's names, then the topic: <b>Energy Isolation</b>. Then send everybody out ready for the holiday.</p><div style='margin:0 0 10px;padding:8px 12px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;font-size:14px;line-height:1.5;'>&ldquo;We're in the same fight together. We all want the best for our families and ourselves. Stay diligent, keep your head on a swivel, and watch each other's backs.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:4px;'>&mdash; Mike Lyons</div></div><p style='margin:0 0 8px;'>Last week, that theme showed up on location every day. Friday it showed up again, on a well that wasn't even ours. At Morgan-Owens, a crew noticed the bleeder valve on the next well was open with the cap still on. They told the company man before starting, the valve got shut, and they waited to make sure that cap wasn't going anywhere before they went to work. <b>That's energy isolation:</b> see it, say it, and prove it's safe before anyone touches anything.</p><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; LAST WEEK'S GOOD: say these names</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Michael Jobe</b>, Stone Robb E45A 1H (Fri): a roustabout was about to run a forklift with no spotter. Jobe stopped it until the spotter was out there with a vest and a flag. That's stop work, used right.</li><li style='margin:0 0 4px;'><b>Justin Pack</b>, Hughes #1: nothing to fix, Friday to Friday. <b>Eight days running.</b></li><li style='margin:0 0 4px;'><b>Rolando Flores</b>, Buzz Hurt 36: seven straight night shifts, and a written summary for every one.</li><li style='margin:0 0 4px;'><b>Ralph Forbes</b> (Fri): two days after Highway 176, three inspections on 606 and two air jobs, and wrote up the broken light lens without being asked. Find it, fix it, write it.</li><li style='margin:0 0 4px;'><b>Kedrick McCarter</b>, Cathedral 36 (Sat): all thirty photos from the day, nothing to fix.</li><li style='margin:0 0 4px;'><b>Clean Friday:</b> Humberto Marquez-Salazar (two air jobs and three inspections on 601), Andrew Bailey, Pablo Soto, Justin Fontenot and Gage Gonzales. Supervision covered and clean: Josh Blassingame, Dennis Easley, Bobby Fleming and Benjamin Boutte.</li><li style='margin:0 0 4px;'><b>Clean Sunday:</b> Justin Pack, complete again at Hughes #1. Andrew Bailey, a field service form at Mulva 113H done start to finish, JSA and route list the same day. And <b>Rolando Flores</b> filed a full journey plan for the long drive home for the holiday: route, two rest stops and a contact. That's this week's third ask, already done.</li><li style='margin:0 0 4px;'><b>The week behind us:</b> Popillion's stop over a leaking casing, Jobe's tag and cones, seventeen techs at 100% for the week, and November on track to be the best month of the fall.</li></ul></div><div style='flex:1 1 280px;border:1px solid #ecd3ae;border-top:5px solid #b45309;border-radius:8px;padding:10px 12px;background:#fffaf2;'><div style='font-weight:800;color:#b45309;margin-bottom:6px;'>&#128274; ENERGY ISOLATION: five before you start</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>1. Walk the plan.</b> Before work, go over every energy source with your partner and the company man: pressure, electrical, mechanical, chemical. Everybody agrees on the isolation points.</li><li style='margin:0 0 4px;'><b>2. Lock and tag every point.</b> Your lock, your tag, your key.</li><li style='margin:0 0 4px;'><b>3. Bleed it, then prove it.</b> The gauge reads zero and the bleeder is open and quiet. Nothing dripping, nothing hissing.</li><li style='margin:0 0 4px;'><b>4. Try it before you trust it.</b> Try the start, try the valve, and call it out loud.</li><li style='margin:0 0 4px;'><b>5. Blind it if you can't trust it.</b> A line that can't be proven gets a blind or a double block.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b9c8da;border-top:5px solid #1f3a5f;border-radius:8px;padding:10px 12px;background:#f5f8fc;'><div style='font-weight:800;color:#1f3a5f;margin-bottom:6px;'>&#9650; THANKSGIVING WEEK: three for the short week</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Stopped the job? Tick &ldquo;utilized.&rdquo;</b> Jobe's Friday stop was the real thing. Write it on both partners' forms, with two lines on what happened.</li><li style='margin:0 0 4px;'><b>Found something broken? Great catch.</b> Put it in <i>Comments to management</i>, because that's the box that gets read, and name who you told.</li><li style='margin:0 0 4px;'><b>Holiday coverage means new partners.</b> Brief like it's day one, do the pre-trip on the truck, and file the journey plan before a long drive.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>Ten minutes:</b> names (3) &middot; the bleeder next door (1) &middot; the five (3) &middot; three asks (1) &middot; the scenario (1) &middot; send-off (1).</div>",
-    "standardLabel": "Week 24: Energy Isolation, Verify Before You Touch It",
-    "standard": [
-      "<b>Every source, named out loud</b> before work starts: pressure, electrical, mechanical, chemical.",
-      "<b>Lock and tag every isolation point.</b> Your lock, your key. Nobody removes a lock but the person who hung it.",
-      "<b>Zero means proven zero.</b> Bleed it down, read the gauge, and open the bleeder. Don't take anyone's word for it, ours included.",
-      "<b>Try before you trust.</b> Try the start and try the valve, then say it's dead.",
-      "<b>Look next door.</b> Wells, lines and crews beside you can put energy into your job.",
-      "<b>Anything changes, stop.</b> New crew, new valve lineup, new pressure: stop, re-verify, then go."
-    ],
-    "scenarios": [
-      {
-        "title": "\"It's Bled Down, Go Ahead\"",
-        "body": "It's Wednesday morning before Thanksgiving. The company man meets you at the wellhead: &ldquo;It's bled down, go ahead and break it.&rdquo; Everybody wants to be done early today. The gauge looks like zero, but it's hard to read, and nobody has opened the bleeder. What do you do? Open the bleeder, watch and listen, and get a gauge you trust. Lock and tag the valve. Then break it, with your partner watching. Caleb, ask the circle: what does &ldquo;proven zero&rdquo; look like on your job today?"
-      }
-    ],
-    "questions": [
-      "What are the energy sources on today's job, and who has checked each one?",
-      "When someone tells you it's bled down, what do you check before you believe it?",
-      "Thanksgiving is Thursday. Who's covering, who's driving, and who knows your route?"
-    ],
-    "nonNegotiable": "Prove it's dead before you touch it: lock, tag, bleed, verify zero. If anything changes, stop. Same fight, same team. We all go home for Thanksgiving."
   }
 }
