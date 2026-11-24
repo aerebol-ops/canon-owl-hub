@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23",
+ "generated": "2026-11-24",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
@@ -10,16 +10,6 @@
   "weekCrews": 0
  },
  "days": [
-  {
-   "date": "2026-10-19",
-   "forms": 16,
-   "jobs": 9,
-   "flags": 0,
-   "AGT": 9,
-   "Maintenance": 0,
-   "Well Testing": 0,
-   "Other": 0
-  },
   {
    "date": "2026-10-20",
    "forms": 28,
@@ -2914,105 +2904,6 @@
    "crew": "",
    "cm": "Jeff Jones",
    "note": "Arrived on location at 11:15 at 1130 MT Jr called off the job due to the we",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-19",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "UNIVERSITY 6F 6H",
-   "crew": "Ruben Rojo / Gage Gonzales 1099",
-   "cm": "Foreman_West Ops 3",
-   "note": "Disconnect and flange connection",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-19",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "UNIVERSITY 10-3 4H",
-   "crew": "Nathan Contreras / Gael \"Antonio\" Avila 1099",
-   "cm": "Pete Bryant",
-   "note": "Quick little meeting and essay job all the personal understood everything a",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-19",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "UNIV 10-11H 12H-V306",
-   "crew": "",
-   "cm": "",
-   "note": "",
-   "psms": "",
-   "flag": false
-  },
-  {
-   "date": "2026-10-19",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "PINTAIL O 31-30 2815H",
-   "crew": "Raymundo Solis / Tyrell Sanders",
-   "cm": "Foreman_West Ops 9",
-   "note": "Job reschedule due to work-over still rigged up",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-19",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "NOBLES UNIT 2836SH",
-   "crew": "Jeremy Norris / Robbie Henigan 1099",
-   "cm": "Foreman_West Ops 5",
-   "note": "job canceled due to workover on well not being complete until Wednesday aft",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-19",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "NOBLES A 2810",
-   "crew": "Jeremy Norris / Robbie Henigan 1099",
-   "cm": "Foreman_West Ops 5",
-   "note": "Reconnection of a Horsehead setup on location",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-19",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Fasken Evans 11B 2H",
-   "crew": "Raymundo Solis / Tyrell Sanders",
-   "cm": "",
-   "note": "Established and verified safety control measures, including atmospheric haz",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-19",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "FRANK 11KK 211H",
-   "crew": "Pablo Soto / Bobby Galindo 1099",
-   "cm": "Joshua Hrabovsky",
-   "note": "Valves were bled out and waited for permit to go live",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-19",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "BUCHANAN C17F 6H",
-   "crew": "Alexander Clubb / Jerry Gonzales",
-   "cm": "Foreman_West Ops 10",
-   "note": "BOP was still on wellhead",
    "psms": "Operational Discipline",
    "flag": false
   }

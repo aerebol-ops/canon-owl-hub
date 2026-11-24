@@ -171,13 +171,25 @@
   "leadershipThought": "Check your monitor one more time. Verify tube inventory. Fuel your truck before it becomes a problem. Nobody rewards these actions. But they create certainty. And certainty protects people.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-11-22",
-    "label": "Sunday 11/22",
+    "date": "2026-11-23",
+    "label": "Monday 11/23",
     "verdict": "",
     "concerns": [
       {
-        "title": "1099 Trevor McKenzie — Ovintiv, H&P 264 / UL Cathedral 36 — form time 11/22/2026 02:11 AM, submitted 02:16 AM, job 37254_1. The H2S daily records a No answer to the mask ",
-        "quote": "No Do you have sufficient mask bags?"
+        "title": "Michael Ellis — JERA Upstream, 6B Ranch 32-5-8H-001, Precision 614, rig check ended 2:00 PM, job 37268. The alarm test item was answered No.",
+        "quote": "Loud Alarms and Lights Tested?: No"
+      },
+      {
+        "title": "Michael Ellis — JERA Upstream American, Larkspur 2HU 001-ALT, H&P 444, rig check ended 4:35 PM, job 37269. Same item, same answer, on the second rig check of the day.",
+        "quote": "Loud Alarms and Lights Tested?: No"
+      },
+      {
+        "title": "Ralph Forbes — trailer 125, Trailer Readiness Form submitted 3:36 PM at the Andrews shop. Three separate equipment items recorded on one trailer. The \"Is anything wrong o",
+        "quote": "Is anything wrong or missing?"
+      },
+      {
+        "title": "Alexander Clubb — Ovintiv, St Elmo, H&P 395, rig check ended 8:13 PM, job 37334. An equipment item was left open at the close of the rig check. The \"Equipment Issues Need",
+        "quote": "Equipment Issues Need Attention"
       }
     ]
   },
