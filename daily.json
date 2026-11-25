@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "week": 24,
-  "day": 2,
+  "day": 3,
   "topicWeek": 1,
   "displayWeek": 15,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Energy Isolation",
     "marker": "Cycle 2 closes · Thanksgiving Thu 11/26 — holiday coverage set at the nightly meetings"
   },
-  "openingMessage": "Discipline is doing what you are supposed to do in the best possible manner at the time you are supposed to do it.",
+  "openingMessage": "In leadership, there are no words more important than trust.",
   "openingAttribution": "Mike Krzyzewski",
-  "openingWhy": "A gas test run after the line is already open is the right thing done too late. Out here the clock is part of the procedure: test before, monitor during, verify after. When you do it matters as much as whether you do it.",
+  "openingWhy": "When you write 0 ppm on a form, the next crew opens that line without re-testing — your signature is their gas test. Fudge one reading and every number you've ever signed becomes a question. There's no re-cal for a hand nobody trusts.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Check your monitor one more time. Verify tube inventory. Fuel your truck before it becomes a problem. Nobody rewards these actions. But they create certainty. And certainty protects people.",
+  "leadershipThought": "When a location falls behind, a monitor isn't charged, a tube isn't signed out — the question isn't whose fault is it. The question is: what can I do about it now? The moment you stop blaming, you gain control.",
   "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-11-23",
@@ -196,7 +196,7 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>We observed a rod hanger install and valve replacement done on a pumpjack</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Gael \"Antonio\" Avila 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews verified LOTO before beginning work , crews identified nearest hospitals and access roads . Crews pointed out LSRA and muster points without help .</span><br><br><strong>Held pre task meeting, continued to walk and recognize all lockout points</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Pablo Soto / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Walked the job and made any triggers observed known, caught that the service casing was leaking and called in the cactus crew. Job resumed shortly after and completed without further triggers.</span><br><br><strong>We observed a reconnect done on wellhead</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews identified hazards and strap dates , crews verified LOTO.</span><br><br><strong>Atmospheric hazard testing was performed prior to the first break, and Lock</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Hayden Haugh 1099 / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Ensuring all replacement flange gaskets, ring joints, studs, and exact torque specs are double-checked and staged at the wellhead before cracking the first break.</span><br><br><strong>Disconnect but with a leak vaule and the csg had 800 psi after loto</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake / Jerry Gonzales]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Always verify for yourself never trust somebody else else's verification.</span>",
+  "exxonMoments": "<strong>We observed a disconnect on a wellhead</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Christian Lee 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews verified safeguards were in place prior to work , crews also went over potential hazards and how to mitigate them , crews went over hold points and muster points of location, crews verified LOTO and put locks on the lock box.</span><br><br><strong>Crews verified LOTO , crews did great in pre task briefing</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews verified LOTO , crews did great in pre task briefing. Crane crew had amazing</span><br><br><strong>Crews communicated well , job scope was spot on</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews communicated well , job scope was spot on . Crews wore all PPE. Crews verified all</span><br><br><strong>Crews had great communication working together , crews verified LOTO, crews</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews had great communication working together , crews verified LOTO, crews went over</span><br><br><strong>Crews went over all LSRA and communication was on point , crews put their L</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews went over all LSRA and communication was on point , crews put their LOTO tags</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -251,8 +251,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Preparation is the job today: fuel before you need it, calibrate before you're asked, stage the rescue plan before the break. Win the job before it starts.",
-  "todaysChallengeSubtext": "“It's not the will to win that matters — everyone has that. It's the will to prepare to win that matters.” — Bear Bryant",
+  "todaysChallenge": "If the numbers say stop today, stop — even if the whole location is waiting on you. That call takes courage once. It builds a reputation forever.",
+  "todaysChallengeSubtext": "“Courage and confidence are what decision making is all about.” — Mike Krzyzewski",
   "compliance": {
     "weekOf": "Week of November 16, 2026",
     "metrics": [
