@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24",
+ "generated": "2026-11-25",
  "months": [
   {
    "month": "2026-10",
@@ -20,16 +20,16 @@
       "pct": 100
      },
      {
-      "who": "Pablo Soto",
-      "jobs": 5,
-      "complete": 5,
-      "pct": 100
+      "who": "Bryan Medlin",
+      "jobs": 15,
+      "complete": 9,
+      "pct": 60
      },
      {
-      "who": "Bryan Medlin",
-      "jobs": 16,
-      "complete": 10,
-      "pct": 62
+      "who": "Stefanie Kirschke",
+      "jobs": 5,
+      "complete": 3,
+      "pct": 60
      }
     ]
    },

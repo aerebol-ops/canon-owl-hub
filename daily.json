@@ -171,25 +171,21 @@
   "leadershipThought": "When a location falls behind, a monitor isn't charged, a tube isn't signed out — the question isn't whose fault is it. The question is: what can I do about it now? The moment you stop blaming, you gain control.",
   "yesterdaysJobs": null,
   "formReview": {
-    "date": "2026-11-23",
-    "label": "Monday 11/23",
+    "date": "2026-11-24",
+    "label": "Tuesday 11/24",
     "verdict": "",
     "concerns": [
       {
-        "title": "Michael Ellis — JERA Upstream, 6B Ranch 32-5-8H-001, Precision 614, rig check ended 2:00 PM, job 37268. The alarm test item was answered No.",
-        "quote": "Loud Alarms and Lights Tested?: No"
+        "title": "Hand injury during flange work — HUMBERTO MARQUEZ-SALAZAR and 1099 Kedrick McCarter, XTO, JRS FARMS 13-25B 2H, 12:42 PM to 5:18 PM, jobs 37208 and 37209. Both technicians",
+        "quote": "McCarter's form describes the same event:"
       },
       {
-        "title": "Michael Ellis — JERA Upstream American, Larkspur 2HU 001-ALT, H&P 444, rig check ended 4:35 PM, job 37269. Same item, same answer, on the second rig check of the day.",
-        "quote": "Loud Alarms and Lights Tested?: No"
+        "title": "Missing spare tire, trailer 145 — TYRELL SANDERS, SM Energy, Maintenance / Multiple Locations, trailer inspections at 5:52 AM (Andrews shop) and 4:36 PM (Jal, NM), job 37",
+        "quote": "The trailer was taken to location and worked all day in that condition, and on both forms"
       },
       {
-        "title": "Ralph Forbes — trailer 125, Trailer Readiness Form submitted 3:36 PM at the Andrews shop. Three separate equipment items recorded on one trailer. The \"Is anything wrong o",
-        "quote": "Is anything wrong or missing?"
-      },
-      {
-        "title": "Alexander Clubb — Ovintiv, St Elmo, H&P 395, rig check ended 8:13 PM, job 37334. An equipment item was left open at the close of the rig check. The \"Equipment Issues Need",
-        "quote": "Equipment Issues Need Attention"
+        "title": "Trapped gas at the stuffing box — BRYAN MEDLIN and MICHAEL JOBE, XTO, WINDHAM 7 #6, 8:17 AM to 11:16 AM, jobs 37083 and 37084. Medlin's narrative reads",
+        "quote": "On the second break of containment there were some trapped gases in the stuffing box, the well was still on a vacuum at this point."
       }
     ]
   },
@@ -263,25 +259,25 @@
   "todaysChallenge": "If the numbers say stop today, stop — even if the whole location is waiting on you. That call takes courage once. It builds a reputation forever.",
   "todaysChallengeSubtext": "“Courage and confidence are what decision making is all about.” — Mike Krzyzewski",
   "compliance": {
-    "weekOf": "Week of November 16, 2026",
+    "weekOf": "Week of November 23, 2026",
     "metrics": [
       {
         "label": "Daily H2S Forms (D/N)",
-        "done": 85,
-        "total": 91
+        "done": 32,
+        "total": 33
       },
       {
         "label": "Trailer Inspections",
-        "done": 21,
-        "total": 22
+        "done": 9,
+        "total": 10
       },
       {
         "label": "Trailer Readiness Forms",
-        "done": 21,
-        "total": 23
+        "done": 8,
+        "total": 10
       }
     ],
-    "footerNote": "Live from Daily Internal Compliance — Mon through Tue 11/17"
+    "footerNote": "Live from Daily Internal Compliance — Mon through Mon 11/23"
   },
   "specialFocus": {
     "week": 24,

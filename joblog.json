@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24",
+ "generated": "2026-11-25",
  "since": "2026-09-17",
  "source": "FieldForce job forms \u00b7 Exxon OWL daily export \u00b7 jobs deduped by well+day",
  "tiles": {
@@ -10,16 +10,6 @@
   "weekCrews": 0
  },
  "days": [
-  {
-   "date": "2026-10-20",
-   "forms": 28,
-   "jobs": 14,
-   "flags": 0,
-   "AGT": 14,
-   "Maintenance": 0,
-   "Well Testing": 0,
-   "Other": 0
-  },
   {
    "date": "2026-10-21",
    "forms": 34,
@@ -2750,160 +2740,6 @@
    "crew": "Bryan Medlin / Joseph Popillion 1099",
    "cm": "",
    "note": "Arrived on site at 11:53 pulling unit was still rigged up stayed off the si",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "XBC Giddings Estate 4097H",
-   "crew": "Jacob Hernandez / Baldemar Bracomontes 1099",
-   "cm": "",
-   "note": "Meeting was conducted for everyone to participate",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "UNIVERSITY 10-16 2D HWD",
-   "crew": "Dawson Drake / William \"Jimmy\" Cooper 1099",
-   "cm": "",
-   "note": "Crew wearing ppe good safety habits",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Tom Glavine 31-32 4415H",
-   "crew": "Caleb Smith / Jerry Gonzales",
-   "cm": "",
-   "note": "Job scope was to add flow line and well head plumbing",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "TXL 36 UNIT 3644SH",
-   "crew": "Pablo Soto / Gage Gonzales 1099",
-   "cm": "Keane Robinson",
-   "note": "WAME, Breaking Containment",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "TROPICANA WEST 23-14I 9H",
-   "crew": "Jeremy Norris / Tyrell Sanders",
-   "cm": "Tim Blackwell",
-   "note": "Great safety meetinf to communicate the proper LSRAs and LMRAs of the job a",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "STIMSON E17H 108H",
-   "crew": "Michael Jobe / Bobby Galindo 1099",
-   "cm": "Shelly Thiel",
-   "note": "Crew work in a safe manner",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "SHACKELFORD 3C 303H",
-   "crew": "Jeremy Norris / Tyrell Sanders",
-   "cm": "Joshua Hrabovsky",
-   "note": "Good communication from all crews throughout the process and a great safety",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "SHACKELFORD 3B #302H",
-   "crew": "Jeremy Norris / Tyrell Sanders",
-   "cm": "Joshua Hrabovsky",
-   "note": "A great safety meeting that covered all of the LMRAs and LSRAs that would p",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "PRATT VAUGHN 21F 106H",
-   "crew": "Michael Jobe / Bobby Galindo 1099",
-   "cm": "Shelly Thiel",
-   "note": "The crew drop a part down the cage had to go get another part",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "KYLE 2600 UNIT 2 2637SH",
-   "crew": "Pablo Soto / Gage Gonzales 1099",
-   "cm": "Andrew Mcfadden",
-   "note": "WAME, breaking containment",
-   "psms": "Atmospheric Monitoring",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "Dameron #1",
-   "crew": "Raymundo Solis / Robbie Henigan 1099",
-   "cm": "Foreman_West Ops 7",
-   "note": "Tube inspection replace rubber on stuffing box",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "DEVIN 25-24-H 4415H",
-   "crew": "Dawson Drake / William \"Jimmy\" Cooper 1099",
-   "cm": "",
-   "note": "Employees adhering to safety plan",
-   "psms": "Operational Discipline",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "BROOK N-13D 100H",
-   "crew": "Bryan Medlin / Dermont Morgan 1099",
-   "cm": "",
-   "note": "While discounting flow line at 9:38 we encountered LEL's at 4 ppm",
-   "psms": "Energy Isolation",
-   "flag": false
-  },
-  {
-   "date": "2026-10-20",
-   "category": "AGT",
-   "jobType": "Air Job",
-   "well": "BROOK A-5D 4H",
-   "crew": "",
-   "cm": "Jeff Jones",
-   "note": "Arrived on location at 11:15 at 1130 MT Jr called off the job due to the we",
    "psms": "Operational Discipline",
    "flag": false
   }
