@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "week": 24,
-  "day": 3,
+  "day": 4,
   "topicWeek": 1,
   "displayWeek": 15,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Energy Isolation",
     "marker": "Cycle 2 closes · Thanksgiving Thu 11/26 — holiday coverage set at the nightly meetings"
   },
-  "openingMessage": "In leadership, there are no words more important than trust.",
+  "openingMessage": "A crisis can be a momentous time for a team to grow — if a leader handles it properly.",
   "openingAttribution": "Mike Krzyzewski",
-  "openingWhy": "When you write 0 ppm on a form, the next crew opens that line without re-testing — your signature is their gas test. Fudge one reading and every number you've ever signed becomes a question. There's no re-cal for a hand nobody trusts.",
+  "openingWhy": "When monitors alarmed mid-pull on a separator — gas off an unidentified line at 31 ppm — the crew mustered upwind, counted heads, and escalated. Nobody froze, nobody played hero. A bad moment handled by the numbers is the best training the field ever hands out.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "When a location falls behind, a monitor isn't charged, a tube isn't signed out — the question isn't whose fault is it. The question is: what can I do about it now? The moment you stop blaming, you gain control.",
+  "leadershipThought": "Disciplined people don't rise to the occasion — they fall back on their systems. When pressure arrives, habits take over. Build the right habits before the pressure gets here.",
   "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-11-24",
@@ -192,7 +192,7 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>We observed a disconnect on a wellhead</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Christian Lee 1099]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews verified safeguards were in place prior to work , crews also went over potential hazards and how to mitigate them , crews went over hold points and muster points of location, crews verified LOTO and put locks on the lock box.</span><br><br><strong>Crews verified LOTO , crews did great in pre task briefing</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews verified LOTO , crews did great in pre task briefing. Crane crew had amazing</span><br><br><strong>Crews communicated well , job scope was spot on</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews communicated well , job scope was spot on . Crews wore all PPE. Crews verified all</span><br><br><strong>Crews had great communication working together , crews verified LOTO, crews</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews had great communication working together , crews verified LOTO, crews went over</span><br><br><strong>Crews went over all LSRA and communication was on point , crews put their L</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crews went over all LSRA and communication was on point , crews put their LOTO tags</span>",
+  "exxonMoments": "<strong>Jaquces lead our meeting with great expectations and up held our standard</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Jaquces lead our meeting with great expectations and up held our standard</span><br><br><strong>The crew maintained excellent communication throughout the job</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>The crew maintained excellent communication throughout the job. Lockout/Tagout</span><br><br><strong>Positive Observation — Horse Head and Flow Line Removal at Second Location</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Back-to-back jobs of the same type can create complacency — re-confirming hold points and controls on the second job, rather than assuming it goes the same as the first, is what keeps routine from becoming risky.</span><br><br><strong>Positive Observation — Horse Head and Flow Line Removal with Full Controls</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>LOTO confirmation before removing horse heads and flow lines protects against stored energy and residual pressure — document it every time so the control is on record, not just in memory.</span><br><br><strong>Observed MT verify energy isolation, crane and manllift operated safely, ex</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Observed MT verify energy isolation, crane and manllift operated safely, exclusion zones</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -256,8 +256,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "If the numbers say stop today, stop — even if the whole location is waiting on you. That call takes courage once. It builds a reputation forever.",
-  "todaysChallengeSubtext": "“Courage and confidence are what decision making is all about.” — Mike Krzyzewski",
+  "todaysChallenge": "Somebody on your location today is one coaching conversation away from being twice as good. Find them. That conversation is the opportunity — take it.",
+  "todaysChallengeSubtext": "“Great moments are born from great opportunity.” — Herb Brooks",
   "compliance": {
     "weekOf": "Week of November 23, 2026",
     "metrics": [
@@ -278,32 +278,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Mon 11/23"
-  },
-  "specialFocus": {
-    "week": 24,
-    "until": "2026-11-25",
-    "title": "Keep the Good Fight Up: This Week's Catches",
-    "why": "<p style='margin:0 0 8px;'><b>Caleb, last one before Thanksgiving. Keep the good fight up.</b> Today is about the catches: real ones, off our own OWL forms, from the last week. Start with Tuesday's.</p><div style='margin:0 0 10px;padding:8px 12px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;font-size:14px;line-height:1.5;'>&ldquo;We're in the same fight together. We all want the best for our families and ourselves. Stay diligent, keep your head on a swivel, and watch each other's backs.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:4px;'>&mdash; Mike Lyons</div></div><p style='margin:0 0 8px;'>Look at the first three. An impact gun and somebody's hand, a loose connection with pressure behind it, and a leaking nipple. Mechanical and pressure: that's this week's topic, <b>Energy Isolation</b>, and people who were watching each other's backs.</p><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#10003; THE CATCHES: say these names</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Kedrick McCarter and Humberto Marquez-Salazar</b> (Tue): a flange was being lined up, and a crew member's finger was still in the bolt hole when the impact gun started. <b>They stopped the job</b>, checked on the crew member, and both wrote it down. That's stop work authority, used for somebody else's hands.</li><li style='margin:0 0 4px;'><b>Dawson Drake and Robert Henigan</b>, Mabee Foundation G #2 (Fri): the flow line connection was loose and the tubing still had pressure on it. They didn't go ahead with the job, and it got rescheduled. Matt's review: <b>&ldquo;the stop was the right call.&rdquo;</b></li><li style='margin:0 0 4px;'><b>Kedrick McCarter and Hayden Haugh</b>, University 58-17B 2H (Thu 11/19): a nipple was leaking. It got changed out, and <b>both</b> of their forms say so. Same leak, same story, two forms.</li><li style='margin:0 0 4px;'><b>Michael Jobe</b>, Stone Robb E45A 1H (Fri): no spotter, no forklift. Jobe stopped it until the vest and flag were there.</li><li style='margin:0 0 4px;'><b>Alfredo Vaquera</b>, Cass Countiss 20G 7H (Mon): saw the forklift moving, and wrote down how the crew controlled it: good communication with the driver, and a tag line. Name the hazard, then name the control.</li><li style='margin:0 0 4px;'><b>Humberto Marquez-Salazar</b> at Kyle 2600 and <b>Pablo Soto</b> at Windham R #3 (Mon): one well had no sign, the other's was incomplete. Both got a picture to identify the location.</li></ul></div><div style='flex:1 1 280px;border:1px solid #d6bfe0;border-top:5px solid #6a1b9a;border-radius:8px;padding:10px 12px;background:#faf5fc;'><div style='font-weight:800;color:#6a1b9a;margin-bottom:6px;'>&#11088; DOING IT RIGHT: Monday and Tuesday</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Ten trailers</b> had every inspection and readiness form in on Tuesday. Forbes (605), Soto (603), Drake (607) and Marquez-Salazar (608) each filed all three for theirs.</li><li style='margin:0 0 4px;'><b>Justin Pack</b>, Hughes #1: the most complete daily of the six filed Tuesday.</li><li style='margin:0 0 4px;'><b>Justin Fontenot:</b> Tuesday's 601 inspection and Davidson-Hale air job, complete, every photo from that day. Same on Monday.</li><li style='margin:0 0 4px;'><b>Training, Monday and Tuesday:</b> Kyle Williams, Chris Cochren, Keelan Hammer and Kelby Hammer kept the classes moving.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b9c8da;border-top:5px solid #1f3a5f;border-radius:8px;padding:10px 12px;background:#f5f8fc;'><div style='font-weight:800;color:#1f3a5f;margin-bottom:6px;'>&#9650; KEEP THE GOOD FIGHT UP: three for today</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>See it, say it, write it.</b> Every catch on this list made it onto a form. That's how the next crew finds out.</li><li style='margin:0 0 4px;'><b>Didn't go ahead? That's a stop.</b> If the job stopped, or never started because of what you saw, tick &ldquo;utilized.&rdquo; You earned it.</li><li style='margin:0 0 4px;'><b>Fresh eyes on every job.</b> New well, new form, your own words. Then get home to your people.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>Ten minutes:</b> Mike's words (1) &middot; the catches (4) &middot; doing it right (1) &middot; three asks (1) &middot; the scenario (2) &middot; send-off (1).</div>",
-    "standardLabel": "Week 24: Energy Isolation, Look Before You Touch It",
-    "standard": [
-      "<b>Walk it first.</b> Connections, valves, gauges and the sign, before any tool comes out.",
-      "<b>Loose, leaking or not what you expected?</b> Don't touch it. Call it, and tell the company man.",
-      "<b>Treat it as live</b> until it's bled, read and proven zero.",
-      "<b>Hands clear before the gun runs.</b> Nobody's fingers in a bolt hole. Say &ldquo;hands clear&rdquo; out loud, and wait to hear it back.",
-      "<b>Rescheduled is a good outcome.</b> Tell the next crew exactly what you found.",
-      "<b>Both partners write it.</b> Same catch, two forms, your own words."
-    ],
-    "scenarios": [
-      {
-        "title": "\"It's Just a Little Loose\"",
-        "body": "It's the last job before Thanksgiving. Walking the line, you find a connection that's loose with pressure still behind it. Somebody says, &ldquo;It's just a little loose, we'll snug it up and go.&rdquo; What do you do? Hands off, call the hold, tell the company man, and let it get bled down and fixed right. If that means it's rescheduled, brief the next crew on what you found. Caleb, ask the circle: who's had a call like that, and who backed you up?"
-      }
-    ],
-    "questions": [
-      "Which of these catches could have been on your job? Would you have seen it?",
-      "What did your partner catch this week that nobody else knows about?",
-      "Who are you thankful for on this crew? Tell them before you roll."
-    ],
-    "nonNegotiable": "Look before you touch, stop it when it's wrong, and watch each other's backs. Same fight, same team. Happy Thanksgiving. We all go home."
   }
 }
