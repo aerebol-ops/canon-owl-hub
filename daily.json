@@ -285,16 +285,29 @@
   },
   "specialFocus": {
     "week": 24,
-    "until": "2026-11-29",
-    "title": "Happy Thanksgiving, Canon Family",
-    "why": "<p style='margin:0 0 8px;'><b>&#129411; Happy Thanksgiving from all of us at Canon Safety.</b></p><div style='margin:0 0 10px;padding:10px 13px;background:#fdf6ec;border-left:4px solid #b5651d;border-radius:0 6px 6px 0;font-size:14.5px;line-height:1.55;'>&ldquo;Happy Thanksgiving, Canon family. A lot of us get to sit down today with the people we do all of this for. That's the whole reason behind every bump test, every walk-around and every stop. And to everyone who can't be home today, on location, on nights, or a long way from your people: much love and good energy to you. We're thinking about you, and your plate is waiting.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:5px;'>&mdash; Mike Lyons</div></div><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #e8cfb2;border-top:5px solid #b5651d;border-radius:8px;padding:10px 12px;background:#fffaf3;'><div style='font-weight:800;color:#b5651d;margin-bottom:6px;'>&#127810; THANKFUL FOR</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>The crews</b> who stopped jobs this week and wrote it down, so the next crew knew.</li><li style='margin:0 0 4px;'><b>Partners</b> who watched each other's backs, every single shift.</li><li style='margin:0 0 4px;'><b>Our families</b>, who send us out before daylight and wait up for us to get home.</li><li style='margin:0 0 4px;'><b>Dispatch, the office, the shops and training</b>, who keep every truck rolling.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b9c8da;border-top:5px solid #1f3a5f;border-radius:8px;padding:10px 12px;background:#f5f8fc;'><div style='font-weight:800;color:#1f3a5f;margin-bottom:6px;'>&#10084;&#65039; WORKING TODAY? Much love to you</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Thank you.</b> Somebody has to keep the field safe today, and it's you.</li><li style='margin:0 0 4px;'><b>The holiday doesn't change the hazard.</b> Same walk-around, same bump test, same stop work.</li><li style='margin:0 0 4px;'><b>Call home on your break.</b> Then get home safe to celebrate a day late. It still counts.</li></ul></div></div>",
-    "standardLabel": "Getting Home for the Holiday",
+    "until": "2026-11-28",
+    "title": "Finish Strong: Stagger Out, Spread Out",
+    "why": "<p style='margin:0 0 8px;'><b>Caleb, finish strong.</b> Friday and Saturday, and a new journey-management rule starting today.</p><div style='margin:0 0 10px;padding:8px 12px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;font-size:14px;line-height:1.5;'>&ldquo;The turkey's been eaten, and the day rolls into Friday. Our clients have asked for Saturday as well, so let's finish this week strong. Let's have a blessed Friday, and keep our minds clear.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:4px;'>&mdash; Mike Lyons</div></div><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #e6b8bf;border-top:5px solid #b00020;border-radius:8px;padding:10px 12px;background:#fff7f7;'><div style='font-weight:800;color:#b00020;margin-bottom:6px;'>&#128666; GOING FORWARD: 2 minutes, 1 mile</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>2 minutes apart leaving.</b> Out of the yard, off the location, out of the gas station. First truck rolls, count two minutes, then the next.</li><li style='margin:0 0 4px;'><b>1 mile apart on the road.</b> Canon trucks running the same route keep a mile between them. No convoys, no running on each other's bumper.</li><li style='margin:0 0 4px;'><b>Why:</b> when trucks run nose to tail, one bad driver, one patch of fog or one deer can reach more than one of us. A mile of room means the truck behind can stop, call it in and help.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#9989; FINISH STRONG: Friday and Saturday</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Saturday gets the same walk-around as Monday.</b> Clients asked for us because they trust the work.</li><li style='margin:0 0 4px;'><b>Holiday week tired is real.</b> Check your partner's head before you check the job.</li><li style='margin:0 0 4px;'><b>Clear mind before keys.</b> Rested, focused, no rush. Nobody wins by getting there two minutes sooner.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>Ten minutes:</b> Mike's words (1) &middot; the new rule (3) &middot; finish strong (1) &middot; the scenario (3) &middot; questions and send-off (2).</div>",
+    "standardLabel": "Journey Management: Staggered Leave and Staggered Distance",
     "standard": [
-      "<b>Belt on, phone down, lights on.</b> Holiday roads are full of tired, distracted drivers. Give them room.",
-      "<b>Tired is impaired.</b> Long drive to family? Swap drivers, or pull over and walk it off.",
-      "<b>Frying a turkey?</b> Outside, away from the house, fully thawed, and never left alone.",
-      "<b>Check on somebody who can't be home.</b> A two-minute call means more than you think."
+      "<b>2 minutes between trucks leaving.</b> Yard, location or fuel stop. Count it, every time.",
+      "<b>1 mile between Canon trucks on the road.</b> Same route, same lease, still a mile apart.",
+      "<b>Fog, dust or dark: more room, never less.</b> Lights on, speed down, spacing up.",
+      "<b>Catching the truck ahead? Back off.</b> Don't pass your own crew to close the gap.",
+      "<b>Call the road back, the safe way.</b> Fog, wildlife, construction or a bad passer: the passenger calls it, or pull over to call it.",
+      "<b>Clear mind before keys.</b> Rested and focused, or you don't drive. Speak up for your partner too."
     ],
-    "nonNegotiable": "Hug your people. Check on the ones who can't be with theirs. Thankful for every one of you. Happy Thanksgiving. We all go home."
+    "scenarios": [
+      {
+        "title": "\"Let's All Just Roll Together\"",
+        "body": "Saturday, 5:45 AM. Four trucks are headed to the same lease forty miles out, and everybody's ready at the same time. The habit is to pull out together and run in a line. What does 2 minutes and 1 mile look like here? Who goes first, who counts the two minutes, and what do you do when you catch up to the truck ahead? Caleb, ask the circle: what's the one thing that makes this hard to stick to, and how do we beat it?"
+      }
+    ],
+    "questions": [
+      "When's the last time you ran nose to tail with another Canon truck? What could one bad driver have done?",
+      "What does a clear mind look like before you turn the key on a Saturday shift?",
+      "Who in your truck calls the road back, and how?"
+    ],
+    "nonNegotiable": "Two minutes apart out the gate. One mile apart on the road. Clear minds, a blessed Friday, and a strong finish. We all go home."
   }
 }

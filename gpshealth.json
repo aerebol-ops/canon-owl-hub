@@ -1,79 +1,94 @@
 {
-  "reportDate": "11/13",
-  "received": "2026-11-13T08:49",
-  "subject": "Fw: GPS Health report 11/13 vs prior reports: 3 flagged (down from 8); 134 off after 6 reports, Andrews yard clear; 138 frozen 8 days; 607 new low battery in the Permian",
-  "summary": "3 trailers flagged on Robyn's 11/13 report, down from 8 on 11/6. 7 of last week's 8 dropped off, including both dark low-battery units (507, 606) and 134 after 6 straight reports. For the first time since 9/28 there is no fault at the Andrews yard. Biggest concern: 138 has not come back. It has been dark 8 days at CR 3241, Friendship, and its voltage, temperature and last check-in are identical to last week, so it is frozen and nobody has touched it. Second concern: 607 is new and is repeating 606's pattern from last week. It is tagged ETX, sits on FM 1788 \"China Grove\" in the Permian, was low (4.06V) from 11/11 and went dark 11/12. A Trailer Readiness Form for 607 was filed 11/12 at 3:43 PM (TX-137, Stanton), about two hours after it went dark.",
-  "flagged": 3,
+  "reportDate": "11/20",
+  "received": "2026-11-20T13:10",
+  "subject": "Fwd: GPS Health report 11/20 vs prior reports: 6 flagged (up from 3); 607 frozen 7 days on a low battery, 134 back on FM 1788, 138 on 4th straight report",
+  "summary": "Only 1 of last week's 3 cleared (504, self-recovered as expected). Nothing is dark 30+ days and the Andrews yard is clear for a second straight week. Biggest concern: 607 has not been touched. Its voltage (4.06V), temperature and last check-in (11/11) are identical to last week, so it is frozen, dark 7 days with a low battery, and it will not come back on its own. Second concern: 134 is back after one week off (7th appearance in 8 reports), now on South FM 1788 near Midland. Last week's note said \"if it was not swapped, expect it back\", and it is. Biggest improvement: 507 is back on the list but at 5.13V (was 4.03V on 11/4), which proves its batteries were changed; its outage this week is a coverage drop in Reagan Co., not a battery failure.",
+  "flagged": 6,
   "units": [
-    {
-      "trailer": "138",
-      "tag": "ETX",
-      "issue": "Not detected since 11/4",
-      "days": "8",
-      "location": "CR 3241, Friendship, TX 75846 (Leon Co.)",
-      "battery": "OK, 5.00V, 20.19 C",
-      "checkin": "11/3 (FROZEN: same voltage, temperature and check-in as 11/6; 1/4 AT&T)"
-    },
     {
       "trailer": "607",
       "tag": "ETX",
-      "issue": "Not detected since 11/12 1:46 PM; low battery since 11/11 8:54 AM",
-      "days": "Under 1",
+      "issue": "Not detected since 11/12 1:46 PM; low battery since 11/11",
+      "days": "7",
       "location": "FM 1788, China Grove, TX (Permian), last connected 11/11 11:47 AM",
       "battery": "LOW, 4.06V, 12.31 C",
-      "checkin": "11/11 (2/4 VzW)"
+      "checkin": "11/11 (FROZEN: identical to 11/13; 2/4 VzW)"
     },
     {
-      "trailer": "504",
+      "trailer": "138",
+      "tag": "ETX",
+      "issue": "Not detected since 11/17 6:35 PM",
+      "days": "2",
+      "location": "24.0 mi SE of Mexia, Leon Co., TX, last connected 11/19 4:26 PM",
+      "battery": "OK, 5.13V, 18.81 C",
+      "checkin": "11/16 (NOT frozen: readings changed from 11/13; 1/4 AT&T)"
+    },
+    {
+      "trailer": "151",
       "tag": "WTX",
-      "issue": "Not detected since 11/13 6:38 AM",
+      "issue": "Not detected since 11/17 7:38 PM",
+      "days": "2",
+      "location": "22.0 mi SSW of Carlsbad, Eddy Co., NM, last connected 11/18 5:34 AM",
+      "battery": "OK, 5.01V, 10.06 C",
+      "checkin": "11/16 (1/4 AT&T)"
+    },
+    {
+      "trailer": "127",
+      "tag": "WTX",
+      "issue": "Not detected since 11/18 3:02 PM; No GPS signal since 11/20 1:45 AM",
+      "days": "1",
+      "location": "30.3 mi WSW of Hobbs, Lea Co., NM, last connected 11/20 1:44 AM",
+      "battery": "OK, 4.45V, 10.06 C",
+      "checkin": "11/17 (still connecting intermittently; 1/4 VzW)"
+    },
+    {
+      "trailer": "507",
+      "tag": "WTX",
+      "issue": "Not detected since 11/19 4:19 PM",
       "days": "Under 1",
-      "location": "44.3 mi SSE of Midland (Reagan Co.), TX 76932, last connected 11/12 4:36 AM",
-      "battery": "OK, 5.08V, 9.06 C",
-      "checkin": "11/12 (1/4, carrier blank)"
+      "location": "48.0 mi SSE of Midland, Reagan Co., TX, last connected 11/18 4:08 PM",
+      "battery": "OK, 5.13V, 17.94 C",
+      "checkin": "11/18 (1/4, carrier blank)"
+    },
+    {
+      "trailer": "134",
+      "tag": "WTX",
+      "issue": "Not detected and No GPS signal since 11/19 2:10 PM",
+      "days": "Under 1",
+      "location": "South FM 1788, Midland, TX, last connected 11/20 5:02 AM",
+      "battery": "OK, 5.20V, 9.94 C",
+      "checkin": "11/18 (still connecting intermittently; 1/4 VzW)"
     }
   ],
   "trend": {
     "dates": [
-      "10/2",
       "10/9",
       "10/16",
       "10/23",
       "10/30",
       "11/6",
-      "11/13"
+      "11/13",
+      "11/20"
     ],
     "rows": [
       {
         "m": "Units flagged",
         "vals": [
-          "9",
           "6",
           "5",
           "6",
           "4",
           "8",
-          "3"
-        ]
-      },
-      {
-        "m": "Longest current outage",
-        "vals": [
-          "86 days",
-          "39 days",
-          "46 days",
-          "19 days",
-          "5 days",
-          "3 days",
-          "8 days (138)"
+          "3",
+          "6"
         ]
       },
       {
         "m": "Dark 30+ days",
         "vals": [
-          "2",
           "1",
           "1",
+          "0",
           "0",
           "0",
           "0",
@@ -83,82 +98,132 @@
       {
         "m": "Low battery",
         "vals": [
-          "4",
           "n/a",
           "3",
           "4",
           "1",
           "2",
-          "1 (607, dark)"
+          "1",
+          "1 (607, dark, frozen)"
         ]
       },
       {
         "m": "ETX / WTX by location",
         "vals": [
-          "4 / 5",
           "3 / 3",
           "1 / 4",
           "1 / 5",
           "1 / 3",
           "5 / 3",
-          "1 / 2"
+          "1 / 2",
+          "1 / 5"
         ]
       }
     ]
   },
   "improvements": [
-    "3 units flagged, the lowest count on record, and 7 of last week's 8 cleared in one week.",
-    "Both dark low-battery units from last week (507, 606) are off the list, which points to batteries being changed on location.",
-    "No Andrews yard fault for the first time since 9/28. The streak ends at 8 straight reports (9/28 to 11/6). 134 is off after 6 straight reports.",
-    "Nothing dark 30+ days for the fourth straight week.",
-    "The good-battery units in known or likely gaps (153, 140, 609) self-recovered as predicted, which confirms the rule."
+    "507's batteries were changed: 5.13V this week against 4.03V on 11/4. This is the first time the data itself confirms a battery change rather than inferring it from a unit dropping off.",
+    "504 self-recovered as predicted, and the Reagan Co. gap is now confirmed by three events.",
+    "No Andrews yard fault for the 2nd straight week (streak ended 11/13 after 8 reports).",
+    "Nothing dark 30+ days for the 5th straight week.",
+    "138 is no longer frozen: it checked in on 11/16, so it is alive and reachable."
   ],
   "concerns": [
-    "138 is frozen and has been dark 8 days. Identical readings to last week mean no one has been to it. It is a 4-episode repeat offender and has not recovered on its own this time.",
-    "The low-battery warning is still not being acted on before units go dark. 607 went from \"low but connecting\" to dark in about 29 hours. It is the third unit in two weeks (507, 606, 607) to go dark with a low battery while being moved or readiness-checked. Its Readiness Form was filed after it was already dark.",
-    "FM 1788 \"China Grove\" has now had two ETX-tagged low-battery units go dark in two weeks (606, 607). It is worth checking whether these trailers come out of the same batch or yard and whether their battery packs were installed at the same time.",
-    "Region tags: 607 is the fifth ETX-tagged unit in the Permian. There is still no confirmation that 605, 608 or 606 were corrected.",
-    "No field replies on GPS since 11/6. Your 11/6 report went to Blake and Jimmy (cc Robyn) that evening. Seven units cleared, but nobody has said what was done, so none of the fixes can be confirmed."
+    "607 was Priority 1 last week and nothing happened. Same readings, 7 days dark, low battery. This is the fourth low-battery unit in three weeks (507, 606, 607) and the first one left untouched for a full week after being flagged.",
+    "134 is a confirmed hardware fault that is still in service. 7 appearances in 8 reports, new batteries, and the fault has now followed the trailer off the Andrews yard. It has not been swapped.",
+    "FM 1788 again. 606 (11/4) and 607 (11/12) went dark on FM 1788 at China Grove, and 134 is now dark on South FM 1788 near Midland. 134's batteries are good, so this one is more likely hardware or coverage, but the road keeps showing up.",
+    "138 keeps dropping out. 4 straight reports, 5 episodes, all in Leon Co. or Fairfield. A reconnection for a day does not fix it.",
+    "Repeat offenders returning: 134, 151 and 507 are all back after a week off. \"Off the list\" has not meant \"fixed\" for these units.",
+    "No field replies on GPS since 10/30. None were found since the 11/13 report went to Jimmy White and Raymundo Solis (cc Robyn, Michael Lyons, Blake Walton). 507's battery change and 138's 11/16 check-in may have been field work, but nobody has said."
   ],
   "actions": [
     {
       "trailer": "607",
-      "action": "Replace GPS batteries on location (FM 1788 China Grove / Stanton area). It will not come back by itself. Retag ETX to WTX.",
+      "action": "Replace GPS batteries on location (FM 1788 China Grove / Stanton area). Frozen 7 days; it will not recover by itself. Retag ETX to WTX.",
       "since": "11/11",
       "followup": false,
       "p": 1
     },
     {
-      "trailer": "138",
-      "action": "Field visit at CR 3241, Friendship (Leon Co.): confirm the trailer is there, reboot, and if it does not reconnect, swap the gateway (3rd straight report, 4th episode).",
-      "since": "11/4",
+      "trailer": "134",
+      "action": "Swap the gateway. Hardware fault confirmed (new batteries, 7 of 8 reports, fault follows the trailer). Currently on South FM 1788, Midland.",
+      "since": "10/9",
       "followup": false,
       "p": 2
     },
     {
-      "trailer": "134",
-      "action": "Confirm what brought it back (gateway swap or brief reconnection). If not swapped, swap it before it returns.",
-      "since": "10/9",
+      "trailer": "138",
+      "action": "Field visit SE of Mexia / Friendship area (Leon Co.): hardware check or gateway swap (4th straight report, 5th episode). Confirm whether anyone visited it around 11/16.",
+      "since": "11/4",
       "followup": false,
       "p": 3
     },
     {
-      "trailer": "505",
-      "action": "Confirm whether a hardware check was done; if not, still due (4th or later appearance). Confirm its location (Stamps, AR?).",
-      "since": "11/6",
+      "trailer": "151",
+      "action": "Watch; good batteries. If still dark next week, hardware check (3rd or later appearance). Confirm which job it is on near Carlsbad, NM. New",
+      "since": "11/20",
       "followup": false,
       "p": 4
     },
     {
-      "trailer": "504",
-      "action": "Watch. Good batteries; expect self-recovery. If it clears, add Reagan Co. ~45 to 50 mi SSE of Midland as a known gap.",
-      "since": "New 11/13",
+      "trailer": "127, 507",
+      "action": "Watch; good batteries, expect self-recovery. 507 is in the known Reagan Co. gap. Keep an eye on 127's 4.45V.    New",
+      "since": "11/20",
       "followup": false,
       "p": 5
+    },
+    {
+      "trailer": "507",
+      "action": "Batteries confirmed changed by voltage (5.13V); record who changed them and when.",
+      "since": "11/13",
+      "followup": true,
+      "p": 6
+    },
+    {
+      "trailer": "606",
+      "action": "Confirm batteries were changed, by whom and when.",
+      "since": "11/13",
+      "followup": true,
+      "p": 7
+    },
+    {
+      "trailer": "503, 139, 605",
+      "action": "Confirm batteries were changed, by whom and when.",
+      "since": "10/30",
+      "followup": true,
+      "p": 8
+    },
+    {
+      "trailer": "505",
+      "action": "Confirm whether a hardware check was done (4th or later appearance; off the list since 11/13).",
+      "since": "11/13",
+      "followup": true,
+      "p": 9
+    },
+    {
+      "trailer": "136",
+      "action": "Confirm the tracker was pulled or deactivated in Samsara (sold trailer).",
+      "since": "10/23",
+      "followup": true,
+      "p": 10
+    },
+    {
+      "trailer": "605, 608, 606, 607",
+      "action": "Correct region tags from ETX to WTX in Samsara.",
+      "since": "10/23",
+      "followup": true,
+      "p": 11
+    },
+    {
+      "trailer": "134",
+      "action": "Get the date Blake changed the batteries.",
+      "since": "10/30",
+      "followup": true,
+      "p": 12
     }
   ],
   "note": "Samsara GPS tracker health on Canon trailers, from Matt Croom's weekly report.",
   "ingested": {
-    "folder": "2026-11-13_0849_hwH2SAAA"
+    "folder": "2026-11-20_1310_hwH7iAAA"
   }
 }
