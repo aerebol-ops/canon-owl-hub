@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26",
+ "generated": "2026-11-27",
  "months": [
   {
    "month": "2026-10",
@@ -21,15 +21,15 @@
      },
      {
       "who": "Bryan Medlin",
-      "jobs": 12,
-      "complete": 9,
-      "pct": 75
+      "jobs": 10,
+      "complete": 7,
+      "pct": 70
      },
      {
-      "who": "Stefanie Kirschke",
-      "jobs": 5,
-      "complete": 3,
-      "pct": 60
+      "who": "Michael Jobe",
+      "jobs": 6,
+      "complete": 4,
+      "pct": 67
      }
     ]
    },
