@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "week": 24,
-  "day": 4,
+  "day": 5,
   "topicWeek": 1,
   "displayWeek": 15,
   "cycle": 2,
@@ -11,9 +11,9 @@
     "topic": "Energy Isolation",
     "marker": "Cycle 2 closes · Thanksgiving Thu 11/26 — holiday coverage set at the nightly meetings"
   },
-  "openingMessage": "A crisis can be a momentous time for a team to grow — if a leader handles it properly.",
+  "openingMessage": "I don't look at myself as a basketball coach. I look at myself as a leader who happens to coach basketball.",
   "openingAttribution": "Mike Krzyzewski",
-  "openingWhy": "When monitors alarmed mid-pull on a separator — gas off an unidentified line at 31 ppm — the crew mustered upwind, counted heads, and escalated. Nobody froze, nobody played hero. A bad moment handled by the numbers is the best training the field ever hands out.",
+  "openingWhy": "You're not an H2S tech who happens to be standing on a location — you're the safety leader that roustabout crew is watching. The newest worm out there is learning this trade off your habits, not your words. You're teaching either way. Teach on purpose.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,7 +168,7 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Disciplined people don't rise to the occasion — they fall back on their systems. When pressure arrives, habits take over. Build the right habits before the pressure gets here.",
+  "leadershipThought": "Own your response. Own your equipment. Own your preparation. Own your outcome. Stay disciplined. Stay prepared. Protect each other.",
   "yesterdaysJobs": null,
   "formReview": {
     "date": "2026-11-25",
@@ -196,7 +196,7 @@
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Jaquces lead our meeting with great expectations and up held our standard</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Dawson Drake]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Jaquces lead our meeting with great expectations and up held our standard</span><br><br><strong>The crew maintained excellent communication throughout the job</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>The crew maintained excellent communication throughout the job. Lockout/Tagout</span><br><br><strong>Positive Observation — Horse Head and Flow Line Removal at Second Location</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Back-to-back jobs of the same type can create complacency — re-confirming hold points and controls on the second job, rather than assuming it goes the same as the first, is what keeps routine from becoming risky.</span><br><br><strong>Positive Observation — Horse Head and Flow Line Removal with Full Controls</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>LOTO confirmation before removing horse heads and flow lines protects against stored energy and residual pressure — document it every time so the control is on record, not just in memory.</span><br><br><strong>Observed MT verify energy isolation, crane and manllift operated safely, ex</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Observed MT verify energy isolation, crane and manllift operated safely, exclusion zones</span>",
+  "exxonMoments": "<strong>Energy Isolation — 1099 Edward Carrillo</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Edward Carrillo]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crew followed SOP's. Verified LOTO, and continued good communications through task</span><br><br><strong>Positive Observation — LOTO Disconnect Completed Efficiently</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>LOTO, atmospheric testing, and hold points together form a complete energy control system — don't shortcut any one of them, even on a quick job.</span><br><br><strong>Positive Observation — Well Disconnect Completed with No Issues</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>LOTO and atmospheric monitoring together protect against both stored energy releases and unexpected gas exposure during disconnect operations.</span><br><br><strong>Well Kill and Polished Rod Lift — Pressure Control Throughout</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Confirm the well is killed and on vacuum before breaking any connections — pressure verification at that step is not a formality.</span><br><br><strong>Positive Observation — Full LOTO and Atmospheric Controls</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Verifying field conditions independently of paperwork is the discipline that keeps controls from becoming checkbox habits.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -260,8 +260,8 @@
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Somebody on your location today is one coaching conversation away from being twice as good. Find them. That conversation is the opportunity — take it.",
-  "todaysChallengeSubtext": "“Great moments are born from great opportunity.” — Herb Brooks",
+  "todaysChallenge": "Whatever crew, whatever equipment, whatever location you drew today — run it at the Canon standard. The measure isn't the hand you're dealt, it's how you play it.",
+  "todaysChallengeSubtext": "“The measure of who we are is what we do with what we have.” — Vince Lombardi",
   "compliance": {
     "weekOf": "Week of November 23, 2026",
     "metrics": [
