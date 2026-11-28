@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-27",
-  "week": 24,
-  "day": 5,
-  "topicWeek": 1,
-  "displayWeek": 15,
-  "cycle": 2,
+  "date": "2026-11-30",
+  "week": 25,
+  "day": 1,
+  "topicWeek": 2,
+  "displayWeek": 16,
+  "cycle": 3,
   "rotation": {
-    "week": 15,
-    "host": "CALEB",
-    "topic": "Energy Isolation",
-    "marker": "Cycle 2 closes · Thanksgiving Thu 11/26 — holiday coverage set at the nightly meetings"
+    "week": 16,
+    "host": "ALEX",
+    "topic": "Breaking Containment · Atmospheric",
+    "marker": "Cycle 3 begins Mon 11/30 · December peak (42-45 day techs projected) · scoreboard resets"
   },
-  "openingMessage": "I don't look at myself as a basketball coach. I look at myself as a leader who happens to coach basketball.",
+  "openingMessage": "If you can't communicate, you can't lead. Communicate everything.",
   "openingAttribution": "Mike Krzyzewski",
-  "openingWhy": "You're not an H2S tech who happens to be standing on a location — you're the safety leader that roustabout crew is watching. The newest worm out there is learning this trade off your habits, not your words. You're teaching either way. Teach on purpose.",
+  "openingWhy": "The day crew knew the line still had pressure on it. The night crew didn't. Everything that lives between those two sentences is a hospital visit. Say it early, say it plain, write it in the handover — information that doesn't move is how good crews hurt each other.",
   "formCounts": [
     {
       "name": "Jeremy Norris",
@@ -168,18 +168,13 @@
       "count": 1
     }
   ],
-  "leadershipThought": "Own your response. Own your equipment. Own your preparation. Own your outcome. Stay disciplined. Stay prepared. Protect each other.",
+  "leadershipThought": "Communication is how we execute as a team. Teams that communicate best — win. Before you speak, ask: what outcome am I trying to create? If you don't define the outcome, you default to emotion.",
   "yesterdaysJobs": null,
-  "formReview": {
-    "date": "2026-11-26",
-    "label": "Thursday 11/26",
-    "verdict": "",
-    "concerns": []
-  },
+  "formReview": null,
   "opsDate": "2026-07-22",
   "opsContent": "<strong>Active Jobs (2026-07-22):</strong><br>No active jobs captured.<br><strong>Carry-Forward:</strong><br>None noted.",
   "lessonsLearned": null,
-  "exxonMoments": "<strong>Energy Isolation — 1099 Edward Carrillo</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[1099 Edward Carrillo]</span> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Crew followed SOP's. Verified LOTO, and continued good communications through task</span><br><br><strong>Positive Observation — LOTO Disconnect Completed Efficiently</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>LOTO, atmospheric testing, and hold points together form a complete energy control system — don't shortcut any one of them, even on a quick job.</span><br><br><strong>Positive Observation — Well Disconnect Completed with No Issues</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>LOTO and atmospheric monitoring together protect against both stored energy releases and unexpected gas exposure during disconnect operations.</span><br><br><strong>Well Kill and Polished Rod Lift — Pressure Control Throughout</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Confirm the well is killed and on vacuum before breaking any connections — pressure verification at that step is not a formality.</span><br><br><strong>Positive Observation — Full LOTO and Atmospheric Controls</strong> <span style='font-size:12px;color:#666;'>(Energy Isolation)</span><br><span style='font-size:13px;'>Verifying field conditions independently of paperwork is the discipline that keeps controls from becoming checkbox habits.</span>",
+  "exxonMoments": "<strong>Atmospheric Monitoring — Jerry Gonzales / Barthol \"Bj\" Caesar 1099</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jerry Gonzales / Barthol \"Bj\" Caesar 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>Wellhead disconnected</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Tyrell Sanders]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Verify conditions, brief all personnel, and leave the location better than you found it.</span><br><br><strong>The crew followed all safety procedures, maintained communication, and rema</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Stefanie Kirschke / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue reinforcing hazard awareness, following LSRAs, and maintaining continuous atmospheric monitoring to ensure the safety of all personnel during future operations.</span><br><br><strong>The crew reviewed the job hazards beforehand and verified atmospheric condi</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Nathan Contreras / Rolando Flores 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>Continue conducting pre-job safety meetings, completing atmospheric testing before starting work, and maintaining clear communication throughout the job to ensure a safe working environment.</span><br><br><strong>Had pre task meeting, job task involved breaking containment and line of fi</strong> <span style='font-size:12px;color:#888;font-style:italic;'>[Jerry Gonzales / Baldemar Bracomontes 1099]</span> <span style='font-size:12px;color:#666;'>(Atmospheric Monitoring)</span><br><span style='font-size:13px;'>All LSRA's were understood by all crews and everyone worked together to mitigate any possible triggers that could occur, everyone utilized their LMRA's before doing any kind of work.</span>",
   "fieldNews": [
     {
       "type": "good",
@@ -237,14 +232,14 @@
     },
     {
       "type": "flag",
-      "week": 24,
+      "week": 25,
       "headline": "Clean board — no open watch items this week",
       "detail": "Nothing carried in from last week. See a hazard? Flag it on your OWL form and it lands here the same evening.",
       "psms": "OWL Program"
     }
   ],
-  "todaysChallenge": "Whatever crew, whatever equipment, whatever location you drew today — run it at the Canon standard. The measure isn't the hand you're dealt, it's how you play it.",
-  "todaysChallengeSubtext": "“The measure of who we are is what we do with what we have.” — Vince Lombardi",
+  "todaysChallenge": "The best hand on location can't watch every line. Today, make one deliberate hand-off: tell the next person exactly what you checked and what you're not sure of.",
+  "todaysChallengeSubtext": "“Talent wins games, but teamwork and intelligence win championships.” — Michael Jordan",
   "compliance": {
     "weekOf": "Week of November 23, 2026",
     "metrics": [
@@ -265,32 +260,5 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Mon 11/23"
-  },
-  "specialFocus": {
-    "week": 24,
-    "until": "2026-11-28",
-    "title": "Finish Strong: Stagger Out, Spread Out",
-    "why": "<p style='margin:0 0 8px;'><b>Caleb, finish strong.</b> Friday and Saturday, and a new journey-management rule starting today.</p><div style='margin:0 0 10px;padding:8px 12px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;font-size:14px;line-height:1.5;'>&ldquo;The turkey's been eaten, and the day rolls into Friday. Our clients have asked for Saturday as well, so let's finish this week strong. Let's have a blessed Friday, and keep our minds clear.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:4px;'>&mdash; Mike Lyons</div></div><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #e6b8bf;border-top:5px solid #b00020;border-radius:8px;padding:10px 12px;background:#fff7f7;'><div style='font-weight:800;color:#b00020;margin-bottom:6px;'>&#128666; GOING FORWARD: 2 minutes, 1 mile</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>2 minutes apart leaving.</b> Out of the yard, off the location, out of the gas station. First truck rolls, count two minutes, then the next.</li><li style='margin:0 0 4px;'><b>1 mile apart on the road.</b> Canon trucks running the same route keep a mile between them. No convoys, no running on each other's bumper.</li><li style='margin:0 0 4px;'><b>Why:</b> when trucks run nose to tail, one bad driver, one patch of fog or one deer can reach more than one of us. A mile of room means the truck behind can stop, call it in and help.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b7d8bb;border-top:5px solid #2e7d32;border-radius:8px;padding:10px 12px;background:#f5fbf5;'><div style='font-weight:800;color:#2e7d32;margin-bottom:6px;'>&#9989; FINISH STRONG: Friday and Saturday</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Saturday gets the same walk-around as Monday.</b> Clients asked for us because they trust the work.</li><li style='margin:0 0 4px;'><b>Holiday week tired is real.</b> Check your partner's head before you check the job.</li><li style='margin:0 0 4px;'><b>Clear mind before keys.</b> Rested, focused, no rush. Nobody wins by getting there two minutes sooner.</li></ul></div></div><div style='margin-top:8px;font-size:12.5px;color:#5b6670;line-height:1.45;'><b>Ten minutes:</b> Mike's words (1) &middot; the new rule (3) &middot; finish strong (1) &middot; the scenario (3) &middot; questions and send-off (2).</div>",
-    "standardLabel": "Journey Management: Staggered Leave and Staggered Distance",
-    "standard": [
-      "<b>2 minutes between trucks leaving.</b> Yard, location or fuel stop. Count it, every time.",
-      "<b>1 mile between Canon trucks on the road.</b> Same route, same lease, still a mile apart.",
-      "<b>Fog, dust or dark: more room, never less.</b> Lights on, speed down, spacing up.",
-      "<b>Catching the truck ahead? Back off.</b> Don't pass your own crew to close the gap.",
-      "<b>Call the road back, the safe way.</b> Fog, wildlife, construction or a bad passer: the passenger calls it, or pull over to call it.",
-      "<b>Clear mind before keys.</b> Rested and focused, or you don't drive. Speak up for your partner too."
-    ],
-    "scenarios": [
-      {
-        "title": "\"Let's All Just Roll Together\"",
-        "body": "Saturday, 5:45 AM. Four trucks are headed to the same lease forty miles out, and everybody's ready at the same time. The habit is to pull out together and run in a line. What does 2 minutes and 1 mile look like here? Who goes first, who counts the two minutes, and what do you do when you catch up to the truck ahead? Caleb, ask the circle: what's the one thing that makes this hard to stick to, and how do we beat it?"
-      }
-    ],
-    "questions": [
-      "When's the last time you ran nose to tail with another Canon truck? What could one bad driver have done?",
-      "What does a clear mind look like before you turn the key on a Saturday shift?",
-      "Who in your truck calls the road back, and how?"
-    ],
-    "nonNegotiable": "Two minutes apart out the gate. One mile apart on the road. Clear minds, a blessed Friday, and a strong finish. We all go home."
   }
 }
