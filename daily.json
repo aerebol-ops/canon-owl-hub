@@ -260,5 +260,32 @@
       }
     ],
     "footerNote": "Live from Daily Internal Compliance — Mon through Mon 11/23"
+  },
+  "specialFocus": {
+    "week": 25,
+    "until": "2026-11-28",
+    "title": "Saturday: Ready to Pivot, Calm Before the Storm",
+    "why": "<p style='margin:0 0 8px;'><b>Saturday crew: thank you for showing up.</b> Our clients asked for us because they trust the work.</p><div style='margin:0 0 10px;padding:8px 12px;background:#f3f6fa;border-left:4px solid #1f3a5f;border-radius:0 6px 6px 0;font-size:14px;line-height:1.5;'>&ldquo;We roll into Saturday ready to pivot. This is the calm before the storm.&rdquo;<div style='font-size:12px;color:#5b6670;margin-top:4px;'>&mdash; Mike Lyons</div></div><div style='display:flex;flex-wrap:wrap;gap:10px;'><div style='flex:1 1 280px;border:1px solid #f1c9a5;border-top:5px solid #e65100;border-radius:8px;padding:10px 12px;background:#fff8f2;'><div style='font-weight:800;color:#e65100;margin-bottom:6px;'>&#8635; READY TO PIVOT</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Saturday plans change.</b> A new location, a new scope, a call moved up. Expect it.</li><li style='margin:0 0 4px;'><b>When the job changes, the safety plan changes with it.</b> Stop, re-brief, new walk-around, new form.</li><li style='margin:0 0 4px;'><b>Pivot doesn't mean rush.</b> A fast change is the easiest place to skip a step.</li></ul></div><div style='flex:1 1 280px;border:1px solid #b9c8da;border-top:5px solid #1f3a5f;border-radius:8px;padding:10px 12px;background:#f5f8fc;'><div style='font-weight:800;color:#1f3a5f;margin-bottom:6px;'>&#9729;&#65039; CALM BEFORE THE STORM</div><ul style='margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;'><li style='margin:0 0 4px;'><b>Use the quiet.</b> Trailer restocked, monitors charged and bump-tested, fuel topped off.</li><li style='margin:0 0 4px;'><b>Catch up the paperwork</b> so nothing is hanging over you on Monday.</li><li style='margin:0 0 4px;'><b>Rest on Sunday.</b> Whatever comes next week, a heavy board or the weather, we meet it ready.</li></ul></div></div><div style='margin-top:8px;padding:8px 12px;background:#fff7f7;border:1px solid #e6b8bf;border-radius:6px;font-size:13.5px;line-height:1.45;'><b style='color:#b00020;'>&#128666; Still on, every day:</b> 2 minutes apart leaving, 1 mile apart on the road.</div>",
+    "standardLabel": "When the Plan Changes",
+    "standard": [
+      "<b>Pivot means pause first.</b> Stop, regroup and re-brief before anybody moves.",
+      "<b>New location, new walk-around, new journey plan.</b> Let dispatch know where you're headed.",
+      "<b>Take the call parked.</b> Pull over safely to get the new location and scope, then roll.",
+      "<b>2 minutes apart leaving, 1 mile apart on the road.</b> A change of plans doesn't change the spacing.",
+      "<b>Use the calm.</b> Equipment charged, bump-tested and stocked before the busy week hits.",
+      "<b>Rest is part of the job.</b> Clear mind Saturday, recharged Sunday, ready Monday."
+    ],
+    "scenarios": [
+      {
+        "title": "\"Change of Plans\"",
+        "body": "You're halfway to the lease when dispatch calls: the job moved to a location thirty miles the other way, and the customer wants you there in an hour. The truck behind you is following you. What do you do? Pull over to take the call, get the new location and scope, update the journey plan, keep 2 minutes and 1 mile with the other truck, and walk it before you touch it. Ask the circle: what's the step most likely to get skipped when the plan changes fast?"
+      }
+    ],
+    "questions": [
+      "What's the first thing you do when the job changes on you?",
+      "What can you get ready today so next week doesn't catch you short?",
+      "Who calls dispatch when your plan changes, and when?"
+    ],
+    "nonNegotiable": "Ready to pivot, never rushed. Use the calm, get ready for the storm. Two minutes, one mile. We all go home."
   }
 }
